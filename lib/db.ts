@@ -1,44 +1,37 @@
 import type { StoryCluster, OutletScore, TrendPoint, PipelineStatus } from './types'
 
-let supabaseClient: ReturnType<typeof createClient> | null = null
-
-function createClient(url: string, key: string) {
-  // Dynamic import to avoid build errors when supabase not installed
-  // eslint-disable-next-line @typescript-eslint/no-require-imports
-  const { createClient } = require('@supabase/supabase-js')
-  return createClient(url, key)
-}
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+let supabaseClient: any = null
 
 function getSupabase() {
-  if (!supabaseClient && process.env.SUPABASE_URL && process.env.SUPABASE_SERVICE_KEY) {
-    supabaseClient = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_SERVICE_KEY)
+  if (!supabaseClient && process.env.SUPABASE_URL && process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY) {
+    // eslint-disable-next-line @typescript-eslint/no-require-imports
+    const { createClient } = require('@supabase/supabase-js')
+    supabaseClient = createClient(
+      process.env.SUPABASE_URL,
+      process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
+    )
   }
   return supabaseClient
 }
 
 export function isLiveMode(): boolean {
-  return !!(process.env.SUPABASE_URL && process.env.SUPABASE_SERVICE_KEY)
+  return !!(process.env.SUPABASE_URL && process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY)
 }
 
 export async function getStoriesForDate(date: string): Promise<StoryCluster[]> {
   const supabase = getSupabase()
   if (!supabase) throw new Error('No database configured')
 
-  const { data: clusters, error: clusterError } = await supabase
-    .from('story_clusters')
-    .select('*')
-    .eq('date', date)
+  const [{ data: clusters, error: ce }, { data: articles, error: ae }] = await Promise.all([
+    supabase.from('story_clusters').select('*').eq('date', date).order('cluster_id'),
+    supabase.from('articles').select('*').eq('date', date),
+  ])
 
-  if (clusterError) throw clusterError
+  if (ce) throw new Error(`story_clusters query failed: ${ce.message}`)
+  if (ae) throw new Error(`articles query failed: ${ae.message}`)
 
-  const { data: articles, error: articleError } = await supabase
-    .from('articles')
-    .select('*')
-    .eq('date', date)
-
-  if (articleError) throw articleError
-
-  return clusters.map((cluster: Record<string, unknown>) => ({
+  return (clusters ?? []).map((cluster: Record<string, unknown>) => ({
     id: cluster.cluster_id as string,
     topicLabel: cluster.topic_label as string,
     date: cluster.date as string,
@@ -51,7 +44,7 @@ export async function getStoriesForDate(date: string): Promise<StoryCluster[]> {
         headline: a.headline as string,
         url: a.url as string,
         biasScore: a.bias_score as number,
-        biasSignals: a.bias_signals as string[],
+        biasSignals: (a.bias_signals as string[]) ?? [],
         pubDate: a.pub_date as string,
         clusterId: a.cluster_id as string,
       }))
@@ -63,14 +56,25 @@ export async function getOutletScores(): Promise<OutletScore[]> {
   const supabase = getSupabase()
   if (!supabase) throw new Error('No database configured')
 
+  // Get the most recent date that has data
+  const { data: latest, error: le } = await supabase
+    .from('outlet_daily_scores')
+    .select('date')
+    .order('date', { ascending: false })
+    .limit(1)
+    .single()
+
+  if (le) throw new Error(`outlet_daily_scores latest date failed: ${le.message}`)
+
   const { data, error } = await supabase
     .from('outlet_daily_scores')
     .select('*')
-    .eq('date', new Date().toISOString().split('T')[0])
+    .eq('date', latest.date)
+    .order('avg_score', { ascending: true })
 
-  if (error) throw error
+  if (error) throw new Error(`outlet_daily_scores query failed: ${error.message}`)
 
-  return data.map((row: Record<string, unknown>) => ({
+  return (data ?? []).map((row: Record<string, unknown>) => ({
     outletId: row.outlet_id as string,
     outletName: row.outlet_name as string,
     abbreviation: row.abbreviation as string,
@@ -94,9 +98,9 @@ export async function getOutletTrend(outletId: string): Promise<TrendPoint[]> {
     .gte('date', thirtyDaysAgo.toISOString().split('T')[0])
     .order('date', { ascending: true })
 
-  if (error) throw error
+  if (error) throw new Error(`trend query failed: ${error.message}`)
 
-  return data.map((row: Record<string, unknown>) => ({
+  return (data ?? []).map((row: Record<string, unknown>) => ({
     date: row.date as string,
     score: row.avg_score as number,
   }))
@@ -111,15 +115,15 @@ export async function getPipelineStatus(): Promise<PipelineStatus> {
     .select('*')
     .order('created_at', { ascending: false })
     .limit(1)
-    .single()
+    .maybeSingle()
 
-  if (error) throw error
+  if (error) throw new Error(`pipeline_runs query failed: ${error.message}`)
 
   return {
-    lastRun: data?.created_at ?? null,
-    articleCount: data?.article_count ?? 0,
-    storyCount: data?.story_count ?? 0,
-    status: data?.status ?? 'never',
+    lastRun: (data?.created_at as string) ?? null,
+    articleCount: (data?.article_count as number) ?? 0,
+    storyCount: (data?.story_count as number) ?? 0,
+    status: (data?.status as 'success' | 'error' | 'never') ?? 'never',
     dataSource: 'live',
   }
 }

@@ -2,12 +2,14 @@ name: Daily Bias Pipeline
 
 on:
   schedule:
-    - cron: '0 11 * * *'  # 6:00 AM EST = 11:00 UTC
-  workflow_dispatch:         # Allow manual trigger from GitHub UI
+    - cron: '0 11 * * *'   # 06:00 AM EST = 11:00 UTC
+  workflow_dispatch:         # Manual trigger from GitHub UI (Actions tab → Run workflow)
 
 jobs:
   run-pipeline:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -27,10 +29,15 @@ jobs:
         working-directory: website
         run: node pipeline/run.js
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          ANTHROPIC_API_KEY:  ${{ secrets.ANTHROPIC_API_KEY }}
+          NEWSAPI_KEY:        ${{ secrets.NEWSAPI_KEY }}
+          SUPABASE_URL:       ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
 
-      - name: Notify on failure
+      - name: Report success
+        if: success()
+        run: echo "✅ Pipeline completed successfully"
+
+      - name: Report failure
         if: failure()
-        run: echo "Pipeline failed — check logs above"
+        run: echo "❌ Pipeline failed — check logs above"
