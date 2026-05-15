@@ -494,11 +494,31 @@ interface Props {
   initialStatus: PipelineStatus
 }
 
+type RunState = 'idle' | 'running' | 'triggered' | 'error'
+
 export default function SpinDetectorApp({ initialStories, initialOutlets, initialStatus }: Props) {
   const [activeTab, setActiveTab] = useState<Tab>('battleground')
   const [stories] = useState<StoryCluster[]>(initialStories)
   const [outlets] = useState<OutletScore[]>(initialOutlets)
   const status = initialStatus
+  const [runState, setRunState] = useState<RunState>('idle')
+
+  const runPipeline = useCallback(async () => {
+    setRunState('running')
+    try {
+      const res = await fetch('/api/pipeline/run', { method: 'POST' })
+      if (res.ok) {
+        setRunState('triggered')
+        setTimeout(() => setRunState('idle'), 4000)
+      } else {
+        setRunState('error')
+        setTimeout(() => setRunState('idle'), 4000)
+      }
+    } catch {
+      setRunState('error')
+      setTimeout(() => setRunState('idle'), 4000)
+    }
+  }, [])
 
   const tabs: { id: Tab; label: string; icon: string }[] = [
     { id: 'battleground', label: 'Battleground', icon: '⚔️' },
@@ -537,6 +557,32 @@ export default function SpinDetectorApp({ initialStories, initialOutlets, initia
               Same story. Multiple outlets. Measurable bias.
             </p>
           </div>
+
+          {status.dataSource === 'live' && (
+            <button
+              onClick={runPipeline}
+              disabled={runState === 'running'}
+              className={`hidden sm:flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold border transition-all ${
+                runState === 'triggered'
+                  ? 'bg-green-500/15 border-green-500/40 text-green-400'
+                  : runState === 'error'
+                  ? 'bg-red-500/15 border-red-500/40 text-red-400'
+                  : runState === 'running'
+                  ? 'bg-slate-800 border-slate-700 text-slate-400 cursor-not-allowed'
+                  : 'bg-slate-900 border-slate-700 text-slate-300 hover:border-slate-500 hover:text-white'
+              }`}
+            >
+              {runState === 'running' && (
+                <span className="w-3 h-3 rounded-full border-2 border-slate-400 border-t-transparent animate-spin" />
+              )}
+              {runState === 'triggered' && <span>✓</span>}
+              {runState === 'error' && <span>✗</span>}
+              {runState === 'idle' && <span>▶</span>}
+              <span>
+                {runState === 'running' ? 'Triggering…' : runState === 'triggered' ? 'Pipeline triggered' : runState === 'error' ? 'Failed' : 'Run Pipeline'}
+              </span>
+            </button>
+          )}
 
           <div className="hidden sm:flex items-center gap-4 text-xs text-slate-500">
             <div className="text-center">
