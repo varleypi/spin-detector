@@ -12,7 +12,10 @@ const { createClient } = require('@supabase/supabase-js')
 const { OUTLETS } = require('./outlets')
 
 function getSupabase() {
-  return createClient(process.env.SUPABASE_URL, process.env.SUPABASE_SERVICE_KEY)
+  const ws = require('ws')
+  return createClient(process.env.SUPABASE_URL, process.env.SUPABASE_SERVICE_KEY, {
+    realtime: { transport: ws },
+  })
 }
 
 // ── Articles ──────────────────────────────────────────────────────────────────
