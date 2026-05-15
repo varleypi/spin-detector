@@ -3,7 +3,7 @@ import { MOCK_STORIES, OUTLETS } from '@/lib/mockData'
 import type { PipelineStatus } from '@/lib/types'
 
 async function fetchData() {
-  if (process.env.SUPABASE_URL && process.env.SUPABASE_SERVICE_KEY) {
+  if (process.env.SUPABASE_URL && process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY) {
     try {
       const baseUrl = process.env.NEXT_PUBLIC_BASE_URL ?? 'http://localhost:3000'
       const [storiesRes, outletsRes, statusRes] = await Promise.all([
