@@ -35,9 +35,18 @@ async function upsertArticles(supabase, scoredArticles, date) {
     bias_signals: a.biasSignals,
   }))
 
+  // Deduplicate rows by conflict key before upserting — Claude can return duplicate headlines
+  const seen = new Set()
+  const dedupedRows = rows.filter((r) => {
+    const key = `${r.date}|${r.outlet_id}|${r.headline}`
+    if (seen.has(key)) return false
+    seen.add(key)
+    return true
+  })
+
   const { error } = await supabase
     .from('articles')
-    .upsert(rows, { onConflict: 'date,outlet_id,headline', ignoreDuplicates: false })
+    .upsert(dedupedRows, { onConflict: 'date,outlet_id,headline', ignoreDuplicates: false })
 
   if (error) throw new Error(`articles upsert failed: ${error.message}`)
   console.log(`   ✓ ${rows.length} articles written`)
