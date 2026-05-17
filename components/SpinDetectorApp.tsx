@@ -34,19 +34,64 @@ function getBiasLabel(score: number): string {
 function getOutletLineColor(outletId: string): string {
   const colors: Record<string, string> = {
     msnbc: '#3b82f6',
+    guardian: '#005689',
     cnn: '#60a5fa',
-    npr: '#818cf8',
-    nytimes: '#6366f1',
+    cbsnews: '#004F9F',
     washpost: '#7c3aed',
+    nytimes: '#6366f1',
+    npr: '#818cf8',
     aljazeera: '#a78bfa',
     bbc: '#d97706',
+    economist: '#E3120B',
+    cnbc: '#005594',
     politico: '#f59e0b',
+    newsweek: '#CC0000',
+    forbes: '#C8102E',
+    wsj: '#004785',
     nypost: '#f97316',
     foxnews: '#ef4444',
+    washexaminer: '#1a3a5c',
     dailycaller: '#dc2626',
     breitbart: '#991b1b',
   }
   return colors[outletId] ?? '#94a3b8'
+}
+
+// ─── Outlet Ticker ────────────────────────────────────────────────────────────
+
+function OutletTicker({ outlets }: { outlets: OutletScore[] }) {
+  const sorted = [...outlets].sort((a, b) => a.currentScore - b.currentScore)
+  // Duplicate list so the scroll loops seamlessly
+  const items = [...sorted, ...sorted]
+
+  return (
+    <div className="bg-slate-900 border-b border-slate-800 overflow-hidden">
+      <div
+        className="flex gap-6 py-1.5 px-4 whitespace-nowrap"
+        style={{
+          animation: 'ticker-scroll 40s linear infinite',
+          width: 'max-content',
+        }}
+      >
+        {items.map((outlet, i) => {
+          const color = getBiasColor(outlet.currentScore)
+          return (
+            <span key={`${outlet.outletId}-${i}`} className="inline-flex items-center gap-1.5 text-xs">
+              <span className="font-bold" style={{ color }}>{outlet.abbreviation}</span>
+              <span className="font-mono tabular-nums" style={{ color }}>{outlet.currentScore.toFixed(1)}</span>
+              <span className="text-slate-700 ml-2">·</span>
+            </span>
+          )
+        })}
+      </div>
+      <style>{`
+        @keyframes ticker-scroll {
+          0% { transform: translateX(0); }
+          100% { transform: translateX(-50%); }
+        }
+      `}</style>
+    </div>
+  )
 }
 
 // ─── Bias Bar ─────────────────────────────────────────────────────────────────
@@ -560,6 +605,9 @@ export default function SpinDetectorApp({ initialStories, initialOutlets, initia
           </div>
         </div>
       </header>
+
+      {/* Outlet ticker */}
+      <OutletTicker outlets={outlets} />
 
       {/* Spectrum bar */}
       <div className="max-w-5xl mx-auto px-4 py-4">

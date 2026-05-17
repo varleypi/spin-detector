@@ -1,5 +1,5 @@
 /**
- * Single source of truth for all 12 outlet configurations.
+ * Single source of truth for all 20 outlet configurations.
  * newsapiId  — source ID for NewsAPI /v2/top-headlines?sources=...
  * rssUrl     — fallback RSS feed (used when outlet not in NewsAPI, or as backup)
  */
@@ -88,6 +88,62 @@ const OUTLETS = {
     newsapiId: null, // Not in NewsAPI — RSS only
     rssUrl: 'https://feeds.feedburner.com/breitbart',
     expectedRange: [8.5, 9.8],
+  },
+  guardian: {
+    name: 'The Guardian',
+    abbr: 'Guard',
+    newsapiId: 'the-guardian-us',
+    rssUrl: 'https://www.theguardian.com/us-news/rss',
+    expectedRange: [2.5, 4.0],
+  },
+  cbsnews: {
+    name: 'CBS News',
+    abbr: 'CBS',
+    newsapiId: 'cbs-news',
+    rssUrl: 'https://www.cbsnews.com/latest/rss/main',
+    expectedRange: [3.0, 4.5],
+  },
+  newsweek: {
+    name: 'Newsweek',
+    abbr: 'NW',
+    newsapiId: 'newsweek',
+    rssUrl: 'https://www.newsweek.com/rss',
+    expectedRange: [4.0, 5.5],
+  },
+  economist: {
+    name: 'The Economist',
+    abbr: 'Econ',
+    newsapiId: null, // Not in NewsAPI — RSS only
+    rssUrl: 'https://www.economist.com/latest/rss.xml',
+    expectedRange: [4.5, 6.0],
+  },
+  cnbc: {
+    name: 'CNBC',
+    abbr: 'CNBC',
+    newsapiId: 'cnbc',
+    rssUrl: 'https://www.cnbc.com/id/100003114/device/rss/rss.html',
+    expectedRange: [4.5, 6.0],
+  },
+  forbes: {
+    name: 'Forbes',
+    abbr: 'Forbes',
+    newsapiId: null, // Not in NewsAPI — RSS only
+    rssUrl: 'https://www.forbes.com/feeds/forbeslatestartsnews/rss2/feed.xml',
+    expectedRange: [5.0, 6.5],
+  },
+  wsj: {
+    name: 'Wall Street Journal',
+    abbr: 'WSJ',
+    newsapiId: 'the-wall-street-journal',
+    rssUrl: 'https://feeds.a.dj.com/rss/RSSOpinion.xml',
+    expectedRange: [5.5, 7.0],
+  },
+  washexaminer: {
+    name: 'Washington Examiner',
+    abbr: 'WExam',
+    newsapiId: null, // Not in NewsAPI — RSS only
+    rssUrl: 'https://www.washingtonexaminer.com/section/news/feed',
+    expectedRange: [7.0, 8.5],
   },
 }
 
