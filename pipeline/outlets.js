@@ -106,7 +106,7 @@ const OUTLETS = {
   newsweek: {
     name: 'Newsweek',
     abbr: 'NW',
-    newsapiId: 'newsweek',
+    newsapiId: null, // Not a confirmed NewsAPI source — RSS only
     rssUrl: 'https://www.newsweek.com/rss',
     expectedRange: [4.0, 5.5],
   },
@@ -114,7 +114,7 @@ const OUTLETS = {
     name: 'The Economist',
     abbr: 'Econ',
     newsapiId: null, // Not in NewsAPI — RSS only
-    rssUrl: 'https://www.economist.com/latest/rss.xml',
+    rssUrl: 'https://www.economist.com/united-states/rss.xml',
     expectedRange: [4.5, 6.0],
   },
   cnbc: {
@@ -128,14 +128,14 @@ const OUTLETS = {
     name: 'Forbes',
     abbr: 'Forbes',
     newsapiId: null, // Not in NewsAPI — RSS only
-    rssUrl: 'https://www.forbes.com/feeds/forbeslatestartsnews/rss2/feed.xml',
+    rssUrl: 'https://www.forbes.com/business/feed/',
     expectedRange: [5.0, 6.5],
   },
   wsj: {
     name: 'Wall Street Journal',
     abbr: 'WSJ',
-    newsapiId: 'the-wall-street-journal',
-    rssUrl: 'https://feeds.a.dj.com/rss/RSSOpinion.xml',
+    newsapiId: null, // Paywalled — not available via NewsAPI free tier
+    rssUrl: 'https://feeds.a.dj.com/rss/RSSWorldNews.xml',
     expectedRange: [5.5, 7.0],
   },
   washexaminer: {
