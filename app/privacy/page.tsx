@@ -151,10 +151,10 @@ export default function PrivacyPolicy() {
             <p>
               For privacy-related questions or requests, contact us at:{' '}
               <a
-                href="mailto:contact@spindetector.com"
+                href="mailto:piers@spindetector.com"
                 className="text-blue-400 hover:text-blue-300 underline"
               >
-                contact@spindetector.com
+                piers@spindetector.com
               </a>
             </p>
           </section>
