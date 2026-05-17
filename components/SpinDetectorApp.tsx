@@ -670,8 +670,14 @@ export default function SpinDetectorApp({ initialStories, initialOutlets, initia
               rather than a publication&apos;s overall editorial stance.
             </p>
           </div>
-          <div className="mt-4 text-center text-xs text-slate-700">
-            Spin Detector · Built for editorial transparency · Because an informed reader is a free reader
+          <div className="mt-4 text-center text-xs text-slate-700 space-x-3">
+            <span>Spin Detector</span>
+            <span>·</span>
+            <a href="/about" className="hover:text-slate-500 transition-colors">About</a>
+            <span>·</span>
+            <a href="/privacy" className="hover:text-slate-500 transition-colors">Privacy Policy</a>
+            <span>·</span>
+            <span>Because an informed reader is a free reader</span>
           </div>
         </div>
       </footer>
