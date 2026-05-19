@@ -72,7 +72,7 @@ const OUTLETS = {
     name: 'NY Post',
     abbr: 'NYPost',
     newsapiId: 'the-new-york-post',
-    rssUrl: 'https://nypost.com/feed/',
+    rssUrl: 'https://nypost.com/news/feed/',
     expectedRange: [6.5, 8.0],
   },
   dailycaller: {
@@ -107,7 +107,7 @@ const OUTLETS = {
     name: 'Newsweek',
     abbr: 'NW',
     newsapiId: null, // Not a confirmed NewsAPI source — RSS only
-    rssUrl: 'https://www.newsweek.com/rss',
+    rssUrl: 'https://feeds.feedburner.com/NewsweekTopNewsAndFeaturedStories',
     expectedRange: [4.0, 5.5],
   },
   economist: {
@@ -135,7 +135,7 @@ const OUTLETS = {
     name: 'Wall Street Journal',
     abbr: 'WSJ',
     newsapiId: null, // Paywalled — not available via NewsAPI free tier
-    rssUrl: 'https://feeds.a.dj.com/rss/RSSWorldNews.xml',
+    rssUrl: 'https://feeds.a.dj.com/rss/RSSOpinion.xml',
     expectedRange: [5.5, 7.0],
   },
   washexaminer: {
