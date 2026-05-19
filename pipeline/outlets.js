@@ -149,7 +149,7 @@ const OUTLETS = {
     name: 'The Free Press',
     abbr: 'TFP',
     newsapiId: null, // Not in NewsAPI — RSS only
-    rssUrl: 'https://www.thefp.com/feed',
+    rssUrl: 'https://thefreepress.substack.com/feed',
     expectedRange: [4.5, 6.5],
   },
 }
