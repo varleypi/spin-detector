@@ -53,6 +53,7 @@ function getOutletLineColor(outletId: string): string {
     washexaminer: '#1a3a5c',
     dailycaller: '#dc2626',
     breitbart: '#991b1b',
+    thefreepress: '#0d9488',
   }
   return colors[outletId] ?? '#94a3b8'
 }
@@ -541,9 +542,33 @@ interface Props {
 
 export default function SpinDetectorApp({ initialStories, initialOutlets, initialStatus }: Props) {
   const [activeTab, setActiveTab] = useState<Tab>('battleground')
-  const [stories] = useState<StoryCluster[]>(initialStories)
-  const [outlets] = useState<OutletScore[]>(initialOutlets)
-  const status = initialStatus
+  const [stories, setStories] = useState<StoryCluster[]>(initialStories)
+  const [outlets, setOutlets] = useState<OutletScore[]>(initialOutlets)
+  const [status, setStatus] = useState<PipelineStatus>(initialStatus)
+  const [refreshing, setRefreshing] = useState(false)
+
+  async function handleRefresh() {
+    setRefreshing(true)
+    try {
+      const [storiesRes, outletsRes, statusRes] = await Promise.all([
+        fetch('/api/stories/today'),
+        fetch('/api/outlets/scores'),
+        fetch('/api/pipeline/status'),
+      ])
+      const [storiesData, outletsData, statusData] = await Promise.all([
+        storiesRes.json(),
+        outletsRes.json(),
+        statusRes.json(),
+      ])
+      if (storiesData.stories?.length) setStories(storiesData.stories)
+      if (outletsData.outlets?.length) setOutlets(outletsData.outlets)
+      setStatus(statusData)
+    } catch (err) {
+      console.error('Refresh failed:', err)
+    } finally {
+      setRefreshing(false)
+    }
+  }
 
   const tabs: { id: Tab; label: string; icon: string }[] = [
     { id: 'battleground', label: 'Battleground', icon: '⚔️' },
@@ -577,6 +602,14 @@ export default function SpinDetectorApp({ initialStories, initialOutlets, initia
                   Live
                 </span>
               )}
+              <button
+                onClick={handleRefresh}
+                disabled={refreshing}
+                className="text-[10px] font-semibold px-2 py-0.5 rounded border border-slate-700 text-slate-400 hover:text-slate-200 hover:border-slate-500 transition-colors disabled:opacity-40"
+                title="Fetch today's latest headlines"
+              >
+                {refreshing ? 'Refreshing…' : '↻ Refresh'}
+              </button>
             </div>
             <p className="text-xs text-slate-500 mt-0.5">
               Same story. Multiple outlets. Measurable bias.

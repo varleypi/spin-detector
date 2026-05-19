@@ -145,6 +145,13 @@ const OUTLETS = {
     rssUrl: 'https://www.washingtonexaminer.com/section/news/feed',
     expectedRange: [7.0, 8.5],
   },
+  thefreepress: {
+    name: 'The Free Press',
+    abbr: 'TFP',
+    newsapiId: null, // Not in NewsAPI — RSS only
+    rssUrl: 'https://www.thefp.com/feed',
+    expectedRange: [4.5, 6.5],
+  },
 }
 
 // NewsAPI source ID → outletId reverse map

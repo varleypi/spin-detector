@@ -1,13 +1,18 @@
 /**
- * Stage 4+5 — Write pipeline results to Supabase.
+ * Stage 4+5 — Write pipeline results to Supabase + static JSON fallback.
  *
  * Tables written:
  *   articles            — one row per scored article
  *   story_clusters      — one row per cluster
  *   outlet_daily_scores — one row per outlet (aggregated)
  *   pipeline_runs       — audit log
+ *
+ * Also writes public/data/latest.json so the frontend always has
+ * fresh data even if Supabase is unavailable.
  */
 
+const fs = require('fs')
+const path = require('path')
 const { createClient } = require('@supabase/supabase-js')
 const { OUTLETS } = require('./outlets')
 
@@ -135,6 +140,59 @@ async function logRun(supabase, { status, errorMessage, articleCount, storyCount
   if (error) console.warn(`   ⚠ pipeline_runs log failed: ${error.message}`)
 }
 
+// ── JSON Fallback ─────────────────────────────────────────────────────────────
+
+function writeJsonFallback({ scoredArticles, clusters, date }) {
+  // Build StoryCluster[] — same shape as db.ts getStoriesForDate()
+  const stories = clusters
+    .map((c) => ({
+      id: c.clusterId,
+      topicLabel: c.topicLabel,
+      date,
+      articles: scoredArticles
+        .filter((a) => a.clusterId === c.clusterId)
+        .map((a, i) => ({
+          id: `${a.outletId}-${c.clusterId}-${i}`,
+          outletId: a.outletId,
+          outletName: OUTLETS[a.outletId]?.name ?? a.outletId,
+          headline: a.headline,
+          url: a.url,
+          biasScore: a.biasScore,
+          biasSignals: a.biasSignals,
+          pubDate: a.pubDate ?? new Date().toISOString(),
+          clusterId: c.clusterId,
+        }))
+        .sort((a, b) => a.biasScore - b.biasScore),
+    }))
+    .filter((s) => s.articles.length >= 2)
+
+  // Build OutletScore[] — same shape as db.ts getOutletScores()
+  const outlets = aggregateOutletScores(scoredArticles, date)
+    .sort((a, b) => a.avg_score - b.avg_score)
+    .map((row) => ({
+      outletId: row.outlet_id,
+      outletName: row.outlet_name,
+      abbreviation: row.abbreviation,
+      currentScore: row.avg_score,
+      articleCount: row.article_count,
+      expectedRange: row.expected_range,
+    }))
+
+  const payload = {
+    date,
+    generatedAt: new Date().toISOString(),
+    stories,
+    outlets,
+    articleCount: scoredArticles.length,
+    storyCount: clusters.length,
+  }
+
+  const dir = path.join(__dirname, '..', 'public', 'data')
+  if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true })
+  fs.writeFileSync(path.join(dir, 'latest.json'), JSON.stringify(payload, null, 2))
+  console.log(`   ✓ public/data/latest.json written (${payload.articleCount} articles, ${payload.storyCount} clusters)`)
+}
+
 // ── Main export ───────────────────────────────────────────────────────────────
 
 async function storeResults({ scoredArticles, clusters, date, elapsedSeconds }) {
@@ -149,6 +207,13 @@ async function storeResults({ scoredArticles, clusters, date, elapsedSeconds }) 
     storyCount: clusters.length,
     elapsedSeconds,
   })
+
+  // Always write static JSON fallback regardless of Supabase state
+  try {
+    writeJsonFallback({ scoredArticles, clusters, date })
+  } catch (err) {
+    console.warn(`   ⚠ JSON fallback write failed: ${err.message}`)
+  }
 }
 
 async function logError(supabase, errorMessage, partialCount = 0) {

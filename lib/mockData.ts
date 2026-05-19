@@ -38,6 +38,7 @@ export const OUTLETS: OutletScore[] = [
   { outletId: 'washexaminer', outletName: 'Washington Examiner', abbreviation: 'WExam', currentScore: 7.9, articleCount: 45, expectedRange: [7.0, 8.5] },
   { outletId: 'dailycaller', outletName: 'Daily Caller', abbreviation: 'DC', currentScore: 8.2, articleCount: 41, expectedRange: [7.5, 9.0] },
   { outletId: 'breitbart', outletName: 'Breitbart', abbreviation: 'BB', currentScore: 9.1, articleCount: 55, expectedRange: [8.5, 9.8] },
+  { outletId: 'thefreepress', outletName: 'The Free Press', abbreviation: 'TFP', currentScore: 5.8, articleCount: 18, expectedRange: [4.5, 6.5] },
 ]
 
 export const OUTLET_TRENDS: Record<string, TrendPoint[]> = {
@@ -61,6 +62,7 @@ export const OUTLET_TRENDS: Record<string, TrendPoint[]> = {
   washexaminer: generateTrend('washexaminer', 7.9, 0.5),
   dailycaller: generateTrend('dailycaller', 8.2, 0.5),
   breitbart: generateTrend('breitbart', 9.1, 0.4),
+  thefreepress: generateTrend('thefreepress', 5.8, 0.5),
 }
 
 export const MOCK_STORIES: StoryCluster[] = [
@@ -110,6 +112,12 @@ export const MOCK_STORIES: StoryCluster[] = [
         headline: 'ICE operations separate asylum-seeking families in targeted enforcement surge across US cities',
         url: 'https://theguardian.com', biasScore: 2.4, pubDate: '2026-05-14',
         biasSignals: ['"asylum-seeking families" — maximally sympathetic framing', '"separate" — echoes family separation trauma', '"targeted enforcement surge" — implies escalating aggression'],
+      },
+      {
+        id: 'a9', outletId: 'thefreepress', outletName: 'The Free Press', clusterId: 'immigration-20260514',
+        headline: 'The immigration debate both sides are getting wrong — and the data that cuts through the noise',
+        url: 'https://thefp.com', biasScore: 5.6, pubDate: '2026-05-14',
+        biasSignals: ['"Both sides getting wrong" — heterodox positioning', 'Appeals to data over ideology', 'Slightly right-of-center framing in headline emphasis'],
       },
       {
         id: 'a8', outletId: 'washexaminer', outletName: 'Washington Examiner', clusterId: 'immigration-20260514',
