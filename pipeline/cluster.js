@@ -66,7 +66,7 @@ RESPOND WITH JSON ONLY — no other text:
 
 RULES:
   • Each cluster must have articles from at least 2 different outlets
-  • biasSignals: 2–3 specific, quoted observations (e.g. '"torn apart" — emotional victim framing')
+  • biasSignals: exactly 2 short observations, max 10 words each (e.g. '"torn apart" — victim framing')
   • biasScore must be a number 0.0–10.0 with one decimal place
   • clusterId must be unique within this response
   • Omit articles that don't clearly belong to any cluster`
@@ -80,7 +80,7 @@ async function clusterAndScore(articles) {
 
   const response = await client.messages.create({
     model: 'claude-sonnet-4-6',
-    max_tokens: 8096,
+    max_tokens: 16000,
     system: SYSTEM_PROMPT,
     messages: [{ role: 'user', content: prompt }],
   })
@@ -115,7 +115,7 @@ async function clusterAndScore(articles) {
       scoredArticles.push({
         ...article,
         biasScore: Math.round(biasScore * 10) / 10,
-        biasSignals: Array.isArray(scored.biasSignals) ? scored.biasSignals.slice(0, 4) : [],
+        biasSignals: Array.isArray(scored.biasSignals) ? scored.biasSignals.slice(0, 2) : [],
         clusterId: cluster.clusterId,
         topicLabel: cluster.topicLabel,
       })
