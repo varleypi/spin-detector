@@ -135,7 +135,7 @@ const OUTLETS = {
     name: 'Wall Street Journal',
     abbr: 'WSJ',
     newsapiId: null, // Paywalled — not available via NewsAPI free tier
-    rssUrl: 'https://feeds.a.dj.com/rss/RSSOpinion.xml',
+    rssUrl: 'https://feeds.a.dj.com/rss/WSJcomUSBusiness.xml',
     expectedRange: [5.5, 7.0],
   },
   washexaminer: {
