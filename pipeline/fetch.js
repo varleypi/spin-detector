@@ -10,7 +10,13 @@
 const Parser = require('rss-parser')
 const { OUTLETS, NEWSAPI_TO_OUTLET } = require('./outlets')
 
-const RSS_PARSER = new Parser({ timeout: 12000 })
+const RSS_PARSER = new Parser({
+  timeout: 12000,
+  headers: {
+    'User-Agent': 'Mozilla/5.0 (compatible; SpinDetector/1.0; +https://spindetector.com)',
+    'Accept': 'application/rss+xml, application/xml, text/xml, */*',
+  },
+})
 const MAX_PER_OUTLET = 15
 
 // ── NewsAPI ───────────────────────────────────────────────────────────────────
