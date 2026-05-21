@@ -322,7 +322,7 @@ function BiasBoardView({ outlets }: { outlets: OutletScore[] }) {
       <div className="bg-slate-900 border border-slate-800 rounded-xl overflow-hidden">
         <div className="px-4 py-3 border-b border-slate-800">
           <h3 className="text-xs font-semibold uppercase tracking-widest text-slate-500">
-            Outlet Rankings — 30-Day Average
+            Outlet Rankings — 30-Day Rolling Average
           </h3>
         </div>
         <div className="divide-y divide-slate-800/60">
@@ -333,7 +333,7 @@ function BiasBoardView({ outlets }: { outlets: OutletScore[] }) {
               </span>
               <div className="w-24 flex-shrink-0">
                 <div className="font-semibold text-sm text-slate-200">{outlet.outletName}</div>
-                <div className="text-[11px] text-slate-500">{outlet.articleCount} articles</div>
+                <div className="text-[11px] text-slate-500">{outlet.articleCount} articles (30d)</div>
               </div>
               <div className="flex-1">
                 <BiasBar score={outlet.currentScore} />

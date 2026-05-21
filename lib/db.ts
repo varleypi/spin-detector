@@ -56,32 +56,42 @@ export async function getOutletScores(): Promise<OutletScore[]> {
   const supabase = getSupabase()
   if (!supabase) throw new Error('No database configured')
 
-  // Get the most recent date that has data
-  const { data: latest, error: le } = await supabase
-    .from('outlet_daily_scores')
-    .select('date')
-    .order('date', { ascending: false })
-    .limit(1)
-    .single()
-
-  if (le) throw new Error(`outlet_daily_scores latest date failed: ${le.message}`)
+  // Fetch all daily scores from the last 30 days
+  const thirtyDaysAgo = new Date()
+  thirtyDaysAgo.setDate(thirtyDaysAgo.getDate() - 30)
 
   const { data, error } = await supabase
     .from('outlet_daily_scores')
     .select('*')
-    .eq('date', latest.date)
-    .order('avg_score', { ascending: true })
+    .gte('date', thirtyDaysAgo.toISOString().split('T')[0])
 
   if (error) throw new Error(`outlet_daily_scores query failed: ${error.message}`)
 
-  return (data ?? []).map((row: Record<string, unknown>) => ({
-    outletId: row.outlet_id as string,
-    outletName: row.outlet_name as string,
-    abbreviation: row.abbreviation as string,
-    currentScore: row.avg_score as number,
-    articleCount: row.article_count as number,
-    expectedRange: row.expected_range as [number, number],
-  }))
+  // Group rows by outlet and compute 30-day averages in JS
+  const groups: Record<string, Record<string, unknown>[]> = {}
+  for (const row of (data ?? [])) {
+    const id = row.outlet_id as string
+    if (!groups[id]) groups[id] = []
+    groups[id].push(row)
+  }
+
+  if (Object.keys(groups).length === 0) throw new Error('No outlet score data found')
+
+  return Object.entries(groups)
+    .map(([outletId, rows]) => {
+      const avgScore = rows.reduce((sum, r) => sum + (r.avg_score as number), 0) / rows.length
+      const totalArticles = rows.reduce((sum, r) => sum + (r.article_count as number), 0)
+      const sample = rows[0]
+      return {
+        outletId,
+        outletName: sample.outlet_name as string,
+        abbreviation: sample.abbreviation as string,
+        currentScore: Math.round(avgScore * 100) / 100,
+        articleCount: totalArticles,
+        expectedRange: sample.expected_range as [number, number],
+      }
+    })
+    .sort((a, b) => a.currentScore - b.currentScore)
 }
 
 export async function getOutletTrend(outletId: string): Promise<TrendPoint[]> {
