@@ -31,6 +31,16 @@ function getBiasLabel(score: number): string {
   return 'Far Right'
 }
 
+// Display score as -5 to +5 (DB stores 0-10)
+function fmt(score: number): string {
+  const d = Math.round((score - 5) * 10) / 10
+  return (d >= 0 ? '+' : '') + d.toFixed(1)
+}
+
+function fmtRaw(score: number): number {
+  return Math.round((score - 5) * 10) / 10
+}
+
 function getOutletLineColor(outletId: string): string {
   const colors: Record<string, string> = {
     msnbc: '#3b82f6',
@@ -79,7 +89,7 @@ function OutletTicker({ outlets }: { outlets: OutletScore[] }) {
           return (
             <span key={`${outlet.outletId}-${i}`} className="inline-flex items-center gap-1.5 text-xs">
               <span className="font-bold" style={{ color }}>{outlet.abbreviation}</span>
-              <span className="font-mono tabular-nums" style={{ color }}>{outlet.currentScore.toFixed(1)}</span>
+              <span className="font-mono tabular-nums" style={{ color }}>{fmt(outlet.currentScore)}</span>
               <span className="text-slate-700 ml-2">·</span>
             </span>
           )
@@ -111,7 +121,7 @@ function BiasBar({ score, compact = false }: { score: number; compact?: boolean 
           />
         </div>
         <span className="text-xs font-mono font-bold tabular-nums" style={{ color }}>
-          {score.toFixed(1)}
+          {fmt(score)}
         </span>
       </div>
     )
@@ -127,9 +137,9 @@ function BiasBar({ score, compact = false }: { score: number; compact?: boolean 
         />
       </div>
       <div className="flex justify-between text-[10px] text-slate-500">
-        <span>← LEFT</span>
+        <span>← −5</span>
         <span className="font-semibold" style={{ color }}>{getBiasLabel(score)}</span>
-        <span>RIGHT →</span>
+        <span>+5 →</span>
       </div>
     </div>
   )
@@ -284,11 +294,11 @@ function BiasBoardView({ outlets }: { outlets: OutletScore[] }) {
           />
           {/* Labels */}
           <div className="flex justify-between text-[10px] text-slate-500 mt-1 px-1">
-            <span>Far Left (0)</span>
-            <span>Left (2-3)</span>
-            <span>Center (5)</span>
-            <span>Right (7-8)</span>
-            <span>Far Right (10)</span>
+            <span>Far Left (−5)</span>
+            <span>Left (−3/−2)</span>
+            <span>Center (0)</span>
+            <span>Right (+2/+3)</span>
+            <span>Far Right (+5)</span>
           </div>
           {/* Outlet dots */}
           <div className="relative mt-3 h-8">
@@ -343,14 +353,14 @@ function BiasBoardView({ outlets }: { outlets: OutletScore[] }) {
                   className="text-lg font-bold font-mono tabular-nums"
                   style={{ color: getBiasColor(outlet.currentScore) }}
                 >
-                  {outlet.currentScore.toFixed(1)}
+                  {fmt(outlet.currentScore)}
                 </div>
                 <div className="text-[11px]" style={{ color: getBiasColor(outlet.currentScore) }}>
                   {getBiasLabel(outlet.currentScore)}
                 </div>
               </div>
               <div className="flex-shrink-0 text-xs text-slate-600 w-20 text-right">
-                exp. {outlet.expectedRange[0]}–{outlet.expectedRange[1]}
+                exp. {fmtRaw(outlet.expectedRange[0])} to {fmtRaw(outlet.expectedRange[1])}
               </div>
             </div>
           ))}
@@ -410,7 +420,7 @@ function TrendsView({ outlets }: { outlets: OutletScore[] }) {
     const point: Record<string, number | string> = { date: date.slice(5) }
     for (const [outletId, points] of Object.entries(trendData)) {
       const match = points.find((p) => p.date === date)
-      if (match) point[outletId] = match.score
+      if (match) point[outletId] = fmtRaw(match.score)
     }
     return point
   })
@@ -467,20 +477,20 @@ function TrendsView({ outlets }: { outlets: OutletScore[] }) {
                 axisLine={{ stroke: '#334155' }}
               />
               <YAxis
-                domain={[0, 10]}
-                ticks={[0, 2, 4, 5, 6, 8, 10]}
+                domain={[-5, 5]}
+                ticks={[-5, -3, -1, 0, 1, 3, 5]}
                 tick={{ fill: '#64748b', fontSize: 11 }}
                 tickLine={false}
                 axisLine={{ stroke: '#334155' }}
               />
-              <ReferenceLine y={5} stroke="#475569" strokeDasharray="4 4" label={{ value: 'CENTER', fill: '#475569', fontSize: 10 }} />
+              <ReferenceLine y={0} stroke="#475569" strokeDasharray="4 4" label={{ value: 'CENTER', fill: '#475569', fontSize: 10 }} />
               <Tooltip
                 contentStyle={{ backgroundColor: '#0f172a', border: '1px solid #334155', borderRadius: 8 }}
                 labelStyle={{ color: '#94a3b8', fontSize: 11 }}
                 itemStyle={{ fontSize: 12 }}
                 formatter={(value: number, name: string) => {
                   const outlet = outlets.find((o) => o.outletId === name)
-                  return [value.toFixed(1), outlet?.outletName ?? name]
+                  return [(value >= 0 ? '+' : '') + value.toFixed(1), outlet?.outletName ?? name]
                 }}
               />
               <Legend
@@ -519,7 +529,7 @@ function TrendsView({ outlets }: { outlets: OutletScore[] }) {
                 className="text-2xl font-bold font-mono"
                 style={{ color: getOutletLineColor(outlet.outletId) }}
               >
-                {outlet.currentScore.toFixed(1)}
+                {fmt(outlet.currentScore)}
               </div>
               <div className="text-xs mt-1" style={{ color: getBiasColor(outlet.currentScore) }}>
                 {getBiasLabel(outlet.currentScore)}
@@ -576,8 +586,8 @@ export default function SpinDetectorApp({ initialStories, initialOutlets, initia
     { id: 'trends', label: '30-Day Trends', icon: '📈' },
   ]
 
-  const leftCount = outlets.filter((o) => o.currentScore < 4.5).length
-  const rightCount = outlets.filter((o) => o.currentScore > 5.5).length
+  const leftCount = outlets.filter((o) => o.currentScore < 4.5).length   // < −0.5 in display scale
+  const rightCount = outlets.filter((o) => o.currentScore > 5.5).length  // > +0.5 in display scale
 
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100">
