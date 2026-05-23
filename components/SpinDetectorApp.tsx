@@ -346,24 +346,23 @@ function BiasBoardView({ outlets }: { outlets: OutletScore[] }) {
 
       {/* Sorted table */}
       <div className="bg-slate-900 border border-slate-800 rounded-xl overflow-hidden">
-        {/* Table header */}
-        <div className="px-4 py-2 border-b border-slate-800 flex items-center gap-4 bg-slate-950/50">
+
+        {/* ── Desktop header (hidden on mobile) ── */}
+        <div className="hidden sm:flex px-4 py-2 border-b border-slate-800 items-center gap-4 bg-slate-950/50">
           <span className="w-5 flex-shrink-0" />
-          <span className="w-36 flex-shrink-0 text-[10px] font-semibold uppercase tracking-widest text-slate-500">
-            Outlet — 30d avg
-          </span>
-          <span className="w-36 flex-shrink-0 text-[10px] font-semibold uppercase tracking-widest text-slate-500">
-            Daily Reach
-          </span>
-          <span className="flex-1 text-[10px] font-semibold uppercase tracking-widest text-slate-500">
-            Bias Score
-          </span>
-          <span className="w-20 flex-shrink-0 text-[10px] font-semibold uppercase tracking-widest text-slate-500 text-right">
-            Score
-          </span>
-          <span className="w-20 flex-shrink-0 text-[10px] font-semibold uppercase tracking-widest text-slate-500 text-right">
-            Exp. Range
-          </span>
+          <span className="w-36 flex-shrink-0 text-[10px] font-semibold uppercase tracking-widest text-slate-500">Outlet — 30d avg</span>
+          <span className="w-36 flex-shrink-0 text-[10px] font-semibold uppercase tracking-widest text-slate-500">Daily Reach</span>
+          <span className="flex-1 text-[10px] font-semibold uppercase tracking-widest text-slate-500">Bias Score</span>
+          <span className="w-20 flex-shrink-0 text-[10px] font-semibold uppercase tracking-widest text-slate-500 text-right">Score</span>
+          <span className="w-20 flex-shrink-0 text-[10px] font-semibold uppercase tracking-widest text-slate-500 text-right">Exp. Range</span>
+        </div>
+
+        {/* ── Mobile header (hidden on desktop) ── */}
+        <div className="flex sm:hidden px-4 py-2 border-b border-slate-800 items-center gap-3 bg-slate-950/50">
+          <span className="w-5 flex-shrink-0" />
+          <span className="flex-1 text-[10px] font-semibold uppercase tracking-widest text-slate-500">Outlet — 30d avg</span>
+          <span className="text-[10px] font-semibold uppercase tracking-widest text-slate-500">Reach</span>
+          <span className="w-14 text-[10px] font-semibold uppercase tracking-widest text-slate-500 text-right">Score</span>
         </div>
 
         <div className="divide-y divide-slate-800/60">
@@ -372,68 +371,85 @@ function BiasBoardView({ outlets }: { outlets: OutletScore[] }) {
             const reachPct = meta ? (meta.dailyReaders / MAX_DAILY_READERS) * 100 : 0
             const reachColor = meta?.readerType === 'tv' ? '#f59e0b' : '#38bdf8'
             return (
-              <div key={outlet.outletId} className="px-4 py-3 flex items-center gap-4 hover:bg-slate-800/30 transition-colors">
-                {/* Rank */}
-                <span className="text-slate-600 text-sm font-mono w-5 text-right flex-shrink-0">
-                  {rank + 1}
-                </span>
+              <div key={outlet.outletId} className="hover:bg-slate-800/30 transition-colors">
 
-                {/* Outlet name */}
-                <div className="w-36 flex-shrink-0">
-                  <div className="font-semibold text-sm text-slate-200">{outlet.outletName}</div>
-                  <div className="text-[11px] text-slate-500">{outlet.articleCount} articles scored</div>
+                {/* ── Desktop row (hidden on mobile) ── */}
+                <div className="hidden sm:flex px-4 py-3 items-center gap-4">
+                  <span className="text-slate-600 text-sm font-mono w-5 text-right flex-shrink-0">{rank + 1}</span>
+                  <div className="w-36 flex-shrink-0">
+                    <div className="font-semibold text-sm text-slate-200">{outlet.outletName}</div>
+                    <div className="text-[11px] text-slate-500">{outlet.articleCount} articles scored</div>
+                  </div>
+                  <div className="w-36 flex-shrink-0">
+                    {meta ? (
+                      <div title={meta.readerNote}>
+                        <div className="flex items-baseline gap-1.5 mb-1">
+                          <span className="text-sm font-bold font-mono text-slate-100">{meta.readerLabel}</span>
+                          <span className="text-[10px] text-slate-500">daily</span>
+                          <span className="text-[9px] font-bold px-1 py-px rounded uppercase tracking-wide"
+                            style={{ color: reachColor, backgroundColor: `${reachColor}18`, border: `1px solid ${reachColor}30` }}>
+                            {meta.readerType === 'tv' ? 'TV' : 'Web'}
+                          </span>
+                        </div>
+                        <div className="relative h-2 rounded-full bg-slate-800">
+                          <div className="absolute left-0 top-0 h-full rounded-full transition-all duration-500"
+                            style={{ width: `${reachPct}%`, backgroundColor: reachColor }} />
+                        </div>
+                      </div>
+                    ) : <span className="text-[11px] text-slate-600">—</span>}
+                  </div>
+                  <div className="flex-1"><BiasBar score={outlet.currentScore} /></div>
+                  <div className="w-20 flex-shrink-0 text-right">
+                    <div className="text-lg font-bold font-mono tabular-nums" style={{ color: getBiasColor(outlet.currentScore) }}>
+                      {fmt(outlet.currentScore)}
+                    </div>
+                    <div className="text-[11px]" style={{ color: getBiasColor(outlet.currentScore) }}>
+                      {getBiasLabel(outlet.currentScore)}
+                    </div>
+                  </div>
+                  <div className="w-20 flex-shrink-0 text-[11px] text-slate-600 text-right">
+                    {fmtRaw(outlet.expectedRange[0])} to {fmtRaw(outlet.expectedRange[1])}
+                  </div>
                 </div>
 
-                {/* Daily Reach — own column */}
-                <div className="w-36 flex-shrink-0">
-                  {meta ? (
-                    <div title={meta.readerNote}>
-                      <div className="flex items-baseline gap-1.5 mb-1">
-                        <span className="text-sm font-bold font-mono text-slate-100">
-                          {meta.readerLabel}
-                        </span>
-                        <span className="text-[10px] text-slate-500">daily</span>
-                        <span
-                          className="text-[9px] font-bold px-1 py-px rounded uppercase tracking-wide"
-                          style={{ color: reachColor, backgroundColor: `${reachColor}18`, border: `1px solid ${reachColor}30` }}
-                        >
-                          {meta.readerType === 'tv' ? 'TV' : 'Web'}
-                        </span>
+                {/* ── Mobile row (hidden on desktop) ── */}
+                <div className="flex sm:hidden px-3 py-3 items-start gap-3">
+                  {/* Rank */}
+                  <span className="text-slate-600 text-xs font-mono w-5 text-right flex-shrink-0 mt-0.5">{rank + 1}</span>
+                  {/* Main content */}
+                  <div className="flex-1 min-w-0">
+                    {/* Name + score on one line */}
+                    <div className="flex items-start justify-between gap-2 mb-2">
+                      <div>
+                        <div className="font-semibold text-sm text-slate-200">{outlet.outletName}</div>
+                        <div className="text-[11px] mt-0.5 font-semibold" style={{ color: getBiasColor(outlet.currentScore) }}>
+                          {getBiasLabel(outlet.currentScore)}
+                        </div>
                       </div>
-                      <div className="relative h-2 rounded-full bg-slate-800">
-                        <div
-                          className="absolute left-0 top-0 h-full rounded-full transition-all duration-500"
-                          style={{ width: `${reachPct}%`, backgroundColor: reachColor }}
-                        />
+                      <div className="text-right flex-shrink-0">
+                        <div className="text-lg font-bold font-mono tabular-nums" style={{ color: getBiasColor(outlet.currentScore) }}>
+                          {fmt(outlet.currentScore)}
+                        </div>
                       </div>
                     </div>
-                  ) : (
-                    <span className="text-[11px] text-slate-600">—</span>
-                  )}
-                </div>
-
-                {/* Bias bar */}
-                <div className="flex-1">
-                  <BiasBar score={outlet.currentScore} />
-                </div>
-
-                {/* Score */}
-                <div className="w-20 flex-shrink-0 text-right">
-                  <div
-                    className="text-lg font-bold font-mono tabular-nums"
-                    style={{ color: getBiasColor(outlet.currentScore) }}
-                  >
-                    {fmt(outlet.currentScore)}
-                  </div>
-                  <div className="text-[11px]" style={{ color: getBiasColor(outlet.currentScore) }}>
-                    {getBiasLabel(outlet.currentScore)}
+                    {/* Bias bar full width */}
+                    <BiasBar score={outlet.currentScore} />
+                    {/* Reach bar below */}
+                    {meta && (
+                      <div className="mt-2 flex items-center gap-2" title={meta.readerNote}>
+                        <div className="relative h-1.5 rounded-full bg-slate-800 flex-1">
+                          <div className="absolute left-0 top-0 h-full rounded-full"
+                            style={{ width: `${reachPct}%`, backgroundColor: reachColor }} />
+                        </div>
+                        <span className="text-[10px] font-mono text-slate-400 whitespace-nowrap flex-shrink-0">
+                          {meta.readerLabel}
+                          <span className="text-slate-600 ml-1">{meta.readerType === 'tv' ? 'tv' : 'web'}</span>
+                        </span>
+                      </div>
+                    )}
                   </div>
                 </div>
 
-                {/* Expected range */}
-                <div className="w-20 flex-shrink-0 text-[11px] text-slate-600 text-right">
-                  {fmtRaw(outlet.expectedRange[0])} to {fmtRaw(outlet.expectedRange[1])}
-                </div>
               </div>
             )
           })}
