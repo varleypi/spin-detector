@@ -337,61 +337,97 @@ function BiasBoardView({ outlets }: { outlets: OutletScore[] }) {
 
       {/* Sorted table */}
       <div className="bg-slate-900 border border-slate-800 rounded-xl overflow-hidden">
-        <div className="px-4 py-3 border-b border-slate-800">
-          <h3 className="text-xs font-semibold uppercase tracking-widest text-slate-500">
-            Outlet Rankings — 30-Day Rolling Average
-          </h3>
+        {/* Table header */}
+        <div className="px-4 py-2 border-b border-slate-800 flex items-center gap-4 bg-slate-950/50">
+          <span className="w-5 flex-shrink-0" />
+          <span className="w-36 flex-shrink-0 text-[10px] font-semibold uppercase tracking-widest text-slate-500">
+            Outlet — 30d avg
+          </span>
+          <span className="w-36 flex-shrink-0 text-[10px] font-semibold uppercase tracking-widest text-slate-500">
+            Daily Reach
+          </span>
+          <span className="flex-1 text-[10px] font-semibold uppercase tracking-widest text-slate-500">
+            Bias Score
+          </span>
+          <span className="w-20 flex-shrink-0 text-[10px] font-semibold uppercase tracking-widest text-slate-500 text-right">
+            Score
+          </span>
+          <span className="w-20 flex-shrink-0 text-[10px] font-semibold uppercase tracking-widest text-slate-500 text-right">
+            Exp. Range
+          </span>
         </div>
+
         <div className="divide-y divide-slate-800/60">
-          {sorted.map((outlet, rank) => (
-            <div key={outlet.outletId} className="px-4 py-3 flex items-center gap-4">
-              <span className="text-slate-600 text-sm font-mono w-5 text-right flex-shrink-0">
-                {rank + 1}
-              </span>
-              <div className="w-32 flex-shrink-0">
-                <div className="font-semibold text-sm text-slate-200">{outlet.outletName}</div>
-                <div className="text-[11px] text-slate-500">{outlet.articleCount} articles (30d)</div>
-                {(() => {
-                  const meta = OUTLET_META[outlet.outletId]
-                  if (!meta) return null
-                  const pct = (meta.dailyReaders / MAX_DAILY_READERS) * 100
-                  return (
-                    <div className="mt-1" title={meta.readerNote}>
-                      <div className="flex items-center gap-1.5">
-                        <div className="relative h-1 rounded-full bg-slate-700 flex-1">
-                          <div
-                            className="absolute left-0 top-0 h-full rounded-full bg-slate-400"
-                            style={{ width: `${pct}%` }}
-                          />
-                        </div>
-                        <span className="text-[10px] text-slate-500 font-mono whitespace-nowrap">
+          {sorted.map((outlet, rank) => {
+            const meta = OUTLET_META[outlet.outletId]
+            const reachPct = meta ? (meta.dailyReaders / MAX_DAILY_READERS) * 100 : 0
+            const reachColor = meta?.readerType === 'tv' ? '#f59e0b' : '#38bdf8'
+            return (
+              <div key={outlet.outletId} className="px-4 py-3 flex items-center gap-4 hover:bg-slate-800/30 transition-colors">
+                {/* Rank */}
+                <span className="text-slate-600 text-sm font-mono w-5 text-right flex-shrink-0">
+                  {rank + 1}
+                </span>
+
+                {/* Outlet name */}
+                <div className="w-36 flex-shrink-0">
+                  <div className="font-semibold text-sm text-slate-200">{outlet.outletName}</div>
+                  <div className="text-[11px] text-slate-500">{outlet.articleCount} articles scored</div>
+                </div>
+
+                {/* Daily Reach — own column */}
+                <div className="w-36 flex-shrink-0">
+                  {meta ? (
+                    <div title={meta.readerNote}>
+                      <div className="flex items-baseline gap-1.5 mb-1">
+                        <span className="text-sm font-bold font-mono text-slate-100">
                           {meta.readerLabel}
-                          <span className="text-slate-700 ml-0.5">{meta.readerType === 'tv' ? 'tv' : 'web'}</span>
+                        </span>
+                        <span className="text-[10px] text-slate-500">daily</span>
+                        <span
+                          className="text-[9px] font-bold px-1 py-px rounded uppercase tracking-wide"
+                          style={{ color: reachColor, backgroundColor: `${reachColor}18`, border: `1px solid ${reachColor}30` }}
+                        >
+                          {meta.readerType === 'tv' ? 'TV' : 'Web'}
                         </span>
                       </div>
+                      <div className="relative h-2 rounded-full bg-slate-800">
+                        <div
+                          className="absolute left-0 top-0 h-full rounded-full transition-all duration-500"
+                          style={{ width: `${reachPct}%`, backgroundColor: reachColor }}
+                        />
+                      </div>
                     </div>
-                  )
-                })()}
-              </div>
-              <div className="flex-1">
-                <BiasBar score={outlet.currentScore} />
-              </div>
-              <div className="flex-shrink-0 text-right">
-                <div
-                  className="text-lg font-bold font-mono tabular-nums"
-                  style={{ color: getBiasColor(outlet.currentScore) }}
-                >
-                  {fmt(outlet.currentScore)}
+                  ) : (
+                    <span className="text-[11px] text-slate-600">—</span>
+                  )}
                 </div>
-                <div className="text-[11px]" style={{ color: getBiasColor(outlet.currentScore) }}>
-                  {getBiasLabel(outlet.currentScore)}
+
+                {/* Bias bar */}
+                <div className="flex-1">
+                  <BiasBar score={outlet.currentScore} />
+                </div>
+
+                {/* Score */}
+                <div className="w-20 flex-shrink-0 text-right">
+                  <div
+                    className="text-lg font-bold font-mono tabular-nums"
+                    style={{ color: getBiasColor(outlet.currentScore) }}
+                  >
+                    {fmt(outlet.currentScore)}
+                  </div>
+                  <div className="text-[11px]" style={{ color: getBiasColor(outlet.currentScore) }}>
+                    {getBiasLabel(outlet.currentScore)}
+                  </div>
+                </div>
+
+                {/* Expected range */}
+                <div className="w-20 flex-shrink-0 text-[11px] text-slate-600 text-right">
+                  {fmtRaw(outlet.expectedRange[0])} to {fmtRaw(outlet.expectedRange[1])}
                 </div>
               </div>
-              <div className="flex-shrink-0 text-xs text-slate-600 w-20 text-right">
-                exp. {fmtRaw(outlet.expectedRange[0])} to {fmtRaw(outlet.expectedRange[1])}
-              </div>
-            </div>
-          ))}
+            )
+          })}
         </div>
       </div>
     </div>
