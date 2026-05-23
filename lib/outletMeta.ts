@@ -138,7 +138,37 @@ export const OUTLET_META: Record<string, OutletMeta> = {
     readerType: 'web',
     readerNote: '1.5M total subscribers (paid + free); web traffic not publicly reported (Sacra Oct 2025)',
   },
+  thehill: {
+    dailyReaders: 1_000_000,
+    readerLabel: '1.0M',
+    readerType: 'web',
+    readerNote: 'Unique visitors/day (SimilarWeb 2025); ~30M monthly',
+  },
+  axios: {
+    dailyReaders: 700_000,
+    readerLabel: '700K',
+    readerType: 'web',
+    readerNote: 'Unique visitors/day (SimilarWeb 2025); ~20M monthly',
+  },
+  usatoday: {
+    dailyReaders: 4_100_000,
+    readerLabel: '4.1M',
+    readerType: 'web',
+    readerNote: 'Unique visitors/day (Comscore 2025); largest US daily by circulation',
+  },
+  nationalreview: {
+    dailyReaders: 300_000,
+    readerLabel: '300K',
+    readerType: 'web',
+    readerNote: 'Unique visitors/day (SimilarWeb 2024)',
+  },
+  thefederalist: {
+    dailyReaders: 800_000,
+    readerLabel: '800K',
+    readerType: 'web',
+    readerNote: 'Unique visitors/day (SimilarWeb 2024)',
+  },
 }
 
-/** Max daily readers across all outlets — used for proportional bar sizing */
+/** Max daily readers across all outlets — used for proportional bar sizing. Computed dynamically. */
 export const MAX_DAILY_READERS = Math.max(...Object.values(OUTLET_META).map((m) => m.dailyReaders))

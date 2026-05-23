@@ -65,6 +65,11 @@ function getOutletLineColor(outletId: string): string {
     dailycaller: '#dc2626',
     breitbart: '#991b1b',
     thefreepress: '#0d9488',
+    thehill: '#1B3D8F',
+    axios: '#E04C2F',
+    usatoday: '#009BDE',
+    nationalreview: '#C8102E',
+    thefederalist: '#1B3A6B',
   }
   return colors[outletId] ?? '#94a3b8'
 }

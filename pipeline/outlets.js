@@ -152,6 +152,41 @@ const OUTLETS = {
     rssUrl: 'https://thefreepress.substack.com/feed',
     expectedRange: [4.5, 6.5],
   },
+  thehill: {
+    name: 'The Hill',
+    abbr: 'Hill',
+    newsapiId: 'the-hill',
+    rssUrl: 'https://thehill.com/feed/',
+    expectedRange: [5.5, 7.0],
+  },
+  axios: {
+    name: 'Axios',
+    abbr: 'Axios',
+    newsapiId: null, // Not in NewsAPI — RSS only
+    rssUrl: 'https://api.axios.com/feed/',
+    expectedRange: [5.5, 6.5],
+  },
+  usatoday: {
+    name: 'USA Today',
+    abbr: 'USAT',
+    newsapiId: 'the-usa-today',
+    rssUrl: 'https://rssfeeds.usatoday.com/usatoday-NewsTopStories',
+    expectedRange: [4.5, 6.0],
+  },
+  nationalreview: {
+    name: 'National Review',
+    abbr: 'NR',
+    newsapiId: null, // Not in NewsAPI — RSS only
+    rssUrl: 'https://www.nationalreview.com/feed/',
+    expectedRange: [7.0, 8.5],
+  },
+  thefederalist: {
+    name: 'The Federalist',
+    abbr: 'Fed',
+    newsapiId: null, // Not in NewsAPI — RSS only
+    rssUrl: 'https://thefederalist.com/feed/',
+    expectedRange: [7.5, 9.0],
+  },
 }
 
 // NewsAPI source ID → outletId reverse map
