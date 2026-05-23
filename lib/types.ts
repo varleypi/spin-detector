@@ -6,6 +6,8 @@ export interface Article {
   url: string
   biasScore: number
   biasSignals: string[]
+  biasScoreGrok?: number
+  biasSignalsGrok?: string[]
   pubDate: string
   clusterId: string
 }
@@ -22,6 +24,7 @@ export interface OutletScore {
   outletName: string
   abbreviation: string
   currentScore: number
+  currentScoreGrok?: number
   articleCount: number
   expectedRange: [number, number]
 }

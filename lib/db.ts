@@ -45,6 +45,8 @@ export async function getStoriesForDate(date: string): Promise<StoryCluster[]> {
         url: a.url as string,
         biasScore: a.bias_score as number,
         biasSignals: (a.bias_signals as string[]) ?? [],
+        biasScoreGrok: a.bias_score_grok != null ? (a.bias_score_grok as number) : undefined,
+        biasSignalsGrok: a.bias_signals_grok != null ? (a.bias_signals_grok as string[]) : undefined,
         pubDate: a.pub_date as string,
         clusterId: a.cluster_id as string,
       }))
@@ -82,11 +84,19 @@ export async function getOutletScores(): Promise<OutletScore[]> {
       const avgScore = rows.reduce((sum, r) => sum + (r.avg_score as number), 0) / rows.length
       const totalArticles = rows.reduce((sum, r) => sum + (r.article_count as number), 0)
       const sample = rows[0]
+
+      // Grok average — only from rows that have a Grok score
+      const grokRows = rows.filter((r) => r.avg_score_grok != null)
+      const avgGrokScore = grokRows.length > 0
+        ? grokRows.reduce((sum, r) => sum + (r.avg_score_grok as number), 0) / grokRows.length
+        : undefined
+
       return {
         outletId,
         outletName: sample.outlet_name as string,
         abbreviation: sample.abbreviation as string,
         currentScore: Math.round(avgScore * 100) / 100,
+        currentScoreGrok: avgGrokScore !== undefined ? Math.round(avgGrokScore * 100) / 100 : undefined,
         articleCount: totalArticles,
         expectedRange: sample.expected_range as [number, number],
       }

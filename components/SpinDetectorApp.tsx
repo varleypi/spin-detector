@@ -8,7 +8,7 @@ import {
 import type { StoryCluster, OutletScore, TrendPoint, PipelineStatus } from '@/lib/types'
 import { OUTLET_META, MAX_DAILY_READERS } from '@/lib/outletMeta'
 
-type Tab = 'battleground' | 'biasboard' | 'trends'
+type Tab = 'battleground' | 'biasboard' | 'trends' | 'modelwars'
 
 // ─── Utilities ───────────────────────────────────────────────────────────────
 
@@ -253,14 +253,35 @@ function StoryCard({ cluster }: { cluster: StoryCluster }) {
                   <ul className="mt-1.5 space-y-0.5">
                     {article.biasSignals.map((signal, i) => (
                       <li key={i} className="text-[11px] text-slate-500 flex items-start gap-1.5">
-                        <span className="text-slate-600 mt-px">›</span>
+                        <span className="text-indigo-500 mt-px font-bold text-[9px] uppercase tracking-wider mt-0.5">C›</span>
+                        <span>{signal}</span>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+                {expanded && article.biasSignalsGrok && article.biasSignalsGrok.length > 0 && (
+                  <ul className="mt-1 space-y-0.5">
+                    {article.biasSignalsGrok.map((signal, i) => (
+                      <li key={i} className="text-[11px] text-slate-500 flex items-start gap-1.5">
+                        <span className="text-amber-500 mt-px font-bold text-[9px] uppercase tracking-wider mt-0.5">G›</span>
                         <span>{signal}</span>
                       </li>
                     ))}
                   </ul>
                 )}
               </div>
-              <BiasBar score={article.biasScore} compact />
+              <div className="flex flex-col items-end gap-1 flex-shrink-0">
+                <div className="flex items-center gap-1">
+                  <span className="text-[9px] font-bold text-indigo-500 uppercase tracking-wider w-7 text-right">C</span>
+                  <BiasBar score={article.biasScore} compact />
+                </div>
+                {article.biasScoreGrok !== undefined && (
+                  <div className="flex items-center gap-1">
+                    <span className="text-[9px] font-bold text-amber-500 uppercase tracking-wider w-7 text-right">G</span>
+                    <BiasBar score={article.biasScoreGrok} compact />
+                  </div>
+                )}
+              </div>
             </div>
           </div>
         ))}
@@ -292,7 +313,7 @@ function BattlegroundView({ stories }: { stories: StoryCluster[] }) {
 
 // ─── Bias Board ───────────────────────────────────────────────────────────────
 
-function BiasBoardView({ outlets }: { outlets: OutletScore[] }) {
+function BiasBoardView({ outlets, hasGrokData }: { outlets: OutletScore[]; hasGrokData: boolean }) {
   const sorted = [...outlets].sort((a, b) => a.currentScore - b.currentScore)
 
   return (
@@ -353,7 +374,8 @@ function BiasBoardView({ outlets }: { outlets: OutletScore[] }) {
           <span className="w-36 flex-shrink-0 text-[10px] font-semibold uppercase tracking-widest text-slate-500">Outlet — 30d avg</span>
           <span className="w-36 flex-shrink-0 text-[10px] font-semibold uppercase tracking-widest text-slate-500">Daily Reach</span>
           <span className="flex-1 text-[10px] font-semibold uppercase tracking-widest text-slate-500">Bias Score</span>
-          <span className="w-20 flex-shrink-0 text-[10px] font-semibold uppercase tracking-widest text-slate-500 text-right">Score</span>
+          <span className="w-20 flex-shrink-0 text-[10px] font-semibold uppercase tracking-widest text-indigo-500 text-right">Claude</span>
+          {hasGrokData && <span className="w-20 flex-shrink-0 text-[10px] font-semibold uppercase tracking-widest text-amber-500 text-right">Grok</span>}
           <span className="w-20 flex-shrink-0 text-[10px] font-semibold uppercase tracking-widest text-slate-500 text-right">Exp. Range</span>
         </div>
 
@@ -362,7 +384,8 @@ function BiasBoardView({ outlets }: { outlets: OutletScore[] }) {
           <span className="w-5 flex-shrink-0" />
           <span className="flex-1 text-[10px] font-semibold uppercase tracking-widest text-slate-500">Outlet — 30d avg</span>
           <span className="text-[10px] font-semibold uppercase tracking-widest text-slate-500">Reach</span>
-          <span className="w-14 text-[10px] font-semibold uppercase tracking-widest text-slate-500 text-right">Score</span>
+          <span className="w-14 text-[10px] font-semibold uppercase tracking-widest text-indigo-500 text-right">Claude</span>
+          {hasGrokData && <span className="w-14 text-[10px] font-semibold uppercase tracking-widest text-amber-500 text-right">Grok</span>}
         </div>
 
         <div className="divide-y divide-slate-800/60">
@@ -403,10 +426,22 @@ function BiasBoardView({ outlets }: { outlets: OutletScore[] }) {
                     <div className="text-lg font-bold font-mono tabular-nums" style={{ color: getBiasColor(outlet.currentScore) }}>
                       {fmt(outlet.currentScore)}
                     </div>
-                    <div className="text-[11px]" style={{ color: getBiasColor(outlet.currentScore) }}>
-                      {getBiasLabel(outlet.currentScore)}
-                    </div>
+                    <div className="text-[10px] text-indigo-400">Claude</div>
                   </div>
+                  {hasGrokData && (
+                    <div className="w-20 flex-shrink-0 text-right">
+                      {outlet.currentScoreGrok !== undefined ? (
+                        <>
+                          <div className="text-lg font-bold font-mono tabular-nums" style={{ color: getBiasColor(outlet.currentScoreGrok) }}>
+                            {fmt(outlet.currentScoreGrok)}
+                          </div>
+                          <div className="text-[10px] text-amber-500">Grok</div>
+                        </>
+                      ) : (
+                        <div className="text-[11px] text-slate-700">—</div>
+                      )}
+                    </div>
+                  )}
                   <div className="w-20 flex-shrink-0 text-[11px] text-slate-600 text-right">
                     {fmtRaw(outlet.expectedRange[0])} to {fmtRaw(outlet.expectedRange[1])}
                   </div>
@@ -418,7 +453,7 @@ function BiasBoardView({ outlets }: { outlets: OutletScore[] }) {
                   <span className="text-slate-600 text-xs font-mono w-5 text-right flex-shrink-0 mt-0.5">{rank + 1}</span>
                   {/* Main content */}
                   <div className="flex-1 min-w-0">
-                    {/* Name + score on one line */}
+                    {/* Name + scores on one line */}
                     <div className="flex items-start justify-between gap-2 mb-2">
                       <div>
                         <div className="font-semibold text-sm text-slate-200">{outlet.outletName}</div>
@@ -426,10 +461,21 @@ function BiasBoardView({ outlets }: { outlets: OutletScore[] }) {
                           {getBiasLabel(outlet.currentScore)}
                         </div>
                       </div>
-                      <div className="text-right flex-shrink-0">
-                        <div className="text-lg font-bold font-mono tabular-nums" style={{ color: getBiasColor(outlet.currentScore) }}>
-                          {fmt(outlet.currentScore)}
+                      <div className="flex gap-3 flex-shrink-0">
+                        <div className="text-right">
+                          <div className="text-lg font-bold font-mono tabular-nums" style={{ color: getBiasColor(outlet.currentScore) }}>
+                            {fmt(outlet.currentScore)}
+                          </div>
+                          <div className="text-[9px] text-indigo-400 uppercase tracking-wider">Claude</div>
                         </div>
+                        {hasGrokData && outlet.currentScoreGrok !== undefined && (
+                          <div className="text-right">
+                            <div className="text-lg font-bold font-mono tabular-nums" style={{ color: getBiasColor(outlet.currentScoreGrok) }}>
+                              {fmt(outlet.currentScoreGrok)}
+                            </div>
+                            <div className="text-[9px] text-amber-500 uppercase tracking-wider">Grok</div>
+                          </div>
+                        )}
                       </div>
                     </div>
                     {/* Bias bar full width */}
@@ -631,6 +677,200 @@ function TrendsView({ outlets }: { outlets: OutletScore[] }) {
   )
 }
 
+// ─── Model Wars View ─────────────────────────────────────────────────────────
+
+function ModelWarsView({ outlets }: { outlets: OutletScore[] }) {
+  type SortKey = 'outlet' | 'claude' | 'grok' | 'diff'
+  const [sortBy, setSortBy] = useState<SortKey>('diff')
+
+  const outletsWith = outlets.filter((o) => o.currentScoreGrok !== undefined)
+
+  if (outletsWith.length === 0) {
+    return (
+      <div className="text-center py-20 text-slate-500">
+        <div className="text-4xl mb-3">🤖</div>
+        <p className="font-semibold text-slate-400 mb-1">No Grok data yet</p>
+        <p className="text-sm">
+          Add <code className="bg-slate-800 px-1.5 py-0.5 rounded text-slate-300 text-xs">XAI_API_KEY</code> to your
+          environment and run the pipeline to enable Claude vs Grok comparison.
+        </p>
+      </div>
+    )
+  }
+
+  const rows = outletsWith.map((o) => ({
+    ...o,
+    diff: Math.round((o.currentScoreGrok! - o.currentScore) * 10) / 10,
+    absDiff: Math.abs(Math.round((o.currentScoreGrok! - o.currentScore) * 10) / 10),
+  }))
+
+  const sorted = [...rows].sort((a, b) => {
+    if (sortBy === 'outlet') return a.outletName.localeCompare(b.outletName)
+    if (sortBy === 'claude') return a.currentScore - b.currentScore
+    if (sortBy === 'grok') return a.currentScoreGrok! - b.currentScoreGrok!
+    return b.absDiff - a.absDiff // default: most divergent first
+  })
+
+  const strongCount = rows.filter((r) => r.absDiff < 0.5).length
+  const moderateCount = rows.filter((r) => r.absDiff >= 0.5 && r.absDiff < 1.5).length
+  const divergentCount = rows.filter((r) => r.absDiff >= 1.5).length
+  const avgDiff = rows.reduce((s, r) => s + r.absDiff, 0) / rows.length
+
+  function SortBtn({ id, label }: { id: SortKey; label: string }) {
+    return (
+      <button
+        onClick={() => setSortBy(id)}
+        className={`px-2.5 py-1 rounded text-xs font-semibold transition-colors ${
+          sortBy === id ? 'bg-slate-700 text-slate-100' : 'text-slate-500 hover:text-slate-300'
+        }`}
+      >
+        {label}
+      </button>
+    )
+  }
+
+  return (
+    <div className="space-y-4">
+      {/* Summary cards */}
+      <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+        <div className="bg-slate-900 border border-slate-800 rounded-xl p-4">
+          <div className="text-xs text-slate-500 mb-1">Avg Divergence</div>
+          <div className="text-2xl font-bold font-mono text-slate-100">{avgDiff.toFixed(2)}</div>
+          <div className="text-[11px] text-slate-600">pts on 0–10 scale</div>
+        </div>
+        <div className="bg-slate-900 border border-green-900/40 rounded-xl p-4">
+          <div className="text-xs text-green-500 mb-1">● Strong Agreement</div>
+          <div className="text-2xl font-bold font-mono text-green-400">{strongCount}</div>
+          <div className="text-[11px] text-slate-600">outlets · Δ &lt; 0.5</div>
+        </div>
+        <div className="bg-slate-900 border border-amber-900/40 rounded-xl p-4">
+          <div className="text-xs text-amber-500 mb-1">◐ Moderate Gap</div>
+          <div className="text-2xl font-bold font-mono text-amber-400">{moderateCount}</div>
+          <div className="text-[11px] text-slate-600">outlets · Δ 0.5–1.5</div>
+        </div>
+        <div className="bg-slate-900 border border-red-900/40 rounded-xl p-4">
+          <div className="text-xs text-red-500 mb-1">◯ Wide Divergence</div>
+          <div className="text-2xl font-bold font-mono text-red-400">{divergentCount}</div>
+          <div className="text-[11px] text-slate-600">outlets · Δ ≥ 1.5</div>
+        </div>
+      </div>
+
+      {/* Table */}
+      <div className="bg-slate-900 border border-slate-800 rounded-xl overflow-hidden">
+        {/* Sort controls */}
+        <div className="px-4 py-2.5 border-b border-slate-800 flex items-center gap-1 bg-slate-950/50 flex-wrap">
+          <span className="text-[10px] font-semibold uppercase tracking-widest text-slate-600 mr-2">Sort by</span>
+          <SortBtn id="diff" label="Most Divergent" />
+          <SortBtn id="claude" label="Claude Score" />
+          <SortBtn id="grok" label="Grok Score" />
+          <SortBtn id="outlet" label="Outlet A–Z" />
+        </div>
+
+        {/* Header */}
+        <div className="hidden sm:grid grid-cols-[1.5rem_1fr_5rem_5rem_5rem_5rem] px-4 py-2 border-b border-slate-800 bg-slate-950/30 gap-4 items-center">
+          <span />
+          <span className="text-[10px] font-semibold uppercase tracking-widest text-slate-500">Outlet</span>
+          <span className="text-[10px] font-semibold uppercase tracking-widest text-indigo-500 text-center">Claude</span>
+          <span className="text-[10px] font-semibold uppercase tracking-widest text-amber-500 text-center">Grok</span>
+          <span className="text-[10px] font-semibold uppercase tracking-widest text-slate-500 text-center">Δ Diff</span>
+          <span className="text-[10px] font-semibold uppercase tracking-widest text-slate-500 text-center">Agreement</span>
+        </div>
+
+        <div className="divide-y divide-slate-800/60">
+          {sorted.map((outlet, i) => {
+            const agreeColor = outlet.absDiff < 0.5 ? '#22c55e' : outlet.absDiff < 1.5 ? '#f59e0b' : '#ef4444'
+            const agreeLabel = outlet.absDiff < 0.5 ? 'Strong' : outlet.absDiff < 1.5 ? 'Moderate' : 'Wide'
+            const diffSign = outlet.diff >= 0 ? '+' : ''
+            const diffLabel = outlet.diff > 0 ? 'Grok leans right' : outlet.diff < 0 ? 'Grok leans left' : 'Identical'
+
+            return (
+              <div key={outlet.outletId} className="hover:bg-slate-800/30 transition-colors">
+                {/* Desktop */}
+                <div className="hidden sm:grid grid-cols-[1.5rem_1fr_5rem_5rem_5rem_5rem] px-4 py-3 gap-4 items-center">
+                  <span className="text-slate-600 text-sm font-mono text-right">{i + 1}</span>
+                  <div>
+                    <div className="font-semibold text-sm text-slate-200">{outlet.outletName}</div>
+                    <div className="text-[11px] text-slate-500">{outlet.articleCount} articles</div>
+                  </div>
+                  <div className="text-center">
+                    <div className="text-base font-bold font-mono" style={{ color: getBiasColor(outlet.currentScore) }}>
+                      {fmt(outlet.currentScore)}
+                    </div>
+                    <div className="text-[10px] text-indigo-400">{getBiasLabel(outlet.currentScore)}</div>
+                  </div>
+                  <div className="text-center">
+                    <div className="text-base font-bold font-mono" style={{ color: getBiasColor(outlet.currentScoreGrok!) }}>
+                      {fmt(outlet.currentScoreGrok!)}
+                    </div>
+                    <div className="text-[10px] text-amber-500">{getBiasLabel(outlet.currentScoreGrok!)}</div>
+                  </div>
+                  <div className="text-center">
+                    <div className="text-base font-bold font-mono tabular-nums" style={{ color: agreeColor }}>
+                      {diffSign}{outlet.diff.toFixed(1)}
+                    </div>
+                    <div className="text-[10px] text-slate-600">{outlet.diff !== 0 ? diffLabel : ''}</div>
+                  </div>
+                  <div className="text-center">
+                    <span
+                      className="inline-block px-2 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wide"
+                      style={{ color: agreeColor, backgroundColor: `${agreeColor}20`, border: `1px solid ${agreeColor}40` }}
+                    >
+                      {agreeLabel}
+                    </span>
+                  </div>
+                </div>
+
+                {/* Mobile */}
+                <div className="sm:hidden px-3 py-3">
+                  <div className="flex items-center justify-between mb-2">
+                    <div>
+                      <span className="text-slate-600 text-xs font-mono mr-2">{i + 1}</span>
+                      <span className="font-semibold text-sm text-slate-200">{outlet.outletName}</span>
+                    </div>
+                    <span
+                      className="text-[10px] font-bold px-2 py-0.5 rounded-full"
+                      style={{ color: agreeColor, backgroundColor: `${agreeColor}20` }}
+                    >
+                      Δ {diffSign}{outlet.diff.toFixed(1)}
+                    </span>
+                  </div>
+                  <div className="flex gap-4">
+                    <div>
+                      <div className="text-[10px] text-indigo-400 mb-0.5">Claude</div>
+                      <div className="font-bold font-mono text-sm" style={{ color: getBiasColor(outlet.currentScore) }}>
+                        {fmt(outlet.currentScore)}
+                      </div>
+                    </div>
+                    <div>
+                      <div className="text-[10px] text-amber-500 mb-0.5">Grok</div>
+                      <div className="font-bold font-mono text-sm" style={{ color: getBiasColor(outlet.currentScoreGrok!) }}>
+                        {fmt(outlet.currentScoreGrok!)}
+                      </div>
+                    </div>
+                    <div className="ml-auto text-right">
+                      <div className="text-[10px] text-slate-600 mb-0.5">Agreement</div>
+                      <div className="text-sm font-semibold" style={{ color: agreeColor }}>{agreeLabel}</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            )
+          })}
+        </div>
+      </div>
+
+      {/* Explanation */}
+      <div className="bg-slate-900 border border-slate-800 rounded-xl p-4 text-xs text-slate-500 leading-relaxed">
+        <span className="font-semibold text-slate-400">About this comparison: </span>
+        Claude and Grok independently score the same headlines for political language bias using an identical
+        rubric (0 = Far Left, 10 = Far Right). Clustering is done by Claude; Grok then re-scores each article
+        without seeing Claude&apos;s scores. Δ shows how much Grok diverges from Claude — positive means Grok
+        rated the outlet more right-leaning.
+      </div>
+    </div>
+  )
+}
+
 // ─── Main App ─────────────────────────────────────────────────────────────────
 
 interface Props {
@@ -669,10 +909,13 @@ export default function SpinDetectorApp({ initialStories, initialOutlets, initia
     }
   }
 
+  const hasGrokData = outlets.some((o) => o.currentScoreGrok !== undefined)
+
   const tabs: { id: Tab; label: string; icon: string }[] = [
     { id: 'battleground', label: 'Battleground', icon: '⚔️' },
     { id: 'biasboard', label: 'Bias Board', icon: '📊' },
     { id: 'trends', label: '30-Day Trends', icon: '📈' },
+    { id: 'modelwars', label: 'Model Wars', icon: '⚖️' },
   ]
 
   const leftCount = outlets.filter((o) => o.currentScore < 4.5).length   // < −0.5 in display scale
@@ -783,8 +1026,9 @@ export default function SpinDetectorApp({ initialStories, initialOutlets, initia
       {/* Content */}
       <main className="max-w-5xl mx-auto px-4 py-6">
         {activeTab === 'battleground' && <BattlegroundView stories={stories} />}
-        {activeTab === 'biasboard' && <BiasBoardView outlets={outlets} />}
+        {activeTab === 'biasboard' && <BiasBoardView outlets={outlets} hasGrokData={hasGrokData} />}
         {activeTab === 'trends' && <TrendsView outlets={outlets} />}
+        {activeTab === 'modelwars' && <ModelWarsView outlets={outlets} />}
       </main>
 
       {/* Disclaimer footer */}

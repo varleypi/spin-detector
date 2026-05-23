@@ -38,6 +38,8 @@ async function upsertArticles(supabase, scoredArticles, date) {
     pub_date: a.pubDate ? new Date(a.pubDate).toISOString() : null,
     bias_score: a.biasScore,
     bias_signals: a.biasSignals,
+    bias_score_grok: a.biasScoreGrok ?? null,
+    bias_signals_grok: a.biasSignalsGrok ?? null,
   }))
 
   // Deduplicate rows by conflict key before upserting — Claude can return duplicate headlines
@@ -90,12 +92,20 @@ function aggregateOutletScores(scoredArticles, date) {
   const groups = {}
   for (const a of scoredArticles) {
     if (!groups[a.outletId]) groups[a.outletId] = []
-    groups[a.outletId].push(a.biasScore)
+    groups[a.outletId].push(a)
   }
 
-  return Object.entries(groups).map(([outletId, scores]) => {
+  return Object.entries(groups).map(([outletId, articles]) => {
+    const scores = articles.map((a) => a.biasScore)
     const avg = scores.reduce((s, x) => s + x, 0) / scores.length
     const variance = scores.reduce((s, x) => s + Math.pow(x - avg, 2), 0) / scores.length
+
+    // Grok averages — only from articles that have Grok scores
+    const grokScores = articles.map((a) => a.biasScoreGrok).filter((s) => s !== undefined && s !== null)
+    const avgGrok = grokScores.length > 0
+      ? grokScores.reduce((s, x) => s + x, 0) / grokScores.length
+      : null
+
     const cfg = OUTLETS[outletId]
     return {
       date,
@@ -103,6 +113,7 @@ function aggregateOutletScores(scoredArticles, date) {
       outlet_name: cfg?.name ?? outletId,
       abbreviation: cfg?.abbr ?? outletId.toUpperCase(),
       avg_score: Math.round(avg * 100) / 100,
+      avg_score_grok: avgGrok !== null ? Math.round(avgGrok * 100) / 100 : null,
       article_count: scores.length,
       std_deviation: Math.round(Math.sqrt(variance) * 100) / 100,
       expected_range: cfg?.expectedRange ?? [0, 10],
@@ -159,6 +170,8 @@ function writeJsonFallback({ scoredArticles, clusters, date }) {
           url: a.url,
           biasScore: a.biasScore,
           biasSignals: a.biasSignals,
+          biasScoreGrok: a.biasScoreGrok ?? null,
+          biasSignalsGrok: a.biasSignalsGrok ?? null,
           pubDate: a.pubDate ?? new Date().toISOString(),
           clusterId: c.clusterId,
         }))
@@ -174,6 +187,7 @@ function writeJsonFallback({ scoredArticles, clusters, date }) {
       outletName: row.outlet_name,
       abbreviation: row.abbreviation,
       currentScore: row.avg_score,
+      currentScoreGrok: row.avg_score_grok ?? undefined,
       articleCount: row.article_count,
       expectedRange: row.expected_range,
     }))

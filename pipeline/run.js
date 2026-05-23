@@ -21,6 +21,7 @@ const { clusterAndScore } = require('./cluster')
 const { storeResults, logError } = require('./store')
 
 const REQUIRED_ENV = ['ANTHROPIC_API_KEY', 'SUPABASE_URL', 'SUPABASE_SERVICE_KEY', 'NEWSAPI_KEY']
+const OPTIONAL_ENV = ['XAI_API_KEY']  // enables Grok comparison scoring
 
 async function main() {
   console.log('\n🔍 SPIN DETECTOR — NIGHTLY PIPELINE')
@@ -32,6 +33,11 @@ async function main() {
     console.error(`❌ Missing environment variables: ${missing.join(', ')}`)
     console.error('   Copy .env.example → .env.local and fill in all values.')
     process.exit(1)
+  }
+
+  const missingOptional = OPTIONAL_ENV.filter((k) => !process.env[k])
+  if (missingOptional.length > 0) {
+    console.log(`ℹ Optional env vars not set: ${missingOptional.join(', ')} (Grok scoring disabled)`)
   }
 
   const date = process.env.PIPELINE_DATE ?? new Date().toISOString().split('T')[0]
