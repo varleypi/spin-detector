@@ -6,6 +6,7 @@ import {
   Legend, ResponsiveContainer, ReferenceLine,
 } from 'recharts'
 import type { StoryCluster, OutletScore, TrendPoint, PipelineStatus } from '@/lib/types'
+import { OUTLET_META, MAX_DAILY_READERS } from '@/lib/outletMeta'
 
 type Tab = 'battleground' | 'biasboard' | 'trends'
 
@@ -318,6 +319,7 @@ function BiasBoardView({ outlets }: { outlets: OutletScore[] }) {
                       backgroundColor: `${getBiasColor(outlet.currentScore)}20`,
                       border: `1px solid ${getBiasColor(outlet.currentScore)}40`,
                     }}
+                    title={`${outlet.outletName} · ${fmt(outlet.currentScore)} · ${OUTLET_META[outlet.outletId]?.readerLabel ?? '?'} daily ${OUTLET_META[outlet.outletId]?.readerType === 'tv' ? 'viewers' : 'readers'}`}
                   >
                     {outlet.abbreviation}
                   </div>
@@ -341,9 +343,30 @@ function BiasBoardView({ outlets }: { outlets: OutletScore[] }) {
               <span className="text-slate-600 text-sm font-mono w-5 text-right flex-shrink-0">
                 {rank + 1}
               </span>
-              <div className="w-24 flex-shrink-0">
+              <div className="w-32 flex-shrink-0">
                 <div className="font-semibold text-sm text-slate-200">{outlet.outletName}</div>
                 <div className="text-[11px] text-slate-500">{outlet.articleCount} articles (30d)</div>
+                {(() => {
+                  const meta = OUTLET_META[outlet.outletId]
+                  if (!meta) return null
+                  const pct = (meta.dailyReaders / MAX_DAILY_READERS) * 100
+                  return (
+                    <div className="mt-1" title={meta.readerNote}>
+                      <div className="flex items-center gap-1.5">
+                        <div className="relative h-1 rounded-full bg-slate-700 flex-1">
+                          <div
+                            className="absolute left-0 top-0 h-full rounded-full bg-slate-400"
+                            style={{ width: `${pct}%` }}
+                          />
+                        </div>
+                        <span className="text-[10px] text-slate-500 font-mono whitespace-nowrap">
+                          {meta.readerLabel}
+                          <span className="text-slate-700 ml-0.5">{meta.readerType === 'tv' ? 'tv' : 'web'}</span>
+                        </span>
+                      </div>
+                    </div>
+                  )
+                })()}
               </div>
               <div className="flex-1">
                 <BiasBar score={outlet.currentScore} />
