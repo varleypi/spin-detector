@@ -33,6 +33,7 @@ jobs:
           NEWSAPI_KEY:          ${{ secrets.NEWSAPI_KEY }}
           SUPABASE_URL:         ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          XAI_API_KEY:          ${{ secrets.XAI_API_KEY }}
 
       - name: Commit latest data file
         run: |
