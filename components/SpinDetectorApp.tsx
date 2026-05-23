@@ -44,32 +44,41 @@ function fmtRaw(score: number): number {
 
 function getOutletLineColor(outletId: string): string {
   const colors: Record<string, string> = {
-    msnbc: '#3b82f6',
-    guardian: '#005689',
-    cnn: '#60a5fa',
-    cbsnews: '#004F9F',
-    washpost: '#7c3aed',
-    nytimes: '#6366f1',
-    npr: '#818cf8',
-    aljazeera: '#a78bfa',
-    bbc: '#d97706',
-    economist: '#E3120B',
-    cnbc: '#005594',
-    politico: '#f59e0b',
-    newsweek: '#CC0000',
-    forbes: '#C8102E',
-    wsj: '#004785',
-    nypost: '#f97316',
-    foxnews: '#ef4444',
-    washexaminer: '#1a3a5c',
-    dailycaller: '#dc2626',
-    breitbart: '#991b1b',
-    thefreepress: '#0d9488',
-    thehill: '#1B3D8F',
-    axios: '#E04C2F',
-    usatoday: '#009BDE',
-    nationalreview: '#C8102E',
-    thefederalist: '#1B3A6B',
+    // Blues / Indigos
+    msnbc:          '#3b82f6',  // blue-500
+    nytimes:        '#6366f1',  // indigo-500
+    thehill:        '#1d4ed8',  // blue-700
+    // Cyans / Teals
+    washpost:       '#22d3ee',  // cyan-400
+    usatoday:       '#0ea5e9',  // sky-400
+    thefreepress:   '#2dd4bf',  // teal-400
+    economist:      '#0f766e',  // teal-700
+    // Greens / Limes
+    guardian:       '#16a34a',  // green-600
+    npr:            '#84cc16',  // lime-400
+    forbes:         '#4ade80',  // green-400
+    // Yellows / Ambers
+    bbc:            '#d97706',  // amber-600
+    politico:       '#eab308',  // yellow-500
+    axios:          '#f59e0b',  // amber-500
+    // Oranges
+    cnn:            '#f97316',  // orange-500
+    nypost:         '#ea580c',  // orange-600
+    // Pinks / Fuchsias / Magentas
+    aljazeera:      '#ec4899',  // pink-500
+    cnbc:           '#c026d3',  // fuchsia-600
+    newsweek:       '#f43f5e',  // rose-500
+    // Purples / Violets
+    cbsnews:        '#7c3aed',  // violet-600
+    washexaminer:   '#9333ea',  // purple-600
+    thefederalist:  '#4c1d95',  // violet-900
+    // Reds (spread across bright → dark)
+    nationalreview: '#dc2626',  // red-600
+    foxnews:        '#ef4444',  // red-500 (brightest)
+    dailycaller:    '#be123c',  // rose-700
+    breitbart:      '#7f1d1d',  // red-900 (darkest)
+    // Dark navy for WSJ
+    wsj:            '#0369a1',  // sky-700
   }
   return colors[outletId] ?? '#94a3b8'
 }
