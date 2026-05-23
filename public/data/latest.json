@@ -1,1593 +1,1306 @@
 {
-  "date": "2026-05-22",
-  "generatedAt": "2026-05-22T12:23:37.159Z",
+  "date": "2026-05-23",
+  "generatedAt": "2026-05-23T11:15:55.766Z",
   "stories": [
     {
-      "id": "trump-anti-weaponization-fund",
-      "topicLabel": "Trump $1.8 billion compensation fund for allies",
-      "date": "2026-05-22",
+      "id": "trump-18b-fund",
+      "topicLabel": "Trump $1.8 billion anti-weaponization fund controversy",
+      "date": "2026-05-23",
       "articles": [
         {
-          "id": "msnbc-trump-anti-weaponization-fund-1",
-          "outletId": "msnbc",
-          "outletName": "MSNBC",
-          "headline": "Here’s a remedy for Trump’s self-dealing that no pardon can touch",
-          "url": "https://www.ms.now/opinion/trump-slush-fund-white-house-corruption",
-          "biasScore": 1.5,
-          "biasSignals": [
-            "'self-dealing' — charged editorial framing",
-            "prescriptive remedy framing implies wrongdoing as fact"
-          ],
-          "pubDate": "2026-05-20T22:15:28Z",
-          "clusterId": "trump-anti-weaponization-fund"
-        },
-        {
-          "id": "msnbc-trump-anti-weaponization-fund-2",
-          "outletId": "msnbc",
-          "outletName": "MSNBC",
-          "headline": "How Trump is angling to give cash to a MAGA paramilitary",
-          "url": "https://www.ms.now/opinion/how-trump-is-angling-to-give-cash-to-a-maga-paramilitary",
-          "biasScore": 1.5,
-          "biasSignals": [
-            "'MAGA paramilitary' — highly charged pejorative label",
-            "framing implies illicit cash transfer to extremists"
-          ],
-          "pubDate": "2026-05-20T21:24:49Z",
-          "clusterId": "trump-anti-weaponization-fund"
-        },
-        {
-          "id": "cnn-trump-anti-weaponization-fund-0",
-          "outletId": "cnn",
-          "outletName": "CNN",
-          "headline": "‘This is long overdue’: Jan. 6 rioters and election deniers celebrate Trump’s $1.8 billion compensation fund",
-          "url": "https://www.cnn.com/2026/05/20/politics/trump-fund-january-6-election-deniers-want-money",
-          "biasScore": 2.5,
-          "biasSignals": [
-            "'rioters and election deniers celebrate' — negative framing of recipients",
-            "leads with controversial beneficiaries to discredit fund"
-          ],
-          "pubDate": "2026-05-20T20:00:37Z",
-          "clusterId": "trump-anti-weaponization-fund"
-        },
-        {
-          "id": "msnbc-trump-anti-weaponization-fund-3",
-          "outletId": "msnbc",
-          "outletName": "MSNBC",
-          "headline": "Republicans start walking away from own plan to spend tax dollars on Trump’s ballroom",
-          "url": "https://www.ms.now/rachel-maddow-show/maddowblog/republicans-start-walking-away-from-own-plan-to-spend-tax-dollars-on-trumps-ballroom",
-          "biasScore": 2.5,
-          "biasSignals": [
-            "'Republicans start walking away' — frames GOP as retreating in shame",
-            "implies hypocrisy by linking to Trump's ballroom"
-          ],
-          "pubDate": "2026-05-20T19:54:00Z",
-          "clusterId": "trump-anti-weaponization-fund"
-        },
-        {
-          "id": "economist-trump-anti-weaponization-fund-11",
+          "id": "economist-trump-18b-fund-7",
           "outletId": "economist",
           "outletName": "The Economist",
           "headline": "Even by Trumpian standards, a $1.8bn fund for friends is bad",
           "url": "https://www.economist.com/united-states/2026/05/19/even-by-trumpian-standards-a-18bn-fund-for-friends-is-bad",
-          "biasScore": 2.5,
+          "biasScore": 3.2,
           "biasSignals": [
-            "'fund for friends is bad' — editorial condemnation in headline",
-            "'even by Trumpian standards' — sets baseline of wrongdoing"
+            "'bad' in headline — direct negative judgment of Trump policy",
+            "center-left framing, no explicit partisan language"
           ],
           "pubDate": "Tue, 19 May 2026 09:14:07 +0000",
-          "clusterId": "trump-anti-weaponization-fund"
+          "clusterId": "trump-18b-fund"
         },
         {
-          "id": "washpost-trump-anti-weaponization-fund-4",
-          "outletId": "washpost",
-          "outletName": "Washington Post",
-          "headline": "Trump’s allies are already lining up to apply to his $1.8 billion fund",
-          "url": "https://www.washingtonpost.com/politics/2026/05/21/trumps-allies-are-already-lining-up-apply-his-18-billion-fund/",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "'allies are already lining up' — mild negative framing",
-            "relatively neutral verb choice, balanced sourcing implied"
-          ],
-          "pubDate": "2026-05-21T09:00:00Z",
-          "clusterId": "trump-anti-weaponization-fund"
-        },
-        {
-          "id": "breitbart-trump-anti-weaponization-fund-9",
-          "outletId": "breitbart",
-          "outletName": "Breitbart",
-          "headline": "Blumenthal: If Dems Win Midterms We Can 'Stop' the Anti-Weaponization Fund",
-          "url": "https://www.breitbart.com/clips/2026/05/21/blumenthal-if-dems-win-midterms-we-can-stop-the-anti-weaponization-fund/",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "quotes Democrat framing fund as something to 'stop'",
-            "presents opposing political view without editorial loading"
-          ],
-          "pubDate": "Fri, 22 May 2026 02:37:26 +0000",
-          "clusterId": "trump-anti-weaponization-fund"
-        },
-        {
-          "id": "cbsnews-trump-anti-weaponization-fund-10",
-          "outletId": "cbsnews",
-          "outletName": "CBS News",
-          "headline": "Is Trump's $1.7+ billion \"anti-weaponization fund\" legal? Experts weigh in.",
-          "url": "https://www.cbsnews.com/news/trump-anti-weaponization-fund-legal-questions/",
-          "biasScore": 4.8,
-          "biasSignals": [
-            "'experts weigh in' — neutral framing, invites scrutiny",
-            "question format implies legal doubt without asserting it"
-          ],
-          "pubDate": "2026-05-21T10:00:17+00:00",
-          "clusterId": "trump-anti-weaponization-fund"
-        },
-        {
-          "id": "breitbart-trump-anti-weaponization-fund-8",
-          "outletId": "breitbart",
-          "outletName": "Breitbart",
-          "headline": "Markey: Trump's Anti-Weaponization Fund Is an 'Impeachable Offense'",
-          "url": "https://www.breitbart.com/clips/2026/05/21/markey-trumps-anti-weaponization-fund-is-an-impeachable-offense/",
-          "biasScore": 5,
-          "biasSignals": [
-            "quotes Democrat senator calling fund 'impeachable offense' without pushback",
-            "neutral attribution but frames opposition view prominently"
-          ],
-          "pubDate": "Fri, 22 May 2026 00:42:49 +0000",
-          "clusterId": "trump-anti-weaponization-fund"
-        },
-        {
-          "id": "dailycaller-trump-anti-weaponization-fund-6",
-          "outletId": "dailycaller",
-          "outletName": "Daily Caller",
-          "headline": "Republican Defies Trump, Joins Democrat To Kill Weaponization Victim Fund",
-          "url": "https://dailycaller.com/2026/05/21/republican-joins-democrat-to-end-trump-weaponization-victim-fund-brian-fitzpatrick-tom-suozzi/",
-          "biasScore": 6.5,
-          "biasSignals": [
-            "'defies Trump' — frames opposition as rebellion, not principle",
-            "neutral on fund itself but frames Democrat cooperation negatively"
-          ],
-          "pubDate": "Thu, 21 May 2026 20:50:03 +0000",
-          "clusterId": "trump-anti-weaponization-fund"
-        },
-        {
-          "id": "dailycaller-trump-anti-weaponization-fund-5",
-          "outletId": "dailycaller",
-          "outletName": "Daily Caller",
-          "headline": "ROOKE: GOP Senators Tried To Cash In On Biden Spying — Now They Don’t Want Ordinary Americans To Get Same Relief",
-          "url": "https://dailycaller.com/2026/05/21/rooke-gop-senate-weaponization-fund-john-thune-donald-trump/",
-          "biasScore": 7.5,
-          "biasSignals": [
-            "'cashed in on Biden spying' — accepts conservative framing as fact",
-            "frames GOP senators as hypocrites for denying public relief"
-          ],
-          "pubDate": "Thu, 21 May 2026 21:35:41 +0000",
-          "clusterId": "trump-anti-weaponization-fund"
-        },
-        {
-          "id": "dailycaller-trump-anti-weaponization-fund-7",
-          "outletId": "dailycaller",
-          "outletName": "Daily Caller",
-          "headline": "Democrat Candidate Spoke At Mosque Event Where Imam Prayed For Infidels To Be Killed",
-          "url": "https://dailycaller.com/2026/05/21/dem-candidate-mosque-imam-prayed-infidels-killed/",
-          "biasScore": 8.5,
-          "biasSignals": [
-            "ties Democrat candidate to extremist imam prayer — guilt by association",
-            "no qualifying context or rebuttal presented"
-          ],
-          "pubDate": "Thu, 21 May 2026 20:33:41 +0000",
-          "clusterId": "trump-anti-weaponization-fund"
-        }
-      ]
-    },
-    {
-      "id": "dnc-2024-autopsy",
-      "topicLabel": "Democrats release 2024 election loss autopsy report",
-      "date": "2026-05-22",
-      "articles": [
-        {
-          "id": "guardian-dnc-2024-autopsy-7",
-          "outletId": "guardian",
-          "outletName": "The Guardian",
-          "headline": "Ro Khanna, AOC criticize Democrats’ 2024 election postmortem for not mentioning Israel’s war in Gaza – as it happened",
-          "url": "https://www.theguardian.com/us-news/live/2026/may/21/donald-trump-ballroom-reconciliation-bill-republicans-democrats-war-powers-iran-epa-ai-latest-news-updates",
-          "biasScore": 2,
-          "biasSignals": [
-            "AOC/Ro Khanna criticism framed sympathetically as accountability",
-            "'not mentioning Israel's war' — Gaza framing sympathetic to left critics"
-          ],
-          "pubDate": "Fri, 22 May 2026 02:00:51 GMT",
-          "clusterId": "dnc-2024-autopsy"
-        },
-        {
-          "id": "guardian-dnc-2024-autopsy-6",
-          "outletId": "guardian",
-          "outletName": "The Guardian",
-          "headline": "Progressive Democrats criticize 2024 election autopsy for silence on Gaza | First Thing",
-          "url": "https://www.theguardian.com/us-news/2026/may/22/first-thing-progressive-democrats-2024-election-autopsy-silence-gaza",
-          "biasScore": 2.5,
-          "biasSignals": [
-            "'silence on Gaza' — frames omission as moral failing",
-            "progressive critics given prominent voice, sympathetic framing"
-          ],
-          "pubDate": "Fri, 22 May 2026 10:36:14 GMT",
-          "clusterId": "dnc-2024-autopsy"
-        },
-        {
-          "id": "guardian-dnc-2024-autopsy-8",
-          "outletId": "guardian",
-          "outletName": "The Guardian",
-          "headline": "Democrats belatedly publish 2024 election autopsy report: ‘It won’t meet your standards’",
-          "url": "https://www.theguardian.com/us-news/2026/may/21/democrats-2024-election-autopsy",
+          "id": "nytimes-trump-18b-fund-2",
+          "outletId": "nytimes",
+          "outletName": "NY Times",
+          "headline": "Lawsuit Argues Trump’s $1.8 Billion Fund Excludes Those He Targeted",
+          "url": "https://www.nytimes.com/2026/05/22/us/politics/common-cause-lawsuit-trump-fund.html",
           "biasScore": 3.5,
           "biasSignals": [
-            "'won't meet your standards' — preemptive self-criticism framing",
-            "mildly sympathetic to progressive dissatisfaction"
+            "'Excludes Those He Targeted' — victim framing of opponents",
+            "leads with lawsuit challenge, neutral legal language"
           ],
-          "pubDate": "Thu, 21 May 2026 18:29:53 GMT",
-          "clusterId": "dnc-2024-autopsy"
+          "pubDate": "Sat, 23 May 2026 00:21:32 +0000",
+          "clusterId": "trump-18b-fund"
         },
         {
-          "id": "nytimes-dnc-2024-autopsy-0",
-          "outletId": "nytimes",
-          "outletName": "NY Times",
-          "headline": "Poll Suggests a Possible Path Forward for Democrats",
-          "url": "https://www.nytimes.com/2026/05/22/upshot/poll-democrats-times-siena.html",
-          "biasScore": 4,
-          "biasSignals": [
-            "'Possible Path Forward' — optimistic framing for Democrats",
-            "neutral polling language, minimal ideological signaling"
-          ],
-          "pubDate": "Fri, 22 May 2026 10:39:27 +0000",
-          "clusterId": "dnc-2024-autopsy"
-        },
-        {
-          "id": "nytimes-dnc-2024-autopsy-1",
-          "outletId": "nytimes",
-          "outletName": "NY Times",
-          "headline": "Potential 2028 contenders are among those dismayed by the D.N.C. autopsy.",
-          "url": "https://www.nytimes.com/live/2026/05/21/us/dnc-report/potential-2028-contenders-are-among-those-dismayed-by-the-dnc-autopsy",
-          "biasScore": 4.2,
-          "biasSignals": [
-            "'dismayed' — emotional qualifier applied to Democratic contenders",
-            "balanced framing, focuses on intra-party tension"
-          ],
-          "pubDate": "Thu, 21 May 2026 19:54:22 +0000",
-          "clusterId": "dnc-2024-autopsy"
-        },
-        {
-          "id": "nytimes-dnc-2024-autopsy-2",
-          "outletId": "nytimes",
-          "outletName": "NY Times",
-          "headline": "5 Takeaways From the Democrats’ Autopsy of Kamala Harris’s 2024 Loss",
-          "url": "https://www.nytimes.com/2026/05/21/us/politics/dnc-election-autopsy-report-takeaways.html",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral '5 Takeaways' format, factual presentation",
-            "no ideological loading in verb choice"
-          ],
-          "pubDate": "Thu, 21 May 2026 18:39:08 +0000",
-          "clusterId": "dnc-2024-autopsy"
-        },
-        {
-          "id": "npr-dnc-2024-autopsy-3",
-          "outletId": "npr",
-          "outletName": "NPR",
-          "headline": "Takeaways from the DNC's 'autopsy' of the 2024 presidential election",
-          "url": "https://www.npr.org/2026/05/22/nx-s1-5829988/takeaways-from-the-dncs-autopsy-of-the-2024-presidential-election",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral 'takeaways' framing mirrors NYT approach",
-            "no charged language, straightforward reporting"
-          ],
-          "pubDate": "Fri, 22 May 2026 04:43:11 -0400",
-          "clusterId": "dnc-2024-autopsy"
-        },
-        {
-          "id": "washexaminer-dnc-2024-autopsy-10",
-          "outletId": "washexaminer",
-          "outletName": "Washington Examiner",
-          "headline": "First House Democrat urges DNC’s Martin to ‘move on’ after 2024 autopsy",
-          "url": "https://www.washingtonexaminer.com/news/house/4579046/marc-veasey-dnc-martin-resign-2024-autopsy/",
-          "biasScore": 6.5,
-          "biasSignals": [
-            "'move on' framing implies DNC failure is settled fact",
-            "neutral tone but framing benefits conservative narrative of Dem chaos"
-          ],
-          "pubDate": "Fri, 22 May 2026 03:04:33 +0000",
-          "clusterId": "dnc-2024-autopsy"
-        },
-        {
-          "id": "washexaminer-dnc-2024-autopsy-9",
-          "outletId": "washexaminer",
-          "outletName": "Washington Examiner",
-          "headline": "Ken Martin pressured to quit after release of incomplete DNC autopsy",
-          "url": "https://www.washingtonexaminer.com/news/campaigns/4578212/ken-martin-resign-dnc-autopsy/",
-          "biasScore": 7,
-          "biasSignals": [
-            "'pressured to quit' — frames DNC leader as under attack",
-            "'incomplete autopsy' — implies DNC engaged in cover-up"
-          ],
-          "pubDate": "Fri, 22 May 2026 11:00:00 +0000",
-          "clusterId": "dnc-2024-autopsy"
-        },
-        {
-          "id": "dailycaller-dnc-2024-autopsy-4",
-          "outletId": "dailycaller",
-          "outletName": "Daily Caller",
-          "headline": "DUKE: The DNC’s 2024 Post-Mortem Best Defined By What’s Not In It",
-          "url": "https://dailycaller.com/2026/05/22/amber-duke-unfit-to-print-dnc-2024-autopsy-biden/",
-          "biasScore": 7.5,
-          "biasSignals": [
-            "'Best Defined By What's Not In It' — frames autopsy as deceptive omission",
-            "conservative op-ed framing, skeptical of DNC honesty"
-          ],
-          "pubDate": "Fri, 22 May 2026 10:00:47 +0000",
-          "clusterId": "dnc-2024-autopsy"
-        },
-        {
-          "id": "dailycaller-dnc-2024-autopsy-5",
-          "outletId": "dailycaller",
-          "outletName": "Daily Caller",
-          "headline": "DNC’s ‘Gobbledygook’ Autopsy Doesn’t Even Mention Trump Assassination Attempts",
-          "url": "https://dailycaller.com/2026/05/21/democratic-national-committee-ken-martin-donald-trump-ryan-routh-thomas-crooks-assassination-attempts/",
-          "biasScore": 8,
-          "biasSignals": [
-            "'Gobbledygook' — contemptuous dismissal of DNC document",
-            "omission of assassination attempts framed as deliberate cover-up"
-          ],
-          "pubDate": "Thu, 21 May 2026 21:53:29 +0000",
-          "clusterId": "dnc-2024-autopsy"
-        }
-      ]
-    },
-    {
-      "id": "us-cuba-military-threat",
-      "topicLabel": "Trump threatens military action against Cuba",
-      "date": "2026-05-22",
-      "articles": [
-        {
-          "id": "aljazeera-us-cuba-military-threat-1",
-          "outletId": "aljazeera",
-          "outletName": "Al Jazeera",
-          "headline": "US raises threat of military action against Cuba",
-          "url": "https://www.aljazeera.com/news/2026/5/22/us-raises-threat-of-military-action-against-cuba?traffic_source=rss",
-          "biasScore": 4,
-          "biasSignals": [
-            "'US raises threat' — neutral but implies US aggression",
-            "Al Jazeera framing slightly skeptical of US posture"
-          ],
-          "pubDate": "Fri, 22 May 2026 07:22:58 +0000",
-          "clusterId": "us-cuba-military-threat"
-        },
-        {
-          "id": "npr-us-cuba-military-threat-0",
-          "outletId": "npr",
-          "outletName": "NPR",
-          "headline": "Rubio doubtful of diplomacy with Cuba as Trump raises new threat of military action",
-          "url": "https://www.npr.org/2026/05/22/nx-s1-5830999/rubio-diplomacy-cuba-trump-military-action",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral attribution: 'Rubio doubtful' — factual framing",
-            "'new threat' acknowledges aggressive posture without heavy loading"
-          ],
-          "pubDate": "Fri, 22 May 2026 01:23:02 -0400",
-          "clusterId": "us-cuba-military-threat"
-        },
-        {
-          "id": "guardian-us-cuba-military-threat-4",
-          "outletId": "guardian",
-          "outletName": "The Guardian",
-          "headline": "Rubio doubtful of diplomacy with Cuba as Trump renews threat of military action",
-          "url": "https://www.theguardian.com/us-news/2026/may/22/marco-rubio-doubtful-diplomacy-cuba-trump-renews-threat-military-action",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "mirrors NPR framing closely, neutral verb choice",
-            "'renews threat' — mild framing of US aggression"
-          ],
-          "pubDate": "Fri, 22 May 2026 09:29:02 GMT",
-          "clusterId": "us-cuba-military-threat"
-        },
-        {
-          "id": "cnbc-us-cuba-military-threat-5",
+          "id": "cnbc-trump-18b-fund-8",
           "outletId": "cnbc",
           "outletName": "CNBC",
-          "headline": "The Cuba situation is starting to resemble a pre-conflict playbook",
-          "url": "https://www.cnbc.com/2026/05/22/the-cuba-situation-is-starting-to-resemble-a-pre-conflict-playbook.html",
+          "headline": "New lawsuits against Trump's DOJ 'lawfare' fund",
+          "url": "https://www.cnbc.com/2026/05/22/trump-doj-fund-republicans.html",
+          "biasScore": 3.5,
+          "biasSignals": [
+            "'lawfare' in quotes — signals skepticism of Trump framing",
+            "neutral legal sourcing, factual lawsuit description"
+          ],
+          "pubDate": "Fri, 22 May 2026 21:02:52 GMT",
+          "clusterId": "trump-18b-fund"
+        },
+        {
+          "id": "msnbc-trump-18b-fund-1",
+          "outletId": "msnbc",
+          "outletName": "MSNBC",
+          "headline": "Republicans revolt over Trump’s $1.8 billion compensation fund, delaying reconciliation bill",
+          "url": "https://www.ms.now/news/republicans-revolt-trump-1-8-billion-compensation-fund-delay-reconciliation",
+          "biasScore": 3.8,
+          "biasSignals": [
+            "'revolt' and 'delaying' frame Republicans as disruptive",
+            "sympathetic to anti-Trump GOP members"
+          ],
+          "pubDate": "2026-05-21T19:56:20Z",
+          "clusterId": "trump-18b-fund"
+        },
+        {
+          "id": "nytimes-trump-18b-fund-4",
+          "outletId": "nytimes",
+          "outletName": "NY Times",
+          "headline": "G.O.P. Break With Trump Reflects Limits of Party’s Post-Jan. 6 Truce",
+          "url": "https://www.nytimes.com/2026/05/22/us/politics/republicans-congress-senate-trump.html",
+          "biasScore": 3.8,
+          "biasSignals": [
+            "'Break With Trump' frames GOP defection positively",
+            "'Post-Jan. 6 Truce' invokes insurrection as context"
+          ],
+          "pubDate": "Fri, 22 May 2026 20:29:07 +0000",
+          "clusterId": "trump-18b-fund"
+        },
+        {
+          "id": "washpost-trump-18b-fund-5",
+          "outletId": "washpost",
+          "outletName": "Washington Post",
+          "headline": "Senate in gridlock as Republicans balk at ballroom security, Trump payout fund",
+          "url": "https://www.washingtonpost.com/business/2026/05/21/trump-appears-be-losing-his-grip-senate/",
+          "biasScore": 4.2,
+          "biasSignals": [
+            "'balk' — mild negative framing of Republican hesitation",
+            "neutral description of Senate gridlock"
+          ],
+          "pubDate": "2026-05-21T18:09:02Z",
+          "clusterId": "trump-18b-fund"
+        },
+        {
+          "id": "cnn-trump-18b-fund-0",
+          "outletId": "cnn",
+          "outletName": "CNN",
+          "headline": "Republicans revolt over Trump’s $1.8 billion ‘anti-weaponization’ fund",
+          "url": "https://www.cnn.com/2026/05/21/politics/blanche-senate-republicans-anti-weaponization-fund",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "'revolt' — charged verb implying internal chaos",
+            "neutral sourcing, factual framing of GOP opposition"
+          ],
+          "pubDate": "2026-05-21T15:22:38Z",
+          "clusterId": "trump-18b-fund"
+        },
+        {
+          "id": "nytimes-trump-18b-fund-3",
+          "outletId": "nytimes",
+          "outletName": "NY Times",
+          "headline": "The D.N.C. Chairman, Trump’s $1.8 Billion Fund and More Politics News",
+          "url": "https://www.nytimes.com/2026/05/22/us/politics/dnc-chairman-ken-martin-lutnick-.html",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral aggregator framing, minimal ideological signals",
+            "balanced sourcing implied in news roundup format"
+          ],
+          "pubDate": "Fri, 22 May 2026 21:07:04 +0000",
+          "clusterId": "trump-18b-fund"
+        },
+        {
+          "id": "npr-trump-18b-fund-10",
+          "outletId": "npr",
+          "outletName": "NPR",
+          "headline": "Congress delays vote on Republican-backed ICE funding after GOP infighting",
+          "url": "https://www.npr.org/2026/05/22/nx-s1-5830311/congress-delays-vote-on-republican-backed-ice-funding-after-gop-infighting",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "'GOP infighting' — neutral description of internal conflict",
+            "factual framing, no ideological loading"
+          ],
+          "pubDate": "Fri, 22 May 2026 06:50:02 -0400",
+          "clusterId": "trump-18b-fund"
+        },
+        {
+          "id": "npr-trump-18b-fund-9",
+          "outletId": "npr",
+          "outletName": "NPR",
+          "headline": "GOP senators delay immigration funding. And, what to expect this hurricane season",
+          "url": "https://www.npr.org/2026/05/22/g-s1-123649/up-first-newsletter-gop-trump-legislation-dnc-2024-hurricane-season-predictions-abortion-rights",
           "biasScore": 4.8,
           "biasSignals": [
-            "'pre-conflict playbook' — analytical framing, not alarmist",
-            "neutral sourcing, CNBC financial-analytical perspective"
+            "neutral verb 'delay' — balanced framing of GOP infighting",
+            "paired with hurricane season — downplays political drama"
           ],
-          "pubDate": "Fri, 22 May 2026 11:36:25 GMT",
-          "clusterId": "us-cuba-military-threat"
+          "pubDate": "Fri, 22 May 2026 07:49:54 -0400",
+          "clusterId": "trump-18b-fund"
         },
         {
-          "id": "nypost-us-cuba-military-threat-2",
-          "outletId": "nypost",
-          "outletName": "NY Post",
-          "headline": "US arrests sister of powerful Cuban official over alleged ties to communist regime",
-          "url": "https://nypost.com/2026/05/22/us-news/us-arrests-adys-lastres-morera-sister-of-powerful-cuban-official-over-alleged-ties-to-communist-regime/",
-          "biasScore": 6.5,
+          "id": "foxnews-trump-18b-fund-6",
+          "outletId": "foxnews",
+          "outletName": "Fox News",
+          "headline": "Jon Stewart rages over Trump 'slush fund' for allies' legal battles as another 'F--- you troll'",
+          "url": "https://www.foxnews.com/media/jon-stewart-rages-trump-slush-fund-allies-legal-battles-another-f-troll",
+          "biasScore": 7.2,
           "biasSignals": [
-            "'alleged ties to communist regime' — frames Cuba as hostile actor",
-            "arrest framed as legitimate law enforcement action"
+            "'slush fund' — charged pejorative language for fund",
+            "Jon Stewart framing as 'F--- you troll' — oppositional"
           ],
-          "pubDate": "Fri, 22 May 2026 06:15:05 -0400",
-          "clusterId": "us-cuba-military-threat"
-        },
-        {
-          "id": "breitbart-us-cuba-military-threat-3",
-          "outletId": "breitbart",
-          "outletName": "Breitbart",
-          "headline": "Cubans Celebrate Indictment of Communist Dictator Raul Castro",
-          "url": "https://www.breitbart.com/latin-america/2026/05/21/cubans-celebrate-indictment-of-communist-dictator-raul-castro/",
-          "biasScore": 7.5,
-          "biasSignals": [
-            "'Cubans Celebrate' — frames indictment as liberation narrative",
-            "'Communist Dictator' — loaded ideological label in headline"
-          ],
-          "pubDate": "Thu, 21 May 2026 22:07:29 +0000",
-          "clusterId": "us-cuba-military-threat"
+          "pubDate": "2026-05-22T03:07:21.3939583Z",
+          "clusterId": "trump-18b-fund"
         }
       ]
     },
     {
-      "id": "trump-poland-troops-nato",
-      "topicLabel": "Trump deploys 5,000 troops to Poland, NATO implications",
-      "date": "2026-05-22",
+      "id": "tulsi-gabbard-resignation",
+      "topicLabel": "Tulsi Gabbard resigns as Director of National Intelligence",
+      "date": "2026-05-23",
       "articles": [
         {
-          "id": "aljazeera-trump-poland-troops-nato-1",
-          "outletId": "aljazeera",
-          "outletName": "Al Jazeera",
-          "headline": "US deepens European uncertainty with deployment of 5,000 troops to Poland",
-          "url": "https://www.aljazeera.com/news/2026/5/22/us-deepens-european-uncertainty-with-deployment-of-5000-troops-to-poland?traffic_source=rss",
+          "id": "guardian-tulsi-gabbard-resignation-3",
+          "outletId": "guardian",
+          "outletName": "The Guardian",
+          "headline": "US intelligence director Tulsi Gabbard leaving post after rocky tenure",
+          "url": "https://www.theguardian.com/us-news/2026/may/22/tulsi-gabbard-resignation-intelligence-director",
+          "biasScore": 3,
+          "biasSignals": [
+            "'rocky tenure' — editorial judgment embedded in news headline",
+            "sympathetic to critics of Gabbard appointment"
+          ],
+          "pubDate": "Fri, 22 May 2026 20:06:34 GMT",
+          "clusterId": "tulsi-gabbard-resignation"
+        },
+        {
+          "id": "guardian-tulsi-gabbard-resignation-1",
+          "outletId": "guardian",
+          "outletName": "The Guardian",
+          "headline": "Trump news at a glance: sidelined Tulsi Gabbard resigns as US director of national intelligence",
+          "url": "https://www.theguardian.com/us-news/2026/may/23/trump-news-at-a-glance-sidelined-tulsi-gabbard-resigns-as-us-director-of-national-intelligence",
+          "biasScore": 3.2,
+          "biasSignals": [
+            "'sidelined' — implies Gabbard was marginalized, not voluntary",
+            "progressive framing of Trump administration dynamics"
+          ],
+          "pubDate": "Sat, 23 May 2026 03:09:41 GMT",
+          "clusterId": "tulsi-gabbard-resignation"
+        },
+        {
+          "id": "guardian-tulsi-gabbard-resignation-2",
+          "outletId": "guardian",
+          "outletName": "The Guardian",
+          "headline": "The turbulent 15 months of Trump’s unlikely US intelligence director",
+          "url": "https://www.theguardian.com/us-news/2026/may/22/tulsi-gabbard-intelligence-director",
           "biasScore": 3.5,
           "biasSignals": [
-            "'deepens European uncertainty' — frames US action as destabilizing",
-            "Al Jazeera framing emphasizes European anxiety over US reliability"
+            "'turbulent' — negative characterization of Gabbard tenure",
+            "'unlikely' implies she was unqualified — left-leaning framing"
           ],
-          "pubDate": "Fri, 22 May 2026 08:51:56 +0000",
-          "clusterId": "trump-poland-troops-nato"
+          "pubDate": "Fri, 22 May 2026 22:23:32 GMT",
+          "clusterId": "tulsi-gabbard-resignation"
         },
         {
-          "id": "nytimes-trump-poland-troops-nato-0",
+          "id": "nytimes-tulsi-gabbard-resignation-0",
           "outletId": "nytimes",
           "outletName": "NY Times",
-          "headline": "Trump to Deploy 5,000 Troops to Poland, Surprising the Pentagon",
-          "url": "https://www.nytimes.com/2026/05/21/us/politics/trump-troops-poland.html",
+          "headline": "Tulsi Gabbard Resigns as Director of National Intelligence. Trump Names Aaron Lukas Acting Chief.",
+          "url": "https://www.nytimes.com/2026/05/22/us/politics/tulsi-gabbard-resigns.html",
           "biasScore": 4.5,
           "biasSignals": [
-            "'Surprising the Pentagon' — implies disorder in chain of command",
-            "neutral verb 'deploy' but surprise framing raises concern"
+            "neutral factual headline, minimal framing",
+            "names acting replacement — balanced informational content"
           ],
-          "pubDate": "Thu, 21 May 2026 23:57:22 +0000",
-          "clusterId": "trump-poland-troops-nato"
+          "pubDate": "Fri, 22 May 2026 23:14:44 +0000",
+          "clusterId": "tulsi-gabbard-resignation"
         },
         {
-          "id": "economist-trump-poland-troops-nato-4",
+          "id": "cnbc-tulsi-gabbard-resignation-5",
+          "outletId": "cnbc",
+          "outletName": "CNBC",
+          "headline": "Tulsi Gabbard resigning as Trump's intelligence chief",
+          "url": "https://www.cnbc.com/2026/05/22/tulsi-gabbard-resigns-intelligence-trump-husband.html",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral factual verb 'resigning' — balanced presentation",
+            "minimal ideological framing in headline"
+          ],
+          "pubDate": "Fri, 22 May 2026 22:05:04 GMT",
+          "clusterId": "tulsi-gabbard-resignation"
+        },
+        {
+          "id": "economist-tulsi-gabbard-resignation-4",
+          "outletId": "economist",
+          "outletName": "The Economist",
+          "headline": "Tulsi Gabbard’s exit weakens MAGA’s anti-war faction",
+          "url": "https://www.economist.com/united-states/2026/05/22/tulsi-gabbards-exit-weakens-magas-anti-war-faction",
+          "biasScore": 5.2,
+          "biasSignals": [
+            "'weakens MAGA's anti-war faction' — analytical, not charged",
+            "frames in terms of MAGA factionalism, center framing"
+          ],
+          "pubDate": "Fri, 22 May 2026 22:22:22 +0000",
+          "clusterId": "tulsi-gabbard-resignation"
+        },
+        {
+          "id": "washexaminer-tulsi-gabbard-resignation-6",
+          "outletId": "washexaminer",
+          "outletName": "Washington Examiner",
+          "headline": "Trump ally Jim Banks floats Stefanik as next intelligence chief",
+          "url": "https://www.washingtonexaminer.com/news/senate/4580223/jim-banks-stefanik-intelligence-chief/",
+          "biasScore": 6,
+          "biasSignals": [
+            "'Trump ally' — signals partisan loyalty positively",
+            "neutral reporting on succession speculation"
+          ],
+          "pubDate": "Fri, 22 May 2026 21:37:35 +0000",
+          "clusterId": "tulsi-gabbard-resignation"
+        }
+      ]
+    },
+    {
+      "id": "iran-nuclear-strikes",
+      "topicLabel": "Trump weighs Iran strikes amid ongoing nuclear talks",
+      "date": "2026-05-23",
+      "articles": [
+        {
+          "id": "guardian-iran-nuclear-strikes-8",
+          "outletId": "guardian",
+          "outletName": "The Guardian",
+          "headline": "An ever-expanding catastrophe over Iran is not inevitable. Trump can and must be stopped | Simon Tisdall",
+          "url": "https://www.theguardian.com/commentisfree/2026/may/23/ever-expanding-global-catastrophe-inevitable-donald-trump",
+          "biasScore": 1.8,
+          "biasSignals": [
+            "'catastrophe' and 'Trump must be stopped' — activist framing",
+            "opinion piece with anti-Trump urgency framing"
+          ],
+          "pubDate": "Sat, 23 May 2026 09:00:23 GMT",
+          "clusterId": "iran-nuclear-strikes"
+        },
+        {
+          "id": "guardian-iran-nuclear-strikes-7",
+          "outletId": "guardian",
+          "outletName": "The Guardian",
+          "headline": "Even if the Iran war ended today, US fuel prices aren’t likely to normalize this year",
+          "url": "https://www.theguardian.com/business/2026/may/23/iran-war-us-gas-prices-oil-fuel",
+          "biasScore": 3.5,
+          "biasSignals": [
+            "'Even if the Iran war ended' — accepts progressive war-cost framing",
+            "focuses on consumer harm — left-sympathetic economic angle"
+          ],
+          "pubDate": "Sat, 23 May 2026 11:00:25 GMT",
+          "clusterId": "iran-nuclear-strikes"
+        },
+        {
+          "id": "economist-iran-nuclear-strikes-10",
           "outletId": "economist",
           "outletName": "The Economist",
           "headline": "Drained by war with Iran, America is stalling deliveries of arms to Europe",
           "url": "https://www.economist.com/united-states/2026/05/21/drained-by-war-with-iran-america-is-stalling-deliveries-of-arms-to-europe",
-          "biasScore": 4.5,
+          "biasScore": 3.8,
           "biasSignals": [
-            "'stalling deliveries' — neutral verb, analytical framing",
-            "focuses on strategic consequences without partisan loading"
+            "'Drained by war' — implies US over-commitment, left framing",
+            "frames US arms shortage as strategic failure"
           ],
           "pubDate": "Thu, 21 May 2026 08:51:29 +0000",
-          "clusterId": "trump-poland-troops-nato"
+          "clusterId": "iran-nuclear-strikes"
         },
         {
-          "id": "cnbc-trump-poland-troops-nato-5",
-          "outletId": "cnbc",
-          "outletName": "CNBC",
-          "headline": "NATO will spend hundreds of billions of dollars on defense, says Rutte, as Trump pledges 5,000 American troops to top spender Poland",
-          "url": "https://www.cnbc.com/2026/05/22/trump-troops-poland-nato-rutte-defense-spending.html",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral financial framing — 'hundreds of billions' factual",
-            "balanced presentation of NATO spending and troop deployment"
-          ],
-          "pubDate": "Fri, 22 May 2026 11:39:54 GMT",
-          "clusterId": "trump-poland-troops-nato"
-        },
-        {
-          "id": "dailycaller-trump-poland-troops-nato-2",
-          "outletId": "dailycaller",
-          "outletName": "Daily Caller",
-          "headline": "EXCLUSIVE: European Officials Warn Trump Against Leaving NATO As US Weighs Its Own Priorities",
-          "url": "https://dailycaller.com/2026/05/21/russia-europe-allies-warn-donald-trump-threatens-nato-withdrawal/",
-          "biasScore": 6.5,
-          "biasSignals": [
-            "'EXCLUSIVE: European Officials Warn Trump' — adversarial framing",
-            "positions European concern as check on Trump unilateralism"
-          ],
-          "pubDate": "Thu, 21 May 2026 20:20:58 +0000",
-          "clusterId": "trump-poland-troops-nato"
-        },
-        {
-          "id": "dailycaller-trump-poland-troops-nato-3",
-          "outletId": "dailycaller",
-          "outletName": "Daily Caller",
-          "headline": "NATO Descends Into Circular Firing Squad As Members Fight Over Ukraine Funding",
-          "url": "https://dailycaller.com/2026/05/21/nato-fight-ukraine-funding/",
-          "biasScore": 6.5,
-          "biasSignals": [
-            "'Circular Firing Squad' — contemptuous framing of NATO allies",
-            "implies NATO disarray, favorable to skeptical conservative view"
-          ],
-          "pubDate": "Thu, 21 May 2026 20:06:43 +0000",
-          "clusterId": "trump-poland-troops-nato"
-        }
-      ]
-    },
-    {
-      "id": "iran-nuclear-diplomacy",
-      "topicLabel": "US-Iran nuclear diplomacy and peace talks progress",
-      "date": "2026-05-22",
-      "articles": [
-        {
-          "id": "aljazeera-iran-nuclear-diplomacy-1",
+          "id": "aljazeera-iran-nuclear-strikes-1",
           "outletId": "aljazeera",
           "outletName": "Al Jazeera",
-          "headline": "‘Something big taking place’: Why has Russia sent more nukes to Belarus?",
-          "url": "https://www.aljazeera.com/news/2026/5/22/too-big-a-risk-why-has-russia-sent-nuclear-warheads-to-belarus?traffic_source=rss",
-          "biasScore": 4,
+          "headline": "Iran weighs US peace proposal despite ‘deep and significant’ disagreements",
+          "url": "https://www.aljazeera.com/news/2026/5/23/iran-weighs-us-peace-proposal-despite-deep-and-significant-disagreements?traffic_source=rss",
+          "biasScore": 4.2,
           "biasSignals": [
-            "'Something big taking place' — creates tension without partisanship",
-            "focus on Russia-Belarus nuclear moves, not US framing"
+            "Iran given agency — 'weighs' proposal, not threatened",
+            "balanced framing acknowledging disagreements"
           ],
-          "pubDate": "Fri, 22 May 2026 11:06:17 +0000",
-          "clusterId": "iran-nuclear-diplomacy"
+          "pubDate": "Sat, 23 May 2026 08:16:38 +0000",
+          "clusterId": "iran-nuclear-strikes"
         },
         {
-          "id": "guardian-iran-nuclear-diplomacy-5",
-          "outletId": "guardian",
-          "outletName": "The Guardian",
-          "headline": "House Republicans cancel vote on war powers resolution to end US war in Iran",
-          "url": "https://www.theguardian.com/us-news/2026/may/21/republicans-cancel-vote-war-powers-iran",
-          "biasScore": 4,
-          "biasSignals": [
-            "neutral 'cancel vote' framing, no strong partisan signal",
-            "straightforward reporting of legislative procedural move"
-          ],
-          "pubDate": "Fri, 22 May 2026 00:34:59 GMT",
-          "clusterId": "iran-nuclear-diplomacy"
-        },
-        {
-          "id": "aljazeera-iran-nuclear-diplomacy-0",
-          "outletId": "aljazeera",
-          "outletName": "Al Jazeera",
-          "headline": "Iran’s enriched uranium stockpile: Can it be safely transferred?",
-          "url": "https://www.aljazeera.com/news/2026/5/22/irans-enriched-uranium-stockpile-can-it-be-safely-transferred?traffic_source=rss",
+          "id": "nytimes-iran-nuclear-strikes-0",
+          "outletId": "nytimes",
+          "outletName": "NY Times",
+          "headline": "Trump Weighs His Options in Carrying Out New Strikes in Iran",
+          "url": "https://www.nytimes.com/2026/05/22/us/politics/trump-iran-targets.html",
           "biasScore": 4.5,
           "biasSignals": [
-            "technical question framing, neutral analytical tone",
-            "no partisan loading in verb choice"
+            "neutral verb 'weighs' — balanced framing of military options",
+            "no ideological loading in sourcing"
           ],
-          "pubDate": "Fri, 22 May 2026 12:00:44 +0000",
-          "clusterId": "iran-nuclear-diplomacy"
+          "pubDate": "Sat, 23 May 2026 02:44:15 +0000",
+          "clusterId": "iran-nuclear-strikes"
         },
         {
-          "id": "cnbc-iran-nuclear-diplomacy-7",
-          "outletId": "cnbc",
-          "outletName": "CNBC",
-          "headline": "Iran war leaves U.S. gas prices at highest levels in nearly four years ahead of Memorial Day",
-          "url": "https://www.cnbc.com/2026/05/22/gas-price-iran-war-strait-hormuz-memorial-day.html",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral economic framing linking Iran war to gas prices",
-            "factual 'highest levels' phrasing without blame assignment"
-          ],
-          "pubDate": "Fri, 22 May 2026 12:09:40 GMT",
-          "clusterId": "iran-nuclear-diplomacy"
-        },
-        {
-          "id": "cbsnews-iran-nuclear-diplomacy-6",
+          "id": "cbsnews-iran-nuclear-strikes-9",
           "outletId": "cbsnews",
           "outletName": "CBS News",
-          "headline": "Live Updates: Iran says it's mulling latest U.S. peace proposal, Trump says he'll wait \"a couple of days\"",
-          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-latest-peace-proposal/",
+          "headline": "Live Updates: Rubio says \"slight progress\" in Iran peace talks, but rejects Strait of Hormuz \"tolling system\"",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-peace-talks-strait-of-hormuz-control/",
           "biasScore": 4.8,
           "biasSignals": [
-            "neutral live-update framing, factual quote from Trump",
-            "balanced presentation of both US and Iran positions"
+            "neutral 'slight progress' — balanced diplomatic framing",
+            "factual description of Rubio's statements"
           ],
-          "pubDate": "2026-05-21T10:46:19+00:00",
-          "clusterId": "iran-nuclear-diplomacy"
+          "pubDate": "2026-05-22T10:35:43+00:00",
+          "clusterId": "iran-nuclear-strikes"
         },
         {
-          "id": "cnbc-iran-nuclear-diplomacy-8",
-          "outletId": "cnbc",
-          "outletName": "CNBC",
-          "headline": "U.S., Iran signal peace progress — but remain at odds over enriched uranium, Strait of Hormuz tolls",
-          "url": "https://www.cnbc.com/2026/05/22/iran-war-strait-of-hormuz-tolls-trump.html",
-          "biasScore": 5,
-          "biasSignals": [
-            "'signal peace progress' — mild optimism, balanced by 'remain at odds'",
-            "neutral financial-news framing"
-          ],
-          "pubDate": "Fri, 22 May 2026 11:36:58 GMT",
-          "clusterId": "iran-nuclear-diplomacy"
-        },
-        {
-          "id": "breitbart-iran-nuclear-diplomacy-4",
+          "id": "breitbart-iran-nuclear-strikes-6",
           "outletId": "breitbart",
           "outletName": "Breitbart",
-          "headline": "Report: Iran Talks Could Resume Next Week as Washington, Tehran Trade Proposals",
-          "url": "https://www.breitbart.com/middle-east/2026/05/21/report-iran-talks-could-resume-next-week-washington-tehran-trade-proposals/",
+          "headline": "Iran Trying to Convince Oman to Join Strait of Hormuz Toll Plan",
+          "url": "https://www.breitbart.com/middle-east/2026/05/22/iran-trying-to-convince-oman-to-join-strait-of-hormuz-toll-plan/",
           "biasScore": 5.5,
           "biasSignals": [
-            "neutral 'Report' qualifier, balanced trade-proposals framing",
-            "Breitbart using relatively restrained language here"
+            "neutral factual description of Iranian strategy",
+            "minimal framing, informational headline"
           ],
-          "pubDate": "Thu, 21 May 2026 20:40:03 +0000",
-          "clusterId": "iran-nuclear-diplomacy"
+          "pubDate": "Fri, 22 May 2026 23:30:50 +0000",
+          "clusterId": "iran-nuclear-strikes"
         },
         {
-          "id": "washexaminer-iran-nuclear-diplomacy-9",
+          "id": "washexaminer-iran-nuclear-strikes-11",
           "outletId": "washexaminer",
           "outletName": "Washington Examiner",
-          "headline": "House pulls Iran war powers vote ahead of Memorial Day recess",
-          "url": "https://www.washingtonexaminer.com/news/house/4578913/house-pulls-iran-war-powers-vote-before-memorial-day-recess/",
+          "headline": "Iran closes western airspace until Monday as Trump administration mulls strikes",
+          "url": "https://www.washingtonexaminer.com/news/world/4580384/iran-airspace-closure-trump-mulls-strikes/",
           "biasScore": 5.5,
           "biasSignals": [
-            "neutral procedural framing of vote cancellation",
-            "no partisan loading, factual timing reference"
+            "neutral factual reporting on Iran airspace closure",
+            "no charged language, minimal ideological signaling"
           ],
-          "pubDate": "Thu, 21 May 2026 22:51:26 +0000",
-          "clusterId": "iran-nuclear-diplomacy"
+          "pubDate": "Fri, 22 May 2026 23:44:52 +0000",
+          "clusterId": "iran-nuclear-strikes"
         },
         {
-          "id": "dailycaller-iran-nuclear-diplomacy-3",
-          "outletId": "dailycaller",
-          "outletName": "Daily Caller",
-          "headline": "US Reportedly Used More Interceptors To Defend Israel In Iran War, Than Israel Did Itself",
-          "url": "https://dailycaller.com/2026/05/21/us-military-missiles-israel-operation-epic-fury-report/",
-          "biasScore": 6.5,
+          "id": "nypost-iran-nuclear-strikes-3",
+          "outletId": "nypost",
+          "outletName": "NY Post",
+          "headline": "Magnitude 6.0 earthquake strikes Hawaii’s Big Island; USGS assessing Kilauea volcano",
+          "url": "https://nypost.com/2026/05/23/us-news/magnitude-6-earthquake-strikes-hawaiis-big-island/",
+          "biasScore": 6.2,
           "biasSignals": [
-            "frames US as carrying disproportionate burden for Israel",
-            "conservative framing emphasizing American sacrifice"
+            "focuses on Iranian threats, pro-negotiation framing for Trump",
+            "conservative outlet framing Iran as threatening party"
           ],
-          "pubDate": "Thu, 21 May 2026 21:00:02 +0000",
-          "clusterId": "iran-nuclear-diplomacy"
+          "pubDate": "Sat, 23 May 2026 05:46:13 -0400",
+          "clusterId": "iran-nuclear-strikes"
         },
         {
-          "id": "foxnews-iran-nuclear-diplomacy-2",
+          "id": "breitbart-iran-nuclear-strikes-4",
+          "outletId": "breitbart",
+          "outletName": "Breitbart",
+          "headline": "Marco Rubio Hints at Progress in Iran Talks as Qatar and Pakistan Push U.S. Proposal",
+          "url": "https://www.breitbart.com/middle-east/2026/05/22/marco-rubio-hints-at-progress-in-iran-talks-as-qatar-and-pakistan-push-u-s-proposal/",
+          "biasScore": 6.8,
+          "biasSignals": [
+            "'Hints at Progress' — favorable framing of Rubio/Trump diplomacy",
+            "neutral description but leads with US-positive development"
+          ],
+          "pubDate": "Sat, 23 May 2026 01:25:50 +0000",
+          "clusterId": "iran-nuclear-strikes"
+        },
+        {
+          "id": "breitbart-iran-nuclear-strikes-5",
+          "outletId": "breitbart",
+          "outletName": "Breitbart",
+          "headline": "Bolton: Six Weeks of Ceasefire Has 'Benefited Only Iran'",
+          "url": "https://www.breitbart.com/clips/2026/05/22/bolton-six-weeks-of-ceasefire-has-benefited-only-iran/",
+          "biasScore": 7.2,
+          "biasSignals": [
+            "Bolton framing — ceasefire 'benefited only Iran' — hawkish",
+            "right-leaning source cited approvingly"
+          ],
+          "pubDate": "Fri, 22 May 2026 20:19:53 +0000",
+          "clusterId": "iran-nuclear-strikes"
+        },
+        {
+          "id": "foxnews-iran-nuclear-strikes-2",
           "outletId": "foxnews",
           "outletName": "Fox News",
-          "headline": "Terrifying fact of Iran war is America is no longer safe from this new threat",
-          "url": "https://www.foxnews.com/opinion/terrifying-fact-iran-war-america-longer-safe-new-threat",
-          "biasScore": 8.5,
+          "headline": "Tehran issues threats as Trump pushes for deal",
+          "url": "https://www.foxnews.com/live-news/trump-iran-war-israel-may-21",
+          "biasScore": 7.5,
           "biasSignals": [
-            "'Terrifying fact' — extreme fear-based framing",
-            "'America is no longer safe' — alarmist, charged language"
+            "'Tehran issues threats' — frames Iran as aggressor",
+            "Trump framed as deal-maker, not warmonger"
           ],
-          "pubDate": "2026-05-21T09:22:33.2076065Z",
-          "clusterId": "iran-nuclear-diplomacy"
+          "pubDate": "2026-05-21T18:07:20.3913564Z",
+          "clusterId": "iran-nuclear-strikes"
         }
       ]
     },
     {
-      "id": "gop-primary-results",
-      "topicLabel": "Republican primary elections and Trump's grip on GOP",
-      "date": "2026-05-22",
+      "id": "trump-troops-poland",
+      "topicLabel": "Trump announces 5,000 additional troops to Poland",
+      "date": "2026-05-23",
       "articles": [
         {
-          "id": "msnbc-gop-primary-results-0",
-          "outletId": "msnbc",
-          "outletName": "MSNBC",
-          "headline": "Trump’s GOP primary victories could spell general election headaches",
-          "url": "https://www.ms.now/opinion/trump-gop-primary-paxton-texas",
-          "biasScore": 3,
+          "id": "cnn-trump-troops-poland-0",
+          "outletId": "cnn",
+          "outletName": "CNN",
+          "headline": "Trump says he’s sending 5,000 troops to Poland, deepening confusion over US military deployments to Europe",
+          "url": "https://www.cnn.com/2026/05/22/politics/trump-poland-troops-nato-ukraine-hnk",
+          "biasScore": 3.5,
           "biasSignals": [
-            "'headaches' — frames Trump victories as problems for GOP",
-            "sympathetic to concerns about Republican electability"
+            "'deepening confusion' — frames Trump as causing disorder",
+            "suggests disorganization in US military policy"
           ],
-          "pubDate": "2026-05-21T10:00:00Z",
-          "clusterId": "gop-primary-results"
+          "pubDate": "2026-05-22T05:30:42Z",
+          "clusterId": "trump-troops-poland"
         },
         {
-          "id": "politico-gop-primary-results-2",
+          "id": "breitbart-trump-troops-poland-2",
+          "outletId": "breitbart",
+          "outletName": "Breitbart",
+          "headline": "President Trump Announces Deployment of Extra 5,000 Troops to NATO's Eastern Flank, Poland",
+          "url": "https://www.breitbart.com/europe/2026/05/22/trump-announces-extra-5000-troops-to-natos-eastern-flank-poland/",
+          "biasScore": 6.5,
+          "biasSignals": [
+            "'NATO's Eastern Flank' — framing emphasizes alliance strength",
+            "Trump presented as decisive, no criticism implied"
+          ],
+          "pubDate": "Fri, 22 May 2026 15:31:03 +0000",
+          "clusterId": "trump-troops-poland"
+        },
+        {
+          "id": "dailycaller-trump-troops-poland-1",
+          "outletId": "dailycaller",
+          "outletName": "Daily Caller",
+          "headline": "Trump Shores Up US Troop Count In Poland After Hegseth Move Ruffles Feathers",
+          "url": "https://dailycaller.com/2026/05/22/trump-shores-up-us-troop-count-poland-hegseth-move-ruffles-feathers/",
+          "biasScore": 7,
+          "biasSignals": [
+            "'Shores Up' — positive framing of Trump military decision",
+            "'Hegseth Move Ruffles Feathers' — minimizes prior controversy"
+          ],
+          "pubDate": "Fri, 22 May 2026 20:34:44 +0000",
+          "clusterId": "trump-troops-poland"
+        }
+      ]
+    },
+    {
+      "id": "green-card-abroad-policy",
+      "topicLabel": "Trump administration requires green card applicants to leave US",
+      "date": "2026-05-23",
+      "articles": [
+        {
+          "id": "guardian-green-card-abroad-policy-3",
+          "outletId": "guardian",
+          "outletName": "The Guardian",
+          "headline": "US green card applicants will now have to return to home countries to apply, DHS says",
+          "url": "https://www.theguardian.com/us-news/2026/may/22/green-card-applicants-trump-administration",
+          "biasScore": 3.8,
+          "biasSignals": [
+            "'have to return to home countries' — neutral but slightly impactful",
+            "Guardian framing implies hardship for applicants"
+          ],
+          "pubDate": "Fri, 22 May 2026 22:19:37 GMT",
+          "clusterId": "green-card-abroad-policy"
+        },
+        {
+          "id": "npr-green-card-abroad-policy-1",
+          "outletId": "npr",
+          "outletName": "NPR",
+          "headline": "Trump administration to force foreigners in the U.S. to apply for a green card abroad",
+          "url": "https://www.npr.org/2026/05/23/nx-s1-5832399/trump-administration-green-card-abroad",
+          "biasScore": 4,
+          "biasSignals": [
+            "'force foreigners' — mild loaded verb, slightly critical",
+            "neutral NPR framing otherwise"
+          ],
+          "pubDate": "Sat, 23 May 2026 01:11:23 -0400",
+          "clusterId": "green-card-abroad-policy"
+        },
+        {
+          "id": "nytimes-green-card-abroad-policy-0",
+          "outletId": "nytimes",
+          "outletName": "NY Times",
+          "headline": "Green Card Seekers Must Leave U.S. to Apply, Trump Administration Says",
+          "url": "https://www.nytimes.com/2026/05/22/us/politics/green-card-changes-trump.html",
+          "biasScore": 4.2,
+          "biasSignals": [
+            "'Must Leave U.S.' — neutral factual verb, minimal framing",
+            "straightforward policy description, no emotive language"
+          ],
+          "pubDate": "Sat, 23 May 2026 01:14:30 +0000",
+          "clusterId": "green-card-abroad-policy"
+        },
+        {
+          "id": "breitbart-green-card-abroad-policy-2",
+          "outletId": "breitbart",
+          "outletName": "Breitbart",
+          "headline": "Trump's Deputies Shut Legalization and Amnesty Pathway for Millions of Economic Migrants",
+          "url": "https://www.breitbart.com/economy/2026/05/22/trump-deputies-shut-legalization-pathway-for-millions-of-migrants/",
+          "biasScore": 8.5,
+          "biasSignals": [
+            "'Amnesty Pathway' and 'Economic Migrants' — right-coded language",
+            "'Shut Legalization' — frames as victory against immigration"
+          ],
+          "pubDate": "Fri, 22 May 2026 20:00:27 +0000",
+          "clusterId": "green-card-abroad-policy"
+        }
+      ]
+    },
+    {
+      "id": "epstein-investigation",
+      "topicLabel": "Epstein investigation reveals new accusers and testimony",
+      "date": "2026-05-23",
+      "articles": [
+        {
+          "id": "msnbc-epstein-investigation-1",
+          "outletId": "msnbc",
+          "outletName": "MSNBC",
+          "headline": "Sarah Kellen gave ‘most substantive’ testimony yet in Epstein probe, Comer says",
+          "url": "https://www.ms.now/news/sarah-kellen-gave-most-substantive-testimony-yet-in-epstein-probe-comer-says",
+          "biasScore": 4.2,
+          "biasSignals": [
+            "neutral factual description of testimony significance",
+            "Comer cited — right-leaning source but neutral framing"
+          ],
+          "pubDate": "2026-05-22T00:24:44Z",
+          "clusterId": "epstein-investigation"
+        },
+        {
+          "id": "cnn-epstein-investigation-0",
+          "outletId": "cnn",
+          "outletName": "CNN",
+          "headline": "Epstein’s longtime assistant accused three previously unknown abusers connected to him, Oversight chair says",
+          "url": "https://www.cnn.com/2026/05/21/politics/sarah-kellen-epstein-testimony",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral factual framing — 'accused three previously unknown'",
+            "congressional oversight framing — balanced sourcing"
+          ],
+          "pubDate": "2026-05-21T22:51:45Z",
+          "clusterId": "epstein-investigation"
+        },
+        {
+          "id": "dailycaller-epstein-investigation-2",
+          "outletId": "dailycaller",
+          "outletName": "Daily Caller",
+          "headline": "REPORT: Thames Valley Police Probe Former Prince Andrew In Relation To Epstein File Allegations",
+          "url": "https://dailycaller.com/2026/05/22/prince-andrew-mountbatten-windsor-epstein-files-sexual-misconduct-probe/",
+          "biasScore": 5.5,
+          "biasSignals": [
+            "neutral factual report framing, minimal bias signals",
+            "'Thames Valley Police Probe' — straightforward description"
+          ],
+          "pubDate": "Fri, 22 May 2026 20:24:44 +0000",
+          "clusterId": "epstein-investigation"
+        }
+      ]
+    },
+    {
+      "id": "prince-andrew-investigation",
+      "topicLabel": "British police investigate Prince Andrew over Epstein links",
+      "date": "2026-05-23",
+      "articles": [
+        {
+          "id": "cnn-prince-andrew-investigation-0",
+          "outletId": "cnn",
+          "outletName": "CNN",
+          "headline": "British police appeal for information relating to Andrew Mountbatten-Windsor investigation",
+          "url": "https://www.cnn.com/2026/05/22/uk/andrew-mountbatten-windsor-intl-hnk",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral police appeal language — factual framing",
+            "uses formal name — avoids sensationalism"
+          ],
+          "pubDate": "2026-05-22T05:25:03Z",
+          "clusterId": "prince-andrew-investigation"
+        },
+        {
+          "id": "bbc-prince-andrew-investigation-1",
+          "outletId": "bbc",
+          "outletName": "BBC",
+          "headline": "Andrew investigation police renew call for information",
+          "url": "https://www.bbc.co.uk/news/articles/c707l2jx0z4o",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral 'renew call for information' — factual framing",
+            "BBC avoids inflammatory language consistently"
+          ],
+          "pubDate": "2026-05-22T05:22:24.4418671Z",
+          "clusterId": "prince-andrew-investigation"
+        },
+        {
+          "id": "dailycaller-prince-andrew-investigation-2",
+          "outletId": "dailycaller",
+          "outletName": "Daily Caller",
+          "headline": "REPORT: Thames Valley Police Probe Former Prince Andrew In Relation To Epstein File Allegations",
+          "url": "https://dailycaller.com/2026/05/22/prince-andrew-mountbatten-windsor-epstein-files-sexual-misconduct-probe/",
+          "biasScore": 5.5,
+          "biasSignals": [
+            "REPORT label signals unverified — cautious framing",
+            "neutral description of police investigation"
+          ],
+          "pubDate": "Fri, 22 May 2026 20:24:44 +0000",
+          "clusterId": "prince-andrew-investigation"
+        }
+      ]
+    },
+    {
+      "id": "abrego-garcia-dismissal",
+      "topicLabel": "Judge dismisses criminal case against Kilmar Abrego Garcia",
+      "date": "2026-05-23",
+      "articles": [
+        {
+          "id": "cnbc-abrego-garcia-dismissal-2",
+          "outletId": "cnbc",
+          "outletName": "CNBC",
+          "headline": "Judge tosses Kilmar Abrego Garcia charges, calls Trump administration prosecution 'vindictive'",
+          "url": "https://www.cnbc.com/2026/05/22/kilmar-abrego-garcia-charges-dropped-trump-doj-case-vindictive.html",
+          "biasScore": 3,
+          "biasSignals": [
+            "'vindictive' prosecution — strongly frames Trump admin negatively",
+            "judge's language amplified to criticize administration"
+          ],
+          "pubDate": "Fri, 22 May 2026 20:37:38 GMT",
+          "clusterId": "abrego-garcia-dismissal"
+        },
+        {
+          "id": "nytimes-abrego-garcia-dismissal-0",
+          "outletId": "nytimes",
+          "outletName": "NY Times",
+          "headline": "Judge Dismisses Criminal Case Against Kilmar Armando Abrego Garcia",
+          "url": "https://www.nytimes.com/2026/05/22/us/politics/abrego-garcia-case-dismissed-trump-administration.html",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral factual headline, no loaded framing",
+            "uses full name — avoids political characterization"
+          ],
+          "pubDate": "Fri, 22 May 2026 21:47:15 +0000",
+          "clusterId": "abrego-garcia-dismissal"
+        },
+        {
+          "id": "dailycaller-abrego-garcia-dismissal-1",
+          "outletId": "dailycaller",
+          "outletName": "Daily Caller",
+          "headline": "Obama-Appointed Judge Dismisses Kilmar Abrego Garcia Charges",
+          "url": "https://dailycaller.com/2026/05/22/obama-appointed-judge-kilmar-abrego-garcia/",
+          "biasScore": 7.5,
+          "biasSignals": [
+            "'Obama-Appointed Judge' — signals partisan judicial bias",
+            "implies political motivation for dismissal"
+          ],
+          "pubDate": "Fri, 22 May 2026 19:59:22 +0000",
+          "clusterId": "abrego-garcia-dismissal"
+        }
+      ]
+    },
+    {
+      "id": "dnc-autopsy",
+      "topicLabel": "DNC releases 2024 election autopsy report",
+      "date": "2026-05-23",
+      "articles": [
+        {
+          "id": "msnbc-dnc-autopsy-0",
+          "outletId": "msnbc",
+          "outletName": "MSNBC",
+          "headline": "The DNC achieved the worst of all worlds with its 2024 autopsy",
+          "url": "https://www.ms.now/opinion/dnc-autopsy-report-2024-ken-martin-kamala-gaza",
+          "biasScore": 3.2,
+          "biasSignals": [
+            "'worst of all worlds' — harsh self-critical left framing",
+            "progressive critique of DNC institutional failures"
+          ],
+          "pubDate": "2026-05-22T10:00:00Z",
+          "clusterId": "dnc-autopsy"
+        },
+        {
+          "id": "guardian-dnc-autopsy-2",
+          "outletId": "guardian",
+          "outletName": "The Guardian",
+          "headline": "Democratic chair faces calls to quit over ‘shambles’ of election autopsy release",
+          "url": "https://www.theguardian.com/us-news/2026/may/23/dnc-chair-ken-martin-democrats-election",
+          "biasScore": 3.5,
+          "biasSignals": [
+            "'shambles' — charged negative framing of DNC process",
+            "sympathetic to progressive critics of party leadership"
+          ],
+          "pubDate": "Sat, 23 May 2026 11:00:26 GMT",
+          "clusterId": "dnc-autopsy"
+        },
+        {
+          "id": "politico-dnc-autopsy-1",
+          "outletId": "politico",
+          "outletName": "Politico",
+          "headline": "The DNC’s 2024 autopsy is out",
+          "url": "https://www.politico.com/news/2026/05/21/democratic-party-2024-autopsy-00931754",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral factual headline, no framing",
+            "straightforward news reporting"
+          ],
+          "pubDate": "2026-05-21T15:03:37+00:00",
+          "clusterId": "dnc-autopsy"
+        }
+      ]
+    },
+    {
+      "id": "colbert-farewell",
+      "topicLabel": "Stephen Colbert ends The Late Show run",
+      "date": "2026-05-23",
+      "articles": [
+        {
+          "id": "msnbc-colbert-farewell-0",
+          "outletId": "msnbc",
+          "outletName": "MSNBC",
+          "headline": "Farewell to Colbert — and an era of comedy",
+          "url": "https://www.ms.now/opinion/stephen-colbert-final-cbs-late-show-episode-trump",
+          "biasScore": 2.8,
+          "biasSignals": [
+            "nostalgic framing — Colbert as cultural era touchstone",
+            "MSNBC implicitly elevates liberal comedy figure"
+          ],
+          "pubDate": "2026-05-21T17:01:35Z",
+          "clusterId": "colbert-farewell"
+        },
+        {
+          "id": "cbsnews-colbert-farewell-4",
+          "outletId": "cbsnews",
+          "outletName": "CBS News",
+          "headline": "Stephen Colbert takes stage of \"The Late Show\" one last time: \"We were lucky enough to be here for the last 11 years\"",
+          "url": "https://www.cbsnews.com/news/stephen-colbert-the-late-show-finale/",
+          "biasScore": 3.5,
+          "biasSignals": [
+            "neutral factual recap — Colbert quote used warmly",
+            "CBS frames as cultural milestone without political charge"
+          ],
+          "pubDate": "2026-05-22T03:59:46+00:00",
+          "clusterId": "colbert-farewell"
+        },
+        {
+          "id": "washpost-colbert-farewell-1",
+          "outletId": "washpost",
+          "outletName": "Washington Post",
+          "headline": "Everything that happened on Stephen Colbert’s last episode of ‘The Late Show’",
+          "url": "https://www.washingtonpost.com/entertainment/tv/2026/05/22/stephen-colbert-late-show-finale-all-celebrity-guests-songs/",
+          "biasScore": 4,
+          "biasSignals": [
+            "neutral factual recap framing",
+            "no ideological loading in description"
+          ],
+          "pubDate": "2026-05-22T08:55:44Z",
+          "clusterId": "colbert-farewell"
+        },
+        {
+          "id": "washexaminer-colbert-farewell-5",
+          "outletId": "washexaminer",
+          "outletName": "Washington Examiner",
+          "headline": "Trump posts AI-generated video of him throwing Stephen Colbert in dumpster",
+          "url": "https://www.washingtonexaminer.com/news/white-house/4580469/trump-ai-video-stephen-colbert-dumpster/",
+          "biasScore": 6.5,
+          "biasSignals": [
+            "neutral factual description of Trump's AI video post",
+            "no critical framing despite provocative content"
+          ],
+          "pubDate": "Sat, 23 May 2026 01:41:09 +0000",
+          "clusterId": "colbert-farewell"
+        },
+        {
+          "id": "foxnews-colbert-farewell-2",
+          "outletId": "foxnews",
+          "outletName": "Fox News",
+          "headline": "White House fires back after Robert De Niro, Bruce Springsteen take Trump swipes amid Colbert's farewell week",
+          "url": "https://www.foxnews.com/entertainment/white-house-fires-back-robert-de-niro-bruce-springsteen-take-trump-swipes-amid-colberts-farewell-week",
+          "biasScore": 7,
+          "biasSignals": [
+            "'fires back' — frames White House as reactive, assertive",
+            "De Niro and Springsteen framed as Trump critics to rebut"
+          ],
+          "pubDate": "2026-05-22T00:52:19.9894973Z",
+          "clusterId": "colbert-farewell"
+        },
+        {
+          "id": "dailycaller-colbert-farewell-3",
+          "outletId": "dailycaller",
+          "outletName": "Daily Caller",
+          "headline": "Donald Trump Tosses Stephen Colbert Into A Dumpster In Edited Video",
+          "url": "https://dailycaller.com/2026/05/22/donald-trump-tosses-the-late-show-host-stephen-colbert-dumpster-ai-video/",
+          "biasScore": 8.5,
+          "biasSignals": [
+            "'Tosses into a dumpster' — celebrates Trump mocking Colbert",
+            "gleeful framing of Trump's attack on media figure"
+          ],
+          "pubDate": "Sat, 23 May 2026 01:03:23 +0000",
+          "clusterId": "colbert-farewell"
+        }
+      ]
+    },
+    {
+      "id": "chemical-leak-california",
+      "topicLabel": "California chemical leak forces mass evacuations",
+      "date": "2026-05-23",
+      "articles": [
+        {
+          "id": "guardian-chemical-leak-california-2",
+          "outletId": "guardian",
+          "outletName": "The Guardian",
+          "headline": "California: 40,000 people ordered to evacuate over chemical leak fears",
+          "url": "https://www.theguardian.com/us-news/2026/may/22/california-orange-county-chemical-tank",
+          "biasScore": 4.2,
+          "biasSignals": [
+            "neutral factual description of evacuation orders",
+            "no ideological framing applied to natural disaster"
+          ],
+          "pubDate": "Sat, 23 May 2026 06:46:43 GMT",
+          "clusterId": "chemical-leak-california"
+        },
+        {
+          "id": "aljazeera-chemical-leak-california-0",
+          "outletId": "aljazeera",
+          "outletName": "Al Jazeera",
+          "headline": "Failing chemical tank forces thousands to evacuate in Southern California",
+          "url": "https://www.aljazeera.com/news/2026/5/23/failing-chemical-tank-forces-thousands-to-evacuate-in-southern-california?traffic_source=rss",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "'Failing chemical tank' — neutral factual description",
+            "Al Jazeera framing is informational, no political loading"
+          ],
+          "pubDate": "Sat, 23 May 2026 08:24:05 +0000",
+          "clusterId": "chemical-leak-california"
+        },
+        {
+          "id": "nypost-chemical-leak-california-1",
+          "outletId": "nypost",
+          "outletName": "NY Post",
+          "headline": "Orange County chemical leak frustrating crews as evacuation zone grows",
+          "url": "https://nypost.com/2026/05/22/us-news/orange-county-chemical-leak-frustrating-crews-as-evacuation-zone-grows/",
+          "biasScore": 5,
+          "biasSignals": [
+            "'frustrating crews' — mild charged language",
+            "NY Post neutral on this story, factual framing"
+          ],
+          "pubDate": "Fri, 22 May 2026 23:42:44 -0400",
+          "clusterId": "chemical-leak-california"
+        }
+      ]
+    },
+    {
+      "id": "trump-republican-revolt",
+      "topicLabel": "Republican senators revolt against Trump's agenda",
+      "date": "2026-05-23",
+      "articles": [
+        {
+          "id": "cnn-trump-republican-revolt-0",
+          "outletId": "cnn",
+          "outletName": "CNN",
+          "headline": "Trump’s second term is increasingly about one thing: Trump",
+          "url": "https://www.cnn.com/2026/05/22/politics/trump-irs-weaponization-fund-ballroom-analysis",
+          "biasScore": 3,
+          "biasSignals": [
+            "'increasingly about one thing: Trump' — critical framing",
+            "implies narcissism — left-leaning analytical framing"
+          ],
+          "pubDate": "2026-05-22T04:01:08Z",
+          "clusterId": "trump-republican-revolt"
+        },
+        {
+          "id": "guardian-trump-republican-revolt-3",
+          "outletId": "guardian",
+          "outletName": "The Guardian",
+          "headline": "Donald Trump’s revenge tour against Republican dissenters is in full swing. Will it backfire?",
+          "url": "https://www.theguardian.com/us-news/2026/may/23/donald-trump-revenge-republicans-thomas-massie",
+          "biasScore": 3,
+          "biasSignals": [
+            "'revenge tour' — charged framing of Trump's political actions",
+            "question framing suggests backfire possibility"
+          ],
+          "pubDate": "Sat, 23 May 2026 10:00:25 GMT",
+          "clusterId": "trump-republican-revolt"
+        },
+        {
+          "id": "nytimes-trump-republican-revolt-1",
+          "outletId": "nytimes",
+          "outletName": "NY Times",
+          "headline": "Trump, Defiant After Bad Week, Pushes Ahead on Politically Unpopular Ideas",
+          "url": "https://www.nytimes.com/2026/05/23/us/politics/defiant-after-bad-week-trump-pushes-ahead-on-politically-unpopular-ideas.html",
+          "biasScore": 3.2,
+          "biasSignals": [
+            "'Defiant After Bad Week' — frames Trump as embattled",
+            "'Politically Unpopular Ideas' — editorial judgment embedded"
+          ],
+          "pubDate": "Sat, 23 May 2026 09:01:45 +0000",
+          "clusterId": "trump-republican-revolt"
+        },
+        {
+          "id": "politico-trump-republican-revolt-2",
           "outletId": "politico",
           "outletName": "Politico",
           "headline": "Trump’s grip on the party threatens his grasp of Congress",
           "url": "https://www.politico.com/news/2026/05/20/trump-revenge-midterms-00929255",
           "biasScore": 4,
           "biasSignals": [
-            "'grip threatens grasp' — analytical framing, mildly critical",
-            "neutral political analysis tone"
+            "'threatens his grasp' — frames Trump as politically vulnerable",
+            "neutral analytical framing without heavy ideological loading"
           ],
           "pubDate": "2026-05-20T09:55:00+00:00",
-          "clusterId": "gop-primary-results"
+          "clusterId": "trump-republican-revolt"
         },
         {
-          "id": "nytimes-gop-primary-results-1",
-          "outletId": "nytimes",
-          "outletName": "NY Times",
-          "headline": "In a Rarity, Republicans Stand Up to Trump",
-          "url": "https://www.nytimes.com/2026/05/21/us/politics/senate-republicans-trump.html",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "'In a Rarity' — frames Republican independence as exceptional",
-            "implies GOP normally lacks spine to oppose Trump"
-          ],
-          "pubDate": "Thu, 21 May 2026 23:46:46 +0000",
-          "clusterId": "gop-primary-results"
-        },
-        {
-          "id": "economist-gop-primary-results-9",
+          "id": "economist-trump-republican-revolt-4",
           "outletId": "economist",
           "outletName": "The Economist",
           "headline": "Donald Trump’s midterm strategy: purge the Republican Party",
           "url": "https://www.economist.com/united-states/2026/05/13/donald-trumps-midterm-strategy-purge-the-republican-party",
           "biasScore": 4.5,
           "biasSignals": [
-            "'purge' — strong verb implying authoritarian intent",
-            "analytical Economist tone moderates impact"
+            "'purge the Republican Party' — dramatic but analytical framing",
+            "neutral Economist tone with moderate ideological signal"
           ],
           "pubDate": "Wed, 13 May 2026 16:22:54 +0000",
-          "clusterId": "gop-primary-results"
+          "clusterId": "trump-republican-revolt"
+        }
+      ]
+    },
+    {
+      "id": "trump-jr-wedding",
+      "topicLabel": "Trump skipping son Donald Jr.'s wedding",
+      "date": "2026-05-23",
+      "articles": [
+        {
+          "id": "guardian-trump-jr-wedding-1",
+          "outletId": "guardian",
+          "outletName": "The Guardian",
+          "headline": "Trump says he will miss son’s wedding to stay in DC during ‘important time’",
+          "url": "https://www.theguardian.com/us-news/2026/may/21/trump-son-wedding-invite",
+          "biasScore": 4.2,
+          "biasSignals": [
+            "neutral factual framing — Trump explains his reasoning",
+            "Guardian avoids editorial judgment in this headline"
+          ],
+          "pubDate": "Fri, 22 May 2026 18:05:56 GMT",
+          "clusterId": "trump-jr-wedding"
         },
         {
-          "id": "politico-gop-primary-results-7",
-          "outletId": "politico",
-          "outletName": "Politico",
-          "headline": "Andy Barr wins Kentucky GOP Senate primary",
-          "url": "https://www.politico.com/news/2026/05/19/barr-wins-kentucky-senate-primary-00928913",
+          "id": "cnn-trump-jr-wedding-0",
+          "outletId": "cnn",
+          "outletName": "CNN",
+          "headline": "Donald Trump Jr.’s wedding will be on a small island in the Bahamas — without his father present, sources say",
+          "url": "https://www.cnn.com/2026/05/21/politics/donald-trump-jr-bettina-anderson-wedding",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral factual celebrity-political reporting",
+            "no ideological framing, informational content"
+          ],
+          "pubDate": "2026-05-22T00:02:09Z",
+          "clusterId": "trump-jr-wedding"
+        },
+        {
+          "id": "cnbc-trump-jr-wedding-2",
+          "outletId": "cnbc",
+          "outletName": "CNBC",
+          "headline": "Trump skipping wedding of son Donald Jr. to Bettina Anderson",
+          "url": "https://www.cnbc.com/2026/05/22/trump-wedding-donald-bettina-anderson-bahamas.html",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral factual headline, minimal framing",
+            "CNBC treats as news item without ideological loading"
+          ],
+          "pubDate": "Fri, 22 May 2026 21:04:00 GMT",
+          "clusterId": "trump-jr-wedding"
+        }
+      ]
+    },
+    {
+      "id": "kevin-warsh-fed",
+      "topicLabel": "Kevin Warsh sworn in as Federal Reserve chair",
+      "date": "2026-05-23",
+      "articles": [
+        {
+          "id": "guardian-kevin-warsh-fed-0",
+          "outletId": "guardian",
+          "outletName": "The Guardian",
+          "headline": "Kevin Warsh sworn in as Fed chair as Trump faces backlash over economy",
+          "url": "https://www.theguardian.com/us-news/2026/may/22/trump-not-focused-on-economy-poll",
+          "biasScore": 3.5,
+          "biasSignals": [
+            "'Trump faces backlash over economy' — ties Fed to Trump criticism",
+            "progressive framing of economic accountability"
+          ],
+          "pubDate": "Fri, 22 May 2026 21:20:04 GMT",
+          "clusterId": "kevin-warsh-fed"
+        },
+        {
+          "id": "cnbc-kevin-warsh-fed-1",
+          "outletId": "cnbc",
+          "outletName": "CNBC",
+          "headline": "Kevin Warsh's real Fed 'regime change' may happen deep inside Wall Street's plumbing",
+          "url": "https://www.cnbc.com/2026/05/22/kevin-warshs-real-fed-regime-change-may-happen-deep-inside-wall-streets-plumbing.html",
           "biasScore": 5,
           "biasSignals": [
-            "neutral factual reporting of primary outcome",
-            "no ideological loading detected"
+            "neutral financial analysis framing",
+            "CNBC uses technical language — minimal political loading"
           ],
-          "pubDate": "2026-05-19T23:04:20+00:00",
-          "clusterId": "gop-primary-results"
+          "pubDate": "Fri, 22 May 2026 18:23:49 GMT",
+          "clusterId": "kevin-warsh-fed"
+        }
+      ]
+    },
+    {
+      "id": "daylight-saving-time",
+      "topicLabel": "Trump pushes for permanent daylight saving time",
+      "date": "2026-05-23",
+      "articles": [
+        {
+          "id": "washpost-daylight-saving-time-0",
+          "outletId": "washpost",
+          "outletName": "Washington Post",
+          "headline": "Trump vows to ‘work very hard’ to enact permanent daylight saving time",
+          "url": "https://www.washingtonpost.com/politics/2026/05/22/trump-says-he-will-work-enact-permanent-daylight-saving-time/",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral factual reporting on Trump policy position",
+            "minimal framing, informational headline"
+          ],
+          "pubDate": "2026-05-22T09:00:00Z",
+          "clusterId": "daylight-saving-time"
         },
         {
-          "id": "politico-gop-primary-results-3",
+          "id": "foxnews-daylight-saving-time-1",
+          "outletId": "foxnews",
+          "outletName": "Fox News",
+          "headline": "Trump champions bid to nix clock changes by adopting permanent daylight saving time",
+          "url": "https://www.foxnews.com/politics/trump-champions-bid-nix-clock-changes-adopting-permanent-daylight-saving-time",
+          "biasScore": 6.5,
+          "biasSignals": [
+            "'Trump champions' — positive framing of Trump advocacy",
+            "Fox frames Trump as proactive policy leader"
+          ],
+          "pubDate": "2026-05-22T10:22:30.183111Z",
+          "clusterId": "daylight-saving-time"
+        }
+      ]
+    },
+    {
+      "id": "georgia-senate-primary",
+      "topicLabel": "Georgia Senate GOP primary race heads to runoff",
+      "date": "2026-05-23",
+      "articles": [
+        {
+          "id": "economist-georgia-senate-primary-2",
+          "outletId": "economist",
+          "outletName": "The Economist",
+          "headline": "Democratic primary voters chose a dicey candidate for Georgia governor",
+          "url": "https://www.economist.com/united-states/2026/05/21/democratic-primary-voters-chose-a-dicey-candidate-for-georgia-governor",
+          "biasScore": 4.8,
+          "biasSignals": [
+            "'dicey candidate' — editorial judgment on Democratic choice",
+            "analytical Economist framing, center positioning"
+          ],
+          "pubDate": "Thu, 21 May 2026 12:47:57 +0000",
+          "clusterId": "georgia-senate-primary"
+        },
+        {
+          "id": "politico-georgia-senate-primary-1",
+          "outletId": "politico",
+          "outletName": "Politico",
+          "headline": "Mike Collins and Derek Dooley head to runoff in Georgia Senate GOP race",
+          "url": "https://www.politico.com/news/2026/05/19/collins-dooley-georgia-senate-runoff-00929116",
+          "biasScore": 5,
+          "biasSignals": [
+            "neutral factual electoral reporting",
+            "no ideological loading in headline"
+          ],
+          "pubDate": "2026-05-20T03:16:29+00:00",
+          "clusterId": "georgia-senate-primary"
+        },
+        {
+          "id": "politico-georgia-senate-primary-0",
           "outletId": "politico",
           "outletName": "Politico",
           "headline": "‘Relics of the past’: The old guard of Georgia’s GOP has fallen",
           "url": "https://www.politico.com/news/2026/05/20/georgia-maga-trump-gop-00929251",
           "biasScore": 5.5,
           "biasSignals": [
-            "'Relics of the past' — dismissive label for Georgia GOP old guard",
-            "framing implies modernization as positive development"
+            "'Relics of the past' — editorial framing of GOP establishment",
+            "neutral political analysis tone overall"
           ],
           "pubDate": "2026-05-20T05:26:18+00:00",
-          "clusterId": "gop-primary-results"
-        },
-        {
-          "id": "politico-gop-primary-results-4",
-          "outletId": "politico",
-          "outletName": "Politico",
-          "headline": "Mike Collins and Derek Dooley head to runoff in Georgia Senate GOP race",
-          "url": "https://www.politico.com/news/2026/05/19/collins-dooley-georgia-senate-runoff-00929116",
-          "biasScore": 5.5,
-          "biasSignals": [
-            "neutral factual reporting of primary runoff result",
-            "no strong ideological loading"
-          ],
-          "pubDate": "2026-05-20T03:16:29+00:00",
-          "clusterId": "gop-primary-results"
-        },
-        {
-          "id": "politico-gop-primary-results-5",
-          "outletId": "politico",
-          "outletName": "Politico",
-          "headline": "Another Trump enemy falls as Brad Raffensperger loses Georgia primary",
-          "url": "https://www.politico.com/news/2026/05/19/raffensperger-loses-georgia-governor-primary-00929036",
-          "biasScore": 6,
-          "biasSignals": [
-            "'Another Trump enemy falls' — frames primary as vengeance narrative",
-            "implies Raffensperger was principled victim of Trump"
-          ],
-          "pubDate": "2026-05-20T00:39:52+00:00",
-          "clusterId": "gop-primary-results"
-        },
-        {
-          "id": "breitbart-gop-primary-results-8",
-          "outletId": "breitbart",
-          "outletName": "Breitbart",
-          "headline": "Bacon: GOP Lawmakers Upset Trump Went After 'Respected Senators'",
-          "url": "https://www.breitbart.com/clips/2026/05/21/bacon-gop-lawmakers-upset-trump-went-after-respected-senators/",
-          "biasScore": 6,
-          "biasSignals": [
-            "quotes GOP lawmakers upset with Trump — frames intra-party tension",
-            "'respected senators' framing defends targets of Trump attacks"
-          ],
-          "pubDate": "Fri, 22 May 2026 00:02:13 +0000",
-          "clusterId": "gop-primary-results"
-        },
-        {
-          "id": "politico-gop-primary-results-6",
-          "outletId": "politico",
-          "outletName": "Politico",
-          "headline": "Trump picks off Massie in Kentucky",
-          "url": "https://www.politico.com/news/2026/05/19/massie-loses-kentucky-house-primary-00928918",
-          "biasScore": 6.5,
-          "biasSignals": [
-            "'Trump picks off Massie' — aggressive hunting metaphor",
-            "frames Massie's loss as Trump's deliberate political kill"
-          ],
-          "pubDate": "2026-05-19T23:55:00+00:00",
-          "clusterId": "gop-primary-results"
-        },
-        {
-          "id": "washexaminer-gop-primary-results-10",
-          "outletId": "washexaminer",
-          "outletName": "Washington Examiner",
-          "headline": "Trump ready to declare war on Democrats after finishing GOP revenge tour",
-          "url": "https://www.washingtonexaminer.com/news/white-house/4578764/trump-war-on-democrats-gop-revenge-tour/",
-          "biasScore": 7.5,
-          "biasSignals": [
-            "'declare war on Democrats' — militaristic framing favorable to Trump",
-            "'revenge tour' framing presented approvingly"
-          ],
-          "pubDate": "Fri, 22 May 2026 10:00:00 +0000",
-          "clusterId": "gop-primary-results"
+          "clusterId": "georgia-senate-primary"
         }
       ]
     },
     {
-      "id": "democratic-primaries-georgia-pennsylvania",
-      "topicLabel": "Democratic primaries in Georgia, Pennsylvania, and Michigan",
-      "date": "2026-05-22",
+      "id": "rubio-india-quad",
+      "topicLabel": "Rubio visits India for Quad talks amid US-India tensions",
+      "date": "2026-05-23",
       "articles": [
         {
-          "id": "politico-democratic-primaries-georgia-pennsylvania-0",
-          "outletId": "politico",
-          "outletName": "Politico",
-          "headline": "Progressive firebrand Chris Rabb wins Democratic primary for the nation’s bluest House seat",
-          "url": "https://www.politico.com/news/2026/05/19/rabb-wins-pennsylvania-house-primary-00929091",
-          "biasScore": 3.5,
-          "biasSignals": [
-            "'Progressive firebrand' — heroic framing for left candidate",
-            "'nation's bluest House seat' — contextualizes as progressive stronghold"
-          ],
-          "pubDate": "2026-05-20T02:44:01+00:00",
-          "clusterId": "democratic-primaries-georgia-pennsylvania"
-        },
-        {
-          "id": "politico-democratic-primaries-georgia-pennsylvania-1",
-          "outletId": "politico",
-          "outletName": "Politico",
-          "headline": "Keisha Lance Bottoms wins Democratic nomination for governor in Georgia",
-          "url": "https://www.politico.com/news/2026/05/19/bottoms-wins-georgia-governor-primary-00929086",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral factual reporting of primary outcome",
-            "no loaded language detected"
-          ],
-          "pubDate": "2026-05-20T02:32:55+00:00",
-          "clusterId": "democratic-primaries-georgia-pennsylvania"
-        },
-        {
-          "id": "economist-democratic-primaries-georgia-pennsylvania-4",
-          "outletId": "economist",
-          "outletName": "The Economist",
-          "headline": "Michigan’s Senate primary is a fight over the future of the Democratic Party",
-          "url": "https://www.economist.com/united-states/2026/05/19/michigans-senate-primary-is-a-fight-over-the-future-of-the-democratic-party",
-          "biasScore": 4.8,
-          "biasSignals": [
-            "'fight over the future' — dramatic but neutral framing",
-            "analytical Economist tone, balanced sourcing implied"
-          ],
-          "pubDate": "Tue, 19 May 2026 13:34:10 +0000",
-          "clusterId": "democratic-primaries-georgia-pennsylvania"
-        },
-        {
-          "id": "politico-democratic-primaries-georgia-pennsylvania-2",
-          "outletId": "politico",
-          "outletName": "Politico",
-          "headline": "Shapiro-backed Brooks wins competitive Pennsylvania primary",
-          "url": "https://www.politico.com/news/2026/05/19/brooks-wins-pennsylvania-house-primary-00929052",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral factual framing of primary result",
-            "Shapiro mention adds legitimacy signal"
-          ],
-          "pubDate": "2026-05-20T01:47:39+00:00",
-          "clusterId": "democratic-primaries-georgia-pennsylvania"
-        },
-        {
-          "id": "economist-democratic-primaries-georgia-pennsylvania-3",
-          "outletId": "economist",
-          "outletName": "The Economist",
-          "headline": "Democratic primary voters chose a dicey candidate for Georgia governor",
-          "url": "https://www.economist.com/united-states/2026/05/21/democratic-primary-voters-chose-a-dicey-candidate-for-georgia-governor",
-          "biasScore": 5.5,
-          "biasSignals": [
-            "'dicey candidate' — critical assessment of Democratic choice",
-            "analytical framing, not clearly partisan"
-          ],
-          "pubDate": "Thu, 21 May 2026 12:47:57 +0000",
-          "clusterId": "democratic-primaries-georgia-pennsylvania"
-        }
-      ]
-    },
-    {
-      "id": "jack-smith-documents-prosecutor",
-      "topicLabel": "Prosecutor charged with stealing Jack Smith Trump documents",
-      "date": "2026-05-22",
-      "articles": [
-        {
-          "id": "washpost-jack-smith-documents-prosecutor-0",
-          "outletId": "washpost",
-          "outletName": "Washington Post",
-          "headline": "Prosecutor charged with stealing Jack Smith’s sealed report on Trump classified-documents case",
-          "url": "https://www.washingtonpost.com/national-security/2026/05/20/prosecutor-charged-with-stealing-jack-smiths-sealed-report-trump-classified-documents-case/",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral passive 'charged with stealing' framing",
-            "no political loading on Trump connection"
-          ],
-          "pubDate": "2026-05-20T19:34:14Z",
-          "clusterId": "jack-smith-documents-prosecutor"
-        },
-        {
-          "id": "foxnews-jack-smith-documents-prosecutor-1",
-          "outletId": "foxnews",
-          "outletName": "Fox News",
-          "headline": "Former DOJ prosecutor charged with stealing confidential Jack Smith investigation documents about Trump",
-          "url": "https://www.foxnews.com/politics/former-doj-prosecutor-charged-stealing-confidential-jack-smith-investigation-documents-trump",
-          "biasScore": 6.5,
-          "biasSignals": [
-            "'Former DOJ prosecutor' — emphasizes institutional betrayal",
-            "'confidential Jack Smith investigation documents about Trump' — frames as political intrigue"
-          ],
-          "pubDate": "2026-05-21T10:52:27.5928444Z",
-          "clusterId": "jack-smith-documents-prosecutor"
-        }
-      ]
-    },
-    {
-      "id": "ebola-outbreak-response",
-      "topicLabel": "Ebola outbreak response and US health policy",
-      "date": "2026-05-22",
-      "articles": [
-        {
-          "id": "washpost-ebola-outbreak-response-2",
-          "outletId": "washpost",
-          "outletName": "Washington Post",
-          "headline": "White House resisted letting doctor with Ebola return to U.S.",
-          "url": "https://www.washingtonpost.com/health/2026/05/20/white-house-resisted-letting-doctor-with-ebola-return-us/",
-          "biasScore": 3.5,
-          "biasSignals": [
-            "'White House resisted' — frames administration as obstinate",
-            "implies moral failure in blocking doctor's return"
-          ],
-          "pubDate": "2026-05-20T17:59:48Z",
-          "clusterId": "ebola-outbreak-response"
-        },
-        {
-          "id": "nytimes-ebola-outbreak-response-0",
+          "id": "nytimes-rubio-india-quad-0",
           "outletId": "nytimes",
           "outletName": "NY Times",
-          "headline": "U.S. Adds Security Measures at Dulles to Receive Citizens Who Have Been in Ebola Outbreak Region",
-          "url": "https://www.nytimes.com/2026/05/21/us/politics/us-entry-restrictions-ebola-outbreak.html",
+          "headline": "Trump’s Pursuit of a Partnership With China Raises Concerns in India",
+          "url": "https://www.nytimes.com/2026/05/23/us/politics/trump-rubio-india-china.html",
+          "biasScore": 4.2,
+          "biasSignals": [
+            "'Raises Concerns in India' — balanced framing of alliance tension",
+            "neutral diplomatic language throughout"
+          ],
+          "pubDate": "Sat, 23 May 2026 09:01:52 +0000",
+          "clusterId": "rubio-india-quad"
+        },
+        {
+          "id": "npr-rubio-india-quad-1",
+          "outletId": "npr",
+          "outletName": "NPR",
+          "headline": "Rubio arrives in India ahead of Quad talks as U.S. tries to reset strained ties",
+          "url": "https://www.npr.org/2026/05/23/nx-s1-5832394/rubio-arrives-india",
           "biasScore": 4.5,
           "biasSignals": [
-            "neutral factual framing of security measures",
-            "no ideological loading in headline"
+            "'reset strained ties' — neutral diplomatic framing",
+            "factual description of diplomatic mission"
           ],
-          "pubDate": "Thu, 21 May 2026 18:52:38 +0000",
-          "clusterId": "ebola-outbreak-response"
+          "pubDate": "Sat, 23 May 2026 00:31:02 -0400",
+          "clusterId": "rubio-india-quad"
         },
         {
-          "id": "washpost-ebola-outbreak-response-1",
-          "outletId": "washpost",
-          "outletName": "Washington Post",
-          "headline": "There is no Ebola vaccine for this outbreak and won’t be one soon. Here’s why.",
-          "url": "https://www.washingtonpost.com/health/2026/05/21/there-is-no-ebola-vaccine-this-outbreak-wont-be-one-soon-heres-why/",
-          "biasScore": 4.8,
-          "biasSignals": [
-            "neutral explanatory health journalism framing",
-            "no partisan signals detected"
-          ],
-          "pubDate": "2026-05-21T09:00:00Z",
-          "clusterId": "ebola-outbreak-response"
-        },
-        {
-          "id": "breitbart-ebola-outbreak-response-4",
-          "outletId": "breitbart",
-          "outletName": "Breitbart",
-          "headline": "Ebola Confirmed in Far-Flung Congolese Rebel Enclave",
-          "url": "https://www.breitbart.com/africa/2026/05/21/ebola-confirmed-far-flung-congolese-rebel-enclave/",
+          "id": "bbc-rubio-india-quad-2",
+          "outletId": "bbc",
+          "outletName": "BBC",
+          "headline": "Cuba is a national security threat to the US, Rubio says",
+          "url": "https://www.bbc.co.uk/news/articles/ckgpzwkn5jko",
           "biasScore": 5.5,
           "biasSignals": [
-            "'Far-Flung Congolese Rebel Enclave' — exotic danger framing",
-            "neutral factual reporting with mild geographic alarm signaling"
+            "neutral factual reporting of Rubio statement",
+            "BBC presents claim without editorializing"
           ],
-          "pubDate": "Thu, 21 May 2026 21:45:56 +0000",
-          "clusterId": "ebola-outbreak-response"
-        },
-        {
-          "id": "nypost-ebola-outbreak-response-3",
-          "outletId": "nypost",
-          "outletName": "NY Post",
-          "headline": "Ex-CDC chief Robert Redfield fears Ebola outbreak is going to become ‘very significant pandemic’",
-          "url": "https://nypost.com/2026/05/22/us-news/ex-centers-for-disease-control-and-prevention-chief-robert-redfield-fears-ebola-outbreak-is-going-to-become-very-significant-pandemic/",
-          "biasScore": 6.5,
-          "biasSignals": [
-            "'fears Ebola outbreak is going to become very significant pandemic'",
-            "alarmist framing, conservative ex-official given prominent credibility"
-          ],
-          "pubDate": "Fri, 22 May 2026 04:45:07 -0400",
-          "clusterId": "ebola-outbreak-response"
+          "pubDate": "2026-05-22T10:52:28.4121943Z",
+          "clusterId": "rubio-india-quad"
         }
       ]
     },
     {
-      "id": "trump-arch-washington-monument",
-      "topicLabel": "Trump administration plans 250-foot arch in Washington",
-      "date": "2026-05-22",
+      "id": "ebola-us-case",
+      "topicLabel": "US doctor contracts Ebola, US considers entry restrictions",
+      "date": "2026-05-23",
       "articles": [
         {
-          "id": "guardian-trump-arch-washington-monument-2",
-          "outletId": "guardian",
-          "outletName": "The Guardian",
-          "headline": "Designs for 250ft arch in Washington approved by panel of Trump appointees",
-          "url": "https://www.theguardian.com/us-news/2026/may/21/trump-arch-washington-dc",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "'Trump appointees' — signals potential conflict of interest",
-            "neutral verb 'approved' without editorial loading"
-          ],
-          "pubDate": "Thu, 21 May 2026 19:38:33 GMT",
-          "clusterId": "trump-arch-washington-monument"
-        },
-        {
-          "id": "washpost-trump-arch-washington-monument-0",
-          "outletId": "washpost",
-          "outletName": "Washington Post",
-          "headline": "Trump officials say they can build 250-foot arch without Congress’s okay",
-          "url": "https://www.washingtonpost.com/politics/2026/05/20/trump-officials-plan-build-arch-without-congressional-authorization/",
-          "biasScore": 5.5,
-          "biasSignals": [
-            "'Trump officials say they can build without Congress' — implies overreach",
-            "neutral verb but framing raises constitutional concern"
-          ],
-          "pubDate": "2026-05-20T20:53:29Z",
-          "clusterId": "trump-arch-washington-monument"
-        },
-        {
-          "id": "npr-trump-arch-washington-monument-1",
-          "outletId": "npr",
-          "outletName": "NPR",
-          "headline": "Trump's towering arch clears another federal hurdle, despite public pushback",
-          "url": "https://www.npr.org/2026/05/21/nx-s1-5830027/trump-arch-fine-arts-approval",
-          "biasScore": 6,
-          "biasSignals": [
-            "'clears another federal hurdle' — triumphant framing for Trump project",
-            "'despite public pushback' — downplays opposition as obstacle cleared"
-          ],
-          "pubDate": "Thu, 21 May 2026 16:49:58 -0400",
-          "clusterId": "trump-arch-washington-monument"
-        }
-      ]
-    },
-    {
-      "id": "kevin-warsh-fed-chair",
-      "topicLabel": "Kevin Warsh appointed as Federal Reserve chairman",
-      "date": "2026-05-22",
-      "articles": [
-        {
-          "id": "nytimes-kevin-warsh-fed-chair-0",
-          "outletId": "nytimes",
-          "outletName": "NY Times",
-          "headline": "Warsh to Take Charge of Fed Facing Rising Inflation Threat",
-          "url": "https://www.nytimes.com/2026/05/22/us/politics/kevin-warsh-federal-reserve-swearing-in.html",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral factual framing of appointment",
-            "'Rising Inflation Threat' adds economic context without bias"
-          ],
-          "pubDate": "Fri, 22 May 2026 09:01:51 +0000",
-          "clusterId": "kevin-warsh-fed-chair"
-        },
-        {
-          "id": "nypost-kevin-warsh-fed-chair-1",
-          "outletId": "nypost",
-          "outletName": "NY Post",
-          "headline": "How Kevin Warsh will navigate his tricky new position as Fed chairman under Trump",
-          "url": "https://nypost.com/2026/05/22/business/how-kevin-warsh-will-navigate-his-tricky-new-position-as-fed-chairman-under-trump/",
-          "biasScore": 6,
-          "biasSignals": [
-            "'tricky new position under Trump' — frames role as politically complicated",
-            "conservative-leaning framing of Fed-White House dynamic"
-          ],
-          "pubDate": "Fri, 22 May 2026 07:00:00 -0400",
-          "clusterId": "kevin-warsh-fed-chair"
-        }
-      ]
-    },
-    {
-      "id": "ice-immigration-funding-senate",
-      "topicLabel": "Senate delays ICE and border immigration funding bill",
-      "date": "2026-05-22",
-      "articles": [
-        {
-          "id": "npr-ice-immigration-funding-senate-1",
-          "outletId": "npr",
-          "outletName": "NPR",
-          "headline": "Congress delays vote on Republican-backed ICE funding after GOP infighting",
-          "url": "https://www.npr.org/2026/05/22/nx-s1-5830311/congress-delays-vote-on-republican-backed-ice-funding-after-gop-infighting",
-          "biasScore": 3.5,
-          "biasSignals": [
-            "'GOP infighting' — frames Republican dysfunction prominently",
-            "neutral 'delays vote' but internal conflict emphasized"
-          ],
-          "pubDate": "Fri, 22 May 2026 06:50:02 -0400",
-          "clusterId": "ice-immigration-funding-senate"
-        },
-        {
-          "id": "npr-ice-immigration-funding-senate-0",
-          "outletId": "npr",
-          "outletName": "NPR",
-          "headline": "GOP senators delay immigration funding. And, what to expect this hurricane season",
-          "url": "https://www.npr.org/2026/05/22/g-s1-123649/up-first-newsletter-gop-trump-legislation-dnc-2024-hurricane-season-predictions-abortion-rights",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral 'delay' framing, no charged language",
-            "paired with hurricane season — normalizing GOP inaction"
-          ],
-          "pubDate": "Fri, 22 May 2026 07:49:54 -0400",
-          "clusterId": "ice-immigration-funding-senate"
-        },
-        {
-          "id": "breitbart-ice-immigration-funding-senate-3",
-          "outletId": "breitbart",
-          "outletName": "Breitbart",
-          "headline": "Senate Abandons Trump's ICE, Border Funding Bill for Early Vacation; Thune Admits Paxton Endorsement Played Role",
-          "url": "https://www.breitbart.com/politics/2026/05/21/senate-abandons-trumps-ice-border-funding-bill-for-early-vacation-thune-admits-paxton-endorsement-played-role/",
-          "biasScore": 6.5,
-          "biasSignals": [
-            "'Abandons Trump's ICE' — frames delay as betrayal of enforcement",
-            "'Early Vacation' — contemptuous framing of Senate inaction"
-          ],
-          "pubDate": "Thu, 21 May 2026 23:47:04 +0000",
-          "clusterId": "ice-immigration-funding-senate"
-        },
-        {
-          "id": "washexaminer-ice-immigration-funding-senate-4",
-          "outletId": "washexaminer",
-          "outletName": "Washington Examiner",
-          "headline": "GOP caps turbulent week, pointing finger at White House for immigration bill blunder",
-          "url": "https://www.washingtonexaminer.com/news/senate/4578862/gop-caps-turbulent-week-points-finger-white-house-bill-blunder/",
-          "biasScore": 6.5,
-          "biasSignals": [
-            "'Pointing finger at White House' — frames GOP as blaming Trump",
-            "'immigration bill blunder' — implies White House mismanagement"
-          ],
-          "pubDate": "Fri, 22 May 2026 10:00:00 +0000",
-          "clusterId": "ice-immigration-funding-senate"
-        },
-        {
-          "id": "dailycaller-ice-immigration-funding-senate-2",
-          "outletId": "dailycaller",
-          "outletName": "Daily Caller",
-          "headline": "EXCLUSIVE: Trump Admin Closes Loophole Letting Migrants Stay In US While Awaiting Green Cards",
-          "url": "https://dailycaller.com/2026/05/22/uscis-immigration-status-loophole-joseph-edlow-zach-kahler/",
-          "biasScore": 7.5,
-          "biasSignals": [
-            "'Migrants Stay In US While Awaiting Green Cards' — frames as loophole abuse",
-            "'EXCLUSIVE' branding amplifies enforcement win framing"
-          ],
-          "pubDate": "Fri, 22 May 2026 11:30:37 +0000",
-          "clusterId": "ice-immigration-funding-senate"
-        }
-      ]
-    },
-    {
-      "id": "naacp-athlete-boycott-sec",
-      "topicLabel": "NAACP calls for Black athletes to boycott Southern schools",
-      "date": "2026-05-22",
-      "articles": [
-        {
-          "id": "msnbc-naacp-athlete-boycott-sec-0",
-          "outletId": "msnbc",
-          "outletName": "MSNBC",
-          "headline": "MAGA sees red after NAACP calls for athletes to boycott southern schools",
-          "url": "https://www.ms.now/opinion/naacp-athletes-boycott-southern-schools",
-          "biasScore": 2,
-          "biasSignals": [
-            "'MAGA sees red' — frames conservative reaction as angry overreaction",
-            "NAACP position implicitly validated, opposition mocked"
-          ],
-          "pubDate": "2026-05-20T21:51:01Z",
-          "clusterId": "naacp-athlete-boycott-sec"
-        },
-        {
-          "id": "guardian-naacp-athlete-boycott-sec-2",
-          "outletId": "guardian",
-          "outletName": "The Guardian",
-          "headline": "The NAACP’s boycott call is a wake-up moment for the American Black athlete | Howard Bryant",
-          "url": "https://www.theguardian.com/sport/2026/may/22/naacp-boycott-college-sports-black-athletes",
-          "biasScore": 2,
-          "biasSignals": [
-            "'Wake-up moment' — heroic framing of NAACP action",
-            "progressive opinion piece, athlete agency framed as moral stand"
-          ],
-          "pubDate": "Fri, 22 May 2026 12:00:02 GMT",
-          "clusterId": "naacp-athlete-boycott-sec"
-        },
-        {
-          "id": "breitbart-naacp-athlete-boycott-sec-1",
-          "outletId": "breitbart",
-          "outletName": "Breitbart",
-          "headline": "Hakeem Jeffries: We Are Calling for 'Black Athletes to Abandon SEC Schools'",
-          "url": "https://www.breitbart.com/clips/2026/05/21/hakeem-jeffries-we-are-calling-for-black-athletes-to-abandon-sec-schools/",
-          "biasScore": 6.5,
-          "biasSignals": [
-            "Jeffries quote used without sympathy or context",
-            "Breitbart framing positions boycott call as radical Democratic move"
-          ],
-          "pubDate": "Fri, 22 May 2026 02:36:16 +0000",
-          "clusterId": "naacp-athlete-boycott-sec"
-        }
-      ]
-    },
-    {
-      "id": "stephen-colbert-late-show-finale",
-      "topicLabel": "Stephen Colbert hosts final Late Show episode",
-      "date": "2026-05-22",
-      "articles": [
-        {
-          "id": "cbsnews-stephen-colbert-late-show-finale-1",
+          "id": "cbsnews-ebola-us-case-2",
           "outletId": "cbsnews",
           "outletName": "CBS News",
-          "headline": "Stephen Colbert hosts \"The Late Show\" one last time tonight as franchise ends after 33 years",
-          "url": "https://www.cbsnews.com/news/stephen-colbert-late-show-farewell/",
+          "headline": "U.S. doctor with Ebola feared he \"wasn't going to make it\" before evacuation from Congo",
+          "url": "https://www.cbsnews.com/news/us-doctor-ebola-missionary-serge-peter-stafford-update/",
+          "biasScore": 4,
+          "biasSignals": [
+            "humanizing the doctor — sympathetic framing",
+            "neutral medical narrative, no political loading"
+          ],
+          "pubDate": "2026-05-22T10:32:48+00:00",
+          "clusterId": "ebola-us-case"
+        },
+        {
+          "id": "nypost-ebola-us-case-1",
+          "outletId": "nypost",
+          "outletName": "NY Post",
+          "headline": "US doctor with Ebola in Berlin hospital not critically ill, family tests negative",
+          "url": "https://nypost.com/2026/05/23/world-news/us-doctor-peter-stafford-with-ebola-in-berlin-hospital-not-critically-ill-family-tests-negative/",
           "biasScore": 4.5,
           "biasSignals": [
-            "neutral factual framing of final broadcast",
-            "no political loading, cultural milestone framing"
+            "neutral factual medical reporting",
+            "no political framing applied to health story"
           ],
-          "pubDate": "2026-05-21T10:04:41+00:00",
-          "clusterId": "stephen-colbert-late-show-finale"
+          "pubDate": "Sat, 23 May 2026 00:22:14 -0400",
+          "clusterId": "ebola-us-case"
         },
         {
-          "id": "washexaminer-stephen-colbert-late-show-finale-2",
-          "outletId": "washexaminer",
-          "outletName": "Washington Examiner",
-          "headline": "Stephen Colbert signs off one last time: ‘Hello, Goodbye’",
-          "url": "https://www.washingtonexaminer.com/news/entertainment/4578698/stephen-colbert-signs-off-one-last-time-hello-goodbye/",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral farewell framing, quotes Colbert sign-off",
-            "no strong political loading detected"
-          ],
-          "pubDate": "Fri, 22 May 2026 05:30:51 +0000",
-          "clusterId": "stephen-colbert-late-show-finale"
-        },
-        {
-          "id": "nypost-stephen-colbert-late-show-finale-0",
-          "outletId": "nypost",
-          "outletName": "NY Post",
-          "headline": "Trump rips ‘jerk’ Stephen Colbert as ‘Late Show’ host takes his final bow: ‘Finally gone!’",
-          "url": "https://nypost.com/2026/05/22/us-news/trump-takes-victory-lap-as-stephen-colbert-wraps-up-final-late-show-episode/",
-          "biasScore": 8,
-          "biasSignals": [
-            "Trump quote 'Finally gone!' used approvingly as headline focus",
-            "'Jerk' label for Colbert — hostile framing of liberal cultural figure"
-          ],
-          "pubDate": "Fri, 22 May 2026 02:59:25 -0400",
-          "clusterId": "stephen-colbert-late-show-finale"
-        }
-      ]
-    },
-    {
-      "id": "san-diego-mosque-shooting",
-      "topicLabel": "San Diego mosque mass shooting community response",
-      "date": "2026-05-22",
-      "articles": [
-        {
-          "id": "guardian-san-diego-mosque-shooting-1",
-          "outletId": "guardian",
-          "outletName": "The Guardian",
-          "headline": "San Diego’s Muslim community picks up the pieces after mass shooting: ‘We’re just your neighbors’",
-          "url": "https://www.theguardian.com/us-news/2026/may/22/islamic-center-of-san-diego-shooting-aftermath",
-          "biasScore": 2.5,
-          "biasSignals": [
-            "'picking up the pieces' — victim-centered sympathetic framing",
-            "'We're just your neighbors' — humanizing Muslim community framing"
-          ],
-          "pubDate": "Fri, 22 May 2026 12:00:02 GMT",
-          "clusterId": "san-diego-mosque-shooting"
-        },
-        {
-          "id": "washpost-san-diego-mosque-shooting-0",
-          "outletId": "washpost",
-          "outletName": "Washington Post",
-          "headline": "San Diego mosque shooting offers a chilling echo of past killings streamed online",
-          "url": "https://www.washingtonpost.com/nation/2026/05/21/san-diego-mosque-shooting-reveals-deadly-online-blueprint-killers/",
-          "biasScore": 3,
-          "biasSignals": [
-            "'chilling echo' — emotional framing emphasizing tragedy pattern",
-            "'streamed online' — highlights radicalization angle sympathetically"
-          ],
-          "pubDate": "2026-05-21T09:00:00Z",
-          "clusterId": "san-diego-mosque-shooting"
-        }
-      ]
-    },
-    {
-      "id": "daylight-saving-time-permanent",
-      "topicLabel": "Trump backs making daylight saving time permanent",
-      "date": "2026-05-22",
-      "articles": [
-        {
-          "id": "nypost-daylight-saving-time-permanent-0",
-          "outletId": "nypost",
-          "outletName": "NY Post",
-          "headline": "House moves to make daylight saving time permanent as Trump backs ending twice-yearly clock changes",
-          "url": "https://nypost.com/2026/05/22/us-news/daylight-saving-time-could-become-permanent-under-house-bill-backed-by-trump/",
+          "id": "nytimes-ebola-us-case-0",
+          "outletId": "nytimes",
+          "outletName": "NY Times",
+          "headline": "U.S. to Block Entry to More Noncitizens Who May Have Been Exposed to Ebola",
+          "url": "https://www.nytimes.com/2026/05/22/us/politics/trump-cdc-noncitizens-ebola.html",
           "biasScore": 5.5,
           "biasSignals": [
-            "neutral factual framing of House vote and Trump position",
-            "no strong ideological loading detected"
+            "neutral factual public health policy framing",
+            "'Block Entry' — border-focused language, mild right lean"
           ],
-          "pubDate": "Fri, 22 May 2026 05:23:09 -0400",
-          "clusterId": "daylight-saving-time-permanent"
-        },
-        {
-          "id": "breitbart-daylight-saving-time-permanent-1",
-          "outletId": "breitbart",
-          "outletName": "Breitbart",
-          "headline": "Trump Calls to Make Daylight Saving Time 'Permanent'",
-          "url": "https://www.breitbart.com/environment/2026/05/21/trump-calls-make-daylight-savings-time-permanent/",
-          "biasScore": 6,
-          "biasSignals": [
-            "Trump quote used approvingly as headline",
-            "Breitbart framing positions Trump as decisive policy leader"
-          ],
-          "pubDate": "Fri, 22 May 2026 00:43:10 +0000",
-          "clusterId": "daylight-saving-time-permanent"
+          "pubDate": "Fri, 22 May 2026 23:01:16 +0000",
+          "clusterId": "ebola-us-case"
         }
       ]
     },
     {
-      "id": "vanessa-trump-breast-cancer",
-      "topicLabel": "Vanessa Trump announces breast cancer diagnosis",
-      "date": "2026-05-22",
+      "id": "trump-doj-investigations",
+      "topicLabel": "Trump DOJ investigating political opponents and allies",
+      "date": "2026-05-23",
       "articles": [
         {
-          "id": "cnn-vanessa-trump-breast-cancer-0",
-          "outletId": "cnn",
-          "outletName": "CNN",
-          "headline": "Vanessa Trump reveals she has been diagnosed with breast cancer",
-          "url": "https://www.cnn.com/2026/05/20/politics/vanessa-trump-diagnosed-breast-cancer",
+          "id": "msnbc-trump-doj-investigations-0",
+          "outletId": "msnbc",
+          "outletName": "MSNBC",
+          "headline": "JD Vance confirms DOJ investigation into yet another person Trump doesn’t like",
+          "url": "https://www.ms.now/rachel-maddow-show/maddowblog/ilhan-omar-investigation-doj-vance-trump-weaponization-fund",
+          "biasScore": 2.5,
+          "biasSignals": [
+            "'yet another person Trump doesn't like' — editorial mockery",
+            "frames DOJ as Trump's personal weapon — left framing"
+          ],
+          "pubDate": "2026-05-21T15:39:47Z",
+          "clusterId": "trump-doj-investigations"
+        },
+        {
+          "id": "economist-trump-doj-investigations-1",
+          "outletId": "economist",
+          "outletName": "The Economist",
+          "headline": "America’s new counter-terrorism strategy is a partisan polemic",
+          "url": "https://www.economist.com/united-states/2026/05/14/americas-new-counter-terrorism-strategy-is-a-partisan-polemic",
+          "biasScore": 3.5,
+          "biasSignals": [
+            "'partisan polemic' — critical of Trump counter-terrorism framing",
+            "Economist frames policy as politically motivated"
+          ],
+          "pubDate": "Thu, 14 May 2026 12:55:15 +0000",
+          "clusterId": "trump-doj-investigations"
+        }
+      ]
+    },
+    {
+      "id": "alberta-separation",
+      "topicLabel": "Alberta to hold referendum on leaving Canada",
+      "date": "2026-05-23",
+      "articles": [
+        {
+          "id": "bbc-alberta-separation-0",
+          "outletId": "bbc",
+          "outletName": "BBC",
+          "headline": "Alberta to hold referendum on whether to remain in Canada",
+          "url": "https://www.bbc.co.uk/news/articles/cvgze8n5dxko",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral factual description of referendum plans",
+            "BBC avoids political framing of separatist movement"
+          ],
+          "pubDate": "2026-05-22T01:52:22.0966434Z",
+          "clusterId": "alberta-separation"
+        },
+        {
+          "id": "cnbc-alberta-separation-1",
+          "outletId": "cnbc",
+          "outletName": "CNBC",
+          "headline": "Oil-rich Alberta to hold a vote on whether to separate from Canada",
+          "url": "https://www.cnbc.com/2026/05/22/alberta-referendum-canada-oil-sands.html",
           "biasScore": 4.8,
           "biasSignals": [
-            "neutral factual reporting of health disclosure",
-            "no ideological framing detected"
+            "'Oil-rich Alberta' — economic framing, factual descriptor",
+            "CNBC neutral financial-political analysis"
           ],
-          "pubDate": "2026-05-21T03:20:49Z",
-          "clusterId": "vanessa-trump-breast-cancer"
-        },
-        {
-          "id": "foxnews-vanessa-trump-breast-cancer-1",
-          "outletId": "foxnews",
-          "outletName": "Fox News",
-          "headline": "Vanessa Trump reveals breast cancer diagnosis in emotional statement: 'I am staying focused and hopeful'",
-          "url": "https://www.foxnews.com/lifestyle/vanessa-trump-reveals-breast-cancer-diagnosis-emotional-statement-i-am-staying-focused-hopeful",
-          "biasScore": 5.5,
-          "biasSignals": [
-            "'emotional statement' — sympathetic framing of Trump family member",
-            "inspirational quote 'focused and hopeful' ends headline positively"
-          ],
-          "pubDate": "2026-05-21T05:52:19.514651Z",
-          "clusterId": "vanessa-trump-breast-cancer"
-        }
-      ]
-    },
-    {
-      "id": "presidential-records-act-court",
-      "topicLabel": "Judge orders White House to comply with Presidential Records Act",
-      "date": "2026-05-22",
-      "articles": [
-        {
-          "id": "msnbc-presidential-records-act-court-0",
-          "outletId": "msnbc",
-          "outletName": "MSNBC",
-          "headline": "Judge orders White House staff to comply with Presidential Records Act after DOJ calls it ‘unconstitutional’",
-          "url": "https://www.ms.now/news/judge-orders-white-house-staff-to-comply-with-presidential-records-act-after-doj-calls-it-unconstitutional",
-          "biasScore": 2.5,
-          "biasSignals": [
-            "'DOJ calls it unconstitutional' — frames DOJ as opposing rule of law",
-            "judge's order framed as righteous check on White House"
-          ],
-          "pubDate": "2026-05-20T23:22:54Z",
-          "clusterId": "presidential-records-act-court"
-        },
-        {
-          "id": "nytimes-presidential-records-act-court-1",
-          "outletId": "nytimes",
-          "outletName": "NY Times",
-          "headline": "Trump Settled a Case With Himself. Was That Legal?",
-          "url": "https://www.nytimes.com/video/us/politics/100000010916107/trump-settled-a-case-with-himself-was-that-legal.html",
-          "biasScore": 3.5,
-          "biasSignals": [
-            "'Settled a Case With Himself' — framing implies self-dealing absurdity",
-            "legal question framing invites reader skepticism of Trump"
-          ],
-          "pubDate": "Thu, 21 May 2026 21:12:47 +0000",
-          "clusterId": "presidential-records-act-court"
-        }
-      ]
-    },
-    {
-      "id": "women-history-museum-bill",
-      "topicLabel": "Women's History Museum bill fails in Congress",
-      "date": "2026-05-22",
-      "articles": [
-        {
-          "id": "nytimes-women-history-museum-bill-0",
-          "outletId": "nytimes",
-          "outletName": "NY Times",
-          "headline": "Women’s Museum Bill Sinks Amid Dispute Over Trump and Trans Issues",
-          "url": "https://www.nytimes.com/2026/05/21/arts/design/womens-museum-bill-sinks-amid-dispute-over-trump-and-trans-issues.html",
-          "biasScore": 3.5,
-          "biasSignals": [
-            "'Dispute Over Trump and Trans Issues' — implies these derailed worthy cause",
-            "sinking framing implies preventable failure"
-          ],
-          "pubDate": "Fri, 22 May 2026 00:03:20 +0000",
-          "clusterId": "women-history-museum-bill"
-        },
-        {
-          "id": "washexaminer-women-history-museum-bill-1",
-          "outletId": "washexaminer",
-          "outletName": "Washington Examiner",
-          "headline": "Six Republicans join Democrats in sinking legislation to build women’s history museum",
-          "url": "https://www.washingtonexaminer.com/news/house/4578736/republicans-democrats-women-history-museum-woke/",
-          "biasScore": 5.5,
-          "biasSignals": [
-            "neutral factual reporting of vote count",
-            "no strong partisan framing detected"
-          ],
-          "pubDate": "Thu, 21 May 2026 23:43:14 +0000",
-          "clusterId": "women-history-museum-bill"
-        }
-      ]
-    },
-    {
-      "id": "rfk-preventive-care-task-force",
-      "topicLabel": "RFK Jr. fires USPSTF preventive care task force leaders",
-      "date": "2026-05-22",
-      "articles": [
-        {
-          "id": "msnbc-rfk-preventive-care-task-force-0",
-          "outletId": "msnbc",
-          "outletName": "MSNBC",
-          "headline": "RFK Jr. fires leaders of influential preventive care task force",
-          "url": "https://www.ms.now/news/rfk-jr-preventative-services-task-force",
-          "biasScore": 2.5,
-          "biasSignals": [
-            "'fires leaders of influential task force' — implies reckless dismantling",
-            "framing positions RFK Jr. as threat to public health infrastructure"
-          ],
-          "pubDate": "2026-05-21T01:20:03Z",
-          "clusterId": "rfk-preventive-care-task-force"
-        },
-        {
-          "id": "npr-rfk-preventive-care-task-force-1",
-          "outletId": "npr",
-          "outletName": "NPR",
-          "headline": "'We'll never know if he could have been saved.' The gaps in Trump's rural health fund",
-          "url": "https://www.npr.org/2026/05/22/nx-s1-5821038/rural-health-hospitals-50-billion-big-beautiful-bill-obbba",
-          "biasScore": 3,
-          "biasSignals": [
-            "'We'll never know if he could have been saved' — emotional victim framing",
-            "rural health cuts framed as personal tragedy, not policy debate"
-          ],
-          "pubDate": "Fri, 22 May 2026 05:00:00 -0400",
-          "clusterId": "rfk-preventive-care-task-force"
-        }
-      ]
-    },
-    {
-      "id": "trump-don-jr-wedding",
-      "topicLabel": "Trump says he will 'try' to attend son's wedding",
-      "date": "2026-05-22",
-      "articles": [
-        {
-          "id": "nytimes-trump-don-jr-wedding-0",
-          "outletId": "nytimes",
-          "outletName": "NY Times",
-          "headline": "Trump Says He Will ‘Try and Make’ Son Don Jr.’s Wedding, but Timing ‘Not Good’",
-          "url": "https://www.nytimes.com/2026/05/21/us/politics/trump-son-wedding-don-jr.html",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral factual reporting of Trump statement",
-            "mildly humanizing framing of father-son dynamic"
-          ],
-          "pubDate": "Thu, 21 May 2026 21:22:14 +0000",
-          "clusterId": "trump-don-jr-wedding"
-        },
-        {
-          "id": "guardian-trump-don-jr-wedding-1",
-          "outletId": "guardian",
-          "outletName": "The Guardian",
-          "headline": "Trump says he will ‘try and make’ son’s wedding, but timing is ‘not good’ for him",
-          "url": "https://www.theguardian.com/us-news/2026/may/21/trump-son-wedding-invite",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral framing, direct quote accurately reproduced",
-            "no ideological loading detected"
-          ],
-          "pubDate": "Thu, 21 May 2026 20:22:33 GMT",
-          "clusterId": "trump-don-jr-wedding"
-        }
-      ]
-    },
-    {
-      "id": "trump-cassidy-political-tensions",
-      "topicLabel": "Trump and Cassidy political feud escalates",
-      "date": "2026-05-22",
-      "articles": [
-        {
-          "id": "msnbc-trump-cassidy-political-tensions-0",
-          "outletId": "msnbc",
-          "outletName": "MSNBC",
-          "headline": "After Trump became a problem for Cassidy, Cassidy is becoming a problem for Trump",
-          "url": "https://www.ms.now/rachel-maddow-show/maddowblog/cassidy-trump-endorsement-louisiana-primary-independence",
-          "biasScore": 3,
-          "biasSignals": [
-            "chiastic framing positions Cassidy as equal threat to Trump",
-            "mildly sympathetic to Cassidy as principled actor"
-          ],
-          "pubDate": "2026-05-20T18:36:31Z",
-          "clusterId": "trump-cassidy-political-tensions"
-        },
-        {
-          "id": "dailycaller-trump-cassidy-political-tensions-1",
-          "outletId": "dailycaller",
-          "outletName": "Daily Caller",
-          "headline": "Democrats Retaliate Against Liberal Governor For Not Letting Trump Ally Tina Peters Rot In Prison",
-          "url": "https://dailycaller.com/2026/05/21/democrats-retaliate-liberal-governor-jared-polis-tina-peters-commutation-prison-2020-election-trump/",
-          "biasScore": 7.5,
-          "biasSignals": [
-            "'Retaliate' — frames Democrats as vengeful aggressors",
-            "'Tina Peters rot in prison' — emotionally charged, victim framing"
-          ],
-          "pubDate": "Thu, 21 May 2026 21:24:47 +0000",
-          "clusterId": "trump-cassidy-political-tensions"
-        }
-      ]
-    },
-    {
-      "id": "house-iran-war-powers-vote",
-      "topicLabel": "House cancels Iran war powers resolution vote",
-      "date": "2026-05-22",
-      "articles": [
-        {
-          "id": "guardian-house-iran-war-powers-vote-0",
-          "outletId": "guardian",
-          "outletName": "The Guardian",
-          "headline": "House Republicans cancel vote on war powers resolution to end US war in Iran",
-          "url": "https://www.theguardian.com/us-news/2026/may/21/republicans-cancel-vote-war-powers-iran",
-          "biasScore": 3.5,
-          "biasSignals": [
-            "'cancel vote' framing implies suppression of oversight",
-            "Guardian framing sympathetic to war powers constraint on executive"
-          ],
-          "pubDate": "Fri, 22 May 2026 00:34:59 GMT",
-          "clusterId": "house-iran-war-powers-vote"
-        },
-        {
-          "id": "washexaminer-house-iran-war-powers-vote-1",
-          "outletId": "washexaminer",
-          "outletName": "Washington Examiner",
-          "headline": "House pulls Iran war powers vote ahead of Memorial Day recess",
-          "url": "https://www.washingtonexaminer.com/news/house/4578913/house-pulls-iran-war-powers-vote-before-memorial-day-recess/",
-          "biasScore": 5.5,
-          "biasSignals": [
-            "neutral procedural framing of postponement",
-            "timing reference is factual, no partisan loading"
-          ],
-          "pubDate": "Thu, 21 May 2026 22:51:26 +0000",
-          "clusterId": "house-iran-war-powers-vote"
+          "pubDate": "Fri, 22 May 2026 10:27:34 GMT",
+          "clusterId": "alberta-separation"
         }
       ]
     }
@@ -1597,8 +1310,8 @@
       "outletId": "msnbc",
       "outletName": "MSNBC",
       "abbreviation": "MSNBC",
-      "currentScore": 2.31,
-      "articleCount": 8,
+      "currentScore": 3.3,
+      "articleCount": 5,
       "expectedRange": [
         1.5,
         3.5
@@ -1608,8 +1321,8 @@
       "outletId": "guardian",
       "outletName": "The Guardian",
       "abbreviation": "Guard",
-      "currentScore": 3.35,
-      "articleCount": 10,
+      "currentScore": 3.38,
+      "articleCount": 11,
       "expectedRange": [
         2.5,
         4
@@ -1619,73 +1332,18 @@
       "outletId": "cnn",
       "outletName": "CNN",
       "abbreviation": "CNN",
-      "currentScore": 3.65,
-      "articleCount": 2,
+      "currentScore": 4.08,
+      "articleCount": 6,
       "expectedRange": [
         2.5,
         4
       ]
     },
     {
-      "outletId": "aljazeera",
-      "outletName": "Al Jazeera",
-      "abbreviation": "AJ",
-      "currentScore": 4,
-      "articleCount": 4,
-      "expectedRange": [
-        3.5,
-        5
-      ]
-    },
-    {
-      "outletId": "nytimes",
-      "outletName": "NY Times",
-      "abbreviation": "NYT",
-      "currentScore": 4.22,
-      "articleCount": 10,
-      "expectedRange": [
-        3,
-        4.5
-      ]
-    },
-    {
-      "outletId": "washpost",
-      "outletName": "Washington Post",
-      "abbreviation": "WPost",
-      "currentScore": 4.3,
-      "articleCount": 6,
-      "expectedRange": [
-        2.8,
-        4.2
-      ]
-    },
-    {
-      "outletId": "npr",
-      "outletName": "NPR",
-      "abbreviation": "NPR",
-      "currentScore": 4.33,
-      "articleCount": 6,
-      "expectedRange": [
-        3.5,
-        4.5
-      ]
-    },
-    {
-      "outletId": "economist",
-      "outletName": "The Economist",
-      "abbreviation": "Econ",
-      "currentScore": 4.36,
-      "articleCount": 5,
-      "expectedRange": [
-        4.5,
-        6
-      ]
-    },
-    {
       "outletId": "cbsnews",
       "outletName": "CBS News",
       "abbreviation": "CBS",
-      "currentScore": 4.7,
+      "currentScore": 4.1,
       "articleCount": 3,
       "expectedRange": [
         3,
@@ -1693,65 +1351,109 @@
       ]
     },
     {
-      "outletId": "cnbc",
-      "outletName": "CNBC",
-      "abbreviation": "CNBC",
-      "currentScore": 4.83,
-      "articleCount": 4,
+      "outletId": "economist",
+      "outletName": "The Economist",
+      "abbreviation": "Econ",
+      "currentScore": 4.17,
+      "articleCount": 6,
       "expectedRange": [
         4.5,
         6
       ]
     },
     {
+      "outletId": "cnbc",
+      "outletName": "CNBC",
+      "abbreviation": "CNBC",
+      "currentScore": 4.22,
+      "articleCount": 6,
+      "expectedRange": [
+        4.5,
+        6
+      ]
+    },
+    {
+      "outletId": "washpost",
+      "outletName": "Washington Post",
+      "abbreviation": "WPost",
+      "currentScore": 4.23,
+      "articleCount": 3,
+      "expectedRange": [
+        2.8,
+        4.2
+      ]
+    },
+    {
+      "outletId": "nytimes",
+      "outletName": "NY Times",
+      "abbreviation": "NYT",
+      "currentScore": 4.24,
+      "articleCount": 10,
+      "expectedRange": [
+        3,
+        4.5
+      ]
+    },
+    {
+      "outletId": "aljazeera",
+      "outletName": "Al Jazeera",
+      "abbreviation": "AJ",
+      "currentScore": 4.35,
+      "articleCount": 2,
+      "expectedRange": [
+        3.5,
+        5
+      ]
+    },
+    {
+      "outletId": "npr",
+      "outletName": "NPR",
+      "abbreviation": "NPR",
+      "currentScore": 4.45,
+      "articleCount": 4,
+      "expectedRange": [
+        3.5,
+        4.5
+      ]
+    },
+    {
       "outletId": "politico",
       "outletName": "Politico",
       "abbreviation": "PLTICO",
-      "currentScore": 5.06,
-      "articleCount": 9,
+      "currentScore": 4.75,
+      "articleCount": 4,
       "expectedRange": [
         4,
         5.5
       ]
     },
     {
-      "outletId": "breitbart",
-      "outletName": "Breitbart",
-      "abbreviation": "BB",
-      "currentScore": 5.89,
-      "articleCount": 9,
+      "outletId": "bbc",
+      "outletName": "BBC",
+      "abbreviation": "BBC",
+      "currentScore": 4.83,
+      "articleCount": 3,
       "expectedRange": [
-        8.5,
-        9.8
-      ]
-    },
-    {
-      "outletId": "washexaminer",
-      "outletName": "Washington Examiner",
-      "abbreviation": "WExam",
-      "currentScore": 6.13,
-      "articleCount": 8,
-      "expectedRange": [
-        7,
-        8.5
+        4,
+        5.5
       ]
     },
     {
       "outletId": "nypost",
       "outletName": "NY Post",
       "abbreviation": "NYPost",
-      "currentScore": 6.5,
-      "articleCount": 5,
+      "currentScore": 5.23,
+      "articleCount": 3,
       "expectedRange": [
         6.5,
         8
       ]
     },
     {
-      "outletId": "foxnews",
-      "outletName": "Fox News",
-      "abbreviation": "FOX",
-      "currentScore": 6.83,
+      "outletId": "washexaminer",
+      "outletName": "Washington Examiner",
+      "abbreviation": "WExam",
+      "currentScore": 6,
       "articleCount": 3,
       "expectedRange": [
         7,
@@ -1762,14 +1464,36 @@
       "outletId": "dailycaller",
       "outletName": "Daily Caller",
       "abbreviation": "DC",
-      "currentScore": 7.25,
-      "articleCount": 10,
+      "currentScore": 6.8,
+      "articleCount": 5,
       "expectedRange": [
         7.5,
         9
       ]
+    },
+    {
+      "outletId": "breitbart",
+      "outletName": "Breitbart",
+      "abbreviation": "BB",
+      "currentScore": 6.9,
+      "articleCount": 5,
+      "expectedRange": [
+        8.5,
+        9.8
+      ]
+    },
+    {
+      "outletId": "foxnews",
+      "outletName": "Fox News",
+      "abbreviation": "FOX",
+      "currentScore": 7.05,
+      "articleCount": 4,
+      "expectedRange": [
+        7,
+        8.5
+      ]
     }
   ],
-  "articleCount": 102,
-  "storyCount": 23
+  "articleCount": 83,
+  "storyCount": 20
 }
