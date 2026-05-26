@@ -146,7 +146,7 @@ async function scoreWithGrok(scoredArticles) {
           { role: 'user', content: prompt },
         ],
       }),
-      signal: AbortSignal.timeout(90000),
+      signal: AbortSignal.timeout(60000),
     })
 
     if (!response.ok) {
