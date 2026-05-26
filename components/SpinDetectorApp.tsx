@@ -863,7 +863,7 @@ function ModelWarsView({ outlets }: { outlets: OutletScore[] }) {
       <div className="bg-slate-900 border border-slate-800 rounded-xl p-4 text-xs text-slate-500 leading-relaxed">
         <span className="font-semibold text-slate-400">About this comparison: </span>
         Claude and Grok independently score the same headlines for political language bias using an identical
-        rubric (0 = Far Left, 10 = Far Right). Clustering is done by Claude; Grok then re-scores each article
+        rubric (−5 = Far Left, +5 = Far Right). Clustering is done by Claude; Grok then re-scores each article
         without seeing Claude&apos;s scores. Δ shows how much Grok diverges from Claude — positive means Grok
         rated the outlet more right-leaning.
       </div>
