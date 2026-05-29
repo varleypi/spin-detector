@@ -347,13 +347,18 @@ function BattlegroundView({ stories }: { stories: StoryCluster[] }) {
 // ─── Bias Board ───────────────────────────────────────────────────────────────
 
 function BiasBoardView({ outlets, hasGrokData }: { outlets: OutletScore[]; hasGrokData: boolean }) {
-  const [sortModel, setSortModel] = useState<'claude' | 'grok'>('claude')
+  const [sortModel, setSortModel] = useState<'claude' | 'grok' | 'reach'>('claude')
 
   const sorted = [...outlets].sort((a, b) => {
     if (sortModel === 'grok') {
       const aScore = a.currentScoreGrok ?? a.currentScore
       const bScore = b.currentScoreGrok ?? b.currentScore
       return aScore - bScore
+    }
+    if (sortModel === 'reach') {
+      const aReach = OUTLET_META[a.outletId]?.dailyReaders ?? 0
+      const bReach = OUTLET_META[b.outletId]?.dailyReaders ?? 0
+      return bReach - aReach  // highest reach first
     }
     return a.currentScore - b.currentScore
   })
@@ -410,24 +415,30 @@ function BiasBoardView({ outlets, hasGrokData }: { outlets: OutletScore[]; hasGr
       {/* Sorted table */}
       <div className="bg-slate-900 border border-slate-800 rounded-xl overflow-hidden">
 
-        {/* ── Sort toggle (only when Grok data exists) ── */}
-        {hasGrokData && (
-          <div className="flex items-center gap-2 px-4 py-2 border-b border-slate-800 bg-slate-950/30">
-            <span className="text-[10px] font-semibold uppercase tracking-widest text-slate-600">Order by</span>
-            <button
-              onClick={() => setSortModel('claude')}
-              className={`px-2.5 py-1 rounded text-xs font-semibold transition-colors ${sortModel === 'claude' ? 'bg-indigo-600/30 text-indigo-300 border border-indigo-600/50' : 'text-slate-500 hover:text-slate-300'}`}
-            >
-              Claude
-            </button>
+        {/* ── Sort toggle ── */}
+        <div className="flex items-center gap-2 px-4 py-2 border-b border-slate-800 bg-slate-950/30 flex-wrap">
+          <span className="text-[10px] font-semibold uppercase tracking-widest text-slate-600">Order by</span>
+          <button
+            onClick={() => setSortModel('claude')}
+            className={`px-2.5 py-1 rounded text-xs font-semibold transition-colors ${sortModel === 'claude' ? 'bg-indigo-600/30 text-indigo-300 border border-indigo-600/50' : 'text-slate-500 hover:text-slate-300'}`}
+          >
+            Claude
+          </button>
+          {hasGrokData && (
             <button
               onClick={() => setSortModel('grok')}
               className={`px-2.5 py-1 rounded text-xs font-semibold transition-colors ${sortModel === 'grok' ? 'bg-amber-600/30 text-amber-300 border border-amber-600/50' : 'text-slate-500 hover:text-slate-300'}`}
             >
               Grok
             </button>
-          </div>
-        )}
+          )}
+          <button
+            onClick={() => setSortModel('reach')}
+            className={`px-2.5 py-1 rounded text-xs font-semibold transition-colors ${sortModel === 'reach' ? 'bg-sky-600/30 text-sky-300 border border-sky-600/50' : 'text-slate-500 hover:text-slate-300'}`}
+          >
+            Daily Reach
+          </button>
+        </div>
 
         {/* ── Desktop header (hidden on mobile) ── */}
         <div className="hidden sm:flex px-4 py-2 border-b border-slate-800 items-center gap-4 bg-slate-950/50">
