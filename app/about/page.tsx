@@ -35,10 +35,10 @@ export default function About() {
           <section>
             <h3 className="text-lg font-bold text-slate-100 mb-3">What Is Spin Detector?</h3>
             <p className="mb-3">
-              Spin Detector is an automated media bias tracker that analyzes how 20 major news outlets
+              Spin Detector is an automated media bias tracker that analyzes how 32 major news outlets
               cover the same political stories. Every day, our pipeline fetches hundreds of headlines,
               clusters them by topic, and uses AI to score each headline&apos;s political language on a
-              0–10 scale — from Far Left to Far Right.
+              −5 to +5 scale — from Far Left to Far Right, with 0 representing a neutral center.
             </p>
             <p>
               The goal is simple: give readers a concrete, data-driven way to see how language shapes
@@ -49,15 +49,16 @@ export default function About() {
           <section>
             <h3 className="text-lg font-bold text-slate-100 mb-3">How the Bias Score Works</h3>
             <p className="mb-4">
-              Each headline is scored from 0 to 10 based on linguistic signals detected by AI analysis:
+              Each headline is scored from −5 to +5 based on linguistic signals detected by AI analysis.
+              Zero represents neutral, centrist language — negative scores lean left, positive scores lean right:
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               {[
-                { range: '0–2', label: 'Far Left', color: '#2563eb', desc: 'Heavy progressive framing, emotionally charged language' },
-                { range: '2–4', label: 'Left', color: '#3b82f6', desc: 'Progressive framing, sympathetic to left causes' },
-                { range: '4–6', label: 'Center', color: '#8b5cf6', desc: 'Neutral verbs, balanced sourcing, minimal ideological signals' },
-                { range: '6–8', label: 'Right', color: '#ef4444', desc: 'Conservative framing, sympathetic to right causes' },
-                { range: '8–10', label: 'Far Right', color: '#991b1b', desc: 'Heavy conservative framing, charged language' },
+                { range: '−5 to −3', label: 'Far Left', color: '#2563eb', desc: 'Heavy progressive framing, emotionally charged language' },
+                { range: '−3 to −1', label: 'Left', color: '#3b82f6', desc: 'Progressive framing, sympathetic to left causes' },
+                { range: '−1 to +1', label: 'Center', color: '#8b5cf6', desc: 'Neutral verbs, balanced sourcing, minimal ideological signals' },
+                { range: '+1 to +3', label: 'Right', color: '#ef4444', desc: 'Conservative framing, sympathetic to right causes' },
+                { range: '+3 to +5', label: 'Far Right', color: '#991b1b', desc: 'Heavy conservative framing, charged language' },
               ].map((tier) => (
                 <div key={tier.range} className="bg-slate-900 border border-slate-800 rounded-lg p-3">
                   <div className="flex items-center gap-2 mb-1">
@@ -83,11 +84,29 @@ export default function About() {
           </section>
 
           <section>
+            <h3 className="text-lg font-bold text-slate-100 mb-3">Claude vs Grok — Model Comparison</h3>
+            <p className="mb-3">
+              Bias scoring is performed independently by two AI models: Claude (Anthropic) and Grok (xAI).
+              Both models receive identical prompts and the same headlines, but score them without seeing
+              each other&apos;s results. The <strong className="text-slate-200">Model Wars</strong> tab
+              shows where they agree and where they diverge — a useful check on whether the bias signal
+              is robust or model-dependent.
+            </p>
+            <p>
+              Where Claude and Grok reach similar scores independently, confidence in the rating is higher.
+              Wide divergence suggests the framing is ambiguous or that the two models weight different
+              linguistic signals.
+            </p>
+          </section>
+
+          <section>
             <h3 className="text-lg font-bold text-slate-100 mb-3">The Outlets We Track</h3>
             <p className="mb-3">
-              We currently track 20 major English-language news outlets across the political spectrum,
-              from MSNBC and The Guardian on the left to Breitbart and The Daily Caller on the right,
+              We currently track 32 major English-language news outlets across the political spectrum,
+              from MSNBC and The Guardian on the left to Breitbart and The Federalist on the right,
               with centrist outlets including BBC, Politico, The Economist, and CNBC in between.
+              Regional papers including the LA Times, Chicago Tribune, Boston Globe, Star Tribune,
+              and Charlotte Observer are also included.
             </p>
             <p>
               Headlines are fetched daily via NewsAPI and RSS feeds. Each outlet has an expected bias
