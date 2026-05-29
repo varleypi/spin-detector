@@ -111,6 +111,7 @@ function getOutletLineColor(outletId: string): string {
     theatlantic:       '#075985',  // sky-800
     skynews:           '#7dd3fc',  // sky-300
     timeslondon:       '#78350f',  // amber-900 (warm brown)
+    tampabaytimes:     '#0e7490',  // cyan-700
   }
   return colors[outletId] ?? '#94a3b8'
 }

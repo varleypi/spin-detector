@@ -383,6 +383,13 @@ const OUTLETS = {
     rssUrl: 'https://www.thetimes.com/rss',
     expectedRange: [5.5, 7.0],
   },
+  tampabaytimes: {
+    name: 'Tampa Bay Times',
+    abbr: 'TBTimes',
+    newsapiId: null, // Not in NewsAPI — RSS only
+    rssUrl: 'https://www.tampabay.com/news/rss/',
+    expectedRange: [3.5, 5.0],
+  },
 }
 
 // NewsAPI source ID → outletId reverse map

@@ -336,6 +336,12 @@ export const OUTLET_META: Record<string, OutletMeta> = {
     readerType: 'web',
     readerNote: 'US unique visitors/day (SimilarWeb 2024); paywalled UK broadsheet',
   },
+  tampabaytimes: {
+    dailyReaders: 80_000,
+    readerLabel: '80K',
+    readerType: 'web',
+    readerNote: 'Unique visitors/day (SimilarWeb 2024); multiple Pulitzer Prize winner',
+  },
 }
 
 /** Max daily readers across all outlets — used for proportional bar sizing. Computed dynamically. */
