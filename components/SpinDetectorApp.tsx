@@ -428,6 +428,9 @@ function BiasBoardView({ outlets, hasGrokData }: { outlets: OutletScore[]; hasGr
             const meta = OUTLET_META[outlet.outletId]
             const reachPct = meta ? (meta.dailyReaders / MAX_DAILY_READERS) * 100 : 0
             const reachColor = meta?.readerType === 'tv' ? '#f59e0b' : '#38bdf8'
+            const activeScore = sortModel === 'grok' && outlet.currentScoreGrok !== undefined
+              ? outlet.currentScoreGrok
+              : outlet.currentScore
             return (
               <div key={outlet.outletId} className="hover:bg-slate-800/30 transition-colors">
 
@@ -456,7 +459,7 @@ function BiasBoardView({ outlets, hasGrokData }: { outlets: OutletScore[]; hasGr
                       </div>
                     ) : <span className="text-[11px] text-slate-600">—</span>}
                   </div>
-                  <div className="flex-1"><BiasBar score={outlet.currentScore} /></div>
+                  <div className="flex-1"><BiasBar score={activeScore} /></div>
                   <div className="w-20 flex-shrink-0 text-right">
                     <div className="text-lg font-bold font-mono tabular-nums" style={{ color: getBiasColor(outlet.currentScore) }}>
                       {fmt(outlet.currentScore)}
@@ -492,8 +495,8 @@ function BiasBoardView({ outlets, hasGrokData }: { outlets: OutletScore[]; hasGr
                     <div className="flex items-start justify-between gap-2 mb-2">
                       <div>
                         <div className="font-semibold text-sm text-slate-200">{outlet.outletName}</div>
-                        <div className="text-[11px] mt-0.5 font-semibold" style={{ color: getBiasColor(outlet.currentScore) }}>
-                          {getBiasLabel(outlet.currentScore)}
+                        <div className="text-[11px] mt-0.5 font-semibold" style={{ color: getBiasColor(activeScore) }}>
+                          {getBiasLabel(activeScore)}
                         </div>
                       </div>
                       <div className="flex gap-3 flex-shrink-0">
@@ -514,7 +517,7 @@ function BiasBoardView({ outlets, hasGrokData }: { outlets: OutletScore[]; hasGr
                       </div>
                     </div>
                     {/* Bias bar full width */}
-                    <BiasBar score={outlet.currentScore} />
+                    <BiasBar score={activeScore} />
                     {/* Reach bar below */}
                     {meta && (
                       <div className="mt-2 flex items-center gap-2" title={meta.readerNote}>
