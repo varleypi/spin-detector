@@ -36,6 +36,7 @@ jobs:
           XAI_API_KEY:          ${{ secrets.XAI_API_KEY }}
 
       - name: Commit latest data file
+        continue-on-error: true   # latest.json is a demo fallback only; Supabase is the real store
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"

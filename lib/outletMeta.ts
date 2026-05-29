@@ -168,6 +168,12 @@ export const OUTLET_META: Record<string, OutletMeta> = {
     readerType: 'web',
     readerNote: 'Unique visitors/day (SimilarWeb 2024)',
   },
+  timesofisrael: {
+    dailyReaders: 160_000,
+    readerLabel: '160K',
+    readerType: 'web',
+    readerNote: 'Unique visitors/day (SimilarWeb 2024); ~5M monthly',
+  },
 }
 
 /** Max daily readers across all outlets — used for proportional bar sizing. Computed dynamically. */

@@ -187,6 +187,13 @@ const OUTLETS = {
     rssUrl: 'https://thefederalist.com/feed/',
     expectedRange: [7.5, 9.0],
   },
+  timesofisrael: {
+    name: 'Times of Israel',
+    abbr: 'TOI',
+    newsapiId: null, // Not in NewsAPI — RSS only
+    rssUrl: 'https://www.timesofisrael.com/feed/',
+    expectedRange: [5.5, 7.5],
+  },
 }
 
 // NewsAPI source ID → outletId reverse map
