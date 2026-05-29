@@ -240,6 +240,48 @@ export const OUTLET_META: Record<string, OutletMeta> = {
     readerType: 'web',
     readerNote: 'US unique visitors/day (SimilarWeb 2024); largest financial news destination',
   },
+  reuters: {
+    dailyReaders: 2_500_000,
+    readerLabel: '2.5M',
+    readerType: 'web',
+    readerNote: 'US unique visitors/day (SimilarWeb 2024); global wire service',
+  },
+  marketwatch: {
+    dailyReaders: 1_300_000,
+    readerLabel: '1.3M',
+    readerType: 'web',
+    readerNote: 'US unique visitors/day (SimilarWeb 2024); Dow Jones financial news',
+  },
+  businessinsider: {
+    dailyReaders: 1_500_000,
+    readerLabel: '1.5M',
+    readerType: 'web',
+    readerNote: 'US unique visitors/day (SimilarWeb 2024); ~45M monthly',
+  },
+  houstonchronicle: {
+    dailyReaders: 100_000,
+    readerLabel: '100K',
+    readerType: 'web',
+    readerNote: 'US unique visitors/day (SimilarWeb 2024); largest Texas daily',
+  },
+  miamiherald: {
+    dailyReaders: 120_000,
+    readerLabel: '120K',
+    readerType: 'web',
+    readerNote: 'US unique visitors/day (SimilarWeb 2024); McClatchy regional paper',
+  },
+  abc: {
+    dailyReaders: 1_800_000,
+    readerLabel: '1.8M',
+    readerType: 'web',
+    readerNote: 'US unique visitors/day (SimilarWeb 2024); ~54M monthly',
+  },
+  nbc: {
+    dailyReaders: 1_500_000,
+    readerLabel: '1.5M',
+    readerType: 'web',
+    readerNote: 'US unique visitors/day (SimilarWeb 2024); ~45M monthly',
+  },
 }
 
 /** Max daily readers across all outlets — used for proportional bar sizing. Computed dynamically. */

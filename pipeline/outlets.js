@@ -271,6 +271,55 @@ const OUTLETS = {
     rssUrl: 'https://finance.yahoo.com/news/rssindex',
     expectedRange: [4.5, 6.0],
   },
+  reuters: {
+    name: 'Reuters',
+    abbr: 'Reuters',
+    newsapiId: 'reuters',
+    rssUrl: 'https://feeds.reuters.com/reuters/topNews',
+    expectedRange: [4.0, 5.5],
+  },
+  marketwatch: {
+    name: 'MarketWatch',
+    abbr: 'MW',
+    newsapiId: null, // Not reliably in NewsAPI — RSS only
+    rssUrl: 'https://www.marketwatch.com/rss/topstories',
+    expectedRange: [4.5, 6.0],
+  },
+  businessinsider: {
+    name: 'Business Insider',
+    abbr: 'BI',
+    newsapiId: 'business-insider',
+    rssUrl: 'https://feeds.businessinsider.com/custom/all',
+    expectedRange: [3.5, 5.0],
+  },
+  houstonchronicle: {
+    name: 'Houston Chronicle',
+    abbr: 'HChron',
+    newsapiId: null, // Not in NewsAPI — RSS only
+    rssUrl: 'https://www.houstonchronicle.com/news/rss/',
+    expectedRange: [4.0, 5.5],
+  },
+  miamiherald: {
+    name: 'Miami Herald',
+    abbr: 'MHerald',
+    newsapiId: null, // Not in NewsAPI — RSS only
+    rssUrl: 'https://www.miamiherald.com/?rss=y',
+    expectedRange: [3.5, 5.0],
+  },
+  abc: {
+    name: 'ABC News',
+    abbr: 'ABC',
+    newsapiId: 'abc-news',
+    rssUrl: 'https://abcnews.go.com/abcnews/topstories',
+    expectedRange: [3.0, 4.5],
+  },
+  nbc: {
+    name: 'NBC News',
+    abbr: 'NBC',
+    newsapiId: 'nbc-news',
+    rssUrl: 'https://feeds.nbcnews.com/nbcnews/public/news',
+    expectedRange: [3.0, 4.5],
+  },
 }
 
 // NewsAPI source ID → outletId reverse map

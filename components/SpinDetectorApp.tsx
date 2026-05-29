@@ -93,6 +93,14 @@ function getOutletLineColor(outletId: string): string {
     financialtimes:    '#c2410c',  // orange-700
     bloomberg:         '#1e3a8a',  // blue-900
     yahoofinance:      '#6b21a8',  // purple-800
+    // Wire services / broadcast / regional
+    reuters:           '#10b981',  // emerald-500
+    marketwatch:       '#fbbf24',  // amber-400
+    businessinsider:   '#06b6d4',  // cyan-500
+    houstonchronicle:  '#78716c',  // stone-500
+    miamiherald:       '#14b8a6',  // teal-500
+    abc:               '#2563eb',  // blue-600
+    nbc:               '#d946ef',  // fuchsia-500
   }
   return colors[outletId] ?? '#94a3b8'
 }
