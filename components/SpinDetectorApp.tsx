@@ -86,6 +86,11 @@ function getOutletLineColor(outletId: string): string {
     startribune:       '#0d9488',  // teal-600
     charlotteobserver: '#65a30d',  // lime-600
     timesofisrael:     '#0891b2',  // cyan-600
+    // UK outlets
+    dailymail:         '#e11d48',  // rose-600
+    metro:             '#4338ca',  // indigo-700
+    telegraph:         '#92400e',  // amber-800 (brown)
+    financialtimes:    '#c2410c',  // orange-700
   }
   return colors[outletId] ?? '#94a3b8'
 }

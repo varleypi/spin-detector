@@ -229,6 +229,34 @@ const OUTLETS = {
     rssUrl: 'https://www.charlotteobserver.com/?rss=y',
     expectedRange: [4.0, 5.5],
   },
+  dailymail: {
+    name: 'Daily Mail',
+    abbr: 'DM',
+    newsapiId: null, // Not in NewsAPI — RSS only
+    rssUrl: 'https://www.dailymail.co.uk/articles.rss',
+    expectedRange: [6.5, 8.5],
+  },
+  metro: {
+    name: 'Metro',
+    abbr: 'Metro',
+    newsapiId: null, // Not in NewsAPI — RSS only
+    rssUrl: 'https://metro.co.uk/feed/',
+    expectedRange: [3.0, 5.0],
+  },
+  telegraph: {
+    name: 'The Telegraph',
+    abbr: 'Tele',
+    newsapiId: null, // Paywalled — RSS only (headlines available)
+    rssUrl: 'https://www.telegraph.co.uk/rss.xml',
+    expectedRange: [6.0, 7.5],
+  },
+  financialtimes: {
+    name: 'Financial Times',
+    abbr: 'FT',
+    newsapiId: null, // Paywalled — RSS only (headlines available)
+    rssUrl: 'https://www.ft.com/rss/home/us',
+    expectedRange: [4.5, 6.0],
+  },
 }
 
 // NewsAPI source ID → outletId reverse map

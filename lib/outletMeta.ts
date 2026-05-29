@@ -204,6 +204,30 @@ export const OUTLET_META: Record<string, OutletMeta> = {
     readerType: 'web',
     readerNote: 'Unique visitors/day (SimilarWeb 2024); McClatchy regional paper',
   },
+  dailymail: {
+    dailyReaders: 2_000_000,
+    readerLabel: '2.0M',
+    readerType: 'web',
+    readerNote: 'US unique visitors/day (SimilarWeb 2024); one of the largest English-language news sites',
+  },
+  metro: {
+    dailyReaders: 110_000,
+    readerLabel: '110K',
+    readerType: 'web',
+    readerNote: 'US unique visitors/day (SimilarWeb 2024); primarily UK audience',
+  },
+  telegraph: {
+    dailyReaders: 160_000,
+    readerLabel: '160K',
+    readerType: 'web',
+    readerNote: 'US unique visitors/day (SimilarWeb 2024); paywalled UK broadsheet',
+  },
+  financialtimes: {
+    dailyReaders: 220_000,
+    readerLabel: '220K',
+    readerType: 'web',
+    readerNote: 'US unique visitors/day (SimilarWeb 2024); paywalled financial broadsheet',
+  },
 }
 
 /** Max daily readers across all outlets — used for proportional bar sizing. Computed dynamically. */
