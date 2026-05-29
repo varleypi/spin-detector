@@ -91,6 +91,8 @@ function getOutletLineColor(outletId: string): string {
     metro:             '#4338ca',  // indigo-700
     telegraph:         '#92400e',  // amber-800 (brown)
     financialtimes:    '#c2410c',  // orange-700
+    bloomberg:         '#1e3a8a',  // blue-900
+    yahoofinance:      '#6b21a8',  // purple-800
   }
   return colors[outletId] ?? '#94a3b8'
 }

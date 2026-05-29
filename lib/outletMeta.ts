@@ -228,6 +228,18 @@ export const OUTLET_META: Record<string, OutletMeta> = {
     readerType: 'web',
     readerNote: 'US unique visitors/day (SimilarWeb 2024); paywalled financial broadsheet',
   },
+  bloomberg: {
+    dailyReaders: 1_500_000,
+    readerLabel: '1.5M',
+    readerType: 'web',
+    readerNote: 'US unique visitors/day (SimilarWeb 2024); ~45M monthly',
+  },
+  yahoofinance: {
+    dailyReaders: 3_000_000,
+    readerLabel: '3.0M',
+    readerType: 'web',
+    readerNote: 'US unique visitors/day (SimilarWeb 2024); largest financial news destination',
+  },
 }
 
 /** Max daily readers across all outlets — used for proportional bar sizing. Computed dynamically. */

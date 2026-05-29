@@ -257,6 +257,20 @@ const OUTLETS = {
     rssUrl: 'https://www.ft.com/rss/home/us',
     expectedRange: [4.5, 6.0],
   },
+  bloomberg: {
+    name: 'Bloomberg',
+    abbr: 'BBG',
+    newsapiId: 'bloomberg',
+    rssUrl: 'https://feeds.bloomberg.com/politics/news.rss',
+    expectedRange: [4.0, 5.5],
+  },
+  yahoofinance: {
+    name: 'Yahoo Finance',
+    abbr: 'YFin',
+    newsapiId: null, // Not in NewsAPI — RSS only
+    rssUrl: 'https://finance.yahoo.com/news/rssindex',
+    expectedRange: [4.5, 6.0],
+  },
 }
 
 // NewsAPI source ID → outletId reverse map
