@@ -174,6 +174,36 @@ export const OUTLET_META: Record<string, OutletMeta> = {
     readerType: 'web',
     readerNote: 'Unique visitors/day (SimilarWeb 2024); ~5M monthly',
   },
+  latimes: {
+    dailyReaders: 1_000_000,
+    readerLabel: '1.0M',
+    readerType: 'web',
+    readerNote: 'Unique visitors/day (SimilarWeb 2024); ~30M monthly',
+  },
+  bostonglobe: {
+    dailyReaders: 100_000,
+    readerLabel: '100K',
+    readerType: 'web',
+    readerNote: 'Unique visitors/day (SimilarWeb 2024); heavily paywalled',
+  },
+  chicagotribune: {
+    dailyReaders: 300_000,
+    readerLabel: '300K',
+    readerType: 'web',
+    readerNote: 'Unique visitors/day (SimilarWeb 2024); ~9M monthly',
+  },
+  startribune: {
+    dailyReaders: 130_000,
+    readerLabel: '130K',
+    readerType: 'web',
+    readerNote: 'Unique visitors/day (SimilarWeb 2024); largest MN newspaper',
+  },
+  charlotteobserver: {
+    dailyReaders: 45_000,
+    readerLabel: '45K',
+    readerType: 'web',
+    readerNote: 'Unique visitors/day (SimilarWeb 2024); McClatchy regional paper',
+  },
 }
 
 /** Max daily readers across all outlets — used for proportional bar sizing. Computed dynamically. */

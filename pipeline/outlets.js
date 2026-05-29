@@ -194,6 +194,41 @@ const OUTLETS = {
     rssUrl: 'https://www.timesofisrael.com/feed/',
     expectedRange: [5.5, 7.5],
   },
+  latimes: {
+    name: 'LA Times',
+    abbr: 'LAT',
+    newsapiId: null, // Not reliably in NewsAPI — RSS only
+    rssUrl: 'https://www.latimes.com/rss2.0.xml',
+    expectedRange: [2.5, 4.0],
+  },
+  bostonglobe: {
+    name: 'Boston Globe',
+    abbr: 'Globe',
+    newsapiId: null, // Paywalled — RSS only
+    rssUrl: 'https://www.bostonglobe.com/arc/outboundfeeds/rss/section/nation/?outputType=xml',
+    expectedRange: [2.5, 4.0],
+  },
+  chicagotribune: {
+    name: 'Chicago Tribune',
+    abbr: 'ChiTrib',
+    newsapiId: null, // Not reliably in NewsAPI — RSS only
+    rssUrl: 'https://www.chicagotribune.com/arcio/rss/',
+    expectedRange: [4.5, 6.5],
+  },
+  startribune: {
+    name: 'Star Tribune',
+    abbr: 'StarTrib',
+    newsapiId: null, // Not in NewsAPI — RSS only
+    rssUrl: 'https://www.startribune.com/politics/rss/',
+    expectedRange: [3.5, 5.0],
+  },
+  charlotteobserver: {
+    name: 'Charlotte Observer',
+    abbr: 'CO',
+    newsapiId: null, // Not in NewsAPI — RSS only
+    rssUrl: 'https://www.charlotteobserver.com/?rss=y',
+    expectedRange: [4.0, 5.5],
+  },
 }
 
 // NewsAPI source ID → outletId reverse map

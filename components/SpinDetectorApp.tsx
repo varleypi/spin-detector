@@ -79,6 +79,13 @@ function getOutletLineColor(outletId: string): string {
     breitbart:      '#7f1d1d',  // red-900 (darkest)
     // Dark navy for WSJ
     wsj:            '#0369a1',  // sky-700
+    // New regional / metro papers
+    latimes:           '#7e22ce',  // purple-700
+    bostonglobe:       '#be185d',  // pink-700
+    chicagotribune:    '#b45309',  // amber-700
+    startribune:       '#0d9488',  // teal-600
+    charlotteobserver: '#65a30d',  // lime-600
+    timesofisrael:     '#0891b2',  // cyan-600
   }
   return colors[outletId] ?? '#94a3b8'
 }
