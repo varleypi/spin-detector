@@ -170,7 +170,7 @@ const OUTLETS = {
     name: 'USA Today',
     abbr: 'USAT',
     newsapiId: 'the-usa-today',
-    rssUrl: 'https://rssfeeds.usatoday.com/usatoday-NewsTopStories',
+    rssUrl: 'https://www.usatoday.com/rss/news/',
     expectedRange: [4.5, 6.0],
   },
   nationalreview: {
