@@ -320,6 +320,69 @@ const OUTLETS = {
     rssUrl: 'https://feeds.nbcnews.com/nbcnews/public/news',
     expectedRange: [3.0, 4.5],
   },
+  ap: {
+    name: 'Associated Press',
+    abbr: 'AP',
+    newsapiId: 'associated-press',
+    rssUrl: 'https://apnews.com/hub/ap-top-news?format=rss',
+    expectedRange: [4.5, 5.5],
+  },
+  independent: {
+    name: 'The Independent',
+    abbr: 'Indep',
+    newsapiId: null, // Not reliably in NewsAPI — RSS only
+    rssUrl: 'https://www.independent.co.uk/rss',
+    expectedRange: [3.0, 4.5],
+  },
+  vox: {
+    name: 'Vox',
+    abbr: 'Vox',
+    newsapiId: null, // Not in NewsAPI — RSS only
+    rssUrl: 'https://www.vox.com/rss/index.xml',
+    expectedRange: [2.5, 4.0],
+  },
+  cbc: {
+    name: 'CBC News',
+    abbr: 'CBC',
+    newsapiId: null, // Canadian outlet — RSS only
+    rssUrl: 'https://www.cbc.ca/cmlink/rss-topstories',
+    expectedRange: [3.5, 5.0],
+  },
+  huffpost: {
+    name: 'HuffPost',
+    abbr: 'HPost',
+    newsapiId: 'the-huffington-post',
+    rssUrl: 'https://www.huffpost.com/section/front-page/feed',
+    expectedRange: [2.0, 3.5],
+  },
+  reason: {
+    name: 'Reason',
+    abbr: 'Reason',
+    newsapiId: null, // Not in NewsAPI — RSS only
+    rssUrl: 'https://reason.com/feed/',
+    expectedRange: [4.5, 6.5],
+  },
+  theatlantic: {
+    name: 'The Atlantic',
+    abbr: 'Atlntc',
+    newsapiId: null, // Not in NewsAPI — RSS only
+    rssUrl: 'https://www.theatlantic.com/feed/all/',
+    expectedRange: [2.5, 4.0],
+  },
+  skynews: {
+    name: 'Sky News',
+    abbr: 'Sky',
+    newsapiId: null, // UK outlet — RSS only
+    rssUrl: 'https://feeds.skynews.com/feeds/rss/home.xml',
+    expectedRange: [4.0, 5.5],
+  },
+  timeslondon: {
+    name: 'The Times (London)',
+    abbr: 'TimesUK',
+    newsapiId: null, // Paywalled — RSS headlines only
+    rssUrl: 'https://www.thetimes.com/rss',
+    expectedRange: [5.5, 7.0],
+  },
 }
 
 // NewsAPI source ID → outletId reverse map

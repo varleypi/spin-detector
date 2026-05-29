@@ -19,7 +19,7 @@ function buildPrompt(articles) {
     .map((a, i) => `[${i}] ${a.outletId.toUpperCase()}: ${a.headline}`)
     .join('\n')
 
-  return `Analyze these ${articles.length} news headlines from 45 major political news outlets.
+  return `Analyze these ${articles.length} news headlines from 54 major political news outlets.
 
 TASK 1 — CLUSTER: Group them into 5–15 story clusters where multiple outlets are covering
 the SAME underlying real-world news event or political topic. Include opinion and editorial

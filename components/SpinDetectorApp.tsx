@@ -101,6 +101,16 @@ function getOutletLineColor(outletId: string): string {
     miamiherald:       '#14b8a6',  // teal-500
     abc:               '#2563eb',  // blue-600
     nbc:               '#d946ef',  // fuchsia-500
+    // New batch
+    ap:                '#64748b',  // slate-500 (neutral grey fits a wire service)
+    independent:       '#059669',  // emerald-600
+    vox:               '#a855f7',  // purple-500
+    cbc:               '#1e40af',  // blue-800
+    huffpost:          '#15803d',  // green-700
+    reason:            '#854d0e',  // amber-900 (earthy gold = libertarian)
+    theatlantic:       '#075985',  // sky-800
+    skynews:           '#7dd3fc',  // sky-300
+    timeslondon:       '#78350f',  // amber-900 (warm brown)
   }
   return colors[outletId] ?? '#94a3b8'
 }

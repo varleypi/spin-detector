@@ -35,7 +35,7 @@ export default function About() {
           <section>
             <h3 className="text-lg font-bold text-slate-100 mb-3">What Is Spin Detector?</h3>
             <p className="mb-3">
-              Spin Detector is an automated media bias tracker that analyzes how 45 major news outlets
+              Spin Detector is an automated media bias tracker that analyzes how 54 major news outlets
               cover the same political stories. Every day, our pipeline fetches hundreds of headlines,
               clusters them by topic, and uses AI to score each headline&apos;s political language on a
               −5 to +5 scale — from Far Left to Far Right, with 0 representing a neutral center.
@@ -102,15 +102,17 @@ export default function About() {
           <section>
             <h3 className="text-lg font-bold text-slate-100 mb-3">The Outlets We Track</h3>
             <p className="mb-3">
-              We currently track 45 major English-language news outlets across the political spectrum,
-              from MSNBC and The Guardian on the left to Breitbart and The Federalist on the right,
-              with centrist outlets including BBC, Politico, The Economist, and CNBC in between.
-              Broadcast networks (ABC, NBC, CBS) and wire services (Reuters) anchor the news coverage.
-              Financial outlets include Bloomberg, Yahoo Finance, MarketWatch, Forbes, CNBC, Business
-              Insider, the Financial Times, and the Wall Street Journal. US regional papers cover
-              major metros — LA Times, Chicago Tribune, Boston Globe, Houston Chronicle, Miami Herald,
-              Star Tribune, and Charlotte Observer. UK publications (Daily Mail, Metro, The Telegraph,
-              Financial Times) add a transatlantic perspective on how the same stories are framed differently.
+              We currently track 54 major English-language news outlets across the political spectrum,
+              from HuffPost and Vox on the left to Breitbart and The Federalist on the right, with
+              the Associated Press and Reuters providing a neutral wire-service baseline in the center.
+              Broadcast networks (ABC, NBC, CBS) and commentary outlets (The Atlantic, Reason) round
+              out the US picture. Financial coverage spans Bloomberg, Yahoo Finance, MarketWatch,
+              Forbes, CNBC, Business Insider, the Financial Times, and the Wall Street Journal.
+              US regional papers cover major metros — LA Times, Chicago Tribune, Boston Globe,
+              Houston Chronicle, Miami Herald, Star Tribune, and Charlotte Observer.
+              International English-language outlets include BBC, Al Jazeera, The Guardian,
+              The Independent, Sky News, Daily Mail, Metro, The Telegraph, The Times (London),
+              Financial Times, CBC News (Canada), and Times of Israel.
             </p>
             <p>
               Headlines are fetched daily via NewsAPI and RSS feeds. Each outlet has an expected bias

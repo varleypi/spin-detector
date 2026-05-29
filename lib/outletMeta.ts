@@ -282,6 +282,60 @@ export const OUTLET_META: Record<string, OutletMeta> = {
     readerType: 'web',
     readerNote: 'US unique visitors/day (SimilarWeb 2024); ~45M monthly',
   },
+  ap: {
+    dailyReaders: 1_500_000,
+    readerLabel: '1.5M',
+    readerType: 'web',
+    readerNote: 'Direct site visitors/day (SimilarWeb 2024); wire copy reaches billions via licensing',
+  },
+  independent: {
+    dailyReaders: 400_000,
+    readerLabel: '400K',
+    readerType: 'web',
+    readerNote: 'US unique visitors/day (SimilarWeb 2024); free UK broadsheet',
+  },
+  vox: {
+    dailyReaders: 500_000,
+    readerLabel: '500K',
+    readerType: 'web',
+    readerNote: 'US unique visitors/day (SimilarWeb 2024); ~15M monthly',
+  },
+  cbc: {
+    dailyReaders: 250_000,
+    readerLabel: '250K',
+    readerType: 'web',
+    readerNote: 'US unique visitors/day (SimilarWeb 2024); Canadian public broadcaster',
+  },
+  huffpost: {
+    dailyReaders: 800_000,
+    readerLabel: '800K',
+    readerType: 'web',
+    readerNote: 'US unique visitors/day (SimilarWeb 2024); ~24M monthly',
+  },
+  reason: {
+    dailyReaders: 100_000,
+    readerLabel: '100K',
+    readerType: 'web',
+    readerNote: 'US unique visitors/day (SimilarWeb 2024); libertarian magazine',
+  },
+  theatlantic: {
+    dailyReaders: 500_000,
+    readerLabel: '500K',
+    readerType: 'web',
+    readerNote: 'US unique visitors/day (SimilarWeb 2024); ~15M monthly',
+  },
+  skynews: {
+    dailyReaders: 200_000,
+    readerLabel: '200K',
+    readerType: 'web',
+    readerNote: 'US unique visitors/day (SimilarWeb 2024); UK broadcaster',
+  },
+  timeslondon: {
+    dailyReaders: 100_000,
+    readerLabel: '100K',
+    readerType: 'web',
+    readerNote: 'US unique visitors/day (SimilarWeb 2024); paywalled UK broadsheet',
+  },
 }
 
 /** Max daily readers across all outlets — used for proportional bar sizing. Computed dynamically. */
