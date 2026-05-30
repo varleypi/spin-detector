@@ -17,7 +17,7 @@ const RSS_PARSER = new Parser({
     'Accept': 'application/rss+xml, application/xml, text/xml, */*',
   },
 })
-const MAX_PER_OUTLET = 15
+const MAX_PER_OUTLET = 8   // 55 outlets × 8 = ~440 headlines max; keeps Claude prompt manageable
 
 // ── NewsAPI ───────────────────────────────────────────────────────────────────
 

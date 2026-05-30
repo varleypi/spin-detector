@@ -204,7 +204,7 @@ async function clusterAndScore(articles) {
 
   const response = await client.messages.create({
     model: 'claude-sonnet-4-6',
-    max_tokens: 16000,
+    max_tokens: 32000,
     system: SYSTEM_PROMPT,
     messages: [{ role: 'user', content: prompt }],
   })
