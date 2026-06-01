@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   description:
     'Real-time AI analysis of political bias across 55 major news outlets. Same story, multiple outlets, measurable bias.',
   keywords: ['media bias', 'political bias', 'news analysis', 'spin detector', 'journalism'],
+  verification: {
+    google: '2AeeBLSQluxIY0viH_qPjGXThoZNQtVkgfB9RbclhO8',
+  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
