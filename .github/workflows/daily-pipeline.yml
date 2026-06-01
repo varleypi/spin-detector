@@ -2,7 +2,8 @@ name: Daily Bias Pipeline
 
 on:
   schedule:
-    - cron: '0 10 * * *'   # 06:00 AM EDT (UTC-4, summer) = 10:00 UTC
+    - cron: '0 10 * * *'   # 06:00 AM EDT (UTC-4, summer) = 10:00 UTC  [primary]
+    - cron: '0 15 * * *'   # 11:00 AM EDT = 15:00 UTC                  [backup if primary missed]
   workflow_dispatch:         # Manual trigger from GitHub UI (Actions tab → Run workflow)
 
 jobs:
@@ -51,6 +52,17 @@ jobs:
             echo "Attempt $i failed — retrying in 5s..."
             sleep 5
           done
+
+      - name: Ping healthcheck
+        if: success()
+        continue-on-error: true   # never fail the job if the ping fails
+        run: |
+          if [ -n "${{ secrets.HEALTHCHECK_PING_URL }}" ]; then
+            curl -fsS --retry 3 "${{ secrets.HEALTHCHECK_PING_URL }}" > /dev/null
+            echo "✅ Healthcheck pinged"
+          else
+            echo "ℹ HEALTHCHECK_PING_URL not set — skipping ping"
+          fi
 
       - name: Report success
         if: success()
