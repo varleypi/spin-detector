@@ -1,1792 +1,2342 @@
 {
   "date": "2026-06-05",
-  "generatedAt": "2026-06-05T12:41:34.512Z",
+  "generatedAt": "2026-06-05T17:11:06.429Z",
   "stories": [
     {
-      "id": "senate-immigration-enforcement-bill",
-      "topicLabel": "Senate passes $70B immigration enforcement bill",
+      "id": "senate-immigration-bill",
+      "topicLabel": "Senate passes $70B immigration enforcement funding bill",
       "date": "2026-06-05",
       "articles": [
         {
-          "id": "guardian-senate-immigration-enforcement-bill-6",
+          "id": "guardian-senate-immigration-bill-5",
           "outletId": "guardian",
           "outletName": "The Guardian",
-          "headline": "US Senate passes $70bn immigration bill after clashes over settlement fund",
+          "headline": "Senate approves $70bn for immigration crackdown amid splits over Trump fund",
           "url": "https://www.theguardian.com/us-news/2026/jun/05/senate-immigration-bill-funding",
-          "biasScore": 4,
+          "biasScore": 3.5,
           "biasSignals": [
-            "'clashes over settlement fund' — notes conflict neutrally",
-            "factual headline, balanced framing"
+            "'crackdown' is right-charged verb used critically",
+            "'splits over Trump fund' emphasizes Republican discord"
           ],
-          "biasScoreGrok": 3,
+          "biasScoreGrok": 3.2,
           "biasSignalsGrok": [
-            "progressive framing",
-            "clashes framing left lean"
+            "crackdown framing",
+            "sympathetic to left causes"
           ],
-          "pubDate": "Fri, 05 Jun 2026 11:35:47 GMT",
-          "clusterId": "senate-immigration-enforcement-bill"
+          "pubDate": "Fri, 05 Jun 2026 14:21:40 GMT",
+          "clusterId": "senate-immigration-bill"
         },
         {
-          "id": "guardian-senate-immigration-enforcement-bill-5",
-          "outletId": "guardian",
-          "outletName": "The Guardian",
-          "headline": "Senate Republicans pass bill authorizing $70bn for immigration enforcement in vote-a-rama – US politics live",
-          "url": "https://www.theguardian.com/us-news/live/2026/jun/05/us-politics-latest-news-updates-donald-trump-republicans-democrats",
+          "id": "washpost-senate-immigration-bill-9",
+          "outletId": "washpost",
+          "outletName": "Washington Post",
+          "headline": "Senate set to vote on blocking Trump’s controversial payout fund",
+          "url": "https://www.washingtonpost.com/politics/2026/06/04/senate-set-vote-immigration-funding-bill-after-revolt-over-trump-fund/",
           "biasScore": 4.2,
           "biasSignals": [
-            "neutral 'authorizing' verb, factual dollar amount",
-            "'vote-a-rama' — procedural term, neutral"
+            "'controversial payout fund' applies qualifier to Trump policy",
+            "'blocking' frames action as oppositional, mild framing"
           ],
-          "biasScoreGrok": 3.5,
+          "biasScoreGrok": 3.8,
           "biasSignalsGrok": [
-            "progressive framing",
-            "Republicans emphasized negatively"
+            "controversial qualifier",
+            "blocking emphasis"
           ],
-          "pubDate": "Fri, 05 Jun 2026 12:26:14 GMT",
-          "clusterId": "senate-immigration-enforcement-bill"
+          "pubDate": "2026-06-04T12:44:38Z",
+          "clusterId": "senate-immigration-bill"
         },
         {
-          "id": "npr-senate-immigration-enforcement-bill-0",
+          "id": "npr-senate-immigration-bill-0",
           "outletId": "npr",
           "outletName": "NPR",
           "headline": "Senate passes immigration bill. And, Jill Biden discusses her husband's 2024 campaign",
           "url": "https://www.npr.org/2026/06/05/g-s1-126290/up-first-newsletter-immigration-fund-save-act-john-bolton-artificial-intelligence-teachers-brady-atf-doj",
           "biasScore": 4.5,
           "biasSignals": [
-            "neutral framing, 'immigration bill' without charged language",
-            "brief summary format, balanced presentation"
+            "neutral 'passes' verb, balanced framing",
+            "pairs with Jill Biden topic, soft editorial choice"
           ],
-          "biasScoreGrok": 5,
+          "biasScoreGrok": 4.5,
           "biasSignalsGrok": [
             "neutral verbs used",
-            "balanced sourcing present"
+            "balanced funding description"
           ],
           "pubDate": "Fri, 05 Jun 2026 07:57:57 -0400",
-          "clusterId": "senate-immigration-enforcement-bill"
+          "clusterId": "senate-immigration-bill"
         },
         {
-          "id": "npr-senate-immigration-enforcement-bill-1",
+          "id": "npr-senate-immigration-bill-1",
           "outletId": "npr",
           "outletName": "NPR",
           "headline": "Senate passes $70B immigration enforcement bill",
           "url": "https://www.npr.org/2026/06/05/nx-s1-5846767/senate-passes-70b-immigration-enforcement-bill",
           "biasScore": 4.5,
           "biasSignals": [
-            "'enforcement bill' — neutral descriptor used",
-            "factual dollar amount, no emotional framing"
+            "'enforcement' is neutral framing",
+            "straightforward factual headline, no charged language"
           ],
-          "biasScoreGrok": 5,
+          "biasScoreGrok": 4.8,
           "biasSignalsGrok": [
             "neutral verbs used",
-            "minimal ideological signals"
+            "balanced funding description"
           ],
           "pubDate": "Fri, 05 Jun 2026 06:52:27 -0400",
-          "clusterId": "senate-immigration-enforcement-bill"
+          "clusterId": "senate-immigration-bill"
         },
         {
-          "id": "npr-senate-immigration-enforcement-bill-2",
+          "id": "npr-senate-immigration-bill-2",
           "outletId": "npr",
           "outletName": "NPR",
           "headline": "Senate Republicans pass immigration funding after overnight vote",
           "url": "https://www.npr.org/2026/06/05/nx-s1-5846807/senate-weaponization-fund-reconciliation-vote-immigration-enforcement",
           "biasScore": 4.5,
           "biasSignals": [
-            "neutral verb 'passes', factual framing",
-            "notes 'overnight vote' — mild drama signal"
+            "neutral 'passes' and 'funding' verbs",
+            "'overnight vote' adds slight dramatic framing"
           ],
-          "biasScoreGrok": 4.5,
-          "biasSignalsGrok": [
-            "progressive framing slight",
-            "sympathetic to left causes"
-          ],
-          "pubDate": "Fri, 05 Jun 2026 06:38:58 -0400",
-          "clusterId": "senate-immigration-enforcement-bill"
-        },
-        {
-          "id": "thehill-senate-immigration-enforcement-bill-7",
-          "outletId": "thehill",
-          "outletName": "The Hill",
-          "headline": "Live updates: Senate poised for vote-a-rama on reconciliation; Trump to boost coal",
-          "url": "https://thehill.com/homenews/administration/5908695-live-updates-donald-trump-supreme-court-senate-reconciliation/",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral 'vote-a-rama' procedural framing",
-            "live updates format suggests neutral coverage"
-          ],
-          "biasScoreGrok": 5.5,
+          "biasScoreGrok": 4.2,
           "biasSignalsGrok": [
             "neutral verbs used",
-            "minimal ideological signals"
+            "balanced funding description"
           ],
-          "pubDate": "2026-06-04T12:30:00Z",
-          "clusterId": "senate-immigration-enforcement-bill"
+          "pubDate": "Fri, 05 Jun 2026 06:38:58 -0400",
+          "clusterId": "senate-immigration-bill"
         },
         {
-          "id": "bostonglobe-senate-immigration-enforcement-bill-9",
+          "id": "aljazeera-senate-immigration-bill-4",
+          "outletId": "aljazeera",
+          "outletName": "Al Jazeera",
+          "headline": "US Senate passes $70bn ICE funding bill: What comes next?",
+          "url": "https://www.aljazeera.com/news/2026/6/5/us-senate-passes-70bn-ice-funding-bill-what-comes-next?traffic_source=rss",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "'ICE funding' neutral label used",
+            "'What comes next?' implies concern, mild left lean"
+          ],
+          "biasScoreGrok": 5.1,
+          "biasSignalsGrok": [
+            "neutral verbs used",
+            "balanced funding description"
+          ],
+          "pubDate": "Fri, 05 Jun 2026 16:40:37 +0000",
+          "clusterId": "senate-immigration-bill"
+        },
+        {
+          "id": "bostonglobe-senate-immigration-bill-8",
           "outletId": "bostonglobe",
           "outletName": "Boston Globe",
           "headline": "Senate passes $70b immigration enforcement bill, without limits on Trump ‘anti-weaponization’ fund. Follow live updates.",
           "url": "https://www.bostonglobe.com/2026/06/05/nation/trump-presidency-live-updates/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
           "biasScore": 4.5,
           "biasSignals": [
-            "factual framing, notes missing limits on fund",
-            "live updates suggest neutral ongoing coverage"
+            "neutral 'passes' verb",
+            "'without limits' emphasizes policy omission, mild left lean"
           ],
-          "biasScoreGrok": 4,
+          "biasScoreGrok": 4.3,
           "biasSignalsGrok": [
-            "progressive framing",
-            "Trump fund limits noted"
+            "neutral verbs used",
+            "balanced funding description"
           ],
           "pubDate": "Fri, 05 Jun 2026 04:19:24 +0000",
-          "clusterId": "senate-immigration-enforcement-bill"
+          "clusterId": "senate-immigration-bill"
         },
         {
-          "id": "npr-senate-immigration-enforcement-bill-3",
+          "id": "npr-senate-immigration-bill-3",
           "outletId": "npr",
           "outletName": "NPR",
           "headline": "Senate passes $70B immigration enforcement bill without limits on Trump settlement fund",
           "url": "https://www.npr.org/2026/06/05/nx-s1-5847589/senate-passes-immigration-enforcement-bill-without-limits-on-trump-settlement-fund",
           "biasScore": 4.8,
           "biasSignals": [
-            "'without limits on Trump settlement fund' — emphasizes omission",
-            "framing highlights what was NOT included"
+            "'without limits' emphasizes omission, mild left lean",
+            "'settlement fund' framing softens Trump fund language"
           ],
-          "biasScoreGrok": 4,
+          "biasScoreGrok": 4.6,
           "biasSignalsGrok": [
-            "progressive framing",
-            "Trump critical tone"
+            "neutral verbs used",
+            "balanced funding description"
           ],
           "pubDate": "Fri, 05 Jun 2026 05:15:02 -0400",
-          "clusterId": "senate-immigration-enforcement-bill"
+          "clusterId": "senate-immigration-bill"
         },
         {
-          "id": "axios-senate-immigration-enforcement-bill-8",
+          "id": "axios-senate-immigration-bill-7",
           "outletId": "axios",
           "outletName": "Axios",
           "headline": "Senate advances ICE funding through Trump's second term",
           "url": "https://www.axios.com/2026/06/05/senate-ice-border-patrol-funding-vote",
-          "biasScore": 5.5,
+          "biasScore": 4.8,
           "biasSignals": [
-            "'advances ICE funding' — frames as pro-enforcement win",
-            "neutral tone but emphasis on Trump term extension"
+            "neutral 'advances' verb",
+            "'through Trump's second term' adds political context"
           ],
-          "biasScoreGrok": 6,
+          "biasScoreGrok": 5.8,
           "biasSignalsGrok": [
-            "conservative framing slight",
-            "ICE funding positive"
+            "advances framing",
+            "Trump term emphasis"
           ],
           "pubDate": "Fri, 05 Jun 2026 10:19:19 +0000",
-          "clusterId": "senate-immigration-enforcement-bill"
+          "clusterId": "senate-immigration-bill"
         },
         {
-          "id": "dailycaller-senate-immigration-enforcement-bill-4",
-          "outletId": "dailycaller",
-          "outletName": "Daily Caller",
-          "headline": "Senate Passes Major Immigration Enforcement Bill After Weaponization Fund Threw Wrench In Process",
-          "url": "https://dailycaller.com/2026/06/05/senate-passes-reconciliation-bill-immigration-enforcement/",
-          "biasScore": 6.5,
-          "biasSignals": [
-            "'weaponization fund threw wrench' — loaded conservative framing",
-            "sympathetic to enforcement framing"
-          ],
-          "biasScoreGrok": 7.5,
-          "biasSignalsGrok": [
-            "conservative framing",
-            "weaponization fund criticism"
-          ],
-          "pubDate": "Fri, 05 Jun 2026 10:17:33 +0000",
-          "clusterId": "senate-immigration-enforcement-bill"
-        }
-      ]
-    },
-    {
-      "id": "graham-platner-senate-scandal",
-      "topicLabel": "Graham Platner abuse allegations shake Maine Senate race",
-      "date": "2026-06-05",
-      "articles": [
-        {
-          "id": "theatlantic-graham-platner-senate-scandal-14",
-          "outletId": "theatlantic",
-          "outletName": "The Atlantic",
-          "headline": "Don’t Worry! That Was Almost Certainly the Last Graham Platner Scandal!",
-          "url": "https://www.theatlantic.com/newsletters/2026/06/graham-platner-scandals/687440/?utm_source=feed",
-          "biasScore": 2.5,
-          "biasSignals": [
-            "sarcastic 'Don't Worry!' — mocking Platner sympathizers",
-            "implies more scandals coming, adversarial to Platner"
-          ],
-          "biasScoreGrok": 3,
-          "biasSignalsGrok": [
-            "progressive framing",
-            "last scandal sarcasm"
-          ],
-          "pubDate": "Thu, 04 Jun 2026 21:01:00 -0400",
-          "clusterId": "graham-platner-senate-scandal"
-        },
-        {
-          "id": "theatlantic-graham-platner-senate-scandal-15",
-          "outletId": "theatlantic",
-          "outletName": "The Atlantic",
-          "headline": "Yet More Damning Revelations About Graham Platner",
-          "url": "https://www.theatlantic.com/ideas/2026/06/graham-platner-maine-populism-elections/687429/?utm_source=feed",
-          "biasScore": 2.5,
-          "biasSignals": [
-            "'Yet More Damning Revelations' — charged progressive framing",
-            "emphasizes harm, treats allegations as confirmed"
-          ],
-          "biasScoreGrok": 2.5,
-          "biasSignalsGrok": [
-            "progressive framing",
-            "damning revelations loaded"
-          ],
-          "pubDate": "Thu, 04 Jun 2026 18:12:00 -0400",
-          "clusterId": "graham-platner-senate-scandal"
-        },
-        {
-          "id": "bostonglobe-graham-platner-senate-scandal-11",
-          "outletId": "bostonglobe",
-          "outletName": "Boston Globe",
-          "headline": "Graham Platner to hold Maine rally with Representative Ro Khanna as scandals shake up campaign",
-          "url": "https://www.bostonglobe.com/2026/06/05/nation/graham-platner-campaign-rally/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
-          "biasScore": 3.5,
-          "biasSignals": [
-            "neutral reporting of rally with Khanna",
-            "'scandals shake up campaign' — factual descriptor"
-          ],
-          "biasScoreGrok": 4,
-          "biasSignalsGrok": [
-            "progressive framing",
-            "scandals shake up noted"
-          ],
-          "pubDate": "Fri, 05 Jun 2026 04:10:58 +0000",
-          "clusterId": "graham-platner-senate-scandal"
-        },
-        {
-          "id": "nbc-graham-platner-senate-scandal-13",
-          "outletId": "nbc",
-          "outletName": "NBC News",
-          "headline": "Graham Platner’s Kik account highlights app’s dark reputation",
-          "url": "https://www.nbcnews.com/tech/tech-news/graham-platner-kik-account-highlights-apps-dark-reputation-rcna348030",
-          "biasScore": 3.5,
-          "biasSignals": [
-            "factual 'highlights app's dark reputation' — informational",
-            "neutral tone, no partisan framing"
-          ],
-          "biasScoreGrok": 3.5,
-          "biasSignalsGrok": [
-            "progressive framing",
-            "dark reputation emphasized"
-          ],
-          "pubDate": "2026-06-04T09:17:00Z",
-          "clusterId": "graham-platner-senate-scandal"
-        },
-        {
-          "id": "guardian-graham-platner-senate-scandal-8",
-          "outletId": "guardian",
-          "outletName": "The Guardian",
-          "headline": "Graham Platner says allegations of physical abuse of former partner ‘are simply not true’ – as it happened",
-          "url": "https://www.theguardian.com/us-news/live/2026/jun/04/us-politics-latest-news-midterm-elections-california-governor-results",
-          "biasScore": 4,
-          "biasSignals": [
-            "neutral 'says allegations not true' framing",
-            "live blog format, balanced ongoing coverage"
-          ],
-          "biasScoreGrok": 3.5,
-          "biasSignalsGrok": [
-            "progressive framing",
-            "allegations not true quoted"
-          ],
-          "pubDate": "Fri, 05 Jun 2026 02:03:39 GMT",
-          "clusterId": "graham-platner-senate-scandal"
-        },
-        {
-          "id": "nytimes-graham-platner-senate-scandal-0",
-          "outletId": "nytimes",
-          "outletName": "NY Times",
-          "headline": "Platner Denies Hurting Ex-Girlfriend and Says He Will Not Quit Senate Race",
-          "url": "https://www.nytimes.com/2026/06/04/us/politics/graham-platner-maine-senate-former-girlfriends.html",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral 'denies' verb, lets candidate speak",
-            "no loaded framing, reports denial directly"
-          ],
-          "biasScoreGrok": 4.5,
-          "biasSignalsGrok": [
-            "progressive framing",
-            "abuse allegations emphasized"
-          ],
-          "pubDate": "Fri, 05 Jun 2026 02:33:27 +0000",
-          "clusterId": "graham-platner-senate-scandal"
-        },
-        {
-          "id": "bostonglobe-graham-platner-senate-scandal-12",
-          "outletId": "bostonglobe",
-          "outletName": "Boston Globe",
-          "headline": "Platner denies hurting ex-girlfriend and says he will not quit Senate race",
-          "url": "https://www.bostonglobe.com/2026/06/04/nation/graham-platner-interview/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral 'denies' and 'will not quit' framing",
-            "factual headline, no loaded language"
-          ],
-          "biasScoreGrok": 4.5,
-          "biasSignalsGrok": [
-            "progressive framing",
-            "denies hurting quoted"
-          ],
-          "pubDate": "Fri, 05 Jun 2026 03:32:22 +0000",
-          "clusterId": "graham-platner-senate-scandal"
-        },
-        {
-          "id": "economist-graham-platner-senate-scandal-9",
-          "outletId": "economist",
-          "outletName": "The Economist",
-          "headline": "An increasingly risky bet for Democrats in Maine",
-          "url": "https://www.economist.com/united-states/2026/06/01/an-increasingly-risky-bet-for-democrats-in-maine",
+          "id": "thehill-senate-immigration-bill-6",
+          "outletId": "thehill",
+          "outletName": "The Hill",
+          "headline": "Senate drama: Republicans wrestle over Schumer amendment on anti-weaponization fund",
+          "url": "https://thehill.com/homenews/senate/5909993-schumer-amendment-targets-doj-fund/",
           "biasScore": 5,
           "biasSignals": [
-            "'increasingly risky bet' — analytical, not charged",
-            "frames Democrat candidacy skeptically but neutrally"
+            "'drama' frames Senate as chaotic, mild bias",
+            "'anti-weaponization fund' uses Trump's own branding"
           ],
           "biasScoreGrok": 5.5,
           "biasSignalsGrok": [
-            "neutral verbs used",
-            "risky bet framing balanced"
+            "drama emphasis",
+            "Republican focus"
           ],
-          "pubDate": "Mon, 01 Jun 2026 23:11:24 +0000",
-          "clusterId": "graham-platner-senate-scandal"
-        },
-        {
-          "id": "breitbart-graham-platner-senate-scandal-5",
-          "outletId": "breitbart",
-          "outletName": "Breitbart",
-          "headline": "Platner: Any Allegations of Physicality or I Knew What My Tattoo Was Are 'Not True'",
-          "url": "https://www.breitbart.com/clips/2026/06/04/platner-any-allegations-of-physicality-or-i-knew-what-my-tattoo-was-are-not-true/",
-          "biasScore": 5.5,
-          "biasSignals": [
-            "gives Platner voice to deny allegations directly",
-            "neutral verb 'says', quotes his denial"
-          ],
-          "biasScoreGrok": 7.5,
-          "biasSignalsGrok": [
-            "conservative framing",
-            "allegations denied emphasis"
-          ],
-          "pubDate": "Fri, 05 Jun 2026 01:22:36 +0000",
-          "clusterId": "graham-platner-senate-scandal"
-        },
-        {
-          "id": "breitbart-graham-platner-senate-scandal-4",
-          "outletId": "breitbart",
-          "outletName": "Breitbart",
-          "headline": "Women Who Dated Democrat Graham Platner Describe 'Unsettling' Behavior",
-          "url": "https://www.breitbart.com/politics/2026/06/04/women-who-dated-democrat-graham-platner-describe-unsettling-behaviorwomen-who-dated-democrat-graham-platner-describe-unsettling-behavior/",
-          "biasScore": 6.5,
-          "biasSignals": [
-            "'Democrat Graham Platner' — party label emphasized",
-            "'Unsettling' in quotes distances outlet from claim"
-          ],
-          "biasScoreGrok": 8,
-          "biasSignalsGrok": [
-            "conservative framing",
-            "unsettling behavior highlighted"
-          ],
-          "pubDate": "Thu, 04 Jun 2026 23:19:46 +0000",
-          "clusterId": "graham-platner-senate-scandal"
-        },
-        {
-          "id": "dailycaller-graham-platner-senate-scandal-3",
-          "outletId": "dailycaller",
-          "outletName": "Daily Caller",
-          "headline": "Nazi-Tattooed Senate Candidate Accused Of Physically Abusing Ex-Girlfriend",
-          "url": "https://dailycaller.com/2026/06/04/graham-platner-maine-senate-race-alleged-abuse-ex-girlfriend/",
-          "biasScore": 7,
-          "biasSignals": [
-            "'Nazi-Tattooed' — charged descriptor leading headline",
-            "emphasizes most damaging detail, adversarial framing"
-          ],
-          "biasScoreGrok": 9,
-          "biasSignalsGrok": [
-            "heavy conservative framing",
-            "Nazi tattoo charged language"
-          ],
-          "pubDate": "Thu, 04 Jun 2026 22:57:50 +0000",
-          "clusterId": "graham-platner-senate-scandal"
-        },
-        {
-          "id": "breitbart-graham-platner-senate-scandal-6",
-          "outletId": "breitbart",
-          "outletName": "Breitbart",
-          "headline": "Jewish Professor Galloway Gives Platner 'Hall Pass' for Totenkopf S.S. Tattoo",
-          "url": "https://www.breitbart.com/clips/2026/06/04/jewish-professor-galloway-gives-platner-hall-pass-for-totenkopf-s-s-tattoo/",
-          "biasScore": 7,
-          "biasSignals": [
-            "'Hall Pass' — mocking liberal professor's defense",
-            "emphasizes tattoo controversy adversarially"
-          ],
-          "biasScoreGrok": 9,
-          "biasSignalsGrok": [
-            "heavy conservative framing",
-            "Totenkopf S.S. tattoo charged"
-          ],
-          "pubDate": "Fri, 05 Jun 2026 02:20:29 +0000",
-          "clusterId": "graham-platner-senate-scandal"
-        },
-        {
-          "id": "washexaminer-graham-platner-senate-scandal-10",
-          "outletId": "washexaminer",
-          "outletName": "Washington Examiner",
-          "headline": "Graham Platner accuser says New York Times journalists ‘twisted’ her story to help his campaign",
-          "url": "https://www.washingtonexaminer.com/news/campaigns/4596470/platner-accuser-lyndsey-fifield-new-york-times-journalists-twisted-story-help-campaign/",
-          "biasScore": 7,
-          "biasSignals": [
-            "accuser says NYT 'twisted' her story — attacks liberal media",
-            "frames NYT as partisan actor harming victim"
-          ],
-          "biasScoreGrok": 7,
-          "biasSignalsGrok": [
-            "conservative framing",
-            "NYT twisted story claim"
-          ],
-          "pubDate": "Fri, 05 Jun 2026 12:24:00 +0000",
-          "clusterId": "graham-platner-senate-scandal"
-        },
-        {
-          "id": "foxnews-graham-platner-senate-scandal-1",
-          "outletId": "foxnews",
-          "outletName": "Fox News",
-          "headline": "Platner’s anti-corporate crusade hits awkward snag as receipts tell another story",
-          "url": "https://www.foxnews.com/politics/platners-anti-corporate-crusade-hits-awkward-snag-receipts-tell-another-story",
-          "biasScore": 7.5,
-          "biasSignals": [
-            "'anti-corporate crusade hits awkward snag' — mocking framing",
-            "'receipts tell another story' — adversarial to Democrat"
-          ],
-          "biasScoreGrok": 7,
-          "biasSignalsGrok": [
-            "conservative framing",
-            "anti-corporate crusade mocked"
-          ],
-          "pubDate": "2026-06-04T10:22:23.0368288Z",
-          "clusterId": "graham-platner-senate-scandal"
-        },
-        {
-          "id": "dailycaller-graham-platner-senate-scandal-2",
-          "outletId": "dailycaller",
-          "outletName": "Daily Caller",
-          "headline": "Graham Platner’s Alleged Victims Came Forward. The New York Times Fed Them To The Wolves",
-          "url": "https://dailycaller.com/2026/06/04/new-york-times-graham-platner-lyndsey-fifield-catch-and-kill-domestic-abuse/",
-          "biasScore": 8,
-          "biasSignals": [
-            "'New York Times Fed Them To The Wolves' — attacking mainstream media",
-            "victim framing reversed, defending Platner"
-          ],
-          "biasScoreGrok": 8.5,
-          "biasSignalsGrok": [
-            "heavy conservative framing",
-            "NYT criticized directly"
-          ],
-          "pubDate": "Thu, 04 Jun 2026 23:48:24 +0000",
-          "clusterId": "graham-platner-senate-scandal"
-        },
-        {
-          "id": "breitbart-graham-platner-senate-scandal-7",
-          "outletId": "breitbart",
-          "outletName": "Breitbart",
-          "headline": "Popular Democrat Pundit Admits She's Supporting 'Liar, Racist, Antisemite, Homophobe' in Maine with Platner",
-          "url": "https://www.breitbart.com/clips/2026/06/04/popular-democrat-pundit-admits-shes-supporting-liar-racist-antisemite-homophobe-in-maine-with-platner/",
-          "biasScore": 8,
-          "biasSignals": [
-            "'Liar, Racist, Antisemite, Homophobe' — heavy charge loading",
-            "frames Democrat pundit as hypocritical supporter"
-          ],
-          "biasScoreGrok": 8.5,
-          "biasSignalsGrok": [
-            "heavy conservative framing",
-            "liar racist labels used"
-          ],
-          "pubDate": "Thu, 04 Jun 2026 22:13:58 +0000",
-          "clusterId": "graham-platner-senate-scandal"
+          "pubDate": "2026-06-04T16:15:55Z",
+          "clusterId": "senate-immigration-bill"
         }
       ]
     },
     {
-      "id": "trump-todd-blanche-ag-nomination",
-      "topicLabel": "Trump nominates Todd Blanche as attorney general",
+      "id": "bolton-classified-documents-plea",
+      "topicLabel": "John Bolton pleads guilty in classified documents case",
       "date": "2026-06-05",
       "articles": [
         {
-          "id": "vox-trump-todd-blanche-ag-nomination-4",
-          "outletId": "vox",
-          "outletName": "Vox",
-          "headline": "Trump’s attorney general pick has exactly one qualification",
-          "url": "https://www.vox.com/politics/490959/todd-blanche-attorney-general-trump-goon",
-          "biasScore": 2,
-          "biasSignals": [
-            "'has exactly one qualification' — dismissive framing",
-            "implies Blanche is unqualified, progressive critique"
-          ],
-          "biasScoreGrok": 2.5,
-          "biasSignalsGrok": [
-            "progressive framing",
-            "one qualification loaded"
-          ],
-          "pubDate": "2026-06-04T16:55:00.000Z",
-          "clusterId": "trump-todd-blanche-ag-nomination"
-        },
-        {
-          "id": "huffpost-trump-todd-blanche-ag-nomination-5",
+          "id": "huffpost-bolton-classified-documents-plea-5",
           "outletId": "huffpost",
           "outletName": "HuffPost",
-          "headline": "New York Times Drops Blistering Headline On Latest Trump Appointee",
-          "url": "https://www.huffpost.com/entry/new-york-times-bill-pulte-donald-trump_n_6a212a85e4b0ba317306c7bf",
-          "biasScore": 2,
+          "headline": "John Bolton To Plead Guilty Over Mishandling Classified Documents: Reports",
+          "url": "https://www.huffpost.com/entry/john-bolton-to-plead-guilty-over-mishandling-classified-documents-report_n_6a21991ee4b0ed55359d384f",
+          "biasScore": 4,
           "biasSignals": [
-            "'Blistering Headline' — amplifies anti-Trump framing",
-            "celebrates NYT criticism of Trump appointee"
+            "'Mishandling' softens offense slightly vs 'retaining'",
+            "neutral 'reports' sourcing qualifier"
           ],
-          "biasScoreGrok": 2,
+          "biasScoreGrok": 3.9,
           "biasSignalsGrok": [
-            "far left framing",
-            "blistering headline charged"
+            "mishandling framing",
+            "report emphasis"
           ],
-          "pubDate": "2026-06-04T09:03:19Z",
-          "clusterId": "trump-todd-blanche-ag-nomination"
+          "pubDate": "2026-06-04T15:58:02Z",
+          "clusterId": "bolton-classified-documents-plea"
         },
         {
-          "id": "msnbc-trump-todd-blanche-ag-nomination-0",
+          "id": "msnbc-bolton-classified-documents-plea-0",
           "outletId": "msnbc",
           "outletName": "MSNBC",
-          "headline": "Trump plans to nominate Todd Blanche as attorney general, source says",
-          "url": "https://www.ms.now/news/trump-to-nominate-todd-blanche-attorney-general",
-          "biasScore": 3.5,
+          "headline": "John Bolton agrees to plead guilty in classified documents case",
+          "url": "https://www.ms.now/news/john-bolton-agrees-to-plead-guilty-in-classified-documents-case",
+          "biasScore": 4.5,
           "biasSignals": [
-            "'source says' — hedged, no editorial framing",
-            "neutral verb 'plans to nominate'"
+            "neutral 'agrees to plead guilty' framing",
+            "no charged language or ideological signals"
           ],
-          "biasScoreGrok": 5,
+          "biasScoreGrok": 4.9,
           "biasSignalsGrok": [
             "neutral verbs used",
-            "plans to nominate neutral"
+            "factual plea report"
           ],
-          "pubDate": "2026-06-04T01:45:43Z",
-          "clusterId": "trump-todd-blanche-ag-nomination"
+          "pubDate": "2026-06-04T15:31:43Z",
+          "clusterId": "bolton-classified-documents-plea"
         },
         {
-          "id": "washpost-trump-todd-blanche-ag-nomination-1",
+          "id": "washpost-bolton-classified-documents-plea-1",
           "outletId": "washpost",
           "outletName": "Washington Post",
-          "headline": "Trump says he plans to nominate Todd Blanche to serve as attorney general",
-          "url": "https://www.washingtonpost.com/national-security/2026/06/04/trump-says-he-plans-nominate-todd-blanche-serve-attorney-general/",
+          "headline": "John Bolton expected to plead guilty in classified documents case",
+          "url": "https://www.washingtonpost.com/national-security/2026/06/04/john-bolton-expected-plead-guilty-classified-documents-case/",
           "biasScore": 4.5,
           "biasSignals": [
-            "neutral 'says he plans to nominate' framing",
-            "factual headline, no loaded language"
+            "'expected to plead guilty' neutral, factual",
+            "no editorializing language detected"
           ],
-          "biasScoreGrok": 5.5,
+          "biasScoreGrok": 4.7,
           "biasSignalsGrok": [
             "neutral verbs used",
-            "minimal ideological signals"
+            "factual plea report"
           ],
-          "pubDate": "2026-06-04T03:57:27Z",
-          "clusterId": "trump-todd-blanche-ag-nomination"
+          "pubDate": "2026-06-04T15:18:31Z",
+          "clusterId": "bolton-classified-documents-plea"
         },
         {
-          "id": "nbc-trump-todd-blanche-ag-nomination-2",
+          "id": "nbc-bolton-classified-documents-plea-3",
           "outletId": "nbc",
           "outletName": "NBC News",
-          "headline": "Live updates: Trump to nominate Todd Blanche for attorney general",
-          "url": "https://www.nbcnews.com/politics/trump-administration/live-blog/trump-blanche-congress-dhs-ice-immigration-iran-midterm-live-updates-rcna348398",
+          "headline": "Former Trump adviser John Bolton to plead guilty to retaining national security information",
+          "url": "https://www.nbcnews.com/politics/trump-administration/former-trump-adviser-john-bolton-plead-guilty-retaining-national-secur-rcna348479",
           "biasScore": 4.5,
           "biasSignals": [
-            "live updates format, neutral factual framing",
-            "no editorial signal in headline"
+            "neutral 'plead guilty' framing",
+            "'retaining national security information' — precise legal language"
           ],
-          "biasScoreGrok": 5,
+          "biasScoreGrok": 4.8,
           "biasSignalsGrok": [
             "neutral verbs used",
-            "live updates neutral"
+            "factual plea report"
           ],
-          "pubDate": "2026-06-04T11:19:27Z",
-          "clusterId": "trump-todd-blanche-ag-nomination"
+          "pubDate": "2026-06-04T16:37:00Z",
+          "clusterId": "bolton-classified-documents-plea"
         },
         {
-          "id": "ap-trump-todd-blanche-ag-nomination-3",
+          "id": "ap-bolton-classified-documents-plea-4",
           "outletId": "ap",
           "outletName": "Associated Press",
-          "headline": "Trump says he will nominate Todd Blanche to serve as attorney general",
-          "url": "https://apnews.com/article/trump-blanche-justice-department-86f44c3c01caf89a1dae9d5b5c468551",
+          "headline": "Bolton will plead guilty in classified information case, AP source says",
+          "url": "https://apnews.com/article/bolton-justice-department-trump-classified-information-3a92a8f87521cee9a7627db53a75e9c1",
           "biasScore": 4.5,
           "biasSignals": [
-            "neutral AP wire framing, 'will nominate'",
-            "factual, no ideological signals"
+            "'AP source says' — transparent sourcing",
+            "neutral verb 'plead guilty', no spin"
           ],
-          "biasScoreGrok": 5.5,
+          "biasScoreGrok": 4.6,
           "biasSignalsGrok": [
             "neutral verbs used",
-            "minimal ideological signals"
+            "factual plea report"
           ],
-          "pubDate": "2026-06-04T03:13:22Z",
-          "clusterId": "trump-todd-blanche-ag-nomination"
-        }
-      ]
-    },
-    {
-      "id": "house-iran-war-resolution",
-      "topicLabel": "House passes resolution to halt Iran military action",
-      "date": "2026-06-05",
-      "articles": [
-        {
-          "id": "axios-house-iran-war-resolution-1",
-          "outletId": "axios",
-          "outletName": "Axios",
-          "headline": "House Democrats help GOP kill Rashida Tlaib push to constrain Trump on Lebanon",
-          "url": "https://www.axios.com/2026/06/04/lebanon-war-powers-rashida-tlaib-democrats-vote",
-          "biasScore": 3.5,
-          "biasSignals": [
-            "notes Democrat defection, factual framing",
-            "neutral 'help GOP kill' — descriptive not charged"
-          ],
-          "biasScoreGrok": 6.5,
-          "biasSignalsGrok": [
-            "conservative framing",
-            "Tlaib push killed noted"
-          ],
-          "pubDate": "Thu, 04 Jun 2026 20:54:38 +0000",
-          "clusterId": "house-iran-war-resolution"
+          "pubDate": "2026-06-04T14:46:33Z",
+          "clusterId": "bolton-classified-documents-plea"
         },
         {
-          "id": "thehill-house-iran-war-resolution-0",
-          "outletId": "thehill",
-          "outletName": "The Hill",
-          "headline": "House passes resolution to end Iran War, challenging Trump",
-          "url": "https://thehill.com/homenews/house/5908560-iran-war-resolution-house/",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "'challenging Trump' — frames as opposition act",
-            "neutral 'passes resolution' verb"
-          ],
-          "biasScoreGrok": 3.5,
-          "biasSignalsGrok": [
-            "progressive framing",
-            "challenging Trump noted"
-          ],
-          "pubDate": "2026-06-03T21:19:08Z",
-          "clusterId": "house-iran-war-resolution"
-        },
-        {
-          "id": "ap-house-iran-war-resolution-2",
-          "outletId": "ap",
-          "outletName": "Associated Press",
-          "headline": "House approves resolution that would halt Iran war, dozens of kids re-separated under Trump",
-          "url": "https://apnews.com/newsletter/morning-wire/june-4-2026",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral AP wire, factual 'halt Iran war'",
-            "combined with child separation story — editorial choice"
-          ],
-          "biasScoreGrok": 3,
-          "biasSignalsGrok": [
-            "progressive framing",
-            "kids re-separated added"
-          ],
-          "pubDate": "2026-06-04T10:48:55Z",
-          "clusterId": "house-iran-war-resolution"
-        },
-        {
-          "id": "ap-house-iran-war-resolution-3",
-          "outletId": "ap",
-          "outletName": "Associated Press",
-          "headline": "House approves resolution to halt military action against Iran",
-          "url": "https://apnews.com/article/iran-war-powers-vote-house-9aaadea35f9523c818802286a6553536",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral 'approves resolution' framing",
-            "factual, no ideological signals"
-          ],
-          "biasScoreGrok": 5,
-          "biasSignalsGrok": [
-            "neutral verbs used",
-            "minimal ideological signals"
-          ],
-          "pubDate": "2026-06-03T19:43:25Z",
-          "clusterId": "house-iran-war-resolution"
-        },
-        {
-          "id": "foxnews-house-iran-war-resolution-4",
-          "outletId": "foxnews",
-          "outletName": "Fox News",
-          "headline": "Israel-Lebanon ceasefire secured by US as House votes to curb Trump war powers",
-          "url": "https://www.foxnews.com/live-news/iran-war-israel-lebanon-ceasefire-house-votes-trump-war-powers-june-4",
+          "id": "nationalreview-bolton-classified-documents-plea-2",
+          "outletId": "nationalreview",
+          "outletName": "National Review",
+          "headline": "How the Trump DOJ Extracted a Guilty Plea from John Bolton",
+          "url": "https://www.nationalreview.com/2026/06/how-the-trump-doj-extracted-a-guilty-plea-from-john-bolton/",
           "biasScore": 6.5,
           "biasSignals": [
-            "leads with ceasefire win before House vote",
-            "framing emphasizes Trump diplomacy success first"
+            "'How the Trump DOJ Extracted a guilty plea' — adversarial DOJ framing",
+            "frames DOJ as aggressive actor against Bolton"
           ],
-          "biasScoreGrok": 7,
+          "biasScoreGrok": 7.2,
           "biasSignalsGrok": [
-            "conservative framing",
-            "curb Trump powers critical"
+            "extracted plea framing",
+            "Trump DOJ emphasis"
           ],
-          "pubDate": "2026-06-04T11:07:23.2332308Z",
-          "clusterId": "house-iran-war-resolution"
+          "pubDate": "Thu, 04 Jun 2026 18:24:37 +0000",
+          "clusterId": "bolton-classified-documents-plea"
         }
       ]
     },
     {
-      "id": "trump-child-separation-redux",
-      "topicLabel": "AP finds dozens of children re-separated under Trump",
+      "id": "trump-slush-fund-anti-weaponization",
+      "topicLabel": "Trump's $1.8B anti-weaponization fund controversy",
       "date": "2026-06-05",
       "articles": [
         {
-          "id": "huffpost-trump-child-separation-redux-3",
-          "outletId": "huffpost",
-          "outletName": "HuffPost",
-          "headline": "Trump Administration Has Separated Dozens Of Children From Their Parents For A Second Time: AP",
-          "url": "https://www.huffpost.com/entry/immigration-separated-again_n_6a214fa4e4b032392fa98c16",
-          "biasScore": 2,
-          "biasSignals": [
-            "ALL CAPS headline amplifies outrage",
-            "'Second Time' — emphasizes pattern of harm"
-          ],
-          "biasScoreGrok": 2,
-          "biasSignalsGrok": [
-            "far left framing",
-            "second time emotionally charged"
-          ],
-          "pubDate": "2026-06-04T10:24:33Z",
-          "clusterId": "trump-child-separation-redux"
-        },
-        {
-          "id": "msnbc-trump-child-separation-redux-0",
+          "id": "msnbc-trump-slush-fund-anti-weaponization-0",
           "outletId": "msnbc",
           "outletName": "MSNBC",
-          "headline": "Trump administration has separated dozens of children from their parents again, AP finds",
-          "url": "https://www.ms.now/news/trump-administration-family-separations-children-second-term",
-          "biasScore": 2.5,
-          "biasSignals": [
-            "'separated again' — emphasizes repeat harm to children",
-            "victim framing, children as sympathetic subjects"
-          ],
-          "biasScoreGrok": 2.5,
-          "biasSignalsGrok": [
-            "progressive framing",
-            "separated again charged"
-          ],
-          "pubDate": "2026-06-04T11:50:07Z",
-          "clusterId": "trump-child-separation-redux"
-        },
-        {
-          "id": "ap-trump-child-separation-redux-2",
-          "outletId": "ap",
-          "outletName": "Associated Press",
-          "headline": "AP finds dozens of kids separated under Trump faced separation again",
-          "url": "https://apnews.com/article/immigration-trump-family-separation-ice-71a610d15af5207a68f989fcafb55039",
-          "biasScore": 2.5,
-          "biasSignals": [
-            "'AP finds' — authoritative investigative framing",
-            "'faced separation again' — emphasizes repeated harm"
-          ],
-          "biasScoreGrok": 4,
-          "biasSignalsGrok": [
-            "neutral verbs used",
-            "faced separation again"
-          ],
-          "pubDate": "2026-06-04T04:05:24Z",
-          "clusterId": "trump-child-separation-redux"
-        },
-        {
-          "id": "ap-trump-child-separation-redux-1",
-          "outletId": "ap",
-          "outletName": "Associated Press",
-          "headline": "House approves resolution that would halt Iran war, dozens of kids re-separated under Trump",
-          "url": "https://apnews.com/newsletter/morning-wire/june-4-2026",
-          "biasScore": 3.5,
-          "biasSignals": [
-            "combined with Iran resolution — editorial pairing signal",
-            "'dozens of kids re-separated' — child victim framing"
-          ],
-          "biasScoreGrok": 3,
-          "biasSignalsGrok": [
-            "progressive framing",
-            "kids re-separated added"
-          ],
-          "pubDate": "2026-06-04T10:48:55Z",
-          "clusterId": "trump-child-separation-redux"
-        }
-      ]
-    },
-    {
-      "id": "ukraine-russia-ceasefire-nuclear",
-      "topicLabel": "Ukraine war: Russia attacks, ceasefire talks, nuclear plant",
-      "date": "2026-06-05",
-      "articles": [
-        {
-          "id": "cnn-ukraine-russia-ceasefire-nuclear-0",
-          "outletId": "cnn",
-          "outletName": "CNN",
-          "headline": "Russia ramps up aerial attacks as it struggles on the ground in Ukraine",
-          "url": "https://www.cnn.com/2026/06/04/europe/russia-air-attacks-ukraine-missile-defense-intl",
-          "biasScore": 3.5,
-          "biasSignals": [
-            "'ramps up aerial attacks' — aggressive verb for Russia",
-            "'struggles on the ground' — frames Russia negatively"
-          ],
-          "biasScoreGrok": 4.5,
-          "biasSignalsGrok": [
-            "neutral verbs used",
-            "ramps up attacks neutral"
-          ],
-          "pubDate": "2026-06-04T06:42:33Z",
-          "clusterId": "ukraine-russia-ceasefire-nuclear"
-        },
-        {
-          "id": "timesofisrael-ukraine-russia-ceasefire-nuclear-3",
-          "outletId": "timesofisrael",
-          "outletName": "Times of Israel",
-          "headline": "Amid deadly Russian strikes, Kyiv finds itself ‘in the queue’ as US busy with Iran",
-          "url": "https://www.timesofisrael.com/amid-deadly-russian-strikes-kyiv-finds-itself-in-the-queue-as-us-busy-with-iran/",
-          "biasScore": 4,
-          "biasSignals": [
-            "'in the queue' — neutral metaphor for neglect",
-            "factual framing, notes US distraction with Iran"
-          ],
-          "biasScoreGrok": 6,
-          "biasSignalsGrok": [
-            "conservative framing slight",
-            "US busy with Iran noted"
-          ],
-          "pubDate": "Fri, 05 Jun 2026 07:49:02 +0000",
-          "clusterId": "ukraine-russia-ceasefire-nuclear"
-        },
-        {
-          "id": "aljazeera-ukraine-russia-ceasefire-nuclear-1",
-          "outletId": "aljazeera",
-          "outletName": "Al Jazeera",
-          "headline": "IAEA brokers Ukraine ceasefire to allow nuclear plant repairs",
-          "url": "https://www.aljazeera.com/news/2026/6/5/iaea-brokers-ukraine-ceasefire-to-allow-nuclear-plant-repairs?traffic_source=rss",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral 'brokers' verb, factual IAEA framing",
-            "no ideological signals in headline"
-          ],
-          "biasScoreGrok": 5,
-          "biasSignalsGrok": [
-            "neutral verbs used",
-            "brokers ceasefire neutral"
-          ],
-          "pubDate": "Fri, 05 Jun 2026 11:01:37 +0000",
-          "clusterId": "ukraine-russia-ceasefire-nuclear"
-        },
-        {
-          "id": "aljazeera-ukraine-russia-ceasefire-nuclear-2",
-          "outletId": "aljazeera",
-          "outletName": "Al Jazeera",
-          "headline": "Zelenskyy asks Putin for meeting: What’s he offering, could Russia accept?",
-          "url": "https://www.aljazeera.com/news/2026/6/5/zelenskyy-asks-putin-for-meeting-whats-he-offering-could-russia-accept?traffic_source=rss",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "balanced question format, neutral framing",
-            "no loaded language or partisan signals"
-          ],
-          "biasScoreGrok": 5.5,
-          "biasSignalsGrok": [
-            "neutral verbs used",
-            "asks Putin neutral"
-          ],
-          "pubDate": "Fri, 05 Jun 2026 10:56:09 +0000",
-          "clusterId": "ukraine-russia-ceasefire-nuclear"
-        },
-        {
-          "id": "telegraph-ukraine-russia-ceasefire-nuclear-4",
-          "outletId": "telegraph",
-          "outletName": "The Telegraph",
-          "headline": "Ukraine: The Latest - the world’s most trusted and award-winning podcast on the war",
-          "url": "https://www.telegraph.co.uk/news/2022/03/02/russia-ukraine-war-listen-daily-podcast/",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral podcast title, factual framing",
-            "no ideological signals"
-          ],
-          "biasScoreGrok": 6.5,
-          "biasSignalsGrok": [
-            "conservative framing",
-            "trusted podcast self promo"
-          ],
-          "pubDate": "Thu, 04 Jun 2026 19:08:01 GMT",
-          "clusterId": "ukraine-russia-ceasefire-nuclear"
-        }
-      ]
-    },
-    {
-      "id": "marjane-satrapi-death",
-      "topicLabel": "Persepolis author Marjane Satrapi dies at 56",
-      "date": "2026-06-05",
-      "articles": [
-        {
-          "id": "cnn-marjane-satrapi-death-0",
-          "outletId": "cnn",
-          "outletName": "CNN",
-          "headline": "Marjane Satrapi, French Iranian artist and the author of ‘Persepolis,’ dies at 56",
-          "url": "https://www.cnn.com/2026/06/04/style/marjane-satrapi-persepolis-author-dies-intl",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral obituary framing, factual details",
-            "no ideological signals"
-          ],
-          "biasScoreGrok": 5,
-          "biasSignalsGrok": [
-            "neutral verbs used",
-            "dies at 56 neutral"
-          ],
-          "pubDate": "2026-06-04T10:45:35Z",
-          "clusterId": "marjane-satrapi-death"
-        },
-        {
-          "id": "bbc-marjane-satrapi-death-1",
-          "outletId": "bbc",
-          "outletName": "BBC",
-          "headline": "Marjane Satrapi: Oscar-nominated Persepolis author and director dies aged 56",
-          "url": "https://www.bbc.co.uk/news/articles/c4g0nnj51jyo",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral obituary, adds 'Oscar-nominated' credential",
-            "factual, no partisan framing"
-          ],
-          "biasScoreGrok": 5,
-          "biasSignalsGrok": [
-            "neutral verbs used",
-            "Oscar-nominated neutral"
-          ],
-          "pubDate": "2026-06-04T12:37:30.405451Z",
-          "clusterId": "marjane-satrapi-death"
-        },
-        {
-          "id": "nbc-marjane-satrapi-death-2",
-          "outletId": "nbc",
-          "outletName": "NBC News",
-          "headline": "Marjane Satrapi, French-Iranian author of ‘Persepolis,’ dies at 56",
-          "url": "https://www.nbcnews.com/world/iran/marjane-satrapi-french-iranian-author-persepolis-dies-rcna348422",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral obituary framing, factual details",
-            "no ideological signals"
-          ],
-          "biasScoreGrok": 5,
-          "biasSignalsGrok": [
-            "neutral verbs used",
-            "dies at 56 neutral"
-          ],
-          "pubDate": "2026-06-04T11:24:47Z",
-          "clusterId": "marjane-satrapi-death"
-        },
-        {
-          "id": "huffpost-marjane-satrapi-death-3",
-          "outletId": "huffpost",
-          "outletName": "HuffPost",
-          "headline": "Iranian-French Cartoonist And Filmmaker Marjane Satrapi Has Died At 56",
-          "url": "https://www.huffpost.com/entry/cartoonist-marjane-satrapi-dead_n_6a216517e4b032392fa99884",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral obituary framing, factual",
-            "no partisan signals detected"
-          ],
-          "biasScoreGrok": 4.5,
-          "biasSignalsGrok": [
-            "progressive framing",
-            "Iranian-French noted"
-          ],
-          "pubDate": "2026-06-04T11:55:37Z",
-          "clusterId": "marjane-satrapi-death"
-        }
-      ]
-    },
-    {
-      "id": "james-handy-murder",
-      "topicLabel": "Actor James Handy fatally stabbed in Los Angeles",
-      "date": "2026-06-05",
-      "articles": [
-        {
-          "id": "latimes-james-handy-murder-1",
-          "outletId": "latimes",
-          "outletName": "LA Times",
-          "headline": "Veteran actor James Handy fatally stabbed in Tarzana; girlfriend's son is arrested",
-          "url": "https://www.latimes.com/entertainment-arts/story/2026-06-04/actor-james-handy-stabbed-to-death-in-tarzana",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral crime reporting, factual",
-            "no ideological signals"
-          ],
-          "biasScoreGrok": 5.5,
-          "biasSignalsGrok": [
-            "neutral verbs used",
-            "girlfriend son arrested"
-          ],
-          "pubDate": "Fri, 5 Jun 2026 00:56:35 GMT",
-          "clusterId": "james-handy-murder"
-        },
-        {
-          "id": "bostonglobe-james-handy-murder-2",
-          "outletId": "bostonglobe",
-          "outletName": "Boston Globe",
-          "headline": "Police arrest son of James Handy’s girlfriend in actor’s stabbing death in LA",
-          "url": "https://www.bostonglobe.com/2026/06/05/nation/police-arrest-son-james-handys-girlfriend-actors-stabbing-death-la/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral 'police arrest' verb, factual framing",
-            "no ideological signals"
-          ],
-          "biasScoreGrok": 5,
-          "biasSignalsGrok": [
-            "neutral verbs used",
-            "police arrest neutral"
-          ],
-          "pubDate": "Fri, 05 Jun 2026 04:27:18 +0000",
-          "clusterId": "james-handy-murder"
-        },
-        {
-          "id": "independent-james-handy-murder-4",
-          "outletId": "independent",
-          "outletName": "The Independent",
-          "headline": "Top Gun and Jumanji actor James Handy stabbed to death as girlfriend’s son arrested",
-          "url": "https://www.independent.co.uk/news/world/americas/crime/james-handy-actor-top-gun-maverick-killed-los-angeles-stabbing-b2990308.html",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral 'stabbed to death' factual framing",
-            "adds film credentials, no partisan signals"
-          ],
-          "biasScoreGrok": 5.5,
-          "biasSignalsGrok": [
-            "neutral verbs used",
-            "girlfriend son arrested"
-          ],
-          "pubDate": "Fri, 05 Jun 2026 12:25:09 GMT",
-          "clusterId": "james-handy-murder"
-        },
-        {
-          "id": "skynews-james-handy-murder-5",
-          "outletId": "skynews",
-          "outletName": "Sky News",
-          "headline": "Top Gun: Maverick actor stabbed to death",
-          "url": "https://news.sky.com/story/top-gun-maverick-actor-james-handy-stabbed-to-death-in-los-angeles-as-girlfriends-son-arrested-13550995",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral crime reporting, actor credential noted",
-            "no ideological signals"
-          ],
-          "biasScoreGrok": 6,
-          "biasSignalsGrok": [
-            "conservative framing slight",
-            "Top Gun actor noted"
-          ],
-          "pubDate": "Fri, 05 Jun 2026 07:41:00 +0100",
-          "clusterId": "james-handy-murder"
-        },
-        {
-          "id": "dailycaller-james-handy-murder-0",
-          "outletId": "dailycaller",
-          "outletName": "Daily Caller",
-          "headline": "Actor James Handy Allegedly Stabbed To Death By Girlfriend’s Son",
-          "url": "https://dailycaller.com/2026/06/04/top-gun-maverick-actor-james-handy-murdered-girlfriends-son-chilling-911-stabbed-death-81/",
-          "biasScore": 5,
-          "biasSignals": [
-            "'Allegedly' — appropriate legal qualifier used",
-            "neutral crime reporting framing"
-          ],
-          "biasScoreGrok": 7,
-          "biasSignalsGrok": [
-            "conservative framing",
-            "girlfriend son alleged"
-          ],
-          "pubDate": "Fri, 05 Jun 2026 03:47:38 +0000",
-          "clusterId": "james-handy-murder"
-        },
-        {
-          "id": "dailymail-james-handy-murder-3",
-          "outletId": "dailymail",
-          "outletName": "Daily Mail",
-          "headline": "Chilling footage shows James Handy murder suspect moments after actor's fatal stabbing as terrifying 911 call is released",
-          "url": "\n\thttps://www.dailymail.com/news/article-15875711/Actor-James-Hardy-stabbed-murder-Michael-Gledhill.html?ns_mchannel=rss&ito=1490&ns_campaign=1490\n      ",
-          "biasScore": 5.5,
-          "biasSignals": [
-            "'chilling footage' and 'terrifying 911 call' — sensational framing",
-            "emotionally loaded descriptors in headline"
-          ],
-          "biasScoreGrok": 7.5,
-          "biasSignalsGrok": [
-            "conservative framing",
-            "chilling footage charged"
-          ],
-          "pubDate": "Fri, 05 Jun 2026 13:33:44 +0100",
-          "clusterId": "james-handy-murder"
-        }
-      ]
-    },
-    {
-      "id": "screwworm-texas-detection",
-      "topicLabel": "New World screwworm detected in Texas cattle",
-      "date": "2026-06-05",
-      "articles": [
-        {
-          "id": "cbsnews-screwworm-texas-detection-0",
-          "outletId": "cbsnews",
-          "outletName": "CBS News",
-          "headline": "Possible flesh-eating screwworm case in Texas after pest detected 25 miles from U.S. border, USDA says",
-          "url": "https://www.cbsnews.com/news/flesh-eating-screwworm-detected-25-miles-us-border-usda/",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "'Possible' qualifier — appropriately hedged",
-            "factual USDA sourcing, neutral framing"
-          ],
-          "biasScoreGrok": 6.5,
-          "biasSignalsGrok": [
-            "conservative framing",
-            "25 miles from border noted"
-          ],
-          "pubDate": "2026-06-04T12:26:44+00:00",
-          "clusterId": "screwworm-texas-detection"
-        },
-        {
-          "id": "cbsnews-screwworm-texas-detection-1",
-          "outletId": "cbsnews",
-          "outletName": "CBS News",
-          "headline": "Flesh-eating New World screwworm found in Texas calf, USDA says",
-          "url": "https://www.cbsnews.com/news/flesh-eating-new-world-screwworm-found-texas-calf-usda/",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral USDA sourcing, factual framing",
-            "no ideological signals"
-          ],
-          "biasScoreGrok": 6,
-          "biasSignalsGrok": [
-            "conservative framing slight",
-            "flesh-eating found noted"
-          ],
-          "pubDate": "2026-06-04T12:23:52+00:00",
-          "clusterId": "screwworm-texas-detection"
-        },
-        {
-          "id": "abc-screwworm-texas-detection-2",
-          "outletId": "abc",
-          "outletName": "ABC News",
-          "headline": "Screwworm fly detected in Texas decades after cattle threat was largely eradicated",
-          "url": "https://abcnews.com/Business/wireStory/screwworm-fly-detected-texas-decades-after-cattle-threat-133571786",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "historical context 'largely eradicated' — informational",
-            "neutral factual framing"
-          ],
-          "biasScoreGrok": 5.5,
-          "biasSignalsGrok": [
-            "neutral verbs used",
-            "decades after noted"
-          ],
-          "pubDate": "2026-06-04T00:31:25Z",
-          "clusterId": "screwworm-texas-detection"
-        },
-        {
-          "id": "nbc-screwworm-texas-detection-3",
-          "outletId": "nbc",
-          "outletName": "NBC News",
-          "headline": "New World screwworm case detected in Texas calf, threatening U.S. cattle",
-          "url": "https://www.nbcnews.com/news/us-news/new-world-screwworm-case-detected-texas-calf-cattle-food-supply-usda-rcna348414",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "'threatening U.S. cattle' — mild alarm but factual",
-            "neutral sourcing, no partisan signals"
-          ],
-          "biasScoreGrok": 6,
-          "biasSignalsGrok": [
-            "conservative framing slight",
-            "threatening US cattle"
-          ],
-          "pubDate": "2026-06-04T09:45:45Z",
-          "clusterId": "screwworm-texas-detection"
-        }
-      ]
-    },
-    {
-      "id": "senate-republicans-trump-tensions",
-      "topicLabel": "Senate Republicans clash with Trump over agenda",
-      "date": "2026-06-05",
-      "articles": [
-        {
-          "id": "msnbc-senate-republicans-trump-tensions-1",
-          "outletId": "msnbc",
-          "outletName": "MSNBC",
-          "headline": "Senate Republicans ignore Trump’s pleas, strip ballroom funding from key bill",
-          "url": "https://www.ms.now/rachel-maddow-show/maddowblog/senate-republicans-ignore-trumps-pleas-strip-ballroom-funding-from-key-bill",
+          "headline": "‘I love it’: Trump and his team push a mixed message on the status of the ‘slush fund’",
+          "url": "https://www.ms.now/rachel-maddow-show/maddowblog/trump-mixed-message-slush-fund-i-love-it",
           "biasScore": 3,
           "biasSignals": [
-            "'ignore Trump's pleas' — frames Trump as weakened",
-            "'strip ballroom funding' — emphasizes Trump vanity project"
-          ],
-          "biasScoreGrok": 2,
-          "biasSignalsGrok": [
-            "far left framing",
-            "ignore Trump pleas charged"
-          ],
-          "pubDate": "2026-06-03T19:08:30Z",
-          "clusterId": "senate-republicans-trump-tensions"
-        },
-        {
-          "id": "msnbc-senate-republicans-trump-tensions-0",
-          "outletId": "msnbc",
-          "outletName": "MSNBC",
-          "headline": "Senate Republicans are on a collision course with Trump over their reconciliation bill",
-          "url": "https://www.ms.now/news/senate-republicans-collision-course-trump-reconciliation",
-          "biasScore": 3.5,
-          "biasSignals": [
-            "'collision course' — dramatic framing of GOP split",
-            "sympathetic to Republican resistance to Trump"
-          ],
-          "biasScoreGrok": 2.5,
-          "biasSignalsGrok": [
-            "progressive framing",
-            "collision course loaded"
-          ],
-          "pubDate": "2026-06-04T09:00:00Z",
-          "clusterId": "senate-republicans-trump-tensions"
-        },
-        {
-          "id": "npr-senate-republicans-trump-tensions-4",
-          "outletId": "npr",
-          "outletName": "NPR",
-          "headline": "Trump's choices tests the limits of Republican lawmakers' support",
-          "url": "https://www.npr.org/2026/06/05/nx-s1-5846668/trumps-choices-tests-the-limits-of-republican-lawmakers-support",
-          "biasScore": 4,
-          "biasSignals": [
-            "neutral 'tests the limits' framing",
-            "analytical, no charged language"
+            "'slush fund' is left-charged pejorative framing",
+            "'mixed message' frames Trump team as contradictory"
           ],
           "biasScoreGrok": 3.5,
           "biasSignalsGrok": [
-            "progressive framing",
-            "tests limits loaded"
+            "slush fund label",
+            "mixed message framing"
           ],
-          "pubDate": "Fri, 05 Jun 2026 04:43:28 -0400",
-          "clusterId": "senate-republicans-trump-tensions"
+          "pubDate": "2026-06-04T13:33:20Z",
+          "clusterId": "trump-slush-fund-anti-weaponization"
         },
         {
-          "id": "nytimes-senate-republicans-trump-tensions-2",
+          "id": "nytimes-trump-slush-fund-anti-weaponization-1",
           "outletId": "nytimes",
           "outletName": "NY Times",
-          "headline": "Appeals Court Panel to Hear Arguments Over Trump’s Ballroom",
-          "url": "https://www.nytimes.com/2026/06/05/us/politics/appeals-court-trump-ballroom.html",
-          "biasScore": 4.5,
+          "headline": "Trump Keeps Immunity from I.R.S. Audits, Even as $1.8 Billion Fund Falls Away",
+          "url": "https://www.nytimes.com/2026/06/05/us/politics/trump-immunity-tax-audit.html",
+          "biasScore": 3.5,
           "biasSignals": [
-            "neutral 'appeals court' framing, factual",
-            "no loaded language in headline"
+            "'Keeps Immunity' frames Trump as privileged",
+            "'$1.8 Billion Fund Falls Away' neutral on outcome"
           ],
-          "biasScoreGrok": 5,
+          "biasScoreGrok": 4.2,
           "biasSignalsGrok": [
-            "neutral verbs used",
-            "appeals court neutral"
+            "immunity emphasis",
+            "fund falls away"
           ],
-          "pubDate": "Fri, 05 Jun 2026 09:02:57 +0000",
-          "clusterId": "senate-republicans-trump-tensions"
+          "pubDate": "Fri, 05 Jun 2026 17:01:19 +0000",
+          "clusterId": "trump-slush-fund-anti-weaponization"
         },
         {
-          "id": "npr-senate-republicans-trump-tensions-3",
-          "outletId": "npr",
-          "outletName": "NPR",
-          "headline": "How Senate Republicans in their final months in office could affect Trump's agenda?",
-          "url": "https://www.npr.org/2026/06/05/nx-s1-5846639/how-senate-republicans-in-their-final-months-in-office-could-affect-trumps-agenda",
-          "biasScore": 4.5,
+          "id": "abc-trump-slush-fund-anti-weaponization-2",
+          "outletId": "abc",
+          "outletName": "ABC News",
+          "headline": "'They should be reimbursed': Jan. 6 defendants still eyeing payouts, despite scrapped $1.8B fund",
+          "url": "https://abcnews.com/Politics/reimbursed-jan-6-defendants-eyeing-payouts-despite-scrapped/story?id=133565302",
+          "biasScore": 4,
           "biasSignals": [
-            "neutral question framing, analytical tone",
-            "no partisan signals"
+            "'still eyeing payouts' mild skeptical framing",
+            "'scrapped' is neutral on fund's fate"
           ],
-          "biasScoreGrok": 4.5,
+          "biasScoreGrok": 3.7,
           "biasSignalsGrok": [
-            "progressive framing",
-            "final months noted"
+            "defendants eyeing payouts",
+            "scrapped fund"
           ],
-          "pubDate": "Fri, 05 Jun 2026 06:52:23 -0400",
-          "clusterId": "senate-republicans-trump-tensions"
-        },
-        {
-          "id": "thehill-senate-republicans-trump-tensions-7",
-          "outletId": "thehill",
-          "outletName": "The Hill",
-          "headline": "Republicans see trouble with independents for Trump",
-          "url": "https://thehill.com/homenews/senate/5908814-gop-poll-numbers-decline/",
-          "biasScore": 5,
-          "biasSignals": [
-            "'see trouble with independents' — electoral warning framing",
-            "neutral analytical tone"
-          ],
-          "biasScoreGrok": 6,
-          "biasSignalsGrok": [
-            "conservative framing slight",
-            "trouble with independents"
-          ],
-          "pubDate": "2026-06-04T10:00:00Z",
-          "clusterId": "senate-republicans-trump-tensions"
-        },
-        {
-          "id": "thehill-senate-republicans-trump-tensions-5",
-          "outletId": "thehill",
-          "outletName": "The Hill",
-          "headline": "Defeated GOP incumbents snubbed by Trump may grow more willing to buck him",
-          "url": "https://thehill.com/homenews/house/5908779-gop-trump-primary-challenges/",
-          "biasScore": 5.5,
-          "biasSignals": [
-            "'snubbed by Trump' — emphasizes Trump as punishing",
-            "'buck him' — frames Republicans defying Trump positively"
-          ],
-          "biasScoreGrok": 6.5,
-          "biasSignalsGrok": [
-            "conservative framing",
-            "snubbed by Trump noted"
-          ],
-          "pubDate": "2026-06-04T11:42:59Z",
-          "clusterId": "senate-republicans-trump-tensions"
-        },
-        {
-          "id": "thehill-senate-republicans-trump-tensions-6",
-          "outletId": "thehill",
-          "outletName": "The Hill",
-          "headline": "Republicans rocked by Trump’s midterm approach",
-          "url": "https://thehill.com/homenews/campaign/5908757-trump-republicans-midterms-focus/",
-          "biasScore": 5.5,
-          "biasSignals": [
-            "'rocked by Trump's midterm approach' — alarm framing",
-            "frames Trump as damaging to Republicans"
-          ],
-          "biasScoreGrok": 6,
-          "biasSignalsGrok": [
-            "conservative framing slight",
-            "rocked by approach noted"
-          ],
-          "pubDate": "2026-06-04T10:00:00Z",
-          "clusterId": "senate-republicans-trump-tensions"
+          "pubDate": "2026-06-03T23:46:48Z",
+          "clusterId": "trump-slush-fund-anti-weaponization"
         }
       ]
     },
     {
-      "id": "us-iran-war-impact",
-      "topicLabel": "US-Iran war: economic, political, and global fallout",
+      "id": "fisa-surveillance-pulte-senate",
+      "topicLabel": "FISA renewal blocked over Trump intelligence pick Pulte",
       "date": "2026-06-05",
       "articles": [
         {
-          "id": "aljazeera-us-iran-war-impact-0",
-          "outletId": "aljazeera",
-          "outletName": "Al Jazeera",
-          "headline": "US-Iran war pushing millions into food crisis, warns UN",
-          "url": "https://www.aljazeera.com/news/2026/6/5/us-iran-war-pushing-millions-into-food-crisis-warns-un?traffic_source=rss",
-          "biasScore": 3,
+          "id": "guardian-fisa-surveillance-pulte-senate-2",
+          "outletId": "guardian",
+          "outletName": "The Guardian",
+          "headline": "Trump reportedly tells Bill Pulte to fire intelligence community employees – live",
+          "url": "https://www.theguardian.com/us-news/live/2026/jun/05/us-politics-latest-news-updates-donald-trump-republicans-democrats",
+          "biasScore": 3.2,
           "biasSignals": [
-            "'pushing millions into food crisis' — humanitarian victim framing",
-            "UN as trusted source, alarm framing"
+            "'fire intelligence community employees' alarming framing",
+            "live blog format implies ongoing crisis"
           ],
-          "biasScoreGrok": 2.5,
+          "biasScoreGrok": 3.1,
           "biasSignalsGrok": [
-            "progressive framing",
-            "pushing millions crisis"
+            "reportedly tells framing",
+            "live updates"
           ],
-          "pubDate": "Fri, 05 Jun 2026 11:21:14 +0000",
-          "clusterId": "us-iran-war-impact"
+          "pubDate": "Fri, 05 Jun 2026 16:43:37 GMT",
+          "clusterId": "fisa-surveillance-pulte-senate"
         },
         {
-          "id": "vox-us-iran-war-impact-3",
+          "id": "guardian-fisa-surveillance-pulte-senate-3",
+          "outletId": "guardian",
+          "outletName": "The Guardian",
+          "headline": "Senate blocks surveillance bill in dispute over Trump’s intelligence pick",
+          "url": "https://www.theguardian.com/us-news/2026/jun/05/senate-blocks-surveillance-program-trump-bill-pulte",
+          "biasScore": 4.2,
+          "biasSignals": [
+            "'blocks' neutral verb",
+            "'dispute' framing balanced between parties"
+          ],
+          "biasScoreGrok": 3.4,
+          "biasSignalsGrok": [
+            "blocks framing",
+            "dispute emphasis"
+          ],
+          "pubDate": "Fri, 05 Jun 2026 13:56:37 GMT",
+          "clusterId": "fisa-surveillance-pulte-senate"
+        },
+        {
+          "id": "nytimes-fisa-surveillance-pulte-senate-0",
+          "outletId": "nytimes",
+          "outletName": "NY Times",
+          "headline": "Deal to Renew FISA Surveillance Law Falters in the Senate Over Pulte",
+          "url": "https://www.nytimes.com/2026/06/05/us/politics/fisa-surveillance-law-senate-pulte-trump.html",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral 'falters' verb",
+            "'dispute over Pulte' factual framing without spin"
+          ],
+          "biasScoreGrok": 4.4,
+          "biasSignalsGrok": [
+            "falters framing",
+            "Trump pick dispute"
+          ],
+          "pubDate": "Fri, 05 Jun 2026 13:10:38 +0000",
+          "clusterId": "fisa-surveillance-pulte-senate"
+        },
+        {
+          "id": "economist-fisa-surveillance-pulte-senate-4",
+          "outletId": "economist",
+          "outletName": "The Economist",
+          "headline": "The fading influence of America’s spy co-ordinator",
+          "url": "https://www.economist.com/united-states/2026/06/02/the-fading-influence-of-americas-spy-co-ordinator",
+          "biasScore": 5.5,
+          "biasSignals": [
+            "'fading influence' frames intelligence as weakened",
+            "implies institutional decline under Trump, mild left lean"
+          ],
+          "biasScoreGrok": 5.2,
+          "biasSignalsGrok": [
+            "fading influence",
+            "neutral analysis"
+          ],
+          "pubDate": "Tue, 02 Jun 2026 20:58:17 +0000",
+          "clusterId": "fisa-surveillance-pulte-senate"
+        },
+        {
+          "id": "nypost-fisa-surveillance-pulte-senate-1",
+          "outletId": "nypost",
+          "outletName": "NY Post",
+          "headline": "Senate blows up renewal of key surveillance power to protest Trump pick of Bill Pulte as acting DNI",
+          "url": "https://nypost.com/2026/06/05/us-news/democrats-blow-up-fisa-renewal-to-protest-trump-pick-of-bill-pulte-as-acting-dni/",
+          "biasScore": 6.5,
+          "biasSignals": [
+            "'blows up' is charged, dramatic verb",
+            "'to protest Trump pick' frames senators as protesters"
+          ],
+          "biasScoreGrok": 6.8,
+          "biasSignalsGrok": [
+            "blows up framing",
+            "protest emphasis"
+          ],
+          "pubDate": "Fri, 05 Jun 2026 12:45:46 -0400",
+          "clusterId": "fisa-surveillance-pulte-senate"
+        },
+        {
+          "id": "nationalreview-fisa-surveillance-pulte-senate-5",
+          "outletId": "nationalreview",
+          "outletName": "National Review",
+          "headline": "Remove Bill Pulte",
+          "url": "https://www.nationalreview.com/2026/06/remove-bill-pulte/",
+          "biasScore": 6.8,
+          "biasSignals": [
+            "direct imperative 'Remove' — strong conservative institutional criticism",
+            "conservative outlet criticizing Trump pick from right"
+          ],
+          "biasScoreGrok": 8.5,
+          "biasSignalsGrok": [
+            "remove framing",
+            "direct call"
+          ],
+          "pubDate": "Fri, 05 Jun 2026 10:30:32 +0000",
+          "clusterId": "fisa-surveillance-pulte-senate"
+        }
+      ]
+    },
+    {
+      "id": "trump-iran-war-congress",
+      "topicLabel": "House votes on Iran war powers resolution, Trump reacts",
+      "date": "2026-06-05",
+      "articles": [
+        {
+          "id": "washpost-trump-iran-war-congress-0",
+          "outletId": "washpost",
+          "outletName": "Washington Post",
+          "headline": "The four Republicans who broke with Trump on Iran and now face his wrath",
+          "url": "https://www.washingtonpost.com/politics/2026/06/04/4-republicans-who-voted-iran-war-powers-resolution-breaking-with-trump/",
+          "biasScore": 3.5,
+          "biasSignals": [
+            "'broke with Trump' frames Republicans as defiant",
+            "'face his wrath' — emotionally charged victim framing"
+          ],
+          "biasScoreGrok": 3.6,
+          "biasSignalsGrok": [
+            "broke with Trump",
+            "wrath emphasis"
+          ],
+          "pubDate": "2026-06-04T11:03:23Z",
+          "clusterId": "trump-iran-war-congress"
+        },
+        {
+          "id": "vox-trump-iran-war-congress-4",
           "outletId": "vox",
           "outletName": "Vox",
           "headline": "How the war in Iran could end affordable air travel",
           "url": "https://www.vox.com/videos/490730/how-the-war-in-iran-could-end-affordable-air-travel",
           "biasScore": 3.5,
           "biasSignals": [
-            "'affordable air travel' — consumer harm framing",
-            "progressive economic concern framing"
+            "frames Iran war as threatening consumer welfare",
+            "progressive framing — war's domestic economic harm"
           ],
-          "biasScoreGrok": 3,
+          "biasScoreGrok": 2.8,
           "biasSignalsGrok": [
-            "progressive framing",
-            "affordable air travel loaded"
+            "could end air travel",
+            "war impact"
           ],
           "pubDate": "2026-06-04T11:00:00.000Z",
-          "clusterId": "us-iran-war-impact"
+          "clusterId": "trump-iran-war-congress"
         },
         {
-          "id": "theatlantic-us-iran-war-impact-4",
-          "outletId": "theatlantic",
-          "outletName": "The Atlantic",
-          "headline": "Iran’s Next Internet Blackout Is Inevitable",
-          "url": "https://www.theatlantic.com/international/2026/06/iran-internet-access-us-war-trump/687427/?utm_source=feed",
-          "biasScore": 3.5,
-          "biasSignals": [
-            "'inevitable' — alarm framing about Iranian repression",
-            "sympathetic to Iranian citizens' plight"
-          ],
-          "biasScoreGrok": 3.5,
-          "biasSignalsGrok": [
-            "progressive framing",
-            "internet blackout inevitable"
-          ],
-          "pubDate": "Fri, 05 Jun 2026 07:00:00 -0400",
-          "clusterId": "us-iran-war-impact"
-        },
-        {
-          "id": "ap-us-iran-war-impact-2",
+          "id": "ap-trump-iran-war-congress-3",
           "outletId": "ap",
           "outletName": "Associated Press",
           "headline": "Trump's allies and critics worry he is boxed in by Iran war",
           "url": "https://apnews.com/article/trump-iran-war-nuclear-deal-f6c5007b28e596e562c88b93ee785d91",
-          "biasScore": 4,
+          "biasScore": 4.5,
           "biasSignals": [
-            "'boxed in' — neutral analytical framing",
-            "balanced 'allies and critics' sourcing"
+            "'boxed in' implies strategic weakness neutrally",
+            "both allies and critics cited — balanced sourcing"
           ],
-          "biasScoreGrok": 4,
+          "biasScoreGrok": 4.5,
           "biasSignalsGrok": [
-            "neutral verbs used",
-            "boxed in by war noted"
+            "boxed in framing",
+            "allies critics"
           ],
           "pubDate": "2026-06-04T04:01:35Z",
-          "clusterId": "us-iran-war-impact"
+          "clusterId": "trump-iran-war-congress"
         },
         {
-          "id": "timesofisrael-us-iran-war-impact-1",
-          "outletId": "timesofisrael",
-          "outletName": "Times of Israel",
-          "headline": "‘It’s entombed’: Trump says US can get Iran’s uranium without a deal, but has ‘no reason to’",
-          "url": "https://www.timesofisrael.com/its-entombed-trump-says-us-can-get-irans-uranium-without-a-deal-but-has-no-reason-to/",
+          "id": "politico-trump-iran-war-congress-5",
+          "outletId": "politico",
+          "outletName": "Politico",
+          "headline": "Trump-backed Iowa Senate candidate says Iran war could become ‘political liability’",
+          "url": "https://www.politico.com/news/2026/06/02/ashley-hinson-audio-iran-war-iowa-senate-00946145",
+          "biasScore": 5,
+          "biasSignals": [
+            "neutral quote framing from candidate",
+            "'political liability' frames Iran war politically, mild"
+          ],
+          "biasScoreGrok": 5.3,
+          "biasSignalsGrok": [
+            "political liability",
+            "Trump-backed"
+          ],
+          "pubDate": "2026-06-02T08:45:00+00:00",
+          "clusterId": "trump-iran-war-congress"
+        },
+        {
+          "id": "bbc-trump-iran-war-congress-1",
+          "outletId": "bbc",
+          "outletName": "BBC",
+          "headline": "Trump hits back at 'unpatriotic' vote after House rebukes him over Iran",
+          "url": "https://www.bbc.co.uk/news/articles/cn0pl0wvvz0o",
           "biasScore": 5.5,
           "biasSignals": [
-            "quotes Trump directly, neutral framing",
-            "analytical tone, no heavy partisan signals"
+            "'hits back' and 'unpatriotic' are Trump's own charged words",
+            "neutral headline structure quoting Trump's framing"
+          ],
+          "biasScoreGrok": 3.9,
+          "biasSignalsGrok": [
+            "hits back",
+            "unpatriotic label"
+          ],
+          "pubDate": "2026-06-04T13:07:24.8599597Z",
+          "clusterId": "trump-iran-war-congress"
+        },
+        {
+          "id": "thehill-trump-iran-war-congress-2",
+          "outletId": "thehill",
+          "outletName": "The Hill",
+          "headline": "Trump rips ‘meaningless’ House vote on resolution to end Iran war",
+          "url": "https://thehill.com/homenews/administration/5909327-donald-trump-war-powers-resolution-house-passage-criticism-iran-war/",
+          "biasScore": 5.5,
+          "biasSignals": [
+            "'rips' is a charged verb favoring Trump's aggression",
+            "'meaningless' quotes Trump without challenge"
+          ],
+          "biasScoreGrok": 5.9,
+          "biasSignalsGrok": [
+            "rips meaningless",
+            "resolution end"
+          ],
+          "pubDate": "2026-06-04T13:06:56Z",
+          "clusterId": "trump-iran-war-congress"
+        }
+      ]
+    },
+    {
+      "id": "ukraine-russia-war-updates",
+      "topicLabel": "Russia-Ukraine war: aerial attacks and battlefield updates",
+      "date": "2026-06-05",
+      "articles": [
+        {
+          "id": "bloomberg-ukraine-russia-war-updates-2",
+          "outletId": "bloomberg",
+          "outletName": "Bloomberg",
+          "headline": "Ex-Ukraine Foreign Minister Warns Europe Against Putin Talks",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-04/ex-ukraine-foreign-minister-warns-europe-against-putin-talks",
+          "biasScore": 4,
+          "biasSignals": [
+            "neutral 'warns' verb",
+            "sourced to named former official — transparent"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "warns Europe",
+            "neutral report"
+          ],
+          "pubDate": "2026-06-04T15:14:52+00:00",
+          "clusterId": "ukraine-russia-war-updates"
+        },
+        {
+          "id": "cnn-ukraine-russia-war-updates-0",
+          "outletId": "cnn",
+          "outletName": "CNN",
+          "headline": "Russia ramps up aerial attacks as it struggles on the ground in Ukraine",
+          "url": "https://www.cnn.com/2026/06/04/europe/russia-air-attacks-ukraine-missile-defense-intl",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "'ramps up' and 'struggles' balanced against each other",
+            "neutral military framing without victim language"
+          ],
+          "biasScoreGrok": 3.8,
+          "biasSignalsGrok": [
+            "ramps up attacks",
+            "struggles ground"
+          ],
+          "pubDate": "2026-06-04T06:42:33Z",
+          "clusterId": "ukraine-russia-war-updates"
+        },
+        {
+          "id": "aljazeera-ukraine-russia-war-updates-1",
+          "outletId": "aljazeera",
+          "outletName": "Al Jazeera",
+          "headline": "Ukraine slows Russia’s army but struggles to down ballistic missiles",
+          "url": "https://www.aljazeera.com/news/2026/6/5/ballistics-putins-last-argument-as-ukraine-brings-his-army-to-standstill?traffic_source=rss",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "'slows' and 'struggles' balanced framing of both sides",
+            "neutral military language throughout"
+          ],
+          "biasScoreGrok": 4.1,
+          "biasSignalsGrok": [
+            "slows army",
+            "missiles struggle"
+          ],
+          "pubDate": "Fri, 05 Jun 2026 16:52:11 +0000",
+          "clusterId": "ukraine-russia-war-updates"
+        }
+      ]
+    },
+    {
+      "id": "60-minutes-firings-cbs-chaos",
+      "topicLabel": "CBS '60 Minutes' turmoil after correspondent firings",
+      "date": "2026-06-05",
+      "articles": [
+        {
+          "id": "washpost-60-minutes-firings-cbs-chaos-1",
+          "outletId": "washpost",
+          "outletName": "Washington Post",
+          "headline": "Three ‘60 Minutes’ correspondents were fired, and the result has been chaos",
+          "url": "https://www.washingtonpost.com/business/2026/06/04/60-minutes-chaos-after-bari-weiss-fired-scott-pelley/",
+          "biasScore": 3.5,
+          "biasSignals": [
+            "'chaos' is emotionally charged descriptor",
+            "frames firings as harmful to institution"
+          ],
+          "biasScoreGrok": 4.3,
+          "biasSignalsGrok": [
+            "fired result chaos",
+            "correspondents"
+          ],
+          "pubDate": "2026-06-04T09:00:00Z",
+          "clusterId": "60-minutes-firings-cbs-chaos"
+        },
+        {
+          "id": "cnn-60-minutes-firings-cbs-chaos-0",
+          "outletId": "cnn",
+          "outletName": "CNN",
+          "headline": "CBS News races to steady ‘60 Minutes’ after Scott Pelley’s firing",
+          "url": "https://www.cnn.com/2026/06/04/media/cbs-60-minutes-scott-pelley-bari-weiss-nick-bilton",
+          "biasScore": 4,
+          "biasSignals": [
+            "'races to steady' implies institutional crisis framing",
+            "neutral on cause of Pelley's firing"
+          ],
+          "biasScoreGrok": 4.7,
+          "biasSignalsGrok": [
+            "races to steady",
+            "firing aftermath"
+          ],
+          "pubDate": "2026-06-04T15:26:53Z",
+          "clusterId": "60-minutes-firings-cbs-chaos"
+        },
+        {
+          "id": "forbes-60-minutes-firings-cbs-chaos-2",
+          "outletId": "forbes",
+          "outletName": "Forbes",
+          "headline": "Lesley Stahl, Bill Whitaker And Jon Wertheim Staying At Embattled ‘60 Minutes’",
+          "url": "https://www.forbes.com/sites/conormurray/2026/06/05/lesley-stahl-bill-whitaker-and-jon-wertheim-staying-at-embattled-60-minutes/",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "'embattled' frames CBS negatively but neutrally",
+            "'staying' implies loyalty signal, minimal spin"
+          ],
+          "biasScoreGrok": 5.1,
+          "biasSignalsGrok": [
+            "staying embattled",
+            "neutral update"
+          ],
+          "pubDate": "Fri, 05 Jun 2026 12:37:27 -0400",
+          "clusterId": "60-minutes-firings-cbs-chaos"
+        },
+        {
+          "id": "thefederalist-60-minutes-firings-cbs-chaos-3",
+          "outletId": "thefederalist",
+          "outletName": "The Federalist",
+          "headline": "Here’s What 60 Minutes And The New Jersey Anti-ICE Riots Have In Common",
+          "url": "https://thefederalist.com/2026/06/05/heres-what-60-minutes-and-the-new-jersey-anti-ice-riots-have-in-common/?utm_source=rss&utm_medium=rss&utm_campaign=heres-what-60-minutes-and-the-new-jersey-anti-ice-riots-have-in-common",
+          "biasScore": 7.5,
+          "biasSignals": [
+            "conflates 60 Minutes with 'anti-ICE riots' — right framing",
+            "far-right outlet linking media to protest unrest"
+          ],
+          "biasScoreGrok": 7.8,
+          "biasSignalsGrok": [
+            "anti-ICE riots link",
+            "common framing"
+          ],
+          "pubDate": "Fri, 05 Jun 2026 11:29:31 +0000",
+          "clusterId": "60-minutes-firings-cbs-chaos"
+        }
+      ]
+    },
+    {
+      "id": "trump-reconciliation-senate-republicans",
+      "topicLabel": "Senate Republicans clash with Trump over reconciliation bill",
+      "date": "2026-06-05",
+      "articles": [
+        {
+          "id": "msnbc-trump-reconciliation-senate-republicans-0",
+          "outletId": "msnbc",
+          "outletName": "MSNBC",
+          "headline": "Trump’s legislative losing streak continues, as his grip on Congress weakens",
+          "url": "https://www.ms.now/rachel-maddow-show/maddowblog/trumps-legislative-losing-streak-continues",
+          "biasScore": 2.8,
+          "biasSignals": [
+            "'losing streak' frames Trump as politically weak",
+            "'grip weakens' — power diminishment framing"
+          ],
+          "biasScoreGrok": 3.3,
+          "biasSignalsGrok": [
+            "losing streak",
+            "grip weakens"
+          ],
+          "pubDate": "2026-06-04T12:54:21Z",
+          "clusterId": "trump-reconciliation-senate-republicans"
+        },
+        {
+          "id": "thehill-trump-reconciliation-senate-republicans-5",
+          "outletId": "thehill",
+          "outletName": "The Hill",
+          "headline": "Republicans rocked by Trump’s midterm approach",
+          "url": "https://thehill.com/homenews/campaign/5908757-trump-republicans-midterms-focus/",
+          "biasScore": 3.5,
+          "biasSignals": [
+            "'rocked by' frames Republicans as destabilized",
+            "'midterm approach' implies Trump causing GOP problems"
+          ],
+          "biasScoreGrok": 5.7,
+          "biasSignalsGrok": [
+            "rocked by approach",
+            "midterm"
+          ],
+          "pubDate": "2026-06-04T10:00:00Z",
+          "clusterId": "trump-reconciliation-senate-republicans"
+        },
+        {
+          "id": "msnbc-trump-reconciliation-senate-republicans-1",
+          "outletId": "msnbc",
+          "outletName": "MSNBC",
+          "headline": "Senate Republicans are on a collision course with Trump over their reconciliation bill",
+          "url": "https://www.ms.now/news/senate-republicans-collision-course-trump-reconciliation",
+          "biasScore": 4,
+          "biasSignals": [
+            "'collision course' is dramatic but neutral",
+            "factual framing of intraparty tension"
+          ],
+          "biasScoreGrok": 3.5,
+          "biasSignalsGrok": [
+            "collision course",
+            "reconciliation"
+          ],
+          "pubDate": "2026-06-04T09:00:00Z",
+          "clusterId": "trump-reconciliation-senate-republicans"
+        },
+        {
+          "id": "npr-trump-reconciliation-senate-republicans-3",
+          "outletId": "npr",
+          "outletName": "NPR",
+          "headline": "Trump's choices tests the limits of Republican lawmakers' support",
+          "url": "https://www.npr.org/2026/06/05/nx-s1-5846668/trumps-choices-tests-the-limits-of-republican-lawmakers-support",
+          "biasScore": 4.2,
+          "biasSignals": [
+            "'tests the limits' neutral analytical framing",
+            "no charged language detected"
+          ],
+          "biasScoreGrok": 4.6,
+          "biasSignalsGrok": [
+            "tests limits",
+            "support framing"
+          ],
+          "pubDate": "Fri, 05 Jun 2026 04:43:28 -0400",
+          "clusterId": "trump-reconciliation-senate-republicans"
+        },
+        {
+          "id": "npr-trump-reconciliation-senate-republicans-2",
+          "outletId": "npr",
+          "outletName": "NPR",
+          "headline": "How Senate Republicans in their final months in office could affect Trump's agenda?",
+          "url": "https://www.npr.org/2026/06/05/nx-s1-5846639/how-senate-republicans-in-their-final-months-in-office-could-affect-trumps-agenda",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral question framing",
+            "balanced 'affect Trump's agenda' language"
+          ],
+          "biasScoreGrok": 4.4,
+          "biasSignalsGrok": [
+            "final months",
+            "agenda affect"
+          ],
+          "pubDate": "Fri, 05 Jun 2026 06:52:23 -0400",
+          "clusterId": "trump-reconciliation-senate-republicans"
+        },
+        {
+          "id": "thehill-trump-reconciliation-senate-republicans-4",
+          "outletId": "thehill",
+          "outletName": "The Hill",
+          "headline": "Live updates: Senate poised for vote-a-rama on reconciliation; Trump to boost coal",
+          "url": "https://thehill.com/homenews/administration/5908695-live-updates-donald-trump-supreme-court-senate-reconciliation/",
+          "biasScore": 4.8,
+          "biasSignals": [
+            "'vote-a-rama' colorful but standard political term",
+            "neutral paired structure"
+          ],
+          "biasScoreGrok": 5.2,
+          "biasSignalsGrok": [
+            "poised vote",
+            "Trump boost"
+          ],
+          "pubDate": "2026-06-04T12:30:00Z",
+          "clusterId": "trump-reconciliation-senate-republicans"
+        }
+      ]
+    },
+    {
+      "id": "graham-platner-scandal",
+      "topicLabel": "Democrat Graham Platner sexting and relationship scandals",
+      "date": "2026-06-05",
+      "articles": [
+        {
+          "id": "dailycaller-graham-platner-scandal-0",
+          "outletId": "dailycaller",
+          "outletName": "Daily Caller",
+          "headline": "New Platner Scandal Quickly Turns Already-Heated Dem Civil War Into Even Messier Bloodbath",
+          "url": "https://dailycaller.com/2026/06/05/graham-platner-new-york-times-story-ex-girlfriends-allegations-abuse-democrat-civil-war/",
+          "biasScore": 2,
+          "biasSignals": [
+            "'Dem Civil War' and 'Bloodbath' — highly charged left-negative framing",
+            "'Messier Bloodbath' — inflammatory language targeting Democrats"
+          ],
+          "biasScoreGrok": 7.5,
+          "biasSignalsGrok": [
+            "bloodbath framing",
+            "Dem civil war"
+          ],
+          "pubDate": "Fri, 05 Jun 2026 17:01:06 +0000",
+          "clusterId": "graham-platner-scandal"
+        },
+        {
+          "id": "theatlantic-graham-platner-scandal-4",
+          "outletId": "theatlantic",
+          "outletName": "The Atlantic",
+          "headline": "A Very Calm, Not-Panicked Message From the Graham Platner Campaign",
+          "url": "https://www.theatlantic.com/newsletters/2026/06/graham-platner-scandals/687440/?utm_source=feed",
+          "biasScore": 3,
+          "biasSignals": [
+            "satirical framing mocking the campaign — left-leaning",
+            "'Very Calm, Not-Panicked' ironic tone signals liberal outlet"
+          ],
+          "biasScoreGrok": 3.9,
+          "biasSignalsGrok": [
+            "calm not panicked",
+            "campaign message"
+          ],
+          "pubDate": "Thu, 04 Jun 2026 21:01:00 -0400",
+          "clusterId": "graham-platner-scandal"
+        },
+        {
+          "id": "forbes-graham-platner-scandal-2",
+          "outletId": "forbes",
+          "outletName": "Forbes",
+          "headline": "Graham Platner Faces Accusations Of 'Toxic' Relationships And Disturbing Behavior—Days After Sexting Scandal",
+          "url": "https://www.forbes.com/sites/antoniopequenoiv/2026/06/05/graham-platner-faces-accusations-of-toxic-relationships-and-disturbing-behavior-days-after-sexting-scandal/",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral 'faces accusations' framing",
+            "'disturbing behavior' factual descriptor, minimal spin"
+          ],
+          "biasScoreGrok": 5.4,
+          "biasSignalsGrok": [
+            "toxic relationships",
+            "disturbing behavior"
+          ],
+          "pubDate": "Fri, 05 Jun 2026 11:34:03 -0400",
+          "clusterId": "graham-platner-scandal"
+        },
+        {
+          "id": "washexaminer-graham-platner-scandal-3",
+          "outletId": "washexaminer",
+          "outletName": "Washington Examiner",
+          "headline": "Blood in the water: Republicans pour $3 million into Susan Collins campaign as Graham Platner’s support stalls after scandals",
+          "url": "https://www.washingtonexaminer.com/news/4596468/republicans-pour-3-million-susan-collins-campaign-graham-platner-support-stalls/",
+          "biasScore": 6.2,
+          "biasSignals": [
+            "'blood in the water' — predatory metaphor favoring Republicans",
+            "frames Republican advantage as opportunistic against scandal"
+          ],
+          "biasScoreGrok": 6.9,
+          "biasSignalsGrok": [
+            "blood in water",
+            "support stalls"
+          ],
+          "pubDate": "Fri, 05 Jun 2026 13:29:06 +0000",
+          "clusterId": "graham-platner-scandal"
+        },
+        {
+          "id": "breitbart-graham-platner-scandal-1",
+          "outletId": "breitbart",
+          "outletName": "Breitbart",
+          "headline": "Nolte: Graham ‘Nazi Tattoo’ Platner Poll Numbers Dive (Prior to Latest Accusations)",
+          "url": "https://www.breitbart.com/politics/2026/06/05/nolte-graham-nazi-tattoo-platner-poll-numbers-dive-prior-to-latest-accusations/",
+          "biasScore": 8.5,
+          "biasSignals": [
+            "'Nazi Tattoo' in headline — extreme inflammatory labeling",
+            "Breitbart framing maximizes Democratic scandal damage"
+          ],
+          "biasScoreGrok": 8.2,
+          "biasSignalsGrok": [
+            "Nazi tattoo",
+            "poll dive"
+          ],
+          "pubDate": "Fri, 05 Jun 2026 12:49:20 +0000",
+          "clusterId": "graham-platner-scandal"
+        }
+      ]
+    },
+    {
+      "id": "trump-attorney-general-todd-blanche",
+      "topicLabel": "Trump nominates Todd Blanche as attorney general",
+      "date": "2026-06-05",
+      "articles": [
+        {
+          "id": "vox-trump-attorney-general-todd-blanche-2",
+          "outletId": "vox",
+          "outletName": "Vox",
+          "headline": "Trump’s attorney general pick has exactly one qualification",
+          "url": "https://www.vox.com/politics/490959/todd-blanche-attorney-general-trump-goon",
+          "biasScore": 2,
+          "biasSignals": [
+            "'exactly one qualification' — dismissive editorial framing",
+            "strong left-progressive critical framing of nominee"
+          ],
+          "biasScoreGrok": 2.9,
+          "biasSignalsGrok": [
+            "exactly one qualification",
+            "pick critique"
+          ],
+          "pubDate": "2026-06-04T16:55:00.000Z",
+          "clusterId": "trump-attorney-general-todd-blanche"
+        },
+        {
+          "id": "cbsnews-trump-attorney-general-todd-blanche-0",
+          "outletId": "cbsnews",
+          "outletName": "CBS News",
+          "headline": "Todd Blanche reacts to Trump's expected attorney general nomination",
+          "url": "https://www.cbsnews.com/video/todd-blanche-reacts-to-trumps-expected-attorney-general-nomination/",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral 'reacts to' framing",
+            "no charged language, factual structure"
+          ],
+          "biasScoreGrok": 4.8,
+          "biasSignalsGrok": [
+            "reacts to nomination",
+            "expected"
+          ],
+          "pubDate": "2026-06-04T16:47:00+00:00",
+          "clusterId": "trump-attorney-general-todd-blanche"
+        },
+        {
+          "id": "ap-trump-attorney-general-todd-blanche-1",
+          "outletId": "ap",
+          "outletName": "Associated Press",
+          "headline": "Trump says he will nominate Todd Blanche to serve as attorney general",
+          "url": "https://apnews.com/article/trump-blanche-justice-department-86f44c3c01caf89a1dae9d5b5c468551",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral 'will nominate' verb",
+            "AP factual wire style, no ideological signals"
+          ],
+          "biasScoreGrok": 4.7,
+          "biasSignalsGrok": [
+            "will nominate",
+            "serve as"
+          ],
+          "pubDate": "2026-06-04T03:13:22Z",
+          "clusterId": "trump-attorney-general-todd-blanche"
+        }
+      ]
+    },
+    {
+      "id": "karmelo-anthony-murder-trial",
+      "topicLabel": "Karmelo Anthony murder trial for track meet stabbing",
+      "date": "2026-06-05",
+      "articles": [
+        {
+          "id": "nbc-karmelo-anthony-murder-trial-2",
+          "outletId": "nbc",
+          "outletName": "NBC News",
+          "headline": "Testimony underway in Karmelo Anthony murder trial",
+          "url": "https://www.nbcnews.com/news/us-news/karmelo-anthony-murder-trial-rcna348428",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral 'testimony underway' framing",
+            "no charged language or framing detected"
+          ],
+          "biasScoreGrok": 4.9,
+          "biasSignalsGrok": [
+            "testimony underway",
+            "neutral report"
+          ],
+          "pubDate": "2026-06-04T14:12:24Z",
+          "clusterId": "karmelo-anthony-murder-trial"
+        },
+        {
+          "id": "foxnews-karmelo-anthony-murder-trial-0",
+          "outletId": "foxnews",
+          "outletName": "Fox News",
+          "headline": "Karmelo Anthony prosecutor shreds self-defense claim in track meet stabbing trial: ‘Unjustified murder’",
+          "url": "https://www.foxnews.com/us/karmelo-anthony-trial-begins-no-black-jurors-racially-charged-case-over-track-meet-stabbing",
+          "biasScore": 5.5,
+          "biasSignals": [
+            "'shreds self-defense claim' and 'unjustified murder' — prosecution framing",
+            "quotes prosecutor's charged language prominently"
           ],
           "biasScoreGrok": 6.5,
           "biasSignalsGrok": [
-            "conservative framing",
-            "no reason to deal noted"
+            "shreds self-defense",
+            "unjustified murder"
           ],
-          "pubDate": "Fri, 05 Jun 2026 11:47:12 +0000",
-          "clusterId": "us-iran-war-impact"
+          "pubDate": "2026-06-04T16:37:19.3247028Z",
+          "clusterId": "karmelo-anthony-murder-trial"
         },
         {
-          "id": "washexaminer-us-iran-war-impact-5",
-          "outletId": "washexaminer",
-          "outletName": "Washington Examiner",
-          "headline": "Economy beat expectations with 173,000 jobs in May despite Iran energy crunch",
-          "url": "https://www.washingtonexaminer.com/news/4595838/economy-jobs-may-iran-energy-crunch/",
-          "biasScore": 6.5,
+          "id": "nypost-karmelo-anthony-murder-trial-1",
+          "outletId": "nypost",
+          "outletName": "NY Post",
+          "headline": "Karmelo Anthony fidgets in court as heartbreaking video shows victim’s twin brother react to fatal stabbing",
+          "url": "https://nypost.com/2026/06/05/us-news/karmelo-anthony-fidgets-in-court-as-heartbreaking-video-shows-austin-metcalfs-after-fatal-stabbing/",
+          "biasScore": 5.8,
           "biasSignals": [
-            "'beat expectations despite Iran energy crunch' — frames positively for Trump",
-            "minimizes war impact with 'despite' framing"
+            "'fidgets in court' focuses on defendant's demeanor",
+            "'heartbreaking video' emotionally frames victim's family"
           ],
-          "biasScoreGrok": 7,
+          "biasScoreGrok": 6.8,
           "biasSignalsGrok": [
-            "conservative framing",
-            "beat expectations despite"
+            "fidgets in court",
+            "heartbreaking video"
           ],
-          "pubDate": "Fri, 05 Jun 2026 12:32:29 +0000",
-          "clusterId": "us-iran-war-impact"
+          "pubDate": "Fri, 05 Jun 2026 13:04:38 -0400",
+          "clusterId": "karmelo-anthony-murder-trial"
         }
       ]
     },
     {
-      "id": "israel-hezbollah-lebanon-ceasefire",
-      "topicLabel": "Israel-Lebanon ceasefire amid Hezbollah strikes",
+      "id": "marjane-satrapi-persepolis-death",
+      "topicLabel": "Marjane Satrapi, Persepolis author and director, dies at 56",
       "date": "2026-06-05",
       "articles": [
         {
-          "id": "timesofisrael-israel-hezbollah-lebanon-ceasefire-1",
-          "outletId": "timesofisrael",
-          "outletName": "Times of Israel",
-          "headline": "Daily Briefing June 5 – Why only Lebanon can drive Hezbollah out. But it won’t",
-          "url": "https://www.timesofisrael.com/daily-briefing-june-5-why-only-lebanon-can-drive-hezbollah-out-but-it-wont/",
-          "biasScore": 5,
+          "id": "huffpost-marjane-satrapi-persepolis-death-2",
+          "outletId": "huffpost",
+          "outletName": "HuffPost",
+          "headline": "Marjane Satrapi, Iranian-French Author Of Graphic Novel 'Persepolis', Dies Aged 56",
+          "url": "https://www.huffpost.com/entry/marjane-satrapi-persepolis-dead_n_6a219646e4b0a18aef0a5896",
+          "biasScore": 4,
           "biasSignals": [
-            "analytical framing, neutral tone",
-            "no heavy partisan signals"
+            "neutral death announcement",
+            "sympathetic but factual tone typical of obituary"
           ],
-          "biasScoreGrok": 7,
+          "biasScoreGrok": 4.4,
           "biasSignalsGrok": [
-            "conservative framing",
-            "only Lebanon can drive"
+            "dies aged 56",
+            "factual obituary"
           ],
-          "pubDate": "Fri, 05 Jun 2026 10:13:30 +0000",
-          "clusterId": "israel-hezbollah-lebanon-ceasefire"
+          "pubDate": "2026-06-04T15:19:17Z",
+          "clusterId": "marjane-satrapi-persepolis-death"
         },
         {
-          "id": "timesofisrael-israel-hezbollah-lebanon-ceasefire-0",
+          "id": "cnn-marjane-satrapi-persepolis-death-0",
+          "outletId": "cnn",
+          "outletName": "CNN",
+          "headline": "Marjane Satrapi, French Iranian artist and the author of ‘Persepolis,’ dies at 56",
+          "url": "https://www.cnn.com/2026/06/04/style/marjane-satrapi-persepolis-author-dies-intl",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral obituary framing",
+            "factual description of nationality and work"
+          ],
+          "biasScoreGrok": 4.5,
+          "biasSignalsGrok": [
+            "dies at 56",
+            "factual obituary"
+          ],
+          "pubDate": "2026-06-04T10:45:35Z",
+          "clusterId": "marjane-satrapi-persepolis-death"
+        },
+        {
+          "id": "bbc-marjane-satrapi-persepolis-death-1",
+          "outletId": "bbc",
+          "outletName": "BBC",
+          "headline": "Marjane Satrapi: Oscar-nominated Persepolis author and director dies aged 56",
+          "url": "https://www.bbc.co.uk/news/articles/c4g0nnj51jyo",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral obituary style",
+            "'Oscar-nominated' adds prestige framing without spin"
+          ],
+          "biasScoreGrok": 4.6,
+          "biasSignalsGrok": [
+            "dies aged 56",
+            "factual obituary"
+          ],
+          "pubDate": "2026-06-04T12:37:30.405451Z",
+          "clusterId": "marjane-satrapi-persepolis-death"
+        }
+      ]
+    },
+    {
+      "id": "anthony-head-death",
+      "topicLabel": "Actor Anthony Head of Buffy the Vampire Slayer dies at 72",
+      "date": "2026-06-05",
+      "articles": [
+        {
+          "id": "dailycaller-anthony-head-death-0",
+          "outletId": "dailycaller",
+          "outletName": "Daily Caller",
+          "headline": "Anthony Head Dead At 72",
+          "url": "https://dailycaller.com/2026/06/05/anthony-head-dead-72-pneumonia-ted-lasso-buffy-vampire-slayer-obituary/",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "bare factual death notice",
+            "no framing or ideological signals"
+          ],
+          "biasScoreGrok": 4.8,
+          "biasSignalsGrok": [
+            "dead at 72",
+            "factual obituary"
+          ],
+          "pubDate": "Fri, 05 Jun 2026 16:21:07 +0000",
+          "clusterId": "anthony-head-death"
+        },
+        {
+          "id": "bostonglobe-anthony-head-death-1",
+          "outletId": "bostonglobe",
+          "outletName": "Boston Globe",
+          "headline": "Actor Anthony Head, known for ‘Buffy the Vampire Slayer,’ has died at 72",
+          "url": "https://www.bostonglobe.com/2026/06/05/nation/anthony-head-dies/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral obituary framing",
+            "show identification adds context without spin"
+          ],
+          "biasScoreGrok": 4.7,
+          "biasSignalsGrok": [
+            "has died at 72",
+            "factual obituary"
+          ],
+          "pubDate": "Fri, 05 Jun 2026 15:53:41 +0000",
+          "clusterId": "anthony-head-death"
+        },
+        {
+          "id": "dailymail-anthony-head-death-2",
+          "outletId": "dailymail",
+          "outletName": "Daily Mail",
+          "headline": "Anthony Head dead at 72: Buffy The Vampire Slayer and Ted Lasso star passes away months after his partner died from cancer",
+          "url": "\n\thttps://www.dailymail.com/news/article-15877633/Anthony-Head-dies-aged-72-Buffy-Vampire-Slayer-Ted-Lasso-star-passes-away.html?ns_mchannel=rss&ito=1490&ns_campaign=1490\n      ",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "mentions wife's recent death — sympathetic but factual",
+            "neutral obituary language"
+          ],
+          "biasScoreGrok": 4.9,
+          "biasSignalsGrok": [
+            "dead at 72",
+            "factual obituary"
+          ],
+          "pubDate": "Fri, 05 Jun 2026 18:01:30 +0100",
+          "clusterId": "anthony-head-death"
+        },
+        {
+          "id": "metro-anthony-head-death-3",
+          "outletId": "metro",
+          "outletName": "Metro",
+          "headline": "Anthony Head, actor known for Buffy The Vampire Slayer, dies aged 72",
+          "url": "https://metro.co.uk/2026/06/05/anthony-head-actor-known-buffy-vampire-slayer-dies-aged-72-28662675/",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral death announcement",
+            "age confirmation is factual"
+          ],
+          "biasScoreGrok": 4.6,
+          "biasSignalsGrok": [
+            "dies aged 72",
+            "factual obituary"
+          ],
+          "pubDate": "Fri, 05 Jun 2026 15:40:27 +0000",
+          "clusterId": "anthony-head-death"
+        },
+        {
+          "id": "independent-anthony-head-death-4",
+          "outletId": "independent",
+          "outletName": "The Independent",
+          "headline": "Anthony Head death: Buffy the Vampire Slayer star dies months after wife, Sarah, aged 72",
+          "url": "https://www.independent.co.uk/arts-entertainment/tv/news/anthony-head-dead-buffy-the-vampire-slayer-cause-age-b2990619.html",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "mentions wife's death — emotional but factual",
+            "neutral obituary framing"
+          ],
+          "biasScoreGrok": 4.5,
+          "biasSignalsGrok": [
+            "star dies",
+            "factual obituary"
+          ],
+          "pubDate": "Fri, 05 Jun 2026 15:37:57 GMT",
+          "clusterId": "anthony-head-death"
+        },
+        {
+          "id": "skynews-anthony-head-death-5",
+          "outletId": "skynews",
+          "outletName": "Sky News",
+          "headline": "Buffy The Vampire Slayer, Ted Lasso, and Little Britain actor dies",
+          "url": "https://news.sky.com/story/buffy-the-vampire-slayer-and-ted-lasso-actor-dies-13545934",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral multi-show identification",
+            "no framing or spin detected"
+          ],
+          "biasScoreGrok": 4.8,
+          "biasSignalsGrok": [
+            "actor dies",
+            "factual obituary"
+          ],
+          "pubDate": "Tue, 19 May 2026 15:53:00 +0100",
+          "clusterId": "anthony-head-death"
+        }
+      ]
+    },
+    {
+      "id": "jobs-report-may",
+      "topicLabel": "May jobs report shows strong employment growth",
+      "date": "2026-06-05",
+      "articles": [
+        {
+          "id": "forbes-jobs-report-may-2",
+          "outletId": "forbes",
+          "outletName": "Forbes",
+          "headline": "Gold And Silver Hit Lowest Prices In Months After Strong Jobs Report",
+          "url": "https://www.forbes.com/sites/conormurray/2026/06/05/gold-and-silver-hit-lowest-prices-in-months-after-strong-jobs-report/",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral market reaction framing",
+            "'strong jobs report' factual descriptor"
+          ],
+          "biasScoreGrok": 5.1,
+          "biasSignalsGrok": [
+            "hit lowest prices",
+            "strong report"
+          ],
+          "pubDate": "Fri, 05 Jun 2026 11:38:13 -0400",
+          "clusterId": "jobs-report-may"
+        },
+        {
+          "id": "yahoofinance-jobs-report-may-4",
+          "outletId": "yahoofinance",
+          "outletName": "Yahoo Finance",
+          "headline": "Daily Spotlight: Payrolls Power Higher",
+          "url": "https://finance.yahoo.com/research/reports/ARGUS_47246_MarketOutlook_1780666700000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral 'payrolls power higher' framing",
+            "financial language without political spin"
+          ],
+          "biasScoreGrok": 4.9,
+          "biasSignalsGrok": [
+            "payrolls power higher",
+            "neutral finance"
+          ],
+          "pubDate": "2026-06-05T13:38:20Z",
+          "clusterId": "jobs-report-may"
+        },
+        {
+          "id": "dailycaller-jobs-report-may-0",
+          "outletId": "dailycaller",
+          "outletName": "Daily Caller",
+          "headline": "May Jobs Report Shows The Summer Hiring Season Started With A Bang",
+          "url": "https://dailycaller.com/2026/06/05/opinion-jobs-report-alfredo-ortiz/",
+          "biasScore": 5.8,
+          "biasSignals": [
+            "neutral 'summer hiring season' framing",
+            "positive spin 'Started With A Bang' — mildly right"
+          ],
+          "biasScoreGrok": 6.2,
+          "biasSignalsGrok": [
+            "started with bang",
+            "strong growth"
+          ],
+          "pubDate": "Fri, 05 Jun 2026 16:34:23 +0000",
+          "clusterId": "jobs-report-may"
+        },
+        {
+          "id": "washexaminer-jobs-report-may-3",
+          "outletId": "washexaminer",
+          "outletName": "Washington Examiner",
+          "headline": "Trump says strong jobs report should boost stocks despite market slide",
+          "url": "https://www.washingtonexaminer.com/news/white-house/4596752/trump-strong-jobs-report-boost-stocks-despite-market-slide/",
+          "biasScore": 6.2,
+          "biasSignals": [
+            "frames Trump as authority on stock market",
+            "'should boost stocks' takes Trump's framing at face value"
+          ],
+          "biasScoreGrok": 6.4,
+          "biasSignalsGrok": [
+            "should boost stocks",
+            "despite slide"
+          ],
+          "pubDate": "Fri, 05 Jun 2026 16:42:02 +0000",
+          "clusterId": "jobs-report-may"
+        },
+        {
+          "id": "breitbart-jobs-report-may-1",
+          "outletId": "breitbart",
+          "outletName": "Breitbart",
+          "headline": "Trump Boom: America Created 172,000 Jobs In May, Nearly Twice As Many as Expected",
+          "url": "https://www.breitbart.com/economy/2026/06/05/trump-boom-america-created-172000-jobs-in-may/",
+          "biasScore": 8.5,
+          "biasSignals": [
+            "'Trump Boom' — direct credit attribution to president",
+            "'Nearly Twice As Many as Expected' — celebratory framing"
+          ],
+          "biasScoreGrok": 7.8,
+          "biasSignalsGrok": [
+            "Trump boom",
+            "nearly twice expected"
+          ],
+          "pubDate": "Fri, 05 Jun 2026 12:32:59 +0000",
+          "clusterId": "jobs-report-may"
+        }
+      ]
+    },
+    {
+      "id": "california-governor-redistricting-election",
+      "topicLabel": "California governor race results and redistricting battles",
+      "date": "2026-06-05",
+      "articles": [
+        {
+          "id": "thehill-california-governor-redistricting-election-3",
+          "outletId": "thehill",
+          "outletName": "The Hill",
+          "headline": "Trump goes after California, claiming election being stolen as results trickle in",
+          "url": "https://thehill.com/homenews/campaign/5909572-trump-democrats-stealing-california-elections/",
+          "biasScore": 3.2,
+          "biasSignals": [
+            "'election being stolen' — quotes Trump's charge critically",
+            "'claims trickle in' subtly undermines Trump's alarm"
+          ],
+          "biasScoreGrok": 5.8,
+          "biasSignalsGrok": [
+            "goes after",
+            "claiming stolen"
+          ],
+          "pubDate": "2026-06-04T14:09:05Z",
+          "clusterId": "california-governor-redistricting-election"
+        },
+        {
+          "id": "guardian-california-governor-redistricting-election-2",
+          "outletId": "guardian",
+          "outletName": "The Guardian",
+          "headline": "California governor’s race remains too close to call as vote-counting continues",
+          "url": "https://www.theguardian.com/us-news/2026/jun/05/california-primary-election-races-too-close-to-call",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral 'too close to call' framing",
+            "factual vote-counting language"
+          ],
+          "biasScoreGrok": 4.3,
+          "biasSignalsGrok": [
+            "too close to call",
+            "vote counting"
+          ],
+          "pubDate": "Fri, 05 Jun 2026 16:04:01 GMT",
+          "clusterId": "california-governor-redistricting-election"
+        },
+        {
+          "id": "ap-california-governor-redistricting-election-4",
+          "outletId": "ap",
+          "outletName": "Associated Press",
+          "headline": "Republican's showing threatens California Democrats' redistricting goal",
+          "url": "https://apnews.com/article/california-house-republican-democrats-kiley-sacramento-c5580b54de2e890051ae79189e9eaf4f",
+          "biasScore": 5,
+          "biasSignals": [
+            "neutral 'threatens' framing",
+            "factual redistricting context"
+          ],
+          "biasScoreGrok": 4.8,
+          "biasSignalsGrok": [
+            "threatens goal",
+            "Republican showing"
+          ],
+          "pubDate": "2026-06-03T20:18:12Z",
+          "clusterId": "california-governor-redistricting-election"
+        },
+        {
+          "id": "ap-california-governor-redistricting-election-5",
+          "outletId": "ap",
+          "outletName": "Associated Press",
+          "headline": "Republican Steve Hilton wants to upset Democrats in race to replace California's Newsom",
+          "url": "https://apnews.com/article/california-governor-hilton-republican-becerra-8bfb56b7938205687de5248a380c9ace",
+          "biasScore": 5,
+          "biasSignals": [
+            "neutral 'wants to upset' framing",
+            "factual candidate description"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "wants to upset",
+            "replace Newsom"
+          ],
+          "pubDate": "2026-06-03T22:14:51Z",
+          "clusterId": "california-governor-redistricting-election"
+        },
+        {
+          "id": "foxnews-california-governor-redistricting-election-0",
+          "outletId": "foxnews",
+          "outletName": "Fox News",
+          "headline": "California election results still undecided as Los Angeles begins counting ballots",
+          "url": "https://www.foxnews.com/politics/california-election-results-still-undecided-los-angeles-begins-counting-ballots",
+          "biasScore": 5.5,
+          "biasSignals": [
+            "neutral 'undecided' framing",
+            "no charged language"
+          ],
+          "biasScoreGrok": 4.7,
+          "biasSignalsGrok": [
+            "still undecided",
+            "begins counting"
+          ],
+          "pubDate": "2026-06-04T15:07:30.4968463Z",
+          "clusterId": "california-governor-redistricting-election"
+        },
+        {
+          "id": "nypost-california-governor-redistricting-election-1",
+          "outletId": "nypost",
+          "outletName": "NY Post",
+          "headline": "Federal prosecutor investigates LA County ballot facility after Trump sounds alarm",
+          "url": "https://nypost.com/2026/06/05/us-news/federal-prosecutor-visits-la-county-ballot-facility-after-president-trumps-election-claims/",
+          "biasScore": 7.5,
+          "biasSignals": [
+            "'Trump sounds alarm' validates Trump's election claims",
+            "'investigates LA County ballot facility' implies wrongdoing"
+          ],
+          "biasScoreGrok": 6.6,
+          "biasSignalsGrok": [
+            "investigates facility",
+            "sounds alarm"
+          ],
+          "pubDate": "Fri, 05 Jun 2026 11:42:34 -0400",
+          "clusterId": "california-governor-redistricting-election"
+        }
+      ]
+    },
+    {
+      "id": "michigan-senate-primary-democrats",
+      "topicLabel": "Michigan Democratic Senate primary contest and endorsements",
+      "date": "2026-06-05",
+      "articles": [
+        {
+          "id": "nytimes-michigan-senate-primary-democrats-0",
+          "outletId": "nytimes",
+          "outletName": "NY Times",
+          "headline": "Chuck Schumer Privately Backs Haley Stevens in Michigan Democratic Senate Primary",
+          "url": "https://www.nytimes.com/2026/06/05/us/politics/schumer-michigan-democratic-senate-primary.html",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral 'privately backs' framing",
+            "factual political reporting without spin"
+          ],
+          "biasScoreGrok": 4.2,
+          "biasSignalsGrok": [
+            "privately backs",
+            "primary contest"
+          ],
+          "pubDate": "Fri, 05 Jun 2026 15:56:21 +0000",
+          "clusterId": "michigan-senate-primary-democrats"
+        },
+        {
+          "id": "washexaminer-michigan-senate-primary-democrats-1",
+          "outletId": "washexaminer",
+          "outletName": "Washington Examiner",
+          "headline": "Democrat Abdul el Sayed clinches UAW support over primary rivals for Michigan Senate",
+          "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4596721/abdul-el-sayed-uaw-support-over-primary-rivals-michigan-senate/",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral 'clinches support' framing",
+            "factual endorsement language"
+          ],
+          "biasScoreGrok": 4.5,
+          "biasSignalsGrok": [
+            "clinches support",
+            "over rivals"
+          ],
+          "pubDate": "Fri, 05 Jun 2026 16:47:00 +0000",
+          "clusterId": "michigan-senate-primary-democrats"
+        }
+      ]
+    },
+    {
+      "id": "epstein-assistant-doj-investigation",
+      "topicLabel": "Epstein assistant abuse allegations, GOP calls DOJ probe",
+      "date": "2026-06-05",
+      "articles": [
+        {
+          "id": "cnn-epstein-assistant-doj-investigation-0",
+          "outletId": "cnn",
+          "outletName": "CNN",
+          "headline": "New details revealed of Epstein assistant’s abuse allegations as GOP lawmakers call for DOJ investigation",
+          "url": "https://www.cnn.com/2026/06/04/politics/epstein-assistant-transcript-doj-referral",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral 'revealed' and 'call for investigation' framing",
+            "GOP framing as initiators is factual"
+          ],
+          "biasScoreGrok": 5.3,
+          "biasSignalsGrok": [
+            "new details revealed",
+            "GOP calls probe"
+          ],
+          "pubDate": "2026-06-04T13:00:08Z",
+          "clusterId": "epstein-assistant-doj-investigation"
+        },
+        {
+          "id": "msnbc-epstein-assistant-doj-investigation-1",
+          "outletId": "msnbc",
+          "outletName": "MSNBC",
+          "headline": "House Oversight releases transcribed interview with Epstein’s former assistant",
+          "url": "https://www.ms.now/news/house-oversight-releases-transcribed-interview-with-epsteins-former-assistant",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral 'releases transcribed interview' framing",
+            "oversight function described factually"
+          ],
+          "biasScoreGrok": 4.4,
+          "biasSignalsGrok": [
+            "releases interview",
+            "former assistant"
+          ],
+          "pubDate": "2026-06-04T15:34:51Z",
+          "clusterId": "epstein-assistant-doj-investigation"
+        }
+      ]
+    },
+    {
+      "id": "social-security-doge-dead-people",
+      "topicLabel": "DOGE plan to mark 2.7 million living people as dead",
+      "date": "2026-06-05",
+      "articles": [
+        {
+          "id": "bostonglobe-social-security-doge-dead-people-0",
+          "outletId": "bostonglobe",
+          "outletName": "Boston Globe",
+          "headline": "Trump officials planned to mark 2.7 million living people as dead, whistleblower claims",
+          "url": "https://www.bostonglobe.com/2026/06/05/nation/trump-officials-immigration-enforcement-whistleblower/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
+          "biasScore": 3,
+          "biasSignals": [
+            "'planned to mark living people as dead' — alarming framing",
+            "'whistleblower claims' adds credibility to accusation"
+          ],
+          "biasScoreGrok": 3.6,
+          "biasSignalsGrok": [
+            "planned to mark",
+            "whistleblower claims"
+          ],
+          "pubDate": "Fri, 05 Jun 2026 15:30:52 +0000",
+          "clusterId": "social-security-doge-dead-people"
+        },
+        {
+          "id": "marketwatch-social-security-doge-dead-people-1",
+          "outletId": "marketwatch",
+          "outletName": "MarketWatch",
+          "headline": "‘DOGE’ wanted to declare 2.7 million people ‘dead’ at Social Security: whistleblower",
+          "url": "https://www.marketwatch.com/story/doge-wanted-to-declare-2-7-million-people-dead-at-social-security-whistleblower-e195065b?mod=mw_rss_topstories",
+          "biasScore": 3.2,
+          "biasSignals": [
+            "quotes 'DOGE' skeptically with quotation marks",
+            "'declare 2.7 million people dead' — alarming victim framing"
+          ],
+          "biasScoreGrok": 3.8,
+          "biasSignalsGrok": [
+            "wanted to declare",
+            "whistleblower"
+          ],
+          "pubDate": "Fri, 05 Jun 2026 14:42:00 GMT",
+          "clusterId": "social-security-doge-dead-people"
+        }
+      ]
+    },
+    {
+      "id": "hezbollah-israel-strikes-ceasefire",
+      "topicLabel": "Israeli strikes on Hezbollah, ceasefire rejected",
+      "date": "2026-06-05",
+      "articles": [
+        {
+          "id": "huffpost-hezbollah-israel-strikes-ceasefire-2",
+          "outletId": "huffpost",
+          "outletName": "HuffPost",
+          "headline": "Israeli Strikes Kill At Least 9 Overnight In Gaza, Including Children",
+          "url": "https://www.huffpost.com/entry/israeli-strikes-kill-9-gaza-children_n_6a21a2fbe4b0ed55359d52bf",
+          "biasScore": 2.5,
+          "biasSignals": [
+            "'including children' — civilian victim framing",
+            "Gaza casualty count leads, Palestinian harm emphasized"
+          ],
+          "biasScoreGrok": 3.2,
+          "biasSignalsGrok": [
+            "kill at least 9",
+            "including children"
+          ],
+          "pubDate": "2026-06-04T16:38:14Z",
+          "clusterId": "hezbollah-israel-strikes-ceasefire"
+        },
+        {
+          "id": "ap-hezbollah-israel-strikes-ceasefire-1",
+          "outletId": "ap",
+          "outletName": "Associated Press",
+          "headline": "Hezbollah rejects ceasefire as Israeli strikes kill 4",
+          "url": "https://apnews.com/article/iran-us-war-israel-lebanon-hezbollah-ceasefire-06ea585ce43fd28e26c4d21d46a4df83",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral 'rejects ceasefire' framing",
+            "balanced 'kills 4' factual descriptor"
+          ],
+          "biasScoreGrok": 4.6,
+          "biasSignalsGrok": [
+            "rejects ceasefire",
+            "strikes kill"
+          ],
+          "pubDate": "2026-06-04T12:27:56Z",
+          "clusterId": "hezbollah-israel-strikes-ceasefire"
+        },
+        {
+          "id": "timesofisrael-hezbollah-israel-strikes-ceasefire-0",
           "outletId": "timesofisrael",
           "outletName": "Times of Israel",
-          "headline": "Israel kills Hezbollah chief engineer, as ministers said to demand vote on truce deal",
+          "headline": "IDF kills Hezbollah chief engineer; 3 troops hurt in Lebanon clashes",
           "url": "https://www.timesofisrael.com/israel-kills-hezbollah-chief-engineer-as-ministers-said-to-demand-vote-on-truce-deal/",
           "biasScore": 5.5,
           "biasSignals": [
-            "'kills Hezbollah chief engineer' — factual, Israel as actor",
-            "neutral framing of military action"
+            "neutral 'kills' and 'hurt' military language",
+            "IDF as subject — Israeli perspective framing"
           ],
-          "biasScoreGrok": 6,
+          "biasScoreGrok": 5,
           "biasSignalsGrok": [
-            "conservative framing slight",
-            "kills chief engineer noted"
+            "kills chief engineer",
+            "clashes report"
           ],
           "pubDate": "Fri, 05 Jun 2026 10:41:43 +0000",
-          "clusterId": "israel-hezbollah-lebanon-ceasefire"
-        },
-        {
-          "id": "foxnews-israel-hezbollah-lebanon-ceasefire-2",
-          "outletId": "foxnews",
-          "outletName": "Fox News",
-          "headline": "Israel-Lebanon ceasefire secured by US as House votes to curb Trump war powers",
-          "url": "https://www.foxnews.com/live-news/iran-war-israel-lebanon-ceasefire-house-votes-trump-war-powers-june-4",
-          "biasScore": 6,
-          "biasSignals": [
-            "leads with ceasefire 'secured by US' — credits Trump admin",
-            "frames as diplomatic win before noting House challenge"
-          ],
-          "biasScoreGrok": 7,
-          "biasSignalsGrok": [
-            "conservative framing",
-            "curb Trump war powers"
-          ],
-          "pubDate": "2026-06-04T11:07:23.2332308Z",
-          "clusterId": "israel-hezbollah-lebanon-ceasefire"
+          "clusterId": "hezbollah-israel-strikes-ceasefire"
         }
       ]
     },
     {
-      "id": "elon-musk-uk-division",
-      "topicLabel": "Starmer accuses Musk of sowing division in UK",
+      "id": "trump-iran-policy-war-aftermath",
+      "topicLabel": "Trump's Iran war policy fallout and diplomatic implications",
       "date": "2026-06-05",
       "articles": [
         {
-          "id": "huffpost-elon-musk-uk-division-2",
-          "outletId": "huffpost",
-          "outletName": "HuffPost",
-          "headline": "U.K. Lawmaker Says She's Suing Elon Musk's Company Over Fake Grok Bikini Images",
-          "url": "https://www.huffpost.com/entry/grok-lawsuit-jess-asato_n_6a2164fee4b032392fa99872",
-          "biasScore": 2,
-          "biasSignals": [
-            "focuses on UK lawmaker suing Musk — victim framing",
-            "Musk as harmful tech actor, progressive framing"
-          ],
-          "biasScoreGrok": 2.5,
-          "biasSignalsGrok": [
-            "progressive framing",
-            "suing Musk company loaded"
-          ],
-          "pubDate": "2026-06-04T11:48:27Z",
-          "clusterId": "elon-musk-uk-division"
-        },
-        {
-          "id": "bbc-elon-musk-uk-division-0",
-          "outletId": "bbc",
-          "outletName": "BBC",
-          "headline": "Starmer accuses Musk of trying to whip up division over Henry Nowak murder",
-          "url": "https://www.bbc.co.uk/news/articles/c1e2ww900zno",
-          "biasScore": 3.5,
-          "biasSignals": [
-            "'whip up division' — Musk as antagonist framing",
-            "Starmer given credible voice, Musk criticized"
-          ],
-          "biasScoreGrok": 3,
-          "biasSignalsGrok": [
-            "progressive framing",
-            "sowing division charged"
-          ],
-          "pubDate": "2026-06-04T11:22:23.3074419Z",
-          "clusterId": "elon-musk-uk-division"
-        },
-        {
-          "id": "bloomberg-elon-musk-uk-division-1",
-          "outletId": "bloomberg",
-          "outletName": "Bloomberg",
-          "headline": "Starmer Accuses Musk of Sowing Division in UK Over Murdered Teen",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-04/starmer-accuses-musk-of-sowing-division-in-uk-over-murdered-teen",
-          "biasScore": 3.5,
-          "biasSignals": [
-            "'sowing division' — Musk as harmful actor framing",
-            "Starmer as authoritative source"
-          ],
-          "biasScoreGrok": 3.5,
-          "biasSignalsGrok": [
-            "progressive framing",
-            "sowing division over murder"
-          ],
-          "pubDate": "2026-06-04T11:22:09+00:00",
-          "clusterId": "elon-musk-uk-division"
-        }
-      ]
-    },
-    {
-      "id": "jobs-report-may-economy",
-      "topicLabel": "May jobs report: payrolls beat expectations",
-      "date": "2026-06-05",
-      "articles": [
-        {
-          "id": "bostonglobe-jobs-report-may-economy-2",
-          "outletId": "bostonglobe",
-          "outletName": "Boston Globe",
-          "headline": "US employers likely added 105,000 jobs in May with labor market stable despite costly Iran war",
-          "url": "https://www.bostonglobe.com/2026/06/05/business/jobs-report/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
+          "id": "timesofisrael-trump-iran-policy-war-aftermath-1",
+          "outletId": "timesofisrael",
+          "outletName": "Times of Israel",
+          "headline": "Trump’s ‘crazy’ rebuke spotlights rift with Netanyahu, when PM can least afford it",
+          "url": "https://www.timesofisrael.com/trumps-crazy-rebuke-spotlights-rift-with-netanyahu-when-pm-can-least-afford-it/",
           "biasScore": 4,
           "biasSignals": [
-            "'labor market stable despite costly Iran war' — neutral qualifier",
-            "factual economic framing, balanced"
+            "'crazy rebuke' quotes characterization neutrally",
+            "'rift' framing is factual diplomatic analysis"
           ],
-          "biasScoreGrok": 4,
+          "biasScoreGrok": 4.1,
           "biasSignalsGrok": [
-            "progressive framing",
-            "costly Iran war added"
+            "crazy rebuke",
+            "rift spotlights"
           ],
-          "pubDate": "Fri, 05 Jun 2026 04:15:33 +0000",
-          "clusterId": "jobs-report-may-economy"
+          "pubDate": "Fri, 05 Jun 2026 12:51:12 +0000",
+          "clusterId": "trump-iran-policy-war-aftermath"
         },
         {
-          "id": "cnbc-jobs-report-may-economy-0",
-          "outletId": "cnbc",
-          "outletName": "CNBC",
-          "headline": "U.S. payrolls rose by 172,000 in May, much more than expected; unemployment at 4.3%",
-          "url": "https://www.cnbc.com/2026/06/05/jobs-report-may-2026.html",
+          "id": "aljazeera-trump-iran-policy-war-aftermath-0",
+          "outletId": "aljazeera",
+          "outletName": "Al Jazeera",
+          "headline": "‘Red meat is a dream’: Iran inflation hits highest level since World War II",
+          "url": "https://www.aljazeera.com/news/2026/6/5/red-meat-is-a-dream-iran-inflation-hits-highest-level-since-world-war-ii?traffic_source=rss",
           "biasScore": 4.5,
           "biasSignals": [
-            "neutral economic data framing, factual numbers",
-            "no ideological signals"
+            "neutral economic framing of Iran inflation",
+            "no US political spin in headline"
+          ],
+          "biasScoreGrok": 3.4,
+          "biasSignalsGrok": [
+            "inflation hits highest",
+            "WWII since"
+          ],
+          "pubDate": "Fri, 05 Jun 2026 15:28:49 +0000",
+          "clusterId": "trump-iran-policy-war-aftermath"
+        },
+        {
+          "id": "bloomberg-trump-iran-policy-war-aftermath-3",
+          "outletId": "bloomberg",
+          "outletName": "Bloomberg",
+          "headline": "Treasuries Rise as Oil Signals Optimism on Iran Peace Accord",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-04/treasuries-rise-as-oil-signals-optimism-on-iran-peace-accord",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral financial framing of market reaction",
+            "'peace accord optimism' factual market language"
+          ],
+          "biasScoreGrok": 4.9,
+          "biasSignalsGrok": [
+            "rise as signals",
+            "optimism accord"
+          ],
+          "pubDate": "2026-06-04T15:25:11+00:00",
+          "clusterId": "trump-iran-policy-war-aftermath"
+        },
+        {
+          "id": "timesofisrael-trump-iran-policy-war-aftermath-2",
+          "outletId": "timesofisrael",
+          "outletName": "Times of Israel",
+          "headline": "‘It’s entombed’: Trump says US can retrieve Iran’s uranium without a deal, but has ‘no reason to’",
+          "url": "https://www.timesofisrael.com/its-entombed-trump-says-us-can-get-irans-uranium-without-a-deal-but-has-no-reason-to/",
+          "biasScore": 5,
+          "biasSignals": [
+            "quotes Trump's own language 'entombed'",
+            "neutral reporting of Trump's contradictory claim"
+          ],
+          "biasScoreGrok": 5.2,
+          "biasSignalsGrok": [
+            "entombed framing",
+            "no reason to"
+          ],
+          "pubDate": "Fri, 05 Jun 2026 11:47:12 +0000",
+          "clusterId": "trump-iran-policy-war-aftermath"
+        }
+      ]
+    },
+    {
+      "id": "iowa-elections-primary-results",
+      "topicLabel": "Iowa primary results: governor and Senate races",
+      "date": "2026-06-05",
+      "articles": [
+        {
+          "id": "politico-iowa-elections-primary-results-2",
+          "outletId": "politico",
+          "outletName": "Politico",
+          "headline": "Democrats see the stars aligning in Iowa",
+          "url": "https://www.politico.com/news/2026/06/03/democrats-iowa-excitement-primary-00947943",
+          "biasScore": 3.2,
+          "biasSignals": [
+            "'stars aligning' favorable framing for Democrats",
+            "progressive sympathetic electoral framing"
+          ],
+          "biasScoreGrok": 4.3,
+          "biasSignalsGrok": [
+            "see stars aligning",
+            "Iowa"
+          ],
+          "pubDate": "2026-06-03T08:45:00+00:00",
+          "clusterId": "iowa-elections-primary-results"
+        },
+        {
+          "id": "politico-iowa-elections-primary-results-1",
+          "outletId": "politico",
+          "outletName": "Politico",
+          "headline": "Paralympic gold medalist Josh Turek wins Iowa Senate primary with establishment support",
+          "url": "https://www.politico.com/news/2026/06/02/turek-wins-iowa-senate-primary-00947727",
+          "biasScore": 5,
+          "biasSignals": [
+            "'establishment support' label is mildly loaded",
+            "neutral 'wins primary' framing"
+          ],
+          "biasScoreGrok": 4.8,
+          "biasSignalsGrok": [
+            "wins with support",
+            "establishment"
+          ],
+          "pubDate": "2026-06-03T01:42:55+00:00",
+          "clusterId": "iowa-elections-primary-results"
+        },
+        {
+          "id": "politico-iowa-elections-primary-results-0",
+          "outletId": "politico",
+          "outletName": "Politico",
+          "headline": "Trump-backed Rep. Randy Feenstra concedes Iowa governor primary",
+          "url": "https://www.politico.com/news/2026/06/03/feenstra-concedes-iowa-governor-primary-00947876",
+          "biasScore": 5.5,
+          "biasSignals": [
+            "'Trump-backed' label frames outcome as Trump loss",
+            "neutral 'concedes' verb"
+          ],
+          "biasScoreGrok": 4.7,
+          "biasSignalsGrok": [
+            "concedes primary",
+            "Trump-backed"
+          ],
+          "pubDate": "2026-06-03T04:02:23+00:00",
+          "clusterId": "iowa-elections-primary-results"
+        }
+      ]
+    },
+    {
+      "id": "trump-approval-polling-congress",
+      "topicLabel": "Trump approval rating drops, polling shows congressional challenges",
+      "date": "2026-06-05",
+      "articles": [
+        {
+          "id": "huffpost-trump-approval-polling-congress-2",
+          "outletId": "huffpost",
+          "outletName": "HuffPost",
+          "headline": "Sherrod Brown Leading In Ohio Senate Race, Trump Approval Dips: Fox News Poll",
+          "url": "https://www.huffpost.com/entry/fox-news-poll-sherrod-brown-leading-in-ohio-senate-race-trump-approval-dips_n_6a2190cde4b0a18aef0a5419",
+          "biasScore": 3.2,
+          "biasSignals": [
+            "'Trump approval dips' paired with Democratic lead — left framing",
+            "Fox News poll cited sympathetically to Democrat"
+          ],
+          "biasScoreGrok": 4.6,
+          "biasSignalsGrok": [
+            "leading race",
+            "approval dips"
+          ],
+          "pubDate": "2026-06-04T15:51:03Z",
+          "clusterId": "trump-approval-polling-congress"
+        },
+        {
+          "id": "thehill-trump-approval-polling-congress-1",
+          "outletId": "thehill",
+          "outletName": "The Hill",
+          "headline": "Trump net approval hits new low: Polling tracker",
+          "url": "https://thehill.com/homenews/administration/5909690-trump-approval-rating-iran-inflation/",
+          "biasScore": 3.5,
+          "biasSignals": [
+            "'new low' emphasizes negative trajectory for Trump",
+            "neutral polling tracker framing"
+          ],
+          "biasScoreGrok": 4.9,
+          "biasSignalsGrok": [
+            "net approval low",
+            "polling tracker"
+          ],
+          "pubDate": "2026-06-04T14:56:45Z",
+          "clusterId": "trump-approval-polling-congress"
+        },
+        {
+          "id": "thehill-trump-approval-polling-congress-0",
+          "outletId": "thehill",
+          "outletName": "The Hill",
+          "headline": "Fox News poll finds Brown leading Ohio Senate race by 8 points as Trump favorability drops",
+          "url": "https://thehill.com/homenews/campaign/5909836-ohio-senate-race-brown-husted/",
+          "biasScore": 4,
+          "biasSignals": [
+            "cites Fox News poll — sourcing is credible and notable",
+            "neutral 'leading' and 'drops' framing"
           ],
           "biasScoreGrok": 5.5,
           "biasSignalsGrok": [
-            "neutral verbs used",
-            "rose by 172000 neutral"
+            "leading by points",
+            "favorability drops"
           ],
-          "pubDate": "Fri, 05 Jun 2026 12:35:57 GMT",
-          "clusterId": "jobs-report-may-economy"
+          "pubDate": "2026-06-04T15:25:09Z",
+          "clusterId": "trump-approval-polling-congress"
         },
         {
-          "id": "washexaminer-jobs-report-may-economy-1",
-          "outletId": "washexaminer",
-          "outletName": "Washington Examiner",
-          "headline": "Economy beat expectations with 173,000 jobs in May despite Iran energy crunch",
-          "url": "https://www.washingtonexaminer.com/news/4595838/economy-jobs-may-iran-energy-crunch/",
-          "biasScore": 6.5,
+          "id": "npr-trump-approval-polling-congress-3",
+          "outletId": "npr",
+          "outletName": "NPR",
+          "headline": "Republican pollster shares how voters view Trump's agenda",
+          "url": "https://www.npr.org/2026/06/05/nx-s1-5846648/republican-pollster-shares-how-voters-view-trumps-agenda",
+          "biasScore": 4.5,
           "biasSignals": [
-            "'beat expectations despite Iran energy crunch' — positive spin",
-            "frames economy as resilient under Trump"
+            "'Republican pollster' sourcing adds balance",
+            "neutral 'how voters view' framing"
           ],
-          "biasScoreGrok": 7,
+          "biasScoreGrok": 4.5,
           "biasSignalsGrok": [
-            "conservative framing",
-            "beat expectations despite"
+            "shares how view",
+            "agenda"
           ],
-          "pubDate": "Fri, 05 Jun 2026 12:32:29 +0000",
-          "clusterId": "jobs-report-may-economy"
+          "pubDate": "Fri, 05 Jun 2026 04:43:24 -0400",
+          "clusterId": "trump-approval-polling-congress"
         }
       ]
     },
     {
-      "id": "ai-tech-investment-boom",
-      "topicLabel": "AI investment surge, DeepSeek, and tech market moves",
+      "id": "collins-senate-vote-record",
+      "topicLabel": "Susan Collins sets Senate consecutive voting record",
       "date": "2026-06-05",
       "articles": [
         {
-          "id": "msnbc-ai-tech-investment-boom-4",
-          "outletId": "msnbc",
-          "outletName": "MSNBC",
-          "headline": "Trump’s executive order on AI is insidious",
-          "url": "https://www.ms.now/opinion/trump-ai-executive-order-sacks-security",
-          "biasScore": 2.5,
+          "id": "nytimes-collins-senate-vote-record-0",
+          "outletId": "nytimes",
+          "outletName": "NY Times",
+          "headline": "Casting Her 10,000th Vote in a Row, Collins Sets a Senate Record",
+          "url": "https://www.nytimes.com/2026/06/05/us/politics/susan-collins-votes-streak-senate.html",
+          "biasScore": 4.5,
           "biasSignals": [
-            "'insidious' — highly charged negative descriptor",
-            "strong progressive framing, treats order as dangerous"
+            "neutral factual milestone framing",
+            "no ideological signals detected"
           ],
-          "biasScoreGrok": 1.5,
+          "biasScoreGrok": 4.7,
           "biasSignalsGrok": [
-            "far left framing",
-            "executive order insidious charged"
+            "casting 10000th",
+            "sets record"
           ],
-          "pubDate": "2026-06-03T21:52:25Z",
-          "clusterId": "ai-tech-investment-boom"
+          "pubDate": "Fri, 05 Jun 2026 14:53:28 +0000",
+          "clusterId": "collins-senate-vote-record"
         },
         {
-          "id": "vox-ai-tech-investment-boom-3",
+          "id": "washexaminer-collins-senate-vote-record-1",
+          "outletId": "washexaminer",
+          "outletName": "Washington Examiner",
+          "headline": "Blood in the water: Republicans pour $3 million into Susan Collins campaign as Graham Platner’s support stalls after scandals",
+          "url": "https://www.washingtonexaminer.com/news/4596468/republicans-pour-3-million-susan-collins-campaign-graham-platner-support-stalls/",
+          "biasScore": 6.2,
+          "biasSignals": [
+            "'blood in the water' — predatory metaphor",
+            "frames Collins as wounded target for Republican money"
+          ],
+          "biasScoreGrok": 6.7,
+          "biasSignalsGrok": [
+            "blood in water",
+            "support stalls"
+          ],
+          "pubDate": "Fri, 05 Jun 2026 13:29:06 +0000",
+          "clusterId": "collins-senate-vote-record"
+        }
+      ]
+    },
+    {
+      "id": "ai-tech-industry-news",
+      "topicLabel": "AI industry developments, investments, and concerns",
+      "date": "2026-06-05",
+      "articles": [
+        {
+          "id": "vox-ai-tech-industry-news-4",
           "outletId": "vox",
           "outletName": "Vox",
-          "headline": "What’s fueling AI companies’ IPO rush",
-          "url": "https://www.vox.com/podcasts/490812/artificial-intelligence-ipo-spacex-anthropic-openai-musk-money",
-          "biasScore": 3.5,
+          "headline": "AI is ruining children’s books",
+          "url": "https://www.vox.com/culture/490697/ai-slop-childrens-books-how-to-tell-and-avoid",
+          "biasScore": 3,
           "biasSignals": [
-            "'IPO rush' — mild skepticism of tech industry",
-            "analytical framing, slight left-leaning skepticism"
+            "'ruining children's books' — strong negative framing of AI",
+            "progressive anti-tech cultural concern framing"
           ],
           "biasScoreGrok": 3.5,
           "biasSignalsGrok": [
-            "progressive framing",
-            "IPO rush fueled noted"
+            "ruining books",
+            "children focus"
           ],
-          "pubDate": "2026-06-04T11:30:00.000Z",
-          "clusterId": "ai-tech-investment-boom"
+          "pubDate": "2026-06-05T11:30:00.000Z",
+          "clusterId": "ai-tech-industry-news"
         },
         {
-          "id": "wsj-ai-tech-investment-boom-0",
+          "id": "latimes-ai-tech-industry-news-5",
+          "outletId": "latimes",
+          "outletName": "LA Times",
+          "headline": "AI boom fuels California growth but leaves more workers jobless",
+          "url": "https://www.latimes.com/business/story/2026-06-05/californian-conundrum-high-growth-but-high-unemployment",
+          "biasScore": 3.2,
+          "biasSignals": [
+            "'leaves more workers jobless' — victim economic framing",
+            "AI boom framed as harmful to workers"
+          ],
+          "biasScoreGrok": 4.2,
+          "biasSignalsGrok": [
+            "fuels growth",
+            "leaves jobless"
+          ],
+          "pubDate": "Fri, 5 Jun 2026 10:00:00 GMT",
+          "clusterId": "ai-tech-industry-news"
+        },
+        {
+          "id": "metro-ai-tech-industry-news-3",
+          "outletId": "metro",
+          "outletName": "Metro",
+          "headline": "AI needs a ‘brake pedal’ as we near point of no return, says top tech boss",
+          "url": "https://metro.co.uk/2026/06/05/ai-needs-a-brake-pedal-near-point-no-return-says-anthropic-boss-28657779/",
+          "biasScore": 4,
+          "biasSignals": [
+            "'brake pedal' and 'point of no return' — alarm framing",
+            "neutral attribution to 'top tech boss'"
+          ],
+          "biasScoreGrok": 4.6,
+          "biasSignalsGrok": [
+            "needs brake pedal",
+            "point of no return"
+          ],
+          "pubDate": "Fri, 05 Jun 2026 17:05:29 +0000",
+          "clusterId": "ai-tech-industry-news"
+        },
+        {
+          "id": "wsj-ai-tech-industry-news-0",
           "outletId": "wsj",
           "outletName": "Wall Street Journal",
           "headline": "What to Know About China's DeepSeek AI",
           "url": "https://www.wsj.com/articles/deepseek-ai-china-tech-stocks-explained-ee6cc80e?mod=rss_Technology",
           "biasScore": 4.5,
           "biasSignals": [
-            "neutral explainer framing, factual",
+            "neutral explainer framing",
             "no ideological signals"
           ],
-          "biasScoreGrok": 5.5,
+          "biasScoreGrok": 4.8,
           "biasSignalsGrok": [
-            "neutral verbs used",
-            "what to know neutral"
+            "what to know",
+            "China DeepSeek"
           ],
           "pubDate": "Mon, 27 Jan 2025 13:17:00 -0500",
-          "clusterId": "ai-tech-investment-boom"
+          "clusterId": "ai-tech-industry-news"
         },
         {
-          "id": "yahoofinance-ai-tech-investment-boom-2",
-          "outletId": "yahoofinance",
-          "outletName": "Yahoo Finance",
-          "headline": "Anthropic scales its most powerful AI a day after filing to IPO",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-scales-most-powerful-ai-033300925.html",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral tech business framing",
-            "no ideological signals"
-          ],
-          "biasScoreGrok": 5,
-          "biasSignalsGrok": [
-            "neutral verbs used",
-            "scales most powerful neutral"
-          ],
-          "pubDate": "2026-06-04T03:33:00Z",
-          "clusterId": "ai-tech-investment-boom"
-        },
-        {
-          "id": "wsj-ai-tech-investment-boom-1",
+          "id": "wsj-ai-tech-industry-news-1",
           "outletId": "wsj",
           "outletName": "Wall Street Journal",
           "headline": "Silicon Valley Is Raving About a Made-in-China AI Model",
           "url": "https://www.wsj.com/articles/china-ai-deepseek-chatbot-6ac4ad33?mod=rss_Technology",
-          "biasScore": 5,
+          "biasScore": 4.8,
           "biasSignals": [
-            "'Silicon Valley Is Raving' — slightly hype-framing",
-            "neutral overall, no partisan signals"
+            "'Raving' is positive but Silicon Valley context is neutral",
+            "'Made-in-China' framing adds mild geopolitical tension"
           ],
-          "biasScoreGrok": 5.5,
+          "biasScoreGrok": 4.9,
           "biasSignalsGrok": [
-            "neutral verbs used",
-            "raving about model neutral"
+            "raving about",
+            "made in China"
           ],
           "pubDate": "Mon, 27 Jan 2025 09:36:00 -0500",
-          "clusterId": "ai-tech-investment-boom"
+          "clusterId": "ai-tech-industry-news"
+        },
+        {
+          "id": "axios-ai-tech-industry-news-2",
+          "outletId": "axios",
+          "outletName": "Axios",
+          "headline": "China fueling U.S. data center resistance, AI groups claim",
+          "url": "https://www.axios.com/2026/06/05/china-fueling-us-data-center-resistance-ai-groups-claim",
+          "biasScore": 5.5,
+          "biasSignals": [
+            "'fueling resistance' frames China as adversarial actor",
+            "right-leaning geopolitical framing of China threat"
+          ],
+          "biasScoreGrok": 5.3,
+          "biasSignalsGrok": [
+            "fueling resistance",
+            "groups claim"
+          ],
+          "pubDate": "Fri, 05 Jun 2026 09:25:06 +0000",
+          "clusterId": "ai-tech-industry-news"
+        }
+      ]
+    },
+    {
+      "id": "trump-payout-fund-jan6-defendants",
+      "topicLabel": "Jan. 6 defendants and scrapped $1.8B payout fund",
+      "date": "2026-06-05",
+      "articles": [
+        {
+          "id": "nytimes-trump-payout-fund-jan6-defendants-0",
+          "outletId": "nytimes",
+          "outletName": "NY Times",
+          "headline": "Trump Keeps Immunity from I.R.S. Audits, Even as $1.8 Billion Fund Falls Away",
+          "url": "https://www.nytimes.com/2026/06/05/us/politics/trump-immunity-tax-audit.html",
+          "biasScore": 3.5,
+          "biasSignals": [
+            "'Keeps Immunity' frames Trump as protected",
+            "fund described as 'falling away' — neutral outcome"
+          ],
+          "biasScoreGrok": 4.1,
+          "biasSignalsGrok": [
+            "keeps immunity",
+            "fund falls away"
+          ],
+          "pubDate": "Fri, 05 Jun 2026 17:01:19 +0000",
+          "clusterId": "trump-payout-fund-jan6-defendants"
+        },
+        {
+          "id": "abc-trump-payout-fund-jan6-defendants-1",
+          "outletId": "abc",
+          "outletName": "ABC News",
+          "headline": "'They should be reimbursed': Jan. 6 defendants still eyeing payouts, despite scrapped $1.8B fund",
+          "url": "https://abcnews.com/Politics/reimbursed-jan-6-defendants-eyeing-payouts-despite-scrapped/story?id=133565302",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "'still eyeing payouts' mild skeptical framing",
+            "neutral 'despite scrapped fund' factual qualifier"
+          ],
+          "biasScoreGrok": 3.7,
+          "biasSignalsGrok": [
+            "should be reimbursed",
+            "despite scrapped"
+          ],
+          "pubDate": "2026-06-03T23:46:48Z",
+          "clusterId": "trump-payout-fund-jan6-defendants"
+        }
+      ]
+    },
+    {
+      "id": "arizona-trump-2020-election-case",
+      "topicLabel": "Arizona AG seeks new indictment in Trump 2020 election case",
+      "date": "2026-06-05",
+      "articles": [
+        {
+          "id": "breitbart-arizona-trump-2020-election-case-0",
+          "outletId": "breitbart",
+          "outletName": "Breitbart",
+          "headline": "Arizona Attorney General Kris Mayes Seeks New Indictment in Trump 2020 Election Case",
+          "url": "https://www.breitbart.com/politics/2026/06/04/arizona-attorney-general-kris-mayes-seeks-new-indictment-in-trump-2020-election-case/",
+          "biasScore": 5,
+          "biasSignals": [
+            "neutral 'seeks new indictment' framing",
+            "no charged language despite Breitbart outlet"
+          ],
+          "biasScoreGrok": 5.8,
+          "biasSignalsGrok": [
+            "seeks new indictment",
+            "election case"
+          ],
+          "pubDate": "Fri, 05 Jun 2026 03:46:04 +0000",
+          "clusterId": "arizona-trump-2020-election-case"
+        },
+        {
+          "id": "thefederalist-arizona-trump-2020-election-case-1",
+          "outletId": "thefederalist",
+          "outletName": "The Federalist",
+          "headline": "Arizona’s Lawfare-Pushing AG Can’t Quit Her Witch Hunt Against Trump Allies",
+          "url": "https://thefederalist.com/2026/06/05/arizonas-lawfare-pushing-ag-cant-quit-her-witch-hunt-against-trump-allies/?utm_source=rss&utm_medium=rss&utm_campaign=arizonas-lawfare-pushing-ag-cant-quit-her-witch-hunt-against-trump-allies",
+          "biasScore": 8.5,
+          "biasSignals": [
+            "'Lawfare-Pushing AG' — highly charged right framing",
+            "'Witch Hunt' — Trump ally framing of prosecution"
+          ],
+          "biasScoreGrok": 8.3,
+          "biasSignalsGrok": [
+            "lawfare pushing",
+            "witch hunt"
+          ],
+          "pubDate": "Fri, 05 Jun 2026 11:31:24 +0000",
+          "clusterId": "arizona-trump-2020-election-case"
+        }
+      ]
+    },
+    {
+      "id": "henry-nowak-us-diplomat-twitter-controversy",
+      "topicLabel": "Henry Nowak murder case and US diplomat social media controversy",
+      "date": "2026-06-05",
+      "articles": [
+        {
+          "id": "guardian-henry-nowak-us-diplomat-twitter-controversy-1",
+          "outletId": "guardian",
+          "outletName": "The Guardian",
+          "headline": "Why US diplomats tweet from the hip in response to Henry Nowak murder",
+          "url": "https://www.theguardian.com/us-news/2026/jun/05/us-diplomats-response-to-henry-nowak-incendiary",
+          "biasScore": 4,
+          "biasSignals": [
+            "'tweet from the hip' implies recklessness neutrally",
+            "balanced analytical framing"
+          ],
+          "biasScoreGrok": 3.8,
+          "biasSignalsGrok": [
+            "why tweet from hip",
+            "response"
+          ],
+          "pubDate": "Fri, 05 Jun 2026 16:36:29 GMT",
+          "clusterId": "henry-nowak-us-diplomat-twitter-controversy"
+        },
+        {
+          "id": "metro-henry-nowak-us-diplomat-twitter-controversy-2",
+          "outletId": "metro",
+          "outletName": "Metro",
+          "headline": "‘I was called a murderer and predator over Henry Nowak’s death but I wasn’t even there’",
+          "url": "https://metro.co.uk/2026/06/05/i-called-a-murderer-predator-henry-nowaks-death-wasnt-even-there-28659641/",
+          "biasScore": 4,
+          "biasSignals": [
+            "first-person victim framing, sympathetic",
+            "quote-led headline humanizes wrongly accused"
+          ],
+          "biasScoreGrok": 4.4,
+          "biasSignalsGrok": [
+            "called murderer",
+            "wasnt even there"
+          ],
+          "pubDate": "Fri, 05 Jun 2026 15:15:41 +0000",
+          "clusterId": "henry-nowak-us-diplomat-twitter-controversy"
+        },
+        {
+          "id": "bbc-henry-nowak-us-diplomat-twitter-controversy-0",
+          "outletId": "bbc",
+          "outletName": "BBC",
+          "headline": "Woman falsely identified as officer in Henry Nowak case 'scared for safety'",
+          "url": "https://www.bbc.co.uk/news/articles/cg7pl7zj024o",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral victim safety framing",
+            "factual false identification context"
+          ],
+          "biasScoreGrok": 4.5,
+          "biasSignalsGrok": [
+            "falsely identified",
+            "scared for safety"
+          ],
+          "pubDate": "2026-06-04T16:22:23.6908497Z",
+          "clusterId": "henry-nowak-us-diplomat-twitter-controversy"
         }
       ]
     }
   ],
   "outlets": [
     {
+      "outletId": "vox",
+      "outletName": "Vox",
+      "abbreviation": "Vox",
+      "currentScore": 2.83,
+      "currentScoreGrok": 3.07,
+      "articleCount": 3,
+      "expectedRange": [
+        2.5,
+        4
+      ]
+    },
+    {
+      "outletId": "theatlantic",
+      "outletName": "The Atlantic",
+      "abbreviation": "Atlntc",
+      "currentScore": 3,
+      "currentScoreGrok": 3.9,
+      "articleCount": 1,
+      "expectedRange": [
+        2.5,
+        4
+      ]
+    },
+    {
+      "outletId": "marketwatch",
+      "outletName": "MarketWatch",
+      "abbreviation": "MW",
+      "currentScore": 3.2,
+      "currentScoreGrok": 3.8,
+      "articleCount": 1,
+      "expectedRange": [
+        4.5,
+        6
+      ]
+    },
+    {
+      "outletId": "latimes",
+      "outletName": "LA Times",
+      "abbreviation": "LAT",
+      "currentScore": 3.2,
+      "currentScoreGrok": 4.2,
+      "articleCount": 1,
+      "expectedRange": [
+        2.5,
+        4
+      ]
+    },
+    {
       "outletId": "huffpost",
       "outletName": "HuffPost",
       "abbreviation": "HPost",
-      "currentScore": 2.63,
-      "currentScoreGrok": 2.75,
+      "currentScore": 3.43,
+      "currentScoreGrok": 4.03,
       "articleCount": 4,
       "expectedRange": [
         2,
@@ -1794,23 +2344,11 @@
       ]
     },
     {
-      "outletId": "theatlantic",
-      "outletName": "The Atlantic",
-      "abbreviation": "Atlntc",
-      "currentScore": 2.83,
-      "currentScoreGrok": 3,
-      "articleCount": 3,
-      "expectedRange": [
-        2.5,
-        4
-      ]
-    },
-    {
       "outletId": "msnbc",
       "outletName": "MSNBC",
       "abbreviation": "MSNBC",
-      "currentScore": 3,
-      "currentScoreGrok": 2.7,
+      "currentScore": 3.76,
+      "currentScoreGrok": 3.92,
       "articleCount": 5,
       "expectedRange": [
         1.5,
@@ -1818,95 +2356,11 @@
       ]
     },
     {
-      "outletId": "vox",
-      "outletName": "Vox",
-      "abbreviation": "Vox",
-      "currentScore": 3,
-      "currentScoreGrok": 3,
-      "articleCount": 3,
-      "expectedRange": [
-        2.5,
-        4
-      ]
-    },
-    {
-      "outletId": "bloomberg",
-      "outletName": "Bloomberg",
-      "abbreviation": "BBG",
-      "currentScore": 3.5,
-      "currentScoreGrok": 3.5,
-      "articleCount": 1,
-      "expectedRange": [
-        4,
-        5.5
-      ]
-    },
-    {
-      "outletId": "ap",
-      "outletName": "Associated Press",
-      "abbreviation": "AP",
-      "currentScore": 3.92,
-      "currentScoreGrok": 4.08,
-      "articleCount": 6,
-      "expectedRange": [
-        4.5,
-        5.5
-      ]
-    },
-    {
-      "outletId": "cnn",
-      "outletName": "CNN",
-      "abbreviation": "CNN",
-      "currentScore": 4,
-      "currentScoreGrok": 4.75,
-      "articleCount": 2,
-      "expectedRange": [
-        2.5,
-        4
-      ]
-    },
-    {
-      "outletId": "aljazeera",
-      "outletName": "Al Jazeera",
-      "abbreviation": "AJ",
-      "currentScore": 4,
-      "currentScoreGrok": 4.33,
-      "articleCount": 3,
-      "expectedRange": [
-        3.5,
-        5
-      ]
-    },
-    {
-      "outletId": "bbc",
-      "outletName": "BBC",
-      "abbreviation": "BBC",
-      "currentScore": 4,
-      "currentScoreGrok": 4,
-      "articleCount": 2,
-      "expectedRange": [
-        4,
-        5.5
-      ]
-    },
-    {
       "outletId": "guardian",
       "outletName": "The Guardian",
       "abbreviation": "Guard",
-      "currentScore": 4.07,
-      "currentScoreGrok": 3.33,
-      "articleCount": 3,
-      "expectedRange": [
-        2.5,
-        4
-      ]
-    },
-    {
-      "outletId": "bostonglobe",
-      "outletName": "Boston Globe",
-      "abbreviation": "Globe",
-      "currentScore": 4.2,
-      "currentScoreGrok": 4.3,
+      "currentScore": 3.88,
+      "currentScoreGrok": 3.56,
       "articleCount": 5,
       "expectedRange": [
         2.5,
@@ -1914,87 +2368,183 @@
       ]
     },
     {
-      "outletId": "nbc",
-      "outletName": "NBC News",
-      "abbreviation": "NBC",
-      "currentScore": 4.25,
-      "currentScoreGrok": 4.88,
-      "articleCount": 4,
-      "expectedRange": [
-        3,
-        4.5
-      ]
-    },
-    {
-      "outletId": "npr",
-      "outletName": "NPR",
-      "abbreviation": "NPR",
-      "currentScore": 4.47,
-      "currentScoreGrok": 4.42,
-      "articleCount": 6,
-      "expectedRange": [
-        3.5,
-        4.5
-      ]
-    },
-    {
-      "outletId": "axios",
-      "outletName": "Axios",
-      "abbreviation": "Axios",
-      "currentScore": 4.5,
-      "currentScoreGrok": 6.25,
-      "articleCount": 2,
-      "expectedRange": [
-        5.5,
-        6.5
-      ]
-    },
-    {
-      "outletId": "nytimes",
-      "outletName": "NY Times",
-      "abbreviation": "NYT",
-      "currentScore": 4.5,
-      "currentScoreGrok": 4.75,
-      "articleCount": 2,
-      "expectedRange": [
-        3,
-        4.5
-      ]
-    },
-    {
       "outletId": "washpost",
       "outletName": "Washington Post",
       "abbreviation": "WPost",
-      "currentScore": 4.5,
-      "currentScoreGrok": 5.5,
-      "articleCount": 1,
+      "currentScore": 3.93,
+      "currentScoreGrok": 4.1,
+      "articleCount": 4,
       "expectedRange": [
         2.8,
         4.2
       ]
     },
     {
-      "outletId": "telegraph",
-      "outletName": "The Telegraph",
-      "abbreviation": "Tele",
-      "currentScore": 4.5,
-      "currentScoreGrok": 6.5,
-      "articleCount": 1,
-      "expectedRange": [
-        6,
-        7.5
-      ]
-    },
-    {
-      "outletId": "latimes",
-      "outletName": "LA Times",
-      "abbreviation": "LAT",
-      "currentScore": 4.5,
-      "currentScoreGrok": 5.5,
-      "articleCount": 1,
+      "outletId": "bostonglobe",
+      "outletName": "Boston Globe",
+      "abbreviation": "Globe",
+      "currentScore": 4,
+      "currentScoreGrok": 4.2,
+      "articleCount": 3,
       "expectedRange": [
         2.5,
         4
+      ]
+    },
+    {
+      "outletId": "nytimes",
+      "outletName": "NY Times",
+      "abbreviation": "NYT",
+      "currentScore": 4.1,
+      "currentScoreGrok": 4.32,
+      "articleCount": 5,
+      "expectedRange": [
+        3,
+        4.5
+      ]
+    },
+    {
+      "outletId": "dailycaller",
+      "outletName": "Daily Caller",
+      "abbreviation": "DC",
+      "currentScore": 4.1,
+      "currentScoreGrok": 6.17,
+      "articleCount": 3,
+      "expectedRange": [
+        7.5,
+        9
+      ]
+    },
+    {
+      "outletId": "metro",
+      "outletName": "Metro",
+      "abbreviation": "Metro",
+      "currentScore": 4.17,
+      "currentScoreGrok": 4.53,
+      "articleCount": 3,
+      "expectedRange": [
+        3,
+        5
+      ]
+    },
+    {
+      "outletId": "thehill",
+      "outletName": "The Hill",
+      "abbreviation": "Hill",
+      "currentScore": 4.21,
+      "currentScoreGrok": 5.5,
+      "articleCount": 7,
+      "expectedRange": [
+        5.5,
+        7
+      ]
+    },
+    {
+      "outletId": "abc",
+      "outletName": "ABC News",
+      "abbreviation": "ABC",
+      "currentScore": 4.25,
+      "currentScoreGrok": 3.7,
+      "articleCount": 2,
+      "expectedRange": [
+        3,
+        4.5
+      ]
+    },
+    {
+      "outletId": "bloomberg",
+      "outletName": "Bloomberg",
+      "abbreviation": "BBG",
+      "currentScore": 4.25,
+      "currentScoreGrok": 4.95,
+      "articleCount": 2,
+      "expectedRange": [
+        4,
+        5.5
+      ]
+    },
+    {
+      "outletId": "cnn",
+      "outletName": "CNN",
+      "abbreviation": "CNN",
+      "currentScore": 4.38,
+      "currentScoreGrok": 4.58,
+      "articleCount": 4,
+      "expectedRange": [
+        2.5,
+        4
+      ]
+    },
+    {
+      "outletId": "npr",
+      "outletName": "NPR",
+      "abbreviation": "NPR",
+      "currentScore": 4.5,
+      "currentScoreGrok": 4.51,
+      "articleCount": 7,
+      "expectedRange": [
+        3.5,
+        4.5
+      ]
+    },
+    {
+      "outletId": "aljazeera",
+      "outletName": "Al Jazeera",
+      "abbreviation": "AJ",
+      "currentScore": 4.5,
+      "currentScoreGrok": 4.2,
+      "articleCount": 3,
+      "expectedRange": [
+        3.5,
+        5
+      ]
+    },
+    {
+      "outletId": "nbc",
+      "outletName": "NBC News",
+      "abbreviation": "NBC",
+      "currentScore": 4.5,
+      "currentScoreGrok": 4.85,
+      "articleCount": 2,
+      "expectedRange": [
+        3,
+        4.5
+      ]
+    },
+    {
+      "outletId": "forbes",
+      "outletName": "Forbes",
+      "abbreviation": "Forbes",
+      "currentScore": 4.5,
+      "currentScoreGrok": 5.2,
+      "articleCount": 3,
+      "expectedRange": [
+        5,
+        6.5
+      ]
+    },
+    {
+      "outletId": "cbsnews",
+      "outletName": "CBS News",
+      "abbreviation": "CBS",
+      "currentScore": 4.5,
+      "currentScoreGrok": 4.8,
+      "articleCount": 1,
+      "expectedRange": [
+        3,
+        4.5
+      ]
+    },
+    {
+      "outletId": "dailymail",
+      "outletName": "Daily Mail",
+      "abbreviation": "DM",
+      "currentScore": 4.5,
+      "currentScoreGrok": 4.9,
+      "articleCount": 1,
+      "expectedRange": [
+        6.5,
+        8.5
       ]
     },
     {
@@ -2002,7 +2552,7 @@
       "outletName": "The Independent",
       "abbreviation": "Indep",
       "currentScore": 4.5,
-      "currentScoreGrok": 5.5,
+      "currentScoreGrok": 4.5,
       "articleCount": 1,
       "expectedRange": [
         3,
@@ -2014,7 +2564,7 @@
       "outletName": "Sky News",
       "abbreviation": "Sky",
       "currentScore": 4.5,
-      "currentScoreGrok": 6,
+      "currentScoreGrok": 4.8,
       "articleCount": 1,
       "expectedRange": [
         4,
@@ -2022,47 +2572,11 @@
       ]
     },
     {
-      "outletId": "cbsnews",
-      "outletName": "CBS News",
-      "abbreviation": "CBS",
-      "currentScore": 4.5,
-      "currentScoreGrok": 6.25,
-      "articleCount": 2,
-      "expectedRange": [
-        3,
-        4.5
-      ]
-    },
-    {
-      "outletId": "abc",
-      "outletName": "ABC News",
-      "abbreviation": "ABC",
-      "currentScore": 4.5,
-      "currentScoreGrok": 5.5,
-      "articleCount": 1,
-      "expectedRange": [
-        3,
-        4.5
-      ]
-    },
-    {
-      "outletId": "cnbc",
-      "outletName": "CNBC",
-      "abbreviation": "CNBC",
-      "currentScore": 4.5,
-      "currentScoreGrok": 5.5,
-      "articleCount": 1,
-      "expectedRange": [
-        4.5,
-        6
-      ]
-    },
-    {
       "outletId": "yahoofinance",
       "outletName": "Yahoo Finance",
       "abbreviation": "YFin",
       "currentScore": 4.5,
-      "currentScoreGrok": 5,
+      "currentScoreGrok": 4.9,
       "articleCount": 1,
       "expectedRange": [
         4.5,
@@ -2073,8 +2587,8 @@
       "outletId": "wsj",
       "outletName": "Wall Street Journal",
       "abbreviation": "WSJ",
-      "currentScore": 4.75,
-      "currentScoreGrok": 5.5,
+      "currentScore": 4.65,
+      "currentScoreGrok": 4.85,
       "articleCount": 2,
       "expectedRange": [
         5.5,
@@ -2082,23 +2596,71 @@
       ]
     },
     {
-      "outletId": "thehill",
-      "outletName": "The Hill",
-      "abbreviation": "Hill",
-      "currentScore": 5,
-      "currentScoreGrok": 5.5,
-      "articleCount": 5,
+      "outletId": "ap",
+      "outletName": "Associated Press",
+      "abbreviation": "AP",
+      "currentScore": 4.67,
+      "currentScoreGrok": 4.7,
+      "articleCount": 6,
+      "expectedRange": [
+        4.5,
+        5.5
+      ]
+    },
+    {
+      "outletId": "politico",
+      "outletName": "Politico",
+      "abbreviation": "PLTICO",
+      "currentScore": 4.68,
+      "currentScoreGrok": 4.78,
+      "articleCount": 4,
+      "expectedRange": [
+        4,
+        5.5
+      ]
+    },
+    {
+      "outletId": "bbc",
+      "outletName": "BBC",
+      "abbreviation": "BBC",
+      "currentScore": 4.83,
+      "currentScoreGrok": 4.33,
+      "articleCount": 3,
+      "expectedRange": [
+        4,
+        5.5
+      ]
+    },
+    {
+      "outletId": "timesofisrael",
+      "outletName": "Times of Israel",
+      "abbreviation": "TOI",
+      "currentScore": 4.83,
+      "currentScoreGrok": 4.77,
+      "articleCount": 3,
       "expectedRange": [
         5.5,
-        7
+        7.5
+      ]
+    },
+    {
+      "outletId": "axios",
+      "outletName": "Axios",
+      "abbreviation": "Axios",
+      "currentScore": 5.15,
+      "currentScoreGrok": 5.55,
+      "articleCount": 2,
+      "expectedRange": [
+        5.5,
+        6.5
       ]
     },
     {
       "outletId": "economist",
       "outletName": "The Economist",
       "abbreviation": "Econ",
-      "currentScore": 5,
-      "currentScoreGrok": 5.5,
+      "currentScore": 5.5,
+      "currentScoreGrok": 5.2,
       "articleCount": 1,
       "expectedRange": [
         4.5,
@@ -2106,48 +2668,12 @@
       ]
     },
     {
-      "outletId": "timesofisrael",
-      "outletName": "Times of Israel",
-      "abbreviation": "TOI",
-      "currentScore": 5,
-      "currentScoreGrok": 6.38,
-      "articleCount": 4,
-      "expectedRange": [
-        5.5,
-        7.5
-      ]
-    },
-    {
-      "outletId": "dailymail",
-      "outletName": "Daily Mail",
-      "abbreviation": "DM",
-      "currentScore": 5.5,
-      "currentScoreGrok": 7.5,
-      "articleCount": 1,
-      "expectedRange": [
-        6.5,
-        8.5
-      ]
-    },
-    {
-      "outletId": "dailycaller",
-      "outletName": "Daily Caller",
-      "abbreviation": "DC",
-      "currentScore": 6.63,
-      "currentScoreGrok": 8,
-      "articleCount": 4,
-      "expectedRange": [
-        7.5,
-        9
-      ]
-    },
-    {
       "outletId": "foxnews",
       "outletName": "Fox News",
       "abbreviation": "FOX",
-      "currentScore": 6.67,
-      "currentScoreGrok": 7,
-      "articleCount": 3,
+      "currentScore": 5.5,
+      "currentScoreGrok": 5.6,
+      "articleCount": 2,
       "expectedRange": [
         7,
         8.5
@@ -2157,9 +2683,33 @@
       "outletId": "washexaminer",
       "outletName": "Washington Examiner",
       "abbreviation": "WExam",
-      "currentScore": 6.67,
-      "currentScoreGrok": 7,
+      "currentScore": 5.78,
+      "currentScoreGrok": 6.13,
+      "articleCount": 4,
+      "expectedRange": [
+        7,
+        8.5
+      ]
+    },
+    {
+      "outletId": "nypost",
+      "outletName": "NY Post",
+      "abbreviation": "NYPost",
+      "currentScore": 6.6,
+      "currentScoreGrok": 6.73,
       "articleCount": 3,
+      "expectedRange": [
+        6.5,
+        8
+      ]
+    },
+    {
+      "outletId": "nationalreview",
+      "outletName": "National Review",
+      "abbreviation": "NR",
+      "currentScore": 6.65,
+      "currentScoreGrok": 7.85,
+      "articleCount": 2,
       "expectedRange": [
         7,
         8.5
@@ -2169,15 +2719,27 @@
       "outletId": "breitbart",
       "outletName": "Breitbart",
       "abbreviation": "BB",
-      "currentScore": 6.75,
-      "currentScoreGrok": 8.25,
-      "articleCount": 4,
+      "currentScore": 7.33,
+      "currentScoreGrok": 7.27,
+      "articleCount": 3,
       "expectedRange": [
         8.5,
         9.8
       ]
+    },
+    {
+      "outletId": "thefederalist",
+      "outletName": "The Federalist",
+      "abbreviation": "Fed",
+      "currentScore": 8,
+      "currentScoreGrok": 8.05,
+      "articleCount": 2,
+      "expectedRange": [
+        7.5,
+        9
+      ]
     }
   ],
-  "articleCount": 88,
-  "storyCount": 15
+  "articleCount": 110,
+  "storyCount": 27
 }
