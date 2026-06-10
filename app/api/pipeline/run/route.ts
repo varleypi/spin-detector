@@ -1,6 +1,14 @@
-import { NextResponse } from 'next/server'
+import { NextRequest, NextResponse } from 'next/server'
 
-export async function POST() {
+export async function POST(request: NextRequest) {
+  const secret = process.env.PIPELINE_TRIGGER_SECRET
+  if (secret) {
+    const provided = request.headers.get('x-trigger-secret')
+    if (provided !== secret) {
+      return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+    }
+  }
+
   const token = process.env.GITHUB_TOKEN
   const repo = process.env.GITHUB_REPO
 

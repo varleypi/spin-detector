@@ -17,15 +17,12 @@ jobs:
         with:
           node-version: '20'
           cache: 'npm'
-          cache-dependency-path: website/package-lock.json
 
       - name: Install dependencies
-        working-directory: website
         run: npm ci
 
       - name: Run bias pipeline
-        working-directory: website
-        run: node pipeline/run.js
+        run: npx tsx pipeline/run.ts
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}

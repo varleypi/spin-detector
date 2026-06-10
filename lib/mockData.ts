@@ -1,4 +1,5 @@
 import type { StoryCluster, OutletScore, TrendPoint } from './types'
+import { OUTLETS_CONFIG } from './outlets'
 
 function seededRandom(seed: number): number {
   const x = Math.sin(seed + 1) * 10000
@@ -7,9 +8,8 @@ function seededRandom(seed: number): number {
 
 function generateTrend(outletId: string, avgScore: number, variance: number): TrendPoint[] {
   const seed = outletId.split('').reduce((a, c) => a + c.charCodeAt(0), 0)
-  const baseDate = new Date('2026-05-14')
   return Array.from({ length: 30 }, (_, i) => {
-    const date = new Date(baseDate)
+    const date = new Date()
     date.setDate(date.getDate() - (29 - i))
     const rand = seededRandom(seed + i * 7)
     const score = Math.max(0.1, Math.min(9.9, avgScore + (rand - 0.5) * variance * 2))
@@ -17,35 +17,39 @@ function generateTrend(outletId: string, avgScore: number, variance: number): Tr
   })
 }
 
-export const OUTLETS: OutletScore[] = [
-  { outletId: 'msnbc', outletName: 'MSNBC', abbreviation: 'MSNBC', currentScore: 2.1, articleCount: 47, expectedRange: [1.5, 3.5] },
-  { outletId: 'cnn', outletName: 'CNN', abbreviation: 'CNN', currentScore: 3.1, articleCount: 52, expectedRange: [2.5, 4.0] },
-  { outletId: 'npr', outletName: 'NPR', abbreviation: 'NPR', currentScore: 3.8, articleCount: 38, expectedRange: [3.5, 4.5] },
-  { outletId: 'nytimes', outletName: 'NY Times', abbreviation: 'NYT', currentScore: 3.6, articleCount: 63, expectedRange: [3.0, 4.5] },
-  { outletId: 'washpost', outletName: 'Washington Post', abbreviation: 'WPost', currentScore: 3.5, articleCount: 58, expectedRange: [2.8, 4.2] },
-  { outletId: 'aljazeera', outletName: 'Al Jazeera', abbreviation: 'AJ', currentScore: 4.3, articleCount: 29, expectedRange: [3.5, 5.0] },
-  { outletId: 'bbc', outletName: 'BBC', abbreviation: 'BBC', currentScore: 4.8, articleCount: 44, expectedRange: [4.0, 5.5] },
-  { outletId: 'politico', outletName: 'Politico', abbreviation: 'PLTICO', currentScore: 5.1, articleCount: 71, expectedRange: [4.0, 5.5] },
-  { outletId: 'nypost', outletName: 'NY Post', abbreviation: 'NYPost', currentScore: 7.0, articleCount: 49, expectedRange: [6.5, 8.0] },
-  { outletId: 'foxnews', outletName: 'Fox News', abbreviation: 'FOX', currentScore: 7.8, articleCount: 68, expectedRange: [7.0, 8.5] },
-  { outletId: 'dailycaller', outletName: 'Daily Caller', abbreviation: 'DC', currentScore: 8.2, articleCount: 41, expectedRange: [7.5, 9.0] },
-  { outletId: 'breitbart', outletName: 'Breitbart', abbreviation: 'BB', currentScore: 9.1, articleCount: 55, expectedRange: [8.5, 9.8] },
-]
-
-export const OUTLET_TRENDS: Record<string, TrendPoint[]> = {
-  msnbc: generateTrend('msnbc', 2.1, 0.6),
-  cnn: generateTrend('cnn', 3.1, 0.5),
-  npr: generateTrend('npr', 3.8, 0.4),
-  nytimes: generateTrend('nytimes', 3.6, 0.5),
-  washpost: generateTrend('washpost', 3.5, 0.5),
-  aljazeera: generateTrend('aljazeera', 4.3, 0.6),
-  bbc: generateTrend('bbc', 4.8, 0.4),
-  politico: generateTrend('politico', 5.1, 0.6),
-  nypost: generateTrend('nypost', 7.0, 0.6),
-  foxnews: generateTrend('foxnews', 7.8, 0.5),
-  dailycaller: generateTrend('dailycaller', 8.2, 0.5),
-  breitbart: generateTrend('breitbart', 9.1, 0.4),
+const MOCK_SCORES: Record<string, { score: number; count: number; variance: number }> = {
+  msnbc:       { score: 2.1, count: 47, variance: 0.6 },
+  cnn:         { score: 3.1, count: 52, variance: 0.5 },
+  npr:         { score: 3.8, count: 38, variance: 0.4 },
+  nytimes:     { score: 3.6, count: 63, variance: 0.5 },
+  washpost:    { score: 3.5, count: 58, variance: 0.5 },
+  aljazeera:   { score: 4.3, count: 29, variance: 0.6 },
+  bbc:         { score: 4.8, count: 44, variance: 0.4 },
+  politico:    { score: 5.1, count: 71, variance: 0.6 },
+  nypost:      { score: 7.0, count: 49, variance: 0.6 },
+  foxnews:     { score: 7.8, count: 68, variance: 0.5 },
+  dailycaller: { score: 8.2, count: 41, variance: 0.5 },
+  breitbart:   { score: 9.1, count: 55, variance: 0.4 },
 }
+
+export const OUTLETS: OutletScore[] = OUTLETS_CONFIG.map(o => {
+  const m = MOCK_SCORES[o.id] ?? { score: 5, count: 0, variance: 0.5 }
+  return {
+    outletId: o.id,
+    outletName: o.name,
+    abbreviation: o.abbreviation,
+    currentScore: m.score,
+    articleCount: m.count,
+    expectedRange: o.expectedRange,
+  }
+})
+
+export const OUTLET_TRENDS: Record<string, TrendPoint[]> = Object.fromEntries(
+  OUTLETS_CONFIG.map(o => {
+    const m = MOCK_SCORES[o.id] ?? { score: 5, count: 0, variance: 0.5 }
+    return [o.id, generateTrend(o.id, m.score, m.variance)]
+  })
+)
 
 export const MOCK_STORIES: StoryCluster[] = [
   {

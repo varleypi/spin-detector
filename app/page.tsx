@@ -1,26 +1,18 @@
 import SpinDetectorApp from '@/components/SpinDetectorApp'
 import { MOCK_STORIES, OUTLETS } from '@/lib/mockData'
+import { isLiveMode, getStoriesForDate, getOutletScores, getPipelineStatus } from '@/lib/db'
 import type { PipelineStatus } from '@/lib/types'
 
 async function fetchData() {
-  if (process.env.SUPABASE_URL && process.env.SUPABASE_SERVICE_KEY) {
+  if (isLiveMode()) {
     try {
-      const baseUrl = process.env.NEXT_PUBLIC_BASE_URL ?? 'http://localhost:3000'
-      const [storiesRes, outletsRes, statusRes] = await Promise.all([
-        fetch(`${baseUrl}/api/stories/today`, { next: { revalidate: 3600 } }),
-        fetch(`${baseUrl}/api/outlets/scores`, { next: { revalidate: 3600 } }),
-        fetch(`${baseUrl}/api/pipeline/status`, { next: { revalidate: 60 } }),
+      const today = new Date().toISOString().split('T')[0]
+      const [stories, outlets, status] = await Promise.all([
+        getStoriesForDate(today),
+        getOutletScores(),
+        getPipelineStatus(),
       ])
-      const [storiesData, outletsData, statusData] = await Promise.all([
-        storiesRes.json(),
-        outletsRes.json(),
-        statusRes.json(),
-      ])
-      return {
-        stories: storiesData.stories,
-        outlets: outletsData.outlets,
-        status: statusData as PipelineStatus,
-      }
+      return { stories, outlets, status }
     } catch {
       // Fall through to mock data
     }
@@ -35,7 +27,7 @@ async function fetchData() {
       storyCount: MOCK_STORIES.length,
       status: 'never' as const,
       dataSource: 'demo' as const,
-    },
+    } satisfies PipelineStatus,
   }
 }
 

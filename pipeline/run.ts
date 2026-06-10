@@ -1,44 +1,23 @@
 /**
  * Spin Detector — Nightly Pipeline
- * Run: node pipeline/run.js
+ * Run: npx tsx pipeline/run.ts
  * Scheduled via GitHub Actions at 6:00 AM EST daily
  */
 
-require('dotenv').config({ path: '.env.local' })
-const { createClient } = require('@supabase/supabase-js')
+import { config } from 'dotenv'
+config({ path: '.env.local' })
 
-const OUTLET_NAMES = {
-  cnn: 'CNN',
-  msnbc: 'MSNBC',
-  nytimes: 'NY Times',
-  washpost: 'Washington Post',
-  npr: 'NPR',
-  politico: 'Politico',
-  bbc: 'BBC',
-  aljazeera: 'Al Jazeera',
-  foxnews: 'Fox News',
-  nypost: 'NY Post',
-  dailycaller: 'Daily Caller',
-  breitbart: 'Breitbart',
-}
+import { createClient } from '@supabase/supabase-js'
+import { fetchAllFeeds } from '../lib/rss'
+import { clusterAndScoreHeadlines } from '../lib/claude'
+import { OUTLET_BY_ID } from '../lib/outlets'
 
-const OUTLET_ABBREVIATIONS = {
-  cnn: 'CNN', msnbc: 'MSNBC', nytimes: 'NYT', washpost: 'WPost',
-  npr: 'NPR', politico: 'PLTICO', bbc: 'BBC', aljazeera: 'AJ',
-  foxnews: 'FOX', nypost: 'NYPost', dailycaller: 'DC', breitbart: 'BB',
-}
-
-const EXPECTED_RANGES = {
-  cnn: [2.5, 4.0], msnbc: [1.5, 3.5], nytimes: [3.0, 4.5], washpost: [2.8, 4.2],
-  npr: [3.5, 4.5], politico: [4.0, 5.5], bbc: [4.0, 5.5], aljazeera: [3.5, 5.0],
-  foxnews: [7.0, 8.5], nypost: [6.5, 8.0], dailycaller: [7.5, 9.0], breitbart: [8.5, 9.8],
-}
+type SupabaseClient = ReturnType<typeof createClient>
 
 async function main() {
   console.log('🚀 Spin Detector Pipeline starting...')
   const startTime = Date.now()
 
-  // Validate environment
   const requiredEnv = ['ANTHROPIC_API_KEY', 'SUPABASE_URL', 'SUPABASE_SERVICE_KEY']
   for (const key of requiredEnv) {
     if (!process.env[key]) {
@@ -47,52 +26,54 @@ async function main() {
     }
   }
 
-  const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_SERVICE_KEY)
+  const supabase = createClient(process.env.SUPABASE_URL!, process.env.SUPABASE_SERVICE_KEY!)
   const today = new Date().toISOString().split('T')[0]
 
   // ── Stage 1: Fetch RSS feeds ──────────────────────────────────────────────
   console.log('\n📡 Stage 1: Fetching RSS feeds...')
-  const { fetchAllFeeds } = require('../lib/rss.ts') // transpile separately or use ts-node
   let allArticles
   try {
     allArticles = await fetchAllFeeds()
-    console.log(`   ✓ Fetched ${allArticles.length} articles from ${Object.keys(OUTLET_NAMES).length} outlets`)
+    console.log(`   ✓ Fetched ${allArticles.length} articles`)
   } catch (err) {
-    console.error('   ✗ RSS fetch failed:', err.message)
-    await logPipelineRun(supabase, { status: 'error', error: err.message, articleCount: 0, storyCount: 0 })
+    const msg = (err as Error).message
+    console.error('   ✗ RSS fetch failed:', msg)
+    await logPipelineRun(supabase, { status: 'error', error: msg, articleCount: 0, storyCount: 0 })
     process.exit(1)
   }
 
   // ── Stage 2 & 3: Cluster + Score via Claude ───────────────────────────────
   console.log('\n🤖 Stage 2-3: Clustering and scoring with Claude...')
-  const { clusterAndScoreHeadlines } = require('../lib/claude.ts')
   let scoredArticles
   try {
     scoredArticles = await clusterAndScoreHeadlines(allArticles)
     console.log(`   ✓ Scored ${scoredArticles.length} articles across clusters`)
   } catch (err) {
-    console.error('   ✗ Claude scoring failed:', err.message)
-    await logPipelineRun(supabase, { status: 'error', error: err.message, articleCount: allArticles.length, storyCount: 0 })
+    const msg = (err as Error).message
+    console.error('   ✗ Claude scoring failed:', msg)
+    await logPipelineRun(supabase, { status: 'error', error: msg, articleCount: allArticles.length, storyCount: 0 })
     process.exit(1)
   }
 
   // ── Stage 4: Store results ────────────────────────────────────────────────
   console.log('\n💾 Stage 4: Writing to database...')
 
-  // Upsert articles
-  const articleRows = scoredArticles.map(a => ({
-    date: today,
-    outlet_id: a.outletId,
-    outlet_name: OUTLET_NAMES[a.outletId] ?? a.outletId,
-    abbreviation: OUTLET_ABBREVIATIONS[a.outletId] ?? a.outletId.toUpperCase(),
-    topic: a.topicLabel,
-    headline: a.headline,
-    url: a.url,
-    pub_date: a.pubDate,
-    bias_score: a.biasScore,
-    bias_signals: a.biasSignals,
-    cluster_id: a.clusterId,
-  }))
+  const articleRows = scoredArticles.map(a => {
+    const cfg = OUTLET_BY_ID[a.outletId]
+    return {
+      date: today,
+      outlet_id: a.outletId,
+      outlet_name: cfg?.name ?? a.outletId,
+      abbreviation: cfg?.abbreviation ?? a.outletId.toUpperCase(),
+      topic: a.topicLabel,
+      headline: a.headline,
+      url: a.url,
+      pub_date: a.pubDate,
+      bias_score: a.biasScore,
+      bias_signals: a.biasSignals,
+      cluster_id: a.clusterId,
+    }
+  })
 
   const { error: articleError } = await supabase.from('articles').upsert(articleRows)
   if (articleError) {
@@ -101,9 +82,11 @@ async function main() {
   }
   console.log(`   ✓ Stored ${articleRows.length} articles`)
 
-  // Upsert story clusters
   const clusters = [...new Map(
-    scoredArticles.map(a => [a.clusterId, { cluster_id: a.clusterId, topic_label: a.topicLabel, date: today, outlet_ids: [] }])
+    scoredArticles.map(a => [
+      a.clusterId,
+      { cluster_id: a.clusterId, topic_label: a.topicLabel, date: today, outlet_ids: [] as string[] },
+    ])
   ).values()]
 
   for (const cluster of clusters) {
@@ -122,25 +105,26 @@ async function main() {
   // ── Stage 5: Aggregate outlet daily scores ────────────────────────────────
   console.log('\n📊 Stage 5: Aggregating outlet scores...')
 
-  const outletGroups = {}
+  const outletGroups: Record<string, number[]> = {}
   for (const article of scoredArticles) {
     if (!outletGroups[article.outletId]) outletGroups[article.outletId] = []
     outletGroups[article.outletId].push(article.biasScore)
   }
 
   const outletScoreRows = Object.entries(outletGroups).map(([outletId, scores]) => {
+    const cfg = OUTLET_BY_ID[outletId]
     const avg = scores.reduce((a, b) => a + b, 0) / scores.length
     const variance = scores.reduce((a, b) => a + Math.pow(b - avg, 2), 0) / scores.length
     const stdDev = Math.sqrt(variance)
     return {
       date: today,
       outlet_id: outletId,
-      outlet_name: OUTLET_NAMES[outletId] ?? outletId,
-      abbreviation: OUTLET_ABBREVIATIONS[outletId] ?? outletId.toUpperCase(),
+      outlet_name: cfg?.name ?? outletId,
+      abbreviation: cfg?.abbreviation ?? outletId.toUpperCase(),
       avg_score: Math.round(avg * 100) / 100,
       article_count: scores.length,
       std_deviation: Math.round(stdDev * 100) / 100,
-      expected_range: EXPECTED_RANGES[outletId] ?? [0, 10],
+      expected_range: cfg?.expectedRange ?? [0, 10],
     }
   })
 
@@ -165,7 +149,12 @@ async function main() {
   console.log(`\n✅ Pipeline complete in ${elapsed}s`)
 }
 
-async function logPipelineRun(supabase, { status, error, articleCount, storyCount, elapsed }) {
+async function logPipelineRun(
+  supabase: SupabaseClient,
+  { status, error, articleCount, storyCount, elapsed }: {
+    status: string; error?: string; articleCount?: number; storyCount?: number; elapsed?: string
+  }
+) {
   await supabase.from('pipeline_runs').insert({
     status,
     error_message: error ?? null,

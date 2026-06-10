@@ -21,7 +21,7 @@ export async function clusterAndScoreHeadlines(articles: RawArticle[]): Promise<
 
   const clusterResponse = await client.messages.create({
     model: 'claude-sonnet-4-6',
-    max_tokens: 4096,
+    max_tokens: 8192,
     system: 'You are a computational linguistics researcher analyzing political media bias. Always respond with valid JSON only.',
     messages: [
       {

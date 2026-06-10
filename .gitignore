@@ -20,6 +20,9 @@ Thumbs.db
 # Build output
 dist/
 
+# TypeScript incremental build info
+tsconfig.tsbuildinfo
+
 # Unpacked docx temp files
 unpacked/
 unpacked2/
