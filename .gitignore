@@ -24,3 +24,4 @@ dist/
 unpacked/
 unpacked2/
 *.zip
+tsconfig.tsbuildinfo
