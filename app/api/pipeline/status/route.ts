@@ -9,15 +9,15 @@ export async function GET() {
       const status = await getPipelineStatus()
       return NextResponse.json(status)
     } catch (error) {
-      const message = error instanceof Error ? error.message : String(error)
-      console.error('DB error:', message)
+      // Log full detail server-side only — raw DB errors can reveal schema/internal info
+      console.error('DB error:', error instanceof Error ? error.message : String(error))
       return NextResponse.json({
         lastRun: null,
         articleCount: 0,
         storyCount: 0,
         status: 'error',
         dataSource: 'live',
-        error: message,
+        error: 'Database query failed',
       })
     }
   }

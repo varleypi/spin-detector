@@ -32,6 +32,17 @@ function getBiasLabel(score: number): string {
   return 'Far Right'
 }
 
+// Article URLs come from external RSS feeds — only allow http/https through
+function safeUrl(url: string): string {
+  try {
+    const parsed = new URL(url)
+    if (parsed.protocol === 'http:' || parsed.protocol === 'https:') return url
+  } catch {
+    // fall through
+  }
+  return '#'
+}
+
 // Display score as -5 to +5 (DB stores 0-10)
 function fmt(score: number): string {
   const d = Math.round((score - 5) * 10) / 10
@@ -271,11 +282,11 @@ function StoryCard({ cluster }: { cluster: StoryCluster }) {
       <div className="divide-y divide-slate-800/60">
         {sorted.map((article) => (
           <div key={article.id} className="px-4 py-3">
-            <div className="flex items-start gap-3">
+            <div className="flex flex-wrap items-start gap-3">
               <OutletBadge outlet={article.outletName} score={article.biasScore} />
               <div className="flex-1 min-w-0">
                 <a
-                  href={article.url}
+                  href={safeUrl(article.url)}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm text-slate-200 hover:text-white transition-colors leading-snug block"
@@ -303,7 +314,8 @@ function StoryCard({ cluster }: { cluster: StoryCluster }) {
                   </ul>
                 )}
               </div>
-              <div className="flex flex-col items-end gap-1 flex-shrink-0">
+              {/* Mobile: full-width row under the headline · Desktop: right-hand column */}
+              <div className="flex w-full sm:w-auto flex-row sm:flex-col items-center sm:items-end gap-4 sm:gap-1 flex-shrink-0 pl-0 sm:pl-2">
                 <div className="flex items-center gap-1">
                   <span className="text-[9px] font-bold text-indigo-500 uppercase tracking-wider w-7 text-right">C</span>
                   <BiasBar score={article.biasScore} compact />
@@ -370,46 +382,50 @@ function BiasBoardView({ outlets, hasGrokData }: { outlets: OutletScore[]; hasGr
         <h3 className="text-xs font-semibold uppercase tracking-widest text-slate-500 mb-4">
           Political Spectrum Placement
         </h3>
-        <div className="relative">
-          <div
-            className="h-3 rounded-full w-full"
-            style={{ background: 'linear-gradient(to right, #1d4ed8, #6366f1, #8b5cf6, #a855f7, #f59e0b, #ef4444, #991b1b)' }}
-          />
-          {/* Labels */}
-          <div className="flex justify-between text-[10px] text-slate-500 mt-1 px-1">
-            <span>Far Left (−5)</span>
-            <span>Left (−3/−2)</span>
-            <span>Center (0)</span>
-            <span>Right (+2/+3)</span>
-            <span>Far Right (+5)</span>
-          </div>
-          {/* Outlet dots */}
-          <div className="relative mt-3 h-8">
-            {sorted.map((outlet, i) => {
-              const pct = (outlet.currentScore / 10) * 100
-              const row = i % 2
-              return (
-                <div
-                  key={outlet.outletId}
-                  className="absolute flex flex-col items-center group"
-                  style={{ left: `${pct}%`, transform: 'translateX(-50%)', top: row === 0 ? 0 : 16 }}
-                >
+        {/* Scrollable on mobile so 55 outlet chips don't pile on top of each other */}
+        <div className="overflow-x-auto">
+          <div className="relative min-w-[720px]">
+            <div
+              className="h-3 rounded-full w-full"
+              style={{ background: 'linear-gradient(to right, #1d4ed8, #6366f1, #8b5cf6, #a855f7, #f59e0b, #ef4444, #991b1b)' }}
+            />
+            {/* Labels */}
+            <div className="flex justify-between text-[10px] text-slate-500 mt-1 px-1">
+              <span>Far Left (−5)</span>
+              <span>Left (−3/−2)</span>
+              <span>Center (0)</span>
+              <span>Right (+2/+3)</span>
+              <span>Far Right (+5)</span>
+            </div>
+            {/* Outlet chips — staggered over 4 rows to reduce collisions */}
+            <div className="relative mt-3 h-[72px]">
+              {sorted.map((outlet, i) => {
+                const pct = (outlet.currentScore / 10) * 100
+                const row = i % 4
+                return (
                   <div
-                    className="text-[9px] font-bold px-1 py-0.5 rounded whitespace-nowrap"
-                    style={{
-                      color: getBiasColor(outlet.currentScore),
-                      backgroundColor: `${getBiasColor(outlet.currentScore)}20`,
-                      border: `1px solid ${getBiasColor(outlet.currentScore)}40`,
-                    }}
-                    title={`${outlet.outletName} · ${fmt(outlet.currentScore)} · ${OUTLET_META[outlet.outletId]?.readerLabel ?? '?'} daily ${OUTLET_META[outlet.outletId]?.readerType === 'tv' ? 'viewers' : 'readers'}`}
+                    key={outlet.outletId}
+                    className="absolute flex flex-col items-center group"
+                    style={{ left: `${pct}%`, transform: 'translateX(-50%)', top: row * 18 }}
                   >
-                    {outlet.abbreviation}
+                    <div
+                      className="text-[9px] font-bold px-1 py-0.5 rounded whitespace-nowrap"
+                      style={{
+                        color: getBiasColor(outlet.currentScore),
+                        backgroundColor: `${getBiasColor(outlet.currentScore)}20`,
+                        border: `1px solid ${getBiasColor(outlet.currentScore)}40`,
+                      }}
+                      title={`${outlet.outletName} · ${fmt(outlet.currentScore)} · ${OUTLET_META[outlet.outletId]?.readerLabel ?? '?'} daily ${OUTLET_META[outlet.outletId]?.readerType === 'tv' ? 'viewers' : 'readers'}`}
+                    >
+                      {outlet.abbreviation}
+                    </div>
                   </div>
-                </div>
-              )
-            })}
+                )
+              })}
+            </div>
           </div>
         </div>
+        <p className="sm:hidden text-[10px] text-slate-600 mt-2">← Swipe to explore the full spectrum →</p>
       </div>
 
       {/* Sorted table */}
@@ -1190,24 +1206,24 @@ export default function SpinDetectorApp({ initialStories, initialOutlets, initia
           />
           <div className="flex justify-between text-[10px] text-slate-600 mt-1">
             <span>← Far Left</span>
-            <span>Left</span>
-            <span>Lean Left</span>
+            <span className="hidden sm:inline">Left</span>
+            <span className="hidden sm:inline">Lean Left</span>
             <span>Center</span>
-            <span>Lean Right</span>
-            <span>Right</span>
+            <span className="hidden sm:inline">Lean Right</span>
+            <span className="hidden sm:inline">Right</span>
             <span>Far Right →</span>
           </div>
         </div>
       </div>
 
-      {/* Tab navigation */}
-      <div className="max-w-5xl mx-auto px-4">
-        <div className="flex gap-1 bg-slate-900/50 p-1 rounded-xl border border-slate-800 w-fit">
+      {/* Tab navigation — horizontally scrollable on narrow screens */}
+      <div className="max-w-5xl mx-auto px-4 overflow-x-auto scrollbar-none">
+        <div className="flex gap-1 bg-slate-900/50 p-1 rounded-xl border border-slate-800 w-fit whitespace-nowrap">
           {tabs.map((tab) => (
             <button
               key={tab.id}
               onClick={() => setActiveTab(tab.id)}
-              className={`flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+              className={`flex items-center gap-1.5 sm:gap-2 px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-semibold transition-all flex-shrink-0 ${
                 activeTab === tab.id
                   ? 'bg-slate-800 text-slate-100 shadow-sm'
                   : 'text-slate-500 hover:text-slate-300'
