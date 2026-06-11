@@ -632,7 +632,7 @@ interface TrendData {
 
 function TrendsView({ outlets }: { outlets: OutletScore[] }) {
   const [selectedOutlets, setSelectedOutlets] = useState<Set<string>>(
-    new Set(['msnbc', 'cnn', 'bbc', 'foxnews', 'breitbart'])
+    new Set(['cbsnews', 'usatoday', 'nypost', 'yahoofinance', 'latimes', 'bbc'])
   )
   const [expandedGroups, setExpandedGroups] = useState<Set<string>>(new Set())
   const [trendData, setTrendData] = useState<TrendData>({})
