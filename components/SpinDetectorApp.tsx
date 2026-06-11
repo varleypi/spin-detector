@@ -127,6 +127,34 @@ function getOutletLineColor(outletId: string): string {
   return colors[outletId] ?? '#94a3b8'
 }
 
+// Outlet groupings for the Trends selector — keeps 55 buttons manageable
+const OUTLET_GROUPS: { label: string; ids: string[] }[] = [
+  {
+    label: 'Lean Left',
+    ids: ['msnbc', 'cnn', 'nytimes', 'washpost', 'npr', 'guardian', 'huffpost', 'vox', 'theatlantic', 'abc', 'nbc', 'cbsnews'],
+  },
+  {
+    label: 'Center',
+    ids: ['ap', 'reuters', 'politico', 'thehill', 'axios', 'newsweek', 'usatoday', 'economist', 'thefreepress', 'reason'],
+  },
+  {
+    label: 'Lean Right',
+    ids: ['foxnews', 'nypost', 'dailycaller', 'breitbart', 'washexaminer', 'nationalreview', 'thefederalist'],
+  },
+  {
+    label: 'Financial & Business',
+    ids: ['wsj', 'cnbc', 'forbes', 'bloomberg', 'yahoofinance', 'marketwatch', 'businessinsider', 'financialtimes'],
+  },
+  {
+    label: 'US Regional',
+    ids: ['latimes', 'bostonglobe', 'chicagotribune', 'startribune', 'charlotteobserver', 'houstonchronicle', 'miamiherald', 'tampabaytimes'],
+  },
+  {
+    label: 'International',
+    ids: ['bbc', 'aljazeera', 'dailymail', 'metro', 'telegraph', 'skynews', 'timeslondon', 'independent', 'cbc', 'timesofisrael'],
+  },
+]
+
 // ─── Outlet Ticker ────────────────────────────────────────────────────────────
 
 function OutletTicker({ outlets }: { outlets: OutletScore[] }) {
@@ -606,6 +634,7 @@ function TrendsView({ outlets }: { outlets: OutletScore[] }) {
   const [selectedOutlets, setSelectedOutlets] = useState<Set<string>>(
     new Set(['msnbc', 'cnn', 'bbc', 'foxnews', 'breitbart'])
   )
+  const [expandedGroups, setExpandedGroups] = useState<Set<string>>(new Set())
   const [trendData, setTrendData] = useState<TrendData>({})
   const [loading, setLoading] = useState(false)
 
@@ -640,6 +669,36 @@ function TrendsView({ outlets }: { outlets: OutletScore[] }) {
     })
   }
 
+  const toggleGroup = (label: string) => {
+    setExpandedGroups((prev) => {
+      const next = new Set(prev)
+      if (next.has(label)) next.delete(label)
+      else next.add(label)
+      return next
+    })
+  }
+
+  const setGroupSelection = (ids: string[], selected: boolean) => {
+    setSelectedOutlets((prev) => {
+      const next = new Set(prev)
+      for (const id of ids) {
+        if (selected) next.add(id)
+        else next.delete(id)
+      }
+      return next
+    })
+  }
+
+  // Build display groups from outlets actually present; catch-all for any
+  // outlet not yet assigned to a group so nothing silently disappears
+  const outletById = new Map(outlets.map((o) => [o.outletId, o]))
+  const grouped = OUTLET_GROUPS
+    .map((g) => ({ label: g.label, members: g.ids.map((id) => outletById.get(id)).filter((o): o is OutletScore => !!o) }))
+    .filter((g) => g.members.length > 0)
+  const assignedIds = new Set(OUTLET_GROUPS.flatMap((g) => g.ids))
+  const ungrouped = outlets.filter((o) => !assignedIds.has(o.outletId))
+  if (ungrouped.length > 0) grouped.push({ label: 'Other', members: ungrouped })
+
   // Merge all trend data into chart format
   const allDates = Object.values(trendData)[0]?.map((p) => p.date) ?? []
   const chartData = allDates.map((date) => {
@@ -655,28 +714,84 @@ function TrendsView({ outlets }: { outlets: OutletScore[] }) {
 
   return (
     <div className="space-y-4">
-      {/* Outlet selector */}
-      <div className="bg-slate-900 border border-slate-800 rounded-xl p-4">
-        <div className="text-xs font-semibold uppercase tracking-widest text-slate-500 mb-3">
-          Select Outlets to Compare
-        </div>
-        <div className="flex flex-wrap gap-2">
-          {outlets.map((outlet) => {
-            const active = selectedOutlets.has(outlet.outletId)
-            const color = getOutletLineColor(outlet.outletId)
-            return (
+      {/* Outlet selector — grouped, collapsible */}
+      <div className="bg-slate-900 border border-slate-800 rounded-xl overflow-hidden">
+        <div className="px-4 py-3 flex items-center justify-between">
+          <div className="text-xs font-semibold uppercase tracking-widest text-slate-500">
+            Select Outlets to Compare
+          </div>
+          <div className="text-[11px] text-slate-500">
+            {selectedOutlets.size} selected
+            {selectedOutlets.size > 0 && (
               <button
-                key={outlet.outletId}
-                onClick={() => toggleOutlet(outlet.outletId)}
-                className="px-3 py-1.5 rounded-lg text-xs font-semibold transition-all border"
-                style={
-                  active
-                    ? { backgroundColor: `${color}25`, borderColor: color, color }
-                    : { backgroundColor: 'transparent', borderColor: '#334155', color: '#64748b' }
-                }
+                onClick={() => setSelectedOutlets(new Set())}
+                className="ml-2 text-slate-600 hover:text-slate-300 underline transition-colors"
               >
-                {outlet.outletName}
+                clear
               </button>
+            )}
+          </div>
+        </div>
+        <div className="divide-y divide-slate-800/60 border-t border-slate-800">
+          {grouped.map((group) => {
+            const expanded = expandedGroups.has(group.label)
+            const selectedInGroup = group.members.filter((o) => selectedOutlets.has(o.outletId)).length
+            return (
+              <div key={group.label}>
+                <button
+                  onClick={() => toggleGroup(group.label)}
+                  className="w-full flex items-center justify-between px-4 py-2.5 hover:bg-slate-800/30 transition-colors text-left"
+                >
+                  <span className="flex items-center gap-2">
+                    <span className={`text-slate-500 text-xs transition-transform ${expanded ? 'rotate-90' : ''}`}>▶</span>
+                    <span className="text-sm font-semibold text-slate-300">{group.label}</span>
+                    <span className="text-[11px] text-slate-600">({group.members.length})</span>
+                  </span>
+                  {selectedInGroup > 0 && (
+                    <span className="text-[10px] font-bold px-1.5 py-0.5 rounded bg-sky-500/15 text-sky-400 border border-sky-500/30">
+                      {selectedInGroup} selected
+                    </span>
+                  )}
+                </button>
+                {expanded && (
+                  <div className="px-4 pb-3">
+                    <div className="flex gap-3 mb-2 text-[11px]">
+                      <button
+                        onClick={() => setGroupSelection(group.members.map((o) => o.outletId), true)}
+                        className="text-slate-500 hover:text-slate-300 underline transition-colors"
+                      >
+                        Select all
+                      </button>
+                      <button
+                        onClick={() => setGroupSelection(group.members.map((o) => o.outletId), false)}
+                        className="text-slate-500 hover:text-slate-300 underline transition-colors"
+                      >
+                        Clear
+                      </button>
+                    </div>
+                    <div className="flex flex-wrap gap-2">
+                      {group.members.map((outlet) => {
+                        const active = selectedOutlets.has(outlet.outletId)
+                        const color = getOutletLineColor(outlet.outletId)
+                        return (
+                          <button
+                            key={outlet.outletId}
+                            onClick={() => toggleOutlet(outlet.outletId)}
+                            className="px-3 py-1.5 rounded-lg text-xs font-semibold transition-all border"
+                            style={
+                              active
+                                ? { backgroundColor: `${color}25`, borderColor: color, color }
+                                : { backgroundColor: 'transparent', borderColor: '#334155', color: '#64748b' }
+                            }
+                          >
+                            {outlet.outletName}
+                          </button>
+                        )
+                      })}
+                    </div>
+                  </div>
+                )}
+              </div>
             )
           })}
         </div>
