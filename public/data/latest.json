@@ -1,397 +1,680 @@
 {
   "date": "2026-06-13",
-  "generatedAt": "2026-06-13T11:57:44.965Z",
+  "generatedAt": "2026-06-13T16:12:05.757Z",
   "stories": [
     {
-      "id": "iran-nuclear-deal",
-      "topicLabel": "US-Iran nuclear deal negotiations near agreement",
+      "id": "us-iran-deal",
+      "topicLabel": "US-Iran peace deal negotiations progress",
       "date": "2026-06-13",
       "articles": [
         {
-          "id": "axios-iran-nuclear-deal-8",
+          "id": "msnbc-us-iran-deal-0",
+          "outletId": "msnbc",
+          "outletName": "MSNBC",
+          "headline": "Live updates: Trump says U.S.-Iran deal is close as details of possible agreement emerge",
+          "url": "https://www.ms.now/liveblog/iran-news-trump-israel-war-june-12-2026",
+          "biasScore": 3.5,
+          "biasSignals": [
+            "neutral framing but 'deal is close' optimism",
+            "no critical sourcing of Trump administration claims"
+          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "2026-06-12T13:07:10Z",
+          "clusterId": "us-iran-deal"
+        },
+        {
+          "id": "axios-us-iran-deal-13",
           "outletId": "axios",
           "outletName": "Axios",
           "headline": "Trump's pending Iran deal is bitter pill for Netanyahu",
           "url": "https://www.axios.com/2026/06/12/netanyahu-trump-iran-deal-israel-lebanon",
-          "biasScore": 4.3,
+          "biasScore": 3.5,
           "biasSignals": [
-            "'bitter pill for Netanyahu' neutral diplomatic framing",
-            "focuses on geopolitical complexity without partisan slant"
+            "'bitter pill for Netanyahu' sympathizes with Israeli concern",
+            "frames deal through lens of Israeli opposition"
           ],
-          "biasScoreGrok": 4.2,
-          "biasSignalsGrok": [
-            "bitter pill metaphor",
-            "Netanyahu sympathy lean"
-          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
           "pubDate": "Fri, 12 Jun 2026 22:00:06 +0000",
-          "clusterId": "iran-nuclear-deal"
+          "clusterId": "us-iran-deal"
         },
         {
-          "id": "npr-iran-nuclear-deal-1",
+          "id": "aljazeera-us-iran-deal-5",
+          "outletId": "aljazeera",
+          "outletName": "Al Jazeera",
+          "headline": "‘Lots of things can still go wrong’ with US-Iran deal to end the war",
+          "url": "https://www.aljazeera.com/video/quotable/2026/6/13/lots-of-things-can-still-go-wrong-with-us-iran-deal-to-end-the-war?traffic_source=rss",
+          "biasScore": 4,
+          "biasSignals": [
+            "skeptical framing with 'lots can go wrong'",
+            "balanced caution without partisan lean"
+          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "Sat, 13 Jun 2026 12:43:08 +0000",
+          "clusterId": "us-iran-deal"
+        },
+        {
+          "id": "huffpost-us-iran-deal-22",
+          "outletId": "huffpost",
+          "outletName": "HuffPost",
+          "headline": "U.S.-Iran Peace Memorandum Could Be Signed On Sunday In Geneva: Reuters",
+          "url": "https://www.huffpost.com/entry/us-iran-peace-memorandum_n_6a2be231e4b0942fb77764ba",
+          "biasScore": 4,
+          "biasSignals": [
+            "neutral Reuters citation",
+            "factual 'could be signed' language"
+          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "2026-06-12T10:50:16Z",
+          "clusterId": "us-iran-deal"
+        },
+        {
+          "id": "aljazeera-us-iran-deal-3",
+          "outletId": "aljazeera",
+          "outletName": "Al Jazeera",
+          "headline": "As Iran and US near a deal, Tehran remembers another recent bloody conflict",
+          "url": "https://www.aljazeera.com/news/2026/6/13/as-iran-and-us-near-a-peace-deal-tehran-remembers-another-bloody-conflict?traffic_source=rss",
+          "biasScore": 4.2,
+          "biasSignals": [
+            "historical context framing adds complexity",
+            "neutral 'near a deal' language used"
+          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "Sat, 13 Jun 2026 15:43:27 +0000",
+          "clusterId": "us-iran-deal"
+        },
+        {
+          "id": "theatlantic-us-iran-deal-23",
+          "outletId": "theatlantic",
+          "outletName": "The Atlantic",
+          "headline": "The U.S. and Iran Might Actually Have a Deal",
+          "url": "https://www.theatlantic.com/national-security/2026/06/us-iran-war-deal-trump/687543/?utm_source=feed",
+          "biasScore": 4.2,
+          "biasSignals": [
+            "neutral 'might actually have a deal' framing",
+            "mild surprise tone but balanced"
+          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "Fri, 12 Jun 2026 19:10:31 -0400",
+          "clusterId": "us-iran-deal"
+        },
+        {
+          "id": "aljazeera-us-iran-deal-4",
+          "outletId": "aljazeera",
+          "outletName": "Al Jazeera",
+          "headline": "Iranians divided on peace prospects after US-Iran say a deal is near",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/6/13/iranians-divided-on-peace-prospects-after-us-iran-say-a-deal-is-near?traffic_source=rss",
+          "biasScore": 4.3,
+          "biasSignals": [
+            "balanced 'divided' framing for Iranian public",
+            "neutral sourcing from Iranian perspectives"
+          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "Sat, 13 Jun 2026 15:19:16 +0000",
+          "clusterId": "us-iran-deal"
+        },
+        {
+          "id": "thehill-us-iran-deal-12",
+          "outletId": "thehill",
+          "outletName": "The Hill",
+          "headline": "Live updates: Iran weighs US peace terms; FISA spy powers on brink of expiration",
+          "url": "https://thehill.com/homenews/administration/5920209-live-updates-trump-iran-fisa-ufc/",
+          "biasScore": 4.3,
+          "biasSignals": [
+            "neutral live-update framing",
+            "balanced pairing of Iran with FISA story"
+          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "2026-06-12T12:58:59Z",
+          "clusterId": "us-iran-deal"
+        },
+        {
+          "id": "npr-us-iran-deal-2",
           "outletId": "npr",
           "outletName": "NPR",
           "headline": "Week in Politics: U.S. and Iran near peace deal; Trump's birthday UFC cage event",
           "url": "https://www.npr.org/2026/06/13/nx-s1-5851659/week-in-politics-u-s-and-iran-near-peace-deal-trumps-birthday-ufc-cage-event",
           "biasScore": 4.5,
           "biasSignals": [
-            "neutral 'peace deal' framing without loaded language",
-            "balanced week-in-review format reduces ideological signaling"
+            "neutral week-in-review framing",
+            "balanced pairing of Iran deal with UFC event"
           ],
-          "biasScoreGrok": 4.8,
-          "biasSignalsGrok": [
-            "mixed event framing",
-            "peace deal emphasis"
-          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
           "pubDate": "Sat, 13 Jun 2026 07:39:25 -0400",
-          "clusterId": "iran-nuclear-deal"
+          "clusterId": "us-iran-deal"
         },
         {
-          "id": "cnbc-iran-nuclear-deal-5",
+          "id": "aljazeera-us-iran-deal-6",
+          "outletId": "aljazeera",
+          "outletName": "Al Jazeera",
+          "headline": "Iran announces funeral, burial dates for late Supreme Leader Khamenei",
+          "url": "https://www.aljazeera.com/news/2026/6/13/iran-announces-funeral-burial-dates-for-late-supreme-leader-khamenei?traffic_source=rss",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral factual reporting on Khamenei funeral",
+            "no ideological framing detected"
+          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "Sat, 13 Jun 2026 12:11:25 +0000",
+          "clusterId": "us-iran-deal"
+        },
+        {
+          "id": "cbsnews-us-iran-deal-7",
+          "outletId": "cbsnews",
+          "outletName": "CBS News",
+          "headline": "Details on progress toward Iran peace agreement as Trump calls off strikes",
+          "url": "https://www.cbsnews.com/video/details-on-progress-toward-iran-peace-agreement-as-trump-calls-off-strikes/",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral 'progress toward' language",
+            "mentions Trump 'calls off strikes' without criticism"
+          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "2026-06-11T19:18:45+00:00",
+          "clusterId": "us-iran-deal"
+        },
+        {
+          "id": "cnbc-us-iran-deal-8",
+          "outletId": "cnbc",
+          "outletName": "CNBC",
+          "headline": "U.S.-Iran peace deal could be finalized 'in the next 24 hours,' Pakistan's PM says",
+          "url": "https://www.cnbc.com/2026/06/12/iran-deal-trump-pakistan-sharif.html",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral sourcing from Pakistan PM",
+            "factual timeline language used"
+          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "Sat, 13 Jun 2026 14:13:52 GMT",
+          "clusterId": "us-iran-deal"
+        },
+        {
+          "id": "cnbc-us-iran-deal-9",
           "outletId": "cnbc",
           "outletName": "CNBC",
           "headline": "UAE denies 'false' reports of fund transfer to Iran",
           "url": "https://www.cnbc.com/2026/06/13/uae-denies-false-reports-of-fund-transfer-to-iran.html",
           "biasScore": 4.5,
           "biasSignals": [
-            "neutral denial reporting without editorializing",
-            "factual denial framing with 'false reports' quotes"
+            "neutral denial reporting",
+            "no loaded language on UAE or Iran"
           ],
-          "biasScoreGrok": 5.3,
-          "biasSignalsGrok": [
-            "denial framing",
-            "false reports term"
-          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
           "pubDate": "Sat, 13 Jun 2026 09:30:18 GMT",
-          "clusterId": "iran-nuclear-deal"
+          "clusterId": "us-iran-deal"
         },
         {
-          "id": "axios-iran-nuclear-deal-9",
-          "outletId": "axios",
-          "outletName": "Axios",
-          "headline": "Iranian foreign minister says deal with U.S. \"never been closer\"",
-          "url": "https://www.axios.com/2026/06/12/iran-deal-us-ceasefire-signing",
+          "id": "forbes-us-iran-deal-10",
+          "outletId": "forbes",
+          "outletName": "Forbes",
+          "headline": "U.S.-Iran Peace Deal Likely Finalized Within ‘24 Hours,’ Pakistan’s Leader Says",
+          "url": "https://www.forbes.com/sites/antoniopequenoiv/2026/06/13/us-iran-peace-deal-likely-to-be-finalized-within-24-hours-pakistans-leader-says/",
           "biasScore": 4.5,
           "biasSignals": [
-            "neutral quote attribution without loaded framing",
-            "factual reporting on foreign minister statement"
+            "neutral 'likely finalized' language",
+            "cites Pakistan PM without skepticism"
           ],
-          "biasScoreGrok": 5.1,
-          "biasSignalsGrok": [
-            "foreign minister quote",
-            "closeness emphasis"
-          ],
-          "pubDate": "Fri, 12 Jun 2026 16:30:22 +0000",
-          "clusterId": "iran-nuclear-deal"
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "Sat, 13 Jun 2026 09:33:19 -0400",
+          "clusterId": "us-iran-deal"
         },
         {
-          "id": "theatlantic-iran-nuclear-deal-16",
-          "outletId": "theatlantic",
-          "outletName": "The Atlantic",
-          "headline": "The U.S. and Iran Might Actually Have a Deal",
-          "url": "https://www.theatlantic.com/national-security/2026/06/us-iran-war-deal-trump/687543/?utm_source=feed",
+          "id": "timesofisrael-us-iran-deal-14",
+          "outletId": "timesofisrael",
+          "outletName": "Times of Israel",
+          "headline": "Pakistan claims US-Iran deal to be signed within 24 hours; Tehran pushes back",
+          "url": "https://www.timesofisrael.com/pakistan-claims-us-iran-deal-to-be-signed-within-24-hours-tehran-pushes-back/",
           "biasScore": 4.5,
           "biasSignals": [
-            "'Might Actually Have' hedges without ideological signal",
-            "analytical tone without partisan framing"
+            "neutral 'pushes back' language for Tehran",
+            "balanced attribution to both sides"
           ],
-          "biasScoreGrok": 4.3,
-          "biasSignalsGrok": [
-            "might actually have",
-            "deal possibility lean"
-          ],
-          "pubDate": "Fri, 12 Jun 2026 19:10:31 -0400",
-          "clusterId": "iran-nuclear-deal"
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "Sat, 13 Jun 2026 13:53:22 +0000",
+          "clusterId": "us-iran-deal"
         },
         {
-          "id": "cbsnews-iran-nuclear-deal-4",
-          "outletId": "cbsnews",
-          "outletName": "CBS News",
-          "headline": "Details on progress toward Iran peace agreement as Trump calls off strikes",
-          "url": "https://www.cbsnews.com/video/details-on-progress-toward-iran-peace-agreement-as-trump-calls-off-strikes/",
-          "biasScore": 4.6,
+          "id": "dailymail-us-iran-deal-15",
+          "outletId": "dailymail",
+          "outletName": "Daily Mail",
+          "headline": "Deal to end Iran war is 'closer than ever before' as Tehran announces funeral plans for former Supreme Leader Ali Khamenei",
+          "url": "\n\thttps://www.dailymail.com/news/article-15897201/Iran-Ali-Khamenei-buried-July.html?ns_mchannel=rss&ito=1490&ns_campaign=1490\n      ",
+          "biasScore": 4.5,
           "biasSignals": [
-            "neutral 'progress toward' language, balanced sourcing",
-            "factual detail-oriented without ideological framing"
+            "neutral 'closer than ever' framing",
+            "factual Khamenei funeral mention"
           ],
-          "biasScoreGrok": 5,
-          "biasSignalsGrok": [
-            "progress details neutral",
-            "strikes call off noted"
-          ],
-          "pubDate": "2026-06-11T19:18:45+00:00",
-          "clusterId": "iran-nuclear-deal"
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "Sat, 13 Jun 2026 16:48:32 +0100",
+          "clusterId": "us-iran-deal"
         },
         {
-          "id": "cnbc-iran-nuclear-deal-6",
-          "outletId": "cnbc",
-          "outletName": "CNBC",
-          "headline": "Trump administration: Iran deal signing likely in coming days, but not '100%' certain",
-          "url": "https://www.cnbc.com/2026/06/12/iran-deal-trump-pakistan-sharif.html",
-          "biasScore": 4.7,
+          "id": "bloomberg-us-iran-deal-16",
+          "outletId": "bloomberg",
+          "outletName": "Bloomberg",
+          "headline": "US, Iran Edge Toward Interim Peace Deal That Will Reopen Hormuz",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-12/us-iran-edge-toward-interim-peace-deal-that-will-reopen-hormuz",
+          "biasScore": 4.5,
           "biasSignals": [
-            "neutral hedge 'not 100% certain' — balanced expectation",
-            "administration voice quoted without skepticism"
+            "neutral financial framing on Hormuz",
+            "factual 'edge toward' language"
           ],
-          "biasScoreGrok": 6.5,
-          "biasSignalsGrok": [
-            "administration quote lead",
-            "certainty qualifier"
-          ],
-          "pubDate": "Fri, 12 Jun 2026 20:21:14 GMT",
-          "clusterId": "iran-nuclear-deal"
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "2026-06-12T14:59:47+00:00",
+          "clusterId": "us-iran-deal"
         },
         {
-          "id": "ap-iran-nuclear-deal-13",
+          "id": "bloomberg-us-iran-deal-17",
+          "outletId": "bloomberg",
+          "outletName": "Bloomberg",
+          "headline": "Middle East Fuel Exports Rebound as Tankers Slip Through Hormuz",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-12/middle-east-fuel-exports-rebound-as-tankers-slip-through-hormuz",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral market-focused framing",
+            "no political bias in fuel export language"
+          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "2026-06-12T14:24:22+00:00",
+          "clusterId": "us-iran-deal"
+        },
+        {
+          "id": "ap-us-iran-deal-20",
           "outletId": "ap",
           "outletName": "Associated Press",
           "headline": "World shares surge after big Wall Street gains on hopes for an end to the Iran war",
           "url": "https://apnews.com/article/stocks-markets-ai-iran-oil-rates-47f9fecd934706362104cd92514122fe",
-          "biasScore": 4.7,
+          "biasScore": 4.5,
           "biasSignals": [
-            "neutral market reaction framing, no ideological signals",
-            "'hopes for end' language is positive but factual"
+            "neutral market-reaction framing",
+            "no partisan attribution of Iran deal"
           ],
-          "biasScoreGrok": 4.5,
-          "biasSignalsGrok": [
-            "shares surge lead",
-            "Iran war end hope"
-          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
           "pubDate": "2026-06-12T04:29:12Z",
-          "clusterId": "iran-nuclear-deal"
+          "clusterId": "us-iran-deal"
         },
         {
-          "id": "nytimes-iran-nuclear-deal-0",
+          "id": "nytimes-us-iran-deal-1",
           "outletId": "nytimes",
           "outletName": "NY Times",
           "headline": "With a Deal Seemingly Close, the U.S. Faces an Iran More Willing to Withstand Pressure",
           "url": "https://www.nytimes.com/2026/06/13/world/middleeast/iran-united-states-israel-lebanon.html",
           "biasScore": 4.8,
           "biasSignals": [
-            "neutral framing but 'withstand pressure' implies Iran agency",
-            "balanced sourcing from multiple diplomatic perspectives"
+            "balanced framing with 'withstand pressure' implying resilience",
+            "neutral sourcing from multiple sides"
           ],
-          "biasScoreGrok": 5.5,
-          "biasSignalsGrok": [
-            "neutral verbs dominant",
-            "pressure framing on Iran"
-          ],
-          "pubDate": "Sat, 13 Jun 2026 09:02:13 +0000",
-          "clusterId": "iran-nuclear-deal"
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "Sat, 13 Jun 2026 15:50:57 +0000",
+          "clusterId": "us-iran-deal"
         },
         {
-          "id": "ap-iran-nuclear-deal-11",
-          "outletId": "ap",
-          "outletName": "Associated Press",
-          "headline": "Trump says there could be an Iran deal this weekend, forecasters warn about a dangerous El Nino",
-          "url": "https://apnews.com/newsletter/morning-wire/june-12-2026",
-          "biasScore": 4.8,
-          "biasSignals": [
-            "neutral multi-topic framing, balanced news aggregation",
-            "no loaded verbs or ideological signals in headline"
-          ],
-          "biasScoreGrok": 4.9,
-          "biasSignalsGrok": [
-            "Trump quote lead",
-            "El Nino buried"
-          ],
-          "pubDate": "2026-06-12T11:05:22Z",
-          "clusterId": "iran-nuclear-deal"
-        },
-        {
-          "id": "huffpost-iran-nuclear-deal-15",
-          "outletId": "huffpost",
-          "outletName": "HuffPost",
-          "headline": "U.S.-Iran Peace Memorandum Could Be Signed On Sunday In Geneva: Reuters",
-          "url": "https://www.huffpost.com/entry/us-iran-peace-memorandum_n_6a2be231e4b0942fb77764ba",
-          "biasScore": 4.8,
-          "biasSignals": [
-            "neutral Reuters attribution, factual 'could be signed'",
-            "no partisan framing on peace agreement"
-          ],
-          "biasScoreGrok": 3.8,
-          "biasSignalsGrok": [
-            "peace memorandum term",
-            "Sunday signing focus"
-          ],
-          "pubDate": "2026-06-12T10:50:16Z",
-          "clusterId": "iran-nuclear-deal"
-        },
-        {
-          "id": "ap-iran-nuclear-deal-12",
+          "id": "ap-us-iran-deal-19",
           "outletId": "ap",
           "outletName": "Associated Press",
           "headline": "Live updates: Trump says he is really close to a deal with Iran ahead of whirlwind weekend",
           "url": "https://apnews.com/live/trump-administration-updates-06-12-2026",
-          "biasScore": 4.9,
-          "biasSignals": [
-            "'really close' quotes Trump without skeptical qualifier",
-            "live updates format neutral in framing"
-          ],
-          "biasScoreGrok": 5.2,
-          "biasSignalsGrok": [
-            "live updates neutral",
-            "close to deal lead"
-          ],
-          "pubDate": "2026-06-12T06:14:00Z",
-          "clusterId": "iran-nuclear-deal"
-        },
-        {
-          "id": "timesofisrael-iran-nuclear-deal-10",
-          "outletId": "timesofisrael",
-          "outletName": "Times of Israel",
-          "headline": "Iran said to have mined entrance to bombed nuclear site to deter raid on enriched uranium",
-          "url": "https://www.timesofisrael.com/iran-said-to-have-mined-entrance-to-bombed-nuclear-site-to-deter-raid-on-enriched-uranium/",
           "biasScore": 5,
           "biasSignals": [
-            "neutral security framing, 'said to have' hedging language",
-            "no partisan framing on Iranian defensive measures"
+            "neutral live-update format",
+            "Trump quote 'really close' presented without challenge"
           ],
-          "biasScoreGrok": 6.8,
-          "biasSignalsGrok": [
-            "mined entrance detail",
-            "raid deterrent framing"
-          ],
-          "pubDate": "Sat, 13 Jun 2026 08:25:50 +0000",
-          "clusterId": "iran-nuclear-deal"
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "2026-06-12T06:14:00Z",
+          "clusterId": "us-iran-deal"
         },
         {
-          "id": "thehill-iran-nuclear-deal-7",
+          "id": "nypost-us-iran-deal-24",
+          "outletId": "nypost",
+          "outletName": "NY Post",
+          "headline": "Trump set to meet with Middle East leaders next week at annual G7 forum — where Iran will be major topic",
+          "url": "https://nypost.com/2026/06/13/us-news/trump-set-to-meet-with-middle-east-leaders-next-week-at-annual-g7-forum-where-iran-will-be-major-topic/",
+          "biasScore": 5,
+          "biasSignals": [
+            "neutral reporting on G7 agenda",
+            "Iran framed as 'major topic' without alarm"
+          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "Sat, 13 Jun 2026 11:30:30 -0400",
+          "clusterId": "us-iran-deal"
+        },
+        {
+          "id": "thehill-us-iran-deal-11",
           "outletId": "thehill",
           "outletName": "The Hill",
-          "headline": "The Memo: Trump announces ‘great settlement’ on Iran, but the world awaits details",
-          "url": "https://thehill.com/homenews/administration/5920985-trump-iran-memorandum/",
-          "biasScore": 5.2,
+          "headline": "Trump dismisses ‘fake’ leaked Iran deal terms",
+          "url": "https://thehill.com/homenews/administration/5921744-donald-trump-leaked-iran-deal-middle-east-conflict/",
+          "biasScore": 5.5,
           "biasSignals": [
-            "'great settlement' quoted skeptically — mild left lean",
-            "'world awaits details' implies Trump vagueness"
+            "Trump 'dismisses' framing is mildly neutral",
+            "quotes Trump calling terms 'fake' uncritically"
           ],
-          "biasScoreGrok": 5.8,
-          "biasSignalsGrok": [
-            "great settlement quote",
-            "details awaited note"
-          ],
-          "pubDate": "2026-06-11T22:45:13Z",
-          "clusterId": "iran-nuclear-deal"
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "2026-06-12T15:28:49Z",
+          "clusterId": "us-iran-deal"
         },
         {
-          "id": "ap-iran-nuclear-deal-14",
+          "id": "bloomberg-us-iran-deal-18",
+          "outletId": "bloomberg",
+          "outletName": "Bloomberg",
+          "headline": "Trump’s Energy Chief Says Half of Hormuz Stoppages Are Restored",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-12/trump-s-energy-chief-says-half-of-hormuz-stoppages-are-restored",
+          "biasScore": 5.5,
+          "biasSignals": [
+            "quotes Trump energy chief without skepticism",
+            "frames Hormuz restoration as positive achievement"
+          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "2026-06-12T14:22:10+00:00",
+          "clusterId": "us-iran-deal"
+        },
+        {
+          "id": "ap-us-iran-deal-21",
           "outletId": "ap",
           "outletName": "Associated Press",
           "headline": "Trump raises the stakes on an Iran deal ahead of G7 summit",
           "url": "https://apnews.com/article/trump-iran-deal-g7-537299c0944acf9c4d20f3f25473b6a2",
-          "biasScore": 5.3,
+          "biasScore": 5.5,
           "biasSignals": [
-            "'raises the stakes' implies risky Trump behavior mildly",
-            "ahead of G7 framing neutral but contextualizes pressure"
+            "'raises the stakes' implies Trump agency positively",
+            "G7 framing centers Trump leadership"
           ],
-          "biasScoreGrok": 5.7,
-          "biasSignalsGrok": [
-            "stakes raised verb",
-            "G7 summit context"
-          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
           "pubDate": "2026-06-12T04:05:16Z",
-          "clusterId": "iran-nuclear-deal"
+          "clusterId": "us-iran-deal"
+        }
+      ]
+    },
+    {
+      "id": "kennedy-center-trump-name",
+      "topicLabel": "Kennedy Center ordered to remove Trump's name",
+      "date": "2026-06-13",
+      "articles": [
+        {
+          "id": "aljazeera-kennedy-center-trump-name-2",
+          "outletId": "aljazeera",
+          "outletName": "Al Jazeera",
+          "headline": "Workers remove Trump’s name from Kennedy Center after court ruling",
+          "url": "https://www.aljazeera.com/news/2026/6/13/workers-remove-trumps-name-from-kennedy-center-after-court-ruling?traffic_source=rss",
+          "biasScore": 3.2,
+          "biasSignals": [
+            "'after court ruling' implies Trump defeat framing",
+            "neutral verb 'remove' but emphasizes compliance"
+          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "Sat, 13 Jun 2026 14:48:14 +0000",
+          "clusterId": "kennedy-center-trump-name"
         },
         {
-          "id": "foxnews-iran-nuclear-deal-2",
-          "outletId": "foxnews",
-          "outletName": "Fox News",
-          "headline": "Live Updates: Trump says Iran deal is nearly complete, cancels strikes against Tehran",
-          "url": "https://www.foxnews.com/live-news/us-iran-war-israel-lebanon-trump-deal-june-12",
-          "biasScore": 6.2,
+          "id": "cnn-kennedy-center-trump-name-0",
+          "outletId": "cnn",
+          "outletName": "CNN",
+          "headline": "Watch live: John F. Kennedy Center removes President Trump’s name from the building | CNN",
+          "url": "https://www.cnn.com/live-video-8",
+          "biasScore": 3.5,
           "biasSignals": [
-            "'Trump says' framing emphasizes presidential authority",
-            "live updates format favors administration narrative flow"
+            "'removes' is neutral but leads with Trump loss",
+            "live coverage emphasis amplifies anti-Trump outcome"
           ],
-          "biasScoreGrok": 6.2,
-          "biasSignalsGrok": [
-            "Trump focused lead",
-            "strikes canceled highlight"
-          ],
-          "pubDate": "2026-06-12T11:22:22.0246526Z",
-          "clusterId": "iran-nuclear-deal"
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "2026-06-12T16:07:35.2345443Z",
+          "clusterId": "kennedy-center-trump-name"
         },
         {
-          "id": "breitbart-iran-nuclear-deal-3",
-          "outletId": "breitbart",
-          "outletName": "Breitbart",
-          "headline": "Iran Foreign Minister: Deal with U.S. ‘Never Been Closer’ — Pakistan PM Says Final Text Agreed",
-          "url": "https://www.breitbart.com/politics/2026/06/12/iran-fm-deal-never-been-closer-pakistan-pm-final-text-agreed/",
-          "biasScore": 6.5,
+          "id": "thehill-kennedy-center-trump-name-6",
+          "outletId": "thehill",
+          "outletName": "The Hill",
+          "headline": "Washington National Opera sues, says Kennedy Center owes it $17M",
+          "url": "https://thehill.com/regulation/court-battles/5921637-washington-national-opera-lawsuit-kennedy-center-trump/",
+          "biasScore": 3.5,
           "biasSignals": [
-            "positive framing of deal through foreign minister quotes",
-            "headline implies deal imminent, favorable to Trump diplomacy"
+            "adds opera lawsuit detail sympathetic to institution",
+            "frames Kennedy Center as victim of Trump naming"
           ],
-          "biasScoreGrok": 7.1,
-          "biasSignalsGrok": [
-            "deal closeness quoted",
-            "Pakistan reference neutral"
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "2026-06-12T14:48:10Z",
+          "clusterId": "kennedy-center-trump-name"
+        },
+        {
+          "id": "timesofisrael-kennedy-center-trump-name-7",
+          "outletId": "timesofisrael",
+          "outletName": "Times of Israel",
+          "headline": "Workers begin removing Trump’s name from Kennedy Center, hours after court deadline",
+          "url": "https://www.timesofisrael.com/workers-begin-removing-trumps-name-from-kennedy-center-hours-after-court-deadline/",
+          "biasScore": 3.5,
+          "biasSignals": [
+            "'hours after court deadline' emphasizes legal pressure",
+            "neutral 'begin removing' language"
           ],
-          "pubDate": "Sat, 13 Jun 2026 02:38:17 +0000",
-          "clusterId": "iran-nuclear-deal"
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "Sat, 13 Jun 2026 11:08:02 +0000",
+          "clusterId": "kennedy-center-trump-name"
+        },
+        {
+          "id": "bostonglobe-kennedy-center-trump-name-8",
+          "outletId": "bostonglobe",
+          "outletName": "Boston Globe",
+          "headline": "Watch live: Trump’s name is removed from Kennedy Center",
+          "url": "https://www.bostonglobe.com/2026/06/13/nation/watch-live-trump-kennedy-center/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
+          "biasScore": 3.5,
+          "biasSignals": [
+            "live watch framing amplifies event as news moment",
+            "no critical framing of court order"
+          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "Sat, 13 Jun 2026 14:51:30 +0000",
+          "clusterId": "kennedy-center-trump-name"
+        },
+        {
+          "id": "bostonglobe-kennedy-center-trump-name-9",
+          "outletId": "bostonglobe",
+          "outletName": "Boston Globe",
+          "headline": "Trump’s name poised to be removed from Kennedy Center after court denies last-minute move to keep it",
+          "url": "https://www.bostonglobe.com/2026/06/12/nation/kennedy-center-trump-name/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
+          "biasScore": 3.5,
+          "biasSignals": [
+            "'court denies last-minute move' frames Trump as loser",
+            "neutral language but loss emphasis"
+          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "Fri, 12 Jun 2026 18:41:51 +0000",
+          "clusterId": "kennedy-center-trump-name"
+        },
+        {
+          "id": "washpost-kennedy-center-trump-name-1",
+          "outletId": "washpost",
+          "outletName": "Washington Post",
+          "headline": "Kennedy Center board to fight order to remove Trump’s name as deadline looms",
+          "url": "https://www.washingtonpost.com/style/2026/06/11/kennedy-center-board-fight-order-remove-trumps-name-deadline-looms/",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral 'board to fight' framing",
+            "balanced 'deadline looms' without drama"
+          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "2026-06-11T22:58:49Z",
+          "clusterId": "kennedy-center-trump-name"
+        },
+        {
+          "id": "washexaminer-kennedy-center-trump-name-5",
+          "outletId": "washexaminer",
+          "outletName": "Washington Examiner",
+          "headline": "Kennedy Center workers start to remove Trump’s name after overnight deadline",
+          "url": "https://www.washingtonexaminer.com/news/entertainment/4607549/kennedy-center-remove-trump-name/",
+          "biasScore": 5,
+          "biasSignals": [
+            "neutral factual reporting",
+            "'overnight deadline' adds urgency without bias"
+          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "Sat, 13 Jun 2026 12:45:09 +0000",
+          "clusterId": "kennedy-center-trump-name"
+        },
+        {
+          "id": "abc-kennedy-center-trump-name-10",
+          "outletId": "abc",
+          "outletName": "ABC News",
+          "headline": "DOJ appeals Kennedy Center ruling ahead of deadline to remove Trump’s name",
+          "url": "https://abcnews.com/Politics/doj-appeals-kennedy-center-ruling-ahead-deadline-remove/story?id=133805014",
+          "biasScore": 5,
+          "biasSignals": [
+            "neutral 'DOJ appeals' framing",
+            "factual deadline language"
+          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "2026-06-12T03:43:00Z",
+          "clusterId": "kennedy-center-trump-name"
+        },
+        {
+          "id": "ap-kennedy-center-trump-name-11",
+          "outletId": "ap",
+          "outletName": "Associated Press",
+          "headline": "Kennedy Center board fights ruling ordering removal of Trump's name",
+          "url": "https://apnews.com/article/trump-kennedy-center-building-name-lawsuit-renovations-c9c0c4f2ab6bc481478b1c25cb37e15f",
+          "biasScore": 5,
+          "biasSignals": [
+            "neutral 'board fights ruling' framing",
+            "no ideological loading detected"
+          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "2026-06-12T00:40:32Z",
+          "clusterId": "kennedy-center-trump-name"
+        },
+        {
+          "id": "nypost-kennedy-center-trump-name-3",
+          "outletId": "nypost",
+          "outletName": "NY Post",
+          "headline": "Trump’s name comes off Kennedy Center building after storms, legal wrangling: photos",
+          "url": "https://nypost.com/2026/06/13/us-news/trumps-name-comes-off-kennedy-center-building-after-storms-legal-wrangling-photos/",
+          "biasScore": 5.5,
+          "biasSignals": [
+            "frames as result of 'storms, legal wrangling'",
+            "passive 'comes off' softens court-ordered removal"
+          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "Sat, 13 Jun 2026 11:25:08 -0400",
+          "clusterId": "kennedy-center-trump-name"
+        },
+        {
+          "id": "washexaminer-kennedy-center-trump-name-4",
+          "outletId": "washexaminer",
+          "outletName": "Washington Examiner",
+          "headline": "Kennedy Center takes down Trump’s name: Photos",
+          "url": "https://www.washingtonexaminer.com/news/entertainment/4607572/kennedy-center-take-down-trump-name-photos/",
+          "biasScore": 5.5,
+          "biasSignals": [
+            "neutral photo framing",
+            "factual 'takes down' without editorial spin"
+          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "Sat, 13 Jun 2026 13:23:03 +0000",
+          "clusterId": "kennedy-center-trump-name"
         }
       ]
     },
     {
       "id": "spacex-ipo-musk-trillionaire",
-      "topicLabel": "SpaceX IPO launches Musk toward trillionaire status",
+      "topicLabel": "SpaceX IPO makes Musk world's first trillionaire",
       "date": "2026-06-13",
       "articles": [
         {
-          "id": "msnbc-spacex-ipo-musk-trillionaire-0",
-          "outletId": "msnbc",
-          "outletName": "MSNBC",
-          "headline": "OpenAI, Anthropic and SpaceX going public feels ominous",
-          "url": "https://www.ms.now/opinion/spacex-ipo-openai-anthropic-stock-market",
-          "biasScore": 3.2,
-          "biasSignals": [
-            "'feels ominous' — negative framing of tech power",
-            "skeptical tone toward Musk/AI concentration of wealth"
-          ],
-          "biasScoreGrok": 2.1,
-          "biasSignalsGrok": [
-            "ominous framing",
-            "going public negative"
-          ],
-          "pubDate": "2026-06-12T10:00:00Z",
-          "clusterId": "spacex-ipo-musk-trillionaire"
-        },
-        {
-          "id": "forbes-spacex-ipo-musk-trillionaire-6",
-          "outletId": "forbes",
-          "outletName": "Forbes",
-          "headline": "Why A $1.77 Trillion SpaceX IPO Could ‘Permanently Scar’ The Night Sky",
-          "url": "https://www.forbes.com/sites/jamiecartereurope/2026/06/13/why-a-2-trillion-spacex-ipo-could-permanently-scar-the-night-sky/",
+          "id": "washpost-spacex-ipo-musk-trillionaire-1",
+          "outletId": "washpost",
+          "outletName": "Washington Post",
+          "headline": "SpaceX IPO extends Elon Musk’s influence across AI and the economy",
+          "url": "https://www.washingtonpost.com/technology/2026/06/12/spacex-goes-public-some-fear-musks-growing-dominance/",
           "biasScore": 3.5,
           "biasSignals": [
-            "'Permanently Scar' — charged environmental concern framing",
-            "environmental harm framing leads over financial news"
+            "'extends influence' implies concern about Musk power",
+            "frames IPO through lens of economic dominance"
           ],
-          "biasScoreGrok": 3.5,
-          "biasSignalsGrok": [
-            "permanently scar quote",
-            "night sky negative"
-          ],
-          "pubDate": "Sat, 13 Jun 2026 05:34:00 -0400",
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "2026-06-12T09:00:00Z",
           "clusterId": "spacex-ipo-musk-trillionaire"
         },
         {
-          "id": "yahoofinance-spacex-ipo-musk-trillionaire-10",
-          "outletId": "yahoofinance",
-          "outletName": "Yahoo Finance",
-          "headline": "How Musk's tactics left investors clamoring for SpaceX stock and ignoring risks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/musks-tactics-left-investors-clamoring-100106217.html",
-          "biasScore": 3.8,
+          "id": "independent-spacex-ipo-musk-trillionaire-14",
+          "outletId": "independent",
+          "outletName": "The Independent",
+          "headline": "Inside Elon Musk’s vast empire from rockets to brain implants after historic SpaceX IPO",
+          "url": "https://www.independent.co.uk/news/world/americas/elon-musk-companies-list-spacex-ipo-rockets-brain-implants-b2995216.html",
+          "biasScore": 3.5,
           "biasSignals": [
-            "'ignoring risks' frames investors as manipulated",
-            "skeptical of Musk tactics without explicit bias"
+            "'vast empire' implies concern about Musk concentration",
+            "framing emphasizes breadth of control"
           ],
-          "biasScoreGrok": 5.8,
-          "biasSignalsGrok": [
-            "tactics left investors",
-            "risks ignored note"
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "Sat, 13 Jun 2026 15:59:56 GMT",
+          "clusterId": "spacex-ipo-musk-trillionaire"
+        },
+        {
+          "id": "huffpost-spacex-ipo-musk-trillionaire-15",
+          "outletId": "huffpost",
+          "outletName": "HuffPost",
+          "headline": "SpaceX Set To Surge Past $2 Trillion Valuation In Blockbuster Nasdaq Debut",
+          "url": "https://www.huffpost.com/entry/spacex-blockbuster-nasdaq-debut_n_6a2c1755e4b0942fb777abba",
+          "biasScore": 3.5,
+          "biasSignals": [
+            "neutral financial framing",
+            "no strong signals either direction"
           ],
-          "pubDate": "2026-06-12T10:01:06Z",
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "2026-06-12T14:36:10Z",
+          "clusterId": "spacex-ipo-musk-trillionaire"
+        },
+        {
+          "id": "huffpost-spacex-ipo-musk-trillionaire-16",
+          "outletId": "huffpost",
+          "outletName": "HuffPost",
+          "headline": "Elon Musk Could Become The World's First Trillionaire With SpaceX's IPO",
+          "url": "https://www.huffpost.com/entry/spacex-ipo-musk-trillionaire_n_6a2bf2a6e4b0ba7a1fec7283",
+          "biasScore": 3.5,
+          "biasSignals": [
+            "neutral factual report",
+            "no loaded language"
+          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "2026-06-12T11:57:42Z",
           "clusterId": "spacex-ipo-musk-trillionaire"
         },
         {
@@ -402,34 +685,28 @@
           "url": "https://www.washingtonpost.com/technology/2026/06/11/elon-musk-is-worlds-first-trillionaire-paper-thanks-spacex-ipo/",
           "biasScore": 4,
           "biasSignals": [
-            "'on paper' qualifier subtly questions valuation legitimacy",
-            "factual but framing slightly skeptical of milestone"
+            "'on paper' qualifier adds skepticism",
+            "neutral financial framing otherwise"
           ],
-          "biasScoreGrok": 4.7,
-          "biasSignalsGrok": [
-            "first trillionaire note",
-            "on paper qualifier"
-          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
           "pubDate": "2026-06-11T21:41:37Z",
           "clusterId": "spacex-ipo-musk-trillionaire"
         },
         {
-          "id": "washpost-spacex-ipo-musk-trillionaire-1",
+          "id": "washpost-spacex-ipo-musk-trillionaire-0",
           "outletId": "washpost",
           "outletName": "Washington Post",
-          "headline": "SpaceX IPO extends Elon Musk’s influence across AI and the economy",
-          "url": "https://www.washingtonpost.com/technology/2026/06/12/spacex-goes-public-some-fear-musks-growing-dominance/",
-          "biasScore": 4.2,
+          "headline": "SpaceX to start trading in historic test for Elon Musk’s rocket company",
+          "url": "https://www.washingtonpost.com/technology/2026/06/12/spacex-start-trading-historic-test-elon-musks-rocket-company/",
+          "biasScore": 4.5,
           "biasSignals": [
-            "'extends influence' mildly critical of Musk power",
-            "neutral financial framing with mild concern signaling"
+            "neutral 'historic test' framing",
+            "no ideological signals in financial reporting"
           ],
-          "biasScoreGrok": 5.4,
-          "biasSignalsGrok": [
-            "influence extends",
-            "AI economy neutral"
-          ],
-          "pubDate": "2026-06-12T09:00:00Z",
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "2026-06-12T14:38:52Z",
           "clusterId": "spacex-ipo-musk-trillionaire"
         },
         {
@@ -438,55 +715,78 @@
           "outletName": "CBS News",
           "headline": "SpaceX IPO could see a \"volatile few hours\" after launch, market reporter says",
           "url": "https://www.cbsnews.com/video/spacex-ipo-could-see-a-volatile-few-hours-after-launch/",
-          "biasScore": 4.6,
+          "biasScore": 4.5,
           "biasSignals": [
-            "neutral market volatility warning, expert-sourced",
-            "no ideological framing on Musk or SpaceX"
+            "neutral 'volatile' warning framing",
+            "factual market reporting"
           ],
-          "biasScoreGrok": 5.6,
-          "biasSignalsGrok": [
-            "volatile hours quote",
-            "market reporter noted"
-          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
           "pubDate": "2026-06-11T18:29:43+00:00",
           "clusterId": "spacex-ipo-musk-trillionaire"
         },
         {
-          "id": "ap-spacex-ipo-musk-trillionaire-14",
-          "outletId": "ap",
-          "outletName": "Associated Press",
-          "headline": "A look at the SpaceX IPO by the numbers",
-          "url": "https://apnews.com/article/spacex-ipo-musk-trillionaire-investors-mars-moon-c0ba803b4e98382de2099cc92e547825",
-          "biasScore": 4.7,
+          "id": "cnbc-spacex-ipo-musk-trillionaire-5",
+          "outletId": "cnbc",
+          "outletName": "CNBC",
+          "headline": "From 10% chance of success to $2 trillion market cap: SpaceX's historic IPO",
+          "url": "https://www.cnbc.com/2026/06/13/from-10percent-chance-of-success-to-2-trillion-spacexs-historic-ipo.html",
+          "biasScore": 4.5,
           "biasSignals": [
-            "'by the numbers' framing purely analytical",
-            "no ideological signals in neutral financial breakdown"
+            "neutral historical narrative framing",
+            "no ideological signals in financial story"
           ],
-          "biasScoreGrok": 5.3,
-          "biasSignalsGrok": [
-            "by the numbers",
-            "IPO look neutral"
-          ],
-          "pubDate": "2026-06-11T13:42:57Z",
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "Sat, 13 Jun 2026 15:50:43 GMT",
           "clusterId": "spacex-ipo-musk-trillionaire"
         },
         {
-          "id": "bbc-spacex-ipo-musk-trillionaire-3",
-          "outletId": "bbc",
-          "outletName": "BBC",
-          "headline": "Elon Musk's SpaceX raises $75bn ahead of record stock market debut",
-          "url": "https://www.bbc.co.uk/news/articles/cwy034q89j4o",
-          "biasScore": 4.8,
+          "id": "axios-spacex-ipo-musk-trillionaire-8",
+          "outletId": "axios",
+          "outletName": "Axios",
+          "headline": "Elon Musk is the first trillionaire",
+          "url": "https://www.axios.com/2026/06/12/musk-trillionaire-spacex-wealth",
+          "biasScore": 4.5,
           "biasSignals": [
-            "neutral financial reporting, no ideological framing",
-            "factual IPO details without political slant"
+            "neutral factual statement",
+            "no loaded language"
           ],
-          "biasScoreGrok": 5,
-          "biasSignalsGrok": [
-            "raises 75bn detail",
-            "record debut neutral"
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "Fri, 12 Jun 2026 21:31:40 +0000",
+          "clusterId": "spacex-ipo-musk-trillionaire"
+        },
+        {
+          "id": "axios-spacex-ipo-musk-trillionaire-9",
+          "outletId": "axios",
+          "outletName": "Axios",
+          "headline": "SpaceX shoots 19% higher in first day of trading",
+          "url": "https://www.axios.com/2026/06/12/spacex-shares-rocket-first-trades",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral percentage framing",
+            "factual market reporting"
           ],
-          "pubDate": "2026-06-12T06:07:32.1122054Z",
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "Fri, 12 Jun 2026 20:48:03 +0000",
+          "clusterId": "spacex-ipo-musk-trillionaire"
+        },
+        {
+          "id": "marketwatch-spacex-ipo-musk-trillionaire-12",
+          "outletId": "marketwatch",
+          "outletName": "MarketWatch",
+          "headline": "SpaceX employees now have enough wealth on paper to buy every home in this Texas city",
+          "url": "https://www.marketwatch.com/story/spacex-employees-now-have-enough-wealth-on-paper-to-buy-every-home-in-this-texas-city-ce0842be?mod=mw_rss_topstories",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral human-interest financial framing",
+            "no ideological signals"
+          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "Sat, 13 Jun 2026 13:00:00 GMT",
           "clusterId": "spacex-ipo-musk-trillionaire"
         },
         {
@@ -495,1170 +795,497 @@
           "outletName": "Associated Press",
           "headline": "Musk set to become world’s first trillionaire Friday as SpaceX sells shares to public for first time",
           "url": "https://apnews.com/article/musk-spacex-tesla-ipo-trillionaire-billionaire-worth-rockets-7723f82b6063a9a17c194e25982cd66d",
-          "biasScore": 4.8,
+          "biasScore": 4.5,
           "biasSignals": [
-            "neutral 'set to become' without charged language",
-            "factual milestone reporting, no political framing"
+            "neutral factual framing",
+            "'set to become' is neutral forward-looking language"
           ],
-          "biasScoreGrok": 5.1,
-          "biasSignalsGrok": [
-            "set to become",
-            "first time public"
-          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
           "pubDate": "2026-06-12T11:16:59Z",
           "clusterId": "spacex-ipo-musk-trillionaire"
         },
         {
-          "id": "cnbc-spacex-ipo-musk-trillionaire-5",
+          "id": "cnbc-spacex-ipo-musk-trillionaire-6",
           "outletId": "cnbc",
           "outletName": "CNBC",
-          "headline": "Former Tesla board member says SpaceX needs to achieve 2 of its 3 moonshots to keep its valuation",
-          "url": "https://www.cnbc.com/2026/06/12/spacex-moonshots-valuation-westly-tesla.html",
+          "headline": "SpaceX IPO sticks the landing. Here's what investors are saying about its epic first trading day",
+          "url": "https://www.cnbc.com/2026/06/13/spacex-ipo-sticks-the-landing-heres-what-investors-are-saying-about-its-epic-first-trading-day.html",
           "biasScore": 5,
           "biasSignals": [
-            "neutral expert valuation analysis, balanced skepticism",
-            "financial framing without political overlay"
+            "'sticks the landing' positive framing",
+            "investor perspectives centered without criticism"
           ],
-          "biasScoreGrok": 5.9,
-          "biasSignalsGrok": [
-            "moonshots term used",
-            "valuation keep focus"
-          ],
-          "pubDate": "Sat, 13 Jun 2026 07:22:10 GMT",
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "Sat, 13 Jun 2026 13:37:31 GMT",
           "clusterId": "spacex-ipo-musk-trillionaire"
         },
         {
-          "id": "axios-spacex-ipo-musk-trillionaire-7",
-          "outletId": "axios",
-          "outletName": "Axios",
-          "headline": "SpaceX shoots 19% higher in first day of trading",
-          "url": "https://www.axios.com/2026/06/12/spacex-shares-rocket-first-trades",
+          "id": "cnbc-spacex-ipo-musk-trillionaire-7",
+          "outletId": "cnbc",
+          "outletName": "CNBC",
+          "headline": "Why TD Securities anticipates even bigger days ahead for SpaceX",
+          "url": "https://www.cnbc.com/2026/06/13/spacex-surges-but-bigger-days-are-ahead-td-securities-.html",
           "biasScore": 5,
           "biasSignals": [
-            "neutral financial percentage reporting, no spin",
-            "factual first-day trading data without framing"
+            "positive analyst framing for SpaceX",
+            "no critical sourcing included"
           ],
-          "biasScoreGrok": 6.3,
-          "biasSignalsGrok": [
-            "shoots 19% higher",
-            "trading day lead"
-          ],
-          "pubDate": "Fri, 12 Jun 2026 20:48:03 +0000",
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "Sat, 13 Jun 2026 15:00:01 GMT",
           "clusterId": "spacex-ipo-musk-trillionaire"
         },
         {
-          "id": "telegraph-spacex-ipo-musk-trillionaire-9",
+          "id": "telegraph-spacex-ipo-musk-trillionaire-11",
           "outletId": "telegraph",
           "outletName": "The Telegraph",
           "headline": "SpaceX rockets to $2.1 trillion valuation on stock market debut",
           "url": "https://www.telegraph.co.uk/business/2026/06/12/spacex-ipo-elon-musk-uk-us-retail-investors-wall-street/",
           "biasScore": 5,
           "biasSignals": [
-            "neutral financial milestone reporting",
-            "no ideological framing on valuation"
+            "'rockets to' positive verb for SpaceX",
+            "neutral financial valuation reporting"
           ],
-          "biasScoreGrok": 6,
-          "biasSignalsGrok": [
-            "rockets to valuation",
-            "debut emphasis"
-          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
           "pubDate": "Fri, 12 Jun 2026 19:33:34 GMT",
           "clusterId": "spacex-ipo-musk-trillionaire"
         },
         {
-          "id": "nbc-spacex-ipo-musk-trillionaire-12",
-          "outletId": "nbc",
-          "outletName": "NBC News",
-          "headline": "Visualizing a trillion in charts and graphics as Musk nears trillionaire status",
-          "url": "https://www.nbcnews.com/data-graphics/visualizing-trillion-charts-graphics-musk-nears-trillionaire-status-rcna349018",
-          "biasScore": 5,
+          "id": "foxnews-spacex-ipo-musk-trillionaire-3",
+          "outletId": "foxnews",
+          "outletName": "Fox News",
+          "headline": "SpaceX makes historic debut; Musk solidifies status as world’s first trillionaire",
+          "url": "https://www.foxbusiness.com/markets/spacex-ipo-elon-musk-trillionaire-net-worth",
+          "biasScore": 7,
           "biasSignals": [
-            "neutral visualization framing, factual milestone reporting",
-            "no ideological language on wealth concentration"
+            "'historic debut' celebratory framing",
+            "'solidifies status' heroic language for Musk"
           ],
-          "biasScoreGrok": 4.9,
-          "biasSignalsGrok": [
-            "trillion in charts",
-            "nears status focus"
-          ],
-          "pubDate": "2026-06-12T09:00:00Z",
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "2026-06-12T15:47:29Z",
           "clusterId": "spacex-ipo-musk-trillionaire"
         },
         {
-          "id": "marketwatch-spacex-ipo-musk-trillionaire-11",
-          "outletId": "marketwatch",
-          "outletName": "MarketWatch",
-          "headline": "How Elon Musk nailed the SpaceX IPO: ‘I’m not sure that this could have gone much better’",
-          "url": "https://www.marketwatch.com/story/how-elon-musk-nailed-the-spacex-ipo-im-not-sure-that-this-could-have-gone-much-better-8149d479?mod=mw_rss_topstories",
-          "biasScore": 5.5,
-          "biasSignals": [
-            "positive framing 'nailed the IPO' — favorable to Musk",
-            "expert quote implies success without critical balance"
-          ],
-          "biasScoreGrok": 5.5,
-          "biasSignalsGrok": [
-            "nailed the IPO",
-            "could not better"
-          ],
-          "pubDate": "Fri, 12 Jun 2026 21:57:00 GMT",
-          "clusterId": "spacex-ipo-musk-trillionaire"
-        },
-        {
-          "id": "thefederalist-spacex-ipo-musk-trillionaire-8",
+          "id": "thefederalist-spacex-ipo-musk-trillionaire-10",
           "outletId": "thefederalist",
           "outletName": "The Federalist",
           "headline": "Leftist Freak Out Over Elon Musk’s Trillionaire Status Embodies Their Hatred For Success",
           "url": "https://thefederalist.com/2026/06/12/leftist-freak-out-over-elon-musks-trillionaire-status-embodies-their-hatred-for-success/?utm_source=rss&utm_medium=rss&utm_campaign=leftist-freak-out-over-elon-musks-trillionaire-status-embodies-their-hatred-for-success",
-          "biasScore": 8.5,
+          "biasScore": 9,
           "biasSignals": [
-            "'Leftist Freak Out' — charged dismissal of critics",
-            "'Hatred For Success' — far-right victim/hero framing"
+            "'Leftist Freak Out' charged dismissive language",
+            "'Hatred For Success' frames critics as envious villains"
           ],
-          "biasScoreGrok": 8.7,
-          "biasSignalsGrok": [
-            "leftist freak out",
-            "hatred for success"
-          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
           "pubDate": "Fri, 12 Jun 2026 21:08:19 +0000",
           "clusterId": "spacex-ipo-musk-trillionaire"
         }
       ]
     },
     {
-      "id": "kennedy-center-trump-name-removal",
-      "topicLabel": "Court orders Trump name removed from Kennedy Center",
+      "id": "trump-anti-weaponization-fund-blocked",
+      "topicLabel": "Judge blocks Trump anti-weaponization Jan. 6 fund",
       "date": "2026-06-13",
       "articles": [
         {
-          "id": "guardian-kennedy-center-trump-name-removal-3",
-          "outletId": "guardian",
-          "outletName": "The Guardian",
-          "headline": "Crowd gathers at Kennedy Center after court denies Trump’s emergency appeal to keep his name on building – as it happened",
-          "url": "https://www.theguardian.com/us-news/live/2026/jun/12/donald-trump-fisa-kennedy-center-iran-ufc-white-house-latest-news-updates",
-          "biasScore": 3.2,
+          "id": "huffpost-trump-anti-weaponization-fund-blocked-4",
+          "outletId": "huffpost",
+          "outletName": "HuffPost",
+          "headline": "Federal Judge Blocks Trump’s Plan To Compensate Jan. 6 Rioters",
+          "url": "https://www.huffpost.com/entry/judge-puts-stop-on-trump-slush-fund_n_6a2c20b9e4b0942fb777b586",
+          "biasScore": 2.5,
           "biasSignals": [
-            "'court denies Trump's emergency appeal' — anti-Trump framing",
-            "live blog format amplifies anti-administration narrative"
+            "'Jan. 6 Rioters' label carries negative framing",
+            "frames blocking as federal judge defending norm"
           ],
-          "biasScoreGrok": 3.2,
-          "biasSignalsGrok": [
-            "crowd gathers",
-            "emergency appeal denied"
-          ],
-          "pubDate": "Sat, 13 Jun 2026 02:03:34 GMT",
-          "clusterId": "kennedy-center-trump-name-removal"
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "2026-06-12T15:27:34Z",
+          "clusterId": "trump-anti-weaponization-fund-blocked"
         },
         {
-          "id": "guardian-kennedy-center-trump-name-removal-4",
-          "outletId": "guardian",
-          "outletName": "The Guardian",
-          "headline": "Trump news at a glance: president’s name to be removed from Kennedy Center",
-          "url": "https://www.theguardian.com/us-news/2026/jun/12/trump-news-latest-updates-today",
+          "id": "cnn-trump-anti-weaponization-fund-blocked-0",
+          "outletId": "cnn",
+          "outletName": "CNN",
+          "headline": "Judge says she doesn’t believe ‘anti-weaponization’ fund is dead; extends order blocking it",
+          "url": "https://www.cnn.com/2026/06/12/politics/anti-weaponization-fund-ruling",
           "biasScore": 3.5,
           "biasSignals": [
-            "framing 'Trump news at a glance' implies ongoing misdeeds",
-            "removal presented as correction of overreach"
+            "quotes judge skepticism sympathetically",
+            "neutral but frames court as check on Trump"
           ],
-          "biasScoreGrok": 3.8,
-          "biasSignalsGrok": [
-            "news at a glance",
-            "to be removed"
-          ],
-          "pubDate": "Sat, 13 Jun 2026 01:25:32 GMT",
-          "clusterId": "kennedy-center-trump-name-removal"
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "2026-06-12T15:33:24Z",
+          "clusterId": "trump-anti-weaponization-fund-blocked"
         },
         {
-          "id": "independent-kennedy-center-trump-name-removal-8",
-          "outletId": "independent",
-          "outletName": "The Independent",
-          "headline": "Construction crew strips Trump’s name from Kennedy Center after president loses another legal battle",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-name-off-kennedy-center-lawsuit-b2994934.html",
-          "biasScore": 3.5,
-          "biasSignals": [
-            "'loses another legal battle' — anti-Trump pattern framing",
-            "'construction crew strips' — active verb implies correction"
-          ],
-          "biasScoreGrok": 3.5,
-          "biasSignalsGrok": [
-            "construction crew strips",
-            "loses legal battle"
-          ],
-          "pubDate": "Sat, 13 Jun 2026 11:44:24 GMT",
-          "clusterId": "kennedy-center-trump-name-removal"
-        },
-        {
-          "id": "msnbc-kennedy-center-trump-name-removal-0",
-          "outletId": "msnbc",
-          "outletName": "MSNBC",
-          "headline": "Kennedy Center board seeks delay of ruling on removal of Trump’s name by Friday deadline",
-          "url": "https://www.ms.now/news/kennedy-center-board-seeks-delay-removal-trumps-name-friday",
-          "biasScore": 3.8,
-          "biasSignals": [
-            "'seeks delay' sympathetic to board resistance framing",
-            "neutral but frames board resistance as legitimate"
-          ],
-          "biasScoreGrok": 4.2,
-          "biasSignalsGrok": [
-            "seeks delay noted",
-            "removal ruling focus"
-          ],
-          "pubDate": "2026-06-12T01:34:13Z",
-          "clusterId": "kennedy-center-trump-name-removal"
-        },
-        {
-          "id": "bostonglobe-kennedy-center-trump-name-removal-7",
-          "outletId": "bostonglobe",
-          "outletName": "Boston Globe",
-          "headline": "Trump’s name poised to be removed from Kennedy Center after court denies last-minute move to keep it",
-          "url": "https://www.bostonglobe.com/2026/06/12/nation/kennedy-center-trump-name/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
-          "biasScore": 4,
-          "biasSignals": [
-            "neutral 'poised to be removed' legal framing",
-            "balanced court outcome reporting"
-          ],
-          "biasScoreGrok": 4.1,
-          "biasSignalsGrok": [
-            "poised to be removed",
-            "last-minute move denied"
-          ],
-          "pubDate": "Fri, 12 Jun 2026 18:41:51 +0000",
-          "clusterId": "kennedy-center-trump-name-removal"
-        },
-        {
-          "id": "axios-kennedy-center-trump-name-removal-5",
-          "outletId": "axios",
-          "outletName": "Axios",
-          "headline": "Judge upholds order to remove Trump's name from Kennedy Center",
-          "url": "https://www.axios.com/2026/06/12/trump-kennedy-center-name-removal",
-          "biasScore": 4.2,
-          "biasSignals": [
-            "neutral legal outcome reporting without charged language",
-            "factual 'upholds order' framing"
-          ],
-          "biasScoreGrok": 4.5,
-          "biasSignalsGrok": [
-            "judge upholds",
-            "removal order"
-          ],
-          "pubDate": "Fri, 12 Jun 2026 18:14:26 +0000",
-          "clusterId": "kennedy-center-trump-name-removal"
-        },
-        {
-          "id": "washpost-kennedy-center-trump-name-removal-1",
+          "id": "washpost-trump-anti-weaponization-fund-blocked-1",
           "outletId": "washpost",
           "outletName": "Washington Post",
-          "headline": "Kennedy Center board to fight order to remove Trump’s name as deadline looms",
-          "url": "https://www.washingtonpost.com/style/2026/06/11/kennedy-center-board-fight-order-remove-trumps-name-deadline-looms/",
-          "biasScore": 4.5,
+          "headline": "Federal judge indefinitely blocks Trump’s $1.8 billion payout fund",
+          "url": "https://www.washingtonpost.com/national-security/2026/06/12/federal-judge-indefinitely-blocks-trumps-18-billion-payout-fund/",
+          "biasScore": 3.5,
           "biasSignals": [
-            "neutral 'veneer' framing, factual legal reporting",
-            "balanced coverage of court deadline"
+            "neutral 'indefinitely blocks' framing",
+            "no loaded language but leads with court victory over Trump"
           ],
-          "biasScoreGrok": 4,
-          "biasSignalsGrok": [
-            "to fight order",
-            "deadline looms"
-          ],
-          "pubDate": "2026-06-11T22:58:49Z",
-          "clusterId": "kennedy-center-trump-name-removal"
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "2026-06-12T15:43:56Z",
+          "clusterId": "trump-anti-weaponization-fund-blocked"
         },
         {
-          "id": "timesofisrael-kennedy-center-trump-name-removal-6",
-          "outletId": "timesofisrael",
-          "outletName": "Times of Israel",
-          "headline": "Workers begin removing Trump’s name from Kennedy Center, hours after court deadline",
-          "url": "https://www.timesofisrael.com/workers-begin-removing-trumps-name-from-kennedy-center-hours-after-court-deadline/",
-          "biasScore": 4.5,
+          "id": "thehill-trump-anti-weaponization-fund-blocked-2",
+          "outletId": "thehill",
+          "outletName": "The Hill",
+          "headline": "Judge indefinitely blocks Trump ‘anti-weaponization’ fund",
+          "url": "https://thehill.com/homenews/administration/5921844-trump-doj-anti-weaponization-fund/",
+          "biasScore": 3.5,
           "biasSignals": [
-            "neutral factual reporting on removal process",
-            "no charged language on legal outcome"
+            "neutral factual framing",
+            "no emotional language"
           ],
-          "biasScoreGrok": 5.2,
-          "biasSignalsGrok": [
-            "workers begin removing",
-            "court deadline hours"
-          ],
-          "pubDate": "Sat, 13 Jun 2026 11:08:02 +0000",
-          "clusterId": "kennedy-center-trump-name-removal"
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "2026-06-12T15:48:18Z",
+          "clusterId": "trump-anti-weaponization-fund-blocked"
         },
         {
-          "id": "nypost-kennedy-center-trump-name-removal-2",
-          "outletId": "nypost",
-          "outletName": "NY Post",
-          "headline": "Trump’s name removed from Kennedy Center in predawn operation",
-          "url": "https://nypost.com/2026/06/13/us-news/trumps-name-removal-from-kennedy-center-delayed-due-to-thunderstorms/",
-          "biasScore": 6.5,
+          "id": "bloomberg-trump-anti-weaponization-fund-blocked-3",
+          "outletId": "bloomberg",
+          "outletName": "Bloomberg",
+          "headline": "Judge Rejects DOJ Assurance ‘Weaponization’ Fund Is Defunct",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-12/judge-rejects-doj-assurance-weaponization-fund-is-defunct",
+          "biasScore": 4.5,
           "biasSignals": [
-            "'predawn operation' — dramatic framing implies stealth",
-            "implies removal was secretive/improper action"
+            "neutral 'rejects assurance' framing",
+            "balanced legal reporting language"
           ],
-          "biasScoreGrok": 7.5,
-          "biasSignalsGrok": [
-            "predawn operation",
-            "name removed lead"
-          ],
-          "pubDate": "Fri, 12 Jun 2026 23:51:58 -0700",
-          "clusterId": "kennedy-center-trump-name-removal"
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "2026-06-12T14:57:24+00:00",
+          "clusterId": "trump-anti-weaponization-fund-blocked"
         }
       ]
     },
     {
-      "id": "ufc-white-house-trump-birthday",
-      "topicLabel": "Trump hosts UFC fight at White House birthday event",
+      "id": "trump-ufc-white-house-birthday",
+      "topicLabel": "Trump hosts UFC fight at White House for birthday",
       "date": "2026-06-13",
       "articles": [
         {
-          "id": "bostonglobe-ufc-white-house-trump-birthday-7",
+          "id": "bostonglobe-trump-ufc-white-house-birthday-6",
           "outletId": "bostonglobe",
           "outletName": "Boston Globe",
           "headline": "‘His ego is out of control.’ The White House UFC fight is another Trump birthday spectacle.",
           "url": "https://www.bostonglobe.com/2026/06/13/nation/ufc-white-house-trump/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
-          "biasScore": 2.8,
+          "biasScore": 2.5,
           "biasSignals": [
-            "'ego is out of control' — direct attack framing",
-            "'another Trump birthday spectacle' implies pattern of excess"
+            "'ego is out of control' charged critical framing",
+            "'tasteless birthday spectacle' editorial condemnation"
           ],
-          "biasScoreGrok": 3,
-          "biasSignalsGrok": [
-            "ego out of control",
-            "birthday spectacle"
-          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
           "pubDate": "Sat, 13 Jun 2026 04:01:00 +0000",
-          "clusterId": "ufc-white-house-trump-birthday"
+          "clusterId": "trump-ufc-white-house-birthday"
         },
         {
-          "id": "guardian-ufc-white-house-trump-birthday-4",
-          "outletId": "guardian",
-          "outletName": "The Guardian",
-          "headline": "Seven fights on the South Lawn: Trump prepares for UFC birthday spectacle at White House",
-          "url": "https://www.theguardian.com/us-news/2026/jun/13/trump-ufc-birthday-white-house",
-          "biasScore": 3.5,
+          "id": "independent-trump-ufc-white-house-birthday-7",
+          "outletId": "independent",
+          "outletName": "The Independent",
+          "headline": "Bill Maher slams ‘redneck’ Trump over UFC fight: ‘The emperor is holding gladiator games on his birthday’",
+          "url": "https://www.independent.co.uk/arts-entertainment/tv/news/bill-maher-trump-birthday-ufc-fight-b2995171.html",
+          "biasScore": 2.5,
           "biasSignals": [
-            "'birthday spectacle' implies vanity/excess framing",
-            "critical framing of event as performative"
+            "'redneck' pejorative used against Trump",
+            "'gladiator games' framing invokes imperial excess"
           ],
-          "biasScoreGrok": 4.3,
-          "biasSignalsGrok": [
-            "seven fights noted",
-            "spectacle prepares"
-          ],
-          "pubDate": "Sat, 13 Jun 2026 09:00:10 GMT",
-          "clusterId": "ufc-white-house-trump-birthday"
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "Sat, 13 Jun 2026 15:48:00 GMT",
+          "clusterId": "trump-ufc-white-house-birthday"
         },
         {
-          "id": "npr-ufc-white-house-trump-birthday-2",
+          "id": "huffpost-trump-ufc-white-house-birthday-8",
+          "outletId": "huffpost",
+          "outletName": "HuffPost",
+          "headline": "Historians Say ‘Strange Things’ Have Happened At The White House — But Nothing As ‘Tasteless’ As Trump’s UFC Fight",
+          "url": "https://www.huffpost.com/entry/trump-white-house-ufc_n_6a2859bbe4b0d7105b0e208b",
+          "biasScore": 2.5,
+          "biasSignals": [
+            "'tasteless' historian sourcing frames event negatively",
+            "'nothing as tasteless' superlative condemnation"
+          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "2026-06-12T12:11:24Z",
+          "clusterId": "trump-ufc-white-house-birthday"
+        },
+        {
+          "id": "theatlantic-trump-ufc-white-house-birthday-9",
+          "outletId": "theatlantic",
+          "outletName": "The Atlantic",
+          "headline": "The Emperor Has No Ludus Magnus",
+          "url": "https://www.theatlantic.com/ideas/2026/06/trump-gladiator-fight-ufc/687531/?utm_source=feed",
+          "biasScore": 2.5,
+          "biasSignals": [
+            "'Emperor has no Ludus Magnus' imperial mockery",
+            "frames event through lens of Roman excess"
+          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "Sat, 13 Jun 2026 06:00:00 -0400",
+          "clusterId": "trump-ufc-white-house-birthday"
+        },
+        {
+          "id": "npr-trump-ufc-white-house-birthday-1",
           "outletId": "npr",
           "outletName": "NPR",
           "headline": "Controversy swirls around the UFC event on the White House lawn this weekend",
           "url": "https://www.npr.org/2026/06/12/nx-s1-5850325/controversy-swirls-around-the-ufc-event-on-the-white-house-lawn-this-weekend",
-          "biasScore": 3.8,
+          "biasScore": 3.5,
           "biasSignals": [
-            "'Controversy swirls' — leads with opposition framing",
-            "neutral sourcing but controversy emphasis is left-leaning"
+            "'controversy swirls' implies widespread opposition",
+            "frames event as problematic without balance"
           ],
-          "biasScoreGrok": 3.9,
-          "biasSignalsGrok": [
-            "controversy swirls",
-            "lawn event weekend"
-          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
           "pubDate": "Fri, 12 Jun 2026 16:12:26 -0400",
-          "clusterId": "ufc-white-house-trump-birthday"
+          "clusterId": "trump-ufc-white-house-birthday"
         },
         {
-          "id": "bostonglobe-ufc-white-house-trump-birthday-8",
-          "outletId": "bostonglobe",
-          "outletName": "Boston Globe",
-          "headline": "Judge rules Trump can stage UFC fights on White House South Lawn. See how the day unfolded.",
-          "url": "https://www.bostonglobe.com/2026/06/12/nation/trump-presidency-live-updates/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
-          "biasScore": 4.2,
+          "id": "guardian-trump-ufc-white-house-birthday-3",
+          "outletId": "guardian",
+          "outletName": "The Guardian",
+          "headline": "Marjorie Taylor Greene criticizes Trump’s 80th birthday UFC event on White House lawn",
+          "url": "https://www.theguardian.com/us-news/2026/jun/13/marjorie-taylor-greene-trump-ufc-event",
+          "biasScore": 3.5,
           "biasSignals": [
-            "neutral live blog format, factual legal outcome reporting",
-            "minimal ideological framing in procedural coverage"
+            "leads with Republican critic of Trump",
+            "frames event as controversial via MTG criticism"
           ],
-          "biasScoreGrok": 4.8,
-          "biasSignalsGrok": [
-            "judge rules can stage",
-            "day unfolded see"
-          ],
-          "pubDate": "Fri, 12 Jun 2026 04:02:07 +0000",
-          "clusterId": "ufc-white-house-trump-birthday"
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "Sat, 13 Jun 2026 15:30:10 GMT",
+          "clusterId": "trump-ufc-white-house-birthday"
         },
         {
-          "id": "cnn-ufc-white-house-trump-birthday-1",
+          "id": "cnn-trump-ufc-white-house-birthday-0",
           "outletId": "cnn",
           "outletName": "CNN",
           "headline": "How Trump decided to host a UFC fight at the White House",
           "url": "https://www.cnn.com/2026/06/12/politics/ufc-trump-white-house",
-          "biasScore": 4.8,
+          "biasScore": 5,
           "biasSignals": [
-            "neutral 'how Trump decided' procedural framing",
-            "no charged language on White House event"
+            "neutral 'how Trump decided' framing",
+            "no loaded language in headline"
           ],
-          "biasScoreGrok": 5.4,
-          "biasSignalsGrok": [
-            "how Trump decided",
-            "White House host"
-          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
           "pubDate": "2026-06-12T10:00:08Z",
-          "clusterId": "ufc-white-house-trump-birthday"
+          "clusterId": "trump-ufc-white-house-birthday"
         },
         {
-          "id": "cnn-ufc-white-house-trump-birthday-0",
-          "outletId": "cnn",
-          "outletName": "CNN",
-          "headline": "Rubio compares UFC to moon landing | CNN Politics",
-          "url": "https://www.cnn.com/2026/06/11/politics/video/rubio-compares-ufc-to-moon-landing-vrtc",
-          "biasScore": 5.5,
+          "id": "nypost-trump-ufc-white-house-birthday-2",
+          "outletId": "nypost",
+          "outletName": "NY Post",
+          "headline": "How President Trump ‘utterly’ defies age as he turns 80: ‘I don’t know where he gets the energy’",
+          "url": "https://nypost.com/2026/06/13/us-news/birthday-dynamo-president-trump-utterly-defies-age-at-80/",
+          "biasScore": 7.5,
           "biasSignals": [
-            "Rubio 'compares' framing implies hyperbolic statement",
-            "mild skeptical framing of administration rhetoric"
+            "'utterly defies age' heroic framing for Trump",
+            "positive celebratory language throughout"
           ],
-          "biasScoreGrok": 5,
-          "biasSignalsGrok": [
-            "compares to moon landing",
-            "UFC event noted"
-          ],
-          "pubDate": "2026-06-12T10:52:49.1205834Z",
-          "clusterId": "ufc-white-house-trump-birthday"
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "Sat, 13 Jun 2026 10:34:33 -0400",
+          "clusterId": "trump-ufc-white-house-birthday"
         },
         {
-          "id": "thefederalist-ufc-white-house-trump-birthday-5",
+          "id": "thefederalist-trump-ufc-white-house-birthday-4",
           "outletId": "thefederalist",
           "outletName": "The Federalist",
           "headline": "Every Ring Girl’s Costume For UFC Freedom 250, On A Scale Of Sexy Martha Washington To 10",
           "url": "https://thefederalist.com/2026/06/13/every-ring-girls-costume-for-ufc-freedom-250-on-a-scale-of-sexy-martha-washington-to-10/?utm_source=rss&utm_medium=rss&utm_campaign=every-ring-girls-costume-for-ufc-freedom-250-on-a-scale-of-sexy-martha-washington-to-10",
-          "biasScore": 7.8,
+          "biasScore": 8.5,
           "biasSignals": [
-            "celebratory framing of UFC ring girls costumes",
-            "pro-event tone mocking critics of spectacle"
+            "celebratory framing of UFC ring girls",
+            "mocks media critics with 'sexy Martha Washington' humor"
           ],
-          "biasScoreGrok": 7.8,
-          "biasSignalsGrok": [
-            "ring girl costumes",
-            "sexy Martha scale"
-          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
           "pubDate": "Sat, 13 Jun 2026 09:39:00 +0000",
-          "clusterId": "ufc-white-house-trump-birthday"
+          "clusterId": "trump-ufc-white-house-birthday"
         },
         {
-          "id": "thefederalist-ufc-white-house-trump-birthday-6",
+          "id": "thefederalist-trump-ufc-white-house-birthday-5",
           "outletId": "thefederalist",
           "outletName": "The Federalist",
           "headline": "Newsweek Aghast At UFC Girls’ Star-Spangled Costumes After Defending ‘Right’ To Burn US Flag",
           "url": "https://thefederalist.com/2026/06/12/newsweek-aghast-at-ufc-girls-star-spangled-costumes-after-defending-right-to-burn-us-flag/?utm_source=rss&utm_medium=rss&utm_campaign=newsweek-aghast-at-ufc-girls-star-spangled-costumes-after-defending-right-to-burn-us-flag",
-          "biasScore": 8,
+          "biasScore": 8.5,
           "biasSignals": [
-            "'Leftist Freak Out' — dismissive charged language",
-            "defends costumes by attacking progressive critics"
+            "'Newsweek Aghast' mocks left media reaction",
+            "frames flag-burning defense as hypocritical leftism"
           ],
-          "biasScoreGrok": 8.5,
-          "biasSignalsGrok": [
-            "aghast at costumes",
-            "flag burn defended"
-          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
           "pubDate": "Fri, 12 Jun 2026 19:16:32 +0000",
-          "clusterId": "ufc-white-house-trump-birthday"
-        },
-        {
-          "id": "breitbart-ufc-white-house-trump-birthday-3",
-          "outletId": "breitbart",
-          "outletName": "Breitbart",
-          "headline": "Weekend: UFC White House Fight Is On After Leftist Lawsuit Fails",
-          "url": "https://www.breitbart.com/clips/2026/06/12/weekend-ufc-white-house-fight-is-on-after-leftist-lawsuit-fails/",
-          "biasScore": 8.2,
-          "biasSignals": [
-            "'Leftist Lawsuit Fails' — charged partisan framing",
-            "celebratory 'Is On' tone favoring administration"
-          ],
-          "biasScoreGrok": 8.2,
-          "biasSignalsGrok": [
-            "leftist lawsuit fails",
-            "fight is on"
-          ],
-          "pubDate": "Fri, 12 Jun 2026 23:25:46 +0000",
-          "clusterId": "ufc-white-house-trump-birthday"
+          "clusterId": "trump-ufc-white-house-birthday"
         }
       ]
     },
     {
-      "id": "david-hockney-death",
-      "topicLabel": "Celebrated British artist David Hockney dies at 88",
+      "id": "texas-active-shooter",
+      "topicLabel": "Active shooter incident in Midland Texas",
       "date": "2026-06-13",
       "articles": [
         {
-          "id": "washpost-david-hockney-death-1",
-          "outletId": "washpost",
-          "outletName": "Washington Post",
-          "headline": "David Hockney, artist who made a multimillion-dollar splash, dies at 88",
-          "url": "https://www.washingtonpost.com/obituaries/2026/06/12/david-hockney-influential-british-artist-dies-88/",
-          "biasScore": 4.7,
-          "biasSignals": [
-            "neutral 'multimillion-dollar splash' wordplay, no bias",
-            "factual obituary framing without ideological signals"
-          ],
-          "biasScoreGrok": 5,
-          "biasSignalsGrok": [
-            "multimillion splash made",
-            "dies at 88"
-          ],
-          "pubDate": "2026-06-12T10:22:16Z",
-          "clusterId": "david-hockney-death"
-        },
-        {
-          "id": "independent-david-hockney-death-5",
-          "outletId": "independent",
-          "outletName": "The Independent",
-          "headline": "Harry Styles pays touching tribute to late David Hockney at Wembley show",
-          "url": "https://www.independent.co.uk/bulletin/culture/harry-styles-david-hockney-tribute-wembley-b2995141.html",
-          "biasScore": 4.7,
-          "biasSignals": [
-            "neutral tribute coverage via celebrity reaction",
-            "no ideological framing in arts reporting"
-          ],
-          "biasScoreGrok": 4.7,
-          "biasSignalsGrok": [
-            "Harry Styles tribute",
-            "Wembley show"
-          ],
-          "pubDate": "Sat, 13 Jun 2026 11:41:05 GMT",
-          "clusterId": "david-hockney-death"
-        },
-        {
-          "id": "cnn-david-hockney-death-0",
+          "id": "cnn-texas-active-shooter-0",
           "outletId": "cnn",
           "outletName": "CNN",
-          "headline": "Celebrated British artist David Hockney dies at 88",
-          "url": "https://www.cnn.com/2026/06/12/style/artist-david-hockney-death-intl",
-          "biasScore": 4.8,
-          "biasSignals": [
-            "neutral obituary framing, celebratory tone",
-            "no ideological signals in arts coverage"
-          ],
-          "biasScoreGrok": 5.2,
-          "biasSignalsGrok": [
-            "celebrated artist dies",
-            "age noted neutral"
-          ],
-          "pubDate": "2026-06-12T09:57:36Z",
-          "clusterId": "david-hockney-death"
-        },
-        {
-          "id": "bbc-david-hockney-death-2",
-          "outletId": "bbc",
-          "outletName": "BBC",
-          "headline": "David Hockney obituary: A genius in practically every medium",
-          "url": "https://www.bbc.co.uk/news/articles/ck77rg88gd9o",
-          "biasScore": 4.8,
-          "biasSignals": [
-            "'genius in practically every medium' celebratory tone",
-            "no ideological framing in arts obituary"
-          ],
-          "biasScoreGrok": 5.5,
-          "biasSignalsGrok": [
-            "genius in medium",
-            "obituary praise"
-          ],
-          "pubDate": "2026-06-12T10:37:23.1610262Z",
-          "clusterId": "david-hockney-death"
-        },
-        {
-          "id": "abc-david-hockney-death-3",
-          "outletId": "abc",
-          "outletName": "ABC News",
-          "headline": "David Hockney, artist renowned for his pool scenes, has died at 88",
-          "url": "https://abcnews.com/Entertainment/wireStory/david-hockney-artist-renowned-pool-scenes-died-88-133809250",
-          "biasScore": 4.8,
-          "biasSignals": [
-            "neutral factual obituary reporting",
-            "no partisan framing in arts coverage"
-          ],
-          "biasScoreGrok": 5.1,
-          "biasSignalsGrok": [
-            "renowned for pool",
-            "scenes dies"
-          ],
-          "pubDate": "2026-06-12T09:48:50Z",
-          "clusterId": "david-hockney-death"
-        },
-        {
-          "id": "nbc-david-hockney-death-4",
-          "outletId": "nbc",
-          "outletName": "NBC News",
-          "headline": "David Hockney, giant of British contemporary art, dies aged 88",
-          "url": "https://www.nbcnews.com/pop-culture/pop-culture-news/david-hockney-giant-british-art-dies-rcna349756",
-          "biasScore": 4.8,
-          "biasSignals": [
-            "'giant of British contemporary art' celebratory neutral",
-            "no ideological signals in obituary framing"
-          ],
-          "biasScoreGrok": 5.3,
-          "biasSignalsGrok": [
-            "giant of art",
-            "contemporary British"
-          ],
-          "pubDate": "2026-06-12T10:21:30Z",
-          "clusterId": "david-hockney-death"
-        }
-      ]
-    },
-    {
-      "id": "ice-immigration-enforcement",
-      "topicLabel": "ICE immigration enforcement actions spark controversy",
-      "date": "2026-06-13",
-      "articles": [
-        {
-          "id": "msnbc-ice-immigration-enforcement-1",
-          "outletId": "msnbc",
-          "outletName": "MSNBC",
-          "headline": "ICE brings this far-right streamer on immigration raids as he pumps out MAGA propaganda",
-          "url": "https://www.ms.now/news/ice-maga-ben-bergquam-real-america-voice",
-          "biasScore": 1.8,
-          "biasSignals": [
-            "'far-right streamer' — charged partisan label",
-            "'MAGA propaganda' — heavily loaded dismissive framing"
-          ],
-          "biasScoreGrok": 1.9,
-          "biasSignalsGrok": [
-            "far-right streamer",
-            "MAGA propaganda"
-          ],
-          "pubDate": "2026-06-12T10:00:00Z",
-          "clusterId": "ice-immigration-enforcement"
-        },
-        {
-          "id": "npr-ice-immigration-enforcement-3",
-          "outletId": "npr",
-          "outletName": "NPR",
-          "headline": "Door shuts on some immigrant entrepreneurs as U.S. restricts small-business loans",
-          "url": "https://www.npr.org/2026/06/12/nx-s1-5853375/changes-loans-trump-small-business-immigrants-entrepreneurs-green-card",
-          "biasScore": 3,
-          "biasSignals": [
-            "'door shuts' — closed opportunity victim framing",
-            "'immigrant entrepreneurs' — sympathetic subject framing"
-          ],
-          "biasScoreGrok": 3.2,
-          "biasSignalsGrok": [
-            "door shuts on",
-            "restricts loans"
-          ],
-          "pubDate": "Fri, 12 Jun 2026 05:01:00 -0400",
-          "clusterId": "ice-immigration-enforcement"
-        },
-        {
-          "id": "cnn-ice-immigration-enforcement-0",
-          "outletId": "cnn",
-          "outletName": "CNN",
-          "headline": "Immigration agents detain 2 people on school grounds in Baltimore, sparking backlash",
-          "url": "https://www.cnn.com/2026/06/11/us/baltimore-school-ice-arrest-maryland",
-          "biasScore": 3.2,
-          "biasSignals": [
-            "'sparking backlash' — leads with opposition reaction",
-            "'detain' on school grounds implies vulnerable victim framing"
-          ],
-          "biasScoreGrok": 2.8,
-          "biasSignalsGrok": [
-            "sparking backlash",
-            "school grounds detain"
-          ],
-          "pubDate": "2026-06-12T03:08:41Z",
-          "clusterId": "ice-immigration-enforcement"
-        },
-        {
-          "id": "guardian-ice-immigration-enforcement-5",
-          "outletId": "guardian",
-          "outletName": "The Guardian",
-          "headline": "ICE, borders and DHS: what’s in Trump’s $70bn immigration crackdown bill?",
-          "url": "https://www.theguardian.com/us-news/2026/jun/13/ice-border-patrol-funding-bill",
-          "biasScore": 3.2,
-          "biasSignals": [
-            "'crackdown' used to describe immigration bill",
-            "'$70bn immigration crackdown' implies excessive force framing"
-          ],
-          "biasScoreGrok": 2.5,
-          "biasSignalsGrok": [
-            "crackdown bill term",
-            "70bn immigration"
-          ],
-          "pubDate": "Sat, 13 Jun 2026 11:00:12 GMT",
-          "clusterId": "ice-immigration-enforcement"
-        },
-        {
-          "id": "axios-ice-immigration-enforcement-6",
-          "outletId": "axios",
-          "outletName": "Axios",
-          "headline": "Scoop: ICE detention numbers slip",
-          "url": "https://www.axios.com/2026/06/12/ice-detention-population-beds",
-          "biasScore": 3.8,
-          "biasSignals": [
-            "'slip' implies failure of enforcement policy",
-            "neutral framing but frames detention decline as notable"
-          ],
-          "biasScoreGrok": 5.6,
-          "biasSignalsGrok": [
-            "detention numbers slip",
-            "scoop lead"
-          ],
-          "pubDate": "Fri, 12 Jun 2026 20:02:16 +0000",
-          "clusterId": "ice-immigration-enforcement"
-        },
-        {
-          "id": "abc-ice-immigration-enforcement-7",
-          "outletId": "abc",
-          "outletName": "ABC News",
-          "headline": "Anti-ICE protester sentenced to 30 months in prison for assaulting a federal officer",
-          "url": "https://abcnews.com/US/wireStory/anti-ice-protester-portland-sentenced-30-months-prison-133802888",
+          "headline": "Officers in standoff with suspect after active shooter incident in Texas",
+          "url": "https://www.cnn.com/2026/06/12/us/midland-texas-active-shooter",
           "biasScore": 4.5,
           "biasSignals": [
-            "'anti-ICE protester' vs 'assaulting federal officer' balance",
-            "neutral legal outcome framing"
+            "neutral 'standoff with suspect' language",
+            "factual reporting without political framing"
           ],
-          "biasScoreGrok": 6.8,
-          "biasSignalsGrok": [
-            "anti-ICE protester",
-            "assaulting officer"
-          ],
-          "pubDate": "2026-06-12T00:25:32Z",
-          "clusterId": "ice-immigration-enforcement"
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "2026-06-12T15:39:16Z",
+          "clusterId": "texas-active-shooter"
         },
         {
-          "id": "nytimes-ice-immigration-enforcement-2",
-          "outletId": "nytimes",
-          "outletName": "NY Times",
-          "headline": "Trump Administration Says It Will Restart Asylum and Immigration Processing",
-          "url": "https://www.nytimes.com/2026/06/12/us/politics/trump-uscis-asylum-immigration.html",
-          "biasScore": 5.5,
+          "id": "bostonglobe-texas-active-shooter-1",
+          "outletId": "bostonglobe",
+          "outletName": "Boston Globe",
+          "headline": "Shooter kills 1, injures 10 in Texas days after firing at police officer, officials say",
+          "url": "https://www.bostonglobe.com/2026/06/13/nation/shooter-kills-1-injures-10-in-texas-days-after-firing-at-police-officer-officials/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
+          "biasScore": 4.5,
           "biasSignals": [
-            "neutral 'restart' framing of policy change",
-            "administration voice presented without strong skepticism"
+            "neutral factual reporting",
+            "no ideological signals"
           ],
-          "biasScoreGrok": 4.5,
-          "biasSignalsGrok": [
-            "restart processing",
-            "administration says"
-          ],
-          "pubDate": "Fri, 12 Jun 2026 22:56:06 +0000",
-          "clusterId": "ice-immigration-enforcement"
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "Sat, 13 Jun 2026 04:20:45 +0000",
+          "clusterId": "texas-active-shooter"
         },
         {
-          "id": "foxnews-ice-immigration-enforcement-8",
-          "outletId": "foxnews",
-          "outletName": "Fox News",
-          "headline": "Portland man sentenced to 30 months in prison for throwing rock at ICE officer during protest",
-          "url": "https://www.foxnews.com/us/portland-man-sentenced-30-months-prison-throwing-rock-ice-officer-protest",
-          "biasScore": 6.8,
+          "id": "abc-texas-active-shooter-2",
+          "outletId": "abc",
+          "outletName": "ABC News",
+          "headline": "'Active shooter situation' reported in Midland, Texas: Sheriff",
+          "url": "https://abcnews.com/US/active-shooter-situation-reported-midland-texas-sheriff/story?id=133819321",
+          "biasScore": 4.5,
           "biasSignals": [
-            "frames rock-throwing as attack on law enforcement",
-            "sentence length leads, emphasizes accountability framing"
+            "neutral 'active shooter situation' language",
+            "factual attribution to sheriff"
           ],
-          "biasScoreGrok": 7.2,
-          "biasSignalsGrok": [
-            "throwing rock at",
-            "ICE officer protest"
-          ],
-          "pubDate": "2026-06-12T09:52:21.6780555Z",
-          "clusterId": "ice-immigration-enforcement"
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "2026-06-12T15:30:53Z",
+          "clusterId": "texas-active-shooter"
         },
         {
-          "id": "breitbart-ice-immigration-enforcement-4",
-          "outletId": "breitbart",
-          "outletName": "Breitbart",
-          "headline": "Bessent Says Illegal Employment Schemes Tied to $2.5 Billion in Suspected Payroll Tax Fraud",
-          "url": "https://www.breitbart.com/politics/2026/06/12/bessent-says-illegal-employment-schemes-tied-to-2-5-billion-in-suspected-payroll-tax-fraud/",
-          "biasScore": 7.5,
+          "id": "nbc-texas-active-shooter-3",
+          "outletId": "nbc",
+          "outletName": "NBC News",
+          "headline": "At least 1 dead, 11 victims in active shooting incident in Texas; gunman barricaded in standoff",
+          "url": "https://www.nbcnews.com/news/us-news/least-1-dead-11-victims-active-shooting-incident-texas-gunman-barricad-rcna349808",
+          "biasScore": 4.5,
           "biasSignals": [
-            "'Illegal Employment Schemes' — charged enforcement language",
-            "large dollar fraud figure leads to justify crackdown"
+            "neutral factual body count framing",
+            "no political loading"
           ],
-          "biasScoreGrok": 7.9,
-          "biasSignalsGrok": [
-            "illegal employment",
-            "tax fraud suspected"
-          ],
-          "pubDate": "Sat, 13 Jun 2026 00:52:24 +0000",
-          "clusterId": "ice-immigration-enforcement"
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "2026-06-12T15:59:52Z",
+          "clusterId": "texas-active-shooter"
         }
       ]
     },
     {
-      "id": "anthropic-ai-foreign-access-ban",
-      "topicLabel": "US government blocks foreign access to Anthropic AI",
+      "id": "anthropic-ai-access-blocked",
+      "topicLabel": "US government orders Anthropic to block AI access",
       "date": "2026-06-13",
       "articles": [
         {
-          "id": "cnbc-anthropic-ai-foreign-access-ban-1",
+          "id": "cnbc-anthropic-ai-access-blocked-0",
           "outletId": "cnbc",
           "outletName": "CNBC",
           "headline": "Anthropic disables access to Fable 5 and Mythos 5 to comply with government directive",
           "url": "https://www.cnbc.com/2026/06/12/anthropic-disables-access-to-fable-5-and-mythos-5-to-comply-with-government-directive.html",
-          "biasScore": 4.8,
+          "biasScore": 4.5,
           "biasSignals": [
-            "neutral compliance framing 'to comply with government'",
-            "factual reporting without ideological signals"
+            "neutral 'disables access' language",
+            "factual compliance reporting"
           ],
-          "biasScoreGrok": 5.4,
-          "biasSignalsGrok": [
-            "disables access to",
-            "comply directive"
-          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
           "pubDate": "Sat, 13 Jun 2026 01:36:34 GMT",
-          "clusterId": "anthropic-ai-foreign-access-ban"
+          "clusterId": "anthropic-ai-access-blocked"
         },
         {
-          "id": "axios-anthropic-ai-foreign-access-ban-2",
+          "id": "timesofisrael-anthropic-ai-access-blocked-2",
+          "outletId": "timesofisrael",
+          "outletName": "Times of Israel",
+          "headline": "Anthropic says it cut access to powerful AI models over US ‘national security’ order",
+          "url": "https://www.timesofisrael.com/anthropic-says-it-cut-access-to-powerful-ai-models-over-us-national-security-order/",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral 'cut access' language",
+            "national security order presented factually"
+          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "Sat, 13 Jun 2026 12:33:06 +0000",
+          "clusterId": "anthropic-ai-access-blocked"
+        },
+        {
+          "id": "skynews-anthropic-ai-access-blocked-3",
+          "outletId": "skynews",
+          "outletName": "Sky News",
+          "headline": "Anthropic withdraws access to powerful AI model after US government order",
+          "url": "https://news.sky.com/story/anthropic-withdraws-access-to-powerful-ai-model-after-us-government-order-13553685",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral 'withdraws access' language",
+            "factual compliance framing"
+          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "Sat, 13 Jun 2026 14:08:00 +0100",
+          "clusterId": "anthropic-ai-access-blocked"
+        },
+        {
+          "id": "axios-anthropic-ai-access-blocked-1",
           "outletId": "axios",
           "outletName": "Axios",
           "headline": "Scoop: Trump admin blocks foreign access to Anthropic's most powerful AI",
           "url": "https://www.axios.com/2026/06/12/anthropic-trump-mythos-fable-national-security",
-          "biasScore": 5.2,
+          "biasScore": 5,
           "biasSignals": [
-            "'blocks foreign access' neutral security framing",
-            "'Scoop' label emphasizes exclusivity without bias"
+            "neutral 'blocks foreign access' framing",
+            "national security framing without criticism"
           ],
-          "biasScoreGrok": 6.5,
-          "biasSignalsGrok": [
-            "scoop Trump admin",
-            "blocks powerful AI"
-          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
           "pubDate": "Sat, 13 Jun 2026 01:35:52 +0000",
-          "clusterId": "anthropic-ai-foreign-access-ban"
-        },
-        {
-          "id": "aljazeera-anthropic-ai-foreign-access-ban-0",
-          "outletId": "aljazeera",
-          "outletName": "Al Jazeera",
-          "headline": "US orders Anthropic to disable AI models for all foreign nationals",
-          "url": "https://www.aljazeera.com/news/2026/6/13/us-orders-anthropic-to-disable-ai-models-for-all-foreign-nationals?traffic_source=rss",
-          "biasScore": 5.5,
-          "biasSignals": [
-            "'orders' framing implies government authority neutrally",
-            "no partisan framing on national security AI decision"
-          ],
-          "biasScoreGrok": 6,
-          "biasSignalsGrok": [
-            "orders disable access",
-            "foreign nationals"
-          ],
-          "pubDate": "Sat, 13 Jun 2026 09:35:12 +0000",
-          "clusterId": "anthropic-ai-foreign-access-ban"
-        }
-      ]
-    },
-    {
-      "id": "paramount-warner-bros-merger",
-      "topicLabel": "DOJ approves Paramount acquisition of Warner Bros.",
-      "date": "2026-06-13",
-      "articles": [
-        {
-          "id": "timesofisrael-paramount-warner-bros-merger-2",
-          "outletId": "timesofisrael",
-          "outletName": "Times of Israel",
-          "headline": "US approves Paramount-Warner Bros. $110 billion merger, as state lawsuits loom",
-          "url": "https://www.timesofisrael.com/us-approves-paramount-warner-bros-110-billion-merger-as-state-lawsuits-loom/",
-          "biasScore": 4.7,
-          "biasSignals": [
-            "neutral approval reporting with state lawsuits caveat",
-            "balanced noting of future legal challenges"
-          ],
-          "biasScoreGrok": 5.8,
-          "biasSignalsGrok": [
-            "approves 110bn merger",
-            "state lawsuits loom"
-          ],
-          "pubDate": "Sat, 13 Jun 2026 07:50:50 +0000",
-          "clusterId": "paramount-warner-bros-merger"
-        },
-        {
-          "id": "skynews-paramount-warner-bros-merger-4",
-          "outletId": "skynews",
-          "outletName": "Sky News",
-          "headline": "Paramount takeover of Warner Bros 'won't harm competition or consumers'",
-          "url": "https://news.sky.com/story/paramount-takeover-of-warner-bros-wont-harm-competition-or-consumers-doj-says-13553573",
-          "biasScore": 4.7,
-          "biasSignals": [
-            "'won't harm competition' — positive regulatory framing",
-            "neutral consumer protection angle without partisan spin"
-          ],
-          "biasScoreGrok": 5.7,
-          "biasSignalsGrok": [
-            "won't harm competition",
-            "consumers noted"
-          ],
-          "pubDate": "Sat, 13 Jun 2026 01:15:00 +0100",
-          "clusterId": "paramount-warner-bros-merger"
-        },
-        {
-          "id": "cnbc-paramount-warner-bros-merger-1",
-          "outletId": "cnbc",
-          "outletName": "CNBC",
-          "headline": "Paramount-WBD merger wins approval from DOJ",
-          "url": "https://www.cnbc.com/2026/06/12/paramount-wbd-merger-approval-doj.html",
-          "biasScore": 4.8,
-          "biasSignals": [
-            "neutral 'wins approval' framing, factual business news",
-            "no partisan framing on regulatory outcome"
-          ],
-          "biasScoreGrok": 5.5,
-          "biasSignalsGrok": [
-            "merger wins approval",
-            "DOJ noted"
-          ],
-          "pubDate": "Fri, 12 Jun 2026 22:54:06 GMT",
-          "clusterId": "paramount-warner-bros-merger"
-        },
-        {
-          "id": "latimes-paramount-warner-bros-merger-3",
-          "outletId": "latimes",
-          "outletName": "LA Times",
-          "headline": "Justice Dept. approves Paramount's acquisition of Warner Bros.",
-          "url": "https://www.latimes.com/entertainment-arts/business/story/2026-06-12/paramount-warner-bros-wins-doj-approval",
-          "biasScore": 4.8,
-          "biasSignals": [
-            "neutral 'approves' verb, factual merger reporting",
-            "no ideological framing on media consolidation"
-          ],
-          "biasScoreGrok": 5.2,
-          "biasSignalsGrok": [
-            "approves acquisition",
-            "justice dept"
-          ],
-          "pubDate": "Fri, 12 Jun 2026 22:01:42 GMT",
-          "clusterId": "paramount-warner-bros-merger"
-        },
-        {
-          "id": "dailycaller-paramount-warner-bros-merger-0",
-          "outletId": "dailycaller",
-          "outletName": "Daily Caller",
-          "headline": "DOJ Approves Paramount Take Over Of Warner Bros",
-          "url": "https://dailycaller.com/2026/06/12/doj-anti-trust-to-approve-paramount-warner-bros-take-over-merger/",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral 'approves' framing, factual DOJ decision",
-            "no ideological signals in business reporting"
-          ],
-          "biasScoreGrok": 6.8,
-          "biasSignalsGrok": [
-            "approves take over",
-            "DOJ lead"
-          ],
-          "pubDate": "Fri, 12 Jun 2026 21:44:46 +0000",
-          "clusterId": "paramount-warner-bros-merger"
-        }
-      ]
-    },
-    {
-      "id": "tren-de-aragua-leader-killed",
-      "topicLabel": "Trump announces US strike killed Venezuelan gang leader",
-      "date": "2026-06-13",
-      "articles": [
-        {
-          "id": "guardian-tren-de-aragua-leader-killed-1",
-          "outletId": "guardian",
-          "outletName": "The Guardian",
-          "headline": "Trump says leader of Venezuelan Tren de Aragua gang killed in US strike",
-          "url": "https://www.theguardian.com/us-news/2026/jun/12/trump-venezuela-tren-de-aragua-leader-killed",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral 'Trump says' attribution framing",
-            "no charged language on military action"
-          ],
-          "biasScoreGrok": 5.9,
-          "biasSignalsGrok": [
-            "says leader killed",
-            "US strike"
-          ],
-          "pubDate": "Sat, 13 Jun 2026 01:51:16 GMT",
-          "clusterId": "tren-de-aragua-leader-killed"
-        },
-        {
-          "id": "skynews-tren-de-aragua-leader-killed-2",
-          "outletId": "skynews",
-          "outletName": "Sky News",
-          "headline": "Leader of Venezuelan gang killed in US strike, Trump says",
-          "url": "https://news.sky.com/story/leader-of-venezuelan-gang-killed-in-us-military-strike-trump-says-13553575",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral factual reporting on Trump claim",
-            "no loaded language on gang or military strike"
-          ],
-          "biasScoreGrok": 6.1,
-          "biasSignalsGrok": [
-            "leader killed",
-            "Trump says"
-          ],
-          "pubDate": "Sat, 13 Jun 2026 02:26:00 +0100",
-          "clusterId": "tren-de-aragua-leader-killed"
-        },
-        {
-          "id": "breitbart-tren-de-aragua-leader-killed-0",
-          "outletId": "breitbart",
-          "outletName": "Breitbart",
-          "headline": "Trump Announces U.S. Military Strike Killed Tren de Aragua Leader Nino Guerrero",
-          "url": "https://www.breitbart.com/politics/2026/06/12/trump-announces-u-s-military-strike-killed-tren-de-aragua-leader-nino-guerrero/",
-          "biasScore": 7.5,
-          "biasSignals": [
-            "celebratory 'Trump Announces' military success framing",
-            "gang leader 'Nino Guerrero' named to emphasize threat"
-          ],
-          "biasScoreGrok": 8,
-          "biasSignalsGrok": [
-            "military strike killed",
-            "gang leader name"
-          ],
-          "pubDate": "Sat, 13 Jun 2026 02:58:25 +0000",
-          "clusterId": "tren-de-aragua-leader-killed"
-        }
-      ]
-    },
-    {
-      "id": "national-parks-slavery-climate-signage",
-      "topicLabel": "Judge orders Trump to restore national park exhibits",
-      "date": "2026-06-13",
-      "articles": [
-        {
-          "id": "nytimes-national-parks-slavery-climate-signage-0",
-          "outletId": "nytimes",
-          "outletName": "NY Times",
-          "headline": "Judge Blocks National Parks From Removing ‘Negative’ Signs and Depictions of Slavery",
-          "url": "https://www.nytimes.com/2026/06/12/us/politics/judge-national-parks-trump.html",
-          "biasScore": 3.5,
-          "biasSignals": [
-            "'Negative' in quotes implies Trump's framing is absurd",
-            "slavery and climate change paired as protected topics"
-          ],
-          "biasScoreGrok": 3.5,
-          "biasSignalsGrok": [
-            "blocks removing signs",
-            "negative depictions"
-          ],
-          "pubDate": "Sat, 13 Jun 2026 00:13:04 +0000",
-          "clusterId": "national-parks-slavery-climate-signage"
-        },
-        {
-          "id": "latimes-national-parks-slavery-climate-signage-2",
-          "outletId": "latimes",
-          "outletName": "LA Times",
-          "headline": "Judge orders Trump administration to restore national park signage on climate change, slavery",
-          "url": "https://www.latimes.com/california/story/2026-06-12/trump-administration-ordered-to-restore-national-park-signage-on-climate-change-slavery",
-          "biasScore": 3.8,
-          "biasSignals": [
-            "'restore' framing implies administration removed wrongly",
-            "pairing climate and slavery implies dual progressive causes"
-          ],
-          "biasScoreGrok": 4,
-          "biasSignalsGrok": [
-            "restore signage order",
-            "climate slavery"
-          ],
-          "pubDate": "Sat, 13 Jun 2026 01:57:46 GMT",
-          "clusterId": "national-parks-slavery-climate-signage"
-        },
-        {
-          "id": "washexaminer-national-parks-slavery-climate-signage-1",
-          "outletId": "washexaminer",
-          "outletName": "Washington Examiner",
-          "headline": "Judge orders Trump administration to reinstall slavery and climate change exhibits",
-          "url": "https://www.washingtonexaminer.com/news/white-house/4607384/judge-trump-reinstall-slavery-climate-change-exhibits/",
-          "biasScore": 4.2,
-          "biasSignals": [
-            "neutral 'orders reinstall' legal framing",
-            "balanced reporting on court order"
-          ],
-          "biasScoreGrok": 6.9,
-          "biasSignalsGrok": [
-            "reinstall slavery exhibits",
-            "climate change"
-          ],
-          "pubDate": "Sat, 13 Jun 2026 02:18:31 +0000",
-          "clusterId": "national-parks-slavery-climate-signage"
-        }
-      ]
-    },
-    {
-      "id": "fisa-spy-powers-lapse",
-      "topicLabel": "Key US spy powers tool lapses amid FISA debate",
-      "date": "2026-06-13",
-      "articles": [
-        {
-          "id": "msnbc-fisa-spy-powers-lapse-0",
-          "outletId": "msnbc",
-          "outletName": "MSNBC",
-          "headline": "Democrats sink key FISA extension as Bill Pulte standoff enters new phase",
-          "url": "https://www.ms.now/news/democrats-sink-key-fisa-extension-bill-pulte-standoff",
-          "biasScore": 3.5,
-          "biasSignals": [
-            "'Democrats sink' frames Dems as active obstructors",
-            "neutral on FISA but mildly critical of Democrats"
-          ],
-          "biasScoreGrok": 3.8,
-          "biasSignalsGrok": [
-            "democrats sink",
-            "FISA extension"
-          ],
-          "pubDate": "2026-06-12T09:00:00Z",
-          "clusterId": "fisa-spy-powers-lapse"
-        },
-        {
-          "id": "vox-fisa-spy-powers-lapse-3",
-          "outletId": "vox",
-          "outletName": "Vox",
-          "headline": "Trump (still) has a spy chief problem",
-          "url": "https://www.vox.com/the-logoff-newsletter-trump/491698/trump-jay-clayton-bill-pulte-director-national-intelligence",
-          "biasScore": 3.5,
-          "biasSignals": [
-            "'still has a spy chief problem' — critical of Trump admin",
-            "framing implies ongoing incompetence in intelligence"
-          ],
-          "biasScoreGrok": 2.9,
-          "biasSignalsGrok": [
-            "still has problem",
-            "spy chief Trump"
-          ],
-          "pubDate": "2026-06-11T21:50:00.000Z",
-          "clusterId": "fisa-spy-powers-lapse"
-        },
-        {
-          "id": "npr-fisa-spy-powers-lapse-1",
-          "outletId": "npr",
-          "outletName": "NPR",
-          "headline": "A key U.S. spy tool has lapsed — now what?",
-          "url": "https://www.npr.org/2026/06/12/nx-s1-5856291/fisa-702-surveillance-expiration-bill-pulte",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral 'lapsed' framing, question format invites concern",
-            "no partisan framing on surveillance powers lapse"
-          ],
-          "biasScoreGrok": 5,
-          "biasSignalsGrok": [
-            "spy tool lapsed",
-            "now what"
-          ],
-          "pubDate": "Fri, 12 Jun 2026 11:00:00 -0400",
-          "clusterId": "fisa-spy-powers-lapse"
-        },
-        {
-          "id": "thehill-fisa-spy-powers-lapse-2",
-          "outletId": "thehill",
-          "outletName": "The Hill",
-          "headline": "Spy powers battle collides with World Cup, America 250 celebrations",
-          "url": "https://thehill.com/newsletters/morning-report/5921335-spy-powers-battle-fifa-world-cup-2026-america-250/",
-          "biasScore": 4.8,
-          "biasSignals": [
-            "neutral 'collides with' framing, no partisan signals",
-            "factual context pairing spy powers with celebrations"
-          ],
-          "biasScoreGrok": 5.3,
-          "biasSignalsGrok": [
-            "spy powers battle",
-            "world cup collides"
-          ],
-          "pubDate": "2026-06-12T11:10:24Z",
-          "clusterId": "fisa-spy-powers-lapse"
+          "clusterId": "anthropic-ai-access-blocked"
         }
       ]
     },
     {
       "id": "world-cup-2026-opening",
-      "topicLabel": "2026 FIFA World Cup opens in North America",
+      "topicLabel": "FIFA World Cup 2026 opens in North America",
       "date": "2026-06-13",
       "articles": [
         {
@@ -1667,131 +1294,14 @@
           "outletName": "HuffPost",
           "headline": "'Very Complicated Situation': Iranian-American Fans Face Uneasy World Cup As War Rages",
           "url": "https://www.huffpost.com/entry/iranian-americans-world-cup_n_6a2bef33e4b0ba7a1fec70b6",
-          "biasScore": 3.8,
+          "biasScore": 3,
           "biasSignals": [
-            "'Uneasy World Cup' — victim framing for Iranian-Americans",
-            "war context framed around civilian fan experience"
+            "'uneasy World Cup as war rages' sympathizes with Iranian-Americans",
+            "frames war through lens of civilian suffering"
           ],
-          "biasScoreGrok": 3.1,
-          "biasSignalsGrok": [
-            "complicated situation",
-            "uneasy as war"
-          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
           "pubDate": "2026-06-12T11:44:04Z",
-          "clusterId": "world-cup-2026-opening"
-        },
-        {
-          "id": "aljazeera-world-cup-2026-opening-0",
-          "outletId": "aljazeera",
-          "outletName": "Al Jazeera",
-          "headline": "The US border runs straight through the World Cup",
-          "url": "https://www.aljazeera.com/opinions/2026/6/13/the-us-border-runs-straight-through-the-world-cup?traffic_source=rss",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral 'border runs through' symbolic political framing",
-            "immigration angle noted but not charged"
-          ],
-          "biasScoreGrok": 2.2,
-          "biasSignalsGrok": [
-            "border runs through",
-            "world cup"
-          ],
-          "pubDate": "Sat, 13 Jun 2026 09:56:42 +0000",
-          "clusterId": "world-cup-2026-opening"
-        },
-        {
-          "id": "latimes-world-cup-2026-opening-3",
-          "outletId": "latimes",
-          "outletName": "LA Times",
-          "headline": "U.S. fans roar at Coliseum watch party, enjoy inexpensive World Cup energy",
-          "url": "https://www.latimes.com/sports/soccer/story/2026-06-12/u-s-fans-enjoy-inexpensive-world-cup-energy-at-coliseum",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral fan experience framing, no political signals",
-            "'inexpensive energy' framing is neutral positive"
-          ],
-          "biasScoreGrok": 4.8,
-          "biasSignalsGrok": [
-            "fans roar",
-            "inexpensive energy"
-          ],
-          "pubDate": "Sat, 13 Jun 2026 05:23:35 GMT",
-          "clusterId": "world-cup-2026-opening"
-        },
-        {
-          "id": "independent-world-cup-2026-opening-5",
-          "outletId": "independent",
-          "outletName": "The Independent",
-          "headline": "World Cup 2026 live: Fifa statement on empty seats, investigation into theft at England camp, Ghana criticise ‘unfair’ Partey decision",
-          "url": "https://www.independent.co.uk/sport/football/world-cup-2026-live-updates-trump-fifa-b2995074.html",
-          "biasScore": 4.6,
-          "biasSignals": [
-            "neutral live update format, factual tournament coverage",
-            "no partisan framing in sports reporting"
-          ],
-          "biasScoreGrok": 5.2,
-          "biasSignalsGrok": [
-            "live statement",
-            "theft investigation"
-          ],
-          "pubDate": "Sat, 13 Jun 2026 11:47:34 GMT",
-          "clusterId": "world-cup-2026-opening"
-        },
-        {
-          "id": "nbc-world-cup-2026-opening-4",
-          "outletId": "nbc",
-          "outletName": "NBC News",
-          "headline": "Empty seats on World Cup’s opening day renew ticket price concerns",
-          "url": "https://www.nbcnews.com/sports/soccer/empty-seats-world-cups-opening-day-renew-ticket-price-concerns-rcna349748",
-          "biasScore": 4.7,
-          "biasSignals": [
-            "neutral concern framing on empty seats issue",
-            "factual reporting without ideological spin"
-          ],
-          "biasScoreGrok": 4.5,
-          "biasSignalsGrok": [
-            "empty seats renew",
-            "ticket price concerns"
-          ],
-          "pubDate": "2026-06-12T10:31:48Z",
-          "clusterId": "world-cup-2026-opening"
-        },
-        {
-          "id": "cbsnews-world-cup-2026-opening-1",
-          "outletId": "cbsnews",
-          "outletName": "CBS News",
-          "headline": "The 2026 World Cup begins today. Here's what to know.",
-          "url": "https://www.cbsnews.com/video/2026-world-cup-begins-today-heres-what-to-know/",
-          "biasScore": 4.8,
-          "biasSignals": [
-            "neutral informational framing, no ideological signals",
-            "factual what-to-know format"
-          ],
-          "biasScoreGrok": 5.1,
-          "biasSignalsGrok": [
-            "begins today",
-            "what to know"
-          ],
-          "pubDate": "2026-06-11T19:52:21+00:00",
-          "clusterId": "world-cup-2026-opening"
-        },
-        {
-          "id": "cbsnews-world-cup-2026-opening-2",
-          "outletId": "cbsnews",
-          "outletName": "CBS News",
-          "headline": "World Cup opening ceremony kicks off in Mexico with Shakira",
-          "url": "https://www.cbsnews.com/news/world-cup-opening-ceremony-mexico-shakira/",
-          "biasScore": 4.8,
-          "biasSignals": [
-            "neutral ceremony reporting, factual detail focus",
-            "no ideological framing on World Cup opening"
-          ],
-          "biasScoreGrok": 5.4,
-          "biasSignalsGrok": [
-            "kicks off Mexico",
-            "Shakira ceremony"
-          ],
-          "pubDate": "2026-06-11T18:41:38+00:00",
           "clusterId": "world-cup-2026-opening"
         },
         {
@@ -1800,312 +1310,512 @@
           "outletName": "HuffPost",
           "headline": "Fox World Cup Analyst Calls Trump 'The Soccer President'",
           "url": "https://www.huffpost.com/entry/alexi-lalas-donald-trump-soccer-president_n_6a2bcf1be4b0ba7a1fec5cbc",
-          "biasScore": 5.5,
+          "biasScore": 3.5,
           "biasSignals": [
-            "'Soccer President' quote implies favorable Trump framing",
-            "neutral reporting on Fox analyst statement"
+            "mildly ironic 'soccer president' framing",
+            "no strong bias signal"
           ],
-          "biasScoreGrok": 4,
-          "biasSignalsGrok": [
-            "calls Trump soccer",
-            "president analyst"
-          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
           "pubDate": "2026-06-12T11:11:37Z",
+          "clusterId": "world-cup-2026-opening"
+        },
+        {
+          "id": "latimes-world-cup-2026-opening-3",
+          "outletId": "latimes",
+          "outletName": "LA Times",
+          "headline": "U.S. fans roar at Coliseum watch party, enjoy inexpensive World Cup energy",
+          "url": "https://www.latimes.com/sports/soccer/story/2026-06-12/u-s-fans-enjoy-inexpensive-world-cup-energy-at-coliseum",
+          "biasScore": 4,
+          "biasSignals": [
+            "neutral fan experience framing",
+            "'inexpensive' framing mildly pro-accessibility"
+          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "Sat, 13 Jun 2026 05:23:35 GMT",
+          "clusterId": "world-cup-2026-opening"
+        },
+        {
+          "id": "cbsnews-world-cup-2026-opening-0",
+          "outletId": "cbsnews",
+          "outletName": "CBS News",
+          "headline": "The 2026 World Cup begins today. Here's what to know.",
+          "url": "https://www.cbsnews.com/video/2026-world-cup-begins-today-heres-what-to-know/",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral informational framing",
+            "no political loading"
+          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "2026-06-11T19:52:21+00:00",
+          "clusterId": "world-cup-2026-opening"
+        },
+        {
+          "id": "cbsnews-world-cup-2026-opening-1",
+          "outletId": "cbsnews",
+          "outletName": "CBS News",
+          "headline": "World Cup opening ceremony kicks off in Mexico with Shakira",
+          "url": "https://www.cbsnews.com/news/world-cup-opening-ceremony-mexico-shakira/",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral event reporting",
+            "no ideological signals"
+          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "2026-06-11T18:41:38+00:00",
+          "clusterId": "world-cup-2026-opening"
+        },
+        {
+          "id": "axios-world-cup-2026-opening-2",
+          "outletId": "axios",
+          "outletName": "Axios",
+          "headline": "U.S. routs Paraguay 4-1 in World Cup opener",
+          "url": "https://www.axios.com/2026/06/13/us-paraguay-world-cup",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral match result reporting",
+            "no political framing"
+          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "Sat, 13 Jun 2026 04:53:17 +0000",
+          "clusterId": "world-cup-2026-opening"
+        },
+        {
+          "id": "nbc-world-cup-2026-opening-4",
+          "outletId": "nbc",
+          "outletName": "NBC News",
+          "headline": "From The Sports Desk: Mexico wins opener, U.S. starts its World Cup journey tonight",
+          "url": "https://www.nbcnews.com/sports/soccer/sports-newsletter-mexico-wins-opener-us-starts-world-cup-tonight-rcna349782",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral sports desk framing",
+            "no political signals"
+          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "2026-06-12T15:00:22Z",
+          "clusterId": "world-cup-2026-opening"
+        },
+        {
+          "id": "nbc-world-cup-2026-opening-5",
+          "outletId": "nbc",
+          "outletName": "NBC News",
+          "headline": "FIFA World Cup 2026 live updates: U.S. debuts vs. Paraguay, opening ceremonies to feature Katy Perry, Lisa",
+          "url": "https://www.nbcnews.com/sports/soccer/live-blog/fifa-world-cup-2026-june-12-live-updates-rcna349721",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral live-update format",
+            "factual opening ceremony reporting"
+          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "2026-06-12T14:19:30Z",
           "clusterId": "world-cup-2026-opening"
         }
       ]
     },
     {
-      "id": "trump-iran-deal-republican-reaction",
-      "topicLabel": "Republican reactions to Trump Iran deal and midterms",
+      "id": "ice-immigration-enforcement",
+      "topicLabel": "ICE immigration enforcement operations and policy",
       "date": "2026-06-13",
       "articles": [
         {
-          "id": "huffpost-trump-iran-deal-republican-reaction-2",
-          "outletId": "huffpost",
-          "outletName": "HuffPost",
-          "headline": "GOP Senator Predicts Trump's About To Have 'The Most Miserable 2 Years Of His Life'",
-          "url": "https://www.huffpost.com/entry/john-cornyn-trump-warning_n_6a2bb796e4b08741f51995ba",
-          "biasScore": 4.2,
+          "id": "msnbc-ice-immigration-enforcement-0",
+          "outletId": "msnbc",
+          "outletName": "MSNBC",
+          "headline": "ICE brings this far-right streamer on immigration raids as he pumps out MAGA propaganda",
+          "url": "https://www.ms.now/news/ice-maga-ben-bergquam-real-america-voice",
+          "biasScore": 1.5,
           "biasSignals": [
-            "neutral GOP senator quote framing, no editorial spin",
-            "factual reporting on Republican prediction"
+            "'raids' charged language, 'MAGA propaganda' pejorative",
+            "streamer framed as propagandist, ICE as harmful"
           ],
-          "biasScoreGrok": 3.9,
-          "biasSignalsGrok": [
-            "predicts miserable years",
-            "GOP senator"
-          ],
-          "pubDate": "2026-06-12T08:51:29Z",
-          "clusterId": "trump-iran-deal-republican-reaction"
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "2026-06-12T10:00:00Z",
+          "clusterId": "ice-immigration-enforcement"
         },
         {
-          "id": "foxnews-trump-iran-deal-republican-reaction-0",
-          "outletId": "foxnews",
-          "outletName": "Fox News",
-          "headline": "Cornyn predicts Trump midterm 'disaster,' then 'the most miserable two years of his life'",
-          "url": "https://www.foxnews.com/politics/cornyn-predicts-trump-midterm-disaster-the-most-miserable-two-years-his-life",
-          "biasScore": 5.8,
+          "id": "guardian-ice-immigration-enforcement-3",
+          "outletId": "guardian",
+          "outletName": "The Guardian",
+          "headline": "‘We’re doing it all for them’: Radio Jornalera NJ exposes conditions faced by immigrants in detention",
+          "url": "https://www.theguardian.com/us-news/2026/jun/13/radio-jornalera-new-jersey-immigration-detention-center",
+          "biasScore": 2,
           "biasSignals": [
-            "Republican self-criticism framed as newsworthy warning",
-            "neutral but emphasizes GOP internal dissent"
+            "immigrant detainees framed as victims needing advocacy",
+            "activist radio station sourced sympathetically"
           ],
-          "biasScoreGrok": 6.5,
-          "biasSignalsGrok": [
-            "predicts disaster",
-            "miserable two years"
-          ],
-          "pubDate": "2026-06-12T11:37:22.0359056Z",
-          "clusterId": "trump-iran-deal-republican-reaction"
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "Sat, 13 Jun 2026 13:00:14 GMT",
+          "clusterId": "ice-immigration-enforcement"
         },
         {
-          "id": "foxnews-trump-iran-deal-republican-reaction-1",
-          "outletId": "foxnews",
-          "outletName": "Fox News",
-          "headline": "Don’t look now, but President Trump may have saved Ukraine. Just ask the Russians",
-          "url": "https://www.foxnews.com/opinion/dont-look-president-trump-may-saved-ukraine-ask-russians",
-          "biasScore": 7.8,
-          "biasSignals": [
-            "'Trump may have saved Ukraine' — strong heroic framing",
-            "'Just ask the Russians' — adversarial validation of Trump"
-          ],
-          "biasScoreGrok": 7.8,
-          "biasSignalsGrok": [
-            "may have saved",
-            "just ask Russians"
-          ],
-          "pubDate": "2026-06-12T10:07:26.1137627Z",
-          "clusterId": "trump-iran-deal-republican-reaction"
-        }
-      ]
-    },
-    {
-      "id": "trump-white-working-class-polls",
-      "topicLabel": "Trump losing support among white working-class voters",
-      "date": "2026-06-13",
-      "articles": [
-        {
-          "id": "nytimes-trump-white-working-class-polls-0",
-          "outletId": "nytimes",
-          "outletName": "NY Times",
-          "headline": "Trump Is Losing Ground With White Working-Class Voters on the Economy",
-          "url": "https://www.nytimes.com/2026/06/13/us/politics/trump-white-working-class-voters-economy.html",
-          "biasScore": 3.5,
-          "biasSignals": [
-            "'Losing Ground' — negative framing of Trump support",
-            "economic framing used to criticize administration"
-          ],
-          "biasScoreGrok": 3.4,
-          "biasSignalsGrok": [
-            "losing ground noted",
-            "economy voters"
-          ],
-          "pubDate": "Sat, 13 Jun 2026 09:00:36 +0000",
-          "clusterId": "trump-white-working-class-polls"
-        },
-        {
-          "id": "washpost-trump-white-working-class-polls-1",
-          "outletId": "washpost",
-          "outletName": "Washington Post",
-          "headline": "Union voters are mad at Trump and frustrated with Democrats",
-          "url": "https://www.washingtonpost.com/business/2026/06/12/union-voters-are-mad-trump-frustrated-with-democrats-ahead-midterms/",
-          "biasScore": 4,
-          "biasSignals": [
-            "'frustrated with Democrats' balanced dual criticism",
-            "union voters framing sympathetic to labor"
-          ],
-          "biasScoreGrok": 4.2,
-          "biasSignalsGrok": [
-            "union voters mad",
-            "frustrated democrats"
-          ],
-          "pubDate": "2026-06-12T10:00:01Z",
-          "clusterId": "trump-white-working-class-polls"
-        },
-        {
-          "id": "ap-trump-white-working-class-polls-2",
-          "outletId": "ap",
-          "outletName": "Associated Press",
-          "headline": "Trump's support among independents has fallen, poll analysis shows",
-          "url": "https://apnews.com/article/poll-independents-trump-approval-c44ab6c775fba86de739353217108673",
-          "biasScore": 4.2,
-          "biasSignals": [
-            "neutral 'poll analysis shows' factual framing",
-            "no charged language on approval decline"
-          ],
-          "biasScoreGrok": 5,
-          "biasSignalsGrok": [
-            "support fallen",
-            "independents poll"
-          ],
-          "pubDate": "2026-06-12T09:02:31Z",
-          "clusterId": "trump-white-working-class-polls"
-        }
-      ]
-    },
-    {
-      "id": "trans-youth-medical-legal-battles",
-      "topicLabel": "Legal battles over transgender youth medical care",
-      "date": "2026-06-13",
-      "articles": [
-        {
-          "id": "npr-trans-youth-medical-legal-battles-0",
+          "id": "npr-ice-immigration-enforcement-1",
           "outletId": "npr",
           "outletName": "NPR",
-          "headline": "Trump's DOJ can't get names and medical files of trans youth in California, for now",
-          "url": "https://www.npr.org/2026/06/12/nx-s1-5855728/transgender-youth-healthcare-trump-subpoena",
-          "biasScore": 3.2,
+          "headline": "Door shuts on some immigrant entrepreneurs as U.S. restricts small-business loans",
+          "url": "https://www.npr.org/2026/06/12/nx-s1-5853375/changes-loans-trump-small-business-immigrants-entrepreneurs-green-card",
+          "biasScore": 2.5,
           "biasSignals": [
-            "'can't get' frames DOJ as aggressive pursuer",
-            "California resistance framed sympathetically"
+            "'door shuts' victim framing for immigrant entrepreneurs",
+            "sympathetic to immigrants affected by restrictions"
           ],
-          "biasScoreGrok": 2.8,
-          "biasSignalsGrok": [
-            "can't get names",
-            "trans youth files"
-          ],
-          "pubDate": "Fri, 12 Jun 2026 05:00:00 -0400",
-          "clusterId": "trans-youth-medical-legal-battles"
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "Fri, 12 Jun 2026 05:01:00 -0400",
+          "clusterId": "ice-immigration-enforcement"
         },
         {
-          "id": "thefederalist-trans-youth-medical-legal-battles-4",
-          "outletId": "thefederalist",
-          "outletName": "The Federalist",
-          "headline": "The Texas Children’s Hospital Trans Kids Settlement Hasn’t Happened Yet",
-          "url": "https://thefederalist.com/2026/06/12/the-texas-childrens-hospital-trans-kids-settlement-hasnt-happened-yet/?utm_source=rss&utm_medium=rss&utm_campaign=the-texas-childrens-hospital-trans-kids-settlement-hasnt-happened-yet",
-          "biasScore": 6.8,
+          "id": "guardian-ice-immigration-enforcement-4",
+          "outletId": "guardian",
+          "outletName": "The Guardian",
+          "headline": "ICE, borders and DHS: what’s in Trump’s $70bn immigration crackdown bill?",
+          "url": "https://www.theguardian.com/us-news/2026/jun/13/ice-border-patrol-funding-bill",
+          "biasScore": 3,
           "biasSignals": [
-            "'Trans Kids Settlement Hasn't Happened Yet' — skeptical",
-            "corrective framing implies liberal media overclaimed"
+            "'crackdown bill' framing implies severity",
+            "neutral breakdown but critical emphasis on size"
           ],
-          "biasScoreGrok": 7,
-          "biasSignalsGrok": [
-            "trans kids settlement",
-            "hasn't happened"
-          ],
-          "pubDate": "Fri, 12 Jun 2026 18:30:43 +0000",
-          "clusterId": "trans-youth-medical-legal-battles"
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "Sat, 13 Jun 2026 11:00:12 GMT",
+          "clusterId": "ice-immigration-enforcement"
         },
         {
-          "id": "dailycaller-trans-youth-medical-legal-battles-1",
+          "id": "axios-ice-immigration-enforcement-5",
+          "outletId": "axios",
+          "outletName": "Axios",
+          "headline": "Exclusive: ICE obtains local voter files in two counties",
+          "url": "https://www.axios.com/2026/06/13/ice-voter-files-texas-north-carolina",
+          "biasScore": 3.5,
+          "biasSignals": [
+            "'obtains voter files' raises privacy concern framing",
+            "neutral but leads with ICE surveillance angle"
+          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "Sat, 13 Jun 2026 13:24:34 +0000",
+          "clusterId": "ice-immigration-enforcement"
+        },
+        {
+          "id": "axios-ice-immigration-enforcement-6",
+          "outletId": "axios",
+          "outletName": "Axios",
+          "headline": "Scoop: ICE detention numbers slip",
+          "url": "https://www.axios.com/2026/06/12/ice-detention-population-beds",
+          "biasScore": 3.5,
+          "biasSignals": [
+            "'slip' implies ICE underperforming its mandate",
+            "neutral but data framing hints at enforcement critique"
+          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "Fri, 12 Jun 2026 20:02:16 +0000",
+          "clusterId": "ice-immigration-enforcement"
+        },
+        {
+          "id": "dailycaller-ice-immigration-enforcement-2",
           "outletId": "dailycaller",
           "outletName": "Daily Caller",
-          "headline": "As Medical Org Pushing Child Sex Changes Lucks Out In Court, A Bigger Legal Battle Brews",
-          "url": "https://dailycaller.com/2026/06/12/florida-american-academy-of-pediatrics-legal-battle-brews/",
-          "biasScore": 7.5,
-          "biasSignals": [
-            "'Child Sex Changes' — charged conservative framing",
-            "'Lucks Out In Court' — implies undeserved legal victory"
-          ],
-          "biasScoreGrok": 8.1,
-          "biasSignalsGrok": [
-            "child sex changes",
-            "bigger battle brews"
-          ],
-          "pubDate": "Fri, 12 Jun 2026 20:31:42 +0000",
-          "clusterId": "trans-youth-medical-legal-battles"
-        },
-        {
-          "id": "breitbart-trans-youth-medical-legal-battles-2",
-          "outletId": "breitbart",
-          "outletName": "Breitbart",
-          "headline": "Exclusive: James Talarico Claimed Doctors Have ‘Moral Obligation’ to Treat Child ‘Gender Dysphoria’",
-          "url": "https://www.breitbart.com/health/2026/06/12/exclusive-james-talarico-doctors-moral-obligation-treat-child-gender-dysphoria/",
+          "headline": "Immigrant Advocacy Blob Tries Fighting Trump’s Crackdown On Foreign Truckers",
+          "url": "https://dailycaller.com/2026/06/13/immigrant-advocacy-blob-tries-fighting-trumps-crackdown-on-foreign-truckers/",
           "biasScore": 8,
           "biasSignals": [
-            "'Claimed' implies doctor's statement is dubious",
-            "'Child Gender Dysphoria' framed as problematic cause"
+            "'Immigrant Advocacy Blob' dismissive pejorative",
+            "'Crackdown' framed positively for enforcement"
           ],
-          "biasScoreGrok": 7.5,
-          "biasSignalsGrok": [
-            "moral obligation claim",
-            "gender dysphoria child"
-          ],
-          "pubDate": "Sat, 13 Jun 2026 03:19:51 +0000",
-          "clusterId": "trans-youth-medical-legal-battles"
-        },
-        {
-          "id": "nationalreview-trans-youth-medical-legal-battles-3",
-          "outletId": "nationalreview",
-          "outletName": "National Review",
-          "headline": "Pro-Trans Activists Give a Lesson in Intimidation Tactics",
-          "url": "https://www.nationalreview.com/2026/06/pro-trans-activists-give-a-lesson-in-intimidation-tactics/",
-          "biasScore": 8.2,
-          "biasSignals": [
-            "'Pro-Trans Activists Give Lesson in Intimidation' — charged",
-            "activists framed as threatening rather than advocating"
-          ],
-          "biasScoreGrok": 8.3,
-          "biasSignalsGrok": [
-            "pro-trans activists",
-            "intimidation tactics"
-          ],
-          "pubDate": "Fri, 12 Jun 2026 19:17:03 +0000",
-          "clusterId": "trans-youth-medical-legal-battles"
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "Sat, 13 Jun 2026 13:05:59 +0000",
+          "clusterId": "ice-immigration-enforcement"
         }
       ]
     },
     {
-      "id": "ohio-fbi-raid-democracy-org",
-      "topicLabel": "FBI raids Ohio pro-democracy organization",
+      "id": "national-parks-slavery-signs-blocked",
+      "topicLabel": "Judge blocks national parks removing slavery signs",
       "date": "2026-06-13",
       "articles": [
         {
-          "id": "msnbc-ohio-fbi-raid-democracy-org-0",
-          "outletId": "msnbc",
-          "outletName": "MSNBC",
-          "headline": "Ohio pro-democracy organization raided by FBI",
-          "url": "https://www.ms.now/news/ohio-pro-democracy-organization-raided-by-fbi",
-          "biasScore": 2.5,
+          "id": "nytimes-national-parks-slavery-signs-blocked-0",
+          "outletId": "nytimes",
+          "outletName": "NY Times",
+          "headline": "Judge Blocks National Parks From Removing ‘Negative’ Signs and Depictions of Slavery",
+          "url": "https://www.nytimes.com/2026/06/12/us/politics/judge-national-parks-trump.html",
+          "biasScore": 3.5,
           "biasSignals": [
-            "'pro-democracy organization raided' — victim hero framing",
-            "'raided by FBI' implies government overreach on democracy"
+            "scare quotes around 'negative' implies Trump policy is wrong",
+            "judge 'blocks' framed as protecting history"
           ],
-          "biasScoreGrok": 2.5,
-          "biasSignalsGrok": [
-            "pro-democracy raided",
-            "FBI action"
-          ],
-          "pubDate": "2026-06-12T03:49:43Z",
-          "clusterId": "ohio-fbi-raid-democracy-org"
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "Sat, 13 Jun 2026 13:36:41 +0000",
+          "clusterId": "national-parks-slavery-signs-blocked"
         },
         {
-          "id": "msnbc-ohio-fbi-raid-democracy-org-2",
-          "outletId": "msnbc",
-          "outletName": "MSNBC",
-          "headline": "What the DOJ’s investigation into Los Angeles elections is really about",
-          "url": "https://www.ms.now/opinion/los-angeles-elections-voter-fraud",
-          "biasScore": 3,
+          "id": "bostonglobe-national-parks-slavery-signs-blocked-1",
+          "outletId": "bostonglobe",
+          "outletName": "Boston Globe",
+          "headline": "Judge blocks national parks from removing ‘negative’ signs",
+          "url": "https://www.bostonglobe.com/2026/06/13/nation/judge-national-parks-negative-signs/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
+          "biasScore": 3.5,
           "biasSignals": [
-            "'really about' implies hidden political motive by DOJ",
-            "skeptical of DOJ investigation framing"
+            "scare quotes around 'negative' signals editorial skepticism",
+            "frames ruling as protecting historical truth"
           ],
-          "biasScoreGrok": 2.3,
-          "biasSignalsGrok": [
-            "investigation really about",
-            "Los Angeles elections"
-          ],
-          "pubDate": "2026-06-12T10:00:00Z",
-          "clusterId": "ohio-fbi-raid-democracy-org"
-        },
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "Sat, 13 Jun 2026 13:33:01 +0000",
+          "clusterId": "national-parks-slavery-signs-blocked"
+        }
+      ]
+    },
+    {
+      "id": "karmelo-anthony-verdict-race",
+      "topicLabel": "Karmelo Anthony verdict and race controversy",
+      "date": "2026-06-13",
+      "articles": [
         {
-          "id": "washexaminer-ohio-fbi-raid-democracy-org-1",
-          "outletId": "washexaminer",
-          "outletName": "Washington Examiner",
-          "headline": "Who is Bill Essayli, the hard-charging prosecutor at the center of California’s election fight?",
-          "url": "https://www.washingtonexaminer.com/news/justice/4606726/bill-essayli-prosecutor-center-california-election-fight/",
+          "id": "foxnews-karmelo-anthony-verdict-race-0",
+          "outletId": "foxnews",
+          "outletName": "Fox News",
+          "headline": "WATCH: Tim Kaine rejects claims Karmelo Anthony verdict was racist",
+          "url": "https://www.foxnews.com/politics/watch-tim-kaine-rejects-claims-karmelo-anthony-verdict-racist",
           "biasScore": 6.5,
           "biasSignals": [
-            "'hard-charging prosecutor' — favorable law enforcement framing",
-            "California election fight framed as legitimate accountability"
+            "frames Kaine as 'rejecting' racism claims defensively",
+            "leads with prominent Democrat downplaying racial angle"
           ],
-          "biasScoreGrok": 6.2,
-          "biasSignalsGrok": [
-            "hard-charging prosecutor",
-            "election fight center"
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "2026-06-12T15:37:21.3370306Z",
+          "clusterId": "karmelo-anthony-verdict-race"
+        },
+        {
+          "id": "washexaminer-karmelo-anthony-verdict-race-1",
+          "outletId": "washexaminer",
+          "outletName": "Washington Examiner",
+          "headline": "Karmelo Anthony case was ‘made racially charged’ by family: Guy Benson",
+          "url": "https://www.washingtonexaminer.com/news/crime/4607596/karmelo-anthony-case-racially-charged-guy-benson/",
+          "biasScore": 7,
+          "biasSignals": [
+            "'made racially charged by family' dismisses racial concerns",
+            "Guy Benson conservative pundit sourced approvingly"
           ],
-          "pubDate": "Sat, 13 Jun 2026 11:00:00 +0000",
-          "clusterId": "ohio-fbi-raid-democracy-org"
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "Sat, 13 Jun 2026 14:33:10 +0000",
+          "clusterId": "karmelo-anthony-verdict-race"
+        },
+        {
+          "id": "nationalreview-karmelo-anthony-verdict-race-2",
+          "outletId": "nationalreview",
+          "outletName": "National Review",
+          "headline": "Karmelo Anthony’s Race Doesn’t Matter",
+          "url": "https://www.nationalreview.com/2026/06/karmelo-anthonys-race-doesnt-matter/",
+          "biasScore": 7,
+          "biasSignals": [
+            "'Race Doesn't Matter' framing dismisses racial grievance",
+            "conservative framing that deflects systemic race critique"
+          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "Fri, 12 Jun 2026 17:22:19 +0000",
+          "clusterId": "karmelo-anthony-verdict-race"
+        },
+        {
+          "id": "thefederalist-karmelo-anthony-verdict-race-3",
+          "outletId": "thefederalist",
+          "outletName": "The Federalist",
+          "headline": "The Black Lives Matter Lie Is Why Austin Metcalf Is Dead And Karmelo Anthony Is In Prison",
+          "url": "https://thefederalist.com/2026/06/12/the-black-lives-matter-lie-is-why-austin-metcalf-is-dead-and-karmelo-anthony-is-in-prison/?utm_source=rss&utm_medium=rss&utm_campaign=the-black-lives-matter-lie-is-why-austin-metcalf-is-dead-and-karmelo-anthony-is-in-prison",
+          "biasScore": 9,
+          "biasSignals": [
+            "'BLM Lie' charged language attacking movement",
+            "frames BLM as directly causing death — extreme causal claim"
+          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "Fri, 12 Jun 2026 19:02:23 +0000",
+          "clusterId": "karmelo-anthony-verdict-race"
+        }
+      ]
+    },
+    {
+      "id": "david-hockney-death",
+      "topicLabel": "Artist David Hockney dies at 88",
+      "date": "2026-06-13",
+      "articles": [
+        {
+          "id": "abc-david-hockney-death-0",
+          "outletId": "abc",
+          "outletName": "ABC News",
+          "headline": "David Hockney, artist renowned for his pool scenes, has died at 88",
+          "url": "https://abcnews.com/Entertainment/wireStory/david-hockney-artist-renowned-pool-scenes-died-88-133809250",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral obituary framing",
+            "no ideological signals"
+          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "2026-06-12T09:48:50Z",
+          "clusterId": "david-hockney-death"
+        },
+        {
+          "id": "theatlantic-david-hockney-death-1",
+          "outletId": "theatlantic",
+          "outletName": "The Atlantic",
+          "headline": "The David Hockney Painting That Makes You Look, and Then Look Again",
+          "url": "https://www.theatlantic.com/culture/2026/06/david-hockney-a-bigger-splash-reality-technology/687544/?utm_source=feed",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral arts appreciation framing",
+            "no political signals"
+          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "Sat, 13 Jun 2026 08:00:00 -0400",
+          "clusterId": "david-hockney-death"
+        },
+        {
+          "id": "bbc-david-hockney-death-2",
+          "outletId": "bbc",
+          "outletName": "BBC",
+          "headline": "David Hockney: Tributes paid to a 'giant' and 'true icon' of British art",
+          "url": "https://www.bbc.co.uk/news/articles/cvgjxdr27z4o",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral tribute framing",
+            "no ideological signals"
+          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "2026-06-12T13:22:21.8359307Z",
+          "clusterId": "david-hockney-death"
+        }
+      ]
+    },
+    {
+      "id": "trump-cornyn-senate-tension",
+      "topicLabel": "Tensions between Trump and Republican senators",
+      "date": "2026-06-13",
+      "articles": [
+        {
+          "id": "msnbc-trump-cornyn-senate-tension-0",
+          "outletId": "msnbc",
+          "outletName": "MSNBC",
+          "headline": "After Trump became a problem for Cornyn, Cornyn may soon become a problem for Trump",
+          "url": "https://www.ms.now/rachel-maddow-show/maddowblog/cornyn-trump-midterms-republicans",
+          "biasScore": 3,
+          "biasSignals": [
+            "frames Cornyn as potential thorn for Trump",
+            "narrative arc sympathizes with Republican resistance"
+          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "2026-06-12T12:58:09Z",
+          "clusterId": "trump-cornyn-senate-tension"
+        },
+        {
+          "id": "thehill-trump-cornyn-senate-tension-1",
+          "outletId": "thehill",
+          "outletName": "The Hill",
+          "headline": "Cornyn predicts post-midterms will be ‘most miserable two years’ of Trump’s life",
+          "url": "https://thehill.com/homenews/senate/5921181-cornyn-predicts-trump-miserable-years/",
+          "biasScore": 3.5,
+          "biasSignals": [
+            "Cornyn predicts 'miserable' Trump future framing",
+            "Republican dissent amplified as headline"
+          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "2026-06-12T03:01:00Z",
+          "clusterId": "trump-cornyn-senate-tension"
+        }
+      ]
+    },
+    {
+      "id": "gabbard-havana-syndrome-intel",
+      "topicLabel": "Gabbard rescinds Biden era Havana Syndrome assessments",
+      "date": "2026-06-13",
+      "articles": [
+        {
+          "id": "npr-gabbard-havana-syndrome-intel-1",
+          "outletId": "npr",
+          "outletName": "NPR",
+          "headline": "A key U.S. spy tool has lapsed — now what?",
+          "url": "https://www.npr.org/2026/06/12/nx-s1-5856291/fisa-702-surveillance-expiration-bill-pulte",
+          "biasScore": 3.5,
+          "biasSignals": [
+            "'key spy tool lapsed' implies security vulnerability",
+            "frames intelligence gap as concerning"
+          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "Fri, 12 Jun 2026 11:00:00 -0400",
+          "clusterId": "gabbard-havana-syndrome-intel"
+        },
+        {
+          "id": "cnn-gabbard-havana-syndrome-intel-0",
+          "outletId": "cnn",
+          "outletName": "CNN",
+          "headline": "Gabbard rescinds Biden-era intel assessments that were skeptical about ‘Havana Syndrome’",
+          "url": "https://www.cnn.com/2026/06/12/politics/gabbard-rescinds-biden-era-intel-assessments-that-were-skeptical-about-havana-syndrome",
+          "biasScore": 5,
+          "biasSignals": [
+            "neutral 'rescinds' verb used",
+            "no framing of action as positive or negative"
+          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "2026-06-12T15:33:54Z",
+          "clusterId": "gabbard-havana-syndrome-intel"
+        }
+      ]
+    },
+    {
+      "id": "northern-ireland-belfast-unrest",
+      "topicLabel": "Northern Ireland riots and anti-racism protests",
+      "date": "2026-06-13",
+      "articles": [
+        {
+          "id": "aljazeera-northern-ireland-belfast-unrest-1",
+          "outletId": "aljazeera",
+          "outletName": "Al Jazeera",
+          "headline": "Thousands attend anti-racism rallies following unrest in Belfast",
+          "url": "https://www.aljazeera.com/news/2026/6/13/thousands-attend-anti-racism-rallies-following-unrest-in-belfast?traffic_source=rss",
+          "biasScore": 3,
+          "biasSignals": [
+            "'anti-racism rallies' frames protesters as heroes",
+            "sympathetic framing for counter-protest movement"
+          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "Sat, 13 Jun 2026 15:34:24 +0000",
+          "clusterId": "northern-ireland-belfast-unrest"
+        },
+        {
+          "id": "bbc-northern-ireland-belfast-unrest-0",
+          "outletId": "bbc",
+          "outletName": "BBC",
+          "headline": "What we know about how Northern Ireland riots were organised",
+          "url": "https://www.bbc.co.uk/news/articles/cvgjxkjp6veo",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral 'what we know' informational framing",
+            "no ideological loading"
+          ],
+          "biasScoreGrok": null,
+          "biasSignalsGrok": null,
+          "pubDate": "2026-06-12T16:07:18.06696Z",
+          "clusterId": "northern-ireland-belfast-unrest"
         }
       ]
     }
@@ -2115,188 +1825,29 @@
       "outletId": "msnbc",
       "outletName": "MSNBC",
       "abbreviation": "MSNBC",
-      "currentScore": 2.97,
-      "currentScoreGrok": 2.8,
-      "articleCount": 6,
+      "currentScore": 2.67,
+      "articleCount": 3,
       "expectedRange": [
         1.5,
         3.5
       ]
     },
     {
-      "outletId": "forbes",
-      "outletName": "Forbes",
-      "abbreviation": "Forbes",
-      "currentScore": 3.5,
-      "currentScoreGrok": 3.5,
-      "articleCount": 1,
-      "expectedRange": [
-        5,
-        6.5
-      ]
-    },
-    {
-      "outletId": "vox",
-      "outletName": "Vox",
-      "abbreviation": "Vox",
-      "currentScore": 3.5,
-      "currentScoreGrok": 2.9,
-      "articleCount": 1,
-      "expectedRange": [
-        2.5,
-        4
-      ]
-    },
-    {
       "outletId": "guardian",
       "outletName": "The Guardian",
       "abbreviation": "Guard",
-      "currentScore": 3.58,
-      "currentScoreGrok": 3.94,
-      "articleCount": 5,
-      "expectedRange": [
-        2.5,
-        4
-      ]
-    },
-    {
-      "outletId": "bostonglobe",
-      "outletName": "Boston Globe",
-      "abbreviation": "Globe",
-      "currentScore": 3.67,
-      "currentScoreGrok": 3.97,
+      "currentScore": 2.83,
       "articleCount": 3,
       "expectedRange": [
         2.5,
         4
-      ]
-    },
-    {
-      "outletId": "npr",
-      "outletName": "NPR",
-      "abbreviation": "NPR",
-      "currentScore": 3.8,
-      "currentScoreGrok": 3.94,
-      "articleCount": 5,
-      "expectedRange": [
-        3.5,
-        4.5
-      ]
-    },
-    {
-      "outletId": "yahoofinance",
-      "outletName": "Yahoo Finance",
-      "abbreviation": "YFin",
-      "currentScore": 3.8,
-      "currentScoreGrok": 5.8,
-      "articleCount": 1,
-      "expectedRange": [
-        4.5,
-        6
       ]
     },
     {
       "outletId": "independent",
       "outletName": "The Independent",
       "abbreviation": "Indep",
-      "currentScore": 4.27,
-      "currentScoreGrok": 4.47,
-      "articleCount": 3,
-      "expectedRange": [
-        3,
-        4.5
-      ]
-    },
-    {
-      "outletId": "washpost",
-      "outletName": "Washington Post",
-      "abbreviation": "WPost",
-      "currentScore": 4.28,
-      "currentScoreGrok": 4.66,
-      "articleCount": 5,
-      "expectedRange": [
-        2.8,
-        4.2
-      ]
-    },
-    {
-      "outletId": "nytimes",
-      "outletName": "NY Times",
-      "abbreviation": "NYT",
-      "currentScore": 4.33,
-      "currentScoreGrok": 4.22,
-      "articleCount": 4,
-      "expectedRange": [
-        3,
-        4.5
-      ]
-    },
-    {
-      "outletId": "latimes",
-      "outletName": "LA Times",
-      "abbreviation": "LAT",
-      "currentScore": 4.37,
-      "currentScoreGrok": 4.67,
-      "articleCount": 3,
-      "expectedRange": [
-        2.5,
-        4
-      ]
-    },
-    {
-      "outletId": "axios",
-      "outletName": "Axios",
-      "abbreviation": "Axios",
-      "currentScore": 4.5,
-      "currentScoreGrok": 5.37,
-      "articleCount": 6,
-      "expectedRange": [
-        5.5,
-        6.5
-      ]
-    },
-    {
-      "outletId": "theatlantic",
-      "outletName": "The Atlantic",
-      "abbreviation": "Atlntc",
-      "currentScore": 4.5,
-      "currentScoreGrok": 4.3,
-      "articleCount": 1,
-      "expectedRange": [
-        2.5,
-        4
-      ]
-    },
-    {
-      "outletId": "huffpost",
-      "outletName": "HuffPost",
-      "abbreviation": "HPost",
-      "currentScore": 4.58,
-      "currentScoreGrok": 3.7,
-      "articleCount": 4,
-      "expectedRange": [
-        2,
-        3.5
-      ]
-    },
-    {
-      "outletId": "cnn",
-      "outletName": "CNN",
-      "abbreviation": "CNN",
-      "currentScore": 4.58,
-      "currentScoreGrok": 4.6,
-      "articleCount": 4,
-      "expectedRange": [
-        2.5,
-        4
-      ]
-    },
-    {
-      "outletId": "abc",
-      "outletName": "ABC News",
-      "abbreviation": "ABC",
-      "currentScore": 4.65,
-      "currentScoreGrok": 5.95,
+      "currentScore": 3,
       "articleCount": 2,
       "expectedRange": [
         3,
@@ -2304,12 +1855,110 @@
       ]
     },
     {
-      "outletId": "cbsnews",
-      "outletName": "CBS News",
-      "abbreviation": "CBS",
-      "currentScore": 4.7,
-      "currentScoreGrok": 5.28,
+      "outletId": "huffpost",
+      "outletName": "HuffPost",
+      "abbreviation": "HPost",
+      "currentScore": 3.21,
+      "articleCount": 7,
+      "expectedRange": [
+        2,
+        3.5
+      ]
+    },
+    {
+      "outletId": "npr",
+      "outletName": "NPR",
+      "abbreviation": "NPR",
+      "currentScore": 3.5,
       "articleCount": 4,
+      "expectedRange": [
+        3.5,
+        4.5
+      ]
+    },
+    {
+      "outletId": "bostonglobe",
+      "outletName": "Boston Globe",
+      "abbreviation": "Globe",
+      "currentScore": 3.5,
+      "articleCount": 5,
+      "expectedRange": [
+        2.5,
+        4
+      ]
+    },
+    {
+      "outletId": "theatlantic",
+      "outletName": "The Atlantic",
+      "abbreviation": "Atlntc",
+      "currentScore": 3.73,
+      "articleCount": 3,
+      "expectedRange": [
+        2.5,
+        4
+      ]
+    },
+    {
+      "outletId": "aljazeera",
+      "outletName": "Al Jazeera",
+      "abbreviation": "AJ",
+      "currentScore": 3.87,
+      "articleCount": 6,
+      "expectedRange": [
+        3.5,
+        5
+      ]
+    },
+    {
+      "outletId": "washpost",
+      "outletName": "Washington Post",
+      "abbreviation": "WPost",
+      "currentScore": 4,
+      "articleCount": 5,
+      "expectedRange": [
+        2.8,
+        4.2
+      ]
+    },
+    {
+      "outletId": "latimes",
+      "outletName": "LA Times",
+      "abbreviation": "LAT",
+      "currentScore": 4,
+      "articleCount": 1,
+      "expectedRange": [
+        2.5,
+        4
+      ]
+    },
+    {
+      "outletId": "thehill",
+      "outletName": "The Hill",
+      "abbreviation": "Hill",
+      "currentScore": 4.06,
+      "articleCount": 5,
+      "expectedRange": [
+        5.5,
+        7
+      ]
+    },
+    {
+      "outletId": "axios",
+      "outletName": "Axios",
+      "abbreviation": "Axios",
+      "currentScore": 4.14,
+      "articleCount": 7,
+      "expectedRange": [
+        5.5,
+        6.5
+      ]
+    },
+    {
+      "outletId": "nytimes",
+      "outletName": "NY Times",
+      "abbreviation": "NYT",
+      "currentScore": 4.15,
+      "articleCount": 2,
       "expectedRange": [
         3,
         4.5
@@ -2319,8 +1968,7 @@
       "outletId": "timesofisrael",
       "outletName": "Times of Israel",
       "abbreviation": "TOI",
-      "currentScore": 4.73,
-      "currentScoreGrok": 5.93,
+      "currentScore": 4.17,
       "articleCount": 3,
       "expectedRange": [
         5.5,
@@ -2328,47 +1976,65 @@
       ]
     },
     {
-      "outletId": "cnbc",
-      "outletName": "CNBC",
-      "abbreviation": "CNBC",
-      "currentScore": 4.76,
-      "currentScoreGrok": 5.72,
+      "outletId": "cnn",
+      "outletName": "CNN",
+      "abbreviation": "CNN",
+      "currentScore": 4.3,
       "articleCount": 5,
+      "expectedRange": [
+        2.5,
+        4
+      ]
+    },
+    {
+      "outletId": "cbsnews",
+      "outletName": "CBS News",
+      "abbreviation": "CBS",
+      "currentScore": 4.5,
+      "articleCount": 4,
+      "expectedRange": [
+        3,
+        4.5
+      ]
+    },
+    {
+      "outletId": "forbes",
+      "outletName": "Forbes",
+      "abbreviation": "Forbes",
+      "currentScore": 4.5,
+      "articleCount": 1,
+      "expectedRange": [
+        5,
+        6.5
+      ]
+    },
+    {
+      "outletId": "dailymail",
+      "outletName": "Daily Mail",
+      "abbreviation": "DM",
+      "currentScore": 4.5,
+      "articleCount": 1,
+      "expectedRange": [
+        6.5,
+        8.5
+      ]
+    },
+    {
+      "outletId": "marketwatch",
+      "outletName": "MarketWatch",
+      "abbreviation": "MW",
+      "currentScore": 4.5,
+      "articleCount": 1,
       "expectedRange": [
         4.5,
         6
       ]
     },
     {
-      "outletId": "ap",
-      "outletName": "Associated Press",
-      "abbreviation": "AP",
-      "currentScore": 4.77,
-      "currentScoreGrok": 5.1,
-      "articleCount": 7,
-      "expectedRange": [
-        4.5,
-        5.5
-      ]
-    },
-    {
-      "outletId": "bbc",
-      "outletName": "BBC",
-      "abbreviation": "BBC",
-      "currentScore": 4.8,
-      "currentScoreGrok": 5.25,
-      "articleCount": 2,
-      "expectedRange": [
-        4,
-        5.5
-      ]
-    },
-    {
       "outletId": "nbc",
       "outletName": "NBC News",
       "abbreviation": "NBC",
-      "currentScore": 4.83,
-      "currentScoreGrok": 4.9,
+      "currentScore": 4.5,
       "articleCount": 3,
       "expectedRange": [
         3,
@@ -2379,8 +2045,18 @@
       "outletId": "skynews",
       "outletName": "Sky News",
       "abbreviation": "Sky",
-      "currentScore": 4.85,
-      "currentScoreGrok": 5.9,
+      "currentScore": 4.5,
+      "articleCount": 1,
+      "expectedRange": [
+        4,
+        5.5
+      ]
+    },
+    {
+      "outletId": "bbc",
+      "outletName": "BBC",
+      "abbreviation": "BBC",
+      "currentScore": 4.5,
       "articleCount": 2,
       "expectedRange": [
         4,
@@ -2388,15 +2064,47 @@
       ]
     },
     {
-      "outletId": "thehill",
-      "outletName": "The Hill",
-      "abbreviation": "Hill",
-      "currentScore": 5,
-      "currentScoreGrok": 5.55,
-      "articleCount": 2,
+      "outletId": "cnbc",
+      "outletName": "CNBC",
+      "abbreviation": "CNBC",
+      "currentScore": 4.67,
+      "articleCount": 6,
       "expectedRange": [
-        5.5,
-        7
+        4.5,
+        6
+      ]
+    },
+    {
+      "outletId": "abc",
+      "outletName": "ABC News",
+      "abbreviation": "ABC",
+      "currentScore": 4.67,
+      "articleCount": 3,
+      "expectedRange": [
+        3,
+        4.5
+      ]
+    },
+    {
+      "outletId": "bloomberg",
+      "outletName": "Bloomberg",
+      "abbreviation": "BBG",
+      "currentScore": 4.75,
+      "articleCount": 4,
+      "expectedRange": [
+        4,
+        5.5
+      ]
+    },
+    {
+      "outletId": "ap",
+      "outletName": "Associated Press",
+      "abbreviation": "AP",
+      "currentScore": 4.9,
+      "articleCount": 5,
+      "expectedRange": [
+        4.5,
+        5.5
       ]
     },
     {
@@ -2404,7 +2112,6 @@
       "outletName": "The Telegraph",
       "abbreviation": "Tele",
       "currentScore": 5,
-      "currentScoreGrok": 6,
       "articleCount": 1,
       "expectedRange": [
         6,
@@ -2412,60 +2119,22 @@
       ]
     },
     {
-      "outletId": "aljazeera",
-      "outletName": "Al Jazeera",
-      "abbreviation": "AJ",
-      "currentScore": 5,
-      "currentScoreGrok": 4.1,
-      "articleCount": 2,
-      "expectedRange": [
-        3.5,
-        5
-      ]
-    },
-    {
       "outletId": "washexaminer",
       "outletName": "Washington Examiner",
       "abbreviation": "WExam",
-      "currentScore": 5.35,
-      "currentScoreGrok": 6.55,
-      "articleCount": 2,
+      "currentScore": 5.83,
+      "articleCount": 3,
       "expectedRange": [
         7,
         8.5
       ]
     },
     {
-      "outletId": "marketwatch",
-      "outletName": "MarketWatch",
-      "abbreviation": "MW",
-      "currentScore": 5.5,
-      "currentScoreGrok": 5.5,
-      "articleCount": 1,
-      "expectedRange": [
-        4.5,
-        6
-      ]
-    },
-    {
-      "outletId": "dailycaller",
-      "outletName": "Daily Caller",
-      "abbreviation": "DC",
-      "currentScore": 6.25,
-      "currentScoreGrok": 7.45,
-      "articleCount": 2,
-      "expectedRange": [
-        7.5,
-        9
-      ]
-    },
-    {
       "outletId": "nypost",
       "outletName": "NY Post",
       "abbreviation": "NYPost",
-      "currentScore": 6.5,
-      "currentScoreGrok": 7.5,
-      "articleCount": 1,
+      "currentScore": 6,
+      "articleCount": 3,
       "expectedRange": [
         6.5,
         8
@@ -2475,51 +2144,47 @@
       "outletId": "foxnews",
       "outletName": "Fox News",
       "abbreviation": "FOX",
-      "currentScore": 6.65,
-      "currentScoreGrok": 6.93,
-      "articleCount": 4,
+      "currentScore": 6.75,
+      "articleCount": 2,
       "expectedRange": [
         7,
         8.5
-      ]
-    },
-    {
-      "outletId": "breitbart",
-      "outletName": "Breitbart",
-      "abbreviation": "BB",
-      "currentScore": 7.54,
-      "currentScoreGrok": 7.74,
-      "articleCount": 5,
-      "expectedRange": [
-        8.5,
-        9.8
-      ]
-    },
-    {
-      "outletId": "thefederalist",
-      "outletName": "The Federalist",
-      "abbreviation": "Fed",
-      "currentScore": 7.78,
-      "currentScoreGrok": 8,
-      "articleCount": 4,
-      "expectedRange": [
-        7.5,
-        9
       ]
     },
     {
       "outletId": "nationalreview",
       "outletName": "National Review",
       "abbreviation": "NR",
-      "currentScore": 8.2,
-      "currentScoreGrok": 8.3,
+      "currentScore": 7,
       "articleCount": 1,
       "expectedRange": [
         7,
         8.5
       ]
+    },
+    {
+      "outletId": "dailycaller",
+      "outletName": "Daily Caller",
+      "abbreviation": "DC",
+      "currentScore": 8,
+      "articleCount": 1,
+      "expectedRange": [
+        7.5,
+        9
+      ]
+    },
+    {
+      "outletId": "thefederalist",
+      "outletName": "The Federalist",
+      "abbreviation": "Fed",
+      "currentScore": 8.75,
+      "articleCount": 4,
+      "expectedRange": [
+        7.5,
+        9
+      ]
     }
   ],
-  "articleCount": 105,
-  "storyCount": 16
+  "articleCount": 107,
+  "storyCount": 15
 }
