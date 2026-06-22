@@ -1,1799 +1,1633 @@
 {
   "date": "2026-06-22",
-  "generatedAt": "2026-06-22T15:27:15.096Z",
+  "generatedAt": "2026-06-22T18:44:10.440Z",
   "stories": [
     {
-      "id": "us-iran-talks-switzerland",
+      "id": "us-iran-nuclear-talks-switzerland",
       "topicLabel": "US-Iran nuclear talks begin in Switzerland",
       "date": "2026-06-22",
       "articles": [
         {
-          "id": "vox-us-iran-talks-switzerland-24",
+          "id": "vox-us-iran-nuclear-talks-switzerland-31",
           "outletId": "vox",
           "outletName": "Vox",
           "headline": "How Iran won the war",
           "url": "https://www.vox.com/podcasts/492390/us-iran-war-peace-deal-how-iran-won",
-          "biasScore": 2.5,
+          "biasScore": 3,
           "biasSignals": [
-            "'Iran won the war' — provocative framing critical of US",
-            "progressive outlet framing US as loser"
+            "'Iran won the war' frames US outcome as defeat",
+            "provocative framing critical of Trump policy"
           ],
           "biasScoreGrok": 2.8,
           "biasSignalsGrok": [
-            "Iran won framing",
+            "How Iran won",
             "left sympathetic"
           ],
           "pubDate": "2026-06-19T11:15:00.000Z",
-          "clusterId": "us-iran-talks-switzerland"
+          "clusterId": "us-iran-nuclear-talks-switzerland"
         },
         {
-          "id": "washpost-us-iran-talks-switzerland-4",
+          "id": "washpost-us-iran-nuclear-talks-switzerland-3",
+          "outletId": "washpost",
+          "outletName": "Washington Post",
+          "headline": "Mapping one air strike’s impact in Iran as full civilian toll remains unknown",
+          "url": "https://www.washingtonpost.com/world/interactive/2026/06/20/one-strike-helps-map-human-toll-across-iran/",
+          "biasScore": 3.2,
+          "biasSignals": [
+            "'civilian toll' emphasizes victims of strikes — left-leaning",
+            "'full civilian toll remains unknown' implies concealment"
+          ],
+          "biasScoreGrok": 3.5,
+          "biasSignalsGrok": [
+            "civilian toll emphasis",
+            "sympathetic framing"
+          ],
+          "pubDate": "2026-06-21T10:52:29.5567982Z",
+          "clusterId": "us-iran-nuclear-talks-switzerland"
+        },
+        {
+          "id": "washpost-us-iran-nuclear-talks-switzerland-5",
           "outletId": "washpost",
           "outletName": "Washington Post",
           "headline": "Trump wanted out of the Iran war. The aftermath is pulling him back in.",
           "url": "https://www.washingtonpost.com/politics/2026/06/21/trump-confronts-new-hurdles-bid-peace-deal-with-iran/",
-          "biasScore": 4,
+          "biasScore": 3.5,
           "biasSignals": [
-            "'aftermath is pulling him back in' implies Trump agency",
-            "slightly skeptical framing of Trump's Iran exit"
-          ],
-          "biasScoreGrok": 3.2,
-          "biasSignalsGrok": [
-            "Trump wanted out",
-            "pulling back framing"
-          ],
-          "pubDate": "2026-06-21T09:00:00Z",
-          "clusterId": "us-iran-talks-switzerland"
-        },
-        {
-          "id": "axios-us-iran-talks-switzerland-16",
-          "outletId": "axios",
-          "outletName": "Axios",
-          "headline": "Trump's messy path to peace",
-          "url": "https://www.axios.com/2026/06/22/trump-iran-deal-switzerland-nuclear",
-          "biasScore": 4,
-          "biasSignals": [
-            "'messy path' implies criticism of Trump strategy",
-            "mild left-leaning skepticism of administration"
+            "'pulling him back in' implies Trump as reactive/trapped",
+            "framing centers on Trump's political difficulties"
           ],
           "biasScoreGrok": 3.8,
           "biasSignalsGrok": [
-            "messy path",
-            "critical tone"
+            "Trump critical tone",
+            "war aftermath emphasis"
           ],
-          "pubDate": "Mon, 22 Jun 2026 09:10:07 +0000",
-          "clusterId": "us-iran-talks-switzerland"
+          "pubDate": "2026-06-21T09:00:00Z",
+          "clusterId": "us-iran-nuclear-talks-switzerland"
         },
         {
-          "id": "nytimes-us-iran-talks-switzerland-2",
-          "outletId": "nytimes",
-          "outletName": "NY Times",
-          "headline": "How Trump’s Fragile Agreement With Iran Is Shaping the Midterms",
-          "url": "https://www.nytimes.com/2026/06/21/us/politics/trump-iran-agreement-midterms.html",
-          "biasScore": 4.5,
+          "id": "huffpost-us-iran-nuclear-talks-switzerland-32",
+          "outletId": "huffpost",
+          "outletName": "HuffPost",
+          "headline": "Former Trump Defense Secretary Admits He Has 'Serious Questions And Concerns' About Iran Deal",
+          "url": "https://www.huffpost.com/entry/trump-defense-secretary-serious-concerns-iran-deal_n_6a381492e4b057a50cee465f",
+          "biasScore": 3.5,
           "biasSignals": [
-            "'fragile agreement' implies instability, mild left lean",
-            "midterm framing suggests political stakes emphasis"
+            "Trump Defense Secretary 'concerns' framed as damning",
+            "'Serious Questions' headline implies deal is flawed"
           ],
-          "biasScoreGrok": 3.5,
+          "biasScoreGrok": 3.9,
           "biasSignalsGrok": [
-            "Trump fragile framing",
-            "midterms emphasis"
+            "serious questions concerns",
+            "former secretary"
           ],
-          "pubDate": "Sun, 21 Jun 2026 18:20:29 +0000",
-          "clusterId": "us-iran-talks-switzerland"
+          "pubDate": "2026-06-21T18:03:24Z",
+          "clusterId": "us-iran-nuclear-talks-switzerland"
         },
         {
-          "id": "npr-us-iran-talks-switzerland-5",
+          "id": "npr-us-iran-nuclear-talks-switzerland-6",
           "outletId": "npr",
           "outletName": "NPR",
           "headline": "Congress returns as scrutiny grows over Trump's Iran ceasefire agreement",
           "url": "https://www.npr.org/2026/06/22/nx-s1-5864270/congress-returns-as-scrutiny-grows-over-trumps-iran-ceasefire-agreement",
-          "biasScore": 4.5,
+          "biasScore": 4,
           "biasSignals": [
-            "'scrutiny grows' implies doubt about ceasefire deal",
-            "neutral but mildly skeptical framing"
+            "'scrutiny grows' is neutral but implies criticism",
+            "balanced framing of congressional concern"
           ],
-          "biasScoreGrok": 3.8,
+          "biasScoreGrok": 3.6,
           "biasSignalsGrok": [
-            "scrutiny grows",
-            "ceasefire agreement"
+            "scrutiny on Trump",
+            "left-leaning outlet"
           ],
           "pubDate": "Mon, 22 Jun 2026 06:53:24 -0400",
-          "clusterId": "us-iran-talks-switzerland"
+          "clusterId": "us-iran-nuclear-talks-switzerland"
         },
         {
-          "id": "economist-us-iran-talks-switzerland-11",
-          "outletId": "economist",
-          "outletName": "The Economist",
-          "headline": "Republicans are desperate to move on from the Iran war",
-          "url": "https://www.economist.com/united-states/2026/06/18/republicans-are-desperate-to-move-on-from-the-iran-war",
+          "id": "aljazeera-us-iran-nuclear-talks-switzerland-9",
+          "outletId": "aljazeera",
+          "outletName": "Al Jazeera",
+          "headline": "Will a US-Iran deal transform the Iranian economy?",
+          "url": "https://www.aljazeera.com/video/counting-the-cost/2026/6/22/will-a-us-iran-deal-transform-the-iranian-economy?traffic_source=rss",
+          "biasScore": 4,
+          "biasSignals": [
+            "economic focus rather than security framing",
+            "neutral question without charged language"
+          ],
+          "biasScoreGrok": 3.2,
+          "biasSignalsGrok": [
+            "economy transformation angle",
+            "sympathetic to Iran"
+          ],
+          "pubDate": "Mon, 22 Jun 2026 17:06:53 +0000",
+          "clusterId": "us-iran-nuclear-talks-switzerland"
+        },
+        {
+          "id": "nytimes-us-iran-nuclear-talks-switzerland-2",
+          "outletId": "nytimes",
+          "outletName": "NY Times",
+          "headline": "A Glamorous Swiss Resort Hosts Officials for U.S.-Iran Talks",
+          "url": "https://www.nytimes.com/2026/06/21/world/europe/switzerland-resort-us-iran-meeting.html",
+          "biasScore": 4.2,
+          "biasSignals": [
+            "'glamorous' adds soft color but remains factual",
+            "no political framing of talks"
+          ],
+          "biasScoreGrok": 4.8,
+          "biasSignalsGrok": [
+            "descriptive language",
+            "no charged words"
+          ],
+          "pubDate": "Sun, 21 Jun 2026 09:34:35 +0000",
+          "clusterId": "us-iran-nuclear-talks-switzerland"
+        },
+        {
+          "id": "msnbc-us-iran-nuclear-talks-switzerland-0",
+          "outletId": "msnbc",
+          "outletName": "MSNBC",
+          "headline": "U.S.-Iran talks begin in Switzerland",
+          "url": "https://www.ms.now/news/u-s-iran-talks-begin-in-switzerland",
           "biasScore": 4.5,
           "biasSignals": [
-            "'desperate to move on' implies Republican discomfort",
-            "mild skepticism toward Republican framing"
+            "neutral framing 'talks begin' without charged language",
+            "no editorializing on outcome"
           ],
-          "biasScoreGrok": 3,
+          "biasScoreGrok": 4.5,
           "biasSignalsGrok": [
-            "republicans desperate",
-            "left framing"
+            "neutral verbs used",
+            "no ideological signals"
           ],
-          "pubDate": "Thu, 18 Jun 2026 09:06:36 +0000",
-          "clusterId": "us-iran-talks-switzerland"
+          "pubDate": "2026-06-21T14:11:03Z",
+          "clusterId": "us-iran-nuclear-talks-switzerland"
         },
         {
-          "id": "ap-us-iran-talks-switzerland-23",
+          "id": "washpost-us-iran-nuclear-talks-switzerland-4",
+          "outletId": "washpost",
+          "outletName": "Washington Post",
+          "headline": "U.S. and Iranian negotiators meet in Switzerland to hash out peace plan",
+          "url": "https://www.washingtonpost.com/world/2026/06/21/us-iranian-meet-switzerland-hash-out-peace-plan/",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral 'hash out peace plan' framing",
+            "balanced sourcing implied"
+          ],
+          "biasScoreGrok": 4.2,
+          "biasSignalsGrok": [
+            "neutral meeting description",
+            "peace plan focus"
+          ],
+          "pubDate": "2026-06-21T10:20:10Z",
+          "clusterId": "us-iran-nuclear-talks-switzerland"
+        },
+        {
+          "id": "npr-us-iran-nuclear-talks-switzerland-7",
+          "outletId": "npr",
+          "outletName": "NPR",
+          "headline": "The U.S. and Iran agree to a 'road map' for a final deal, mediators say",
+          "url": "https://www.npr.org/2026/06/21/g-s1-129222/us-iran-deal-lebanon-israel-strait-hormuz-jd-vance",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral headline citing mediator attribution",
+            "no charged language on deal content"
+          ],
+          "biasScoreGrok": 4.5,
+          "biasSignalsGrok": [
+            "road map neutral term",
+            "mediators quoted"
+          ],
+          "pubDate": "Sun, 21 Jun 2026 13:29:57 -0400",
+          "clusterId": "us-iran-nuclear-talks-switzerland"
+        },
+        {
+          "id": "aljazeera-us-iran-nuclear-talks-switzerland-8",
+          "outletId": "aljazeera",
+          "outletName": "Al Jazeera",
+          "headline": "Qatar’s PM tells Al Jazeera progress made in US-Iran talks",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/6/22/qatars-pm-tells-al-jazeera-progress-made-in-us-iran-talks?traffic_source=rss",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral 'progress made' citing Qatar PM",
+            "no ideological framing"
+          ],
+          "biasScoreGrok": 4,
+          "biasSignalsGrok": [
+            "progress reported",
+            "Qatar mediation focus"
+          ],
+          "pubDate": "Mon, 22 Jun 2026 17:34:56 +0000",
+          "clusterId": "us-iran-nuclear-talks-switzerland"
+        },
+        {
+          "id": "cbsnews-us-iran-nuclear-talks-switzerland-14",
+          "outletId": "cbsnews",
+          "outletName": "CBS News",
+          "headline": "Details on progress toward Iran peace agreement as Trump calls off strikes",
+          "url": "https://www.cbsnews.com/video/details-on-progress-toward-iran-peace-agreement-as-trump-calls-off-strikes/",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral 'details on progress' framing",
+            "mentions Trump calling off strikes without spin"
+          ],
+          "biasScoreGrok": 4.8,
+          "biasSignalsGrok": [
+            "progress details",
+            "ceasefire agreement"
+          ],
+          "pubDate": "2026-06-11T19:18:45+00:00",
+          "clusterId": "us-iran-nuclear-talks-switzerland"
+        },
+        {
+          "id": "cnbc-us-iran-nuclear-talks-switzerland-17",
+          "outletId": "cnbc",
+          "outletName": "CNBC",
+          "headline": "Treasury Department authorizes Iranian oil sales through August",
+          "url": "https://www.cnbc.com/2026/06/22/treasury-iran-oil-sales.html",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral factual headline on Treasury authorization",
+            "no charged framing on Iran policy"
+          ],
+          "biasScoreGrok": 4.6,
+          "biasSignalsGrok": [
+            "Treasury authorization",
+            "oil sales neutral"
+          ],
+          "pubDate": "Mon, 22 Jun 2026 17:56:43 GMT",
+          "clusterId": "us-iran-nuclear-talks-switzerland"
+        },
+        {
+          "id": "axios-us-iran-nuclear-talks-switzerland-21",
+          "outletId": "axios",
+          "outletName": "Axios",
+          "headline": "Iran to allow UN nuclear inspectors back in, Vance says",
+          "url": "https://www.axios.com/2026/06/22/iran-un-inspectors-vance",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral attribution to Vance's statement",
+            "no ideological framing on inspections"
+          ],
+          "biasScoreGrok": 4.7,
+          "biasSignalsGrok": [
+            "Iran allow inspectors",
+            "Vance says"
+          ],
+          "pubDate": "Mon, 22 Jun 2026 11:26:52 +0000",
+          "clusterId": "us-iran-nuclear-talks-switzerland"
+        },
+        {
+          "id": "axios-us-iran-nuclear-talks-switzerland-23",
+          "outletId": "axios",
+          "outletName": "Axios",
+          "headline": "Inside U.S.-Iran talks in Switzerland",
+          "url": "https://www.axios.com/2026/06/21/us-iran-talks-jd-vance-switzerland-lebanon-nuclear",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral 'inside' framing implies access journalism",
+            "no charged language"
+          ],
+          "biasScoreGrok": 4.9,
+          "biasSignalsGrok": [
+            "inside talks neutral",
+            "factual description"
+          ],
+          "pubDate": "Mon, 22 Jun 2026 01:39:43 +0000",
+          "clusterId": "us-iran-nuclear-talks-switzerland"
+        },
+        {
+          "id": "bostonglobe-us-iran-nuclear-talks-switzerland-25",
+          "outletId": "bostonglobe",
+          "outletName": "Boston Globe",
+          "headline": "Vance says Iran will allow nuclear inspections, Tehran hasn’t commented. Follow live updates.",
+          "url": "https://www.bostonglobe.com/2026/06/22/nation/trump-presidency-live-updates/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral 'Vance says' attribution",
+            "'Tehran hasn't commented' adds factual balance"
+          ],
+          "biasScoreGrok": 4.3,
+          "biasSignalsGrok": [
+            "Vance says neutral",
+            "Tehran no comment"
+          ],
+          "pubDate": "Mon, 22 Jun 2026 04:31:24 +0000",
+          "clusterId": "us-iran-nuclear-talks-switzerland"
+        },
+        {
+          "id": "abc-us-iran-nuclear-talks-switzerland-27",
+          "outletId": "abc",
+          "outletName": "ABC News",
+          "headline": "Iran live updates: As US-Iran talks begin, Vance hails 'great progress'",
+          "url": "https://abcnews.com/International/live-updates/iran-live-updates-israel-withdraw-lebanon-katz-after/?id=133879236",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral 'great progress' attributed to Vance",
+            "live updates format implies balanced coverage"
+          ],
+          "biasScoreGrok": 4.1,
+          "biasSignalsGrok": [
+            "great progress hails",
+            "Vance positive"
+          ],
+          "pubDate": "2026-06-21T13:56:26Z",
+          "clusterId": "us-iran-nuclear-talks-switzerland"
+        },
+        {
+          "id": "ap-us-iran-nuclear-talks-switzerland-29",
+          "outletId": "ap",
+          "outletName": "Associated Press",
+          "headline": "Vance arriving in Switzerland to launch talks with Iran on its nuclear program",
+          "url": "https://apnews.com/article/iran-vance-trump-nuclear-negotiations-2edf9268aae550883252080014013963",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral 'arriving' and 'launch talks' language",
+            "factual framing without ideological signals"
+          ],
+          "biasScoreGrok": 4.6,
+          "biasSignalsGrok": [
+            "Vance arriving neutral",
+            "nuclear program talks"
+          ],
+          "pubDate": "2026-06-21T04:01:05Z",
+          "clusterId": "us-iran-nuclear-talks-switzerland"
+        },
+        {
+          "id": "huffpost-us-iran-nuclear-talks-switzerland-33",
+          "outletId": "huffpost",
+          "outletName": "HuffPost",
+          "headline": "Vance And Iranian Officials Arrive In Switzerland To Launch Talks On Tehran’s Nuclear Program",
+          "url": "https://www.huffpost.com/entry/ap-us-iran-us-negotiations-vance-switzerland_n_6a37cf61e4b04f5fa0c2d536",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral factual framing of arrivals",
+            "no charged language on nuclear program"
+          ],
+          "biasScoreGrok": 4.5,
+          "biasSignalsGrok": [
+            "Vance Iranian officials",
+            "launch talks neutral"
+          ],
+          "pubDate": "2026-06-21T11:53:23Z",
+          "clusterId": "us-iran-nuclear-talks-switzerland"
+        },
+        {
+          "id": "nytimes-us-iran-nuclear-talks-switzerland-1",
+          "outletId": "nytimes",
+          "outletName": "NY Times",
+          "headline": "Vance Says Iran Will Allow Nuclear Watchdog to Restart Inspections",
+          "url": "https://www.nytimes.com/2026/06/22/world/middleeast/vance-iran-nuclear-inspections.html",
+          "biasScore": 4.8,
+          "biasSignals": [
+            "neutral headline credits Vance's statement directly",
+            "no ideological framing on inspections"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "balanced sourcing",
+            "minimal framing"
+          ],
+          "pubDate": "Mon, 22 Jun 2026 16:29:16 +0000",
+          "clusterId": "us-iran-nuclear-talks-switzerland"
+        },
+        {
+          "id": "aljazeera-us-iran-nuclear-talks-switzerland-10",
+          "outletId": "aljazeera",
+          "outletName": "Al Jazeera",
+          "headline": "Marco Rubio heads to Middle East to address Iran MoU, Hormuz",
+          "url": "https://www.aljazeera.com/news/2026/6/22/marco-rubio-heads-to-middle-east-to-address-iran-mou-hormuz?traffic_source=rss",
+          "biasScore": 4.8,
+          "biasSignals": [
+            "neutral verb 'heads to' without charged framing",
+            "factual attribution to Rubio's travel"
+          ],
+          "biasScoreGrok": 4.3,
+          "biasSignalsGrok": [
+            "neutral Rubio mention",
+            "MoU focus"
+          ],
+          "pubDate": "Mon, 22 Jun 2026 17:04:35 +0000",
+          "clusterId": "us-iran-nuclear-talks-switzerland"
+        },
+        {
+          "id": "thehill-us-iran-nuclear-talks-switzerland-20",
+          "outletId": "thehill",
+          "outletName": "The Hill",
+          "headline": "Vance arrives in Switzerland as US-Iran nuclear talks get underway",
+          "url": "https://thehill.com/homenews/administration/5933067-vice-president-vance-iran-talks/",
+          "biasScore": 4.8,
+          "biasSignals": [
+            "neutral 'get underway' framing",
+            "factual Vance arrival without editorializing"
+          ],
+          "biasScoreGrok": 4.4,
+          "biasSignalsGrok": [
+            "Vance arrives neutral",
+            "talks underway"
+          ],
+          "pubDate": "2026-06-21T12:32:04Z",
+          "clusterId": "us-iran-nuclear-talks-switzerland"
+        },
+        {
+          "id": "ap-us-iran-nuclear-talks-switzerland-30",
           "outletId": "ap",
           "outletName": "Associated Press",
           "headline": "Congress picks up the pieces after the Iran war",
           "url": "https://apnews.com/article/iran-war-nuclear-deal-hegseth-trump-congress-c80ca2daf0492bac2b19939dbfdb8e29",
-          "biasScore": 4.5,
+          "biasScore": 4.8,
           "biasSignals": [
-            "'picks up the pieces' implies war damage framing",
-            "mild skepticism toward post-war situation"
+            "'picks up the pieces' subtly implies war left damage",
+            "otherwise neutral framing"
           ],
-          "biasScoreGrok": 3.5,
+          "biasScoreGrok": 3.3,
           "biasSignalsGrok": [
             "picks up pieces",
             "after war framing"
           ],
           "pubDate": "2026-06-20T12:04:50Z",
-          "clusterId": "us-iran-talks-switzerland"
+          "clusterId": "us-iran-nuclear-talks-switzerland"
         },
         {
-          "id": "msnbc-us-iran-talks-switzerland-0",
-          "outletId": "msnbc",
-          "outletName": "MSNBC",
-          "headline": "U.S.-Iran talks begin in Switzerland",
-          "url": "https://www.ms.now/news/u-s-iran-talks-begin-in-switzerland",
+          "id": "economist-us-iran-nuclear-talks-switzerland-15",
+          "outletId": "economist",
+          "outletName": "The Economist",
+          "headline": "Looking for a winner from the Iran war?",
+          "url": "https://www.economist.com/united-states/2026/06/22/looking-for-a-winner-from-the-iran-war",
           "biasScore": 5,
           "biasSignals": [
-            "neutral headline, no loaded framing",
-            "straightforward event description"
+            "neutral analytical framing 'looking for a winner'",
+            "no clear partisan lean in question format"
           ],
-          "biasScoreGrok": 5,
+          "biasScoreGrok": 5.5,
           "biasSignalsGrok": [
-            "neutral phrasing",
-            "no loaded terms"
+            "winner question neutral",
+            "war analysis"
           ],
-          "pubDate": "2026-06-21T14:11:03Z",
-          "clusterId": "us-iran-talks-switzerland"
+          "pubDate": "Mon, 22 Jun 2026 18:17:00 +0000",
+          "clusterId": "us-iran-nuclear-talks-switzerland"
         },
         {
-          "id": "washpost-us-iran-talks-switzerland-3",
-          "outletId": "washpost",
-          "outletName": "Washington Post",
-          "headline": "U.S. and Iranian negotiators meet in Switzerland to hash out peace plan",
-          "url": "https://www.washingtonpost.com/world/2026/06/21/us-iranian-meet-switzerland-hash-out-peace-plan/",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral verb 'meet,' balanced framing",
-            "straightforward event description"
-          ],
-          "biasScoreGrok": 4.5,
-          "biasSignalsGrok": [
-            "peace plan verb",
-            "balanced meeting"
-          ],
-          "pubDate": "2026-06-21T10:20:10Z",
-          "clusterId": "us-iran-talks-switzerland"
-        },
-        {
-          "id": "npr-us-iran-talks-switzerland-6",
-          "outletId": "npr",
-          "outletName": "NPR",
-          "headline": "The U.S. and Iran agree to a 'road map' for a final deal, mediators say",
-          "url": "https://www.npr.org/2026/06/21/g-s1-129222/us-iran-deal-lebanon-israel-strait-hormuz-jd-vance",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral attribution to mediators",
-            "straightforward reporting of agreement"
-          ],
-          "biasScoreGrok": 4.6,
-          "biasSignalsGrok": [
-            "road map phrasing",
-            "mediators cited"
-          ],
-          "pubDate": "Sun, 21 Jun 2026 13:29:57 -0400",
-          "clusterId": "us-iran-talks-switzerland"
-        },
-        {
-          "id": "bbc-us-iran-talks-switzerland-7",
-          "outletId": "bbc",
-          "outletName": "BBC",
-          "headline": "US and Iran begin talks on initial peace deal in Switzerland",
-          "url": "https://www.bbc.co.uk/news/articles/cwy0q41v1lzo",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral headline, standard event reporting",
-            "no loaded language detected"
-          ],
-          "biasScoreGrok": 5,
-          "biasSignalsGrok": [
-            "initial peace deal",
-            "neutral start"
-          ],
-          "pubDate": "2026-06-21T13:37:21.7611839Z",
-          "clusterId": "us-iran-talks-switzerland"
-        },
-        {
-          "id": "cbsnews-us-iran-talks-switzerland-10",
-          "outletId": "cbsnews",
-          "outletName": "CBS News",
-          "headline": "Details on progress toward Iran peace agreement as Trump calls off strikes",
-          "url": "https://www.cbsnews.com/video/details-on-progress-toward-iran-peace-agreement-as-trump-calls-off-strikes/",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral, factual framing of agreement details",
-            "no ideological loaded language"
-          ],
-          "biasScoreGrok": 5.2,
-          "biasSignalsGrok": [
-            "progress details",
-            "strikes called off"
-          ],
-          "pubDate": "2026-06-11T19:18:45+00:00",
-          "clusterId": "us-iran-talks-switzerland"
-        },
-        {
-          "id": "axios-us-iran-talks-switzerland-17",
-          "outletId": "axios",
-          "outletName": "Axios",
-          "headline": "Inside U.S.-Iran talks in Switzerland",
-          "url": "https://www.axios.com/2026/06/21/us-iran-talks-jd-vance-switzerland-lebanon-nuclear",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral 'inside look' framing",
-            "balanced sourcing implied"
-          ],
-          "biasScoreGrok": 5,
-          "biasSignalsGrok": [
-            "inside talks",
-            "neutral report"
-          ],
-          "pubDate": "Mon, 22 Jun 2026 01:39:43 +0000",
-          "clusterId": "us-iran-talks-switzerland"
-        },
-        {
-          "id": "bloomberg-us-iran-talks-switzerland-20",
+          "id": "bloomberg-us-iran-nuclear-talks-switzerland-26",
           "outletId": "bloomberg",
           "outletName": "Bloomberg",
-          "headline": "US and Iran Poised to Begin Swiss Talks on Lasting Ceasefire",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-21/us-and-iran-poised-to-begin-swiss-talks-on-lasting-ceasefire",
+          "headline": "Iran Says Trump’s Threat Halted Talks With the US, Fars Reports",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-21/iran-says-trump-threat-halted-us-talks-in-switzerland-fars-says",
           "biasScore": 5,
           "biasSignals": [
-            "neutral verb 'poised,' factual framing",
-            "no ideological loaded language"
+            "neutral attribution to Iran's Fars news agency",
+            "Trump threat framed factually without spin"
           ],
-          "biasScoreGrok": 5,
+          "biasScoreGrok": 3.7,
           "biasSignalsGrok": [
-            "poised to begin",
-            "lasting ceasefire"
+            "Trump threat halted",
+            "Iran says reported"
           ],
-          "pubDate": "2026-06-21T09:54:08+00:00",
-          "clusterId": "us-iran-talks-switzerland"
+          "pubDate": "2026-06-21T16:30:27+00:00",
+          "clusterId": "us-iran-nuclear-talks-switzerland"
         },
         {
-          "id": "nbc-us-iran-talks-switzerland-21",
-          "outletId": "nbc",
-          "outletName": "NBC News",
-          "headline": "Vice President JD Vance in Switzerland for Iran talks as Trump threatens ‘guardian angel’ toll in Strait of Hormuz",
-          "url": "https://www.nbcnews.com/world/iran/president-jd-vance-switzerland-iran-talks-trump-threatens-toll-rcna351033",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral reporting of Vance's role",
-            "'guardian angel' quote from Trump noted without endorsement"
-          ],
-          "biasScoreGrok": 4.2,
-          "biasSignalsGrok": [
-            "threatens toll",
-            "guardian angel quote"
-          ],
-          "pubDate": "2026-06-21T09:45:22Z",
-          "clusterId": "us-iran-talks-switzerland"
-        },
-        {
-          "id": "ap-us-iran-talks-switzerland-22",
-          "outletId": "ap",
-          "outletName": "Associated Press",
-          "headline": "Vance arriving in Switzerland to launch talks with Iran on its nuclear program",
-          "url": "https://apnews.com/article/iran-vance-trump-nuclear-negotiations-2edf9268aae550883252080014013963",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral AP framing, standard event reporting",
-            "no loaded language detected"
-          ],
-          "biasScoreGrok": 5,
-          "biasSignalsGrok": [
-            "launch talks",
-            "neutral arrival"
-          ],
-          "pubDate": "2026-06-21T04:01:05Z",
-          "clusterId": "us-iran-talks-switzerland"
-        },
-        {
-          "id": "huffpost-us-iran-talks-switzerland-25",
-          "outletId": "huffpost",
-          "outletName": "HuffPost",
-          "headline": "Vance And Iranian Officials Arrive In Switzerland To Launch Talks On Tehran’s Nuclear Program",
-          "url": "https://www.huffpost.com/entry/ap-us-iran-us-negotiations-vance-switzerland_n_6a37cf61e4b04f5fa0c2d536",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral headline, factual event description",
-            "no loaded language detected"
-          ],
-          "biasScoreGrok": 4.7,
-          "biasSignalsGrok": [
-            "launch talks",
-            "nuclear program"
-          ],
-          "pubDate": "2026-06-21T11:53:23Z",
-          "clusterId": "us-iran-talks-switzerland"
-        },
-        {
-          "id": "reason-us-iran-talks-switzerland-26",
+          "id": "reason-us-iran-nuclear-talks-switzerland-34",
           "outletId": "reason",
           "outletName": "Reason",
           "headline": "Nuclear Inspectors",
           "url": "https://reason.com/2026/06/22/nuclear-inspectors/",
           "biasScore": 5,
           "biasSignals": [
-            "brief neutral headline on nuclear inspectors",
-            "libertarian outlet, minimal framing"
+            "neutral single-word headline",
+            "no ideological framing discernible"
           ],
-          "biasScoreGrok": 5.5,
+          "biasScoreGrok": 5,
           "biasSignalsGrok": [
-            "inspectors focus",
-            "minimal signals"
+            "Nuclear Inspectors title",
+            "minimal context"
           ],
           "pubDate": "Mon, 22 Jun 2026 13:30:40 +0000",
-          "clusterId": "us-iran-talks-switzerland"
+          "clusterId": "us-iran-nuclear-talks-switzerland"
         },
         {
-          "id": "nytimes-us-iran-talks-switzerland-1",
-          "outletId": "nytimes",
-          "outletName": "NY Times",
-          "headline": "A Glamorous Swiss Resort Hosts Officials for U.S.-Iran Talks",
-          "url": "https://www.nytimes.com/2026/06/21/world/europe/switzerland-resort-us-iran-meeting.html",
+          "id": "axios-us-iran-nuclear-talks-switzerland-22",
+          "outletId": "axios",
+          "outletName": "Axios",
+          "headline": "Trump's messy path to peace",
+          "url": "https://www.axios.com/2026/06/22/trump-iran-deal-switzerland-nuclear",
           "biasScore": 5.2,
           "biasSignals": [
-            "focuses on glamour of venue, soft framing",
-            "neutral sourcing, no ideological signals"
+            "'messy path' subtly critical of Trump's process",
+            "neutral framing otherwise"
           ],
-          "biasScoreGrok": 4.8,
+          "biasScoreGrok": 3.4,
           "biasSignalsGrok": [
-            "glamorous qualifier",
-            "focus on setting"
+            "messy path framing",
+            "Trump critical"
           ],
-          "pubDate": "Sun, 21 Jun 2026 09:34:35 +0000",
-          "clusterId": "us-iran-talks-switzerland"
+          "pubDate": "Mon, 22 Jun 2026 09:10:07 +0000",
+          "clusterId": "us-iran-nuclear-talks-switzerland"
         },
         {
-          "id": "dailycaller-us-iran-talks-switzerland-8",
-          "outletId": "dailycaller",
-          "outletName": "Daily Caller",
-          "headline": "Editor Daily Rundown: Vance Says Iran Talks Are Moving Forward",
-          "url": "https://dailycaller.com/2026/06/22/jd-vance-iran-war-talks-strait-hormuz-nuclear-weapons-trump/",
+          "id": "economist-us-iran-nuclear-talks-switzerland-16",
+          "outletId": "economist",
+          "outletName": "The Economist",
+          "headline": "Republicans are desperate to move on from the Iran war",
+          "url": "https://www.economist.com/united-states/2026/06/18/republicans-are-desperate-to-move-on-from-the-iran-war",
           "biasScore": 5.5,
           "biasSignals": [
-            "Vance framed positively as advancing talks",
-            "conservative outlet, but factual headline"
+            "'desperate to move on' subtly critical of GOP",
+            "otherwise balanced analytical framing"
           ],
-          "biasScoreGrok": 6.2,
+          "biasScoreGrok": 3.9,
           "biasSignalsGrok": [
-            "encouraging progress",
-            "right outlet tone"
+            "Republicans desperate",
+            "left framing"
           ],
-          "pubDate": "Mon, 22 Jun 2026 14:58:06 +0000",
-          "clusterId": "us-iran-talks-switzerland"
+          "pubDate": "Thu, 18 Jun 2026 09:06:36 +0000",
+          "clusterId": "us-iran-nuclear-talks-switzerland"
         },
         {
-          "id": "thehill-us-iran-talks-switzerland-13",
+          "id": "thehill-us-iran-nuclear-talks-switzerland-18",
+          "outletId": "thehill",
+          "outletName": "The Hill",
+          "headline": "Graham on Iran deal: ‘I think it’s going to fail’",
+          "url": "https://thehill.com/homenews/senate/5933172-lindsey-graham-iran-deal-failure/",
+          "biasScore": 5.5,
+          "biasSignals": [
+            "Graham skepticism framed neutrally with quote",
+            "headline gives equal weight to pessimistic view"
+          ],
+          "biasScoreGrok": 6.5,
+          "biasSignalsGrok": [
+            "Graham quote critical",
+            "deal will fail"
+          ],
+          "pubDate": "2026-06-21T16:15:35Z",
+          "clusterId": "us-iran-nuclear-talks-switzerland"
+        },
+        {
+          "id": "thehill-us-iran-nuclear-talks-switzerland-19",
           "outletId": "thehill",
           "outletName": "The Hill",
           "headline": "Trump threatens Iran on Lebanon amid nuclear talks",
           "url": "https://thehill.com/homenews/administration/5933107-trump-iran-lebanon-nuclear-talks/",
-          "biasScore": 5.5,
+          "biasScore": 5.8,
           "biasSignals": [
-            "neutral verb 'threatens' but context is factual",
-            "balanced framing of nuclear talks"
+            "'threatens Iran' neutral verb but implies aggression",
+            "Lebanon context adds complexity without spin"
           ],
-          "biasScoreGrok": 5.5,
+          "biasScoreGrok": 6.2,
           "biasSignalsGrok": [
-            "threatens on Lebanon",
-            "talks amid tension"
+            "Trump threatens framing",
+            "nuclear talks context"
           ],
           "pubDate": "2026-06-21T14:20:57Z",
-          "clusterId": "us-iran-talks-switzerland"
+          "clusterId": "us-iran-nuclear-talks-switzerland"
         },
         {
-          "id": "thehill-us-iran-talks-switzerland-14",
-          "outletId": "thehill",
-          "outletName": "The Hill",
-          "headline": "Vance arrives in Switzerland as US-Iran nuclear talks get underway",
-          "url": "https://thehill.com/homenews/administration/5933067-vice-president-vance-iran-talks/",
-          "biasScore": 5.5,
+          "id": "abc-us-iran-nuclear-talks-switzerland-28",
+          "outletId": "abc",
+          "outletName": "ABC News",
+          "headline": "Iran thinks it has 'upper hand,' former Pentagon official says, amid tension over Strait of Hormuz",
+          "url": "https://abcnews.com/International/iran-thinks-upper-hand-former-pentagon-official-amid/story?id=134062911",
+          "biasScore": 5.8,
           "biasSignals": [
-            "Vance arrival framed as positive development",
-            "neutral headline, slight pro-administration lean"
+            "'upper hand' framing casts Iran as adversary winning",
+            "Pentagon official source implies hawkish lean"
           ],
-          "biasScoreGrok": 5.1,
+          "biasScoreGrok": 5.2,
           "biasSignalsGrok": [
-            "arrives as talks",
-            "underway neutral"
+            "upper hand tension",
+            "Pentagon official"
           ],
-          "pubDate": "2026-06-21T12:32:04Z",
-          "clusterId": "us-iran-talks-switzerland"
+          "pubDate": "2026-06-20T22:10:52Z",
+          "clusterId": "us-iran-nuclear-talks-switzerland"
         },
         {
-          "id": "axios-us-iran-talks-switzerland-15",
-          "outletId": "axios",
-          "outletName": "Axios",
-          "headline": "Iran to allow UN nuclear inspectors back in, Vance says",
-          "url": "https://www.axios.com/2026/06/22/iran-un-inspectors-vance",
-          "biasScore": 5.5,
-          "biasSignals": [
-            "'major milestone' framing per Vance, administration-friendly",
-            "neutral attribution to Axios sourcing"
-          ],
-          "biasScoreGrok": 5.3,
-          "biasSignalsGrok": [
-            "UN inspectors back",
-            "major milestone"
-          ],
-          "pubDate": "Mon, 22 Jun 2026 11:26:52 +0000",
-          "clusterId": "us-iran-talks-switzerland"
-        },
-        {
-          "id": "timesofisrael-us-iran-talks-switzerland-18",
-          "outletId": "timesofisrael",
-          "outletName": "Times of Israel",
-          "headline": "Vance: Iran invited UN nuclear inspectors back into country, in ‘major milestone’",
-          "url": "https://www.timesofisrael.com/vance-iran-invited-un-nuclear-inspectors-back-into-country-in-major-milestone/",
-          "biasScore": 5.5,
-          "biasSignals": [
-            "'major milestone' framing per Vance, positive spin",
-            "Times of Israel neutral but administration-sourced claim"
-          ],
-          "biasScoreGrok": 5.8,
-          "biasSignalsGrok": [
-            "major milestone",
-            "Vance quote focus"
-          ],
-          "pubDate": "Mon, 22 Jun 2026 13:41:45 +0000",
-          "clusterId": "us-iran-talks-switzerland"
-        },
-        {
-          "id": "bostonglobe-us-iran-talks-switzerland-19",
-          "outletId": "bostonglobe",
-          "outletName": "Boston Globe",
-          "headline": "Vance says talks with Iran set ‘good foundation’ to reach permanent deal to end war. Follow live updates.",
-          "url": "https://www.bostonglobe.com/2026/06/22/nation/trump-presidency-live-updates/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
-          "biasScore": 5.5,
-          "biasSignals": [
-            "Vance 'good foundation' framing, administration-friendly",
-            "live updates format, neutral overall"
-          ],
-          "biasScoreGrok": 4.9,
-          "biasSignalsGrok": [
-            "good foundation",
-            "permanent deal"
-          ],
-          "pubDate": "Mon, 22 Jun 2026 04:31:24 +0000",
-          "clusterId": "us-iran-talks-switzerland"
-        },
-        {
-          "id": "forbes-us-iran-talks-switzerland-28",
-          "outletId": "forbes",
-          "outletName": "Forbes",
-          "headline": "Trump Blasts NYT As ‘Treasonous’—For Iran War Criticism Shared By Many",
-          "url": "https://www.forbes.com/sites/saradorn/2026/06/22/trump-blasts-nyt-as-treasonous-for-iran-war-criticism-shared-by-many/",
-          "biasScore": 5.5,
-          "biasSignals": [
-            "criticizes Trump labeling NYT 'treasonous' as excessive",
-            "notes criticism shared broadly, mild balance"
-          ],
-          "biasScoreGrok": 6.8,
-          "biasSignalsGrok": [
-            "blasts treasonous",
-            "conservative outlet"
-          ],
-          "pubDate": "Mon, 22 Jun 2026 10:44:00 -0400",
-          "clusterId": "us-iran-talks-switzerland"
-        },
-        {
-          "id": "breitbart-us-iran-talks-switzerland-9",
-          "outletId": "breitbart",
-          "outletName": "Breitbart",
-          "headline": "First Round of U.S.-Iran Summit Talks on Track as 'Encouraging Progress' Reported",
-          "url": "https://www.breitbart.com/europe/2026/06/22/first-round-of-u-s-iran-summit-talks-on-track-as-encouraging-progress-reported/",
-          "biasScore": 6.5,
-          "biasSignals": [
-            "'encouraging progress' framing favors Trump admin",
-            "Breitbart headline emphasizes positive spin for conservatives"
-          ],
-          "biasScoreGrok": 6.5,
-          "biasSignalsGrok": [
-            "on track reported",
-            "conservative framing"
-          ],
-          "pubDate": "Mon, 22 Jun 2026 08:16:00 +0000",
-          "clusterId": "us-iran-talks-switzerland"
-        },
-        {
-          "id": "washexaminer-us-iran-talks-switzerland-12",
-          "outletId": "washexaminer",
-          "outletName": "Washington Examiner",
-          "headline": "Vance explains Trump’s threats during negotiations as a response to Iran’s ‘trash talk’",
-          "url": "https://www.washingtonexaminer.com/news/white-house/4618424/vance-trump-threats-during-negotiations-response-iran-trash-talk/",
-          "biasScore": 6.5,
-          "biasSignals": [
-            "Vance framed as reasonable explainer of Trump threats",
-            "'trash talk' framing sympathetic to US negotiators"
-          ],
-          "biasScoreGrok": 6.8,
-          "biasSignalsGrok": [
-            "threats as response",
-            "trash talk quote"
-          ],
-          "pubDate": "Mon, 22 Jun 2026 13:56:05 +0000",
-          "clusterId": "us-iran-talks-switzerland"
-        },
-        {
-          "id": "foxnews-us-iran-talks-switzerland-27",
+          "id": "foxnews-us-iran-nuclear-talks-switzerland-11",
           "outletId": "foxnews",
           "outletName": "Fox News",
-          "headline": "Victor Davis Hanson dissects how critics completely misread the Iran deal",
-          "url": "https://www.foxnews.com/media/victor-davis-hanson-dissects-mainstream-media-coverage-misreads-iran-deal",
-          "biasScore": 7.5,
+          "headline": "Trump's Iran gamble divides GOP hawks and 'America First' conservatives over what victory looks like",
+          "url": "https://www.foxnews.com/politics/trumps-iran-gamble-divides-gop-hawks-america-first-conservatives-victory-looks-like",
+          "biasScore": 6.2,
           "biasSignals": [
-            "'critics completely misread' — dismissive of opposition",
-            "Victor Davis Hanson byline signals right-wing framing"
+            "'Iran gamble' frames Trump as risk-taker — right-leaning",
+            "GOP hawk framing sympathizes with tough stance"
+          ],
+          "biasScoreGrok": 6.8,
+          "biasSignalsGrok": [
+            "GOP hawks vs America First",
+            "conservative framing"
+          ],
+          "pubDate": "2026-06-21T17:37:19.827497Z",
+          "clusterId": "us-iran-nuclear-talks-switzerland"
+        },
+        {
+          "id": "breitbart-us-iran-nuclear-talks-switzerland-12",
+          "outletId": "breitbart",
+          "outletName": "Breitbart",
+          "headline": "Iran Celebrates 'Positive Developments' After Switzerland Talks with U.S.",
+          "url": "https://www.breitbart.com/middle-east/2026/06/22/iran-celebrates-positive-developments-after-switzerland-talks-with-u-s/",
+          "biasScore": 6.8,
+          "biasSignals": [
+            "'Iran Celebrates' implies enemy gloating — adversarial framing",
+            "scare-quote-adjacent framing of 'Positive Developments'"
           ],
           "biasScoreGrok": 7.2,
           "biasSignalsGrok": [
-            "critics misread",
-            "right defense"
+            "Iran celebrates quoted",
+            "positive developments"
           ],
-          "pubDate": "2026-06-21T14:22:23.5218329Z",
-          "clusterId": "us-iran-talks-switzerland"
+          "pubDate": "Mon, 22 Jun 2026 16:28:07 +0000",
+          "clusterId": "us-iran-nuclear-talks-switzerland"
+        },
+        {
+          "id": "thefederalist-us-iran-nuclear-talks-switzerland-24",
+          "outletId": "thefederalist",
+          "outletName": "The Federalist",
+          "headline": "Poll: Vast Majority Of Americans Want Iran War To End Now",
+          "url": "https://thefederalist.com/2026/06/22/poll-vast-majority-of-americans-want-iran-war-to-end-now/?utm_source=rss&utm_medium=rss&utm_campaign=poll-vast-majority-of-americans-want-iran-war-to-end-now",
+          "biasScore": 7,
+          "biasSignals": [
+            "'Vast Majority' frames public will against deal critics",
+            "framing supports war-ending narrative favored by right"
+          ],
+          "biasScoreGrok": 7.8,
+          "biasSignalsGrok": [
+            "vast majority poll",
+            "war end now"
+          ],
+          "pubDate": "Mon, 22 Jun 2026 15:54:32 +0000",
+          "clusterId": "us-iran-nuclear-talks-switzerland"
+        },
+        {
+          "id": "breitbart-us-iran-nuclear-talks-switzerland-13",
+          "outletId": "breitbart",
+          "outletName": "Breitbart",
+          "headline": "Nolte: Trump Threatens Iran -- Close the Strait ‘and You Won’t Have a Country’",
+          "url": "https://www.breitbart.com/politics/2026/06/22/nolte-trump-threatens-iran-close-the-strait-and-you-wont-have-a-country/",
+          "biasScore": 7.5,
+          "biasSignals": [
+            "'Trump Threatens Iran' framed positively as strength",
+            "aggressive language 'won't have a country' highlighted approvingly"
+          ],
+          "biasScoreGrok": 8.5,
+          "biasSignalsGrok": [
+            "threatens Iran charged",
+            "invasion style language"
+          ],
+          "pubDate": "Mon, 22 Jun 2026 14:03:11 +0000",
+          "clusterId": "us-iran-nuclear-talks-switzerland"
         }
       ]
     },
     {
-      "id": "reflecting-pool-vandalism",
-      "topicLabel": "Trump claims vandalism at Lincoln Memorial Reflecting Pool",
+      "id": "starmer-resignation-uk-pm",
+      "topicLabel": "UK PM Keir Starmer resigns amid mounting pressure",
       "date": "2026-06-22",
       "articles": [
         {
-          "id": "msnbc-reflecting-pool-vandalism-0",
+          "id": "metro-starmer-resignation-uk-pm-7",
+          "outletId": "metro",
+          "outletName": "Metro",
+          "headline": "‘Starmer, a man of integrity, honesty and compassion’ – readers weigh in on Starmer’s resignation",
+          "url": "https://metro.co.uk/2026/06/22/starmer-a-man-integrity-honesty-compassion-readers-weigh-starmers-resignation-28877517/",
+          "biasScore": 3,
+          "biasSignals": [
+            "'man of integrity, honesty and compassion' — sympathetic framing",
+            "readers' praise quoted without counterbalance"
+          ],
+          "biasScoreGrok": 3.1,
+          "biasSignalsGrok": [
+            "integrity honesty compassion",
+            "readers weigh in"
+          ],
+          "pubDate": "Mon, 22 Jun 2026 17:30:00 +0000",
+          "clusterId": "starmer-resignation-uk-pm"
+        },
+        {
+          "id": "bbc-starmer-resignation-uk-pm-1",
+          "outletId": "bbc",
+          "outletName": "BBC",
+          "headline": "Signs grow that Starmer will set out timetable to resign as mood in government shifts",
+          "url": "https://www.bbc.co.uk/news/articles/cql10wwy69zo",
+          "biasScore": 4.2,
+          "biasSignals": [
+            "'mood in government shifts' neutral insider language",
+            "no partisan framing on Starmer's fate"
+          ],
+          "biasScoreGrok": 4.4,
+          "biasSignalsGrok": [
+            "signs grow neutral",
+            "mood shifts"
+          ],
+          "pubDate": "2026-06-21T11:22:21.8658507Z",
+          "clusterId": "starmer-resignation-uk-pm"
+        },
+        {
+          "id": "bbc-starmer-resignation-uk-pm-0",
+          "outletId": "bbc",
+          "outletName": "BBC",
+          "headline": "Starmer considers political future as calls to quit mount",
+          "url": "https://www.bbc.co.uk/news/articles/cn8k1my75gno",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral 'considers political future' framing",
+            "'calls to quit mount' factual without editorializing"
+          ],
+          "biasScoreGrok": 4.2,
+          "biasSignalsGrok": [
+            "considers future neutral",
+            "calls to quit"
+          ],
+          "pubDate": "2026-06-21T17:37:23.7171508Z",
+          "clusterId": "starmer-resignation-uk-pm"
+        },
+        {
+          "id": "axios-starmer-resignation-uk-pm-5",
+          "outletId": "axios",
+          "outletName": "Axios",
+          "headline": "U.K. Prime Minister Keir Starmer resigns",
+          "url": "https://www.axios.com/2026/06/22/keir-starmer-resigns-prime-minister-labour-andy-burnham",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "factual neutral headline on resignation",
+            "no editorializing"
+          ],
+          "biasScoreGrok": 4.7,
+          "biasSignalsGrok": [
+            "Prime Minister resigns",
+            "factual title"
+          ],
+          "pubDate": "Mon, 22 Jun 2026 09:27:28 +0000",
+          "clusterId": "starmer-resignation-uk-pm"
+        },
+        {
+          "id": "skynews-starmer-resignation-uk-pm-10",
+          "outletId": "skynews",
+          "outletName": "Sky News",
+          "headline": "The charts that tell us why Starmer resigned - and how he fared on his promises",
+          "url": "https://news.sky.com/story/the-charts-that-tell-us-why-starmer-has-been-forced-to-resign-13543157",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "data-driven 'charts that tell us' framing — neutral",
+            "balanced assessment of promises vs performance"
+          ],
+          "biasScoreGrok": 4.9,
+          "biasSignalsGrok": [
+            "charts tell why",
+            "promises fared"
+          ],
+          "pubDate": "Mon, 22 Jun 2026 12:55:00 +0100",
+          "clusterId": "starmer-resignation-uk-pm"
+        },
+        {
+          "id": "bloomberg-starmer-resignation-uk-pm-9",
+          "outletId": "bloomberg",
+          "outletName": "Bloomberg",
+          "headline": "Starmer Expected to Set Out Resignation Timetable Within Days",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-21/starmer-expected-to-set-out-resignation-timetable-within-days",
+          "biasScore": 4.8,
+          "biasSignals": [
+            "neutral 'expected to set out timetable' language",
+            "no charged political framing"
+          ],
+          "biasScoreGrok": 4.8,
+          "biasSignalsGrok": [
+            "expected timetable",
+            "within days"
+          ],
+          "pubDate": "2026-06-21T16:11:28+00:00",
+          "clusterId": "starmer-resignation-uk-pm"
+        },
+        {
+          "id": "skynews-starmer-resignation-uk-pm-11",
+          "outletId": "skynews",
+          "outletName": "Sky News",
+          "headline": "Burnham meeting Labour MPs to 'win their confidence' as next PM",
+          "url": "https://news.sky.com/story/andy-burnham-meeting-labour-mps-to-win-their-confidence-as-next-pm-13556772",
+          "biasScore": 4.8,
+          "biasSignals": [
+            "'win their confidence' neutral political framing",
+            "factual reporting on Burnham's positioning"
+          ],
+          "biasScoreGrok": 5.1,
+          "biasSignalsGrok": [
+            "Burnham meeting",
+            "next PM confidence"
+          ],
+          "pubDate": "Mon, 22 Jun 2026 15:31:00 +0100",
+          "clusterId": "starmer-resignation-uk-pm"
+        },
+        {
+          "id": "thehill-starmer-resignation-uk-pm-4",
+          "outletId": "thehill",
+          "outletName": "The Hill",
+          "headline": "Trump says UK prime minister Starmer ‘will resign’",
+          "url": "https://thehill.com/policy/international/5933158-trump-starmer-uk-resign/",
+          "biasScore": 5.5,
+          "biasSignals": [
+            "Trump quote given credibility as framing device",
+            "neutral attribution without critical pushback"
+          ],
+          "biasScoreGrok": 5.8,
+          "biasSignalsGrok": [
+            "Trump says quote",
+            "will resign"
+          ],
+          "pubDate": "2026-06-21T15:23:45Z",
+          "clusterId": "starmer-resignation-uk-pm"
+        },
+        {
+          "id": "telegraph-starmer-resignation-uk-pm-8",
+          "outletId": "telegraph",
+          "outletName": "The Telegraph",
+          "headline": "Investors shun UK bonds after Starmer quits",
+          "url": "https://www.telegraph.co.uk/business/2026/06/22/pound-uk-bonds-borrowing-costs-starmer-burnham-ftse-100/",
+          "biasScore": 5.5,
+          "biasSignals": [
+            "market reaction framed as consequence of Starmer quitting",
+            "neutral financial framing without political spin"
+          ],
+          "biasScoreGrok": 5.3,
+          "biasSignalsGrok": [
+            "investors shun bonds",
+            "after quits"
+          ],
+          "pubDate": "Mon, 22 Jun 2026 16:59:19 GMT",
+          "clusterId": "starmer-resignation-uk-pm"
+        },
+        {
+          "id": "washexaminer-starmer-resignation-uk-pm-3",
+          "outletId": "washexaminer",
+          "outletName": "Washington Examiner",
+          "headline": "‘King of the North’ Andy Burnham rushes south to London for Starmer’s crown",
+          "url": "https://www.washingtonexaminer.com/news/world/4618618/andy-burnham-rushes-to-london-for-starmer-crown/",
+          "biasScore": 6.5,
+          "biasSignals": [
+            "'King of the North' mocking framing for Burnham",
+            "'rushes south for crown' implies opportunism"
+          ],
+          "biasScoreGrok": 7.1,
+          "biasSignalsGrok": [
+            "rushes south charged",
+            "for Starmer crown"
+          ],
+          "pubDate": "Mon, 22 Jun 2026 18:22:29 +0000",
+          "clusterId": "starmer-resignation-uk-pm"
+        },
+        {
+          "id": "nationalreview-starmer-resignation-uk-pm-6",
+          "outletId": "nationalreview",
+          "outletName": "National Review",
+          "headline": "The British Public Is to Blame for the U.K.’s Dysfunction",
+          "url": "https://www.nationalreview.com/2026/06/the-british-public-is-to-blame-for-the-u-k-s-dysfunction/",
+          "biasScore": 6.5,
+          "biasSignals": [
+            "'British Public Is to Blame' — contrarian right framing",
+            "implies voters responsible for dysfunction"
+          ],
+          "biasScoreGrok": 7.5,
+          "biasSignalsGrok": [
+            "British public to blame",
+            "UK dysfunction"
+          ],
+          "pubDate": "Mon, 22 Jun 2026 16:24:09 +0000",
+          "clusterId": "starmer-resignation-uk-pm"
+        },
+        {
+          "id": "breitbart-starmer-resignation-uk-pm-2",
+          "outletId": "breitbart",
+          "outletName": "Breitbart",
+          "headline": "Self-Described 'Socialist' Andy Burnham Looks to Replace Starmer as British Prime Minister",
+          "url": "https://www.breitbart.com/europe/2026/06/22/self-described-socialist-andy-burnham-looks-to-replace-starmer-as-british-prime-minister/",
+          "biasScore": 7.5,
+          "biasSignals": [
+            "'Self-Described Socialist' label for Burnham — charged framing",
+            "framing replacement negatively as further leftward shift"
+          ],
+          "biasScoreGrok": 6.9,
+          "biasSignalsGrok": [
+            "self-described socialist",
+            "replace Starmer"
+          ],
+          "pubDate": "Mon, 22 Jun 2026 15:55:14 +0000",
+          "clusterId": "starmer-resignation-uk-pm"
+        }
+      ]
+    },
+    {
+      "id": "dc-reflecting-pool-vandalism",
+      "topicLabel": "Trump blames vandals for DC Reflecting Pool damage",
+      "date": "2026-06-22",
+      "articles": [
+        {
+          "id": "msnbc-dc-reflecting-pool-vandalism-0",
           "outletId": "msnbc",
           "outletName": "MSNBC",
           "headline": "Trump blames ‘radical left lunatics’ and an ABC reporter for reflecting pool issues",
           "url": "https://www.ms.now/news/trump-blames-radical-left-lunatics-and-an-abc-reporter-for-reflecting-pool-issues",
           "biasScore": 2.5,
           "biasSignals": [
-            "'radical left lunatics' quote used to mock Trump",
-            "MSNBC framing highlights Trump's charged language critically"
+            "'radical left lunatics' quote framed to mock Trump",
+            "MSNBC framing implies Trump's claim is absurd"
           ],
           "biasScoreGrok": 2.5,
           "biasSignalsGrok": [
             "radical left lunatics",
-            "charged blame"
+            "ABC reporter blame"
           ],
           "pubDate": "2026-06-20T17:42:33Z",
-          "clusterId": "reflecting-pool-vandalism"
+          "clusterId": "dc-reflecting-pool-vandalism"
         },
         {
-          "id": "independent-reflecting-pool-vandalism-13",
-          "outletId": "independent",
-          "outletName": "The Independent",
-          "headline": "Olympian arrested for ‘vandalism’ of Trump’s algae-covered Lincoln Memorial Reflecting Pool speaks out",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/reflecting-pool-arrest-olympian-trump-b3000391.html",
-          "biasScore": 3,
+          "id": "guardian-dc-reflecting-pool-vandalism-4",
+          "outletId": "guardian",
+          "outletName": "The Guardian",
+          "headline": "Trump claims ‘vandals’ foiled his $14m bid to revamp DC’s reflecting pool. What actually happened?",
+          "url": "https://www.theguardian.com/us-news/2026/jun/22/what-happened-dc-reflecting-pool-vandalism-arrest-algae",
+          "biasScore": 2.8,
           "biasSignals": [
-            "'algae-covered' undermines Trump's vandalism framing",
-            "Olympian given sympathetic 'speaks out' framing"
+            "'What actually happened?' implies Trump's claim is false",
+            "$14m figure emphasizes cost — critical framing"
           ],
-          "biasScoreGrok": 4,
+          "biasScoreGrok": 2.9,
           "biasSignalsGrok": [
-            "vandalism quotes",
-            "speaks out"
+            "vandals foiled bid",
+            "what actually happened"
           ],
-          "pubDate": "Mon, 22 Jun 2026 15:17:47 GMT",
-          "clusterId": "reflecting-pool-vandalism"
+          "pubDate": "Mon, 22 Jun 2026 16:02:34 GMT",
+          "clusterId": "dc-reflecting-pool-vandalism"
         },
         {
-          "id": "huffpost-reflecting-pool-vandalism-14",
+          "id": "washpost-dc-reflecting-pool-vandalism-2",
+          "outletId": "washpost",
+          "outletName": "Washington Post",
+          "headline": "Cyclist arrested at Reflecting Pool is former Olympian who denies vandalism claims",
+          "url": "https://www.washingtonpost.com/nation/2026/06/20/cyclist-arrested-reflecting-pool-denies-trump-vandalism-claims/",
+          "biasScore": 3.5,
+          "biasSignals": [
+            "'denies vandalism claims' — sympathetic to arrested cyclist",
+            "'former Olympian' status elevates subject's credibility"
+          ],
+          "biasScoreGrok": 4.6,
+          "biasSignalsGrok": [
+            "cyclist arrested",
+            "former Olympian denies"
+          ],
+          "pubDate": "2026-06-20T17:52:00Z",
+          "clusterId": "dc-reflecting-pool-vandalism"
+        },
+        {
+          "id": "huffpost-dc-reflecting-pool-vandalism-9",
           "outletId": "huffpost",
           "outletName": "HuffPost",
           "headline": "Trump Tries To Blame Reflecting Pool Woes On Vandalism, Says It Will Likely Be Drained Again For Repairs",
           "url": "https://www.huffpost.com/entry/trump-tries-to-blame-reflecting-pool-on-vandalism-says-it-will-have-to-be-drained-again-for-repairs_n_6a37517de4b057a50cee3653",
           "biasScore": 3.5,
           "biasSignals": [
-            "'tries to blame' — skeptical framing of Trump",
-            "HuffPost headline implies Trump narrative is dubious"
+            "'Tries To Blame' skeptical framing of Trump's claim",
+            "contextual 'likely be drained again' implies mismanagement"
           ],
-          "biasScoreGrok": 3.2,
+          "biasScoreGrok": 3,
           "biasSignalsGrok": [
             "tries to blame",
-            "woes framing"
+            "woes on vandalism"
           ],
           "pubDate": "2026-06-21T03:18:41Z",
-          "clusterId": "reflecting-pool-vandalism"
+          "clusterId": "dc-reflecting-pool-vandalism"
         },
         {
-          "id": "washpost-reflecting-pool-vandalism-1",
+          "id": "washpost-dc-reflecting-pool-vandalism-1",
           "outletId": "washpost",
           "outletName": "Washington Post",
           "headline": "Trump likely to drain Reflecting Pool again, following peeling paint and algae",
           "url": "https://www.washingtonpost.com/politics/2026/06/20/trump-likely-drain-reflecting-pool-again-following-peeling-paint-algae/",
           "biasScore": 4,
           "biasSignals": [
-            "'likely to drain' — neutral but implies poor maintenance",
-            "algae/paint framing subtly questions Trump narrative"
+            "'likely to drain' neutral predictive framing",
+            "'peeling paint and algae' implies pre-existing issues"
           ],
           "biasScoreGrok": 4,
           "biasSignalsGrok": [
             "likely drain again",
-            "peeling paint"
+            "peeling paint algae"
           ],
           "pubDate": "2026-06-21T02:45:40Z",
-          "clusterId": "reflecting-pool-vandalism"
+          "clusterId": "dc-reflecting-pool-vandalism"
         },
         {
-          "id": "guardian-reflecting-pool-vandalism-6",
-          "outletId": "guardian",
-          "outletName": "The Guardian",
-          "headline": "Trump official vows to prosecute ‘vandalizing’ of reflecting pool after five people reportedly arrested – live",
-          "url": "https://www.theguardian.com/us-news/live/2026/jun/22/trump-reflecting-pool-vandalized-lincoln-memorial-iran-us-politics-latest-news-updates",
-          "biasScore": 4,
+          "id": "npr-dc-reflecting-pool-vandalism-3",
+          "outletId": "npr",
+          "outletName": "NPR",
+          "headline": "Trump claims vandals damaged D.C. Reflecting Pool, and says it will be drained again",
+          "url": "https://www.npr.org/2026/06/21/nx-s1-5865636/trump-reflecting-pool-dc-vandals-drain-green",
+          "biasScore": 4.2,
           "biasSignals": [
-            "'vows to prosecute vandalizing' — quote marks signal skepticism",
-            "Guardian framing implies doubt about vandalism claim"
+            "neutral 'Trump claims' attribution",
+            "factual 'will be drained again' without spin"
           ],
-          "biasScoreGrok": 3,
+          "biasScoreGrok": 3.8,
           "biasSignalsGrok": [
-            "vandalizing quotes",
-            "prosecute vows"
+            "Trump claims vandals",
+            "will be drained"
           ],
-          "pubDate": "Mon, 22 Jun 2026 15:07:11 GMT",
-          "clusterId": "reflecting-pool-vandalism"
+          "pubDate": "Sun, 21 Jun 2026 09:46:25 -0400",
+          "clusterId": "dc-reflecting-pool-vandalism"
         },
         {
-          "id": "ap-reflecting-pool-vandalism-12",
+          "id": "ap-dc-reflecting-pool-vandalism-8",
           "outletId": "ap",
           "outletName": "Associated Press",
           "headline": "Trump tries to blame Reflecting Pool woes on vandalism",
           "url": "https://apnews.com/article/trump-reflecting-pool-paint-algae-6b7b499ada2701a34bc6bc380013ad04",
-          "biasScore": 4,
+          "biasScore": 4.5,
           "biasSignals": [
-            "'tries to blame' — skeptical verb choice",
-            "AP framing questions Trump's vandalism narrative"
+            "'tries to blame' subtly skeptical verb choice",
+            "otherwise factual framing"
           ],
-          "biasScoreGrok": 3.8,
+          "biasScoreGrok": 3.4,
           "biasSignalsGrok": [
             "tries to blame",
             "woes on vandalism"
           ],
           "pubDate": "2026-06-20T16:41:00Z",
-          "clusterId": "reflecting-pool-vandalism"
+          "clusterId": "dc-reflecting-pool-vandalism"
         },
         {
-          "id": "washpost-reflecting-pool-vandalism-2",
-          "outletId": "washpost",
-          "outletName": "Washington Post",
-          "headline": "Cyclist arrested at Reflecting Pool is former Olympian who denies vandalism claims",
-          "url": "https://www.washingtonpost.com/nation/2026/06/20/cyclist-arrested-reflecting-pool-denies-trump-vandalism-claims/",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "'denies vandalism claims' — sympathetic to arrestee",
-            "neutral framing overall"
-          ],
-          "biasScoreGrok": 5.2,
-          "biasSignalsGrok": [
-            "cyclist arrested",
-            "denies claims"
-          ],
-          "pubDate": "2026-06-20T17:52:00Z",
-          "clusterId": "reflecting-pool-vandalism"
-        },
-        {
-          "id": "npr-reflecting-pool-vandalism-3",
-          "outletId": "npr",
-          "outletName": "NPR",
-          "headline": "Trump claims vandals damaged D.C. Reflecting Pool, and says it will be drained again",
-          "url": "https://www.npr.org/2026/06/21/nx-s1-5865636/trump-reflecting-pool-dc-vandals-drain-green",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "'claims vandals' implies skepticism of Trump narrative",
-            "neutral overall framing"
-          ],
-          "biasScoreGrok": 4.3,
-          "biasSignalsGrok": [
-            "claims vandals",
-            "drained again"
-          ],
-          "pubDate": "Sun, 21 Jun 2026 09:46:25 -0400",
-          "clusterId": "reflecting-pool-vandalism"
-        },
-        {
-          "id": "cbsnews-reflecting-pool-vandalism-7",
+          "id": "cbsnews-dc-reflecting-pool-vandalism-5",
           "outletId": "cbsnews",
           "outletName": "CBS News",
           "headline": "Markings that appear to show the numbers \"86 47\" seen on National Mall in Washington",
           "url": "https://www.cbsnews.com/news/86-47-markings-national-mall-washington-dc/",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral description of '86 47' markings",
-            "no ideological loaded language"
-          ],
-          "biasScoreGrok": 5,
-          "biasSignalsGrok": [
-            "markings seen",
-            "numbers reported"
-          ],
-          "pubDate": "2026-06-11T18:56:44+00:00",
-          "clusterId": "reflecting-pool-vandalism"
-        },
-        {
-          "id": "axios-reflecting-pool-vandalism-11",
-          "outletId": "axios",
-          "outletName": "Axios",
-          "headline": "Reflecting Pool repairs become personal for Trump",
-          "url": "https://www.axios.com/2026/06/21/trump-reflecting-pool-renovation-vandalism-fix-dc",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "'personal for Trump' framing implies emotional investment",
-            "mild skepticism of Trump's narrative emphasis"
-          ],
-          "biasScoreGrok": 4.5,
-          "biasSignalsGrok": [
-            "repairs personal",
-            "Trump focus"
-          ],
-          "pubDate": "Mon, 22 Jun 2026 00:11:23 +0000",
-          "clusterId": "reflecting-pool-vandalism"
-        },
-        {
-          "id": "bbc-reflecting-pool-vandalism-4",
-          "outletId": "bbc",
-          "outletName": "BBC",
-          "headline": "Davey Hearn: Former Olympian denies vandalising Washington Reflecting Pool after arrest",
-          "url": "https://www.bbc.co.uk/news/articles/c8d26051vv2o",
           "biasScore": 5,
           "biasSignals": [
-            "neutral 'denies' framing for Olympian",
-            "straightforward event description"
+            "neutral factual description of markings seen",
+            "no interpretive framing applied"
           ],
-          "biasScoreGrok": 5.1,
+          "biasScoreGrok": 5.2,
           "biasSignalsGrok": [
-            "denies vandalising",
-            "former Olympian"
+            "markings 86 47",
+            "National Mall seen"
           ],
-          "pubDate": "2026-06-21T10:07:22.7278403Z",
-          "clusterId": "reflecting-pool-vandalism"
+          "pubDate": "2026-06-11T18:56:44+00:00",
+          "clusterId": "dc-reflecting-pool-vandalism"
         },
         {
-          "id": "thehill-reflecting-pool-vandalism-9",
+          "id": "thehill-dc-reflecting-pool-vandalism-7",
           "outletId": "thehill",
           "outletName": "The Hill",
           "headline": "Trump says Lincoln Memorial Reflecting Pool will ‘probably’ be drained for repairs",
           "url": "https://thehill.com/homenews/administration/5933082-trump-reflecting-pool-drained-repairs/",
           "biasScore": 5,
           "biasSignals": [
-            "neutral 'probably be drained' framing",
-            "no ideological signals detected"
+            "neutral 'Trump says' attribution",
+            "'probably' qualifier reflects Trump's own hedging"
           ],
-          "biasScoreGrok": 5,
+          "biasScoreGrok": 4.7,
           "biasSignalsGrok": [
             "probably drained",
-            "repairs neutral"
+            "for repairs"
           ],
           "pubDate": "2026-06-21T13:27:56Z",
-          "clusterId": "reflecting-pool-vandalism"
+          "clusterId": "dc-reflecting-pool-vandalism"
         },
         {
-          "id": "thehill-reflecting-pool-vandalism-10",
-          "outletId": "thehill",
-          "outletName": "The Hill",
-          "headline": "Trump says ‘multiple arrests’ made at Reflecting Pool amid vandalism claims",
-          "url": "https://thehill.com/homenews/administration/5932939-trump-arrests-vandalism-lincoln-memorial/",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral reporting of Trump's 'multiple arrests' claim",
-            "no endorsement or skepticism signaled"
-          ],
-          "biasScoreGrok": 5.3,
-          "biasSignalsGrok": [
-            "multiple arrests",
-            "vandalism claims"
-          ],
-          "pubDate": "2026-06-21T00:59:39Z",
-          "clusterId": "reflecting-pool-vandalism"
-        },
-        {
-          "id": "foxnews-reflecting-pool-vandalism-5",
-          "outletId": "foxnews",
-          "outletName": "Fox News",
-          "headline": "Who is David Hearn? US Olympian who denies vandalizing Reflecting Pool after viral arrest",
-          "url": "https://www.foxnews.com/sports/david-hearn-us-olympian-denies-vandalizing-reflecting-pool-viral-arrest",
-          "biasScore": 5.5,
-          "biasSignals": [
-            "Fox frames Olympian as identified suspect",
-            "neutral tone but sympathetic to Trump's vandalism claim"
-          ],
-          "biasScoreGrok": 6,
-          "biasSignalsGrok": [
-            "denies vandalizing",
-            "viral arrest"
-          ],
-          "pubDate": "2026-06-21T13:52:22.5103768Z",
-          "clusterId": "reflecting-pool-vandalism"
-        },
-        {
-          "id": "washexaminer-reflecting-pool-vandalism-8",
+          "id": "washexaminer-dc-reflecting-pool-vandalism-6",
           "outletId": "washexaminer",
           "outletName": "Washington Examiner",
-          "headline": "Trump says 300-foot gash in Reflecting Pool is being ‘taken care of’",
-          "url": "https://www.washingtonexaminer.com/news/white-house/4618526/trump-300-foot-gash-reflecting-pool-taken-care-of/",
-          "biasScore": 6,
+          "headline": "Law enforcement officers descend on Reflecting Pool after Trump claims vandalism",
+          "url": "https://www.washingtonexaminer.com/news/crime/4618915/law-enforcement-officers-reflecting-pool-trump-claims-vandalism/",
+          "biasScore": 6.2,
           "biasSignals": [
-            "Trump's '300-foot gash' framing accepted uncritically",
-            "Washington Examiner leans toward Trump's characterization"
+            "'Law enforcement descend' — supportive of enforcement response",
+            "framing validates Trump's vandalism claim implicitly"
           ],
-          "biasScoreGrok": 5.8,
+          "biasScoreGrok": 5.5,
           "biasSignalsGrok": [
-            "gash taken care",
-            "Trump says"
+            "law enforcement descend",
+            "after claims"
           ],
-          "pubDate": "Mon, 22 Jun 2026 14:28:33 +0000",
-          "clusterId": "reflecting-pool-vandalism"
+          "pubDate": "Mon, 22 Jun 2026 18:13:09 +0000",
+          "clusterId": "dc-reflecting-pool-vandalism"
         }
       ]
     },
     {
-      "id": "keir-starmer-resignation",
-      "topicLabel": "UK Prime Minister Keir Starmer resigns from office",
+      "id": "etan-patz-murder-conviction-scotus",
+      "topicLabel": "Supreme Court restores 1979 Etan Patz murder conviction",
       "date": "2026-06-22",
       "articles": [
         {
-          "id": "dailymail-keir-starmer-resignation-8",
-          "outletId": "dailymail",
-          "outletName": "Daily Mail",
-          "headline": "Lady Starmer leads 'Team Keir' in Downing Street as PM's family and closest allies gather to watch his tearful resignation - but where was Rachel Reeves?",
-          "url": "\n\thttps://www.dailymail.com/news/article-15919683/Lady-Starmer-leads-Team-Keir-Downing-Street-PMs-family-closest-allies-gather-watch-tearful-resignation-Rachel-Reeves.html?ns_mchannel=rss&ito=1490&ns_campaign=1490\n      ",
+          "id": "guardian-etan-patz-murder-conviction-scotus-1",
+          "outletId": "guardian",
+          "outletName": "The Guardian",
+          "headline": "US supreme court reinstates murder conviction in case of Etan Patz",
+          "url": "https://www.theguardian.com/us-news/2026/jun/22/etan-patz-pedro-hernandez-conviction-reinstated",
           "biasScore": 4.5,
           "biasSignals": [
-            "focus on personal family scene adds human framing",
-            "'tearful resignation' sympathetic to Starmer"
-          ],
-          "biasScoreGrok": 5.8,
-          "biasSignalsGrok": [
-            "tearful resignation",
-            "family focus"
-          ],
-          "pubDate": "Mon, 22 Jun 2026 16:15:57 +0100",
-          "clusterId": "keir-starmer-resignation"
-        },
-        {
-          "id": "bbc-keir-starmer-resignation-0",
-          "outletId": "bbc",
-          "outletName": "BBC",
-          "headline": "Signs grow that Starmer will set out timetable to resign as mood in government shifts",
-          "url": "https://www.bbc.co.uk/news/articles/cql10wwy69zo",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral 'signs grow' framing, factual",
-            "no ideological loaded language"
+            "neutral 'reinstates murder conviction' language",
+            "no ideological framing on SCOTUS decision"
           ],
           "biasScoreGrok": 4.5,
           "biasSignalsGrok": [
-            "signs grow",
-            "mood shifts"
+            "reinstates conviction",
+            "Etan Patz case"
           ],
-          "pubDate": "2026-06-21T11:22:21.8658507Z",
-          "clusterId": "keir-starmer-resignation"
+          "pubDate": "Mon, 22 Jun 2026 16:41:31 GMT",
+          "clusterId": "etan-patz-murder-conviction-scotus"
         },
         {
-          "id": "aljazeera-keir-starmer-resignation-1",
-          "outletId": "aljazeera",
-          "outletName": "Al Jazeera",
-          "headline": "Why has Keir Starmer resigned as UK prime minister, and who will take over?",
-          "url": "https://www.aljazeera.com/news/2026/6/22/why-has-keir-starmer-resigned-as-uk-prime-minister-and-who-will-take-over?traffic_source=rss",
-          "biasScore": 5,
+          "id": "nytimes-etan-patz-murder-conviction-scotus-0",
+          "outletId": "nytimes",
+          "outletName": "NY Times",
+          "headline": "Supreme Court Restores Conviction in 1979 Murder of Etan Patz",
+          "url": "https://www.nytimes.com/2026/06/22/us/politics/etan-patz-pedro-hernandez.html",
+          "biasScore": 4.8,
           "biasSignals": [
-            "neutral explainer format",
-            "no ideological signals detected"
+            "neutral 'restores conviction' framing",
+            "factual year reference without editorializing"
           ],
           "biasScoreGrok": 4.8,
           "biasSignalsGrok": [
-            "why resigned",
-            "who next"
+            "restores conviction",
+            "1979 murder"
           ],
-          "pubDate": "Mon, 22 Jun 2026 14:23:45 +0000",
-          "clusterId": "keir-starmer-resignation"
+          "pubDate": "Mon, 22 Jun 2026 16:21:20 +0000",
+          "clusterId": "etan-patz-murder-conviction-scotus"
         },
         {
-          "id": "cnbc-keir-starmer-resignation-5",
-          "outletId": "cnbc",
-          "outletName": "CNBC",
-          "headline": "UK PM Starmer resigns as Britain faces its seventh leader in 10 years",
-          "url": "https://www.cnbc.com/2026/06/22/keir-starmer-resigns-uk-prime-minister.html",
-          "biasScore": 5,
+          "id": "timesofisrael-etan-patz-murder-conviction-scotus-2",
+          "outletId": "timesofisrael",
+          "outletName": "Times of Israel",
+          "headline": "US Supreme Court restores conviction in 1979 Etan Patz NYC murder case",
+          "url": "https://www.timesofisrael.com/us-supreme-court-restores-conviction-in-1979-etan-patz-nyc-murder-case/",
+          "biasScore": 4.8,
           "biasSignals": [
-            "neutral framing, factual headline",
-            "'seventh leader in 10 years' adds context without bias"
+            "factual neutral headline with full context",
+            "no partisan framing on court ruling"
           ],
           "biasScoreGrok": 4.9,
           "biasSignalsGrok": [
-            "seventh leader",
-            "10 years"
+            "restores conviction",
+            "NYC murder case"
           ],
-          "pubDate": "Mon, 22 Jun 2026 12:48:50 GMT",
-          "clusterId": "keir-starmer-resignation"
+          "pubDate": "Mon, 22 Jun 2026 16:48:05 +0000",
+          "clusterId": "etan-patz-murder-conviction-scotus"
+        }
+      ]
+    },
+    {
+      "id": "doj-subpoena-walz-minnesota",
+      "topicLabel": "Judge blocks DOJ subpoenas against Minnesota Governor Walz",
+      "date": "2026-06-22",
+      "articles": [
+        {
+          "id": "guardian-doj-subpoena-walz-minnesota-0",
+          "outletId": "guardian",
+          "outletName": "The Guardian",
+          "headline": "Federal judge blocks Trump administration efforts to subpoena Minnesota governor Tim Walz and others – live",
+          "url": "https://www.theguardian.com/us-news/live/2026/jun/22/trump-reflecting-pool-vandalized-lincoln-memorial-iran-us-politics-latest-news-updates",
+          "biasScore": 3,
+          "biasSignals": [
+            "'blocks Trump administration efforts' — critical framing",
+            "live updates format implies ongoing resistance narrative"
+          ],
+          "biasScoreGrok": 2.8,
+          "biasSignalsGrok": [
+            "blocks Trump efforts",
+            "live updates"
+          ],
+          "pubDate": "Mon, 22 Jun 2026 18:28:28 GMT",
+          "clusterId": "doj-subpoena-walz-minnesota"
         },
         {
-          "id": "washexaminer-keir-starmer-resignation-6",
+          "id": "forbes-doj-subpoena-walz-minnesota-2",
+          "outletId": "forbes",
+          "outletName": "Forbes",
+          "headline": "Court Kills Trump DOJ’s Subpoenas Against Minnesota Officials—Ruling They’re Meant ‘To Harass’",
+          "url": "https://www.forbes.com/sites/alisondurkee/2026/06/22/court-kills-trump-dojs-subpoenas-against-minnesota-officials-ruling-theyre-meant-to-harass/",
+          "biasScore": 3,
+          "biasSignals": [
+            "'Meant To Harass' — judge quote used as headline framing",
+            "DOJ portrayed as bad-faith actor"
+          ],
+          "biasScoreGrok": 2.4,
+          "biasSignalsGrok": [
+            "kills subpoenas",
+            "meant to harass"
+          ],
+          "pubDate": "Mon, 22 Jun 2026 13:24:51 -0400",
+          "clusterId": "doj-subpoena-walz-minnesota"
+        },
+        {
+          "id": "guardian-doj-subpoena-walz-minnesota-1",
+          "outletId": "guardian",
+          "outletName": "The Guardian",
+          "headline": "Judge dismisses DoJ subpoenas against Walz and other Minnesota officials",
+          "url": "https://www.theguardian.com/us-news/2026/jun/22/federal-subpoenas-minnesota-officials-order",
+          "biasScore": 3.2,
+          "biasSignals": [
+            "'dismisses' implies DOJ overreach rebuffed",
+            "no neutral framing of DOJ's stated rationale"
+          ],
+          "biasScoreGrok": 3.1,
+          "biasSignalsGrok": [
+            "dismisses subpoenas",
+            "against officials"
+          ],
+          "pubDate": "Mon, 22 Jun 2026 18:15:59 GMT",
+          "clusterId": "doj-subpoena-walz-minnesota"
+        },
+        {
+          "id": "bostonglobe-doj-subpoena-walz-minnesota-4",
+          "outletId": "bostonglobe",
+          "outletName": "Boston Globe",
+          "headline": "Federal judge halts Trump administration effort to subpoena Walz in immigration enforcement probe",
+          "url": "https://www.bostonglobe.com/2026/06/22/nation/trump-walz-judge-subpoena-immigration/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
+          "biasScore": 3.5,
+          "biasSignals": [
+            "'halts Trump administration effort' — critical framing",
+            "'immigration enforcement probe' neutral qualifier"
+          ],
+          "biasScoreGrok": 3.3,
+          "biasSignalsGrok": [
+            "halts Trump effort",
+            "immigration probe"
+          ],
+          "pubDate": "Mon, 22 Jun 2026 17:10:07 +0000",
+          "clusterId": "doj-subpoena-walz-minnesota"
+        },
+        {
+          "id": "washexaminer-doj-subpoena-walz-minnesota-3",
           "outletId": "washexaminer",
           "outletName": "Washington Examiner",
-          "headline": "Britain has had six prime ministers in 10 years. How long did each of them last?",
-          "url": "https://www.washingtonexaminer.com/news/world/4618552/britain-six-prime-ministers-10-years-tenure-lengths/",
-          "biasScore": 5,
+          "headline": "Judge quashes subpoena of Tim Walz and accuses DOJ of trying to force immigration assistance",
+          "url": "https://www.washingtonexaminer.com/news/justice/4619168/judge-quashes-subpoena-tim-walz-doj/",
+          "biasScore": 5.5,
           "biasSignals": [
-            "factual historical context on UK PM tenure",
-            "neutral framing, no ideological signals"
+            "'quashes subpoena' neutral legal verb",
+            "'force immigration assistance' frames DOJ neutrally"
           ],
-          "biasScoreGrok": 5.5,
+          "biasScoreGrok": 6.3,
           "biasSignalsGrok": [
-            "six prime ministers",
-            "how long"
+            "quashes subpoena",
+            "force immigration assistance"
           ],
-          "pubDate": "Mon, 22 Jun 2026 15:01:27 +0000",
-          "clusterId": "keir-starmer-resignation"
+          "pubDate": "Mon, 22 Jun 2026 17:54:16 +0000",
+          "clusterId": "doj-subpoena-walz-minnesota"
+        }
+      ]
+    },
+    {
+      "id": "clive-davis-death",
+      "topicLabel": "Music mogul Clive Davis dies at 94",
+      "date": "2026-06-22",
+      "articles": [
+        {
+          "id": "latimes-clive-davis-death-0",
+          "outletId": "latimes",
+          "outletName": "LA Times",
+          "headline": "Clive Davis, mogul who nurtured musicians from Janis Joplin to Whitney Houston, dies at 94",
+          "url": "https://www.latimes.com/entertainment-arts/music/story/2026-06-22/clive-davis-dead-music-mogul",
+          "biasScore": 4.8,
+          "biasSignals": [
+            "neutral celebratory obituary framing",
+            "no political signals present"
+          ],
+          "biasScoreGrok": 4.7,
+          "biasSignalsGrok": [
+            "mogul nurtured musicians",
+            "dies at 94"
+          ],
+          "pubDate": "Mon, 22 Jun 2026 15:59:55 GMT",
+          "clusterId": "clive-davis-death"
         },
         {
-          "id": "axios-keir-starmer-resignation-7",
-          "outletId": "axios",
-          "outletName": "Axios",
-          "headline": "U.K. Prime Minister Keir Starmer resigns",
-          "url": "https://www.axios.com/2026/06/22/keir-starmer-resigns-prime-minister-labour-andy-burnham",
-          "biasScore": 5,
+          "id": "bostonglobe-clive-davis-death-1",
+          "outletId": "bostonglobe",
+          "outletName": "Boston Globe",
+          "headline": "Clive Davis, music impresario who launched careers of Whitney Houston, Alicia Keys, and many other stars, dies at 94",
+          "url": "https://www.bostonglobe.com/2026/06/22/arts/clive-davis-dies/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
+          "biasScore": 4.8,
           "biasSignals": [
-            "neutral factual headline",
-            "no loaded language detected"
+            "neutral factual obituary headline",
+            "career achievements listed without spin"
+          ],
+          "biasScoreGrok": 4.6,
+          "biasSignalsGrok": [
+            "impresario launched careers",
+            "dies at 94"
+          ],
+          "pubDate": "Mon, 22 Jun 2026 16:11:24 +0000",
+          "clusterId": "clive-davis-death"
+        },
+        {
+          "id": "dailymail-clive-davis-death-2",
+          "outletId": "dailymail",
+          "outletName": "Daily Mail",
+          "headline": "Clive Davis dies at 94: Music executive titan responsible for careers of Whitney Houston and Bruce Springsteen",
+          "url": "\n\thttps://www.dailymail.com/tvshowbiz/article-15920317/Clive-Davis-dies-94-Music-executive-titan-responsible-careers-Whitney-Houston-Bruce-Springsteen-passes-away.html?ns_mchannel=rss&ito=1490&ns_campaign=1490\n      ",
+          "biasScore": 4.8,
+          "biasSignals": [
+            "'titan' laudatory but standard obituary language",
+            "no political framing"
           ],
           "biasScoreGrok": 5,
           "biasSignalsGrok": [
-            "resigns neutral",
-            "PM title"
+            "executive titan responsible",
+            "dies at 94"
           ],
-          "pubDate": "Mon, 22 Jun 2026 09:27:28 +0000",
-          "clusterId": "keir-starmer-resignation"
+          "pubDate": "Mon, 22 Jun 2026 19:35:04 +0100",
+          "clusterId": "clive-davis-death"
         },
         {
-          "id": "metro-keir-starmer-resignation-10",
-          "outletId": "metro",
-          "outletName": "Metro",
-          "headline": "Burnham could be PM in less than a month – here’s what that would look like",
-          "url": "https://metro.co.uk/2026/06/22/burnham-pm-less-a-month-look-like-28877604/",
-          "biasScore": 5,
+          "id": "latimes-clive-davis-death-3",
+          "outletId": "latimes",
+          "outletName": "LA Times",
+          "headline": "Alan Greenspan, longtime head of the Federal Reserve, dies at 100",
+          "url": "https://www.latimes.com/obituaries/story/2026-06-22/alan-greenspan-stock-market-crash-dead",
+          "biasScore": 4.8,
           "biasSignals": [
-            "neutral 'could be PM' framing for Burnham",
-            "no ideological signals detected"
+            "neutral factual obituary",
+            "no ideological signals"
           ],
           "biasScoreGrok": 4.8,
           "biasSignalsGrok": [
-            "could be PM",
-            "what would look"
+            "Greenspan longtime head",
+            "dies at 100"
           ],
-          "pubDate": "Mon, 22 Jun 2026 14:37:33 +0000",
-          "clusterId": "keir-starmer-resignation"
-        },
-        {
-          "id": "skynews-keir-starmer-resignation-11",
-          "outletId": "skynews",
-          "outletName": "Sky News",
-          "headline": "The charts that tell us why Starmer resigned - and how he fared on his promises",
-          "url": "https://news.sky.com/story/the-charts-that-tell-us-why-starmer-has-been-forced-to-resign-13543157",
-          "biasScore": 5,
-          "biasSignals": [
-            "data-driven framing, neutral analysis",
-            "no ideological loaded language"
-          ],
-          "biasScoreGrok": 5,
-          "biasSignalsGrok": [
-            "charts tell why",
-            "promises fared"
-          ],
-          "pubDate": "Mon, 22 Jun 2026 12:55:00 +0100",
-          "clusterId": "keir-starmer-resignation"
-        },
-        {
-          "id": "foxnews-keir-starmer-resignation-2",
-          "outletId": "foxnews",
-          "outletName": "Fox News",
-          "headline": "Trump says UK's Starmer will resign, wishes him well amid reports of PM's political future",
-          "url": "https://www.foxnews.com/world/trump-says-uks-starmer-will-resign-wishes-well-reports-pms-political-future",
-          "biasScore": 6.5,
-          "biasSignals": [
-            "Trump's view given prominence over broader context",
-            "Fox frames Trump's well-wishes positively"
-          ],
-          "biasScoreGrok": 6,
-          "biasSignalsGrok": [
-            "Trump says resign",
-            "wishes well"
-          ],
-          "pubDate": "2026-06-21T14:52:19.0049333Z",
-          "clusterId": "keir-starmer-resignation"
-        },
-        {
-          "id": "breitbart-keir-starmer-resignation-3",
-          "outletId": "breitbart",
-          "outletName": "Breitbart",
-          "headline": "Prime Minister Keir Starmer Resigns But Sets His Own Months-Long Timetable To Go",
-          "url": "https://www.breitbart.com/europe/2026/06/22/prime-minister-keir-starmer-resigns-but-sets-his-own-months-long-timetable-to-go/",
-          "biasScore": 6.5,
-          "biasSignals": [
-            "'sets his own months-long timetable' implies defiance",
-            "Breitbart framing critical of Starmer's slow exit"
-          ],
-          "biasScoreGrok": 6.2,
-          "biasSignalsGrok": [
-            "sets timetable",
-            "resigns framing"
-          ],
-          "pubDate": "Mon, 22 Jun 2026 09:20:14 +0000",
-          "clusterId": "keir-starmer-resignation"
-        },
-        {
-          "id": "dailymail-keir-starmer-resignation-9",
-          "outletId": "dailymail",
-          "outletName": "Daily Mail",
-          "headline": "Andy Burnham warned 'basket case' Britain cannot withstand any more tax hikes as economy flounders",
-          "url": "\n\thttps://www.dailymail.com/money/markets/article-15919877/Andy-Burnham-warned-basket-case-Britain-withstand-tax-hikes-economy-flounders.html?ns_mchannel=rss&ito=1490&ns_campaign=1490\n      ",
-          "biasScore": 6.5,
-          "biasSignals": [
-            "'basket case Britain' charged economic framing",
-            "Daily Mail emphasizes tax hike criticism"
-          ],
-          "biasScoreGrok": 6.5,
-          "biasSignalsGrok": [
-            "basket case Britain",
-            "tax hikes"
-          ],
-          "pubDate": "Mon, 22 Jun 2026 16:15:53 +0100",
-          "clusterId": "keir-starmer-resignation"
-        },
-        {
-          "id": "breitbart-keir-starmer-resignation-4",
-          "outletId": "breitbart",
-          "outletName": "Breitbart",
-          "headline": "Farage Calls for General Election 'At Soonest Possible Date' After Resignation of Prime Minister Stamer",
-          "url": "https://www.breitbart.com/europe/2026/06/22/farage-calls-for-general-election-at-soonest-possible-date-after-resignation-of-prime-minister-stamer/",
-          "biasScore": 7,
-          "biasSignals": [
-            "Farage given prominent platform for election demand",
-            "Breitbart sympathetic to right-wing Farage position"
-          ],
-          "biasScoreGrok": 7,
-          "biasSignalsGrok": [
-            "Farage calls election",
-            "soonest date"
-          ],
-          "pubDate": "Mon, 22 Jun 2026 10:57:43 +0000",
-          "clusterId": "keir-starmer-resignation"
+          "pubDate": "Mon, 22 Jun 2026 12:02:44 GMT",
+          "clusterId": "clive-davis-death"
         }
       ]
     },
     {
       "id": "alan-greenspan-death",
-      "topicLabel": "Former Federal Reserve Chairman Alan Greenspan dies at 100",
+      "topicLabel": "Former Fed Chair Alan Greenspan dies at 100",
       "date": "2026-06-22",
       "articles": [
+        {
+          "id": "npr-alan-greenspan-death-3",
+          "outletId": "npr",
+          "outletName": "NPR",
+          "headline": "Did you know? Alan Greenspan and Ayn Rand were close friends",
+          "url": "https://www.npr.org/2026/06/22/nx-s1-5866558/alan-greenspan-dead-ayn-rand",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "Ayn Rand connection is notable framing choice",
+            "no charged language but implies ideological signal"
+          ],
+          "biasScoreGrok": 3.5,
+          "biasSignalsGrok": [
+            "Ayn Rand close friends",
+            "did you know"
+          ],
+          "pubDate": "Mon, 22 Jun 2026 13:05:12 -0400",
+          "clusterId": "alan-greenspan-death"
+        },
         {
           "id": "npr-alan-greenspan-death-0",
           "outletId": "npr",
           "outletName": "NPR",
           "headline": "Alan Greenspan, the legendary former Federal Reserve chair, dies",
           "url": "https://www.npr.org/2026/06/22/656930918/alan-greenspan-the-legendary-former-federal-reserve-chair-dies",
-          "biasScore": 5,
+          "biasScore": 4.8,
           "biasSignals": [
-            "'legendary' is laudatory but common obituary framing",
-            "neutral overall tone"
+            "'legendary' standard hagiographic obituary language",
+            "no political framing"
           ],
-          "biasScoreGrok": 5,
+          "biasScoreGrok": 4.5,
           "biasSignalsGrok": [
-            "legendary chair",
-            "dies neutral"
+            "legendary former chair",
+            "dies"
           ],
           "pubDate": "Mon, 22 Jun 2026 07:53:51 -0400",
           "clusterId": "alan-greenspan-death"
         },
         {
-          "id": "cnbc-alan-greenspan-death-2",
+          "id": "cnbc-alan-greenspan-death-1",
           "outletId": "cnbc",
           "outletName": "CNBC",
           "headline": "Alan Greenspan, former chairman of the Fed, dies at age 100",
           "url": "https://www.cnbc.com/2026/06/22/alan-greenspan-former-chairman-of-the-fed-dies-at-age-100.html",
-          "biasScore": 5,
+          "biasScore": 4.8,
           "biasSignals": [
-            "neutral factual headline",
-            "no ideological signals detected"
+            "neutral factual obituary headline",
+            "no ideological signals"
           ],
-          "biasScoreGrok": 5,
+          "biasScoreGrok": 4.9,
           "biasSignalsGrok": [
-            "former chairman",
-            "dies neutral"
+            "former chairman dies",
+            "age 100"
           ],
           "pubDate": "Mon, 22 Jun 2026 14:39:38 GMT",
           "clusterId": "alan-greenspan-death"
         },
         {
-          "id": "washexaminer-alan-greenspan-death-3",
-          "outletId": "washexaminer",
-          "outletName": "Washington Examiner",
-          "headline": "Alan Greenspan dies at age 100",
-          "url": "https://www.washingtonexaminer.com/news/4618342/alan-greenspan-dead-age-100/",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral obituary framing",
-            "no loaded language detected"
-          ],
-          "biasScoreGrok": 5,
-          "biasSignalsGrok": [
-            "dies at age",
-            "neutral report"
-          ],
-          "pubDate": "Mon, 22 Jun 2026 11:23:24 +0000",
-          "clusterId": "alan-greenspan-death"
-        },
-        {
-          "id": "timesofisrael-alan-greenspan-death-4",
-          "outletId": "timesofisrael",
-          "outletName": "Times of Israel",
-          "headline": "Alan Greenspan, who led US Federal Reserve for five terms, dies at 100",
-          "url": "https://www.timesofisrael.com/alan-greenspan-who-led-us-federal-reserve-for-five-terms-dies-at-100/",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral 'five terms' factual framing",
-            "no ideological signals"
-          ],
-          "biasScoreGrok": 5,
-          "biasSignalsGrok": [
-            "led for five",
-            "dies neutral"
-          ],
-          "pubDate": "Mon, 22 Jun 2026 13:10:45 +0000",
-          "clusterId": "alan-greenspan-death"
-        },
-        {
-          "id": "latimes-alan-greenspan-death-5",
+          "id": "latimes-alan-greenspan-death-2",
           "outletId": "latimes",
           "outletName": "LA Times",
           "headline": "Alan Greenspan, longtime head of the Federal Reserve, dies at 100",
           "url": "https://www.latimes.com/obituaries/story/2026-06-22/alan-greenspan-stock-market-crash-dead",
-          "biasScore": 5,
+          "biasScore": 4.8,
           "biasSignals": [
-            "'longtime head' neutral descriptor",
-            "standard obituary framing"
+            "neutral factual obituary",
+            "'longtime head' standard respectful framing"
           ],
-          "biasScoreGrok": 5,
+          "biasScoreGrok": 4.7,
           "biasSignalsGrok": [
-            "longtime head",
-            "dies neutral"
+            "longtime head dies",
+            "at 100"
           ],
           "pubDate": "Mon, 22 Jun 2026 12:02:44 GMT",
           "clusterId": "alan-greenspan-death"
-        },
-        {
-          "id": "skynews-alan-greenspan-death-6",
-          "outletId": "skynews",
-          "outletName": "Sky News",
-          "headline": "Alan Greenspan, longtime head of the US Federal Reserve, dies aged 100",
-          "url": "https://news.sky.com/story/alan-greenspan-longtime-head-of-the-federal-reserve-dies-aged-100-13556721",
-          "biasScore": 5,
-          "biasSignals": [
-            "'longtime head' neutral descriptor",
-            "no ideological signals detected"
-          ],
-          "biasScoreGrok": 5,
-          "biasSignalsGrok": [
-            "longtime head",
-            "dies aged"
-          ],
-          "pubDate": "Mon, 22 Jun 2026 13:16:00 +0100",
-          "clusterId": "alan-greenspan-death"
-        },
-        {
-          "id": "breitbart-alan-greenspan-death-1",
-          "outletId": "breitbart",
-          "outletName": "Breitbart",
-          "headline": "Former Federal Reserve Chairman Alan Greenspan Dies at 100",
-          "url": "https://www.breitbart.com/economy/2026/06/22/former-federal-reserve-chairman-alan-greenspan-dies-at-100/",
-          "biasScore": 5.5,
-          "biasSignals": [
-            "Breitbart neutral headline, no conservative framing signals",
-            "straightforward obituary reporting"
-          ],
-          "biasScoreGrok": 5,
-          "biasSignalsGrok": [
-            "dies at 100",
-            "neutral obituary"
-          ],
-          "pubDate": "Mon, 22 Jun 2026 11:58:51 +0000",
-          "clusterId": "alan-greenspan-death"
         }
       ]
     },
     {
-      "id": "colombia-presidential-election",
-      "topicLabel": "Colombia elects far-right president in presidential runoff",
+      "id": "spaceX-ipo-market",
+      "topicLabel": "SpaceX IPO launch and market reaction",
       "date": "2026-06-22",
       "articles": [
         {
-          "id": "latimes-colombia-presidential-election-3",
-          "outletId": "latimes",
-          "outletName": "LA Times",
-          "headline": "Much of Latin America is embracing MAGA. Here's why",
-          "url": "https://www.latimes.com/world-nation/story/2026-06-21/latin-america-colombia-trump-maga",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "'embracing MAGA' framing implies critical analysis",
-            "mild left-leaning skepticism of Latin American right turn"
-          ],
-          "biasScoreGrok": 2.5,
-          "biasSignalsGrok": [
-            "embracing MAGA",
-            "much of Latin"
-          ],
-          "pubDate": "Sun, 21 Jun 2026 10:00:00 GMT",
-          "clusterId": "colombia-presidential-election"
-        },
-        {
-          "id": "aljazeera-colombia-presidential-election-1",
-          "outletId": "aljazeera",
-          "outletName": "Al Jazeera",
-          "headline": "Far-right de la Espriella elected Colombia president: What’s next?",
-          "url": "https://www.aljazeera.com/news/2026/6/22/far-right-de-la-espriella-elected-colombia-president-whats-next?traffic_source=rss",
-          "biasScore": 5,
-          "biasSignals": [
-            "'far-right' label is standard political descriptor",
-            "neutral 'what's next' framing"
-          ],
-          "biasScoreGrok": 2.8,
-          "biasSignalsGrok": [
-            "far-right elected",
-            "what next"
-          ],
-          "pubDate": "Mon, 22 Jun 2026 12:54:42 +0000",
-          "clusterId": "colombia-presidential-election"
-        },
-        {
-          "id": "nbc-colombia-presidential-election-2",
-          "outletId": "nbc",
-          "outletName": "NBC News",
-          "headline": "Colombians vote in a presidential runoff that pits an outsider against a progressive",
-          "url": "https://www.nbcnews.com/world/latin-america/colombians-vote-presidential-runoff-pits-outsider-progressive-rcna351043",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral 'outsider vs progressive' framing",
-            "balanced description of candidates"
-          ],
-          "biasScoreGrok": 4.2,
-          "biasSignalsGrok": [
-            "outsider vs progressive",
-            "balanced vote"
-          ],
-          "pubDate": "2026-06-21T13:51:12Z",
-          "clusterId": "colombia-presidential-election"
-        },
-        {
-          "id": "cnn-colombia-presidential-election-0",
-          "outletId": "cnn",
-          "outletName": "CNN",
-          "headline": "Colombia flirts with the right as Trump-backed candidate ‘the Tiger’ leads into runoff",
-          "url": "https://www.cnn.com/2026/06/21/americas/colombia-trump-abelardo-de-la-espriella-intl-latam",
-          "biasScore": 5.5,
-          "biasSignals": [
-            "'flirts with the right' implies ideological shift framing",
-            "Trump-backed label adds political context"
-          ],
-          "biasScoreGrok": 3.5,
-          "biasSignalsGrok": [
-            "flirts with right",
-            "Trump-backed"
-          ],
-          "pubDate": "2026-06-21T10:30:26Z",
-          "clusterId": "colombia-presidential-election"
-        }
-      ]
-    },
-    {
-      "id": "lausd-superintendent-resignation",
-      "topicLabel": "LA schools superintendent resigns amid FBI investigation",
-      "date": "2026-06-22",
-      "articles": [
-        {
-          "id": "guardian-lausd-superintendent-resignation-0",
-          "outletId": "guardian",
-          "outletName": "The Guardian",
-          "headline": "Los Angeles schools superintendent resigns after FBI search warrants",
-          "url": "https://www.theguardian.com/us-news/2026/jun/22/los-angeles-superintendent-resigns-fbi-investigation",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral 'resigns after' framing",
-            "no ideological signals detected"
-          ],
-          "biasScoreGrok": 5,
-          "biasSignalsGrok": [
-            "resigns after",
-            "search warrants"
-          ],
-          "pubDate": "Mon, 22 Jun 2026 14:06:00 GMT",
-          "clusterId": "lausd-superintendent-resignation"
-        },
-        {
-          "id": "latimes-lausd-superintendent-resignation-1",
-          "outletId": "latimes",
-          "outletName": "LA Times",
-          "headline": "Carvalho resigns as LAUSD superintendent amid federal investigation",
-          "url": "https://www.latimes.com/california/story/2026-06-21/carvalho-resigns-as-lausd-superintendent-amid-federal-investigation",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral 'amid federal investigation' framing",
-            "no loaded language detected"
-          ],
-          "biasScoreGrok": 5,
-          "biasSignalsGrok": [
-            "resigns amid",
-            "federal investigation"
-          ],
-          "pubDate": "Mon, 22 Jun 2026 05:15:05 GMT",
-          "clusterId": "lausd-superintendent-resignation"
-        },
-        {
-          "id": "bostonglobe-lausd-superintendent-resignation-2",
-          "outletId": "bostonglobe",
-          "outletName": "Boston Globe",
-          "headline": "Los Angeles schools superintendent resigns after FBI search and months on paid leave",
-          "url": "https://www.bostonglobe.com/2026/06/22/nation/lausd-alberto-carvalho-resigns/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral factual headline",
-            "no ideological signals"
-          ],
-          "biasScoreGrok": 5,
-          "biasSignalsGrok": [
-            "resigns after",
-            "paid leave"
-          ],
-          "pubDate": "Mon, 22 Jun 2026 14:11:22 +0000",
-          "clusterId": "lausd-superintendent-resignation"
-        }
-      ]
-    },
-    {
-      "id": "utah-ny-congressional-primaries",
-      "topicLabel": "Progressive vs moderate battles in congressional primaries",
-      "date": "2026-06-22",
-      "articles": [
-        {
-          "id": "vox-utah-ny-congressional-primaries-5",
-          "outletId": "vox",
-          "outletName": "Vox",
-          "headline": "A big new test of Zohran Mamdani’s influence",
-          "url": "https://www.vox.com/america-actually/492145/new-york-democratic-primaries-bores-ai-mamdani-dsa-israel",
+          "id": "forbes-spaceX-ipo-market-3",
+          "outletId": "forbes",
+          "outletName": "Forbes",
+          "headline": "SpaceX Earns Lowest Corporate Responsibility Rating—Here’s What That Means",
+          "url": "https://www.forbes.com/sites/tylerroush/2026/06/22/spacex-earns-lowest-corporate-responsibility-rating-heres-what-that-means/",
           "biasScore": 3.5,
           "biasSignals": [
-            "Mamdani framed as influential progressive figure",
-            "Vox sympathetic to progressive primary candidate"
+            "'Lowest Corporate Responsibility Rating' — critical of SpaceX",
+            "framing implies reputational concern"
           ],
-          "biasScoreGrok": 2.8,
+          "biasScoreGrok": 3.2,
           "biasSignalsGrok": [
-            "Mamdani influence",
-            "big new test"
+            "lowest responsibility rating",
+            "here is what means"
           ],
-          "pubDate": "2026-06-20T12:00:00.000Z",
-          "clusterId": "utah-ny-congressional-primaries"
+          "pubDate": "Mon, 22 Jun 2026 11:16:56 -0400",
+          "clusterId": "spaceX-ipo-market"
         },
         {
-          "id": "nytimes-utah-ny-congressional-primaries-0",
-          "outletId": "nytimes",
-          "outletName": "NY Times",
-          "headline": "In Utah House Race, Progressives Assail Democrat Who Backed Abortion Restrictions",
-          "url": "https://www.nytimes.com/2026/06/22/us/politics/utah-house-salt-lake-city-democrats.html",
-          "biasScore": 4,
+          "id": "marketwatch-spaceX-ipo-market-5",
+          "outletId": "marketwatch",
+          "outletName": "MarketWatch",
+          "headline": "A 40% market crash is lurking in the IPO pipeline. SpaceX and OpenAI could trigger it.",
+          "url": "https://www.marketwatch.com/story/a-40-market-crash-is-lurking-in-the-ipo-pipeline-spacex-and-openai-could-trigger-it-64ae4026?mod=mw_rss_topstories",
+          "biasScore": 4.2,
           "biasSignals": [
-            "'assail' is loaded verb implying progressive aggression",
-            "frames intra-party conflict from progressive perspective"
+            "'40% market crash lurking' alarmist framing",
+            "SpaceX named as trigger — implies negative association"
           ],
-          "biasScoreGrok": 2.8,
+          "biasScoreGrok": 3.8,
           "biasSignalsGrok": [
-            "progressives assail",
-            "abortion restrictions"
+            "40 percent crash lurking",
+            "SpaceX OpenAI trigger"
           ],
-          "pubDate": "Mon, 22 Jun 2026 09:01:47 +0000",
-          "clusterId": "utah-ny-congressional-primaries"
+          "pubDate": "Mon, 22 Jun 2026 18:30:00 GMT",
+          "clusterId": "spaceX-ipo-market"
         },
         {
-          "id": "guardian-utah-ny-congressional-primaries-2",
-          "outletId": "guardian",
-          "outletName": "The Guardian",
-          "headline": "New York City House primary emerges as key battleground in ‘AI civil war’",
-          "url": "https://www.theguardian.com/us-news/2026/jun/22/new-york-city-house-primary-race",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "'AI civil war' framing is dramatic but neutral",
-            "balanced description of primary contest"
-          ],
-          "biasScoreGrok": 3.5,
-          "biasSignalsGrok": [
-            "AI civil war",
-            "key battleground"
-          ],
-          "pubDate": "Mon, 22 Jun 2026 13:00:25 GMT",
-          "clusterId": "utah-ny-congressional-primaries"
-        },
-        {
-          "id": "economist-utah-ny-congressional-primaries-3",
-          "outletId": "economist",
-          "outletName": "The Economist",
-          "headline": "The left is coming for Democratic incumbents",
-          "url": "https://www.economist.com/united-states/2026/06/18/the-left-is-coming-for-democratic-incumbents",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "'left is coming for' implies aggressive progressive framing",
-            "Economist frames as threat to incumbents"
-          ],
-          "biasScoreGrok": 2.5,
-          "biasSignalsGrok": [
-            "left is coming",
-            "incumbents target"
-          ],
-          "pubDate": "Thu, 18 Jun 2026 12:45:58 +0000",
-          "clusterId": "utah-ny-congressional-primaries"
-        },
-        {
-          "id": "npr-utah-ny-congressional-primaries-1",
-          "outletId": "npr",
-          "outletName": "NPR",
-          "headline": "Voters weigh what kind of Democrat they want for Utah's new, blue congressional seat",
-          "url": "https://www.npr.org/2026/06/22/nx-s1-5835674/utah-democrats-first-congressional-district-blue-mcadams-blouin-mohamed",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral 'what kind of Democrat' framing",
-            "balanced voter-perspective approach"
-          ],
-          "biasScoreGrok": 4.5,
-          "biasSignalsGrok": [
-            "what kind Democrat",
-            "voters weigh"
-          ],
-          "pubDate": "Mon, 22 Jun 2026 05:00:00 -0400",
-          "clusterId": "utah-ny-congressional-primaries"
-        },
-        {
-          "id": "bostonglobe-utah-ny-congressional-primaries-4",
-          "outletId": "bostonglobe",
-          "outletName": "Boston Globe",
-          "headline": "New York’s congressional candidates make final case in last day before primary",
-          "url": "https://www.bostonglobe.com/2026/06/22/nation/new-york-primary-congress-schlossberg-mamdani/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral 'final case' framing",
-            "no ideological signals detected"
-          ],
-          "biasScoreGrok": 4.8,
-          "biasSignalsGrok": [
-            "final case",
-            "last day"
-          ],
-          "pubDate": "Mon, 22 Jun 2026 14:49:57 +0000",
-          "clusterId": "utah-ny-congressional-primaries"
-        }
-      ]
-    },
-    {
-      "id": "gallego-campaign-funds",
-      "topicLabel": "Senator Gallego used campaign funds for personal travel",
-      "date": "2026-06-22",
-      "articles": [
-        {
-          "id": "politico-gallego-campaign-funds-0",
-          "outletId": "politico",
-          "outletName": "Politico",
-          "headline": "Gallego tapped campaign cash for family travel, Super Bowl tickets, records show",
-          "url": "https://www.politico.com/news/2026/06/21/gallego-campaign-donors-travel-00969326",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral 'records show' attribution",
-            "factual headline, no loaded language"
-          ],
-          "biasScoreGrok": 4.5,
-          "biasSignalsGrok": [
-            "tapped campaign cash",
-            "records show"
-          ],
-          "pubDate": "2026-06-21T14:30:00+00:00",
-          "clusterId": "gallego-campaign-funds"
-        },
-        {
-          "id": "dailycaller-gallego-campaign-funds-1",
-          "outletId": "dailycaller",
-          "outletName": "Daily Caller",
-          "headline": "Ruben Gallego Used Campaign Funds For Jet Setting To Disney World, Wife’s Ritzy Miami Birthday Bash And Super Bowl",
-          "url": "https://dailycaller.com/2026/06/22/gallego-campaign-funds-luxury-outings/",
-          "biasScore": 7.5,
-          "biasSignals": [
-            "'jet setting' and 'ritzy' — charged language mocking Gallego",
-            "Daily Caller framing emphasizes lavish spending critically"
-          ],
-          "biasScoreGrok": 6.8,
-          "biasSignalsGrok": [
-            "jet setting Disney",
-            "ritzy birthday"
-          ],
-          "pubDate": "Mon, 22 Jun 2026 14:44:33 +0000",
-          "clusterId": "gallego-campaign-funds"
-        }
-      ]
-    },
-    {
-      "id": "etan-patz-conviction-restored",
-      "topicLabel": "Supreme Court restores 1979 Etan Patz murder conviction",
-      "date": "2026-06-22",
-      "articles": [
-        {
-          "id": "nytimes-etan-patz-conviction-restored-0",
-          "outletId": "nytimes",
-          "outletName": "NY Times",
-          "headline": "Supreme Court Restores Conviction in 1979 Murder of Etan Patz",
-          "url": "https://www.nytimes.com/2026/06/22/us/politics/etan-patz-pedro-hernandez.html",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral 'restores conviction' framing",
-            "no ideological signals detected"
-          ],
-          "biasScoreGrok": 5,
-          "biasSignalsGrok": [
-            "restores conviction",
-            "neutral legal"
-          ],
-          "pubDate": "Mon, 22 Jun 2026 14:26:17 +0000",
-          "clusterId": "etan-patz-conviction-restored"
-        },
-        {
-          "id": "nypost-etan-patz-conviction-restored-1",
-          "outletId": "nypost",
-          "outletName": "NY Post",
-          "headline": "Supreme Court reinstates murder conviction in case of Etan Patz, missing New York City boy",
-          "url": "https://nypost.com/2026/06/22/us-news/supreme-court-reinstates-murder-conviction-in-case-of-etan-patz-missing-new-york-city-boy/",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral 'reinstates murder conviction' framing",
-            "straightforward legal reporting"
-          ],
-          "biasScoreGrok": 5.2,
-          "biasSignalsGrok": [
-            "reinstates conviction",
-            "missing boy"
-          ],
-          "pubDate": "Mon, 22 Jun 2026 10:46:02 -0400",
-          "clusterId": "etan-patz-conviction-restored"
-        }
-      ]
-    },
-    {
-      "id": "spaceX-ipo-stock",
-      "topicLabel": "SpaceX IPO launches amid volatile stock trading",
-      "date": "2026-06-22",
-      "articles": [
-        {
-          "id": "cbsnews-spaceX-ipo-stock-0",
-          "outletId": "cbsnews",
-          "outletName": "CBS News",
-          "headline": "SpaceX IPO could see a \"volatile few hours\" after launch, market reporter says",
-          "url": "https://www.cbsnews.com/video/spacex-ipo-could-see-a-volatile-few-hours-after-launch/",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral market analyst framing",
-            "no ideological signals detected"
-          ],
-          "biasScoreGrok": 5,
-          "biasSignalsGrok": [
-            "volatile few hours",
-            "market reporter"
-          ],
-          "pubDate": "2026-06-11T18:29:43+00:00",
-          "clusterId": "spaceX-ipo-stock"
-        },
-        {
-          "id": "cnbc-spaceX-ipo-stock-1",
-          "outletId": "cnbc",
-          "outletName": "CNBC",
-          "headline": "SpaceX signs computing power deal with open-source AI startup Reflection worth up to $6.3 billion",
-          "url": "https://www.cnbc.com/2026/06/22/spacex-ai-colossus-data-center-reflection.html",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral deal reporting",
-            "no loaded language detected"
-          ],
-          "biasScoreGrok": 5,
-          "biasSignalsGrok": [
-            "signs computing deal",
-            "AI startup"
-          ],
-          "pubDate": "Mon, 22 Jun 2026 15:00:01 GMT",
-          "clusterId": "spaceX-ipo-stock"
-        },
-        {
-          "id": "cnbc-spaceX-ipo-stock-2",
-          "outletId": "cnbc",
-          "outletName": "CNBC",
-          "headline": "SpaceX stock falls 9%, pacing for third-straight day of losses after red-hot IPO start",
-          "url": "https://www.cnbc.com/2026/06/22/spacex-stock-ipo-rally-selloff.html",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral stock performance reporting",
-            "no ideological signals"
-          ],
-          "biasScoreGrok": 5,
-          "biasSignalsGrok": [
-            "stock falls",
-            "third day losses"
-          ],
-          "pubDate": "Mon, 22 Jun 2026 15:02:39 GMT",
-          "clusterId": "spaceX-ipo-stock"
-        },
-        {
-          "id": "yahoofinance-spaceX-ipo-stock-3",
+          "id": "yahoofinance-spaceX-ipo-market-4",
           "outletId": "yahoofinance",
           "outletName": "Yahoo Finance",
           "headline": "Michael Burry sees a $3 trillion problem with SpaceX",
           "url": "https://finance.yahoo.com/markets/stocks/articles/michael-burry-sees-3-trillion-010300765.html",
-          "biasScore": 5,
+          "biasScore": 4.5,
           "biasSignals": [
             "neutral financial analysis framing",
-            "no ideological signals detected"
+            "Burry association implies credibility signal"
           ],
-          "biasScoreGrok": 5,
+          "biasScoreGrok": 4.4,
           "biasSignalsGrok": [
             "Burry sees problem",
             "with SpaceX"
           ],
           "pubDate": "2026-06-22T01:03:00Z",
-          "clusterId": "spaceX-ipo-stock"
+          "clusterId": "spaceX-ipo-market"
         },
         {
-          "id": "marketwatch-spaceX-ipo-stock-4",
-          "outletId": "marketwatch",
-          "outletName": "MarketWatch",
-          "headline": "SpaceX already needs to raise more cash, and its stock is falling 10%",
-          "url": "https://www.marketwatch.com/story/spacex-already-needs-to-raise-more-cash-and-its-stock-is-dropping-a1ec150e?mod=mw_rss_topstories",
-          "biasScore": 5,
+          "id": "cbsnews-spaceX-ipo-market-0",
+          "outletId": "cbsnews",
+          "outletName": "CBS News",
+          "headline": "SpaceX IPO could see a \"volatile few hours\" after launch, market reporter says",
+          "url": "https://www.cbsnews.com/video/spacex-ipo-could-see-a-volatile-few-hours-after-launch/",
+          "biasScore": 4.8,
           "biasSignals": [
-            "neutral stock reporting",
-            "no loaded language detected"
+            "neutral 'volatile few hours' market language",
+            "no political framing"
+          ],
+          "biasScoreGrok": 5.1,
+          "biasSignalsGrok": [
+            "volatile few hours",
+            "market reporter says"
+          ],
+          "pubDate": "2026-06-11T18:29:43+00:00",
+          "clusterId": "spaceX-ipo-market"
+        },
+        {
+          "id": "cnbc-spaceX-ipo-market-1",
+          "outletId": "cnbc",
+          "outletName": "CNBC",
+          "headline": "SpaceX signs computing power deal with open-source AI startup Reflection worth up to $6.3 billion",
+          "url": "https://www.cnbc.com/2026/06/22/spacex-ai-colossus-data-center-reflection.html",
+          "biasScore": 4.8,
+          "biasSignals": [
+            "neutral financial headline on computing deal",
+            "no ideological signals"
+          ],
+          "biasScoreGrok": 4.8,
+          "biasSignalsGrok": [
+            "signs computing deal",
+            "up to 6.3 billion"
+          ],
+          "pubDate": "Mon, 22 Jun 2026 15:00:01 GMT",
+          "clusterId": "spaceX-ipo-market"
+        },
+        {
+          "id": "cnbc-spaceX-ipo-market-2",
+          "outletId": "cnbc",
+          "outletName": "CNBC",
+          "headline": "SpaceX stock falls 9%, pacing for third-straight day of losses after red-hot IPO start",
+          "url": "https://www.cnbc.com/2026/06/22/spacex-stock-ipo-rally-selloff.html",
+          "biasScore": 4.8,
+          "biasSignals": [
+            "neutral stock movement framing",
+            "factual 'third-straight day of losses'"
           ],
           "biasScoreGrok": 5,
           "biasSignalsGrok": [
-            "needs raise cash",
-            "stock falling"
+            "stock falls 9%",
+            "third straight losses"
           ],
-          "pubDate": "Mon, 22 Jun 2026 14:49:00 GMT",
-          "clusterId": "spaceX-ipo-stock"
+          "pubDate": "Mon, 22 Jun 2026 15:57:18 GMT",
+          "clusterId": "spaceX-ipo-market"
         }
       ]
     },
     {
-      "id": "iran-oil-sanctions-market",
-      "topicLabel": "Iranian oil sanctions paused, crude prices fall",
+      "id": "lausd-superintendent-resigns",
+      "topicLabel": "LA schools superintendent resigns amid FBI investigation",
       "date": "2026-06-22",
       "articles": [
         {
-          "id": "cnbc-iran-oil-sanctions-market-0",
-          "outletId": "cnbc",
-          "outletName": "CNBC",
-          "headline": "Treasury Department authorizes Iranian oil sales through August",
-          "url": "https://www.cnbc.com/2026/06/22/treasury-iran-oil-sales.html",
-          "biasScore": 5,
+          "id": "guardian-lausd-superintendent-resigns-0",
+          "outletId": "guardian",
+          "outletName": "The Guardian",
+          "headline": "Los Angeles schools superintendent resigns after FBI search warrants",
+          "url": "https://www.theguardian.com/us-news/2026/jun/22/los-angeles-superintendent-resigns-fbi-investigation",
+          "biasScore": 4.5,
           "biasSignals": [
-            "neutral Treasury authorization framing",
-            "no ideological signals detected"
+            "neutral 'resigns after FBI search warrants' framing",
+            "no political spin on resignation cause"
           ],
-          "biasScoreGrok": 4.8,
+          "biasScoreGrok": 4.3,
           "biasSignalsGrok": [
-            "authorizes sales",
-            "through August"
+            "resigns after warrants",
+            "FBI search"
           ],
-          "pubDate": "Mon, 22 Jun 2026 15:09:44 GMT",
-          "clusterId": "iran-oil-sanctions-market"
+          "pubDate": "Mon, 22 Jun 2026 14:06:00 GMT",
+          "clusterId": "lausd-superintendent-resigns"
         },
         {
-          "id": "bloomberg-iran-oil-sanctions-market-1",
-          "outletId": "bloomberg",
-          "outletName": "Bloomberg",
-          "headline": "Oil Glut Bets Are Back in Play as Crude Sinks After US-Iran Deal",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-21/oil-glut-bets-are-back-in-play-as-crude-sinks-after-us-iran-deal",
-          "biasScore": 5,
+          "id": "latimes-lausd-superintendent-resigns-1",
+          "outletId": "latimes",
+          "outletName": "LA Times",
+          "headline": "Carvalho resigns as LAUSD superintendent amid federal investigation",
+          "url": "https://www.latimes.com/california/story/2026-06-21/carvalho-resigns-as-lausd-superintendent-amid-federal-investigation",
+          "biasScore": 4.5,
           "biasSignals": [
-            "neutral market analysis framing",
-            "no loaded language detected"
+            "neutral 'amid federal investigation' framing",
+            "factual headline without editorializing"
           ],
-          "biasScoreGrok": 5,
+          "biasScoreGrok": 4.5,
           "biasSignalsGrok": [
-            "glut bets back",
-            "crude sinks"
+            "resigns amid investigation",
+            "federal probe"
           ],
-          "pubDate": "2026-06-21T13:00:00+00:00",
-          "clusterId": "iran-oil-sanctions-market"
+          "pubDate": "Mon, 22 Jun 2026 05:15:05 GMT",
+          "clusterId": "lausd-superintendent-resigns"
         },
         {
-          "id": "marketwatch-iran-oil-sanctions-market-2",
-          "outletId": "marketwatch",
-          "outletName": "MarketWatch",
-          "headline": "U.S. oil prices fall below $74 a barrel on 60-day pause on Iranian oil sanctions",
-          "url": "https://www.marketwatch.com/story/u-s-oil-prices-fall-below-74-a-barrel-on-60-day-pause-on-iranian-oil-sanctions-0b7c7130?mod=mw_rss_topstories",
-          "biasScore": 5,
+          "id": "bostonglobe-lausd-superintendent-resigns-2",
+          "outletId": "bostonglobe",
+          "outletName": "Boston Globe",
+          "headline": "Los Angeles schools superintendent resigns after FBI search and months on paid leave",
+          "url": "https://www.bostonglobe.com/2026/06/22/nation/lausd-alberto-carvalho-resigns/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
+          "biasScore": 4.5,
           "biasSignals": [
-            "neutral price reporting with factual context",
-            "no ideological signals"
+            "neutral 'after FBI search and months on paid leave'",
+            "factual framing without spin"
           ],
-          "biasScoreGrok": 5,
+          "biasScoreGrok": 4.2,
           "biasSignalsGrok": [
-            "prices fall below",
-            "sanctions pause"
+            "resigns after search",
+            "months paid leave"
           ],
-          "pubDate": "Mon, 22 Jun 2026 14:34:00 GMT",
-          "clusterId": "iran-oil-sanctions-market"
-        },
-        {
-          "id": "nytimes-iran-oil-sanctions-market-3",
-          "outletId": "nytimes",
-          "outletName": "NY Times",
-          "headline": "U.S. Oil Is Skipping the Chance to Grab Market Share From the Gulf",
-          "url": "https://www.nytimes.com/2026/06/22/business/energy-environment/iran-war-us-oil-companies.html",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral market framing on oil industry behavior",
-            "no ideological signals detected"
-          ],
-          "biasScoreGrok": 3.8,
-          "biasSignalsGrok": [
-            "skipping chance",
-            "grab share"
-          ],
-          "pubDate": "Mon, 22 Jun 2026 14:14:10 +0000",
-          "clusterId": "iran-oil-sanctions-market"
+          "pubDate": "Mon, 22 Jun 2026 14:11:22 +0000",
+          "clusterId": "lausd-superintendent-resigns"
         }
       ]
     },
     {
       "id": "world-cup-2026-coverage",
-      "topicLabel": "2026 FIFA World Cup begins in North America",
+      "topicLabel": "2026 FIFA World Cup opening and early matches",
       "date": "2026-06-22",
       "articles": [
-        {
-          "id": "vox-world-cup-2026-coverage-4",
-          "outletId": "vox",
-          "outletName": "Vox",
-          "headline": "10 reasons why the World Cup is the greatest sporting event on Earth",
-          "url": "https://www.vox.com/future-perfect/492477/world-cup-soccer-football-fifa-united-states-fans",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "celebratory framing of global event",
-            "no significant ideological signals"
-          ],
-          "biasScoreGrok": 3.5,
-          "biasSignalsGrok": [
-            "greatest sporting",
-            "10 reasons"
-          ],
-          "pubDate": "2026-06-20T12:30:00.000Z",
-          "clusterId": "world-cup-2026-coverage"
-        },
         {
           "id": "cbsnews-world-cup-2026-coverage-0",
           "outletId": "cbsnews",
@@ -1802,10 +1636,10 @@
           "url": "https://www.cbsnews.com/video/2026-world-cup-begins-today-heres-what-to-know/",
           "biasScore": 5,
           "biasSignals": [
-            "neutral informational framing",
-            "no ideological signals detected"
+            "neutral informational 'what to know' framing",
+            "no political signals"
           ],
-          "biasScoreGrok": 5,
+          "biasScoreGrok": 4.8,
           "biasSignalsGrok": [
             "begins today",
             "what to know"
@@ -1821,10 +1655,10 @@
           "url": "https://www.cbsnews.com/news/world-cup-opening-ceremony-mexico-shakira/",
           "biasScore": 5,
           "biasSignals": [
-            "neutral event coverage",
-            "no loaded language detected"
+            "neutral celebratory opening ceremony coverage",
+            "no political framing"
           ],
-          "biasScoreGrok": 5,
+          "biasScoreGrok": 4.6,
           "biasSignalsGrok": [
             "kicks off Mexico",
             "Shakira ceremony"
@@ -1833,286 +1667,570 @@
           "clusterId": "world-cup-2026-coverage"
         },
         {
-          "id": "ap-world-cup-2026-coverage-3",
-          "outletId": "ap",
-          "outletName": "Associated Press",
-          "headline": "New Zealand chases its first-ever World Cup knockout berth",
-          "url": "https://apnews.com/article/new-zealand-world-cup-f9efc273ed30be14971c3c9dcf36d55f",
+          "id": "dailymail-world-cup-2026-coverage-2",
+          "outletId": "dailymail",
+          "outletName": "Daily Mail",
+          "headline": "Argentina vs Austria - World Cup Group J LIVE: Lionel Messi breaks Miroslav Klose's all-time tournament record with his 17th goal to put his side ahead - having earlier missed a penalty",
+          "url": "\n\thttps://www.dailymail.com/sport/football/article-15917435/Argentina-vs-Austria-World-Cup-Group-J-LIVE.html?ns_mchannel=rss&ito=1490&ns_campaign=1490\n      ",
           "biasScore": 5,
           "biasSignals": [
-            "neutral sports reporting",
-            "no ideological signals detected"
+            "neutral sports reporting on match",
+            "factual record-breaking framing"
           ],
-          "biasScoreGrok": 5,
+          "biasScoreGrok": 5.2,
           "biasSignalsGrok": [
-            "chases first berth",
-            "knockout neutral"
+            "Messi breaks record",
+            "LIVE updates"
           ],
-          "pubDate": "2026-06-21T04:10:06Z",
+          "pubDate": "Mon, 22 Jun 2026 19:39:19 +0100",
           "clusterId": "world-cup-2026-coverage"
         },
         {
-          "id": "thefederalist-world-cup-2026-coverage-2",
-          "outletId": "thefederalist",
-          "outletName": "The Federalist",
-          "headline": "Why Aren’t Any World Cup Players Taking A Knee For Henry Nowak?",
-          "url": "https://thefederalist.com/2026/06/22/why-arent-any-world-cup-players-taking-a-knee-for-henry-nowak/?utm_source=rss&utm_medium=rss&utm_campaign=why-arent-any-world-cup-players-taking-a-knee-for-henry-nowak",
-          "biasScore": 7.5,
+          "id": "metro-world-cup-2026-coverage-3",
+          "outletId": "metro",
+          "outletName": "Metro",
+          "headline": "Lionel Messi sets legendary and unwanted World Cup records in same match",
+          "url": "https://metro.co.uk/2026/06/22/lionel-messi-sets-unwanted-world-cup-record-missed-penalty-28881946/",
+          "biasScore": 5,
           "biasSignals": [
-            "'taking a knee' protest framing used critically",
-            "Federalist headline implies athletes should prioritize conservative values"
+            "neutral sports reporting on Messi records",
+            "no political framing"
           ],
-          "biasScoreGrok": 7.5,
+          "biasScoreGrok": 4.9,
           "biasSignalsGrok": [
-            "why no knee",
-            "Nowak framing"
+            "sets legendary unwanted",
+            "records same match"
           ],
-          "pubDate": "Mon, 22 Jun 2026 11:24:46 +0000",
+          "pubDate": "Mon, 22 Jun 2026 17:31:04 +0000",
+          "clusterId": "world-cup-2026-coverage"
+        },
+        {
+          "id": "ap-world-cup-2026-coverage-4",
+          "outletId": "ap",
+          "outletName": "Associated Press",
+          "headline": "Lamine Yamal scores after 10 minutes of his first start at the World Cup",
+          "url": "https://apnews.com/article/spain-saudi-arabia-world-cup-yamal-5c7cf7048564f62be48d59f7ec902573",
+          "biasScore": 5,
+          "biasSignals": [
+            "neutral factual sports headline",
+            "no ideological signals"
+          ],
+          "biasScoreGrok": 4.7,
+          "biasSignalsGrok": [
+            "scores after 10 minutes",
+            "first start"
+          ],
+          "pubDate": "2026-06-21T16:44:06Z",
+          "clusterId": "world-cup-2026-coverage"
+        },
+        {
+          "id": "independent-world-cup-2026-coverage-5",
+          "outletId": "independent",
+          "outletName": "The Independent",
+          "headline": "Argentina v Austria LIVE: Lionel Messi breaks World Cup scoring record after missing penalty",
+          "url": "https://www.independent.co.uk/sport/football/argentina-austria-live-score-result-world-cup-2026-lionel-messi-b3000244.html",
+          "biasScore": 5,
+          "biasSignals": [
+            "neutral live sports coverage",
+            "factual record-breaking framing"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "Messi breaks record",
+            "missing penalty"
+          ],
+          "pubDate": "Mon, 22 Jun 2026 18:29:48 GMT",
+          "clusterId": "world-cup-2026-coverage"
+        },
+        {
+          "id": "vox-world-cup-2026-coverage-6",
+          "outletId": "vox",
+          "outletName": "Vox",
+          "headline": "10 reasons why the World Cup is the greatest sporting event on Earth",
+          "url": "https://www.vox.com/future-perfect/492477/world-cup-soccer-football-fifa-united-states-fans",
+          "biasScore": 5,
+          "biasSignals": [
+            "enthusiastic but non-partisan framing",
+            "no ideological signals"
+          ],
+          "biasScoreGrok": 3.6,
+          "biasSignalsGrok": [
+            "greatest sporting event",
+            "10 reasons why"
+          ],
+          "pubDate": "2026-06-20T12:30:00.000Z",
           "clusterId": "world-cup-2026-coverage"
         }
       ]
     },
     {
-      "id": "crimea-ukraine-attacks",
-      "topicLabel": "Ukraine attacks prompt Crimea to halt fuel sales",
+      "id": "ukraine-crimea-russia-attacks",
+      "topicLabel": "Ukrainian attacks prompt Crimea to halt civilian gas sales",
       "date": "2026-06-22",
       "articles": [
         {
-          "id": "abc-crimea-ukraine-attacks-0",
+          "id": "abc-ukraine-crimea-russia-attacks-0",
           "outletId": "abc",
           "outletName": "ABC News",
           "headline": "Ukrainian attacks prompt Russian-held Crimea to halt civilian gasoline sales",
           "url": "https://abcnews.com/International/wireStory/ukrainian-attacks-prompt-russian-held-crimea-halt-civilian-134070513",
-          "biasScore": 5,
+          "biasScore": 4.8,
           "biasSignals": [
-            "neutral 'attacks prompt' framing",
-            "no ideological signals detected"
+            "neutral 'Ukrainian attacks' framing",
+            "factual consequence reporting"
           ],
-          "biasScoreGrok": 5,
+          "biasScoreGrok": 4.4,
           "biasSignalsGrok": [
-            "prompt Crimea halt",
-            "civilian sales"
+            "Ukrainian attacks prompt",
+            "halt sales"
           ],
           "pubDate": "2026-06-21T09:43:42Z",
-          "clusterId": "crimea-ukraine-attacks"
+          "clusterId": "ukraine-crimea-russia-attacks"
         },
         {
-          "id": "nbc-crimea-ukraine-attacks-1",
+          "id": "nbc-ukraine-crimea-russia-attacks-1",
           "outletId": "nbc",
           "outletName": "NBC News",
           "headline": "Ukrainian attacks prompt Russian-held Crimea to halt civilian gasoline sales",
           "url": "https://www.nbcnews.com/world/ukraine/ukrainian-attacks-prompt-russian-held-crimea-halt-civilian-gasoline-rcna351039",
-          "biasScore": 5,
+          "biasScore": 4.8,
           "biasSignals": [
-            "neutral 'attacks prompt' framing",
-            "straightforward conflict reporting"
+            "neutral framing identical to AP wire",
+            "no ideological spin"
           ],
-          "biasScoreGrok": 5,
+          "biasScoreGrok": 4.5,
           "biasSignalsGrok": [
-            "prompt halt sales",
-            "civilian gasoline"
+            "Ukrainian attacks prompt",
+            "halt sales"
           ],
           "pubDate": "2026-06-21T12:52:32Z",
-          "clusterId": "crimea-ukraine-attacks"
+          "clusterId": "ukraine-crimea-russia-attacks"
         },
         {
-          "id": "ap-crimea-ukraine-attacks-2",
+          "id": "ap-ukraine-crimea-russia-attacks-2",
           "outletId": "ap",
           "outletName": "Associated Press",
           "headline": "Russia-held Crimea halts civilian gas sales amid Ukraine attacks",
           "url": "https://apnews.com/article/russia-ukraine-was-crimea-gas-fuel-1bd4d0980a353fa0f8221040215e6435",
-          "biasScore": 5,
+          "biasScore": 4.8,
           "biasSignals": [
-            "neutral AP framing",
-            "no loaded language detected"
+            "neutral AP wire framing",
+            "'Russia-held' qualifier is factual not charged"
           ],
-          "biasScoreGrok": 5,
+          "biasScoreGrok": 4.8,
           "biasSignalsGrok": [
-            "halts civilian gas",
-            "amid attacks"
+            "halts sales amid",
+            "Ukraine attacks"
           ],
           "pubDate": "2026-06-21T09:43:43Z",
-          "clusterId": "crimea-ukraine-attacks"
-        },
-        {
-          "id": "bloomberg-crimea-ukraine-attacks-3",
-          "outletId": "bloomberg",
-          "outletName": "Bloomberg",
-          "headline": "Russia-Occupied Crimea Halts Fuel Sales After Ukrainian Attacks",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-21/russia-occupied-crimea-halts-fuel-sales-after-ukrainian-attacks",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral 'halts fuel sales' framing",
-            "no ideological signals"
-          ],
-          "biasScoreGrok": 5.2,
-          "biasSignalsGrok": [
-            "halts fuel sales",
-            "after attacks"
-          ],
-          "pubDate": "2026-06-21T08:43:26+00:00",
-          "clusterId": "crimea-ukraine-attacks"
+          "clusterId": "ukraine-crimea-russia-attacks"
         }
       ]
     },
     {
-      "id": "minority-voter-protection-supreme-court",
-      "topicLabel": "Supreme Court ends minority voter protection tool in 7 states",
+      "id": "madison-square-garden-fall-death",
+      "topicLabel": "Man dies falling from balcony at MSG concert",
       "date": "2026-06-22",
       "articles": [
         {
-          "id": "npr-minority-voter-protection-supreme-court-0",
-          "outletId": "npr",
-          "outletName": "NPR",
-          "headline": "Supreme Court allows a ruling that ends a tool to protect minority voters in 7 states",
-          "url": "https://www.npr.org/2026/06/22/nx-s1-5863532/supreme-court-voting-rights-act-private-right-arkansas",
-          "biasScore": 3,
+          "id": "abc-madison-square-garden-fall-death-0",
+          "outletId": "abc",
+          "outletName": "ABC News",
+          "headline": "Man falls to his death during rock concert at Madison Square Garden",
+          "url": "https://abcnews.com/US/wireStory/man-falls-death-rock-concert-madison-square-garden-134071503",
+          "biasScore": 4.8,
           "biasSignals": [
-            "'ends a tool to protect minority voters' — sympathetic framing",
-            "NPR emphasizes loss of protection for minority communities"
+            "neutral factual headline",
+            "no political framing"
           ],
-          "biasScoreGrok": 3.2,
+          "biasScoreGrok": 4.9,
           "biasSignalsGrok": [
-            "ends protection tool",
-            "minority voters"
+            "falls to death",
+            "during concert"
           ],
-          "pubDate": "Mon, 22 Jun 2026 09:32:09 -0400",
-          "clusterId": "minority-voter-protection-supreme-court"
+          "pubDate": "2026-06-21T12:55:24Z",
+          "clusterId": "madison-square-garden-fall-death"
         },
         {
-          "id": "theatlantic-minority-voter-protection-supreme-court-1",
-          "outletId": "theatlantic",
-          "outletName": "The Atlantic",
-          "headline": "What Will Happen to Birthright Citizenship?",
-          "url": "https://www.theatlantic.com/podcasts/2026/06/what-will-happen-to-birthright-citizenship/687623/?utm_source=feed",
-          "biasScore": 4,
+          "id": "nbc-madison-square-garden-fall-death-1",
+          "outletId": "nbc",
+          "outletName": "NBC News",
+          "headline": "Man dies after falling from balcony during Madison Square Garden concert",
+          "url": "https://www.nbcnews.com/news/us-news/man-dies-balcony-fall-madison-square-garden-concert-rcna351050",
+          "biasScore": 4.8,
           "biasSignals": [
-            "framed as open constitutional question",
-            "Atlantic slightly left-leaning on birthright issue"
+            "neutral factual headline",
+            "no ideological signals"
+          ],
+          "biasScoreGrok": 4.8,
+          "biasSignalsGrok": [
+            "dies after falling",
+            "during concert"
+          ],
+          "pubDate": "2026-06-21T15:18:25Z",
+          "clusterId": "madison-square-garden-fall-death"
+        },
+        {
+          "id": "nypost-madison-square-garden-fall-death-2",
+          "outletId": "nypost",
+          "outletName": "NY Post",
+          "headline": "Newly surfaced video shows workers frantically trying to revive tragic Conn. dad Paul Kueker after MSG plunge",
+          "url": "https://nypost.com/2026/06/22/us-news/newly-surfaced-video-shows-workers-frantically-trying-to-revive-tragic-conn-dad-paul-kueker-after-msg-plunge/",
+          "biasScore": 4.8,
+          "biasSignals": [
+            "human interest framing 'tragic' is standard",
+            "no political signals"
+          ],
+          "biasScoreGrok": 5.3,
+          "biasSignalsGrok": [
+            "video shows workers",
+            "frantically revive"
+          ],
+          "pubDate": "Mon, 22 Jun 2026 13:52:18 -0400",
+          "clusterId": "madison-square-garden-fall-death"
+        }
+      ]
+    },
+    {
+      "id": "utah-congressional-progressive-primary",
+      "topicLabel": "Utah House primary pits progressives against moderate Democrat",
+      "date": "2026-06-22",
+      "articles": [
+        {
+          "id": "nytimes-utah-congressional-progressive-primary-0",
+          "outletId": "nytimes",
+          "outletName": "NY Times",
+          "headline": "In Utah House Race, Progressives Assail Democrat Who Backed Abortion Restrictions",
+          "url": "https://www.nytimes.com/2026/06/22/us/politics/utah-house-salt-lake-city-democrats.html",
+          "biasScore": 4.2,
+          "biasSignals": [
+            "'assail' strong verb implying internal conflict",
+            "neutral framing of abortion restriction as policy position"
+          ],
+          "biasScoreGrok": 2.7,
+          "biasSignalsGrok": [
+            "progressives assail",
+            "abortion restrictions"
+          ],
+          "pubDate": "Mon, 22 Jun 2026 09:01:47 +0000",
+          "clusterId": "utah-congressional-progressive-primary"
+        },
+        {
+          "id": "npr-utah-congressional-progressive-primary-1",
+          "outletId": "npr",
+          "outletName": "NPR",
+          "headline": "Voters weigh what kind of Democrat they want for Utah's new, blue congressional seat",
+          "url": "https://www.npr.org/2026/06/22/nx-s1-5835674/utah-democrats-first-congressional-district-blue-mcadams-blouin-mohamed",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral 'weigh what kind of Democrat' framing",
+            "no partisan lean in question"
+          ],
+          "biasScoreGrok": 4.1,
+          "biasSignalsGrok": [
+            "voters weigh kind",
+            "of Democrat"
+          ],
+          "pubDate": "Mon, 22 Jun 2026 05:00:00 -0400",
+          "clusterId": "utah-congressional-progressive-primary"
+        },
+        {
+          "id": "economist-utah-congressional-progressive-primary-2",
+          "outletId": "economist",
+          "outletName": "The Economist",
+          "headline": "The left is coming for Democratic incumbents",
+          "url": "https://www.economist.com/united-states/2026/06/18/the-left-is-coming-for-democratic-incumbents",
+          "biasScore": 4.8,
+          "biasSignals": [
+            "neutral 'left is coming for incumbents' framing",
+            "analytical without ideological endorsement"
           ],
           "biasScoreGrok": 3,
           "biasSignalsGrok": [
-            "what happens",
-            "birthright citizenship"
+            "left coming for",
+            "Democratic incumbents"
           ],
-          "pubDate": "Mon, 22 Jun 2026 09:30:00 -0400",
-          "clusterId": "minority-voter-protection-supreme-court"
+          "pubDate": "Thu, 18 Jun 2026 12:45:58 +0000",
+          "clusterId": "utah-congressional-progressive-primary"
         }
       ]
     },
     {
-      "id": "kennedy-center-trump-changes",
-      "topicLabel": "Kennedy Center accused of decline under Trump administration",
+      "id": "ai-tech-industry-news",
+      "topicLabel": "AI industry developments, regulation, and market impact",
       "date": "2026-06-22",
       "articles": [
         {
-          "id": "forbes-kennedy-center-trump-changes-0",
-          "outletId": "forbes",
-          "outletName": "Forbes",
-          "headline": "Kennedy Center Becoming A ‘Lifeless Husk’ Under Trump, Court Filing Alleges",
-          "url": "https://www.forbes.com/sites/conormurray/2026/06/22/kennedy-center-becoming-a-lifeless-husk-under-trump-court-filing-alleges/",
-          "biasScore": 3,
+          "id": "cnn-ai-tech-industry-news-0",
+          "outletId": "cnn",
+          "outletName": "CNN",
+          "headline": "AI regulation is a mess, and Anthropic is caught in the crosshairs",
+          "url": "https://www.cnn.com/2026/06/21/tech/anthropic-ai-regulation",
+          "biasScore": 4.5,
           "biasSignals": [
-            "'lifeless husk' charged language critical of Trump",
-            "court filing framing sympathetic to critics of Trump"
+            "'caught in the crosshairs' adds drama but neutral framing",
+            "no clear partisan lean on regulation"
           ],
-          "biasScoreGrok": 2.8,
+          "biasScoreGrok": 3.4,
           "biasSignalsGrok": [
-            "lifeless husk",
-            "under Trump"
+            "regulation is mess",
+            "caught crosshairs"
           ],
-          "pubDate": "Mon, 22 Jun 2026 10:24:19 -0400",
-          "clusterId": "kennedy-center-trump-changes"
+          "pubDate": "2026-06-21T16:00:26Z",
+          "clusterId": "ai-tech-industry-news"
         },
         {
-          "id": "nationalreview-kennedy-center-trump-changes-1",
-          "outletId": "nationalreview",
-          "outletName": "National Review",
-          "headline": "The Quietly Competent Side of the Trump Administration",
-          "url": "https://www.nationalreview.com/2026/06/the-quietly-competent-side-of-the-trump-administration/",
-          "biasScore": 7,
+          "id": "axios-ai-tech-industry-news-5",
+          "outletId": "axios",
+          "outletName": "Axios",
+          "headline": "Data centers become the face of AI backlash",
+          "url": "https://www.axios.com/2026/06/22/ai-data-center-backlash-poll",
+          "biasScore": 4.5,
           "biasSignals": [
-            "'quietly competent' positive framing of Trump admin",
-            "National Review defends Trump administration against criticism"
+            "'face of AI backlash' neutral framing of opposition",
+            "no partisan lean"
           ],
-          "biasScoreGrok": 7.5,
+          "biasScoreGrok": 3.5,
           "biasSignalsGrok": [
-            "quietly competent",
-            "Trump side"
+            "face of backlash",
+            "data centers"
           ],
-          "pubDate": "Mon, 22 Jun 2026 10:30:15 +0000",
-          "clusterId": "kennedy-center-trump-changes"
+          "pubDate": "Mon, 22 Jun 2026 09:01:04 +0000",
+          "clusterId": "ai-tech-industry-news"
+        },
+        {
+          "id": "marketwatch-ai-tech-industry-news-6",
+          "outletId": "marketwatch",
+          "outletName": "MarketWatch",
+          "headline": "Alphabet sees $269 billion market-cap wipeout as investors fear it’s losing the war for AI talent",
+          "url": "https://www.marketwatch.com/story/alphabet-sees-269-billion-market-cap-wipeout-as-investors-fear-its-losing-the-war-for-ai-talent-497aa378?mod=mw_rss_topstories",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral financial market framing",
+            "'war for AI talent' is standard industry language"
+          ],
+          "biasScoreGrok": 4.2,
+          "biasSignalsGrok": [
+            "market cap wipeout",
+            "losing war talent"
+          ],
+          "pubDate": "Mon, 22 Jun 2026 17:12:00 GMT",
+          "clusterId": "ai-tech-industry-news"
+        },
+        {
+          "id": "cnbc-ai-tech-industry-news-1",
+          "outletId": "cnbc",
+          "outletName": "CNBC",
+          "headline": "Alphabet paces for worst day in a year on AI concerns after high-profile exits",
+          "url": "https://www.cnbc.com/2026/06/22/alphabet-goog-stock-ai-departures.html",
+          "biasScore": 4.8,
+          "biasSignals": [
+            "neutral financial market framing",
+            "'high-profile exits' factual without spin"
+          ],
+          "biasScoreGrok": 4.7,
+          "biasSignalsGrok": [
+            "paces worst day",
+            "AI concerns"
+          ],
+          "pubDate": "Mon, 22 Jun 2026 17:17:04 GMT",
+          "clusterId": "ai-tech-industry-news"
+        },
+        {
+          "id": "cnbc-ai-tech-industry-news-2",
+          "outletId": "cnbc",
+          "outletName": "CNBC",
+          "headline": "Three key AI stocks to watch this week with traders expecting giant moves",
+          "url": "https://www.cnbc.com/2026/06/22/three-key-ai-stocks-to-watch-this-week-with-traders-expecting-giant-moves.html",
+          "biasScore": 5,
+          "biasSignals": [
+            "neutral financial analysis framing",
+            "no ideological signals"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "three key stocks",
+            "expecting giant moves"
+          ],
+          "pubDate": "Mon, 22 Jun 2026 17:54:14 GMT",
+          "clusterId": "ai-tech-industry-news"
+        },
+        {
+          "id": "wsj-ai-tech-industry-news-3",
+          "outletId": "wsj",
+          "outletName": "Wall Street Journal",
+          "headline": "What to Know About China's DeepSeek AI",
+          "url": "https://www.wsj.com/articles/deepseek-ai-china-tech-stocks-explained-ee6cc80e?mod=rss_Technology",
+          "biasScore": 5,
+          "biasSignals": [
+            "neutral informational framing on DeepSeek",
+            "no charged language"
+          ],
+          "biasScoreGrok": 4.8,
+          "biasSignalsGrok": [
+            "what to know",
+            "China DeepSeek"
+          ],
+          "pubDate": "Mon, 27 Jan 2025 13:17:00 -0500",
+          "clusterId": "ai-tech-industry-news"
+        },
+        {
+          "id": "wsj-ai-tech-industry-news-4",
+          "outletId": "wsj",
+          "outletName": "Wall Street Journal",
+          "headline": "Silicon Valley Is Raving About a Made-in-China AI Model",
+          "url": "https://www.wsj.com/articles/china-ai-deepseek-chatbot-6ac4ad33?mod=rss_Technology",
+          "biasScore": 5.2,
+          "biasSignals": [
+            "'Silicon Valley Is Raving' implies uncritical enthusiasm",
+            "'Made-in-China' framing adds competitive tension"
+          ],
+          "biasScoreGrok": 5.1,
+          "biasSignalsGrok": [
+            "Silicon Valley raving",
+            "made in China"
+          ],
+          "pubDate": "Mon, 27 Jan 2025 09:36:00 -0500",
+          "clusterId": "ai-tech-industry-news"
+        }
+      ]
+    },
+    {
+      "id": "housing-bill-congress-private-equity",
+      "topicLabel": "Congress advances bill limiting private equity home purchases",
+      "date": "2026-06-22",
+      "articles": [
+        {
+          "id": "cnbc-housing-bill-congress-private-equity-0",
+          "outletId": "cnbc",
+          "outletName": "CNBC",
+          "headline": "Senate poised to advance housing bill to limit private equity purchases of single-family homes",
+          "url": "https://www.cnbc.com/2026/06/22/affordable-housing-bill-private-equity-single-family-homes.html",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral 'poised to advance' framing",
+            "factual description of bill's purpose"
+          ],
+          "biasScoreGrok": 4.3,
+          "biasSignalsGrok": [
+            "Senate poised advance",
+            "limit purchases"
+          ],
+          "pubDate": "Mon, 22 Jun 2026 17:54:43 GMT",
+          "clusterId": "housing-bill-congress-private-equity"
+        },
+        {
+          "id": "thehill-housing-bill-congress-private-equity-1",
+          "outletId": "thehill",
+          "outletName": "The Hill",
+          "headline": "Congress is finally set to pass a housing bill: Here’s what it would do",
+          "url": "https://thehill.com/homenews/senate/5932776-housing-bill-regulations-reform/",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral informational 'what it would do' framing",
+            "no partisan lean evident"
+          ],
+          "biasScoreGrok": 4.6,
+          "biasSignalsGrok": [
+            "finally set pass",
+            "here is what"
+          ],
+          "pubDate": "2026-06-21T10:00:00Z",
+          "clusterId": "housing-bill-congress-private-equity"
+        }
+      ]
+    },
+    {
+      "id": "edinburgh-anti-muslim-attacks",
+      "topicLabel": "Edinburgh anti-Muslim attacks under counterterror investigation",
+      "date": "2026-06-22",
+      "articles": [
+        {
+          "id": "huffpost-edinburgh-anti-muslim-attacks-2",
+          "outletId": "huffpost",
+          "outletName": "HuffPost",
+          "headline": "Scottish Counterterror Police Investigating After 5 Hurt In Apparent Anti-Muslim Attacks In Edinburgh",
+          "url": "https://www.huffpost.com/entry/scottish-counterterror-police-investigating-after-5-hurt-in-apparent-anti-muslim-attacks-in-edinburgh_n_6a372198e4b04f5fa0c2c4dd",
+          "biasScore": 3.5,
+          "biasSignals": [
+            "'Apparent Anti-Muslim Attacks' sympathetic victim framing",
+            "'Scottish Counterterror' framing elevates severity"
+          ],
+          "biasScoreGrok": 3.3,
+          "biasSignalsGrok": [
+            "investigating after hurt",
+            "apparent attacks"
+          ],
+          "pubDate": "2026-06-20T23:39:05Z",
+          "clusterId": "edinburgh-anti-muslim-attacks"
+        },
+        {
+          "id": "bbc-edinburgh-anti-muslim-attacks-0",
+          "outletId": "bbc",
+          "outletName": "BBC",
+          "headline": "CCTV shows moments leading up to arrest in Edinburgh anti-Muslim attacks probe",
+          "url": "https://www.bbc.co.uk/news/articles/c8j21zvkd20o",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral factual CCTV evidence framing",
+            "no charged political language"
+          ],
+          "biasScoreGrok": 4.1,
+          "biasSignalsGrok": [
+            "CCTV shows moments",
+            "arrest probe"
+          ],
+          "pubDate": "2026-06-21T15:07:21.8237519Z",
+          "clusterId": "edinburgh-anti-muslim-attacks"
+        },
+        {
+          "id": "skynews-edinburgh-anti-muslim-attacks-3",
+          "outletId": "skynews",
+          "outletName": "Sky News",
+          "headline": "Man charged with five counts of attempted murder linked to terrorism",
+          "url": "https://news.sky.com/story/man-charged-with-five-counts-of-attempted-murder-linked-to-terrorism-13556748",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral legal framing 'charged with'",
+            "terrorism link stated factually"
+          ],
+          "biasScoreGrok": 5.6,
+          "biasSignalsGrok": [
+            "charged five counts",
+            "linked terrorism"
+          ],
+          "pubDate": "Mon, 22 Jun 2026 14:00:00 +0100",
+          "clusterId": "edinburgh-anti-muslim-attacks"
+        },
+        {
+          "id": "metro-edinburgh-anti-muslim-attacks-1",
+          "outletId": "metro",
+          "outletName": "Metro",
+          "headline": "Scottish man, 36, accused of Edinburgh terror attack on Muslims named",
+          "url": "https://metro.co.uk/2026/06/22/scottish-man-36-accused-edinburgh-terror-attack-muslims-named-28882201/",
+          "biasScore": 4.8,
+          "biasSignals": [
+            "factual identification headline",
+            "neutral framing of accused"
+          ],
+          "biasScoreGrok": 5.4,
+          "biasSignalsGrok": [
+            "accused of attack",
+            "named in probe"
+          ],
+          "pubDate": "Mon, 22 Jun 2026 17:53:05 +0000",
+          "clusterId": "edinburgh-anti-muslim-attacks"
         }
       ]
     }
   ],
   "outlets": [
     {
-      "outletId": "independent",
-      "outletName": "The Independent",
-      "abbreviation": "Indep",
-      "currentScore": 3,
-      "currentScoreGrok": 4,
-      "articleCount": 1,
-      "expectedRange": [
-        3,
-        4.5
-      ]
-    },
-    {
-      "outletId": "vox",
-      "outletName": "Vox",
-      "abbreviation": "Vox",
-      "currentScore": 3.5,
-      "currentScoreGrok": 3.03,
-      "articleCount": 3,
-      "expectedRange": [
-        2.5,
-        4
-      ]
-    },
-    {
-      "outletId": "msnbc",
-      "outletName": "MSNBC",
-      "abbreviation": "MSNBC",
-      "currentScore": 3.75,
-      "currentScoreGrok": 3.75,
-      "articleCount": 2,
-      "expectedRange": [
-        1.5,
-        3.5
-      ]
-    },
-    {
-      "outletId": "theatlantic",
-      "outletName": "The Atlantic",
-      "abbreviation": "Atlntc",
-      "currentScore": 4,
-      "currentScoreGrok": 3,
-      "articleCount": 1,
-      "expectedRange": [
-        2.5,
-        4
-      ]
-    },
-    {
-      "outletId": "huffpost",
-      "outletName": "HuffPost",
-      "abbreviation": "HPost",
-      "currentScore": 4.25,
-      "currentScoreGrok": 3.95,
-      "articleCount": 2,
-      "expectedRange": [
-        2,
-        3.5
-      ]
-    },
-    {
       "outletId": "forbes",
       "outletName": "Forbes",
       "abbreviation": "Forbes",
-      "currentScore": 4.25,
-      "currentScoreGrok": 4.8,
+      "currentScore": 3.25,
+      "currentScoreGrok": 2.8,
       "articleCount": 2,
       "expectedRange": [
         5,
@@ -2120,35 +2238,95 @@
       ]
     },
     {
+      "outletId": "msnbc",
+      "outletName": "MSNBC",
+      "abbreviation": "MSNBC",
+      "currentScore": 3.5,
+      "currentScoreGrok": 3.5,
+      "articleCount": 2,
+      "expectedRange": [
+        1.5,
+        3.5
+      ]
+    },
+    {
+      "outletId": "guardian",
+      "outletName": "The Guardian",
+      "abbreviation": "Guard",
+      "currentScore": 3.6,
+      "currentScoreGrok": 3.52,
+      "articleCount": 5,
+      "expectedRange": [
+        2.5,
+        4
+      ]
+    },
+    {
       "outletId": "washpost",
       "outletName": "Washington Post",
       "abbreviation": "WPost",
-      "currentScore": 4.38,
-      "currentScoreGrok": 4.22,
-      "articleCount": 4,
+      "currentScore": 3.74,
+      "currentScoreGrok": 4.02,
+      "articleCount": 5,
       "expectedRange": [
         2.8,
         4.2
       ]
     },
     {
-      "outletId": "npr",
-      "outletName": "NPR",
-      "abbreviation": "NPR",
-      "currentScore": 4.5,
-      "currentScoreGrok": 4.23,
-      "articleCount": 6,
+      "outletId": "huffpost",
+      "outletName": "HuffPost",
+      "abbreviation": "HPost",
+      "currentScore": 3.75,
+      "currentScoreGrok": 3.68,
+      "articleCount": 4,
       "expectedRange": [
-        3.5,
-        4.5
+        2,
+        3.5
       ]
     },
     {
-      "outletId": "economist",
-      "outletName": "The Economist",
-      "abbreviation": "Econ",
-      "currentScore": 4.5,
-      "currentScoreGrok": 2.75,
+      "outletId": "vox",
+      "outletName": "Vox",
+      "abbreviation": "Vox",
+      "currentScore": 4,
+      "currentScoreGrok": 3.2,
+      "articleCount": 2,
+      "expectedRange": [
+        2.5,
+        4
+      ]
+    },
+    {
+      "outletId": "metro",
+      "outletName": "Metro",
+      "abbreviation": "Metro",
+      "currentScore": 4.27,
+      "currentScoreGrok": 4.47,
+      "articleCount": 3,
+      "expectedRange": [
+        3,
+        5
+      ]
+    },
+    {
+      "outletId": "bostonglobe",
+      "outletName": "Boston Globe",
+      "abbreviation": "Globe",
+      "currentScore": 4.33,
+      "currentScoreGrok": 4.1,
+      "articleCount": 4,
+      "expectedRange": [
+        2.5,
+        4
+      ]
+    },
+    {
+      "outletId": "marketwatch",
+      "outletName": "MarketWatch",
+      "abbreviation": "MW",
+      "currentScore": 4.35,
+      "currentScoreGrok": 4,
       "articleCount": 2,
       "expectedRange": [
         4.5,
@@ -2156,47 +2334,95 @@
       ]
     },
     {
-      "outletId": "guardian",
-      "outletName": "The Guardian",
-      "abbreviation": "Guard",
-      "currentScore": 4.5,
-      "currentScoreGrok": 3.83,
+      "outletId": "bbc",
+      "outletName": "BBC",
+      "abbreviation": "BBC",
+      "currentScore": 4.4,
+      "currentScoreGrok": 4.23,
       "articleCount": 3,
       "expectedRange": [
-        2.5,
-        4
+        4,
+        5.5
       ]
     },
     {
-      "outletId": "ap",
-      "outletName": "Associated Press",
-      "abbreviation": "AP",
-      "currentScore": 4.7,
-      "currentScoreGrok": 4.46,
-      "articleCount": 5,
+      "outletId": "npr",
+      "outletName": "NPR",
+      "abbreviation": "NPR",
+      "currentScore": 4.42,
+      "currentScoreGrok": 4,
+      "articleCount": 6,
       "expectedRange": [
-        4.5,
-        5.5
+        3.5,
+        4.5
+      ]
+    },
+    {
+      "outletId": "aljazeera",
+      "outletName": "Al Jazeera",
+      "abbreviation": "AJ",
+      "currentScore": 4.43,
+      "currentScoreGrok": 3.83,
+      "articleCount": 3,
+      "expectedRange": [
+        3.5,
+        5
       ]
     },
     {
       "outletId": "nytimes",
       "outletName": "NY Times",
       "abbreviation": "NYT",
-      "currentScore": 4.74,
-      "currentScoreGrok": 3.98,
-      "articleCount": 5,
+      "currentScore": 4.5,
+      "currentScoreGrok": 4.33,
+      "articleCount": 4,
       "expectedRange": [
         3,
         4.5
       ]
     },
     {
+      "outletId": "yahoofinance",
+      "outletName": "Yahoo Finance",
+      "abbreviation": "YFin",
+      "currentScore": 4.5,
+      "currentScoreGrok": 4.4,
+      "articleCount": 1,
+      "expectedRange": [
+        4.5,
+        6
+      ]
+    },
+    {
+      "outletId": "cnn",
+      "outletName": "CNN",
+      "abbreviation": "CNN",
+      "currentScore": 4.5,
+      "currentScoreGrok": 3.4,
+      "articleCount": 1,
+      "expectedRange": [
+        2.5,
+        4
+      ]
+    },
+    {
+      "outletId": "skynews",
+      "outletName": "Sky News",
+      "abbreviation": "Sky",
+      "currentScore": 4.6,
+      "currentScoreGrok": 5.2,
+      "articleCount": 3,
+      "expectedRange": [
+        4,
+        5.5
+      ]
+    },
+    {
       "outletId": "axios",
       "outletName": "Axios",
       "abbreviation": "Axios",
-      "currentScore": 4.8,
-      "currentScoreGrok": 4.72,
+      "currentScore": 4.64,
+      "currentScoreGrok": 4.24,
       "articleCount": 5,
       "expectedRange": [
         5.5,
@@ -2204,23 +2430,83 @@
       ]
     },
     {
+      "outletId": "ap",
+      "outletName": "Associated Press",
+      "abbreviation": "AP",
+      "currentScore": 4.72,
+      "currentScoreGrok": 4.16,
+      "articleCount": 5,
+      "expectedRange": [
+        4.5,
+        5.5
+      ]
+    },
+    {
       "outletId": "latimes",
       "outletName": "LA Times",
       "abbreviation": "LAT",
-      "currentScore": 4.83,
-      "currentScoreGrok": 4.17,
-      "articleCount": 3,
+      "currentScore": 4.72,
+      "currentScoreGrok": 4.68,
+      "articleCount": 4,
       "expectedRange": [
         2.5,
         4
       ]
     },
     {
+      "outletId": "cnbc",
+      "outletName": "CNBC",
+      "abbreviation": "CNBC",
+      "currentScore": 4.74,
+      "currentScoreGrok": 4.76,
+      "articleCount": 7,
+      "expectedRange": [
+        4.5,
+        6
+      ]
+    },
+    {
+      "outletId": "timesofisrael",
+      "outletName": "Times of Israel",
+      "abbreviation": "TOI",
+      "currentScore": 4.8,
+      "currentScoreGrok": 4.9,
+      "articleCount": 1,
+      "expectedRange": [
+        5.5,
+        7.5
+      ]
+    },
+    {
+      "outletId": "nbc",
+      "outletName": "NBC News",
+      "abbreviation": "NBC",
+      "currentScore": 4.8,
+      "currentScoreGrok": 4.65,
+      "articleCount": 2,
+      "expectedRange": [
+        3,
+        4.5
+      ]
+    },
+    {
+      "outletId": "nypost",
+      "outletName": "NY Post",
+      "abbreviation": "NYPost",
+      "currentScore": 4.8,
+      "currentScoreGrok": 5.3,
+      "articleCount": 1,
+      "expectedRange": [
+        6.5,
+        8
+      ]
+    },
+    {
       "outletId": "cbsnews",
       "outletName": "CBS News",
       "abbreviation": "CBS",
-      "currentScore": 4.9,
-      "currentScoreGrok": 5.04,
+      "currentScore": 4.86,
+      "currentScoreGrok": 4.9,
       "articleCount": 5,
       "expectedRange": [
         3,
@@ -2228,36 +2514,36 @@
       ]
     },
     {
-      "outletId": "bbc",
-      "outletName": "BBC",
-      "abbreviation": "BBC",
-      "currentScore": 5,
-      "currentScoreGrok": 4.87,
-      "articleCount": 3,
-      "expectedRange": [
-        4,
-        5.5
-      ]
-    },
-    {
       "outletId": "bloomberg",
       "outletName": "Bloomberg",
       "abbreviation": "BBG",
-      "currentScore": 5,
-      "currentScoreGrok": 5.07,
-      "articleCount": 3,
+      "currentScore": 4.9,
+      "currentScoreGrok": 4.25,
+      "articleCount": 2,
       "expectedRange": [
         4,
         5.5
       ]
     },
     {
-      "outletId": "nbc",
-      "outletName": "NBC News",
-      "abbreviation": "NBC",
-      "currentScore": 5,
-      "currentScoreGrok": 4.47,
-      "articleCount": 3,
+      "outletId": "dailymail",
+      "outletName": "Daily Mail",
+      "abbreviation": "DM",
+      "currentScore": 4.9,
+      "currentScoreGrok": 5.1,
+      "articleCount": 2,
+      "expectedRange": [
+        6.5,
+        8.5
+      ]
+    },
+    {
+      "outletId": "abc",
+      "outletName": "ABC News",
+      "abbreviation": "ABC",
+      "currentScore": 4.98,
+      "currentScoreGrok": 4.65,
+      "articleCount": 4,
       "expectedRange": [
         3,
         4.5
@@ -2268,7 +2554,7 @@
       "outletName": "Reason",
       "abbreviation": "Reason",
       "currentScore": 5,
-      "currentScoreGrok": 5.5,
+      "currentScoreGrok": 5,
       "articleCount": 1,
       "expectedRange": [
         4.5,
@@ -2276,105 +2562,9 @@
       ]
     },
     {
-      "outletId": "aljazeera",
-      "outletName": "Al Jazeera",
-      "abbreviation": "AJ",
-      "currentScore": 5,
-      "currentScoreGrok": 3.8,
-      "articleCount": 2,
-      "expectedRange": [
-        3.5,
-        5
-      ]
-    },
-    {
-      "outletId": "cnbc",
-      "outletName": "CNBC",
-      "abbreviation": "CNBC",
-      "currentScore": 5,
-      "currentScoreGrok": 4.94,
-      "articleCount": 5,
-      "expectedRange": [
-        4.5,
-        6
-      ]
-    },
-    {
-      "outletId": "metro",
-      "outletName": "Metro",
-      "abbreviation": "Metro",
-      "currentScore": 5,
-      "currentScoreGrok": 4.8,
-      "articleCount": 1,
-      "expectedRange": [
-        3,
-        5
-      ]
-    },
-    {
-      "outletId": "skynews",
-      "outletName": "Sky News",
-      "abbreviation": "Sky",
-      "currentScore": 5,
-      "currentScoreGrok": 5,
-      "articleCount": 2,
-      "expectedRange": [
-        4,
-        5.5
-      ]
-    },
-    {
-      "outletId": "politico",
-      "outletName": "Politico",
-      "abbreviation": "PLTICO",
-      "currentScore": 5,
-      "currentScoreGrok": 4.5,
-      "articleCount": 1,
-      "expectedRange": [
-        4,
-        5.5
-      ]
-    },
-    {
-      "outletId": "nypost",
-      "outletName": "NY Post",
-      "abbreviation": "NYPost",
-      "currentScore": 5,
-      "currentScoreGrok": 5.2,
-      "articleCount": 1,
-      "expectedRange": [
-        6.5,
-        8
-      ]
-    },
-    {
-      "outletId": "yahoofinance",
-      "outletName": "Yahoo Finance",
-      "abbreviation": "YFin",
-      "currentScore": 5,
-      "currentScoreGrok": 5,
-      "articleCount": 1,
-      "expectedRange": [
-        4.5,
-        6
-      ]
-    },
-    {
-      "outletId": "marketwatch",
-      "outletName": "MarketWatch",
-      "abbreviation": "MW",
-      "currentScore": 5,
-      "currentScoreGrok": 5,
-      "articleCount": 2,
-      "expectedRange": [
-        4.5,
-        6
-      ]
-    },
-    {
-      "outletId": "abc",
-      "outletName": "ABC News",
-      "abbreviation": "ABC",
+      "outletId": "independent",
+      "outletName": "The Independent",
+      "abbreviation": "Indep",
       "currentScore": 5,
       "currentScoreGrok": 5,
       "articleCount": 1,
@@ -2384,108 +2574,72 @@
       ]
     },
     {
-      "outletId": "bostonglobe",
-      "outletName": "Boston Globe",
-      "abbreviation": "Globe",
-      "currentScore": 5.17,
-      "currentScoreGrok": 4.9,
+      "outletId": "economist",
+      "outletName": "The Economist",
+      "abbreviation": "Econ",
+      "currentScore": 5.1,
+      "currentScoreGrok": 4.13,
       "articleCount": 3,
       "expectedRange": [
-        2.5,
-        4
+        4.5,
+        6
       ]
     },
     {
-      "outletId": "thehill",
-      "outletName": "The Hill",
-      "abbreviation": "Hill",
-      "currentScore": 5.25,
-      "currentScoreGrok": 5.23,
-      "articleCount": 4,
+      "outletId": "wsj",
+      "outletName": "Wall Street Journal",
+      "abbreviation": "WSJ",
+      "currentScore": 5.1,
+      "currentScoreGrok": 4.95,
+      "articleCount": 2,
       "expectedRange": [
         5.5,
         7
       ]
     },
     {
-      "outletId": "timesofisrael",
-      "outletName": "Times of Israel",
-      "abbreviation": "TOI",
-      "currentScore": 5.25,
-      "currentScoreGrok": 5.4,
-      "articleCount": 2,
+      "outletId": "thehill",
+      "outletName": "The Hill",
+      "abbreviation": "Hill",
+      "currentScore": 5.18,
+      "currentScoreGrok": 5.37,
+      "articleCount": 6,
       "expectedRange": [
         5.5,
-        7.5
+        7
       ]
     },
     {
-      "outletId": "dailymail",
-      "outletName": "Daily Mail",
-      "abbreviation": "DM",
+      "outletId": "telegraph",
+      "outletName": "The Telegraph",
+      "abbreviation": "Tele",
       "currentScore": 5.5,
-      "currentScoreGrok": 6.15,
-      "articleCount": 2,
-      "expectedRange": [
-        6.5,
-        8.5
-      ]
-    },
-    {
-      "outletId": "cnn",
-      "outletName": "CNN",
-      "abbreviation": "CNN",
-      "currentScore": 5.5,
-      "currentScoreGrok": 3.5,
+      "currentScoreGrok": 5.3,
       "articleCount": 1,
       "expectedRange": [
-        2.5,
-        4
+        6,
+        7.5
       ]
     },
     {
       "outletId": "washexaminer",
       "outletName": "Washington Examiner",
       "abbreviation": "WExam",
-      "currentScore": 5.63,
-      "currentScoreGrok": 5.78,
-      "articleCount": 4,
+      "currentScore": 6.07,
+      "currentScoreGrok": 6.3,
+      "articleCount": 3,
       "expectedRange": [
         7,
         8.5
       ]
     },
     {
-      "outletId": "breitbart",
-      "outletName": "Breitbart",
-      "abbreviation": "BB",
-      "currentScore": 6.38,
-      "currentScoreGrok": 6.18,
-      "articleCount": 4,
-      "expectedRange": [
-        8.5,
-        9.8
-      ]
-    },
-    {
-      "outletId": "dailycaller",
-      "outletName": "Daily Caller",
-      "abbreviation": "DC",
-      "currentScore": 6.5,
-      "currentScoreGrok": 6.5,
-      "articleCount": 2,
-      "expectedRange": [
-        7.5,
-        9
-      ]
-    },
-    {
       "outletId": "foxnews",
       "outletName": "Fox News",
       "abbreviation": "FOX",
-      "currentScore": 6.5,
-      "currentScoreGrok": 6.4,
-      "articleCount": 3,
+      "currentScore": 6.2,
+      "currentScoreGrok": 6.8,
+      "articleCount": 1,
       "expectedRange": [
         7,
         8.5
@@ -2495,7 +2649,7 @@
       "outletId": "nationalreview",
       "outletName": "National Review",
       "abbreviation": "NR",
-      "currentScore": 7,
+      "currentScore": 6.5,
       "currentScoreGrok": 7.5,
       "articleCount": 1,
       "expectedRange": [
@@ -2507,15 +2661,27 @@
       "outletId": "thefederalist",
       "outletName": "The Federalist",
       "abbreviation": "Fed",
-      "currentScore": 7.5,
-      "currentScoreGrok": 7.5,
+      "currentScore": 7,
+      "currentScoreGrok": 7.8,
       "articleCount": 1,
       "expectedRange": [
         7.5,
         9
       ]
+    },
+    {
+      "outletId": "breitbart",
+      "outletName": "Breitbart",
+      "abbreviation": "BB",
+      "currentScore": 7.27,
+      "currentScoreGrok": 7.53,
+      "articleCount": 3,
+      "expectedRange": [
+        8.5,
+        9.8
+      ]
     }
   ],
-  "articleCount": 102,
-  "storyCount": 15
+  "articleCount": 111,
+  "storyCount": 16
 }
