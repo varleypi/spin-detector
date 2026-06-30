@@ -202,12 +202,22 @@ async function clusterAndScore(articles) {
   const prompt = buildPrompt(articles)
   console.log(`   Sending ${articles.length} headlines to Claude...`)
 
-  const response = await client.messages.create({
-    model: 'claude-sonnet-4-6',
-    max_tokens: 32000,
-    system: SYSTEM_PROMPT,
-    messages: [{ role: 'user', content: prompt }],
-  })
+  let response
+  for (let attempt = 1; attempt <= 3; attempt++) {
+    try {
+      response = await client.messages.create({
+        model: 'claude-sonnet-4-6',
+        max_tokens: 16000,
+        system: SYSTEM_PROMPT,
+        messages: [{ role: 'user', content: prompt }],
+      })
+      break
+    } catch (err) {
+      console.warn(`   ⚠ Claude attempt ${attempt}/3 failed: ${err.message}`)
+      if (attempt === 3) throw err
+      await new Promise((r) => setTimeout(r, attempt * 5000))
+    }
+  }
 
   const text = response.content[0]?.text ?? ''
   console.log(`   Claude responded (${text.length} chars, ${response.usage?.output_tokens} tokens)`)
