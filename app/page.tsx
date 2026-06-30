@@ -1,6 +1,21 @@
 import SpinDetectorApp from '@/components/SpinDetectorApp'
 import { MOCK_STORIES, OUTLETS } from '@/lib/mockData'
 import type { PipelineStatus } from '@/lib/types'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Spin Detector — Political Media Bias Tracker',
+  description:
+    'Real-time AI analysis of political bias across 55 major news outlets. See how CNN, Fox News, BBC, NYT, and more frame the same stories — scored from Far Left to Far Right by Claude and Grok.',
+  openGraph: {
+    title: 'Spin Detector — Political Media Bias Tracker',
+    description:
+      'Real-time AI analysis of political bias across 55 major news outlets. Same story, multiple outlets, measurable bias.',
+    url: 'https://spindetector.com',
+    siteName: 'Spin Detector',
+    type: 'website',
+  },
+}
 
 async function fetchData() {
   if (process.env.SUPABASE_URL && process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY) {

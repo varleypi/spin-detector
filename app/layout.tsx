@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Script from 'next/script'
+import Link from 'next/link'
 import { Analytics } from '@vercel/analytics/react'
 import './globals.css'
 
@@ -25,6 +26,16 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           strategy="afterInteractive"
         />
         <Analytics />
+        <footer className="border-t border-slate-800 bg-slate-950 mt-auto">
+          <div className="max-w-5xl mx-auto px-4 py-5 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-slate-600">
+            <span>© {new Date().getFullYear()} Spin Detector — AI-powered political media bias tracker</span>
+            <nav className="flex gap-4">
+              <Link href="/about" className="hover:text-slate-400 transition-colors">About</Link>
+              <Link href="/privacy" className="hover:text-slate-400 transition-colors">Privacy Policy</Link>
+              <a href="mailto:piers@spindetector.com" className="hover:text-slate-400 transition-colors">Contact</a>
+            </nav>
+          </div>
+        </footer>
       </body>
     </html>
   )
