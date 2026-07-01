@@ -1,1615 +1,1409 @@
 {
-  "date": "2026-06-30",
-  "generatedAt": "2026-06-30T17:03:31.583Z",
+  "date": "2026-07-01",
+  "generatedAt": "2026-07-01T12:37:28.541Z",
   "stories": [
     {
-      "id": "birthright-citizenship-scotus",
-      "topicLabel": "Supreme Court blocks Trump birthright citizenship order",
-      "date": "2026-06-30",
+      "id": "scotus-birthright-citizenship",
+      "topicLabel": "Supreme Court rules on birthright citizenship executive order",
+      "date": "2026-07-01",
       "articles": [
         {
-          "id": "vox-birthright-citizenship-scotus-14",
-          "outletId": "vox",
-          "outletName": "Vox",
-          "headline": "The Supreme Court just came one vote away from a constitutional catastrophe",
-          "url": "https://www.vox.com/culture/493694/supreme-court-birthright-citizenship-trump-barbara",
-          "biasScore": 2.5,
-          "biasSignals": [
-            "\"constitutional catastrophe\" — alarmist left framing",
-            "\"one vote away\" — emphasizes threat narrative"
-          ],
-          "biasScoreGrok": 1.8,
-          "biasSignalsGrok": [
-            "constitutional catastrophe claim",
-            "one vote away emphasis"
-          ],
-          "pubDate": "2026-06-30T17:00:00.000Z",
-          "clusterId": "birthright-citizenship-scotus"
-        },
-        {
-          "id": "axios-birthright-citizenship-scotus-10",
-          "outletId": "axios",
-          "outletName": "Axios",
-          "headline": "Birthright citizenship decision gives advocates short-lived sigh of relief",
-          "url": "https://www.axios.com/2026/06/30/birthright-citizenship-decision-whats-next",
-          "biasScore": 3.2,
-          "biasSignals": [
-            "\"short-lived sigh of relief\" — sympathetic to advocates",
-            "frames immigrants as vulnerable, relief as temporary"
-          ],
-          "biasScoreGrok": 3.7,
-          "biasSignalsGrok": [
-            "advocates relief framing",
-            "short-lived sigh noted"
-          ],
-          "pubDate": "Tue, 30 Jun 2026 16:01:46 +0000",
-          "clusterId": "birthright-citizenship-scotus"
-        },
-        {
-          "id": "guardian-birthright-citizenship-scotus-4",
-          "outletId": "guardian",
-          "outletName": "The Guardian",
-          "headline": "Trump threatens to abolish birthright citizenship through Congress after supreme court rules against him – live",
-          "url": "https://www.theguardian.com/us-news/live/2026/jun/30/birthright-citizenship-supreme-court-donald-trump-us-politics-latest-news",
-          "biasScore": 3.5,
-          "biasSignals": [
-            "\"blow to Trump agenda\" — mild left-charged framing",
-            "\"threatens\" verb implies Trump aggression"
-          ],
-          "biasScoreGrok": 2.1,
-          "biasSignalsGrok": [
-            "uses 'threatens to abolish'",
-            "live update dramatic tone"
-          ],
-          "pubDate": "Tue, 30 Jun 2026 16:46:52 GMT",
-          "clusterId": "birthright-citizenship-scotus"
-        },
-        {
-          "id": "guardian-birthright-citizenship-scotus-5",
-          "outletId": "guardian",
-          "outletName": "The Guardian",
-          "headline": "US supreme court upholds birthright citizenship in blow to Trump agenda",
-          "url": "https://www.theguardian.com/us-news/2026/jun/30/us-supreme-court-bithright-citizenship",
-          "biasScore": 3.8,
-          "biasSignals": [
-            "\"blow to Trump agenda\" — left-leaning framing",
-            "\"upholds\" framing sympathetic to ruling"
-          ],
-          "biasScoreGrok": 2.3,
-          "biasSignalsGrok": [
-            "calls it 'blow to agenda'",
-            "upholds citizenship positively"
-          ],
-          "pubDate": "Tue, 30 Jun 2026 16:23:37 GMT",
-          "clusterId": "birthright-citizenship-scotus"
-        },
-        {
-          "id": "latimes-birthright-citizenship-scotus-13",
+          "id": "latimes-scotus-birthright-citizenship-24",
           "outletId": "latimes",
           "outletName": "LA Times",
-          "headline": "Supreme Court rejects Trump's plan to limit birthright citizenship",
-          "url": "https://www.latimes.com/politics/story/2026-06-30/supreme-court-rejects-trumps-plan-to-limit-birthright-citizenship",
-          "biasScore": 4,
+          "headline": "Arellano: The sad inevitability of Justice Alito's birthright citizenship dissent",
+          "url": "https://www.latimes.com/california/story/2026-07-01/justice-samuel-alito-birthright-citizenship-dissent",
+          "biasScore": 2.5,
           "biasSignals": [
-            "\"rejects Trump's plan\" — mild framing against Trump",
-            "neutral headline structure otherwise"
+            "'sad inevitability' — emotional progressive framing",
+            "frames Alito's dissent as inherently flawed"
           ],
-          "biasScoreGrok": 3.2,
+          "biasScoreGrok": 3,
           "biasSignalsGrok": [
-            "rejects plan wording",
-            "limit citizenship focus"
+            "sad inevitability of dissent",
+            "Alito negative framing"
           ],
-          "pubDate": "Tue, 30 Jun 2026 14:48:28 GMT",
-          "clusterId": "birthright-citizenship-scotus"
+          "pubDate": "Wed, 1 Jul 2026 10:00:00 GMT",
+          "clusterId": "scotus-birthright-citizenship"
         },
         {
-          "id": "nytimes-birthright-citizenship-scotus-0",
-          "outletId": "nytimes",
-          "outletName": "NY Times",
-          "headline": "In dissents, justices decried the ruling as a ‘serious mistake’ that would aid ‘birth tourists.’",
-          "url": "https://www.nytimes.com/live/2026/06/30/us/birthright-citizenship-supreme-court/in-dissents-justices-decried-the-ruling-as-a-serious-mistake-that-would-aid-birth-tourists",
-          "biasScore": 4.5,
+          "id": "vox-scotus-birthright-citizenship-28",
+          "outletId": "vox",
+          "outletName": "Vox",
+          "headline": "Trump’s quest for untrammeled power just got a big boost",
+          "url": "https://www.vox.com/policy/493735/trump-power-agencies-slaughter-supreme-court",
+          "biasScore": 2.5,
           "biasSignals": [
-            "\"birth tourists\" — loaded term in dissent framing",
-            "neutral reporting of dissent language"
-          ],
-          "biasScoreGrok": 3.5,
-          "biasSignalsGrok": [
-            "highlights dissent criticism",
-            "uses 'birth tourists' term"
-          ],
-          "pubDate": "Tue, 30 Jun 2026 16:57:52 +0000",
-          "clusterId": "birthright-citizenship-scotus"
-        },
-        {
-          "id": "aljazeera-birthright-citizenship-scotus-2",
-          "outletId": "aljazeera",
-          "outletName": "Al Jazeera",
-          "headline": "US Supreme Court rules against Trump order to end birthright citizenship",
-          "url": "https://www.aljazeera.com/news/2026/6/30/us-supreme-court-rules-against-trump-order-to-end-birthright-citizenship?traffic_source=rss",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral headline structure, factual framing",
-            "no ideological signals present"
-          ],
-          "biasScoreGrok": 2.9,
-          "biasSignalsGrok": [
-            "neutral reporting verb",
-            "emphasizes end to citizenship"
-          ],
-          "pubDate": "Tue, 30 Jun 2026 14:40:17 +0000",
-          "clusterId": "birthright-citizenship-scotus"
-        },
-        {
-          "id": "cnbc-birthright-citizenship-scotus-6",
-          "outletId": "cnbc",
-          "outletName": "CNBC",
-          "headline": "Supreme Court upholds birthright citizenship, blocks Trump order",
-          "url": "https://www.cnbc.com/2026/06/30/supreme-court-birthright-citizenship-ruling.html",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral headline, factual framing",
-            "\"blocks Trump order\" — neutral verb choice"
-          ],
-          "biasScoreGrok": 4.8,
-          "biasSignalsGrok": [
-            "neutral 'upholds' verb",
-            "blocks Trump order stated"
-          ],
-          "pubDate": "Tue, 30 Jun 2026 16:27:59 GMT",
-          "clusterId": "birthright-citizenship-scotus"
-        },
-        {
-          "id": "axios-birthright-citizenship-scotus-9",
-          "outletId": "axios",
-          "outletName": "Axios",
-          "headline": "SCOTUS rejects Trump's birthright citizenship policy",
-          "url": "https://www.axios.com/2026/06/30/scotus-rejects-trumps-birthright-citizenship-policy",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral verb \"rejects\" — factual framing",
-            "no charged language around citizenship"
-          ],
-          "biasScoreGrok": 4.9,
-          "biasSignalsGrok": [
-            "rejects policy neutral",
-            "SCOTUS action centered"
-          ],
-          "pubDate": "Tue, 30 Jun 2026 16:51:53 +0000",
-          "clusterId": "birthright-citizenship-scotus"
-        },
-        {
-          "id": "aljazeera-birthright-citizenship-scotus-1",
-          "outletId": "aljazeera",
-          "outletName": "Al Jazeera",
-          "headline": "SCOTUS rules against Trump’s order limiting birthright citizenship",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/6/30/scotus-rules-against-trumps-order-limiting-birthright-citizenship?traffic_source=rss",
-          "biasScore": 4.8,
-          "biasSignals": [
-            "neutral verb \"rules against\" — balanced framing",
-            "no charged language around immigration status"
+            "'untrammeled power' — charged progressive concern framing",
+            "'big boost' frames as alarming expansion"
           ],
           "biasScoreGrok": 2.8,
           "biasSignalsGrok": [
-            "neutral 'rules against'",
-            "focuses on Trump order limit"
+            "untrammeled power boost",
+            "left critical framing"
           ],
-          "pubDate": "Tue, 30 Jun 2026 15:25:09 +0000",
-          "clusterId": "birthright-citizenship-scotus"
+          "pubDate": "2026-06-30T20:05:00.000Z",
+          "clusterId": "scotus-birthright-citizenship"
         },
         {
-          "id": "reason-birthright-citizenship-scotus-15",
-          "outletId": "reason",
-          "outletName": "Reason",
-          "headline": "Supreme Court Rules Against Trump in the Birthright Citizenship Case",
-          "url": "https://reason.com/volokh/2026/06/30/supreme-court-rules-against-trump-in-the-birthright-citizenship-case/",
-          "biasScore": 5,
+          "id": "theatlantic-scotus-birthright-citizenship-30",
+          "outletId": "theatlantic",
+          "outletName": "The Atlantic",
+          "headline": "An ‘Originalist’ Court Overturns an Originalist Decision",
+          "url": "https://www.theatlantic.com/ideas/2026/06/scotus-humphreys-originalism/687744/?utm_source=feed",
+          "biasScore": 3,
           "biasSignals": [
-            "neutral framing — libertarian source, balanced tone",
-            "\"Rules Against Trump\" — factual, not charged"
+            "'Overturns an Originalist Decision' — irony framing critical of court",
+            "scare quotes around 'Originalist' imply skepticism"
           ],
-          "biasScoreGrok": 5.1,
+          "biasScoreGrok": 3.9,
           "biasSignalsGrok": [
-            "rules against neutral",
-            "Trump case centered"
+            "originalist court overturns",
+            "decision critique"
           ],
-          "pubDate": "Tue, 30 Jun 2026 16:47:41 +0000",
-          "clusterId": "birthright-citizenship-scotus"
+          "pubDate": "Tue, 30 Jun 2026 15:03:51 -0400",
+          "clusterId": "scotus-birthright-citizenship"
         },
         {
-          "id": "washexaminer-birthright-citizenship-scotus-8",
-          "outletId": "washexaminer",
-          "outletName": "Washington Examiner",
-          "headline": "Congressional Republicans split over Supreme Court’s birthright citizenship ruling",
-          "url": "https://www.washingtonexaminer.com/news/house/4630634/congressional-republicans-split-supreme-court-birthright-citizenship-ruling/",
+          "id": "economist-scotus-birthright-citizenship-14",
+          "outletId": "economist",
+          "outletName": "The Economist",
+          "headline": "The Supreme Court has handed Donald Trump yet more power",
+          "url": "https://www.economist.com/united-states/2026/06/29/the-supreme-court-has-handed-donald-trump-yet-more-power",
+          "biasScore": 3.5,
+          "biasSignals": [
+            "'handed Trump yet more power' implies threat",
+            "concern framing without extreme language"
+          ],
+          "biasScoreGrok": 3.2,
+          "biasSignalsGrok": [
+            "handed yet more power",
+            "critical of Trump"
+          ],
+          "pubDate": "Mon, 29 Jun 2026 23:06:48 +0000",
+          "clusterId": "scotus-birthright-citizenship"
+        },
+        {
+          "id": "theatlantic-scotus-birthright-citizenship-29",
+          "outletId": "theatlantic",
+          "outletName": "The Atlantic",
+          "headline": "The Most Surprising Part of the Birthright-Citizenship Decision",
+          "url": "https://www.theatlantic.com/newsletters/2026/06/what-the-supreme-court-rulings-mean-for-trump/687751/?utm_source=feed",
+          "biasScore": 3.5,
+          "biasSignals": [
+            "analytical framing with mild progressive lean",
+            "'most surprising' signals disappointment with outcome"
+          ],
+          "biasScoreGrok": 4.1,
+          "biasSignalsGrok": [
+            "most surprising part",
+            "decision analysis"
+          ],
+          "pubDate": "Tue, 30 Jun 2026 18:28:00 -0400",
+          "clusterId": "scotus-birthright-citizenship"
+        },
+        {
+          "id": "npr-scotus-birthright-citizenship-5",
+          "outletId": "npr",
+          "outletName": "NPR",
+          "headline": "Supreme Court deals some blows to Trump's agenda but leaves him with more expansive powers",
+          "url": "https://www.npr.org/2026/07/01/nx-s1-5876231/supreme-court-deals-some-blows-to-trumps-agenda-but-leaves-him-with-more-expansive-powers",
+          "biasScore": 3.8,
+          "biasSignals": [
+            "'more expansive powers' signals concern about Trump",
+            "'blows to Trump's agenda' frames Trump negatively"
+          ],
+          "biasScoreGrok": 3.9,
+          "biasSignalsGrok": [
+            "blows to Trump agenda",
+            "expansive powers framing"
+          ],
+          "pubDate": "Wed, 01 Jul 2026 05:00:00 -0400",
+          "clusterId": "scotus-birthright-citizenship"
+        },
+        {
+          "id": "nytimes-scotus-birthright-citizenship-3",
+          "outletId": "nytimes",
+          "outletName": "NY Times",
+          "headline": "Despite Some Losses for Trump, Supreme Court Delivers Enduring Conservative Wins",
+          "url": "https://www.nytimes.com/2026/07/01/us/politics/supreme-court-term-trump-conservatives.html",
+          "biasScore": 4.2,
+          "biasSignals": [
+            "'despite some losses' frames Trump as loser",
+            "'enduring conservative wins' neutral but outcome-focused"
+          ],
+          "biasScoreGrok": 4.5,
+          "biasSignalsGrok": [
+            "notes conservative wins",
+            "minimal emotional charge"
+          ],
+          "pubDate": "Wed, 01 Jul 2026 09:02:03 +0000",
+          "clusterId": "scotus-birthright-citizenship"
+        },
+        {
+          "id": "msnbc-scotus-birthright-citizenship-0",
+          "outletId": "msnbc",
+          "outletName": "MSNBC",
+          "headline": "Live updates: Supreme Court to rule on birthright citizenship, trans athlete bans and more",
+          "url": "https://www.ms.now/liveblog/supreme-court-birthright-citizenship-trump-transgender-athletes-ruling-june-30-2026",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral 'rule on' framing, lists multiple cases",
+            "no ideological loading in headline"
+          ],
+          "biasScoreGrok": 3.5,
+          "biasSignalsGrok": [
+            "mentions trans athlete bans",
+            "progressive framing on rights"
+          ],
+          "pubDate": "2026-06-30T12:01:11Z",
+          "clusterId": "scotus-birthright-citizenship"
+        },
+        {
+          "id": "msnbc-scotus-birthright-citizenship-1",
+          "outletId": "msnbc",
+          "outletName": "MSNBC",
+          "headline": "Supreme Court to rule on birthright citizenship, campaign finance and transgender athletes",
+          "url": "https://www.ms.now/deadline-white-house/deadline-legal-blog/supreme-court-birthright-citizenship-campaign-finance-transgender-athletes",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral enumeration of cases pending",
+            "no charged language, straightforward listing"
+          ],
+          "biasScoreGrok": 3.8,
+          "biasSignalsGrok": [
+            "lists campaign finance with trans",
+            "sympathetic left causes"
+          ],
+          "pubDate": "2026-06-30T10:00:00Z",
+          "clusterId": "scotus-birthright-citizenship"
+        },
+        {
+          "id": "npr-scotus-birthright-citizenship-4",
+          "outletId": "npr",
+          "outletName": "NPR",
+          "headline": "SCOTUS upholds birthright citizenship. And, key results from Colorado's primaries",
+          "url": "https://www.npr.org/2026/07/01/g-s1-131327/up-first-newsletter-supreme-court-birthright-citizenship-colorado-primaries-world-cup-heat-american-pride",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "'upholds' is neutral legal language",
+            "paired with Colorado results, no charged framing"
+          ],
+          "biasScoreGrok": 4,
+          "biasSignalsGrok": [
+            "neutral SCOTUS report",
+            "primary results balanced"
+          ],
+          "pubDate": "Wed, 01 Jul 2026 07:29:24 -0400",
+          "clusterId": "scotus-birthright-citizenship"
+        },
+        {
+          "id": "bbc-scotus-birthright-citizenship-6",
+          "outletId": "bbc",
+          "outletName": "BBC",
+          "headline": "One big win and three defeats for Trump in dramatic day at Supreme Court",
+          "url": "https://www.bbc.co.uk/news/articles/ceqdzd7zx24o",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "'one big win and three defeats' neutral scorekeeping",
+            "balanced framing without ideological loading"
+          ],
+          "biasScoreGrok": 4.1,
+          "biasSignalsGrok": [
+            "win and defeats noted",
+            "dramatic day qualifier"
+          ],
+          "pubDate": "2026-06-30T06:22:20.0778018Z",
+          "clusterId": "scotus-birthright-citizenship"
+        },
+        {
+          "id": "nbc-scotus-birthright-citizenship-25",
+          "outletId": "nbc",
+          "outletName": "NBC News",
+          "headline": "Live updates: Supreme Court rulings expected today for Trump’s birthright citizenship order and more",
+          "url": "https://www.nbcnews.com/politics/politics-news/live-blog/supreme-court-rulings-birthright-citizenship-co-elections-live-updates-rcna352220",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral 'live updates' format, factual listing",
+            "no ideological signals in headline"
+          ],
+          "biasScoreGrok": 3.6,
+          "biasSignalsGrok": [
+            "live updates neutral",
+            "Trump order mention"
+          ],
+          "pubDate": "2026-06-30T11:00:00Z",
+          "clusterId": "scotus-birthright-citizenship"
+        },
+        {
+          "id": "ap-scotus-birthright-citizenship-26",
+          "outletId": "ap",
+          "outletName": "Associated Press",
+          "headline": "Live updates: Supreme Court is set to rule on Trump’s challenge to birthright citizenship",
+          "url": "https://apnews.com/live/birthright-citizenship-decision-supreme-court-updates-06-30-2026",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral AP framing 'set to rule'",
+            "no loaded language or ideological signals"
+          ],
+          "biasScoreGrok": 4,
+          "biasSignalsGrok": [
+            "set to rule neutral",
+            "Trump challenge phrasing"
+          ],
+          "pubDate": "2026-06-30T07:00:00Z",
+          "clusterId": "scotus-birthright-citizenship"
+        },
+        {
+          "id": "ap-scotus-birthright-citizenship-27",
+          "outletId": "ap",
+          "outletName": "Associated Press",
+          "headline": "Supreme Court ruling expands Trump’s power, key points of US and Iran disagreements, World Cup sticker albums",
+          "url": "https://apnews.com/newsletter/morning-wire/june-30-2026",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral AP roundup framing",
+            "factual enumeration without bias signals"
+          ],
+          "biasScoreGrok": 4.3,
+          "biasSignalsGrok": [
+            "expands Trump power",
+            "mixed topics"
+          ],
+          "pubDate": "2026-06-30T11:01:14Z",
+          "clusterId": "scotus-birthright-citizenship"
+        },
+        {
+          "id": "nytimes-scotus-birthright-citizenship-2",
+          "outletId": "nytimes",
+          "outletName": "NY Times",
+          "headline": "The Birthright Decision Was Surprisingly Close, Some Legal Scholars Say",
+          "url": "https://www.nytimes.com/2026/07/01/us/politics/birthright-supreme-court-decision.html",
+          "biasScore": 4.8,
+          "biasSignals": [
+            "'surprisingly close' implies concern about outcome",
+            "defers to 'legal scholars' as authority"
+          ],
+          "biasScoreGrok": 4.2,
+          "biasSignalsGrok": [
+            "neutral verbs used",
+            "balanced scholarly view"
+          ],
+          "pubDate": "Wed, 01 Jul 2026 11:38:25 +0000",
+          "clusterId": "scotus-birthright-citizenship"
+        },
+        {
+          "id": "nypost-scotus-birthright-citizenship-8",
+          "outletId": "nypost",
+          "outletName": "NY Post",
+          "headline": "Melania Trump issues rare statement on major Supreme Court ruling: ‘Respect everyone’",
+          "url": "https://nypost.com/2026/07/01/us-news/melania-trump-issues-rare-statement-on-major-supreme-court-ruling-respect-everyone/",
           "biasScore": 5.5,
           "biasSignals": [
-            "\"split\" framing highlights Republican division",
-            "neutral tone without strong ideological signals"
+            "highlights Melania's statement positively",
+            "'rare statement' implies significance, mild deference"
           ],
-          "biasScoreGrok": 6.8,
+          "biasScoreGrok": 5.8,
           "biasSignalsGrok": [
-            "notes Republican split",
-            "focus on party division"
+            "rare statement focus",
+            "respect everyone quote"
           ],
-          "pubDate": "Tue, 30 Jun 2026 16:32:25 +0000",
-          "clusterId": "birthright-citizenship-scotus"
+          "pubDate": "Wed, 01 Jul 2026 06:49:23 -0400",
+          "clusterId": "scotus-birthright-citizenship"
         },
         {
-          "id": "washexaminer-birthright-citizenship-scotus-7",
-          "outletId": "washexaminer",
-          "outletName": "Washington Examiner",
-          "headline": "Trump pivots to Congress for birthright citizenship overhaul after Supreme Court rejection",
-          "url": "https://www.washingtonexaminer.com/news/white-house/4630801/trump-pivots-congress-birthright-citizenship-overhaul-supreme-court-rejection/",
-          "biasScore": 6.2,
+          "id": "foxnews-scotus-birthright-citizenship-7",
+          "outletId": "foxnews",
+          "outletName": "Fox News",
+          "headline": "Trump’s SCOTUS prediction takes on new weight ahead of birthright citizenship ruling",
+          "url": "https://www.foxnews.com/politics/trumps-scotus-prediction-takes-new-weight-ahead-birthright-citizenship-ruling",
+          "biasScore": 6.5,
           "biasSignals": [
-            "\"overhaul\" framing sympathetic to Trump's goals",
-            "\"rejection\" frames court as obstacle to policy"
+            "'SCOTUS prediction takes on new weight' flatters Trump",
+            "frames Trump as prescient, sympathetic framing"
           ],
-          "biasScoreGrok": 6.5,
+          "biasScoreGrok": 6.2,
           "biasSignalsGrok": [
-            "pivots to Congress framing",
-            "overhaul after rejection"
+            "Trump prediction weight",
+            "conservative sympathy"
           ],
-          "pubDate": "Tue, 30 Jun 2026 16:46:11 +0000",
-          "clusterId": "birthright-citizenship-scotus"
+          "pubDate": "2026-06-30T10:07:23.9270357Z",
+          "clusterId": "scotus-birthright-citizenship"
         },
         {
-          "id": "breitbart-birthright-citizenship-scotus-3",
+          "id": "breitbart-scotus-birthright-citizenship-11",
           "outletId": "breitbart",
           "outletName": "Breitbart",
           "headline": "SCOTUS Affirms Birthright Citizenship, Rejects Trump's Executive Order",
           "url": "https://www.breitbart.com/immigration/2026/06/30/scotus-affirms-birthright-citizenship-rejects-trumps-reform/",
           "biasScore": 6.5,
           "biasSignals": [
-            "\"Rejects Trump's Executive Order\" — frames as Trump loss",
-            "\"Affirms\" framing suggests reluctant compliance"
-          ],
-          "biasScoreGrok": 7.2,
-          "biasSignalsGrok": [
-            "affirms citizenship positively",
-            "rejects Trump order framing"
-          ],
-          "pubDate": "Tue, 30 Jun 2026 14:51:26 +0000",
-          "clusterId": "birthright-citizenship-scotus"
-        },
-        {
-          "id": "thefederalist-birthright-citizenship-scotus-11",
-          "outletId": "thefederalist",
-          "outletName": "The Federalist",
-          "headline": "SCOTUS Says The US Civil War Was Basically About Protecting ChiCom Birth Tourists",
-          "url": "https://thefederalist.com/2026/06/30/scotus-says-the-us-civil-war-was-basically-about-protecting-chicom-birth-tourists/?utm_source=rss&utm_medium=rss&utm_campaign=scotus-says-the-us-civil-war-was-basically-about-protecting-chicom-birth-tourists",
-          "biasScore": 9.5,
-          "biasSignals": [
-            "\"ChiCom Birth Tourists\" — extreme xenophobic framing",
-            "mocking SCOTUS via Civil War comparison — far right"
-          ],
-          "biasScoreGrok": 9.1,
-          "biasSignalsGrok": [
-            "sarcastic Civil War claim",
-            "ChiCom birth tourists term"
-          ],
-          "pubDate": "Tue, 30 Jun 2026 16:39:11 +0000",
-          "clusterId": "birthright-citizenship-scotus"
-        },
-        {
-          "id": "thefederalist-birthright-citizenship-scotus-12",
-          "outletId": "thefederalist",
-          "outletName": "The Federalist",
-          "headline": "SCOTUS Says Babies Of Illegal Aliens, CCP Birth Tourists Are US Citizens Because Of Magic Dirt",
-          "url": "https://thefederalist.com/2026/06/30/scotus-says-babies-of-illegal-aliens-ccp-birth-tourists-are-us-citizens-because-of-magic-dirt/?utm_source=rss&utm_medium=rss&utm_campaign=scotus-says-babies-of-illegal-aliens-ccp-birth-tourists-are-us-citizens-because-of-magic-dirt",
-          "biasScore": 9.8,
-          "biasSignals": [
-            "\"Illegal Aliens, CCP Birth Tourists\" — far-right charged language",
-            "\"Magic Dirt\" — contemptuous dismissal of legal principle"
-          ],
-          "biasScoreGrok": 9.4,
-          "biasSignalsGrok": [
-            "'magic dirt' sarcasm",
-            "illegal aliens phrasing"
-          ],
-          "pubDate": "Tue, 30 Jun 2026 16:14:23 +0000",
-          "clusterId": "birthright-citizenship-scotus"
-        }
-      ]
-    },
-    {
-      "id": "scotus-firing-independent-agencies",
-      "topicLabel": "Supreme Court expands Trump power over federal agencies",
-      "date": "2026-06-30",
-      "articles": [
-        {
-          "id": "huffpost-scotus-firing-independent-agencies-10",
-          "outletId": "huffpost",
-          "outletName": "HuffPost",
-          "headline": "Sotomayor Skewers Fellow Justices For Giving Trump 'Far Greater Power Than Ever Before'",
-          "url": "https://www.huffpost.com/entry/sonia-sotomayor-skewers-justices-for-giving-trump-far-greater-power_n_6a4285ade4b0d6c25f51c91c",
-          "biasScore": 2,
-          "biasSignals": [
-            "\"Skewers\" — heroic framing of Sotomayor dissent",
-            "\"Far Greater Power Than Ever Before\" — alarming framing"
-          ],
-          "biasScoreGrok": 1.9,
-          "biasSignalsGrok": [
-            "Sotomayor skewers term",
-            "far greater power claim"
-          ],
-          "pubDate": "2026-06-29T16:44:18Z",
-          "clusterId": "scotus-firing-independent-agencies"
-        },
-        {
-          "id": "msnbc-scotus-firing-independent-agencies-0",
-          "outletId": "msnbc",
-          "outletName": "MSNBC",
-          "headline": "Sotomayor blasts court’s ruling allowing Trump to fire agency heads",
-          "url": "https://www.ms.now/news/sonia-sotomayor-fiery-dissent-slaughter-case",
-          "biasScore": 2.5,
-          "biasSignals": [
-            "\"blasts\" — emotionally charged verb for Sotomayor",
-            "frames ruling as threat via dissent hero framing"
-          ],
-          "biasScoreGrok": 2.4,
-          "biasSignalsGrok": [
-            "Sotomayor blasts framing",
-            "Trump power expansion"
-          ],
-          "pubDate": "2026-06-29T15:37:28Z",
-          "clusterId": "scotus-firing-independent-agencies"
-        },
-        {
-          "id": "huffpost-scotus-firing-independent-agencies-12",
-          "outletId": "huffpost",
-          "outletName": "HuffPost",
-          "headline": "Supreme Court Hands Trump Full Power Over The Executive Branch",
-          "url": "https://www.huffpost.com/entry/trump-slaughter-supreme-court_n_69de795ce4b05c8319ccff2f",
-          "biasScore": 2.5,
-          "biasSignals": [
-            "\"Hands Trump Full Power\" — alarming left framing",
-            "\"Executive Branch\" framing implies overreach"
-          ],
-          "biasScoreGrok": 2,
-          "biasSignalsGrok": [
-            "hands full power",
-            "executive branch emphasis"
-          ],
-          "pubDate": "2026-06-29T14:20:18Z",
-          "clusterId": "scotus-firing-independent-agencies"
-        },
-        {
-          "id": "msnbc-scotus-firing-independent-agencies-1",
-          "outletId": "msnbc",
-          "outletName": "MSNBC",
-          "headline": "Supreme Court backs Trump’s bid to fire independent federal agency members",
-          "url": "https://www.ms.now/deadline-white-house/deadline-legal-blog/supreme-court-federal-trade-commission-rebecca-slaughter-humphreys",
-          "biasScore": 3.5,
-          "biasSignals": [
-            "\"backs Trump's bid\" — mild left-leaning framing",
-            "\"independent\" agencies framed as under threat"
-          ],
-          "biasScoreGrok": 2.6,
-          "biasSignalsGrok": [
-            "backs Trump bid noted",
-            "fire members emphasis"
-          ],
-          "pubDate": "2026-06-29T14:35:24Z",
-          "clusterId": "scotus-firing-independent-agencies"
-        },
-        {
-          "id": "huffpost-scotus-firing-independent-agencies-11",
-          "outletId": "huffpost",
-          "outletName": "HuffPost",
-          "headline": "Supreme Court Says Trump Can’t Fire Federal Reserve Governor Lisa Cook",
-          "url": "https://www.huffpost.com/entry/supreme-court-trump-cook_n_69de94f6e4b0f26bda626999",
-          "biasScore": 3.5,
-          "biasSignals": [
-            "\"Says Trump Can't Fire\" — framing as court rebuke",
-            "sympathetic to Cook's position implicitly"
-          ],
-          "biasScoreGrok": 2.7,
-          "biasSignalsGrok": [
-            "can't fire framing",
-            "Fed governor specific"
-          ],
-          "pubDate": "2026-06-29T14:33:14Z",
-          "clusterId": "scotus-firing-independent-agencies"
-        },
-        {
-          "id": "economist-scotus-firing-independent-agencies-4",
-          "outletId": "economist",
-          "outletName": "The Economist",
-          "headline": "The Supreme Court has handed Donald Trump yet more power",
-          "url": "https://www.economist.com/united-states/2026/06/29/the-supreme-court-has-handed-donald-trump-yet-more-power",
-          "biasScore": 3.8,
-          "biasSignals": [
-            "\"handed Trump yet more power\" — concern framing",
-            "implies accumulation of power is problematic"
-          ],
-          "biasScoreGrok": 3.1,
-          "biasSignalsGrok": [
-            "hands yet more power",
-            "Trump emphasis"
-          ],
-          "pubDate": "Mon, 29 Jun 2026 23:06:48 +0000",
-          "clusterId": "scotus-firing-independent-agencies"
-        },
-        {
-          "id": "thehill-scotus-firing-independent-agencies-5",
-          "outletId": "thehill",
-          "outletName": "The Hill",
-          "headline": "Supreme Court halts Trump’s firing of Fed’s Lisa Cook",
-          "url": "https://thehill.com/regulation/court-battles/5935213-supreme-court-federal-reserve-lisa-cook-trump/",
-          "biasScore": 4,
-          "biasSignals": [
-            "\"halts Trump's firing\" — neutral verb choice",
-            "no ideological loading in headline"
-          ],
-          "biasScoreGrok": 4.7,
-          "biasSignalsGrok": [
-            "halts firing neutral",
-            "Fed member specific"
-          ],
-          "pubDate": "2026-06-29T14:26:27Z",
-          "clusterId": "scotus-firing-independent-agencies"
-        },
-        {
-          "id": "washpost-scotus-firing-independent-agencies-2",
-          "outletId": "washpost",
-          "outletName": "Washington Post",
-          "headline": "Supreme Court expands Trump’s power over the federal bureaucracy",
-          "url": "https://www.washingtonpost.com/politics/2026/06/29/supreme-court-expands-trumps-power-over-federal-bureaucracy/",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "\"expands Trump's power\" — neutral factual framing",
-            "\"federal bureaucracy\" — slightly right-leaning term"
-          ],
-          "biasScoreGrok": 3.9,
-          "biasSignalsGrok": [
-            "expands Trump power",
-            "bureaucracy focus"
-          ],
-          "pubDate": "2026-06-29T14:43:00Z",
-          "clusterId": "scotus-firing-independent-agencies"
-        },
-        {
-          "id": "washpost-scotus-firing-independent-agencies-3",
-          "outletId": "washpost",
-          "outletName": "Washington Post",
-          "headline": "Supreme Court, for now, blocks Trump from firing Federal Reserve Board appointee",
-          "url": "https://www.washingtonpost.com/politics/2026/06/29/supreme-court-now-blocks-trump-firing-federal-reserve-board-appointee/",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "\"blocks Trump\" — neutral framing of court action",
-            "\"for now\" qualifier adds tension without bias"
-          ],
-          "biasScoreGrok": 4.2,
-          "biasSignalsGrok": [
-            "for now blocks noted",
-            "Fed appointee focus"
-          ],
-          "pubDate": "2026-06-29T14:34:42Z",
-          "clusterId": "scotus-firing-independent-agencies"
-        },
-        {
-          "id": "abc-scotus-firing-independent-agencies-8",
-          "outletId": "abc",
-          "outletName": "ABC News",
-          "headline": "Supreme Court blocks Trump, for now, from firing Fed Board member Lisa Cook",
-          "url": "https://abcnews.com/Politics/supreme-court-blocks-trump-now-firing-fed-board/story?id=134256258",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "\"blocks Trump, for now\" — neutral framing",
-            "no partisan loading in headline"
-          ],
-          "biasScoreGrok": 4.5,
-          "biasSignalsGrok": [
-            "blocks Trump for now",
-            "Fed member named"
-          ],
-          "pubDate": "2026-06-29T15:43:59Z",
-          "clusterId": "scotus-firing-independent-agencies"
-        },
-        {
-          "id": "ap-scotus-firing-independent-agencies-9",
-          "outletId": "ap",
-          "outletName": "Associated Press",
-          "headline": "Supreme Court says Fed’s Cook can keep her job for now",
-          "url": "https://apnews.com/article/supreme-court-executive-power-trump-firing-cook-7b7676e5a066f8df41077a0920b9f334",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral headline, factual AP framing",
-            "no ideological signals present"
-          ],
-          "biasScoreGrok": 4.6,
-          "biasSignalsGrok": [
-            "can keep job neutral",
-            "for now phrasing"
-          ],
-          "pubDate": "2026-06-29T14:24:27Z",
-          "clusterId": "scotus-firing-independent-agencies"
-        },
-        {
-          "id": "axios-scotus-firing-independent-agencies-7",
-          "outletId": "axios",
-          "outletName": "Axios",
-          "headline": "SCOTUS punts Fed independence question to future courts",
-          "url": "https://www.axios.com/2026/06/30/trump-cook-fed-supreme-court",
-          "biasScore": 5,
-          "biasSignals": [
-            "\"punts\" — neutral analytical framing",
-            "balanced description of unresolved legal question"
-          ],
-          "biasScoreGrok": 5,
-          "biasSignalsGrok": [
-            "punts question neutral",
-            "future courts noted"
-          ],
-          "pubDate": "Tue, 30 Jun 2026 16:00:06 +0000",
-          "clusterId": "scotus-firing-independent-agencies"
-        },
-        {
-          "id": "thehill-scotus-firing-independent-agencies-6",
-          "outletId": "thehill",
-          "outletName": "The Hill",
-          "headline": "Supreme Court strengthens Trump’s firing power at independent agencies",
-          "url": "https://thehill.com/regulation/court-battles/5935135-supreme-court-trump-independent-agencies-firing-protections/",
-          "biasScore": 5.5,
-          "biasSignals": [
-            "\"strengthens Trump's firing power\" — neutral framing",
-            "no negative connotation to Trump's authority"
-          ],
-          "biasScoreGrok": 6.3,
-          "biasSignalsGrok": [
-            "strengthens firing power",
-            "Trump sympathetic"
-          ],
-          "pubDate": "2026-06-29T14:22:06Z",
-          "clusterId": "scotus-firing-independent-agencies"
-        },
-        {
-          "id": "reason-scotus-firing-independent-agencies-13",
-          "outletId": "reason",
-          "outletName": "Reason",
-          "headline": "Gorsuch Warns About Executive Overreach While Expanding Trump's Power",
-          "url": "https://reason.com/2026/06/30/gorsuch-warns-about-executive-overreach-while-expanding-trumps-power/",
-          "biasScore": 5.5,
-          "biasSignals": [
-            "balanced framing noting contradiction in Gorsuch",
-            "libertarian source, neutral analytical tone"
-          ],
-          "biasScoreGrok": 6.1,
-          "biasSignalsGrok": [
-            "warns overreach noted",
-            "expands power observed"
-          ],
-          "pubDate": "Tue, 30 Jun 2026 11:00:46 +0000",
-          "clusterId": "scotus-firing-independent-agencies"
-        }
-      ]
-    },
-    {
-      "id": "scotus-mail-ballots",
-      "topicLabel": "Supreme Court upholds counting late mail-in ballots",
-      "date": "2026-06-30",
-      "articles": [
-        {
-          "id": "huffpost-scotus-mail-ballots-5",
-          "outletId": "huffpost",
-          "outletName": "HuffPost",
-          "headline": "Supreme Court Slaps Down Republicans’ Attempt At Dismissing Late Mail-In Ballots",
-          "url": "https://www.huffpost.com/entry/supreme-court-rules-mail-in-voting_n_69d94202e4b0ccb589ecc6b0",
-          "biasScore": 2.5,
-          "biasSignals": [
-            "\"Slaps Down Republicans\" — charged anti-GOP framing",
-            "\"Attempt At Dismissing\" — frames GOP as bad-faith actor"
-          ],
-          "biasScoreGrok": 1.7,
-          "biasSignalsGrok": [
-            "slaps down Republicans",
-            "dismissing ballots framing"
-          ],
-          "pubDate": "2026-06-29T14:23:46Z",
-          "clusterId": "scotus-mail-ballots"
-        },
-        {
-          "id": "msnbc-scotus-mail-ballots-0",
-          "outletId": "msnbc",
-          "outletName": "MSNBC",
-          "headline": "Supreme Court sides 5-4 against Republicans to uphold mail-in ballot grace periods",
-          "url": "https://www.ms.now/deadline-white-house/deadline-legal-blog/supreme-court-mississippi-mail-ballots-watson",
-          "biasScore": 3.2,
-          "biasSignals": [
-            "\"sides 5-4 against Republicans\" — frames GOP as losers",
-            "\"grace periods\" — sympathetic framing for ballot policy"
-          ],
-          "biasScoreGrok": 2.5,
-          "biasSignalsGrok": [
-            "sides against Republicans",
-            "uphold grace periods"
-          ],
-          "pubDate": "2026-06-29T14:16:13Z",
-          "clusterId": "scotus-mail-ballots"
-        },
-        {
-          "id": "ap-scotus-mail-ballots-4",
-          "outletId": "ap",
-          "outletName": "Associated Press",
-          "headline": "Supreme Court rules late-arriving ballots can be counted, a Trump loss",
-          "url": "https://apnews.com/article/supreme-court-mailed-ballots-trump-elections-5f24f718ea92a33838485ce6302e079e",
-          "biasScore": 4,
-          "biasSignals": [
-            "\"a Trump loss\" — explicitly frames as partisan outcome",
-            "otherwise neutral AP framing"
-          ],
-          "biasScoreGrok": 3.8,
-          "biasSignalsGrok": [
-            "Trump loss noted",
-            "late ballots counted"
-          ],
-          "pubDate": "2026-06-29T14:08:08Z",
-          "clusterId": "scotus-mail-ballots"
-        },
-        {
-          "id": "washpost-scotus-mail-ballots-1",
-          "outletId": "washpost",
-          "outletName": "Washington Post",
-          "headline": "Supreme Court rules mail-in ballots arriving after Election Day can be counted",
-          "url": "https://www.washingtonpost.com/politics/2026/06/29/supreme-court-rules-mail-in-ballots-arriving-after-election-day-can-be-counted/",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "\"rules mail-in ballots...can be counted\" — neutral framing",
-            "no charged language around election integrity"
-          ],
-          "biasScoreGrok": 3.4,
-          "biasSignalsGrok": [
-            "rules can be counted",
-            "after Election Day"
-          ],
-          "pubDate": "2026-06-29T14:17:02Z",
-          "clusterId": "scotus-mail-ballots"
-        },
-        {
-          "id": "thehill-scotus-mail-ballots-2",
-          "outletId": "thehill",
-          "outletName": "The Hill",
-          "headline": "Supreme Court rules states can accept mail ballots after Election Day",
-          "url": "https://thehill.com/regulation/court-battles/5943129-supreme-court-mail-ballots-election-day-rnc/",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral headline framing of ruling",
-            "no ideological signals present"
-          ],
-          "biasScoreGrok": 4.3,
-          "biasSignalsGrok": [
-            "states can accept neutral",
-            "after Election Day"
-          ],
-          "pubDate": "2026-06-29T14:08:08Z",
-          "clusterId": "scotus-mail-ballots"
-        },
-        {
-          "id": "abc-scotus-mail-ballots-3",
-          "outletId": "abc",
-          "outletName": "ABC News",
-          "headline": "Supreme Court allows counting of late-arriving mail-in ballots",
-          "url": "https://abcnews.com/Politics/supreme-court-allows-counting-late-arriving-mail-ballots/story?id=134256254",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "\"allows counting\" — neutral permissive framing",
-            "no partisan loading"
-          ],
-          "biasScoreGrok": 4.4,
-          "biasSignalsGrok": [
-            "allows counting neutral",
-            "late-arriving ballots"
-          ],
-          "pubDate": "2026-06-29T14:09:33Z",
-          "clusterId": "scotus-mail-ballots"
-        }
-      ]
-    },
-    {
-      "id": "scotus-trans-athletes",
-      "topicLabel": "Supreme Court allows states to ban trans athletes",
-      "date": "2026-06-30",
-      "articles": [
-        {
-          "id": "guardian-scotus-trans-athletes-2",
-          "outletId": "guardian",
-          "outletName": "The Guardian",
-          "headline": "US supreme court rules states can exclude trans athletes from female sports",
-          "url": "https://www.theguardian.com/us-news/2026/jun/30/us-supreme-court-upholds-laws-trans-women-sports",
-          "biasScore": 3.8,
-          "biasSignals": [
-            "\"rules states can exclude\" — neutral legal framing",
-            "\"trans athletes\" — respectful language choice"
-          ],
-          "biasScoreGrok": 3.3,
-          "biasSignalsGrok": [
-            "exclude trans athletes",
-            "female sports neutral"
-          ],
-          "pubDate": "Tue, 30 Jun 2026 15:46:00 GMT",
-          "clusterId": "scotus-trans-athletes"
-        },
-        {
-          "id": "latimes-scotus-trans-athletes-5",
-          "outletId": "latimes",
-          "outletName": "LA Times",
-          "headline": "Supreme Court rules states may ban trans athletes from girls' sports teams",
-          "url": "https://www.latimes.com/politics/story/2026-06-30/supreme-court-rules-states-may-ban-trans-athletes-from-girls-sports-teams",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "\"may ban trans athletes\" — neutral permissive framing",
-            "no charged language around ruling"
-          ],
-          "biasScoreGrok": 4.1,
-          "biasSignalsGrok": [
-            "may ban trans neutral",
-            "girls sports teams"
-          ],
-          "pubDate": "Tue, 30 Jun 2026 15:53:59 GMT",
-          "clusterId": "scotus-trans-athletes"
-        },
-        {
-          "id": "axios-scotus-trans-athletes-6",
-          "outletId": "axios",
-          "outletName": "Axios",
-          "headline": "Supreme Court lets states ban trans girls from girls' sports",
-          "url": "https://www.axios.com/2026/06/30/supreme-court-transgender-sports-ban-ruling",
-          "biasScore": 4.8,
-          "biasSignals": [
-            "\"lets states ban\" — neutral factual framing",
-            "\"trans girls\" — uses affirming language"
-          ],
-          "biasScoreGrok": 3.6,
-          "biasSignalsGrok": [
-            "lets states ban",
-            "trans girls phrasing"
-          ],
-          "pubDate": "Tue, 30 Jun 2026 15:09:22 +0000",
-          "clusterId": "scotus-trans-athletes"
-        },
-        {
-          "id": "washexaminer-scotus-trans-athletes-3",
-          "outletId": "washexaminer",
-          "outletName": "Washington Examiner",
-          "headline": "Trump celebrates transgender athlete ban and campaign spending Supreme Court rulings",
-          "url": "https://www.washingtonexaminer.com/news/white-house/4630491/trump-celebrate-transgender-ban-campaign-spending-supreme-court/",
-          "biasScore": 7,
-          "biasSignals": [
-            "\"transgender athlete ban\" — framing as ban, not protection",
-            "\"celebrates\" — frames Trump positively on ruling"
-          ],
-          "biasScoreGrok": 7,
-          "biasSignalsGrok": [
-            "Trump celebrates noted",
-            "ban and spending"
-          ],
-          "pubDate": "Tue, 30 Jun 2026 16:25:28 +0000",
-          "clusterId": "scotus-trans-athletes"
-        },
-        {
-          "id": "nationalreview-scotus-trans-athletes-4",
-          "outletId": "nationalreview",
-          "outletName": "National Review",
-          "headline": "Supreme Court Allows States to Protect Girls’ Sports from Male Athletes",
-          "url": "https://www.nationalreview.com/2026/06/supreme-court-allows-states-to-protect-girls-sports-from-male-athletes/",
-          "biasScore": 7.5,
-          "biasSignals": [
-            "\"Protect Girls' Sports from Male Athletes\" — right framing",
-            "\"Male Athletes\" — rejects trans identity language"
-          ],
-          "biasScoreGrok": 8.7,
-          "biasSignalsGrok": [
-            "protect girls sports",
-            "from male athletes"
-          ],
-          "pubDate": "Tue, 30 Jun 2026 15:51:50 +0000",
-          "clusterId": "scotus-trans-athletes"
-        },
-        {
-          "id": "breitbart-scotus-trans-athletes-0",
-          "outletId": "breitbart",
-          "outletName": "Breitbart",
-          "headline": "Supreme Court Win: States Can Stop Transgender Athletes from Competing in Women's Sports",
-          "url": "https://www.breitbart.com/sports/2026/06/30/supreme-court-win-states-can-stop-transgender-athletes-from-competing-in-womens-sports/",
-          "biasScore": 8,
-          "biasSignals": [
-            "\"States Can Stop Transgender Athletes\" — victory framing",
-            "\"Women's Sports\" protection framing — right sympathetic"
-          ],
-          "biasScoreGrok": 8.3,
-          "biasSignalsGrok": [
-            "Supreme Court Win phrase",
-            "stop transgender athletes"
-          ],
-          "pubDate": "Tue, 30 Jun 2026 14:43:06 +0000",
-          "clusterId": "scotus-trans-athletes"
-        },
-        {
-          "id": "breitbart-scotus-trans-athletes-1",
-          "outletId": "breitbart",
-          "outletName": "Breitbart",
-          "headline": "Supreme Court Rejects Transgenderism in Sports",
-          "url": "https://www.breitbart.com/sports/2026/06/30/scotus-rejects-transgenderism-in-sports/",
-          "biasScore": 8.5,
-          "biasSignals": [
-            "\"Rejects Transgenderism\" — dismissive ideological framing",
-            "treats trans identity as ideology, not identity"
-          ],
-          "biasScoreGrok": 9,
-          "biasSignalsGrok": [
-            "rejects transgenderism term",
-            "sports framing"
-          ],
-          "pubDate": "Tue, 30 Jun 2026 14:17:59 +0000",
-          "clusterId": "scotus-trans-athletes"
-        }
-      ]
-    },
-    {
-      "id": "scotus-campaign-spending",
-      "topicLabel": "Supreme Court strikes down party campaign spending limits",
-      "date": "2026-06-30",
-      "articles": [
-        {
-          "id": "guardian-scotus-campaign-spending-1",
-          "outletId": "guardian",
-          "outletName": "The Guardian",
-          "headline": "US supreme court strikes down limits on campaign spending",
-          "url": "https://www.theguardian.com/us-news/2026/jun/30/supreme-court-spending-political-candidates-ruling",
-          "biasScore": 3.5,
-          "biasSignals": [
-            "\"strikes down\" — mild negative framing of ruling",
-            "mentions Watergate-era origin — implies democratic erosion"
-          ],
-          "biasScoreGrok": 3,
-          "biasSignalsGrok": [
-            "strikes down limits",
-            "campaign spending"
-          ],
-          "pubDate": "Tue, 30 Jun 2026 14:31:51 GMT",
-          "clusterId": "scotus-campaign-spending"
-        },
-        {
-          "id": "latimes-scotus-campaign-spending-3",
-          "outletId": "latimes",
-          "outletName": "LA Times",
-          "headline": "Supreme Court strikes down Watergate-era limits on campaign funds for political parties",
-          "url": "https://www.latimes.com/politics/story/2026-06-30/supreme-court-strikes-down-watergate-era-limits-on-campaign-funds-for-political-parties",
-          "biasScore": 4,
-          "biasSignals": [
-            "\"Watergate-era limits\" — historical framing implies concern",
-            "neutral verb \"strikes down\""
-          ],
-          "biasScoreGrok": 3.5,
-          "biasSignalsGrok": [
-            "Watergate-era limits",
-            "strikes down noted"
-          ],
-          "pubDate": "Tue, 30 Jun 2026 16:13:38 GMT",
-          "clusterId": "scotus-campaign-spending"
-        },
-        {
-          "id": "npr-scotus-campaign-spending-0",
-          "outletId": "npr",
-          "outletName": "NPR",
-          "headline": "Supreme Court strikes down limits on political party spending",
-          "url": "https://www.npr.org/2026/06/30/nx-s1-5827039/supreme-court-campaign-finance",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral headline — \"strikes down limits\" factual",
-            "no ideological signals in framing"
-          ],
-          "biasScoreGrok": 4,
-          "biasSignalsGrok": [
-            "strikes down limits",
-            "political party spending"
-          ],
-          "pubDate": "Tue, 30 Jun 2026 10:28:28 -0400",
-          "clusterId": "scotus-campaign-spending"
-        },
-        {
-          "id": "axios-scotus-campaign-spending-2",
-          "outletId": "axios",
-          "outletName": "Axios",
-          "headline": "Supreme Court strikes down party spending limits",
-          "url": "https://www.axios.com/2026/06/30/supreme-court-campign-finance-spending-limits",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral factual framing",
-            "no ideological loading present"
-          ],
-          "biasScoreGrok": 4.8,
-          "biasSignalsGrok": [
-            "strikes down neutral",
-            "party spending limits"
-          ],
-          "pubDate": "Tue, 30 Jun 2026 15:35:43 +0000",
-          "clusterId": "scotus-campaign-spending"
-        }
-      ]
-    },
-    {
-      "id": "scotus-carroll-trump",
-      "topicLabel": "Supreme Court rejects Trump appeal of Carroll verdict",
-      "date": "2026-06-30",
-      "articles": [
-        {
-          "id": "huffpost-scotus-carroll-trump-5",
-          "outletId": "huffpost",
-          "outletName": "HuffPost",
-          "headline": "Supreme Court Rejects Trump’s Appeal Of $5 Million Verdict In E. Jean Carroll Sexual Abuse Case",
-          "url": "https://www.huffpost.com/entry/supreme-court-trump-carroll-appeal_n_6a427558e4b0d6c25f51aa7e",
-          "biasScore": 3,
-          "biasSignals": [
-            "\"Rejects Trump's Appeal\" — framing as Trump failure",
-            "\"Sexual Abuse Case\" emphasis — morally loaded framing"
-          ],
-          "biasScoreGrok": 2.6,
-          "biasSignalsGrok": [
-            "rejects appeal framing",
-            "$5 million verdict"
-          ],
-          "pubDate": "2026-06-29T13:45:48Z",
-          "clusterId": "scotus-carroll-trump"
-        },
-        {
-          "id": "msnbc-scotus-carroll-trump-0",
-          "outletId": "msnbc",
-          "outletName": "MSNBC",
-          "headline": "Supreme Court denies review in one of Trump’s E. Jean Carroll appeals",
-          "url": "https://www.ms.now/deadline-white-house/deadline-legal-blog/supreme-court-trump-e-jean-carroll-appeal",
-          "biasScore": 3.5,
-          "biasSignals": [
-            "\"denies review\" — neutral legal framing",
-            "context of Carroll appeals implies Trump accountability"
-          ],
-          "biasScoreGrok": 2.9,
-          "biasSignalsGrok": [
-            "denies review neutral",
-            "Trump appeal specific"
-          ],
-          "pubDate": "2026-06-29T13:40:24Z",
-          "clusterId": "scotus-carroll-trump"
-        },
-        {
-          "id": "washpost-scotus-carroll-trump-1",
-          "outletId": "washpost",
-          "outletName": "Washington Post",
-          "headline": "Supreme Court lets stand $5 million civil verdict against Trump in Carroll case",
-          "url": "https://www.washingtonpost.com/politics/2026/06/29/supreme-court-lets-stand-5-million-civil-verdict-against-trump-carroll-case/",
-          "biasScore": 4,
-          "biasSignals": [
-            "\"lets stand\" — neutral permissive framing",
-            "\"civil verdict\" — factual, no charged language"
-          ],
-          "biasScoreGrok": 3.7,
-          "biasSignalsGrok": [
-            "lets stand verdict",
-            "$5 million civil"
-          ],
-          "pubDate": "2026-06-29T13:53:00Z",
-          "clusterId": "scotus-carroll-trump"
-        },
-        {
-          "id": "bbc-scotus-carroll-trump-2",
-          "outletId": "bbc",
-          "outletName": "BBC",
-          "headline": "Supreme Court rejects Trump's appeal of E Jean Carroll's sexual abuse case",
-          "url": "https://www.bbc.co.uk/news/articles/cn8q2z5wpn2o",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "\"sexual abuse case\" — maintains serious framing",
-            "neutral headline structure"
-          ],
-          "biasScoreGrok": 3.2,
-          "biasSignalsGrok": [
-            "rejects appeal noted",
-            "sexual abuse case"
-          ],
-          "pubDate": "2026-06-29T14:22:20.4024371Z",
-          "clusterId": "scotus-carroll-trump"
-        },
-        {
-          "id": "thehill-scotus-carroll-trump-3",
-          "outletId": "thehill",
-          "outletName": "The Hill",
-          "headline": "Supreme Court won’t hear Trump’s bid to overturn Carroll sexual abuse verdict",
-          "url": "https://thehill.com/regulation/court-battles/5945313-trump-e-jean-carroll-supreme-court-appeal/",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "\"won't hear Trump's bid\" — neutral framing",
-            "\"overturn\" verb factual, no loading"
-          ],
-          "biasScoreGrok": 4.5,
-          "biasSignalsGrok": [
-            "won't hear bid",
-            "overturn verdict"
-          ],
-          "pubDate": "2026-06-29T13:42:38Z",
-          "clusterId": "scotus-carroll-trump"
-        },
-        {
-          "id": "ap-scotus-carroll-trump-4",
-          "outletId": "ap",
-          "outletName": "Associated Press",
-          "headline": "Supreme Court rejects Trump push to toss $5M E. Jean Carroll verdict",
-          "url": "https://apnews.com/article/trump-supreme-court-e-jean-carroll-sexual-abuse-1a50d1e9e1d12898e78e0803c4627771",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "\"rejects Trump push\" — neutral factual framing",
-            "AP neutral style maintained"
-          ],
-          "biasScoreGrok": 4.2,
-          "biasSignalsGrok": [
-            "rejects push neutral",
-            "$5M verdict"
-          ],
-          "pubDate": "2026-06-29T13:37:01Z",
-          "clusterId": "scotus-carroll-trump"
-        }
-      ]
-    },
-    {
-      "id": "scotus-dershowitz-cnn",
-      "topicLabel": "Supreme Court rejects Dershowitz defamation suit against CNN",
-      "date": "2026-06-30",
-      "articles": [
-        {
-          "id": "huffpost-scotus-dershowitz-cnn-2",
-          "outletId": "huffpost",
-          "outletName": "HuffPost",
-          "headline": "SCOTUS Won't Revive Alan Dershowitz's $300M Suit Against CNN",
-          "url": "https://www.huffpost.com/entry/scotus-alan-dershowitz-defamation-lawsuit_n_6a428d7ee4b0f259890e08ff",
-          "biasScore": 3.5,
-          "biasSignals": [
-            "\"Won't Revive\" — framing sympathetic to CNN",
-            "implicit trust in CNN's position"
-          ],
-          "biasScoreGrok": 3.4,
-          "biasSignalsGrok": [
-            "won't revive suit",
-            "$300M against CNN"
-          ],
-          "pubDate": "2026-06-29T15:32:23Z",
-          "clusterId": "scotus-dershowitz-cnn"
-        },
-        {
-          "id": "msnbc-scotus-dershowitz-cnn-0",
-          "outletId": "msnbc",
-          "outletName": "MSNBC",
-          "headline": "Supreme Court declines to hear Alan Dershowitz’s defamation appeal against CNN",
-          "url": "https://www.ms.now/deadline-white-house/deadline-legal-blog/alan-dershowitz-defamation-appeal-supreme-court",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral factual headline framing",
-            "no ideological signals"
-          ],
-          "biasScoreGrok": 3.1,
-          "biasSignalsGrok": [
-            "declines to hear",
-            "defamation appeal"
-          ],
-          "pubDate": "2026-06-29T13:49:28Z",
-          "clusterId": "scotus-dershowitz-cnn"
-        },
-        {
-          "id": "ap-scotus-dershowitz-cnn-1",
-          "outletId": "ap",
-          "outletName": "Associated Press",
-          "headline": "Supreme Court rebuffs Alan Dershowitz's $300 million suit against CNN",
-          "url": "https://apnews.com/article/supreme-court-alan-dershowitz-trump-impeachment-6831b54f0b0f4fcfe51e243bcfef0ed5",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "\"rebuffs\" — neutral dismissive verb",
-            "AP neutral framing maintained"
-          ],
-          "biasScoreGrok": 4,
-          "biasSignalsGrok": [
-            "rebuffs suit neutral",
-            "$300 million"
-          ],
-          "pubDate": "2026-06-29T13:53:07Z",
-          "clusterId": "scotus-dershowitz-cnn"
-        }
-      ]
-    },
-    {
-      "id": "dem-primary-socialist-wins",
-      "topicLabel": "Left-wing Democratic primary wins and party divisions",
-      "date": "2026-06-30",
-      "articles": [
-        {
-          "id": "vox-dem-primary-socialist-wins-5",
-          "outletId": "vox",
-          "outletName": "Vox",
-          "headline": "Are moderate Democrats washed?",
-          "url": "https://www.vox.com/politics/493628/democrats-abundance-reformers-losing-left-socialists",
-          "biasScore": 3.2,
-          "biasSignals": [
-            "\"moderate Democrats washed\" — left-leaning framing",
-            "sympathetic to progressive primary wins"
-          ],
-          "biasScoreGrok": 2.2,
-          "biasSignalsGrok": [
-            "moderate Democrats washed",
-            "question posed"
-          ],
-          "pubDate": "2026-06-30T10:30:00.000Z",
-          "clusterId": "dem-primary-socialist-wins"
-        },
-        {
-          "id": "washpost-dem-primary-socialist-wins-0",
-          "outletId": "washpost",
-          "outletName": "Washington Post",
-          "headline": "Left-wing Democratic primary wins pose a test for a Jeffries speakership",
-          "url": "https://www.washingtonpost.com/politics/2026/06/29/left-wing-democratic-primary-wins-pose-test-jeffries-speakership/",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "\"Left-wing\" used neutrally without pejorative loading",
-            "\"test for Jeffries\" — neutral analytical framing"
-          ],
-          "biasScoreGrok": 3.8,
-          "biasSignalsGrok": [
-            "left-wing wins noted",
-            "test for speakership"
-          ],
-          "pubDate": "2026-06-29T09:00:00Z",
-          "clusterId": "dem-primary-socialist-wins"
-        },
-        {
-          "id": "breitbart-dem-primary-socialist-wins-3",
-          "outletId": "breitbart",
-          "outletName": "Breitbart",
-          "headline": "Schiff on Chevalier: Prior Tweets Not 'Mainstream', I 'Welcome' 'New Members' and 'New Ideas'",
-          "url": "https://www.breitbart.com/clips/2026/06/30/schiff-on-chevalier-prior-tweets-not-mainstream-i-welcome-new-members-and-new-ideas/",
-          "biasScore": 7,
-          "biasSignals": [
-            "\"Prior Tweets Not Mainstream\" — frames candidate as radical",
-            "neutral quote but framing implies concern"
-          ],
-          "biasScoreGrok": 6.9,
-          "biasSignalsGrok": [
-            "not mainstream noted",
-            "welcome new ideas"
-          ],
-          "pubDate": "Tue, 30 Jun 2026 09:19:18 +0000",
-          "clusterId": "dem-primary-socialist-wins"
-        },
-        {
-          "id": "foxnews-dem-primary-socialist-wins-2",
-          "outletId": "foxnews",
-          "outletName": "Fox News",
-          "headline": "Jeffries' socialism dilemma: New York victories expose Democratic Party divide",
-          "url": "https://www.foxnews.com/politics/jeffries-socialism-dilemma-new-york-victories-expose-democratic-party-divide",
-          "biasScore": 7.5,
-          "biasSignals": [
-            "\"socialism dilemma\" — right-leaning ideological framing",
-            "\"expose Democratic Party divide\" — critical framing"
+            "'Rejects Trump's Executive Order' frames as defeat",
+            "neutral verb 'Affirms' balanced with loss framing"
           ],
           "biasScoreGrok": 7.8,
           "biasSignalsGrok": [
-            "socialism dilemma term",
-            "party divide exposed"
+            "affirms birthright",
+            "rejects Trump order"
           ],
-          "pubDate": "2026-06-29T15:07:38.2129116Z",
-          "clusterId": "dem-primary-socialist-wins"
+          "pubDate": "Tue, 30 Jun 2026 14:51:26 +0000",
+          "clusterId": "scotus-birthright-citizenship"
         },
         {
-          "id": "breitbart-dem-primary-socialist-wins-4",
+          "id": "thehill-scotus-birthright-citizenship-17",
+          "outletId": "thehill",
+          "outletName": "The Hill",
+          "headline": "Supreme Court gives GOP hard-liners jolt in SAVE Act push",
+          "url": "https://thehill.com/newsletters/morning-report/5946844-supreme-court-rulings-donald-trump-gop-save-act-push/",
+          "biasScore": 6.5,
+          "biasSignals": [
+            "'gives GOP hard-liners jolt' frames as conservative win",
+            "SAVE Act framing sympathetic to right"
+          ],
+          "biasScoreGrok": 6.5,
+          "biasSignalsGrok": [
+            "GOP hard-liners jolt",
+            "SAVE Act push"
+          ],
+          "pubDate": "2026-06-30T11:01:07Z",
+          "clusterId": "scotus-birthright-citizenship"
+        },
+        {
+          "id": "axios-scotus-birthright-citizenship-18",
+          "outletId": "axios",
+          "outletName": "Axios",
+          "headline": "GOP gets new midterm spending weapon from SCOTUS",
+          "url": "https://www.axios.com/2026/06/30/senate-gop-nrsc-ad-spending-scotus-midterms-2026",
+          "biasScore": 6.5,
+          "biasSignals": [
+            "'new midterm spending weapon' frames GOP gain positively",
+            "SCOTUS ruling as Republican strategic tool"
+          ],
+          "biasScoreGrok": 5.5,
+          "biasSignalsGrok": [
+            "new midterm weapon",
+            "neutral GOP reference"
+          ],
+          "pubDate": "Tue, 30 Jun 2026 22:59:31 +0000",
+          "clusterId": "scotus-birthright-citizenship"
+        },
+        {
+          "id": "nationalreview-scotus-birthright-citizenship-19",
+          "outletId": "nationalreview",
+          "outletName": "National Review",
+          "headline": "Birthright Citizenship After <i>Barbara</i>",
+          "url": "https://www.nationalreview.com/2026/06/birthright-citizenship-after-barbara/",
+          "biasScore": 6.5,
+          "biasSignals": [
+            "analytical conservative legal framing",
+            "treats birthright citizenship as policy problem to solve"
+          ],
+          "biasScoreGrok": 6,
+          "biasSignalsGrok": [
+            "post Barbara analysis",
+            "legal framing"
+          ],
+          "pubDate": "Tue, 30 Jun 2026 22:09:02 +0000",
+          "clusterId": "scotus-birthright-citizenship"
+        },
+        {
+          "id": "washexaminer-scotus-birthright-citizenship-15",
+          "outletId": "washexaminer",
+          "outletName": "Washington Examiner",
+          "headline": "Supreme Court birthright citizenship decision renews conservative feud with GOP-appointed justices",
+          "url": "https://www.washingtonexaminer.com/news/supreme-court/4631686/supreme-court-birthright-citizenship-conservative-justices/",
+          "biasScore": 6.8,
+          "biasSignals": [
+            "'conservative feud with GOP-appointed justices' — insider framing",
+            "sympathetic to conservative disappointment with ruling"
+          ],
+          "biasScoreGrok": 6.8,
+          "biasSignalsGrok": [
+            "renews conservative feud",
+            "GOP justices criticism"
+          ],
+          "pubDate": "Wed, 01 Jul 2026 11:00:00 +0000",
+          "clusterId": "scotus-birthright-citizenship"
+        },
+        {
+          "id": "breitbart-scotus-birthright-citizenship-12",
           "outletId": "breitbart",
           "outletName": "Breitbart",
-          "headline": "Jayapal on Chevalier's Pro-Marxist, Communist Statements: 'Big Tent Means Big Tent'",
-          "url": "https://www.breitbart.com/clips/2026/06/29/jayapal-on-chevaliers-pro-marxist-communist-statements-big-tent-means-big-tent/",
-          "biasScore": 7.5,
+          "headline": "DOJ Orders Federal Prosecutors to Crack Down on Birth Tourism Schemes Nationwide",
+          "url": "https://www.breitbart.com/politics/2026/06/30/doj-orders-federal-prosecutors-crack-down-birth-tourism-schemes/",
+          "biasScore": 7,
           "biasSignals": [
-            "\"Pro-Marxist, Communist Statements\" — charged labeling",
-            "Jayapal quote used to highlight radical tolerance"
+            "'Crack Down on Birth Tourism' — loaded conservative framing",
+            "DOJ action framed as enforcement positive"
           ],
-          "biasScoreGrok": 8.2,
+          "biasScoreGrok": 7,
           "biasSignalsGrok": [
-            "pro-Marxist statements",
-            "big tent means"
+            "crack down on schemes",
+            "enforcement language"
           ],
-          "pubDate": "Tue, 30 Jun 2026 02:59:37 +0000",
-          "clusterId": "dem-primary-socialist-wins"
+          "pubDate": "Wed, 01 Jul 2026 02:35:26 +0000",
+          "clusterId": "scotus-birthright-citizenship"
         },
         {
-          "id": "foxnews-dem-primary-socialist-wins-1",
-          "outletId": "foxnews",
-          "outletName": "Fox News",
-          "headline": "Bill Maher's dire midterm election warning to Dems after 'really crazy' socialists win primaries",
-          "url": "https://www.foxnews.com/politics/bill-maher-dire-midterm-election-warning-dems-really-crazy-socialists-win-primaries",
-          "biasScore": 8,
+          "id": "washexaminer-scotus-birthright-citizenship-16",
+          "outletId": "washexaminer",
+          "outletName": "Washington Examiner",
+          "headline": "Trump faces ‘worst-case scenario’ on birthright citizenship after Supreme Court shuts door on executive, legislative fixes",
+          "url": "https://www.washingtonexaminer.com/policy/immigration/4631748/trump-worst-case-scenario-birthright-citizenship/",
+          "biasScore": 7,
           "biasSignals": [
-            "\"really crazy socialists\" — charged right framing via Maher",
-            "\"dire warning\" — alarmist framing about left primaries"
+            "'worst-case scenario' frames ruling as disaster for Trump agenda",
+            "conservative concern framing, sympathetic to Trump goals"
+          ],
+          "biasScoreGrok": 7.2,
+          "biasSignalsGrok": [
+            "worst-case scenario",
+            "shuts door on fixes"
+          ],
+          "pubDate": "Wed, 01 Jul 2026 11:00:00 +0000",
+          "clusterId": "scotus-birthright-citizenship"
+        },
+        {
+          "id": "dailycaller-scotus-birthright-citizenship-9",
+          "outletId": "dailycaller",
+          "outletName": "Daily Caller",
+          "headline": "After SCOTUS Fails To Act, States Must Step Up To Save Election Day",
+          "url": "https://dailycaller.com/2026/07/01/opinion-supreme-court-election-day-ballots-steve-roberts-nicole-kelly/",
+          "biasScore": 7.5,
+          "biasSignals": [
+            "'SCOTUS Fails To Act' — court portrayed as derelict",
+            "prescriptive conservative call to action on elections"
           ],
           "biasScoreGrok": 7.5,
           "biasSignalsGrok": [
-            "dire warning framing",
-            "crazy socialists wins"
+            "states must step up",
+            "election day save framing"
           ],
-          "pubDate": "2026-06-29T16:52:26.8476735Z",
-          "clusterId": "dem-primary-socialist-wins"
+          "pubDate": "Wed, 01 Jul 2026 12:04:53 +0000",
+          "clusterId": "scotus-birthright-citizenship"
+        },
+        {
+          "id": "breitbart-scotus-birthright-citizenship-13",
+          "outletId": "breitbart",
+          "outletName": "Breitbart",
+          "headline": "Trump Trolls Supreme Court on China's 'Massive Birthright Citizenship Win'",
+          "url": "https://www.breitbart.com/immigration/2026/06/30/trump-trolls-supreme-court-china-massive-birthright-citizenship-win/",
+          "biasScore": 7.5,
+          "biasSignals": [
+            "'Trolls Supreme Court' — frames Trump as defiant hero",
+            "'China's Massive Birthright Citizenship Win' — nationalistic framing"
+          ],
+          "biasScoreGrok": 8.1,
+          "biasSignalsGrok": [
+            "trolls Supreme Court",
+            "China massive win"
+          ],
+          "pubDate": "Tue, 30 Jun 2026 23:58:41 +0000",
+          "clusterId": "scotus-birthright-citizenship"
+        },
+        {
+          "id": "dailycaller-scotus-birthright-citizenship-10",
+          "outletId": "dailycaller",
+          "outletName": "Daily Caller",
+          "headline": "DUKE: Conservatives Need To Treat The Birthright Citizenship Loss Like The Next Roe v. Wade",
+          "url": "https://dailycaller.com/2026/07/01/duke-birthright-citizenship-loss-scotus-roe-v-wade/",
+          "biasScore": 8,
+          "biasSignals": [
+            "frames birthright ruling as equivalent loss to Roe",
+            "rallying conservative base with charged comparison"
+          ],
+          "biasScoreGrok": 8.3,
+          "biasSignalsGrok": [
+            "treat like next Roe",
+            "conservative loss emphasis"
+          ],
+          "pubDate": "Wed, 01 Jul 2026 10:00:54 +0000",
+          "clusterId": "scotus-birthright-citizenship"
+        },
+        {
+          "id": "thefederalist-scotus-birthright-citizenship-20",
+          "outletId": "thefederalist",
+          "outletName": "The Federalist",
+          "headline": "Birthplace Citizenship Is Incompatible With Mass Immigration",
+          "url": "https://thefederalist.com/2026/07/01/birthplace-citizenship-is-incompatible-with-mass-immigration/?utm_source=rss&utm_medium=rss&utm_campaign=birthplace-citizenship-is-incompatible-with-mass-immigration",
+          "biasScore": 8.5,
+          "biasSignals": [
+            "'Incompatible With Mass Immigration' — loaded restrictionist framing",
+            "treats immigration as threat to citizenship"
+          ],
+          "biasScoreGrok": 8.5,
+          "biasSignalsGrok": [
+            "incompatible with mass immigration",
+            "right threat framing"
+          ],
+          "pubDate": "Wed, 01 Jul 2026 11:47:53 +0000",
+          "clusterId": "scotus-birthright-citizenship"
+        },
+        {
+          "id": "thefederalist-scotus-birthright-citizenship-21",
+          "outletId": "thefederalist",
+          "outletName": "The Federalist",
+          "headline": "Roberts: The Sacred Bond Between Nation And Citizen Requires Us To Blow It Up",
+          "url": "https://thefederalist.com/2026/07/01/roberts-the-sacred-bond-between-nation-and-citizen-requires-us-to-blow-it-up/?utm_source=rss&utm_medium=rss&utm_campaign=roberts-the-sacred-bond-between-nation-and-citizen-requires-us-to-blow-it-up",
+          "biasScore": 8.5,
+          "biasSignals": [
+            "Roberts accused of destroying 'sacred bond' — charged language",
+            "highly critical of Roberts from hard-right perspective"
+          ],
+          "biasScoreGrok": 8.7,
+          "biasSignalsGrok": [
+            "sacred bond requires blow up",
+            "charged court critique"
+          ],
+          "pubDate": "Wed, 01 Jul 2026 11:46:47 +0000",
+          "clusterId": "scotus-birthright-citizenship"
+        },
+        {
+          "id": "thefederalist-scotus-birthright-citizenship-22",
+          "outletId": "thefederalist",
+          "outletName": "The Federalist",
+          "headline": "‘Cowardice And Incoherence’ Is The Legacy Of The Roberts Court",
+          "url": "https://thefederalist.com/2026/07/01/cowardice-and-incoherence-is-the-legacy-of-the-roberts-court/?utm_source=rss&utm_medium=rss&utm_campaign=cowardice-and-incoherence-is-the-legacy-of-the-roberts-court",
+          "biasScore": 8.5,
+          "biasSignals": [
+            "'Cowardice And Incoherence' — extreme condemnation of Roberts Court",
+            "far-right framing attacking judicial institutions"
+          ],
+          "biasScoreGrok": 8.9,
+          "biasSignalsGrok": [
+            "cowardice and incoherence",
+            "Roberts court legacy"
+          ],
+          "pubDate": "Wed, 01 Jul 2026 11:43:12 +0000",
+          "clusterId": "scotus-birthright-citizenship"
+        },
+        {
+          "id": "thefederalist-scotus-birthright-citizenship-23",
+          "outletId": "thefederalist",
+          "outletName": "The Federalist",
+          "headline": "Citizenship Has Become A Financial Product Ripe For Exploitation By Birth Tourists And Illegals",
+          "url": "https://thefederalist.com/2026/07/01/citizenship-has-become-a-financial-product-ripe-for-exploitation-by-birth-tourists-and-illegals/?utm_source=rss&utm_medium=rss&utm_campaign=citizenship-has-become-a-financial-product-ripe-for-exploitation-by-birth-tourists-and-illegals",
+          "biasScore": 8.5,
+          "biasSignals": [
+            "'illegals' — charged far-right terminology",
+            "'Financial Product' frames citizenship as corrupted by foreigners"
+          ],
+          "biasScoreGrok": 8.4,
+          "biasSignalsGrok": [
+            "financial product for illegals",
+            "birth tourists term"
+          ],
+          "pubDate": "Wed, 01 Jul 2026 11:42:18 +0000",
+          "clusterId": "scotus-birthright-citizenship"
         }
       ]
     },
     {
-      "id": "rep-kean-depression-return",
-      "topicLabel": "Rep. Tom Kean returns to Congress after depression diagnosis",
-      "date": "2026-06-30",
+      "id": "colorado-democratic-primary",
+      "topicLabel": "Democratic socialist defeats 15-term incumbent in Colorado primary",
+      "date": "2026-07-01",
       "articles": [
         {
-          "id": "nytimes-rep-kean-depression-return-0",
-          "outletId": "nytimes",
-          "outletName": "NY Times",
-          "headline": "Tom Kean, New Jersey Congressman, Says Depression Led to Long Absence",
-          "url": "https://www.nytimes.com/2026/06/30/us/politics/tom-kean-return-depression.html",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral framing, personal health story",
-            "no ideological signals"
-          ],
-          "biasScoreGrok": 4.9,
-          "biasSignalsGrok": [
-            "depression led absence",
-            "neutral reporting"
-          ],
-          "pubDate": "Tue, 30 Jun 2026 15:34:55 +0000",
-          "clusterId": "rep-kean-depression-return"
-        },
-        {
-          "id": "npr-rep-kean-depression-return-1",
-          "outletId": "npr",
-          "outletName": "NPR",
-          "headline": "Rep. Tom Kean returns to Congress, says depression is why he went missing for months",
-          "url": "https://www.npr.org/2026/06/30/nx-s1-5876222/tom-kean-new-jersey-congress-depression",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral factual headline framing",
-            "no ideological loading"
-          ],
-          "biasScoreGrok": 5,
-          "biasSignalsGrok": [
-            "depression why missing",
-            "returns to Congress"
-          ],
-          "pubDate": "Tue, 30 Jun 2026 12:29:37 -0400",
-          "clusterId": "rep-kean-depression-return"
-        },
-        {
-          "id": "cnbc-rep-kean-depression-return-3",
-          "outletId": "cnbc",
-          "outletName": "CNBC",
-          "headline": "GOP Rep. Tom Kean says depression diagnosis caused months-long absence from Congress",
-          "url": "https://www.cnbc.com/2026/06/30/tom-kean-depression-congress-absence.html",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral CNBC framing of health story",
-            "no political loading"
-          ],
-          "biasScoreGrok": 5.1,
-          "biasSignalsGrok": [
-            "GOP Rep says",
-            "depression diagnosis"
-          ],
-          "pubDate": "Tue, 30 Jun 2026 15:49:50 GMT",
-          "clusterId": "rep-kean-depression-return"
-        },
-        {
-          "id": "forbes-rep-kean-depression-return-4",
-          "outletId": "forbes",
-          "outletName": "Forbes",
-          "headline": "New Jersey’s Tom Kean Makes Congress Return After Nearly 4 Months—Discloses Depression Diagnosis",
-          "url": "https://www.forbes.com/sites/tylerroush/2026/06/30/new-jerseys-tom-kean-makes-congress-return-after-nearly-4-months-discloses-depression-diagnosis/",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral headline framing",
-            "no ideological signals present"
-          ],
-          "biasScoreGrok": 5.3,
-          "biasSignalsGrok": [
-            "makes Congress return",
-            "discloses diagnosis"
-          ],
-          "pubDate": "Tue, 30 Jun 2026 11:57:02 -0400",
-          "clusterId": "rep-kean-depression-return"
-        },
-        {
-          "id": "axios-rep-kean-depression-return-5",
-          "outletId": "axios",
-          "outletName": "Axios",
-          "headline": "Rep. Tom Kean discloses depression diagnosis upon return from months-long absence",
-          "url": "https://www.axios.com/2026/06/30/tom-kean-return-congress-absence",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral factual Axios framing",
-            "no partisan loading"
-          ],
-          "biasScoreGrok": 4.8,
-          "biasSignalsGrok": [
-            "discloses diagnosis",
-            "months-long absence"
-          ],
-          "pubDate": "Tue, 30 Jun 2026 15:55:41 +0000",
-          "clusterId": "rep-kean-depression-return"
-        },
-        {
-          "id": "bostonglobe-rep-kean-depression-return-6",
+          "id": "bostonglobe-colorado-democratic-primary-11",
           "outletId": "bostonglobe",
           "outletName": "Boston Globe",
-          "headline": "Republican Tom Kean Jr. said he was treated for depression during absence from Congress",
-          "url": "https://www.bostonglobe.com/2026/06/30/nation/tom-kean-jr-congress-return/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
-          "biasScore": 4.5,
+          "headline": "Democrats don’t have a socialism problem. They have a vision problem.",
+          "url": "https://www.bostonglobe.com/2026/07/01/nation/bernie-sanders-bill-clinton-socialism/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
+          "biasScore": 2.5,
           "biasSignals": [
-            "neutral Boston Globe framing",
-            "no ideological signals"
+            "defends socialism, frames as 'vision problem' not ideology",
+            "sympathetic to progressive wing of party"
           ],
-          "biasScoreGrok": 5.2,
+          "biasScoreGrok": 3.3,
           "biasSignalsGrok": [
-            "treated for depression",
-            "Republican noted"
+            "no socialism problem",
+            "vision problem framing"
           ],
-          "pubDate": "Tue, 30 Jun 2026 04:20:29 +0000",
-          "clusterId": "rep-kean-depression-return"
+          "pubDate": "Wed, 01 Jul 2026 09:30:00 +0000",
+          "clusterId": "colorado-democratic-primary"
         },
         {
-          "id": "nypost-rep-kean-depression-return-2",
-          "outletId": "nypost",
-          "outletName": "NY Post",
-          "headline": "GOP Rep. Tom Kean Jr. reveals reason behind mysterious absence as he returns to Congress after nearly 4 months",
-          "url": "https://nypost.com/2026/06/30/us-news/gop-rep-tom-kean-jr-reveals-reason-behind-mysterious-absence-as-he-returns-to-congress-after-nearly-4-months/",
+          "id": "npr-colorado-democratic-primary-4",
+          "outletId": "npr",
+          "outletName": "NPR",
+          "headline": "Democratic socialist Melat Kiros poised to become the first Gen Z woman in Congress",
+          "url": "https://www.npr.org/2026/07/01/nx-s1-5876122/colorado-primary-election-melat-kiros-democratic-socialist",
+          "biasScore": 3,
+          "biasSignals": [
+            "'first Gen Z woman in Congress' — celebratory progressive framing",
+            "'poised to become' implies positive inevitability"
+          ],
+          "biasScoreGrok": 3.5,
+          "biasSignalsGrok": [
+            "first Gen Z woman",
+            "poised to become"
+          ],
+          "pubDate": "Wed, 01 Jul 2026 00:06:32 -0400",
+          "clusterId": "colorado-democratic-primary"
+        },
+        {
+          "id": "nytimes-colorado-democratic-primary-2",
+          "outletId": "nytimes",
+          "outletName": "NY Times",
+          "headline": "Left-Wing Insurgent Ousts 15-Term Congresswoman in Colorado",
+          "url": "https://www.nytimes.com/2026/07/01/us/politics/melat-kiros-degette-colorado-democratic-primary.html",
+          "biasScore": 3.5,
+          "biasSignals": [
+            "'Left-Wing Insurgent' — slightly loaded but descriptive",
+            "'Ousts' is a charged verb suggesting upset"
+          ],
+          "biasScoreGrok": 3,
+          "biasSignalsGrok": [
+            "left-wing insurgent ousts",
+            "sympathetic tone"
+          ],
+          "pubDate": "Wed, 01 Jul 2026 11:22:54 +0000",
+          "clusterId": "colorado-democratic-primary"
+        },
+        {
+          "id": "bostonglobe-colorado-democratic-primary-12",
+          "outletId": "bostonglobe",
+          "outletName": "Boston Globe",
+          "headline": "Democratic socialist Melat Kiros defeats longtime US House incumbent in Colorado",
+          "url": "https://www.bostonglobe.com/2026/06/30/nation/colorado-primary-elections/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
+          "biasScore": 3.5,
+          "biasSignals": [
+            "'democratic socialist' label used neutrally",
+            "'longtime incumbent' frames incumbent sympathetically"
+          ],
+          "biasScoreGrok": 3.6,
+          "biasSignalsGrok": [
+            "defeats longtime incumbent",
+            "democratic socialist win"
+          ],
+          "pubDate": "Tue, 30 Jun 2026 04:15:44 +0000",
+          "clusterId": "colorado-democratic-primary"
+        },
+        {
+          "id": "msnbc-colorado-democratic-primary-0",
+          "outletId": "msnbc",
+          "outletName": "MSNBC",
+          "headline": "Colorado Democrats face a test of how far left the party will go",
+          "url": "https://www.ms.now/news/colorado-democrats-primary-dsa",
+          "biasScore": 4,
+          "biasSignals": [
+            "'how far left the party will go' — neutral analytical framing",
+            "frames as internal party tension without loaded language"
+          ],
+          "biasScoreGrok": 3.4,
+          "biasSignalsGrok": [
+            "how far left party go",
+            "test of progressives"
+          ],
+          "pubDate": "2026-06-30T09:00:00Z",
+          "clusterId": "colorado-democratic-primary"
+        },
+        {
+          "id": "nytimes-colorado-democratic-primary-1",
+          "outletId": "nytimes",
+          "outletName": "NY Times",
+          "headline": "Takeaways From the Colorado Primary Elections: Another Win for Democratic Socialists",
+          "url": "https://www.nytimes.com/2026/07/01/us/politics/colorado-primary-takeaways.html",
+          "biasScore": 4,
+          "biasSignals": [
+            "'Another Win for Democratic Socialists' — factual but implies momentum",
+            "neutral takeaways framing"
+          ],
+          "biasScoreGrok": 3.2,
+          "biasSignalsGrok": [
+            "another win for socialists",
+            "positive left framing"
+          ],
+          "pubDate": "Wed, 01 Jul 2026 04:12:57 +0000",
+          "clusterId": "colorado-democratic-primary"
+        },
+        {
+          "id": "npr-colorado-democratic-primary-3",
+          "outletId": "npr",
+          "outletName": "NPR",
+          "headline": "In Colorado primaries, a democratic socialist wins; Bennet's governor bid ends",
+          "url": "https://www.npr.org/2026/07/01/nx-s1-5872791/kiros-colorado-democratic-socialist-weiser-bennet-primaries",
+          "biasScore": 4,
+          "biasSignals": [
+            "neutral factual framing of results",
+            "no ideological loading in headline"
+          ],
+          "biasScoreGrok": 3.7,
+          "biasSignalsGrok": [
+            "democratic socialist wins",
+            "neutral primary report"
+          ],
+          "pubDate": "Wed, 01 Jul 2026 05:00:00 -0400",
+          "clusterId": "colorado-democratic-primary"
+        },
+        {
+          "id": "nbc-colorado-democratic-primary-13",
+          "outletId": "nbc",
+          "outletName": "NBC News",
+          "headline": "Colorado’s primaries present the next test for the Democratic establishment",
+          "url": "https://www.nbcnews.com/politics/2026-election/colorados-primaries-present-test-democratic-establishment-rcna351628",
+          "biasScore": 4,
+          "biasSignals": [
+            "'next test for Democratic establishment' — neutral analytical frame",
+            "no strong ideological loading"
+          ],
+          "biasScoreGrok": 3.9,
+          "biasSignalsGrok": [
+            "test for establishment",
+            "democratic primaries"
+          ],
+          "pubDate": "2026-06-30T09:00:00Z",
+          "clusterId": "colorado-democratic-primary"
+        },
+        {
+          "id": "axios-colorado-democratic-primary-8",
+          "outletId": "axios",
+          "outletName": "Axios",
+          "headline": "Kiros ousts 15-term Colorado U.S. Rep. DeGette",
+          "url": "https://www.axios.com/local/denver/2026/07/01/colorado-primary-results-melat-kiros-beats-diana-degette",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral factual Axios reporting",
+            "no ideological loading, straight result reporting"
+          ],
+          "biasScoreGrok": 4.2,
+          "biasSignalsGrok": [
+            "ousts incumbent neutral",
+            "primary result"
+          ],
+          "pubDate": "Wed, 01 Jul 2026 04:09:01 +0000",
+          "clusterId": "colorado-democratic-primary"
+        },
+        {
+          "id": "axios-colorado-democratic-primary-9",
+          "outletId": "axios",
+          "outletName": "Axios",
+          "headline": "Phil Weiser upsets Michael Bennet to win Democratic primary for Colorado governor",
+          "url": "https://www.axios.com/local/denver/2026/07/01/colorado-governor-democratic-primary-phil-weiser",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral factual result reporting",
+            "no ideological signals"
+          ],
+          "biasScoreGrok": 4,
+          "biasSignalsGrok": [
+            "upsets Bennet neutral",
+            "governor primary"
+          ],
+          "pubDate": "Wed, 01 Jul 2026 01:58:59 +0000",
+          "clusterId": "colorado-democratic-primary"
+        },
+        {
+          "id": "thehill-colorado-democratic-primary-7",
+          "outletId": "thehill",
+          "outletName": "The Hill",
+          "headline": "Far left looks for latest win in Colorado: Five things to watch in the primaries",
+          "url": "https://thehill.com/homenews/campaign/5946515-colorado-democratic-socialists-primaries/",
           "biasScore": 5.5,
           "biasSignals": [
-            "\"mysterious absence\" — slightly sensationalized framing",
-            "neutral on substance but tone slightly tabloid"
+            "'Far left looks for latest win' — slight conservative framing",
+            "neutral 'five things to watch' structure"
           ],
-          "biasScoreGrok": 6.2,
+          "biasScoreGrok": 3.8,
           "biasSignalsGrok": [
-            "GOP Rep reveals",
-            "mysterious absence"
+            "far left looks for win",
+            "primaries watch"
           ],
-          "pubDate": "Tue, 30 Jun 2026 11:21:52 -0400",
-          "clusterId": "rep-kean-depression-return"
+          "pubDate": "2026-06-30T10:00:00Z",
+          "clusterId": "colorado-democratic-primary"
+        },
+        {
+          "id": "nypost-colorado-democratic-primary-5",
+          "outletId": "nypost",
+          "outletName": "NY Post",
+          "headline": "Gen Z socialist who ousted 15-term Colorado incumbent has cutting message for Hakeem Jeffries: ‘Dead serious’",
+          "url": "https://nypost.com/2026/07/01/us-news/melat-kiros-gen-z-socialist-who-ousted-15-term-colorado-incumbent-has-cutting-message-for-hakeem-jeffries/",
+          "biasScore": 6.5,
+          "biasSignals": [
+            "'Gen Z socialist' — labels candidate ideologically",
+            "'cutting message' implies confrontational framing"
+          ],
+          "biasScoreGrok": 5.8,
+          "biasSignalsGrok": [
+            "gen Z socialist ousted",
+            "cutting message noted"
+          ],
+          "pubDate": "Wed, 01 Jul 2026 07:45:41 -0400",
+          "clusterId": "colorado-democratic-primary"
+        },
+        {
+          "id": "dailycaller-colorado-democratic-primary-6",
+          "outletId": "dailycaller",
+          "outletName": "Daily Caller",
+          "headline": "Socialist Upsets Democrat Congresswoman Who First Took Office The Year She Was Born",
+          "url": "https://dailycaller.com/2026/07/01/melat-kiros-diana-degette-colorado-house-democratic-primary/",
+          "biasScore": 6.5,
+          "biasSignals": [
+            "'Socialist Upsets' — labels candidate negatively",
+            "age framing emphasizes inexperience critically"
+          ],
+          "biasScoreGrok": 7,
+          "biasSignalsGrok": [
+            "socialist upsets",
+            "age contrast emphasis"
+          ],
+          "pubDate": "Wed, 01 Jul 2026 04:09:29 +0000",
+          "clusterId": "colorado-democratic-primary"
+        },
+        {
+          "id": "nationalreview-colorado-democratic-primary-10",
+          "outletId": "nationalreview",
+          "outletName": "National Review",
+          "headline": "Socialism Should Have No Home Here",
+          "url": "https://www.nationalreview.com/2026/07/socialism-should-have-no-home-here/",
+          "biasScore": 8,
+          "biasSignals": [
+            "'Socialism Should Have No Home Here' — strong ideological condemnation",
+            "editorial opinion piece attacking socialist victory"
+          ],
+          "biasScoreGrok": 7.5,
+          "biasSignalsGrok": [
+            "socialism should have no home",
+            "conservative stance"
+          ],
+          "pubDate": "Wed, 01 Jul 2026 10:30:03 +0000",
+          "clusterId": "colorado-democratic-primary"
         }
       ]
     },
     {
-      "id": "iran-nuclear-talks",
-      "topicLabel": "US-Iran negotiations and frozen assets talks",
-      "date": "2026-06-30",
+      "id": "us-iran-nuclear-talks",
+      "topicLabel": "US-Iran nuclear negotiations and potential military conflict",
+      "date": "2026-07-01",
       "articles": [
         {
-          "id": "aljazeera-iran-nuclear-talks-0",
-          "outletId": "aljazeera",
-          "outletName": "Al Jazeera",
-          "headline": "Iran to hold talks with Qatar on MoU deal with US, frozen assets",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/6/30/iran-to-hold-talks-with-qatar-on-mou-deal-with-us-frozen-assets?traffic_source=rss",
-          "biasScore": 4.8,
+          "id": "msnbc-us-iran-nuclear-talks-0",
+          "outletId": "msnbc",
+          "outletName": "MSNBC",
+          "headline": "The U.S.-Iran war just entered a new phase. Here’s what’s at stake.",
+          "url": "https://www.ms.now/opinion/us-iran-war-strait-hormuz-strikes",
+          "biasScore": 3.5,
           "biasSignals": [
-            "neutral framing of diplomatic talks",
-            "no ideological loading"
+            "'war just entered a new phase' — escalatory framing",
+            "concern-based framing typical of left-leaning outlets"
           ],
-          "biasScoreGrok": 4.5,
+          "biasScoreGrok": 3.1,
           "biasSignalsGrok": [
-            "Iran to hold talks",
-            "frozen assets neutral"
+            "war entered new phase",
+            "stakes framing left"
           ],
-          "pubDate": "Tue, 30 Jun 2026 14:57:21 +0000",
-          "clusterId": "iran-nuclear-talks"
+          "pubDate": "2026-06-30T10:00:00Z",
+          "clusterId": "us-iran-nuclear-talks"
         },
         {
-          "id": "timesofisrael-iran-nuclear-talks-3",
-          "outletId": "timesofisrael",
-          "outletName": "Times of Israel",
-          "headline": "US envoys in Qatar to meet mediators, but no direct talks with Iran set for coming days",
-          "url": "https://www.timesofisrael.com/us-envoys-in-qatar-to-meet-mediators-but-no-direct-talks-with-iran-set-for-coming-days/",
-          "biasScore": 4.8,
+          "id": "msnbc-us-iran-nuclear-talks-1",
+          "outletId": "msnbc",
+          "outletName": "MSNBC",
+          "headline": "Lawmakers thought they were getting answers on Iran. They left with more questions.",
+          "url": "https://www.ms.now/news/lawmakers-answers-iran-more-questions",
+          "biasScore": 3.5,
           "biasSignals": [
-            "neutral diplomatic framing",
-            "no ideological signals"
+            "'more questions' implies government opacity",
+            "skepticism of official briefings, institutional distrust"
           ],
-          "biasScoreGrok": 5,
+          "biasScoreGrok": 3.4,
           "biasSignalsGrok": [
-            "US envoys in Qatar",
-            "no direct talks"
+            "more questions than answers",
+            "lawmakers disappointment"
           ],
-          "pubDate": "Tue, 30 Jun 2026 14:15:43 +0000",
-          "clusterId": "iran-nuclear-talks"
+          "pubDate": "2026-06-30T09:00:00Z",
+          "clusterId": "us-iran-nuclear-talks"
         },
         {
-          "id": "cbsnews-iran-nuclear-talks-2",
+          "id": "vox-us-iran-nuclear-talks-9",
+          "outletId": "vox",
+          "outletName": "Vox",
+          "headline": "Who is actually ruling Iran right now?",
+          "url": "https://www.vox.com/politics/493746/mojtaba-khamenei-iran-supreme-leader",
+          "biasScore": 3.5,
+          "biasSignals": [
+            "analytical question framing, left-leaning outlet",
+            "no extreme language but skeptical of Iranian power"
+          ],
+          "biasScoreGrok": 3.5,
+          "biasSignalsGrok": [
+            "who ruling Iran now",
+            "questioning regime"
+          ],
+          "pubDate": "2026-07-01T10:45:00.000Z",
+          "clusterId": "us-iran-nuclear-talks"
+        },
+        {
+          "id": "huffpost-us-iran-nuclear-talks-10",
+          "outletId": "huffpost",
+          "outletName": "HuffPost",
+          "headline": "Uncertainty Over Qatar Diplomacy Clouds Prospects For U.S.-Iran Deal",
+          "url": "https://www.huffpost.com/entry/qatar-diplomacy-us-iran_n_6a4399b4e4b0f259890f8ff3",
+          "biasScore": 3.5,
+          "biasSignals": [
+            "'uncertainty clouds prospects' — cautious concern framing",
+            "no charged language, mildly skeptical"
+          ],
+          "biasScoreGrok": 3.8,
+          "biasSignalsGrok": [
+            "uncertainty clouds prospects",
+            "deal prospects low"
+          ],
+          "pubDate": "2026-06-30T10:33:30Z",
+          "clusterId": "us-iran-nuclear-talks"
+        },
+        {
+          "id": "cbsnews-us-iran-nuclear-talks-3",
           "outletId": "cbsnews",
           "outletName": "CBS News",
           "headline": "Details on progress toward Iran peace agreement as Trump calls off strikes",
           "url": "https://www.cbsnews.com/video/details-on-progress-toward-iran-peace-agreement-as-trump-calls-off-strikes/",
-          "biasScore": 5,
+          "biasScore": 4.5,
           "biasSignals": [
-            "\"Trump calls off strikes\" — neutral factual framing",
-            "balanced sourcing implied"
+            "neutral 'progress toward' framing",
+            "straightforward diplomatic reporting"
           ],
-          "biasScoreGrok": 4.7,
+          "biasScoreGrok": 5.2,
           "biasSignalsGrok": [
-            "progress toward agreement",
-            "Trump calls off"
+            "progress toward peace",
+            "strikes called off"
           ],
           "pubDate": "2026-06-11T19:18:45+00:00",
-          "clusterId": "iran-nuclear-talks"
+          "clusterId": "us-iran-nuclear-talks"
         },
         {
-          "id": "nypost-iran-nuclear-talks-1",
-          "outletId": "nypost",
-          "outletName": "NY Post",
-          "headline": "Tehran hasn’t received US’ promised $6B in frozen assets, Qatar confirms ahead of US-Iran technical talks",
-          "url": "https://nypost.com/2026/06/30/us-news/tehran-hasnt-received-us-promised-6b-in-frozen-assets-qatar-confirms-ahead-of-us-iran-technical-talks/",
-          "biasScore": 5.5,
-          "biasSignals": [
-            "\"Tehran hasn't received\" — skeptical of US deal framing",
-            "neutral but implies US commitment questionable"
-          ],
-          "biasScoreGrok": 6.4,
-          "biasSignalsGrok": [
-            "hasn't received promised",
-            "Qatar confirms"
-          ],
-          "pubDate": "Tue, 30 Jun 2026 12:42:52 -0400",
-          "clusterId": "iran-nuclear-talks"
-        },
-        {
-          "id": "ap-iran-nuclear-talks-4",
-          "outletId": "ap",
-          "outletName": "Associated Press",
-          "headline": "Trump claims Iran seeks talks as both sides pause strikes",
-          "url": "https://apnews.com/article/iran-us-war-strait-of-hormuz-june-29-2026-d1c0ec8aa84c0e5693b94f0cf0862bab",
-          "biasScore": 5.5,
-          "biasSignals": [
-            "\"Trump claims\" — mild skeptical qualifier",
-            "\"both sides pause strikes\" — balanced framing"
-          ],
-          "biasScoreGrok": 5.5,
-          "biasSignalsGrok": [
-            "Trump claims seeks",
-            "both sides pause"
-          ],
-          "pubDate": "2026-06-29T08:21:11Z",
-          "clusterId": "iran-nuclear-talks"
-        },
-        {
-          "id": "reason-iran-nuclear-talks-5",
-          "outletId": "reason",
-          "outletName": "Reason",
-          "headline": "Iran's Intransigence",
-          "url": "https://reason.com/2026/06/30/irans-intransigence/",
-          "biasScore": 6.5,
-          "biasSignals": [
-            "\"Intransigence\" — frames Iran as obstinate actor",
-            "critical of Iran's negotiating position"
-          ],
-          "biasScoreGrok": 7.3,
-          "biasSignalsGrok": [
-            "Iran's intransigence title",
-            "critical framing"
-          ],
-          "pubDate": "Tue, 30 Jun 2026 13:30:13 +0000",
-          "clusterId": "iran-nuclear-talks"
-        }
-      ]
-    },
-    {
-      "id": "german-shooting-stade",
-      "topicLabel": "Five killed in shooting at German youth facility",
-      "date": "2026-06-30",
-      "articles": [
-        {
-          "id": "cnn-german-shooting-stade-0",
-          "outletId": "cnn",
-          "outletName": "CNN",
-          "headline": "Five killed in shooting at German youth facility, police say",
-          "url": "https://www.cnn.com/2026/06/29/europe/stade-germany-shooting-intl",
+          "id": "cnbc-us-iran-nuclear-talks-4",
+          "outletId": "cnbc",
+          "outletName": "CNBC",
+          "headline": "Oil prices wobble as uncertainty persists over U.S.-Iran talks in Qatar",
+          "url": "https://www.cnbc.com/2026/07/01/oil-prices-brent-wti-crude-trump-iran.html",
           "biasScore": 4.5,
           "biasSignals": [
-            "neutral CNN framing, factual headline",
-            "\"police say\" attribution — neutral sourcing"
+            "neutral market-focused framing",
+            "no political loading in financial context"
           ],
           "biasScoreGrok": 5,
           "biasSignalsGrok": [
-            "five killed neutral",
-            "police say"
+            "oil prices wobble",
+            "uncertainty neutral"
           ],
-          "pubDate": "2026-06-29T12:14:43Z",
-          "clusterId": "german-shooting-stade"
+          "pubDate": "Wed, 01 Jul 2026 11:49:51 GMT",
+          "clusterId": "us-iran-nuclear-talks"
         },
         {
-          "id": "bbc-german-shooting-stade-1",
-          "outletId": "bbc",
-          "outletName": "BBC",
-          "headline": "Stade shooting: Five dead following shooting in northern Germany",
-          "url": "https://www.bbc.co.uk/news/articles/c17yzzw1vkjo",
+          "id": "yahoofinance-us-iran-nuclear-talks-6",
+          "outletId": "yahoofinance",
+          "outletName": "Yahoo Finance",
+          "headline": "Oil falls as markets await outcome of Iran-US talks, US stocks data",
+          "url": "https://finance.yahoo.com/energy/articles/oil-ticks-higher-irans-refusal-004441406.html",
           "biasScore": 4.5,
           "biasSignals": [
-            "neutral BBC framing of shooting",
-            "factual headline, no ideological signals"
-          ],
-          "biasScoreGrok": 5,
-          "biasSignalsGrok": [
-            "five dead neutral",
-            "shooting in Germany"
-          ],
-          "pubDate": "2026-06-29T12:52:24.308461Z",
-          "clusterId": "german-shooting-stade"
-        },
-        {
-          "id": "abc-german-shooting-stade-2",
-          "outletId": "abc",
-          "outletName": "ABC News",
-          "headline": "Police say 5 people have died in a shooting in Stade in northern Germany",
-          "url": "https://abcnews.com/International/wireStory/police-5-people-died-shooting-stade-northern-germany-134304118",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral ABC framing, factual",
+            "neutral financial framing of geopolitical event",
             "no ideological loading"
-          ],
-          "biasScoreGrok": 5,
-          "biasSignalsGrok": [
-            "5 people died",
-            "police say"
-          ],
-          "pubDate": "2026-06-29T12:01:04Z",
-          "clusterId": "german-shooting-stade"
-        }
-      ]
-    },
-    {
-      "id": "venezuela-earthquake",
-      "topicLabel": "Venezuela earthquake aftershocks and survivor fears",
-      "date": "2026-06-30",
-      "articles": [
-        {
-          "id": "cnn-venezuela-earthquake-0",
-          "outletId": "cnn",
-          "outletName": "CNN",
-          "headline": "Terremotos en Venezuela, en vivo: noticias en La Guaira, Caracas, daños y víctimas",
-          "url": "https://cnnespanol.cnn.com/2026/06/29/venezuela/live-news/terremotos-caracas-guaira-victimas-trax",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral Spanish-language live updates framing",
-            "factual disaster reporting"
-          ],
-          "biasScoreGrok": 5,
-          "biasSignalsGrok": [
-            "Terremotos en vivo",
-            "daños y víctimas"
-          ],
-          "pubDate": "2026-06-29T11:38:10Z",
-          "clusterId": "venezuela-earthquake"
-        },
-        {
-          "id": "cnn-venezuela-earthquake-1",
-          "outletId": "cnn",
-          "outletName": "CNN",
-          "headline": "Venezuela earthquake aftershocks reignite fears as survivors seek answers",
-          "url": "https://www.cnn.com/2026/06/29/world/live-news/venezuela-earthquake-hnk",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "\"reignite fears\" — slightly emotional framing",
-            "otherwise neutral disaster reporting"
           ],
           "biasScoreGrok": 4.8,
           "biasSignalsGrok": [
-            "aftershocks reignite fears",
-            "survivors seek answers"
+            "oil falls neutral",
+            "markets await outcome"
           ],
-          "pubDate": "2026-06-29T04:45:13Z",
-          "clusterId": "venezuela-earthquake"
+          "pubDate": "2026-07-01T12:09:11Z",
+          "clusterId": "us-iran-nuclear-talks"
+        },
+        {
+          "id": "nbc-us-iran-nuclear-talks-7",
+          "outletId": "nbc",
+          "outletName": "NBC News",
+          "headline": "U.S. and Iran negotiators head to Doha, but meeting uncertain",
+          "url": "https://www.nbcnews.com/world/iran/us-iran-negotiators-head-doha-meeting-uncertain-rcna352354",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "'meeting uncertain' — neutral diplomatic reporting",
+            "no charged language"
+          ],
+          "biasScoreGrok": 4.5,
+          "biasSignalsGrok": [
+            "negotiators head to Doha",
+            "meeting uncertain"
+          ],
+          "pubDate": "2026-06-30T09:44:46Z",
+          "clusterId": "us-iran-nuclear-talks"
+        },
+        {
+          "id": "ap-us-iran-nuclear-talks-8",
+          "outletId": "ap",
+          "outletName": "Associated Press",
+          "headline": "A guide to what the U.S. and Iran appear to disagree about now",
+          "url": "https://apnews.com/article/iran-war-negotiations-deal-trump-lebanon-38eff35b9c2c1d453643009144726c13",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral AP guide framing",
+            "factual enumeration of disagreements"
+          ],
+          "biasScoreGrok": 4.7,
+          "biasSignalsGrok": [
+            "guide to disagreements",
+            "neutral analysis"
+          ],
+          "pubDate": "2026-06-29T19:07:30Z",
+          "clusterId": "us-iran-nuclear-talks"
+        },
+        {
+          "id": "thehill-us-iran-nuclear-talks-5",
+          "outletId": "thehill",
+          "outletName": "The Hill",
+          "headline": "GOP senators see Iran deal as potential pitfall for Vance in 2028",
+          "url": "https://thehill.com/homenews/senate/5946478-iran-conflict-2028-presidential-primary/",
+          "biasScore": 5.5,
+          "biasSignals": [
+            "frames Iran deal as political risk for Vance",
+            "neutral but GOP-insider perspective"
+          ],
+          "biasScoreGrok": 6.3,
+          "biasSignalsGrok": [
+            "potential pitfall for Vance",
+            "GOP senators view"
+          ],
+          "pubDate": "2026-06-30T10:00:00Z",
+          "clusterId": "us-iran-nuclear-talks"
+        },
+        {
+          "id": "nypost-us-iran-nuclear-talks-2",
+          "outletId": "nypost",
+          "outletName": "NY Post",
+          "headline": "Trump weighs restarting war with Iran, but sticking with peace talks for now: report",
+          "url": "https://nypost.com/2026/07/01/us-news/trump-weighs-restarting-war-with-iran-but-sticking-with-peace-talks-for-now-report/",
+          "biasScore": 6,
+          "biasSignals": [
+            "'weighs restarting war' frames Trump as decision-maker",
+            "neutral-to-right framing of Trump's strategic deliberation"
+          ],
+          "biasScoreGrok": 6,
+          "biasSignalsGrok": [
+            "weighs restarting war",
+            "peace talks option"
+          ],
+          "pubDate": "Wed, 01 Jul 2026 07:44:41 -0400",
+          "clusterId": "us-iran-nuclear-talks"
+        }
+      ]
+    },
+    {
+      "id": "trump-crypto-earnings-conflicts",
+      "topicLabel": "Trump's billion-dollar crypto earnings raise conflict-of-interest concerns",
+      "date": "2026-07-01",
+      "articles": [
+        {
+          "id": "guardian-trump-crypto-earnings-conflicts-2",
+          "outletId": "guardian",
+          "outletName": "The Guardian",
+          "headline": "Alarm bells over conflict of interest as filing shows Trump raked in $2bn in 2025 | First Thing",
+          "url": "https://www.theguardian.com/us-news/2026/jul/01/first-thing-trump-crypto-billion",
+          "biasScore": 2,
+          "biasSignals": [
+            "'Alarm bells' — emotionally charged progressive framing",
+            "'conflict of interest' framing leads with criticism"
+          ],
+          "biasScoreGrok": 2.5,
+          "biasSignalsGrok": [
+            "alarm bells over interest",
+            "raked in billions"
+          ],
+          "pubDate": "Wed, 01 Jul 2026 12:12:00 GMT",
+          "clusterId": "trump-crypto-earnings-conflicts"
+        },
+        {
+          "id": "guardian-trump-crypto-earnings-conflicts-3",
+          "outletId": "guardian",
+          "outletName": "The Guardian",
+          "headline": "Alarm bells over conflict of interest as filing shows Trump raked in $2bn in 2025",
+          "url": "https://www.theguardian.com/us-news/2026/jun/30/trump-1bn-crypto-businesses-2025",
+          "biasScore": 2,
+          "biasSignals": [
+            "'Alarm bells' repeated — strong concern framing",
+            "'raked in' — loaded verb implying improper gain"
+          ],
+          "biasScoreGrok": 2.6,
+          "biasSignalsGrok": [
+            "alarm bells conflict",
+            "Trump earnings critical"
+          ],
+          "pubDate": "Wed, 01 Jul 2026 11:04:57 GMT",
+          "clusterId": "trump-crypto-earnings-conflicts"
+        },
+        {
+          "id": "independent-trump-crypto-earnings-conflicts-5",
+          "outletId": "independent",
+          "outletName": "The Independent",
+          "headline": "Trump live updates: President’s former lawyer says ‘the grift is on’ after $1bn crypto earnings revealed",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-news-live-america-250-updates-b3006235.html",
+          "biasScore": 2,
+          "biasSignals": [
+            "'the grift is on' — highly charged progressive language",
+            "quotes former lawyer attacking Trump"
+          ],
+          "biasScoreGrok": 2.8,
+          "biasSignalsGrok": [
+            "grift is on quote",
+            "former lawyer criticism"
+          ],
+          "pubDate": "Wed, 01 Jul 2026 12:26:26 GMT",
+          "clusterId": "trump-crypto-earnings-conflicts"
+        },
+        {
+          "id": "guardian-trump-crypto-earnings-conflicts-1",
+          "outletId": "guardian",
+          "outletName": "The Guardian",
+          "headline": "White House rejects conflict-of-interest concerns as Trump’s crypto earnings soar – US politics live",
+          "url": "https://www.theguardian.com/us-news/live/2026/jul/01/donald-trump-cryptocurrencies-supreme-court-birthright-citizenship-save-america-act-latest-news-updates",
+          "biasScore": 2.5,
+          "biasSignals": [
+            "'rejects conflict-of-interest concerns' — frames White House defensively",
+            "'crypto earnings soar' implies impropriety"
+          ],
+          "biasScoreGrok": 2.7,
+          "biasSignalsGrok": [
+            "rejects concerns",
+            "earnings soar noted"
+          ],
+          "pubDate": "Wed, 01 Jul 2026 12:18:35 GMT",
+          "clusterId": "trump-crypto-earnings-conflicts"
+        },
+        {
+          "id": "aljazeera-trump-crypto-earnings-conflicts-0",
+          "outletId": "aljazeera",
+          "outletName": "Al Jazeera",
+          "headline": "Trump made $1.4B from crypto ventures in first year back in office",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/1/trump-made-1-4b-from-crypto-ventures-in-first-year-back-in-office?traffic_source=rss",
+          "biasScore": 3.5,
+          "biasSignals": [
+            "factual reporting of large figure, mild concern implied",
+            "neutral Al Jazeera framing"
+          ],
+          "biasScoreGrok": 2.9,
+          "biasSignalsGrok": [
+            "conflict-of-interest concerns",
+            "crypto earnings critical"
+          ],
+          "pubDate": "Wed, 01 Jul 2026 11:18:54 +0000",
+          "clusterId": "trump-crypto-earnings-conflicts"
+        },
+        {
+          "id": "bostonglobe-trump-crypto-earnings-conflicts-4",
+          "outletId": "bostonglobe",
+          "outletName": "Boston Globe",
+          "headline": "Trump filing shows he took in about $1.2 billion from crypto businesses last year",
+          "url": "https://www.bostonglobe.com/2026/07/01/nation/trump-financial-disclosure/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
+          "biasScore": 3.5,
+          "biasSignals": [
+            "neutral factual reporting of filing",
+            "no charged language in headline"
+          ],
+          "biasScoreGrok": 3,
+          "biasSignalsGrok": [
+            "took in billion crypto",
+            "filing shows"
+          ],
+          "pubDate": "Wed, 01 Jul 2026 12:23:58 +0000",
+          "clusterId": "trump-crypto-earnings-conflicts"
+        }
+      ]
+    },
+    {
+      "id": "supreme-court-trans-athletes",
+      "topicLabel": "Supreme Court rules on transgender athlete sports bans",
+      "date": "2026-07-01",
+      "articles": [
+        {
+          "id": "vox-supreme-court-trans-athletes-3",
+          "outletId": "vox",
+          "outletName": "Vox",
+          "headline": "The Supreme Court’s trans sports ruling is a cautionary tale for all left-leaning lawyers",
+          "url": "https://www.vox.com/politics/493711/supreme-court-bpj-west-virginia-trans-sports",
+          "biasScore": 2,
+          "biasSignals": [
+            "'cautionary tale' — warning framing for progressive lawyers",
+            "sympathetic to left-leaning legal strategies"
+          ],
+          "biasScoreGrok": 3.3,
+          "biasSignalsGrok": [
+            "cautionary tale for lawyers",
+            "left-leaning warning"
+          ],
+          "pubDate": "2026-06-30T18:30:00.000Z",
+          "clusterId": "supreme-court-trans-athletes"
+        },
+        {
+          "id": "washexaminer-supreme-court-trans-athletes-1",
+          "outletId": "washexaminer",
+          "outletName": "Washington Examiner",
+          "headline": "Supreme Court fans blue-state ballot fight over transgender athletes",
+          "url": "https://www.washingtonexaminer.com/news/campaigns/state/4631829/supreme-court-blue-state-ballot-fight-transgender-athletes/",
+          "biasScore": 6.5,
+          "biasSignals": [
+            "'fans blue-state ballot fight' — frames as political conflict",
+            "sympathetic to state-level conservative action"
+          ],
+          "biasScoreGrok": 6.7,
+          "biasSignalsGrok": [
+            "fans blue-state ballot fight",
+            "trans athletes issue"
+          ],
+          "pubDate": "Wed, 01 Jul 2026 10:00:00 +0000",
+          "clusterId": "supreme-court-trans-athletes"
+        },
+        {
+          "id": "nationalreview-supreme-court-trans-athletes-2",
+          "outletId": "nationalreview",
+          "outletName": "National Review",
+          "headline": "The Supreme Court Didn’t Just Save Women’s Sports. It Preserved the Legal Rights of Women",
+          "url": "https://www.nationalreview.com/2026/07/the-supreme-court-didnt-just-save-womens-sports-it-preserved-the-legal-rights-of-women/",
+          "biasScore": 7.5,
+          "biasSignals": [
+            "'Saved Women's Sports' — strong conservative victory framing",
+            "'Preserved Legal Rights of Women' — frames trans ban as protection"
+          ],
+          "biasScoreGrok": 7.9,
+          "biasSignalsGrok": [
+            "saved womens sports",
+            "preserved legal rights"
+          ],
+          "pubDate": "Wed, 01 Jul 2026 10:30:17 +0000",
+          "clusterId": "supreme-court-trans-athletes"
+        },
+        {
+          "id": "breitbart-supreme-court-trans-athletes-0",
+          "outletId": "breitbart",
+          "outletName": "Breitbart",
+          "headline": "Three of Nine Supremes Believe in 'Transgender Girls'",
+          "url": "https://www.breitbart.com/politics/2026/06/30/three-of-nine-supremes-believe-in-transgender-girls/",
+          "biasScore": 8,
+          "biasSignals": [
+            "'Believe in Transgender Girls' — scare quotes imply denial",
+            "dismissive framing of trans identity"
+          ],
+          "biasScoreGrok": 8.2,
+          "biasSignalsGrok": [
+            "believe in transgender girls",
+            "quotes charged term"
+          ],
+          "pubDate": "Tue, 30 Jun 2026 21:32:40 +0000",
+          "clusterId": "supreme-court-trans-athletes"
+        }
+      ]
+    },
+    {
+      "id": "scotus-cell-location-privacy",
+      "topicLabel": "Supreme Court rules cell location data has privacy protections",
+      "date": "2026-07-01",
+      "articles": [
+        {
+          "id": "msnbc-scotus-cell-location-privacy-0",
+          "outletId": "msnbc",
+          "outletName": "MSNBC",
+          "headline": "The Supreme Court stood up for privacy — but only to a point",
+          "url": "https://www.ms.now/opinion/supreme-court-privacy-geofence-location-data",
+          "biasScore": 3.5,
+          "biasSignals": [
+            "'only to a point' — qualified progressive approval",
+            "critical limitation framing typical of left outlets"
+          ],
+          "biasScoreGrok": 3.6,
+          "biasSignalsGrok": [
+            "stood up for privacy",
+            "only to a point"
+          ],
+          "pubDate": "2026-06-29T21:29:48Z",
+          "clusterId": "scotus-cell-location-privacy"
+        },
+        {
+          "id": "ap-scotus-cell-location-privacy-1",
+          "outletId": "ap",
+          "outletName": "Associated Press",
+          "headline": "Court rules privacy protections apply to cell users location history",
+          "url": "https://apnews.com/article/supreme-court-okello-chatrie-geofence-warrants-a3adee8a3fd32b8ea1b42eb72cbcc35f",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral AP legal framing",
+            "factual description without ideological loading"
+          ],
+          "biasScoreGrok": 4.8,
+          "biasSignalsGrok": [
+            "privacy protections apply",
+            "cell location neutral"
+          ],
+          "pubDate": "2026-06-29T17:37:12Z",
+          "clusterId": "scotus-cell-location-privacy"
+        }
+      ]
+    },
+    {
+      "id": "monaco-bomb-explosion",
+      "topicLabel": "Parcel bomb explosion injures Ukrainian billionaire in Monaco",
+      "date": "2026-07-01",
+      "articles": [
+        {
+          "id": "cnn-monaco-bomb-explosion-0",
+          "outletId": "cnn",
+          "outletName": "CNN",
+          "headline": "Manhunt underway after bomb explosion wounds three at Monaco residence",
+          "url": "https://www.cnn.com/2026/06/30/world/monaco-manhunt-explosion-intl-hnk",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral factual reporting of incident",
+            "no ideological framing"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "manhunt underway",
+            "wounds three neutral"
+          ],
+          "pubDate": "2026-06-30T07:25:52Z",
+          "clusterId": "monaco-bomb-explosion"
+        },
+        {
+          "id": "bbc-monaco-bomb-explosion-1",
+          "outletId": "bbc",
+          "outletName": "BBC",
+          "headline": "Parcel bomb injures Ukrainian oligarch and family in Monaco - reports",
+          "url": "https://www.bbc.co.uk/news/articles/cpv37wx03v7o",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral BBC framing with 'reports' qualifier",
+            "no charged language"
+          ],
+          "biasScoreGrok": 4.9,
+          "biasSignalsGrok": [
+            "injures oligarch family",
+            "reports neutral"
+          ],
+          "pubDate": "2026-06-30T08:07:20.5602284Z",
+          "clusterId": "monaco-bomb-explosion"
+        },
+        {
+          "id": "abc-monaco-bomb-explosion-2",
+          "outletId": "abc",
+          "outletName": "ABC News",
+          "headline": "Explosion in Monaco injures 3 including Ukrainian tycoon; suspected attacker flees",
+          "url": "https://abcnews.com/International/wireStory/explosion-monaco-injuries-3-including-ukrainian-tycoon-suspected-134328487",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral factual ABC reporting",
+            "no ideological loading"
+          ],
+          "biasScoreGrok": 5.1,
+          "biasSignalsGrok": [
+            "injures three tycoon",
+            "suspected attacker flees"
+          ],
+          "pubDate": "2026-06-30T01:29:22Z",
+          "clusterId": "monaco-bomb-explosion"
         }
       ]
     },
     {
       "id": "world-cup-2026",
-      "topicLabel": "FIFA World Cup 2026 opening and matches",
-      "date": "2026-06-30",
+      "topicLabel": "2026 FIFA World Cup matches and results coverage",
+      "date": "2026-07-01",
       "articles": [
         {
           "id": "cbsnews-world-cup-2026-0",
@@ -1620,7 +1414,7 @@
           "biasScore": 5,
           "biasSignals": [
             "neutral informational framing",
-            "no ideological signals"
+            "no political content"
           ],
           "biasScoreGrok": 5,
           "biasSignalsGrok": [
@@ -1638,13 +1432,13 @@
           "url": "https://www.cbsnews.com/news/world-cup-opening-ceremony-mexico-shakira/",
           "biasScore": 5,
           "biasSignals": [
-            "neutral factual headline",
-            "no ideological loading"
+            "neutral event reporting",
+            "no ideological signals"
           ],
-          "biasScoreGrok": 5,
+          "biasScoreGrok": 4.8,
           "biasSignalsGrok": [
-            "kicks off in Mexico",
-            "with Shakira"
+            "kicks off with Shakira",
+            "opening ceremony"
           ],
           "pubDate": "2026-06-11T18:41:38+00:00",
           "clusterId": "world-cup-2026"
@@ -1657,262 +1451,1037 @@
           "url": "https://www.economist.com/united-states/2026/06/27/checks-and-balance-newsletter-the-world-cup-doesnt-understand-america",
           "biasScore": 5,
           "biasSignals": [
-            "analytical framing, no partisan signals",
-            "neutral Economist style"
+            "analytical Economist framing, lightly critical",
+            "no strong political loading"
           ],
-          "biasScoreGrok": 5.5,
+          "biasScoreGrok": 4.5,
           "biasSignalsGrok": [
-            "doesn't understand America",
-            "newsletter framing"
+            "doesnt understand America",
+            "newsletter critique"
           ],
           "pubDate": "Sat, 27 Jun 2026 10:54:34 +0000",
+          "clusterId": "world-cup-2026"
+        },
+        {
+          "id": "forbes-world-cup-2026-3",
+          "outletId": "forbes",
+          "outletName": "Forbes",
+          "headline": "USMNT Vs. Bosnia — How To Watch, Prediction, Projected Lineups",
+          "url": "https://www.forbes.com/sites/ianquillen/2026/07/01/usmnt-vs-bosnia---how-to-watch-prediction-projected-lineups/",
+          "biasScore": 5,
+          "biasSignals": [
+            "neutral sports preview format",
+            "no ideological content"
+          ],
+          "biasScoreGrok": 5.2,
+          "biasSignalsGrok": [
+            "how to watch neutral",
+            "prediction lineups"
+          ],
+          "pubDate": "Wed, 01 Jul 2026 08:00:54 -0400",
+          "clusterId": "world-cup-2026"
+        },
+        {
+          "id": "forbes-world-cup-2026-4",
+          "outletId": "forbes",
+          "outletName": "Forbes",
+          "headline": "France Has Become The Team To Beat At The World Cup",
+          "url": "https://www.forbes.com/sites/clementelisi/2026/07/01/france-has-become-the-team-to-beat-at-the-world-cup/",
+          "biasScore": 5,
+          "biasSignals": [
+            "neutral sports analysis",
+            "no political framing"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "team to beat neutral",
+            "France analysis"
+          ],
+          "pubDate": "Wed, 01 Jul 2026 07:33:20 -0400",
+          "clusterId": "world-cup-2026"
+        },
+        {
+          "id": "dailymail-world-cup-2026-5",
+          "outletId": "dailymail",
+          "outletName": "Daily Mail",
+          "headline": "England vs DR Congo - World Cup LIVE: Moment of truth for Thomas Tuchel's Three Lions as football fans descend on Atlanta for Round of 32 clash",
+          "url": "\n\thttps://www.dailymail.com/sport/football/article-15944461/England-vs-DR-Congo-World-Cup-LIVE.html?ns_mchannel=rss&ito=1490&ns_campaign=1490\n      ",
+          "biasScore": 5,
+          "biasSignals": [
+            "neutral sports reporting",
+            "no ideological loading"
+          ],
+          "biasScoreGrok": 5.3,
+          "biasSignalsGrok": [
+            "moment of truth",
+            "fans descend Atlanta"
+          ],
+          "pubDate": "Wed, 01 Jul 2026 13:27:21 +0100",
+          "clusterId": "world-cup-2026"
+        },
+        {
+          "id": "telegraph-world-cup-2026-6",
+          "outletId": "telegraph",
+          "outletName": "The Telegraph",
+          "headline": "France thrash Sweden as Mbappe matches Messi in Golden Boot race",
+          "url": "https://www.telegraph.co.uk/football/2026/06/30/france-vs-sweden-live-score-latest-2026-world-cup-updates/",
+          "biasScore": 5,
+          "biasSignals": [
+            "neutral sports result reporting",
+            "no political content"
+          ],
+          "biasScoreGrok": 5.1,
+          "biasSignalsGrok": [
+            "thrash Sweden neutral",
+            "Mbappe golden boot"
+          ],
+          "pubDate": "Tue, 30 Jun 2026 23:57:37 GMT",
+          "clusterId": "world-cup-2026"
+        },
+        {
+          "id": "nbc-world-cup-2026-7",
+          "outletId": "nbc",
+          "outletName": "NBC News",
+          "headline": "Paraguay World Cup win over Germany prompts national holiday declaration",
+          "url": "https://www.nbcnews.com/sports/soccer/paraguay-world-cup-win-germany-prompts-national-holiday-declaration-rcna352362",
+          "biasScore": 5,
+          "biasSignals": [
+            "neutral sports news reporting",
+            "no ideological signals"
+          ],
+          "biasScoreGrok": 4.9,
+          "biasSignalsGrok": [
+            "prompts national holiday",
+            "Paraguay win"
+          ],
+          "pubDate": "2026-06-30T11:23:22Z",
+          "clusterId": "world-cup-2026"
+        },
+        {
+          "id": "nbc-world-cup-2026-8",
+          "outletId": "nbc",
+          "outletName": "NBC News",
+          "headline": "Morocco reaches last 16 with chaotic shootout win over Netherlands",
+          "url": "https://www.nbcnews.com/sports/soccer/morocco-win-beats-netherlands-penalty-shootout-rcna352355",
+          "biasScore": 5,
+          "biasSignals": [
+            "neutral sports result framing",
+            "no political loading"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "chaotic shootout win",
+            "Morocco reaches"
+          ],
+          "pubDate": "2026-06-30T09:07:05Z",
+          "clusterId": "world-cup-2026"
+        },
+        {
+          "id": "huffpost-world-cup-2026-9",
+          "outletId": "huffpost",
+          "outletName": "HuffPost",
+          "headline": "U.S. Captain Issues Warning Ahead Of Bosnia World Cup Knockout Clash",
+          "url": "https://www.huffpost.com/entry/us-bosnia-world-cup-2026-preview_n_6a43943ce4b0f259890f88d4",
+          "biasScore": 5,
+          "biasSignals": [
+            "neutral sports preview framing",
+            "no ideological content"
+          ],
+          "biasScoreGrok": 4.7,
+          "biasSignalsGrok": [
+            "issues warning ahead",
+            "Bosnia clash"
+          ],
+          "pubDate": "2026-06-30T10:10:54Z",
           "clusterId": "world-cup-2026"
         }
       ]
     },
     {
-      "id": "trump-freedom-trucks-250th",
-      "topicLabel": "Trump's Freedom Trucks and America's 250th birthday events",
-      "date": "2026-06-30",
+      "id": "student-loan-changes",
+      "topicLabel": "Major student loan repayment changes take effect July 1",
+      "date": "2026-07-01",
       "articles": [
         {
-          "id": "washpost-trump-freedom-trucks-250th-0",
-          "outletId": "washpost",
-          "outletName": "Washington Post",
-          "headline": "Trump-backed ‘Freedom Trucks’ tell a sanitized story of the country’s founding",
-          "url": "https://www.washingtonpost.com/education/2026/06/29/freedom-trucks-offer-simplified-upbeat-story-americas-founding/",
-          "biasScore": 3,
-          "biasSignals": [
-            "\"sanitized story\" — critical left framing of content",
-            "implies propaganda without neutral verification"
-          ],
-          "biasScoreGrok": 2.8,
-          "biasSignalsGrok": [
-            "sanitized story claim",
-            "Trump-backed trucks"
-          ],
-          "pubDate": "2026-06-29T09:00:00Z",
-          "clusterId": "trump-freedom-trucks-250th"
-        },
-        {
-          "id": "bostonglobe-trump-freedom-trucks-250th-1",
-          "outletId": "bostonglobe",
-          "outletName": "Boston Globe",
-          "headline": "From Christopher Columbus to Alex Trebek, Trump is spending millions on statues of ‘American heroes’ while slashing arts funding",
-          "url": "https://www.bostonglobe.com/2025/07/04/nation/donald-trump-statue-garden-american-heroes/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
-          "biasScore": 3,
-          "biasSignals": [
-            "\"slashing arts funding\" contrast — left framing",
-            "\"spending millions on statues\" — critical tone"
-          ],
-          "biasScoreGrok": 2.5,
-          "biasSignalsGrok": [
-            "slashing arts funding",
-            "Trump spending noted"
-          ],
-          "pubDate": "Fri, 04 Jul 2025 10:00:01 +0000",
-          "clusterId": "trump-freedom-trucks-250th"
-        },
-        {
-          "id": "bostonglobe-trump-freedom-trucks-250th-2",
-          "outletId": "bostonglobe",
-          "outletName": "Boston Globe",
-          "headline": "As Trump puts his stamp on America’s 250th birthday, the party turns partisan",
-          "url": "https://www.bostonglobe.com/2025/10/17/nation/america-250-birthday-donald-trump/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
+          "id": "marketwatch-student-loan-changes-1",
+          "outletId": "marketwatch",
+          "outletName": "MarketWatch",
+          "headline": "Student-loan borrowers face major changes that start today. Your repayment plan may be phased out.",
+          "url": "https://www.marketwatch.com/story/student-loan-borrowers-face-major-changes-that-start-today-your-repayment-plan-may-be-phased-out-80d34beb?mod=mw_rss_topstories",
           "biasScore": 3.5,
           "biasSignals": [
-            "\"turns partisan\" — frames Trump as politicizing event",
-            "implies birthday celebration co-opted"
+            "'face major changes' — concern framing for borrowers",
+            "'phased out' implies loss, sympathetic to borrowers"
+          ],
+          "biasScoreGrok": 4.5,
+          "biasSignalsGrok": [
+            "face major changes",
+            "plan phased out"
+          ],
+          "pubDate": "Wed, 01 Jul 2026 11:00:00 GMT",
+          "clusterId": "student-loan-changes"
+        },
+        {
+          "id": "washpost-student-loan-changes-0",
+          "outletId": "washpost",
+          "outletName": "Washington Post",
+          "headline": "Student loans are changing as of July 1. Here’s how.",
+          "url": "https://www.washingtonpost.com/education/2026/06/30/student-loans-are-changing-july-1-heres-how/",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral informational framing",
+            "no political loading"
+          ],
+          "biasScoreGrok": 4.3,
+          "biasSignalsGrok": [
+            "changing as of July 1",
+            "here how neutral"
+          ],
+          "pubDate": "2026-06-30T11:40:00Z",
+          "clusterId": "student-loan-changes"
+        },
+        {
+          "id": "abc-student-loan-changes-2",
+          "outletId": "abc",
+          "outletName": "ABC News",
+          "headline": "Major student loan changes take effect July 1: What to know",
+          "url": "https://abcnews.com/Politics/major-student-loan-effect-july-1/story?id=134322184",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral informational ABC framing",
+            "no ideological signals"
+          ],
+          "biasScoreGrok": 4.4,
+          "biasSignalsGrok": [
+            "major changes take effect",
+            "what to know"
+          ],
+          "pubDate": "2026-06-30T01:33:49Z",
+          "clusterId": "student-loan-changes"
+        }
+      ]
+    },
+    {
+      "id": "spaceX-ipo-trading",
+      "topicLabel": "SpaceX IPO launch and market trading activity",
+      "date": "2026-07-01",
+      "articles": [
+        {
+          "id": "cnn-spaceX-ipo-trading-0",
+          "outletId": "cnn",
+          "outletName": "CNN",
+          "headline": "Inside the SpaceX trading frenzy",
+          "url": "https://www.cnn.com/2026/06/30/investing/inside-the-spacex-trading-frenzy",
+          "biasScore": 5,
+          "biasSignals": [
+            "neutral financial reporting framing",
+            "no ideological loading"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "trading frenzy neutral",
+            "inside SpaceX"
+          ],
+          "pubDate": "2026-06-30T09:00:25Z",
+          "clusterId": "spaceX-ipo-trading"
+        },
+        {
+          "id": "cbsnews-spaceX-ipo-trading-1",
+          "outletId": "cbsnews",
+          "outletName": "CBS News",
+          "headline": "SpaceX IPO could see a \"volatile few hours\" after launch, market reporter says",
+          "url": "https://www.cbsnews.com/video/spacex-ipo-could-see-a-volatile-few-hours-after-launch/",
+          "biasScore": 5,
+          "biasSignals": [
+            "neutral market reporting with mild concern signal",
+            "no political framing"
+          ],
+          "biasScoreGrok": 4.8,
+          "biasSignalsGrok": [
+            "volatile few hours",
+            "market reporter says"
+          ],
+          "pubDate": "2026-06-11T18:29:43+00:00",
+          "clusterId": "spaceX-ipo-trading"
+        },
+        {
+          "id": "yahoofinance-spaceX-ipo-trading-2",
+          "outletId": "yahoofinance",
+          "outletName": "Yahoo Finance",
+          "headline": "Stock Market Today: Dow Falls Before Jobs Data, Warsh; SpaceX, Bloom Energy, Nike Move Early (Live Coverage)",
+          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-jobs-report-fed-warsh-spacex-bloom-energy-nike/?src=A00220&yptr=yahoo",
+          "biasScore": 5,
+          "biasSignals": [
+            "neutral market coverage",
+            "no ideological signals"
+          ],
+          "biasScoreGrok": 4.9,
+          "biasSignalsGrok": [
+            "Dow falls before data",
+            "SpaceX move early"
+          ],
+          "pubDate": "2026-07-01T12:12:40Z",
+          "clusterId": "spaceX-ipo-trading"
+        },
+        {
+          "id": "yahoofinance-spaceX-ipo-trading-3",
+          "outletId": "yahoofinance",
+          "outletName": "Yahoo Finance",
+          "headline": "Dow Jones Futures Fall, Bloom Energy Jumps; SpaceX's First Buy Point",
+          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-market-rebound-bloom-energy-spacex-buy-point/?src=A00220&yptr=yahoo",
+          "biasScore": 5,
+          "biasSignals": [
+            "neutral financial reporting",
+            "no political loading"
+          ],
+          "biasScoreGrok": 5.1,
+          "biasSignalsGrok": [
+            "Dow futures fall",
+            "SpaceX first buy point"
+          ],
+          "pubDate": "2026-07-01T12:10:59Z",
+          "clusterId": "spaceX-ipo-trading"
+        }
+      ]
+    },
+    {
+      "id": "june-jobs-adp-report",
+      "topicLabel": "June ADP private payrolls report misses expectations",
+      "date": "2026-07-01",
+      "articles": [
+        {
+          "id": "marketwatch-june-jobs-adp-report-2",
+          "outletId": "marketwatch",
+          "outletName": "MarketWatch",
+          "headline": "Businesses add 98,000 jobs in June, ADP says. Labor market on the mend, but it’s still not great.",
+          "url": "https://www.marketwatch.com/story/businesses-add-98-000-new-jobs-in-june-adp-says-154835d8?mod=mw_rss_topstories",
+          "biasScore": 4,
+          "biasSignals": [
+            "'not great' — mildly negative framing of labor market",
+            "neutral data reporting otherwise"
+          ],
+          "biasScoreGrok": 4.8,
+          "biasSignalsGrok": [
+            "add jobs labor market",
+            "on the mend"
+          ],
+          "pubDate": "Wed, 01 Jul 2026 12:26:00 GMT",
+          "clusterId": "june-jobs-adp-report"
+        },
+        {
+          "id": "cnbc-june-jobs-adp-report-0",
+          "outletId": "cnbc",
+          "outletName": "CNBC",
+          "headline": "Private payrolls rose by 98,000 in June, less than expected, ADP reports",
+          "url": "https://www.cnbc.com/2026/07/01/private-payrolls-rose-by-98000-in-june-less-than-expected-adp-reports.html",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral financial data reporting",
+            "no ideological loading"
+          ],
+          "biasScoreGrok": 4.7,
+          "biasSignalsGrok": [
+            "rose less than expected",
+            "ADP reports neutral"
+          ],
+          "pubDate": "Wed, 01 Jul 2026 12:32:48 GMT",
+          "clusterId": "june-jobs-adp-report"
+        },
+        {
+          "id": "yahoofinance-june-jobs-adp-report-1",
+          "outletId": "yahoofinance",
+          "outletName": "Yahoo Finance",
+          "headline": "Private employers added 98,000 jobs in June, fewer than expected",
+          "url": "https://finance.yahoo.com/economy/article/private-employers-added-98000-jobs-in-june-fewer-than-expected-122106116.html",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral factual economic reporting",
+            "no political framing"
+          ],
+          "biasScoreGrok": 4.6,
+          "biasSignalsGrok": [
+            "added fewer than expected",
+            "private employers"
+          ],
+          "pubDate": "2026-07-01T12:21:06Z",
+          "clusterId": "june-jobs-adp-report"
+        }
+      ]
+    },
+    {
+      "id": "trump-white-house-construction",
+      "topicLabel": "Trump builds helipad and ballroom at White House",
+      "date": "2026-07-01",
+      "articles": [
+        {
+          "id": "washpost-trump-white-house-construction-1",
+          "outletId": "washpost",
+          "outletName": "Washington Post",
+          "headline": "Trump is using a $500M no-bid contract to build his White House ballroom",
+          "url": "https://www.washingtonpost.com/investigations/2026/06/30/trump-ballroom-built-under-secret-500m-no-bid-contract/",
+          "biasScore": 2.5,
+          "biasSignals": [
+            "'no-bid contract' — loaded term implying impropriety",
+            "'his White House ballroom' — possessive implies self-dealing"
           ],
           "biasScoreGrok": 2.9,
           "biasSignalsGrok": [
-            "party turns partisan",
-            "Trump stamp noted"
+            "500M no-bid contract",
+            "his White House ballroom"
           ],
-          "pubDate": "Fri, 17 Oct 2025 13:29:26 +0000",
-          "clusterId": "trump-freedom-trucks-250th"
+          "pubDate": "2026-06-30T10:00:01Z",
+          "clusterId": "trump-white-house-construction"
         },
         {
-          "id": "bostonglobe-trump-freedom-trucks-250th-3",
-          "outletId": "bostonglobe",
-          "outletName": "Boston Globe",
-          "headline": "Trump-approved ‘Freedom Trucks’ are doing an American history roadshow. We took a tour of one.",
-          "url": "https://www.bostonglobe.com/2026/05/19/nation/freedom-trucks-prageru-america-250/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
-          "biasScore": 4,
+          "id": "washpost-trump-white-house-construction-0",
+          "outletId": "washpost",
+          "outletName": "Washington Post",
+          "headline": "Trump begins construction of unannounced White House helipad",
+          "url": "https://www.washingtonpost.com/politics/2026/06/30/trump-adds-white-house-helipad-resolve-marine-one-helicopter-issue/",
+          "biasScore": 3.5,
           "biasSignals": [
-            "\"Trump-approved\" qualifier — mild skeptical framing",
-            "neutral reporting tone otherwise"
+            "'unannounced' implies secrecy, mild criticism",
+            "neutral verb 'begins construction'"
           ],
-          "biasScoreGrok": 3.1,
+          "biasScoreGrok": 3.2,
           "biasSignalsGrok": [
-            "American history roadshow",
-            "Trump-approved trucks"
+            "unannounced helipad",
+            "Trump construction"
           ],
-          "pubDate": "Tue, 19 May 2026 12:39:47 +0000",
-          "clusterId": "trump-freedom-trucks-250th"
+          "pubDate": "2026-06-30T11:02:53Z",
+          "clusterId": "trump-white-house-construction"
         }
       ]
     },
     {
-      "id": "alito-retirement-false-story",
-      "topicLabel": "NPR falsely reports Alito retirement, quickly retracted",
-      "date": "2026-06-30",
+      "id": "e-jean-carroll-trump-payment",
+      "topicLabel": "E. Jean Carroll seeks Trump court-ordered payment",
+      "date": "2026-07-01",
       "articles": [
         {
-          "id": "vox-alito-retirement-false-story-2",
-          "outletId": "vox",
-          "outletName": "Vox",
-          "headline": "Vox retracts Alito story",
-          "url": "https://www.vox.com/scotus/416307/supreme-court-justice-samuel-alito-retires",
-          "biasScore": 4,
+          "id": "guardian-e-jean-carroll-trump-payment-0",
+          "outletId": "guardian",
+          "outletName": "The Guardian",
+          "headline": "E Jean Carroll asks judge to order Donald Trump to pay $5m he owes her",
+          "url": "https://www.theguardian.com/us-news/2026/jul/01/e-jean-carroll-donald-trump-pay",
+          "biasScore": 3,
           "biasSignals": [
-            "self-correction, neutral accountability framing",
-            "no defensive or charged language"
+            "sympathetic framing for Carroll as plaintiff",
+            "neutral verb 'asks judge'"
+          ],
+          "biasScoreGrok": 3.5,
+          "biasSignalsGrok": [
+            "asks judge to order pay",
+            "owes her"
+          ],
+          "pubDate": "Wed, 01 Jul 2026 12:15:51 GMT",
+          "clusterId": "e-jean-carroll-trump-payment"
+        },
+        {
+          "id": "bostonglobe-e-jean-carroll-trump-payment-1",
+          "outletId": "bostonglobe",
+          "outletName": "Boston Globe",
+          "headline": "Writer E. Jean Carroll calls for Trump to pay $5.8m after high court appeal fails",
+          "url": "https://www.bostonglobe.com/2026/07/01/nation/writer-e-jean-carroll-calls-trump-pay-58m-after-high-court-appeal-fails/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
+          "biasScore": 3,
+          "biasSignals": [
+            "'calls for Trump to pay' — straightforward but plaintiff-sympathetic",
+            "neutral factual framing"
+          ],
+          "biasScoreGrok": 3.4,
+          "biasSignalsGrok": [
+            "calls for Trump to pay",
+            "appeal fails"
+          ],
+          "pubDate": "Wed, 01 Jul 2026 05:12:37 +0000",
+          "clusterId": "e-jean-carroll-trump-payment"
+        }
+      ]
+    },
+    {
+      "id": "deepseek-ai-china",
+      "topicLabel": "China's DeepSeek AI model draws Silicon Valley attention",
+      "date": "2026-07-01",
+      "articles": [
+        {
+          "id": "wsj-deepseek-ai-china-0",
+          "outletId": "wsj",
+          "outletName": "Wall Street Journal",
+          "headline": "What to Know About China's DeepSeek AI",
+          "url": "https://www.wsj.com/articles/deepseek-ai-china-tech-stocks-explained-ee6cc80e?mod=rss_Technology",
+          "biasScore": 5,
+          "biasSignals": [
+            "neutral informational framing",
+            "no ideological loading"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "what to know neutral",
+            "DeepSeek AI"
+          ],
+          "pubDate": "Mon, 27 Jan 2025 13:17:00 -0500",
+          "clusterId": "deepseek-ai-china"
+        },
+        {
+          "id": "wsj-deepseek-ai-china-1",
+          "outletId": "wsj",
+          "outletName": "Wall Street Journal",
+          "headline": "Silicon Valley Is Raving About a Made-in-China AI Model",
+          "url": "https://www.wsj.com/articles/china-ai-deepseek-chatbot-6ac4ad33?mod=rss_Technology",
+          "biasScore": 5,
+          "biasSignals": [
+            "'Silicon Valley Is Raving' — slightly enthusiastic framing",
+            "no strong political loading"
+          ],
+          "biasScoreGrok": 5.2,
+          "biasSignalsGrok": [
+            "Silicon Valley raving",
+            "made-in-China model"
+          ],
+          "pubDate": "Mon, 27 Jan 2025 09:36:00 -0500",
+          "clusterId": "deepseek-ai-china"
+        }
+      ]
+    },
+    {
+      "id": "ice-critics-free-speech",
+      "topicLabel": "ICE tracks and detains critics of immigration enforcement",
+      "date": "2026-07-01",
+      "articles": [
+        {
+          "id": "independent-ice-critics-free-speech-1",
+          "outletId": "independent",
+          "outletName": "The Independent",
+          "headline": "Trump administration accused of targeting ICE critics as free speech fears grow",
+          "url": "https://www.independent.co.uk/news/world/americas/david-streever-ice-agents-new-york-free-speech-b3006717.html",
+          "biasScore": 2,
+          "biasSignals": [
+            "'targeting ICE critics' — frames government as oppressor",
+            "'free speech fears grow' — alarm framing for civil liberties"
+          ],
+          "biasScoreGrok": 2.6,
+          "biasSignalsGrok": [
+            "accused of targeting critics",
+            "free speech fears"
+          ],
+          "pubDate": "Wed, 01 Jul 2026 12:28:48 GMT",
+          "clusterId": "ice-critics-free-speech"
+        },
+        {
+          "id": "npr-ice-critics-free-speech-0",
+          "outletId": "npr",
+          "outletName": "NPR",
+          "headline": "Months after he sent a harsh email to ICE, agents tracked him to his home and a hotel",
+          "url": "https://www.npr.org/2026/07/01/nx-s1-5874124/dhs-tracks-ice-critic",
+          "biasScore": 2.5,
+          "biasSignals": [
+            "'tracked him to his home' — surveillance victim framing",
+            "'harsh email' minimizes action, sympathizes with target"
+          ],
+          "biasScoreGrok": 2.8,
+          "biasSignalsGrok": [
+            "tracked him to home",
+            "harsh email to ICE"
+          ],
+          "pubDate": "Wed, 01 Jul 2026 05:00:00 -0400",
+          "clusterId": "ice-critics-free-speech"
+        },
+        {
+          "id": "reason-ice-critics-free-speech-2",
+          "outletId": "reason",
+          "outletName": "Reason",
+          "headline": "Thin-Skinned Government Agents Threaten Yet Another Critic",
+          "url": "https://reason.com/2026/07/01/thin-skinned-government-agents-threaten-yet-another-critic/",
+          "biasScore": 6.5,
+          "biasSignals": [
+            "'Thin-Skinned Government Agents' — critical of government from libertarian right",
+            "frames officials as overreaching, anti-government"
+          ],
+          "biasScoreGrok": 6.5,
+          "biasSignalsGrok": [
+            "thin-skinned agents threaten",
+            "yet another critic"
+          ],
+          "pubDate": "Wed, 01 Jul 2026 11:00:19 +0000",
+          "clusterId": "ice-critics-free-speech"
+        }
+      ]
+    },
+    {
+      "id": "theodore-roosevelt-library-trump",
+      "topicLabel": "Trump visits newly opened Theodore Roosevelt Presidential Library",
+      "date": "2026-07-01",
+      "articles": [
+        {
+          "id": "guardian-theodore-roosevelt-library-trump-0",
+          "outletId": "guardian",
+          "outletName": "The Guardian",
+          "headline": "Trump to attend opening of Roosevelt library amid overturning conservation efforts",
+          "url": "https://www.theguardian.com/us-news/2026/jul/01/trump-roosevelt-library-opening",
+          "biasScore": 3,
+          "biasSignals": [
+            "'amid overturning conservation efforts' — irony framing critical of Trump",
+            "juxtaposition implies hypocrisy"
+          ],
+          "biasScoreGrok": 3,
+          "biasSignalsGrok": [
+            "amid overturning efforts",
+            "conservation critique"
+          ],
+          "pubDate": "Wed, 01 Jul 2026 11:30:34 GMT",
+          "clusterId": "theodore-roosevelt-library-trump"
+        },
+        {
+          "id": "bostonglobe-theodore-roosevelt-library-trump-1",
+          "outletId": "bostonglobe",
+          "outletName": "Boston Globe",
+          "headline": "Trump to visit newly built Theodore Roosevelt Presidential Library in North Dakota’s Badlands",
+          "url": "https://www.bostonglobe.com/2026/07/01/nation/trump-theodore-roosevelt-presidential-library-visit/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral factual reporting of visit",
+            "no ideological loading"
+          ],
+          "biasScoreGrok": 4.8,
+          "biasSignalsGrok": [
+            "to visit newly built",
+            "North Dakota Badlands"
+          ],
+          "pubDate": "Wed, 01 Jul 2026 09:18:01 +0000",
+          "clusterId": "theodore-roosevelt-library-trump"
+        }
+      ]
+    },
+    {
+      "id": "senate-control-2026",
+      "topicLabel": "2026 Senate election control polling and analysis",
+      "date": "2026-07-01",
+      "articles": [
+        {
+          "id": "nytimes-senate-control-2026-0",
+          "outletId": "nytimes",
+          "outletName": "NY Times",
+          "headline": "Republicans’ Home-Field Edge for Senate Seems Just Enough for Now",
+          "url": "https://www.nytimes.com/2026/07/01/upshot/polls-ohio-iowa-alaska-carolina.html",
+          "biasScore": 5,
+          "biasSignals": [
+            "neutral analytical framing of electoral map",
+            "no charged language"
+          ],
+          "biasScoreGrok": 5.5,
+          "biasSignalsGrok": [
+            "home-field edge just enough",
+            "Republicans Senate"
+          ],
+          "pubDate": "Wed, 01 Jul 2026 10:28:56 +0000",
+          "clusterId": "senate-control-2026"
+        },
+        {
+          "id": "nytimes-senate-control-2026-1",
+          "outletId": "nytimes",
+          "outletName": "NY Times",
+          "headline": "Control of the Senate Is Up for Grabs, Times/Siena Polls Find",
+          "url": "https://www.nytimes.com/2026/07/01/us/politics/polls-senate-control.html",
+          "biasScore": 5,
+          "biasSignals": [
+            "neutral poll reporting",
+            "no ideological loading"
+          ],
+          "biasScoreGrok": 4.9,
+          "biasSignalsGrok": [
+            "control up for grabs",
+            "Times Siena polls"
+          ],
+          "pubDate": "Wed, 01 Jul 2026 09:03:24 +0000",
+          "clusterId": "senate-control-2026"
+        }
+      ]
+    },
+    {
+      "id": "wimbledon-serena-williams",
+      "topicLabel": "Serena Williams makes Wimbledon doubles return",
+      "date": "2026-07-01",
+      "articles": [
+        {
+          "id": "telegraph-wimbledon-serena-williams-0",
+          "outletId": "telegraph",
+          "outletName": "The Telegraph",
+          "headline": "Serena Williams thrills crowd but fails to turn back time at Wimbledon",
+          "url": "https://www.telegraph.co.uk/tennis/2026/06/30/serena-williams-vs-maya-joint-live-latest-score-wimbledon/",
+          "biasScore": 5,
+          "biasSignals": [
+            "neutral sports reporting",
+            "no political content"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "thrills crowd neutral",
+            "fails turn back time"
+          ],
+          "pubDate": "Tue, 30 Jun 2026 21:38:03 GMT",
+          "clusterId": "wimbledon-serena-williams"
+        },
+        {
+          "id": "independent-wimbledon-serena-williams-1",
+          "outletId": "independent",
+          "outletName": "The Independent",
+          "headline": "Wimbledon LIVE: Latest scores as Serena Williams injury puts doubles in doubt and Dan Evans loses in final tournament",
+          "url": "https://www.independent.co.uk/sport/tennis/wimbledon-live-scores-updates-results-serena-williams-injury-b3006695.html",
+          "biasScore": 5,
+          "biasSignals": [
+            "neutral sports live update framing",
+            "no ideological signals"
+          ],
+          "biasScoreGrok": 4.8,
+          "biasSignalsGrok": [
+            "injury puts doubles doubt",
+            "latest scores"
+          ],
+          "pubDate": "Wed, 01 Jul 2026 12:25:51 GMT",
+          "clusterId": "wimbledon-serena-williams"
+        },
+        {
+          "id": "independent-wimbledon-serena-williams-2",
+          "outletId": "independent",
+          "outletName": "The Independent",
+          "headline": "Serena Williams avoids embarrassment – but valiant Wimbledon return asks one more question",
+          "url": "https://www.independent.co.uk/sport/tennis/serena-williams-wimbledon-maya-joint-result-b3006320.html",
+          "biasScore": 5,
+          "biasSignals": [
+            "neutral sports analysis",
+            "no political loading"
+          ],
+          "biasScoreGrok": 4.7,
+          "biasSignalsGrok": [
+            "avoids embarrassment",
+            "valiant return asks"
+          ],
+          "pubDate": "Wed, 01 Jul 2026 12:24:46 GMT",
+          "clusterId": "wimbledon-serena-williams"
+        }
+      ]
+    },
+    {
+      "id": "florida-alligator-attacks",
+      "topicLabel": "Multiple alligator attacks in Florida injure and kill people",
+      "date": "2026-07-01",
+      "articles": [
+        {
+          "id": "cnn-florida-alligator-attacks-0",
+          "outletId": "cnn",
+          "outletName": "CNN",
+          "headline": "Alligators injure three, one fatally, in string of attacks in Florida",
+          "url": "https://www.cnn.com/2026/06/29/us/alligator-attacks-florida-woman-death",
+          "biasScore": 5,
+          "biasSignals": [
+            "neutral factual reporting",
+            "no political framing"
+          ],
+          "biasScoreGrok": 5.1,
+          "biasSignalsGrok": [
+            "injure three one fatally",
+            "string of attacks"
+          ],
+          "pubDate": "2026-06-30T02:16:28Z",
+          "clusterId": "florida-alligator-attacks"
+        },
+        {
+          "id": "nypost-florida-alligator-attacks-1",
+          "outletId": "nypost",
+          "outletName": "NY Post",
+          "headline": "Harrowing 911 call reveals fight to save Brittany Clark after fatal alligator attack: ‘Please hurry that’s my best friend’",
+          "url": "https://nypost.com/2026/07/01/us-news/harrowing-911-call-reveals-fight-to-save-brittany-clark-after-fatal-alligator-attack/",
+          "biasScore": 5.5,
+          "biasSignals": [
+            "'harrowing' — emotionally loaded word choice",
+            "victim framing with dramatic 911 detail"
+          ],
+          "biasScoreGrok": 5.3,
+          "biasSignalsGrok": [
+            "harrowing 911 call",
+            "fight to save"
+          ],
+          "pubDate": "Wed, 01 Jul 2026 08:27:06 -0400",
+          "clusterId": "florida-alligator-attacks"
+        }
+      ]
+    },
+    {
+      "id": "trump-crypto-conflict-guardian",
+      "topicLabel": "Trump financial disclosures show massive crypto and business income",
+      "date": "2026-07-01",
+      "articles": [
+        {
+          "id": "guardian-trump-crypto-conflict-guardian-2",
+          "outletId": "guardian",
+          "outletName": "The Guardian",
+          "headline": "Alarm bells over conflict of interest as filing shows Trump raked in $2bn in 2025 | First Thing",
+          "url": "https://www.theguardian.com/us-news/2026/jul/01/first-thing-trump-crypto-billion",
+          "biasScore": 2,
+          "biasSignals": [
+            "'Alarm bells' — emotionally charged framing",
+            "conflict of interest framing leads the story"
+          ],
+          "biasScoreGrok": 2.5,
+          "biasSignalsGrok": [
+            "alarm bells conflict",
+            "raked in 2bn"
+          ],
+          "pubDate": "Wed, 01 Jul 2026 12:12:00 GMT",
+          "clusterId": "trump-crypto-conflict-guardian"
+        },
+        {
+          "id": "guardian-trump-crypto-conflict-guardian-3",
+          "outletId": "guardian",
+          "outletName": "The Guardian",
+          "headline": "Alarm bells over conflict of interest as filing shows Trump raked in $2bn in 2025",
+          "url": "https://www.theguardian.com/us-news/2026/jun/30/trump-1bn-crypto-businesses-2025",
+          "biasScore": 2,
+          "biasSignals": [
+            "'Alarm bells' repeated — strong progressive concern framing",
+            "'raked in' loaded verb implying improper gain"
+          ],
+          "biasScoreGrok": 2.6,
+          "biasSignalsGrok": [
+            "alarm bells over interest",
+            "Trump 2bn 2025"
+          ],
+          "pubDate": "Wed, 01 Jul 2026 11:04:57 GMT",
+          "clusterId": "trump-crypto-conflict-guardian"
+        },
+        {
+          "id": "guardian-trump-crypto-conflict-guardian-1",
+          "outletId": "guardian",
+          "outletName": "The Guardian",
+          "headline": "White House rejects conflict-of-interest concerns as Trump’s crypto earnings soar – US politics live",
+          "url": "https://www.theguardian.com/us-news/live/2026/jul/01/donald-trump-cryptocurrencies-supreme-court-birthright-citizenship-save-america-act-latest-news-updates",
+          "biasScore": 2.5,
+          "biasSignals": [
+            "'rejects conflict-of-interest concerns' frames White House defensively",
+            "'soar' implies problematic growth"
+          ],
+          "biasScoreGrok": 2.7,
+          "biasSignalsGrok": [
+            "rejects conflict concerns",
+            "crypto earnings soar"
+          ],
+          "pubDate": "Wed, 01 Jul 2026 12:18:35 GMT",
+          "clusterId": "trump-crypto-conflict-guardian"
+        },
+        {
+          "id": "aljazeera-trump-crypto-conflict-guardian-0",
+          "outletId": "aljazeera",
+          "outletName": "Al Jazeera",
+          "headline": "‘We can relate’: Bosnia fans bring passion, Palestine support, to World Cup",
+          "url": "https://www.aljazeera.com/news/2026/7/1/we-can-relate-bosnia-fans-bring-passion-palestine-support-to-world-cup?traffic_source=rss",
+          "biasScore": 3.5,
+          "biasSignals": [
+            "neutral Al Jazeera factual figure reporting",
+            "no strong ideological loading"
+          ],
+          "biasScoreGrok": 4.5,
+          "biasSignalsGrok": [
+            "Bosnia fans bring passion",
+            "Palestine support"
+          ],
+          "pubDate": "Wed, 01 Jul 2026 11:17:39 +0000",
+          "clusterId": "trump-crypto-conflict-guardian"
+        },
+        {
+          "id": "bostonglobe-trump-crypto-conflict-guardian-4",
+          "outletId": "bostonglobe",
+          "outletName": "Boston Globe",
+          "headline": "Trump filing shows he took in about $1.2 billion from crypto businesses last year",
+          "url": "https://www.bostonglobe.com/2026/07/01/nation/trump-financial-disclosure/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
+          "biasScore": 3.5,
+          "biasSignals": [
+            "neutral factual filing report",
+            "no charged language"
+          ],
+          "biasScoreGrok": 3,
+          "biasSignalsGrok": [
+            "took 1.2 billion crypto",
+            "filing shows"
+          ],
+          "pubDate": "Wed, 01 Jul 2026 12:23:58 +0000",
+          "clusterId": "trump-crypto-conflict-guardian"
+        }
+      ]
+    },
+    {
+      "id": "aipac-colorado-primary-money",
+      "topicLabel": "AIPAC-linked money floods Colorado Democratic primary race",
+      "date": "2026-07-01",
+      "articles": [
+        {
+          "id": "msnbc-aipac-colorado-primary-money-0",
+          "outletId": "msnbc",
+          "outletName": "MSNBC",
+          "headline": "AIPAC-linked money floods a Denver primary as DeGette fights for survival",
+          "url": "https://www.ms.now/news/colorado-primary-democratic-socialist-degette-kiros",
+          "biasScore": 2.5,
+          "biasSignals": [
+            "'floods' — loaded verb implying excessive outside influence",
+            "AIPAC framed as threat to progressive candidate"
           ],
           "biasScoreGrok": 3.3,
           "biasSignalsGrok": [
-            "Vox retracts noted",
-            "Alito story"
+            "AIPAC money floods",
+            "DeGette fights survival"
           ],
-          "pubDate": "2026-06-30T15:01:52.000Z",
-          "clusterId": "alito-retirement-false-story"
+          "pubDate": "2026-06-30T09:00:00Z",
+          "clusterId": "aipac-colorado-primary-money"
         },
         {
-          "id": "forbes-alito-retirement-false-story-1",
-          "outletId": "forbes",
-          "outletName": "Forbes",
-          "headline": "No, Samuel Alito Has Not Retired From The Supreme Court—False Story Goes Viral",
-          "url": "https://www.forbes.com/sites/zacharyfolk/2026/06/30/no-samuel-alito-has-not-retired-from-the-supreme-court-false-story-goes-viral/",
-          "biasScore": 5,
+          "id": "economist-aipac-colorado-primary-money-1",
+          "outletId": "economist",
+          "outletName": "The Economist",
+          "headline": "America’s pro-Israel lobby considers next steps",
+          "url": "https://www.economist.com/united-states/2026/06/25/americas-pro-israel-lobby-considers-next-steps",
+          "biasScore": 4.5,
           "biasSignals": [
-            "\"False Story Goes Viral\" — neutral factual framing",
-            "no political loading"
+            "neutral analytical framing of lobby strategy",
+            "no strong ideological loading"
           ],
-          "biasScoreGrok": 6.8,
+          "biasScoreGrok": 5,
           "biasSignalsGrok": [
-            "false story goes viral",
-            "has not retired"
+            "pro-Israel lobby steps",
+            "America considers next"
           ],
-          "pubDate": "Tue, 30 Jun 2026 11:32:54 -0400",
-          "clusterId": "alito-retirement-false-story"
-        },
-        {
-          "id": "reason-alito-retirement-false-story-3",
-          "outletId": "reason",
-          "outletName": "Reason",
-          "headline": "NPR Announces, and Retracts, Alito Retirement Story",
-          "url": "https://reason.com/volokh/2026/06/30/npr-announces-and-retracts-alito-retirement-story/",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral Reason framing of media error story",
-            "no ideological loading"
-          ],
-          "biasScoreGrok": 6,
-          "biasSignalsGrok": [
-            "announces and retracts",
-            "retirement story"
-          ],
-          "pubDate": "Tue, 30 Jun 2026 15:40:27 +0000",
-          "clusterId": "alito-retirement-false-story"
-        },
-        {
-          "id": "nypost-alito-retirement-false-story-0",
-          "outletId": "nypost",
-          "outletName": "NY Post",
-          "headline": "NPR erroneously reports Samuel Alito is retiring, minutes after Supreme Court’s birthright citizenship ruling",
-          "url": "https://nypost.com/2026/06/30/us-news/npr-erroneously-reports-samuel-alito-is-retiring/",
-          "biasScore": 5.5,
-          "biasSignals": [
-            "\"erroneously reports\" — neutral factual framing",
-            "timing detail implies NPR bias narrative subtly"
-          ],
-          "biasScoreGrok": 7.6,
-          "biasSignalsGrok": [
-            "NPR erroneously reports",
-            "quickly retracted"
-          ],
-          "pubDate": "Tue, 30 Jun 2026 12:02:50 -0400",
-          "clusterId": "alito-retirement-false-story"
+          "pubDate": "Thu, 25 Jun 2026 12:58:00 +0000",
+          "clusterId": "aipac-colorado-primary-money"
         }
       ]
     },
     {
-      "id": "hegseth-signal-chat",
-      "topicLabel": "Hegseth and officials used Signal after embarrassing leak",
-      "date": "2026-06-30",
+      "id": "scotus-powers-broad-ruling",
+      "topicLabel": "Supreme Court term ends expanding executive and conservative power",
+      "date": "2026-07-01",
       "articles": [
         {
-          "id": "independent-hegseth-signal-chat-0",
-          "outletId": "independent",
-          "outletName": "The Independent",
-          "headline": "Hegseth, Rubio and other government officials continued to use Signal app after embarrassing leak: report",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/hegseth-rubio-signal-app-leak-b3005803.html",
-          "biasScore": 3,
+          "id": "vox-scotus-powers-broad-ruling-2",
+          "outletId": "vox",
+          "outletName": "Vox",
+          "headline": "Trump’s quest for untrammeled power just got a big boost",
+          "url": "https://www.vox.com/policy/493735/trump-power-agencies-slaughter-supreme-court",
+          "biasScore": 2.5,
           "biasSignals": [
-            "\"embarrassing leak\" — framing critical of officials",
-            "\"report\" qualifier — slightly skeptical sourcing"
+            "'untrammeled power' — highly charged progressive language",
+            "'big boost' frames as dangerous expansion"
           ],
-          "biasScoreGrok": 4.2,
+          "biasScoreGrok": 2.8,
           "biasSignalsGrok": [
-            "continued to use Signal",
-            "after leak report"
+            "untrammeled power boost",
+            "Trump quest critical"
           ],
-          "pubDate": "Tue, 30 Jun 2026 16:57:28 GMT",
-          "clusterId": "hegseth-signal-chat"
+          "pubDate": "2026-06-30T20:05:00.000Z",
+          "clusterId": "scotus-powers-broad-ruling"
         },
         {
-          "id": "theatlantic-hegseth-signal-chat-1",
-          "outletId": "theatlantic",
-          "outletName": "The Atlantic",
-          "headline": "Hegseth, Rubio, and Caine Had an Auto-Deleting Signal Chat",
-          "url": "https://www.theatlantic.com/national-security/2026/06/trump-administration-signal-chat-marco-rubio/687735/?utm_source=feed",
-          "biasScore": 3,
+          "id": "economist-scotus-powers-broad-ruling-1",
+          "outletId": "economist",
+          "outletName": "The Economist",
+          "headline": "The Supreme Court has handed Donald Trump yet more power",
+          "url": "https://www.economist.com/united-states/2026/06/29/the-supreme-court-has-handed-donald-trump-yet-more-power",
+          "biasScore": 3.5,
           "biasSignals": [
-            "\"Auto-Deleting Signal Chat\" — implies concealment narrative",
-            "framing emphasizes secrecy concern"
+            "'handed Trump yet more power' — passive framing implies court complicity",
+            "concern-based framing"
           ],
-          "biasScoreGrok": 4,
+          "biasScoreGrok": 3.2,
           "biasSignalsGrok": [
-            "auto-deleting Signal chat",
-            "officials had"
+            "handed yet more power",
+            "Supreme Court Trump"
           ],
-          "pubDate": "Mon, 29 Jun 2026 21:10:00 -0400",
-          "clusterId": "hegseth-signal-chat"
+          "pubDate": "Mon, 29 Jun 2026 23:06:48 +0000",
+          "clusterId": "scotus-powers-broad-ruling"
+        },
+        {
+          "id": "npr-scotus-powers-broad-ruling-0",
+          "outletId": "npr",
+          "outletName": "NPR",
+          "headline": "Supreme Court deals some blows to Trump's agenda but leaves him with more expansive powers",
+          "url": "https://www.npr.org/2026/07/01/nx-s1-5876231/supreme-court-deals-some-blows-to-trumps-agenda-but-leaves-him-with-more-expansive-powers",
+          "biasScore": 3.8,
+          "biasSignals": [
+            "'blows to Trump's agenda' but 'more expansive powers' — concern framing",
+            "progressive alarm about power concentration"
+          ],
+          "biasScoreGrok": 3.9,
+          "biasSignalsGrok": [
+            "blows to agenda",
+            "more expansive powers"
+          ],
+          "pubDate": "Wed, 01 Jul 2026 05:00:00 -0400",
+          "clusterId": "scotus-powers-broad-ruling"
+        }
+      ]
+    },
+    {
+      "id": "ukraine-drone-russia-strikes",
+      "topicLabel": "Ukraine launches large drone attack on Moscow targets",
+      "date": "2026-07-01",
+      "articles": [
+        {
+          "id": "cnn-ukraine-drone-russia-strikes-0",
+          "outletId": "cnn",
+          "outletName": "CNN",
+          "headline": "Ukraine launches major drone attack on Moscow, hitting a satellite center and killing a baby",
+          "url": "https://www.cnn.com/2026/06/30/europe/moscow-dubna-attack-ukraine-intl",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral CNN factual framing of military action",
+            "includes civilian casualty detail without editorializing"
+          ],
+          "biasScoreGrok": 4.6,
+          "biasSignalsGrok": [
+            "major drone attack",
+            "hitting satellite killing baby"
+          ],
+          "pubDate": "2026-06-30T11:18:59Z",
+          "clusterId": "ukraine-drone-russia-strikes"
+        },
+        {
+          "id": "washexaminer-ukraine-drone-russia-strikes-1",
+          "outletId": "washexaminer",
+          "outletName": "Washington Examiner",
+          "headline": "Zelensky calls for peace after Ukraine strikes Russian oil refinery and military complex",
+          "url": "https://www.washingtonexaminer.com/news/4632070/zelensky-calls-for-peace-after-ukraine-strikes-russian-oil-refinery-and-military-complex/",
+          "biasScore": 5.5,
+          "biasSignals": [
+            "Zelensky 'calls for peace' while Ukraine strikes — mild irony framing",
+            "neutral but notes contradiction"
+          ],
+          "biasScoreGrok": 5.8,
+          "biasSignalsGrok": [
+            "calls for peace",
+            "strikes refinery complex"
+          ],
+          "pubDate": "Wed, 01 Jul 2026 10:29:57 +0000",
+          "clusterId": "ukraine-drone-russia-strikes"
         }
       ]
     }
   ],
   "outlets": [
     {
-      "outletId": "huffpost",
-      "outletName": "HuffPost",
-      "abbreviation": "HPost",
-      "currentScore": 2.83,
-      "currentScoreGrok": 2.38,
-      "articleCount": 6,
+      "outletId": "guardian",
+      "outletName": "The Guardian",
+      "abbreviation": "Guard",
+      "currentScore": 2.38,
+      "currentScoreGrok": 2.76,
+      "articleCount": 8,
       "expectedRange": [
-        2,
-        3.5
+        2.5,
+        4
       ]
     },
     {
-      "outletId": "independent",
-      "outletName": "The Independent",
-      "abbreviation": "Indep",
-      "currentScore": 3,
-      "currentScoreGrok": 4.2,
-      "articleCount": 1,
-      "expectedRange": [
-        3,
-        4.5
-      ]
-    },
-    {
-      "outletId": "theatlantic",
-      "outletName": "The Atlantic",
-      "abbreviation": "Atlntc",
-      "currentScore": 3,
-      "currentScoreGrok": 4,
+      "outletId": "latimes",
+      "outletName": "LA Times",
+      "abbreviation": "LAT",
+      "currentScore": 2.5,
+      "currentScoreGrok": 3,
       "articleCount": 1,
       "expectedRange": [
         2.5,
@@ -1923,33 +2492,21 @@
       "outletId": "vox",
       "outletName": "Vox",
       "abbreviation": "Vox",
-      "currentScore": 3.23,
-      "currentScoreGrok": 2.43,
-      "articleCount": 3,
+      "currentScore": 2.63,
+      "currentScoreGrok": 3.1,
+      "articleCount": 4,
       "expectedRange": [
         2.5,
         4
       ]
     },
     {
-      "outletId": "msnbc",
-      "outletName": "MSNBC",
-      "abbreviation": "MSNBC",
-      "currentScore": 3.44,
-      "currentScoreGrok": 2.7,
-      "articleCount": 5,
-      "expectedRange": [
-        1.5,
-        3.5
-      ]
-    },
-    {
-      "outletId": "guardian",
-      "outletName": "The Guardian",
-      "abbreviation": "Guard",
-      "currentScore": 3.65,
-      "currentScoreGrok": 2.68,
-      "articleCount": 4,
+      "outletId": "theatlantic",
+      "outletName": "The Atlantic",
+      "abbreviation": "Atlntc",
+      "currentScore": 3.25,
+      "currentScoreGrok": 4,
+      "articleCount": 2,
       "expectedRange": [
         2.5,
         4
@@ -1959,44 +2516,80 @@
       "outletId": "bostonglobe",
       "outletName": "Boston Globe",
       "abbreviation": "Globe",
-      "currentScore": 3.75,
-      "currentScoreGrok": 3.43,
-      "articleCount": 4,
+      "currentScore": 3.42,
+      "currentScoreGrok": 3.52,
+      "articleCount": 6,
       "expectedRange": [
         2.5,
         4
       ]
     },
     {
-      "outletId": "latimes",
-      "outletName": "LA Times",
-      "abbreviation": "LAT",
-      "currentScore": 4.17,
-      "currentScoreGrok": 3.6,
-      "articleCount": 3,
+      "outletId": "aljazeera",
+      "outletName": "Al Jazeera",
+      "abbreviation": "AJ",
+      "currentScore": 3.5,
+      "currentScoreGrok": 3.7,
+      "articleCount": 2,
       "expectedRange": [
-        2.5,
-        4
+        3.5,
+        5
+      ]
+    },
+    {
+      "outletId": "independent",
+      "outletName": "The Independent",
+      "abbreviation": "Indep",
+      "currentScore": 3.5,
+      "currentScoreGrok": 3.72,
+      "articleCount": 4,
+      "expectedRange": [
+        3,
+        4.5
       ]
     },
     {
       "outletId": "washpost",
       "outletName": "Washington Post",
       "abbreviation": "WPost",
-      "currentScore": 4.17,
-      "currentScoreGrok": 3.63,
-      "articleCount": 6,
+      "currentScore": 3.5,
+      "currentScoreGrok": 3.47,
+      "articleCount": 3,
       "expectedRange": [
         2.8,
         4.2
       ]
     },
     {
-      "outletId": "economist",
-      "outletName": "The Economist",
-      "abbreviation": "Econ",
-      "currentScore": 4.4,
-      "currentScoreGrok": 4.3,
+      "outletId": "npr",
+      "outletName": "NPR",
+      "abbreviation": "NPR",
+      "currentScore": 3.6,
+      "currentScoreGrok": 3.63,
+      "articleCount": 6,
+      "expectedRange": [
+        3.5,
+        4.5
+      ]
+    },
+    {
+      "outletId": "msnbc",
+      "outletName": "MSNBC",
+      "abbreviation": "MSNBC",
+      "currentScore": 3.71,
+      "currentScoreGrok": 3.44,
+      "articleCount": 7,
+      "expectedRange": [
+        1.5,
+        3.5
+      ]
+    },
+    {
+      "outletId": "marketwatch",
+      "outletName": "MarketWatch",
+      "abbreviation": "MW",
+      "currentScore": 3.75,
+      "currentScoreGrok": 4.65,
       "articleCount": 2,
       "expectedRange": [
         4.5,
@@ -2004,27 +2597,63 @@
       ]
     },
     {
-      "outletId": "axios",
-      "outletName": "Axios",
-      "abbreviation": "Axios",
-      "currentScore": 4.42,
-      "currentScoreGrok": 4.47,
-      "articleCount": 6,
+      "outletId": "economist",
+      "outletName": "The Economist",
+      "abbreviation": "Econ",
+      "currentScore": 4.13,
+      "currentScoreGrok": 3.97,
+      "articleCount": 4,
       "expectedRange": [
-        5.5,
-        6.5
+        4.5,
+        6
+      ]
+    },
+    {
+      "outletId": "huffpost",
+      "outletName": "HuffPost",
+      "abbreviation": "HPost",
+      "currentScore": 4.25,
+      "currentScoreGrok": 4.25,
+      "articleCount": 2,
+      "expectedRange": [
+        2,
+        3.5
       ]
     },
     {
       "outletId": "nytimes",
       "outletName": "NY Times",
       "abbreviation": "NYT",
-      "currentScore": 4.5,
-      "currentScoreGrok": 4.2,
-      "articleCount": 2,
+      "currentScore": 4.42,
+      "currentScoreGrok": 4.22,
+      "articleCount": 6,
       "expectedRange": [
         3,
         4.5
+      ]
+    },
+    {
+      "outletId": "bbc",
+      "outletName": "BBC",
+      "abbreviation": "BBC",
+      "currentScore": 4.5,
+      "currentScoreGrok": 4.5,
+      "articleCount": 2,
+      "expectedRange": [
+        4,
+        5.5
+      ]
+    },
+    {
+      "outletId": "ap",
+      "outletName": "Associated Press",
+      "abbreviation": "AP",
+      "currentScore": 4.5,
+      "currentScoreGrok": 4.45,
+      "articleCount": 4,
+      "expectedRange": [
+        4.5,
+        5.5
       ]
     },
     {
@@ -2032,7 +2661,7 @@
       "outletName": "CNBC",
       "abbreviation": "CNBC",
       "currentScore": 4.5,
-      "currentScoreGrok": 4.95,
+      "currentScoreGrok": 4.85,
       "articleCount": 2,
       "expectedRange": [
         4.5,
@@ -2044,91 +2673,67 @@
       "outletName": "ABC News",
       "abbreviation": "ABC",
       "currentScore": 4.5,
-      "currentScoreGrok": 4.63,
-      "articleCount": 3,
+      "currentScoreGrok": 4.75,
+      "articleCount": 2,
       "expectedRange": [
         3,
         4.5
       ]
     },
     {
-      "outletId": "npr",
-      "outletName": "NPR",
-      "abbreviation": "NPR",
-      "currentScore": 4.5,
-      "currentScoreGrok": 4.5,
-      "articleCount": 2,
+      "outletId": "nbc",
+      "outletName": "NBC News",
+      "abbreviation": "NBC",
+      "currentScore": 4.6,
+      "currentScoreGrok": 4.38,
+      "articleCount": 5,
       "expectedRange": [
-        3.5,
+        3,
         4.5
       ]
     },
     {
-      "outletId": "bbc",
-      "outletName": "BBC",
-      "abbreviation": "BBC",
-      "currentScore": 4.5,
-      "currentScoreGrok": 4.1,
-      "articleCount": 2,
+      "outletId": "yahoofinance",
+      "outletName": "Yahoo Finance",
+      "abbreviation": "YFin",
+      "currentScore": 4.75,
+      "currentScoreGrok": 4.85,
+      "articleCount": 4,
       "expectedRange": [
-        4,
-        5.5
+        4.5,
+        6
       ]
     },
     {
       "outletId": "cnn",
       "outletName": "CNN",
       "abbreviation": "CNN",
-      "currentScore": 4.5,
+      "currentScore": 4.75,
       "currentScoreGrok": 4.93,
-      "articleCount": 3,
+      "articleCount": 4,
       "expectedRange": [
         2.5,
         4
       ]
     },
     {
-      "outletId": "ap",
-      "outletName": "Associated Press",
-      "abbreviation": "AP",
-      "currentScore": 4.6,
-      "currentScoreGrok": 4.42,
-      "articleCount": 5,
-      "expectedRange": [
-        4.5,
-        5.5
-      ]
-    },
-    {
-      "outletId": "thehill",
-      "outletName": "The Hill",
-      "abbreviation": "Hill",
-      "currentScore": 4.63,
+      "outletId": "cbsnews",
+      "outletName": "CBS News",
+      "abbreviation": "CBS",
+      "currentScore": 4.88,
       "currentScoreGrok": 4.95,
       "articleCount": 4,
       "expectedRange": [
-        5.5,
-        7
-      ]
-    },
-    {
-      "outletId": "aljazeera",
-      "outletName": "Al Jazeera",
-      "abbreviation": "AJ",
-      "currentScore": 4.7,
-      "currentScoreGrok": 3.4,
-      "articleCount": 3,
-      "expectedRange": [
-        3.5,
-        5
+        3,
+        4.5
       ]
     },
     {
       "outletId": "forbes",
       "outletName": "Forbes",
       "abbreviation": "Forbes",
-      "currentScore": 4.75,
-      "currentScoreGrok": 6.05,
+      "currentScore": 5,
+      "currentScoreGrok": 5.1,
       "articleCount": 2,
       "expectedRange": [
         5,
@@ -2136,48 +2741,72 @@
       ]
     },
     {
-      "outletId": "timesofisrael",
-      "outletName": "Times of Israel",
-      "abbreviation": "TOI",
-      "currentScore": 4.8,
-      "currentScoreGrok": 5,
+      "outletId": "dailymail",
+      "outletName": "Daily Mail",
+      "abbreviation": "DM",
+      "currentScore": 5,
+      "currentScoreGrok": 5.3,
       "articleCount": 1,
       "expectedRange": [
-        5.5,
+        6.5,
+        8.5
+      ]
+    },
+    {
+      "outletId": "telegraph",
+      "outletName": "The Telegraph",
+      "abbreviation": "Tele",
+      "currentScore": 5,
+      "currentScoreGrok": 5.05,
+      "articleCount": 2,
+      "expectedRange": [
+        6,
         7.5
       ]
     },
     {
-      "outletId": "cbsnews",
-      "outletName": "CBS News",
-      "abbreviation": "CBS",
+      "outletId": "wsj",
+      "outletName": "Wall Street Journal",
+      "abbreviation": "WSJ",
       "currentScore": 5,
-      "currentScoreGrok": 4.9,
-      "articleCount": 3,
+      "currentScoreGrok": 5.1,
+      "articleCount": 2,
       "expectedRange": [
-        3,
-        4.5
+        5.5,
+        7
       ]
     },
     {
-      "outletId": "reason",
-      "outletName": "Reason",
-      "abbreviation": "Reason",
-      "currentScore": 5.5,
-      "currentScoreGrok": 6.13,
-      "articleCount": 4,
+      "outletId": "axios",
+      "outletName": "Axios",
+      "abbreviation": "Axios",
+      "currentScore": 5.17,
+      "currentScoreGrok": 4.57,
+      "articleCount": 3,
       "expectedRange": [
-        4.5,
+        5.5,
         6.5
+      ]
+    },
+    {
+      "outletId": "thehill",
+      "outletName": "The Hill",
+      "abbreviation": "Hill",
+      "currentScore": 5.83,
+      "currentScoreGrok": 5.53,
+      "articleCount": 3,
+      "expectedRange": [
+        5.5,
+        7
       ]
     },
     {
       "outletId": "nypost",
       "outletName": "NY Post",
       "abbreviation": "NYPost",
-      "currentScore": 5.5,
-      "currentScoreGrok": 6.73,
-      "articleCount": 3,
+      "currentScore": 5.88,
+      "currentScoreGrok": 5.73,
+      "articleCount": 4,
       "expectedRange": [
         6.5,
         8
@@ -2187,33 +2816,9 @@
       "outletId": "washexaminer",
       "outletName": "Washington Examiner",
       "abbreviation": "WExam",
-      "currentScore": 6.23,
-      "currentScoreGrok": 6.77,
-      "articleCount": 3,
-      "expectedRange": [
-        7,
-        8.5
-      ]
-    },
-    {
-      "outletId": "breitbart",
-      "outletName": "Breitbart",
-      "abbreviation": "BB",
-      "currentScore": 7.5,
-      "currentScoreGrok": 7.92,
-      "articleCount": 5,
-      "expectedRange": [
-        8.5,
-        9.8
-      ]
-    },
-    {
-      "outletId": "nationalreview",
-      "outletName": "National Review",
-      "abbreviation": "NR",
-      "currentScore": 7.5,
-      "currentScoreGrok": 8.7,
-      "articleCount": 1,
+      "currentScore": 6.45,
+      "currentScoreGrok": 6.63,
+      "articleCount": 4,
       "expectedRange": [
         7,
         8.5
@@ -2223,9 +2828,57 @@
       "outletId": "foxnews",
       "outletName": "Fox News",
       "abbreviation": "FOX",
-      "currentScore": 7.75,
-      "currentScoreGrok": 7.65,
-      "articleCount": 2,
+      "currentScore": 6.5,
+      "currentScoreGrok": 6.2,
+      "articleCount": 1,
+      "expectedRange": [
+        7,
+        8.5
+      ]
+    },
+    {
+      "outletId": "reason",
+      "outletName": "Reason",
+      "abbreviation": "Reason",
+      "currentScore": 6.5,
+      "currentScoreGrok": 6.5,
+      "articleCount": 1,
+      "expectedRange": [
+        4.5,
+        6.5
+      ]
+    },
+    {
+      "outletId": "breitbart",
+      "outletName": "Breitbart",
+      "abbreviation": "BB",
+      "currentScore": 7.25,
+      "currentScoreGrok": 7.78,
+      "articleCount": 4,
+      "expectedRange": [
+        8.5,
+        9.8
+      ]
+    },
+    {
+      "outletId": "dailycaller",
+      "outletName": "Daily Caller",
+      "abbreviation": "DC",
+      "currentScore": 7.33,
+      "currentScoreGrok": 7.6,
+      "articleCount": 3,
+      "expectedRange": [
+        7.5,
+        9
+      ]
+    },
+    {
+      "outletId": "nationalreview",
+      "outletName": "National Review",
+      "abbreviation": "NR",
+      "currentScore": 7.33,
+      "currentScoreGrok": 7.13,
+      "articleCount": 3,
       "expectedRange": [
         7,
         8.5
@@ -2235,15 +2888,15 @@
       "outletId": "thefederalist",
       "outletName": "The Federalist",
       "abbreviation": "Fed",
-      "currentScore": 9.65,
-      "currentScoreGrok": 9.25,
-      "articleCount": 2,
+      "currentScore": 8.5,
+      "currentScoreGrok": 8.63,
+      "articleCount": 4,
       "expectedRange": [
         7.5,
         9
       ]
     }
   ],
-  "articleCount": 93,
-  "storyCount": 16
+  "articleCount": 121,
+  "storyCount": 23
 }
