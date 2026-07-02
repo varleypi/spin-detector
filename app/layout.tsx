@@ -5,6 +5,7 @@ import { Analytics } from '@vercel/analytics/react'
 import './globals.css'
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://www.spindetector.com'),
   title: 'Spin Detector — Political Media Bias Tracker',
   description:
     'Real-time AI analysis of political bias across 55 major news outlets. Same story, multiple outlets, measurable bias.',

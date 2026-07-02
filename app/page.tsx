@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: 'Spin Detector — Political Media Bias Tracker',
   description:
     'Real-time AI analysis of political bias across 55 major news outlets. See how CNN, Fox News, BBC, NYT, and more frame the same stories — scored from Far Left to Far Right by Claude and Grok.',
+  alternates: { canonical: '/' },
   openGraph: {
     title: 'Spin Detector — Political Media Bias Tracker',
     description:

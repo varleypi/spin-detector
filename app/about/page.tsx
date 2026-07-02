@@ -4,6 +4,7 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'About — Spin Detector',
   description: 'About Spin Detector — how we measure political media bias using AI analysis of news headlines.',
+  alternates: { canonical: '/about' },
 }
 
 export default function About() {

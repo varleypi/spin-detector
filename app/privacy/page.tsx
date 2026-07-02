@@ -4,6 +4,7 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'Privacy Policy — Spin Detector',
   description: 'Privacy policy for Spin Detector, explaining how we collect, use, and protect your data.',
+  alternates: { canonical: '/privacy' },
 }
 
 export default function PrivacyPolicy() {
