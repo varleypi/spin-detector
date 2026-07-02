@@ -1,6 +1,5 @@
 import SpinDetectorApp from '@/components/SpinDetectorApp'
-import { MOCK_STORIES, OUTLETS } from '@/lib/mockData'
-import type { PipelineStatus } from '@/lib/types'
+import { getHomeData } from '@/lib/homeData'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -18,45 +17,13 @@ export const metadata: Metadata = {
   },
 }
 
-async function fetchData() {
-  if (process.env.SUPABASE_URL && process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY) {
-    try {
-      const baseUrl = process.env.NEXT_PUBLIC_BASE_URL ?? 'http://localhost:3000'
-      const [storiesRes, outletsRes, statusRes] = await Promise.all([
-        fetch(`${baseUrl}/api/stories/today`, { next: { revalidate: 3600 } }),
-        fetch(`${baseUrl}/api/outlets/scores`, { next: { revalidate: 3600 } }),
-        fetch(`${baseUrl}/api/pipeline/status`, { next: { revalidate: 60 } }),
-      ])
-      const [storiesData, outletsData, statusData] = await Promise.all([
-        storiesRes.json(),
-        outletsRes.json(),
-        statusRes.json(),
-      ])
-      return {
-        stories: storiesData.stories,
-        outlets: outletsData.outlets,
-        status: statusData as PipelineStatus,
-      }
-    } catch {
-      // Fall through to mock data
-    }
-  }
-
-  return {
-    stories: MOCK_STORIES,
-    outlets: OUTLETS,
-    status: {
-      lastRun: null,
-      articleCount: 0,
-      storyCount: MOCK_STORIES.length,
-      status: 'never' as const,
-      dataSource: 'demo' as const,
-    },
-  }
-}
+// Regenerate the page (ISR) at most every 15 minutes. Data is queried directly
+// from Supabase in getHomeData — no self-HTTP hop — and getHomeData never throws,
+// so a transient DB blip falls back to latest.json/mock rather than erroring.
+export const revalidate = 900
 
 export default async function Home() {
-  const { stories, outlets, status } = await fetchData()
+  const { stories, outlets, status } = await getHomeData()
 
   return (
     <SpinDetectorApp
