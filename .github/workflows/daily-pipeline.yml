@@ -64,6 +64,21 @@ jobs:
             echo "ℹ HEALTHCHECK_PING_URL not set — skipping ping"
           fi
 
+      - name: Trigger Neutral News pipeline
+        if: success()
+        continue-on-error: true   # never fail this job if the downstream trigger fails
+        run: |
+          if [ -n "${{ secrets.NEUTRAL_NEWS_TRIGGER_TOKEN }}" ]; then
+            curl -fsS -X POST \
+              -H "Authorization: Bearer ${{ secrets.NEUTRAL_NEWS_TRIGGER_TOKEN }}" \
+              -H "Accept: application/vnd.github+json" \
+              https://api.github.com/repos/varleypi/neutral-news/dispatches \
+              -d '{"event_type":"spindetector-updated"}'
+            echo "✅ Triggered Neutral News pipeline"
+          else
+            echo "ℹ NEUTRAL_NEWS_TRIGGER_TOKEN not set — skipping downstream trigger"
+          fi
+
       - name: Report success
         if: success()
         run: echo "✅ Pipeline completed successfully"
