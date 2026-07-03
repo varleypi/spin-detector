@@ -35,6 +35,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <div className="max-w-5xl mx-auto px-4 py-5 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-slate-600">
             <span>© {new Date().getFullYear()} Spin Detector — AI-powered political media bias tracker</span>
             <nav className="flex gap-4">
+              <Link href="/outlets" className="hover:text-slate-400 transition-colors">Outlets</Link>
               <Link href="/about" className="hover:text-slate-400 transition-colors">About</Link>
               <Link href="/privacy" className="hover:text-slate-400 transition-colors">Privacy Policy</Link>
               <a href="mailto:piers@spindetector.com" className="hover:text-slate-400 transition-colors">Contact</a>

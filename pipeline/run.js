@@ -19,9 +19,11 @@ require('dotenv').config({ path: require('path').join(__dirname, '..', '.env.loc
 const { fetchAllHeadlines } = require('./fetch')
 const { clusterAndScore } = require('./cluster')
 const { storeResults, logError } = require('./store')
+const { postDailyTweet } = require('./social')
 
 const REQUIRED_ENV = ['ANTHROPIC_API_KEY', 'SUPABASE_URL', 'SUPABASE_SERVICE_KEY', 'NEWSAPI_KEY']
-const OPTIONAL_ENV = ['XAI_API_KEY']  // enables Grok comparison scoring
+// XAI_API_KEY enables Grok comparison scoring; X_* enable the daily post to X.
+const OPTIONAL_ENV = ['XAI_API_KEY', 'X_API_KEY', 'X_API_SECRET', 'X_ACCESS_TOKEN', 'X_ACCESS_SECRET']
 
 async function main() {
   console.log('\n🔍 SPIN DETECTOR — NIGHTLY PIPELINE')
@@ -90,6 +92,14 @@ async function main() {
     console.error(`❌ Storage failed: ${err.message}`)
     await logError(null, `Storage failed: ${err.message}`, scoredArticles.length)
     process.exit(1)
+  }
+
+  // ── Stage 6: Daily social post (optional — requires X_* env) ──────────────
+  console.log('\n📣 Stage 6 — Posting daily highlight to X...')
+  try {
+    await postDailyTweet(scoredArticles)
+  } catch (err) {
+    console.warn(`   ⚠ Social step error: ${err.message} — continuing`)
   }
 
   const totalElapsed = ((Date.now() - startTime) / 1000).toFixed(1)
