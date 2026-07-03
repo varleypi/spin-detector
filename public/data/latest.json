@@ -1,886 +1,715 @@
 {
   "date": "2026-07-03",
-  "generatedAt": "2026-07-03T16:07:58.717Z",
+  "generatedAt": "2026-07-03T16:22:32.686Z",
   "stories": [
     {
-      "id": "trump-financial-disclosure-crypto-profits",
-      "topicLabel": "Trump reports billions in personal financial gains",
+      "id": "america-250-celebrations",
+      "topicLabel": "America's 250th birthday celebrations and Trump involvement",
       "date": "2026-07-03",
       "articles": [
         {
-          "id": "msnbc-trump-financial-disclosure-crypto-profits-9",
-          "outletId": "msnbc",
-          "outletName": "MSNBC",
-          "headline": "Trump is rearming America. His sons are invested in the companies selling it weapons.",
-          "url": "https://www.ms.now/news/trump-sons-defense-contractors-drones",
-          "biasScore": 2,
-          "biasSignals": [
-            "\"rearming America\" + sons profiting — conflict of interest framing",
-            "implies corruption without direct accusation"
-          ],
-          "biasScoreGrok": 2.8,
-          "biasSignalsGrok": [
-            "sons invested negative",
-            "rearming America attack"
-          ],
-          "pubDate": "2026-07-02T09:00:00Z",
-          "clusterId": "trump-financial-disclosure-crypto-profits"
-        },
-        {
-          "id": "msnbc-trump-financial-disclosure-crypto-profits-0",
-          "outletId": "msnbc",
-          "outletName": "MSNBC",
-          "headline": "As Trump profits from the presidency, he tries (and fails) to defend his massive windfall",
-          "url": "https://www.ms.now/rachel-maddow-show/maddowblog/trum-defends-massive-crypto-profits-white-house",
-          "biasScore": 2.1,
-          "biasSignals": [
-            "\"profits from the presidency\" — corruption framing",
-            "\"fails to defend\" — loaded verb dismissing Trump"
-          ],
-          "biasScoreGrok": 2.5,
-          "biasSignalsGrok": [
-            "profits framing negative",
-            "presidency windfall attack"
-          ],
-          "pubDate": "2026-07-02T13:55:23Z",
-          "clusterId": "trump-financial-disclosure-crypto-profits"
-        },
-        {
-          "id": "huffpost-trump-financial-disclosure-crypto-profits-8",
-          "outletId": "huffpost",
-          "outletName": "HuffPost",
-          "headline": "Wall Street Journal Spots The Big Political Danger In Trump's Financial Disclosure",
-          "url": "https://www.huffpost.com/entry/wall-street-journal-donald-trump-earnings_n_6a4627f9e4b001e08fc20aa1",
-          "biasScore": 2.5,
-          "biasSignals": [
-            "\"Big Political Danger\" — frames disclosure as damaging to Trump",
-            "framing WSJ as authority against Trump"
-          ],
-          "biasScoreGrok": 3.8,
-          "biasSignalsGrok": [
-            "big political danger framing",
-            "WSJ spotted"
-          ],
-          "pubDate": "2026-07-02T09:28:33Z",
-          "clusterId": "trump-financial-disclosure-crypto-profits"
-        },
-        {
-          "id": "npr-trump-financial-disclosure-crypto-profits-4",
-          "outletId": "npr",
-          "outletName": "NPR",
-          "headline": "Former ethics lawyer says Trump's crypto poses 'clear conflict of interest'",
-          "url": "https://www.npr.org/2026/07/02/nx-s1-5877487/trump-crypto-earnings-ethics",
-          "biasScore": 2.8,
-          "biasSignals": [
-            "\"clear conflict of interest\" — ethics lawyer framed as authority",
-            "progressive source (ethics lawyer) given implicit trust"
-          ],
-          "biasScoreGrok": 3.2,
-          "biasSignalsGrok": [
-            "clear conflict loaded",
-            "ethics lawyer quote"
-          ],
-          "pubDate": "Thu, 02 Jul 2026 06:44:01 -0400",
-          "clusterId": "trump-financial-disclosure-crypto-profits"
-        },
-        {
-          "id": "axios-trump-financial-disclosure-crypto-profits-6",
-          "outletId": "axios",
-          "outletName": "Axios",
-          "headline": "Democrats plot subpoena storm over Trump's $2 billion gold rush",
-          "url": "https://www.axios.com/2026/07/03/trump-financial-disclosure-democrats-subpoena",
-          "biasScore": 3.2,
-          "biasSignals": [
-            "\"subpoena storm\" — dramatic but neutral-leaning language",
-            "\"gold rush\" — mildly negative connotation for Trump"
-          ],
-          "biasScoreGrok": 6.8,
-          "biasSignalsGrok": [
-            "subpoena storm charged",
-            "gold rush negative"
-          ],
-          "pubDate": "Fri, 03 Jul 2026 09:45:04 +0000",
-          "clusterId": "trump-financial-disclosure-crypto-profits"
-        },
-        {
-          "id": "washexaminer-trump-financial-disclosure-crypto-profits-5",
-          "outletId": "washexaminer",
-          "outletName": "Washington Examiner",
-          "headline": "Democrats plan to bury Trumpworld in subpoenas after $2 billion financial disclosure",
-          "url": "https://www.washingtonexaminer.com/news/house/4635578/democrats-bury-trump-world-subpoenas-financial-disclosure/",
-          "biasScore": 3.5,
-          "biasSignals": [
-            "\"bury Trumpworld in subpoenas\" — adversarial framing",
-            "\"$2 billion\" figure leads without context"
-          ],
-          "biasScoreGrok": 7.2,
-          "biasSignalsGrok": [
-            "bury in subpoenas framing",
-            "Democrats attack"
-          ],
-          "pubDate": "Fri, 03 Jul 2026 14:25:27 +0000",
-          "clusterId": "trump-financial-disclosure-crypto-profits"
-        },
-        {
-          "id": "npr-trump-financial-disclosure-crypto-profits-3",
-          "outletId": "npr",
-          "outletName": "NPR",
-          "headline": "Trump raked in more than $1B through crypto ventures, federal filing shows",
-          "url": "https://www.npr.org/2026/07/02/nx-s1-5878394/trump-raked-in-more-than-1b-through-crypto-ventures-federal-filing-shows",
-          "biasScore": 3.8,
-          "biasSignals": [
-            "\"raked in\" — mildly loaded verb implying excess",
-            "neutral sourcing reference to federal filing"
-          ],
-          "biasScoreGrok": 4.8,
-          "biasSignalsGrok": [
-            "raked in verb loaded",
-            "federal filing shows neutral"
-          ],
-          "pubDate": "Thu, 02 Jul 2026 06:44:06 -0400",
-          "clusterId": "trump-financial-disclosure-crypto-profits"
-        },
-        {
-          "id": "washpost-trump-financial-disclosure-crypto-profits-2",
-          "outletId": "washpost",
-          "outletName": "Washington Post",
-          "headline": "Trump made $1.4 billion from crypto last year. Here’s what we know.",
-          "url": "https://www.washingtonpost.com/politics/2026/07/02/trump-made-14-billion-crypto-last-year-heres-what-we-know/",
-          "biasScore": 4.2,
-          "biasSignals": [
-            "\"Here's what we know\" — neutral, informational framing",
-            "matter-of-fact headline, minimal loading"
-          ],
-          "biasScoreGrok": 4.5,
-          "biasSignalsGrok": [
-            "crypto gains neutral",
-            "what we know balanced"
-          ],
-          "pubDate": "2026-07-02T12:15:00Z",
-          "clusterId": "trump-financial-disclosure-crypto-profits"
-        },
-        {
-          "id": "bostonglobe-trump-financial-disclosure-crypto-profits-7",
-          "outletId": "bostonglobe",
-          "outletName": "Boston Globe",
-          "headline": "MAGA base stays quiet after Trump reports billions in personal gains",
-          "url": "https://www.bostonglobe.com/2026/07/03/nation/trump-personal-finances-maga/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
-          "biasScore": 4.3,
-          "biasSignals": [
-            "neutral headline mirroring NYT framing",
-            "\"stays quiet\" — implicit criticism of MAGA base"
-          ],
-          "biasScoreGrok": 5.5,
-          "biasSignalsGrok": [
-            "MAGA base quiet neutral",
-            "gains reporting factual"
-          ],
-          "pubDate": "Fri, 03 Jul 2026 11:51:22 +0000",
-          "clusterId": "trump-financial-disclosure-crypto-profits"
-        },
-        {
-          "id": "nytimes-trump-financial-disclosure-crypto-profits-1",
-          "outletId": "nytimes",
-          "outletName": "NY Times",
-          "headline": "MAGA Base Stays Quiet After Trump Reports Billions in Personal Gains",
-          "url": "https://www.nytimes.com/2026/07/02/us/politics/trump-earnings-maga-reaction.html",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "\"MAGA Base Stays Quiet\" — neutral observation, mild framing",
-            "factual tone, no strong ideological language"
-          ],
-          "biasScoreGrok": 5.5,
-          "biasSignalsGrok": [
-            "MAGA base quiet neutral",
-            "gains reporting factual"
-          ],
-          "pubDate": "Fri, 03 Jul 2026 15:37:28 +0000",
-          "clusterId": "trump-financial-disclosure-crypto-profits"
-        }
-      ]
-    },
-    {
-      "id": "america-250-celebration-july4",
-      "topicLabel": "America's 250th anniversary celebrations and Trump's role",
-      "date": "2026-07-03",
-      "articles": [
-        {
-          "id": "latimes-america-250-celebration-july4-18",
-          "outletId": "latimes",
-          "outletName": "LA Times",
-          "headline": "Trump refashions America's 250th as a celebration of himself",
-          "url": "https://www.latimes.com/politics/story/2026-07-03/trump-refashions-americas-250th-as-celebration-of-himself",
-          "biasScore": 2,
-          "biasSignals": [
-            "\"refashions...as a celebration of himself\" — strong criticism framing",
-            "\"Trump\" as subject of self-aggrandizement narrative"
-          ],
-          "biasScoreGrok": 2.8,
-          "biasSignalsGrok": [
-            "refashions as himself",
-            "Trump negative"
-          ],
-          "pubDate": "Fri, 3 Jul 2026 10:00:00 GMT",
-          "clusterId": "america-250-celebration-july4"
-        },
-        {
-          "id": "msnbc-america-250-celebration-july4-0",
-          "outletId": "msnbc",
-          "outletName": "MSNBC",
-          "headline": "Inside Trump’s takeover of the America 250 celebration",
-          "url": "https://www.ms.now/news/inside-trump-takeover-america-250-celebration",
-          "biasScore": 2.2,
-          "biasSignals": [
-            "\"Trump's takeover\" — hostile framing of presidential role",
-            "implies illegitimate appropriation of national event"
-          ],
-          "biasScoreGrok": 2.3,
-          "biasSignalsGrok": [
-            "takeover framing negative",
-            "Trump inside"
-          ],
-          "pubDate": "2026-07-02T10:00:00Z",
-          "clusterId": "america-250-celebration-july4"
-        },
-        {
-          "id": "huffpost-america-250-celebration-july4-21",
+          "id": "huffpost-america-250-celebrations-24",
           "outletId": "huffpost",
           "outletName": "HuffPost",
           "headline": "MAGA Doesn’t Own Patriotism",
           "url": "https://www.huffpost.com/entry/maga-does-not-own-patriotism_n_6a45386fe4b087bc4f0b3603",
-          "biasScore": 2.2,
+          "biasScore": 2,
           "biasSignals": [
-            "\"MAGA Doesn't Own Patriotism\" — direct anti-conservative framing",
-            "emotionally charged, activist-sympathetic tone"
+            "directly challenges MAGA ownership of patriotism",
+            "activist-hero framing of progressive patriotism"
           ],
-          "biasScoreGrok": 3,
+          "biasScoreGrok": 2.4,
           "biasSignalsGrok": [
-            "MAGA doesn't own",
-            "patriotism framing"
+            "MAGA owns not",
+            "left defense"
           ],
           "pubDate": "2026-07-02T11:00:17Z",
-          "clusterId": "america-250-celebration-july4"
+          "clusterId": "america-250-celebrations"
         },
         {
-          "id": "npr-america-250-celebration-july4-2",
+          "id": "latimes-america-250-celebrations-16",
+          "outletId": "latimes",
+          "outletName": "LA Times",
+          "headline": "Trump refashions America's 250th as a celebration of himself",
+          "url": "https://www.latimes.com/politics/story/2026-07-03/trump-refashions-americas-250th-as-celebration-of-himself",
+          "biasScore": 2.2,
+          "biasSignals": [
+            "'refashions as celebration of himself' — strong accusation",
+            "frames Trump as narcissistic usurper of national event"
+          ],
+          "biasScoreGrok": 2.1,
+          "biasSignalsGrok": [
+            "refashions self focus",
+            "Trump negative"
+          ],
+          "pubDate": "Fri, 3 Jul 2026 10:00:00 GMT",
+          "clusterId": "america-250-celebrations"
+        },
+        {
+          "id": "npr-america-250-celebrations-3",
           "outletId": "npr",
           "outletName": "NPR",
           "headline": "House Democrats accuse Trump of 'hijacking' America's 250th birthday for his own gain",
           "url": "https://www.npr.org/2026/07/02/nx-s1-5879162/freedom-250-report-house-democrats-controversy",
           "biasScore": 2.5,
           "biasSignals": [
-            "\"hijacking\" — highly charged verb from Democrats adopted uncritically",
-            "progressive framing of Trump as self-serving"
+            "'hijacking' — charged language implying theft",
+            "Democrat accusation leads without counterpoint"
           ],
-          "biasScoreGrok": 2.8,
+          "biasScoreGrok": 2.3,
           "biasSignalsGrok": [
-            "hijacking loaded verb",
-            "for his own gain"
+            "hijacking charged verb",
+            "left framing dominant"
           ],
           "pubDate": "Thu, 02 Jul 2026 17:47:30 -0400",
-          "clusterId": "america-250-celebration-july4"
+          "clusterId": "america-250-celebrations"
         },
         {
-          "id": "bostonglobe-america-250-celebration-july4-19",
-          "outletId": "bostonglobe",
-          "outletName": "Boston Globe",
-          "headline": "‘Total opposite of unity’: Trump’s 250th approach diverges from Ford’s in the bicentennial",
-          "url": "https://www.bostonglobe.com/2026/07/03/nation/trump-250-anniversary/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
-          "biasScore": 2.5,
-          "biasSignals": [
-            "\"Total opposite of unity\" — negative framing of Trump approach",
-            "Ford bicentennial used as favorable contrast to Trump"
-          ],
-          "biasScoreGrok": 3.5,
-          "biasSignalsGrok": [
-            "opposite of unity",
-            "diverges from Ford"
-          ],
-          "pubDate": "Fri, 03 Jul 2026 10:13:37 +0000",
-          "clusterId": "america-250-celebration-july4"
-        },
-        {
-          "id": "guardian-america-250-celebration-july4-7",
+          "id": "guardian-america-250-celebrations-21",
           "outletId": "guardian",
           "outletName": "The Guardian",
           "headline": "‘The wheels are coming off’: readers reflect on the 250th anniversary of the American experiment",
           "url": "https://www.theguardian.com/us-news/2026/jul/03/250th-anniversary-readers-reflect",
-          "biasScore": 2.8,
+          "biasScore": 2.5,
           "biasSignals": [
-            "\"wheels are coming off\" — negative framing of American experiment",
-            "reader sentiment framed as broadly critical"
+            "'wheels are coming off' — emotionally negative framing",
+            "reader voices used to amplify anti-Trump sentiment"
           ],
-          "biasScoreGrok": 3,
+          "biasScoreGrok": 2.9,
           "biasSignalsGrok": [
             "wheels coming off",
             "experiment negative"
           ],
           "pubDate": "Fri, 03 Jul 2026 13:00:29 GMT",
-          "clusterId": "america-250-celebration-july4"
+          "clusterId": "america-250-celebrations"
         },
         {
-          "id": "washpost-america-250-celebration-july4-1",
+          "id": "msnbc-america-250-celebrations-0",
+          "outletId": "msnbc",
+          "outletName": "MSNBC",
+          "headline": "Inside Trump’s takeover of the America 250 celebration",
+          "url": "https://www.ms.now/news/inside-trump-takeover-america-250-celebration",
+          "biasScore": 2.8,
+          "biasSignals": [
+            "'takeover' — implies hostile appropriation by Trump",
+            "framing positions Trump as usurper of public event"
+          ],
+          "biasScoreGrok": 2.5,
+          "biasSignalsGrok": [
+            "takeover framing critical",
+            "Trump negative portrayal"
+          ],
+          "pubDate": "2026-07-02T10:00:00Z",
+          "clusterId": "america-250-celebrations"
+        },
+        {
+          "id": "bostonglobe-america-250-celebrations-17",
+          "outletId": "bostonglobe",
+          "outletName": "Boston Globe",
+          "headline": "‘Total opposite of unity’: Trump’s 250th approach diverges from Ford’s in the bicentennial",
+          "url": "https://www.bostonglobe.com/2026/07/03/nation/trump-250-anniversary/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
+          "biasScore": 2.8,
+          "biasSignals": [
+            "'total opposite of unity' — charged negative framing",
+            "contrast with Ford bicentennial implies Trump failure"
+          ],
+          "biasScoreGrok": 2.7,
+          "biasSignalsGrok": [
+            "opposite of unity",
+            "divergence critical"
+          ],
+          "pubDate": "Fri, 03 Jul 2026 10:13:37 +0000",
+          "clusterId": "america-250-celebrations"
+        },
+        {
+          "id": "washpost-america-250-celebrations-1",
           "outletId": "washpost",
           "outletName": "Washington Post",
           "headline": "Donors were misled by Trump-backed Freedom 250, House Democrats allege",
           "url": "https://www.washingtonpost.com/politics/2026/07/02/donors-were-misled-by-trump-backed-freedom-250-house-democrats-allege/",
           "biasScore": 3,
           "biasSignals": [
-            "\"misled\" and \"Democrats allege\" — balanced sourcing signal",
-            "leading with Democratic accusation frames Trump negatively"
+            "'misled' and 'allege' — Democrat sourcing trusted",
+            "leads with Democratic accusation framing"
           ],
-          "biasScoreGrok": 3.5,
+          "biasScoreGrok": 2.8,
           "biasSignalsGrok": [
-            "donors misled charged",
-            "House Democrats allege"
+            "misled allegation focus",
+            "Democrats sympathetic"
           ],
           "pubDate": "2026-07-02T10:00:01Z",
-          "clusterId": "america-250-celebration-july4"
+          "clusterId": "america-250-celebrations"
         },
         {
-          "id": "politico-america-250-celebration-july4-3",
-          "outletId": "politico",
-          "outletName": "Politico",
-          "headline": "Ken Burns on Trump’s America 250: ‘Washington needed no monuments’",
-          "url": "https://www.politico.com/video/2026/07/01/ken-burns-on-trumps-america-250-washington-needed-no-monuments-2115884",
-          "biasScore": 3,
-          "biasSignals": [
-            "Ken Burns as authority implicitly critical of Trump",
-            "\"Washington needed no monuments\" — indirect Trump critique"
-          ],
-          "biasScoreGrok": 4.2,
-          "biasSignalsGrok": [
-            "no monuments quote",
-            "Ken Burns neutral"
-          ],
-          "pubDate": "2026-07-02T03:59:00+00:00",
-          "clusterId": "america-250-celebration-july4"
-        },
-        {
-          "id": "vox-america-250-celebration-july4-20",
+          "id": "vox-america-250-celebrations-18",
           "outletId": "vox",
           "outletName": "Vox",
           "headline": "A very Trump July 4",
           "url": "https://www.vox.com/the-logoff-newsletter-trump/494300/trump-july-4-america-freedom-250-state-fair-fireworks-speech",
           "biasScore": 3,
           "biasSignals": [
-            "\"A very Trump July 4\" — implies politicization as negative",
-            "progressive Vox framing critical of Trump's role"
+            "'very Trump July 4' — dismissive framing of celebration",
+            "implies Trump has corrupted national holiday"
           ],
-          "biasScoreGrok": 3.2,
+          "biasScoreGrok": 3.4,
           "biasSignalsGrok": [
-            "very Trump July",
-            "loaded phrasing"
+            "very Trump dismissive",
+            "left framing"
           ],
           "pubDate": "2026-07-02T22:10:00.000Z",
-          "clusterId": "america-250-celebration-july4"
+          "clusterId": "america-250-celebrations"
         },
         {
-          "id": "guardian-america-250-celebration-july4-8",
+          "id": "guardian-america-250-celebrations-22",
           "outletId": "guardian",
           "outletName": "The Guardian",
           "headline": "As the US turns 250, new citizens feel pride and unease: ‘It’s survival’",
           "url": "https://www.theguardian.com/us-news/2026/jul/03/new-us-citizens-250th-anniversary",
-          "biasScore": 3.5,
+          "biasScore": 3,
           "biasSignals": [
-            "\"pride and unease\" — mixed but sympathetic to immigrant anxiety",
-            "\"survival\" framing implies threat under current government"
+            "'survival' framing positions immigrants as threatened",
+            "sympathetic immigrant victim framing"
           ],
-          "biasScoreGrok": 3.8,
+          "biasScoreGrok": 3.5,
           "biasSignalsGrok": [
-            "pride and unease mixed",
-            "new citizens focus"
+            "pride and unease",
+            "survival framing"
           ],
           "pubDate": "Fri, 03 Jul 2026 11:00:27 GMT",
-          "clusterId": "america-250-celebration-july4"
+          "clusterId": "america-250-celebrations"
         },
         {
-          "id": "cnbc-america-250-celebration-july4-11",
+          "id": "politico-america-250-celebrations-4",
+          "outletId": "politico",
+          "outletName": "Politico",
+          "headline": "Ken Burns on Trump’s America 250: ‘Washington needed no monuments’",
+          "url": "https://www.politico.com/video/2026/07/01/ken-burns-on-trumps-america-250-washington-needed-no-monuments-2115884",
+          "biasScore": 3.2,
+          "biasSignals": [
+            "Ken Burns critical quote given platform prominence",
+            "implicit sympathy for anti-Trump cultural critique"
+          ],
+          "biasScoreGrok": 5.1,
+          "biasSignalsGrok": [
+            "balanced quote use",
+            "historical context neutral"
+          ],
+          "pubDate": "2026-07-02T03:59:00+00:00",
+          "clusterId": "america-250-celebrations"
+        },
+        {
+          "id": "theatlantic-america-250-celebrations-20",
+          "outletId": "theatlantic",
+          "outletName": "The Atlantic",
+          "headline": "What This Fourth of July Is Really About",
+          "url": "https://www.theatlantic.com/newsletters/2026/07/july-4-meaning-trump-250/687794/?utm_source=feed",
+          "biasScore": 3.2,
+          "biasSignals": [
+            "'really about' signals corrective progressive framing",
+            "implies mainstream celebration misses true meaning"
+          ],
+          "biasScoreGrok": 5.2,
+          "biasSignalsGrok": [
+            "reflective neutral",
+            "balanced tone"
+          ],
+          "pubDate": "Fri, 03 Jul 2026 09:00:00 -0400",
+          "clusterId": "america-250-celebrations"
+        },
+        {
+          "id": "cnbc-america-250-celebrations-9",
           "outletId": "cnbc",
           "outletName": "CNBC",
           "headline": "Trump’s Freedom 250 draws corporate sponsors with business before his administration",
           "url": "https://www.cnbc.com/2026/07/03/trump-freedom-250-america250-corporate-sponsors-access.html",
           "biasScore": 3.5,
           "biasSignals": [
-            "\"corporate sponsors with business before his administration\" — conflict framing",
-            "neutral verb but implication of quid pro quo"
+            "conflict-of-interest framing via corporate sponsors angle",
+            "implies corruption without explicit accusation"
           ],
-          "biasScoreGrok": 4,
+          "biasScoreGrok": 3.1,
           "biasSignalsGrok": [
-            "draws corporate sponsors",
-            "business before admin"
+            "corporate sponsors angle",
+            "Trump conflict implied"
           ],
           "pubDate": "Fri, 03 Jul 2026 12:00:01 GMT",
-          "clusterId": "america-250-celebration-july4"
+          "clusterId": "america-250-celebrations"
         },
         {
-          "id": "vox-america-250-celebration-july4-22",
+          "id": "vox-america-250-celebrations-19",
           "outletId": "vox",
           "outletName": "Vox",
           "headline": "America at 250: Who are we, anyway?",
           "url": "https://www.vox.com/politics/493895/america-at-250-who-are-we-anyway",
           "biasScore": 3.5,
           "biasSignals": [
-            "\"Who are we, anyway?\" — reflective, mildly critical framing",
-            "Vox framing implies uncertainty about American identity"
+            "existential questioning frame implies national crisis",
+            "progressive identity framing of American nationhood"
           ],
-          "biasScoreGrok": 4,
+          "biasScoreGrok": 4.8,
           "biasSignalsGrok": [
-            "who are we anyway",
-            "250 question neutral"
+            "identity question neutral",
+            "minimal signals"
           ],
           "pubDate": "2026-07-02T17:00:00.000Z",
-          "clusterId": "america-250-celebration-july4"
+          "clusterId": "america-250-celebrations"
         },
         {
-          "id": "theatlantic-america-250-celebration-july4-23",
-          "outletId": "theatlantic",
-          "outletName": "The Atlantic",
-          "headline": "What This Fourth of July Is Really About",
-          "url": "https://www.theatlantic.com/newsletters/2026/07/july-4-meaning-trump-250/687794/?utm_source=feed",
-          "biasScore": 3.8,
+          "id": "guardian-america-250-celebrations-23",
+          "outletId": "guardian",
+          "outletName": "The Guardian",
+          "headline": "Zohran Mamdani to deliver speech to mark US’s 250th birthday in New York",
+          "url": "https://www.theguardian.com/us-news/2026/jul/03/zohran-mamdani-america-250-new-york",
+          "biasScore": 4.2,
           "biasSignals": [
-            "\"What This Fourth Is Really About\" — implies Trump misunderstands it",
-            "Atlantic progressive-leaning editorial framing"
+            "neutral reporting on Mamdani speech event",
+            "no loaded language in headline"
+          ],
+          "biasScoreGrok": 3.8,
+          "biasSignalsGrok": [
+            "alternative speech",
+            "progressive focus"
+          ],
+          "pubDate": "Fri, 03 Jul 2026 10:00:25 GMT",
+          "clusterId": "america-250-celebrations"
+        },
+        {
+          "id": "washpost-america-250-celebrations-2",
+          "outletId": "washpost",
+          "outletName": "Washington Post",
+          "headline": "What to know if you go to Trump’s potentially record-breaking fireworks show",
+          "url": "https://www.washingtonpost.com/dc-md-va/2026/07/02/what-know-if-you-go-trumps-potentially-record-breaking-fireworks-show/",
+          "biasScore": 4.8,
+          "biasSignals": [
+            "neutral informational framing, no ideological signals",
+            "factual 'what to know' format, balanced tone"
           ],
           "biasScoreGrok": 4.5,
           "biasSignalsGrok": [
-            "really about neutral",
-            "Fourth of July"
+            "neutral event preview",
+            "minimal ideological signals"
           ],
-          "pubDate": "Fri, 03 Jul 2026 09:00:00 -0400",
-          "clusterId": "america-250-celebration-july4"
+          "pubDate": "2026-07-02T10:00:01Z",
+          "clusterId": "america-250-celebrations"
         },
         {
-          "id": "axios-america-250-celebration-july4-15",
+          "id": "axios-america-250-celebrations-13",
           "outletId": "axios",
           "outletName": "Axios",
           "headline": "America's 250th fireworks party collides with burn-bans",
           "url": "https://www.axios.com/2026/07/02/americas-250th-fireworks-party-collides-with-burn-bans",
-          "biasScore": 5,
+          "biasScore": 4.8,
           "biasSignals": [
-            "neutral framing of fireworks vs burn-bans conflict",
-            "no ideological loading detected"
+            "neutral factual framing of fireworks logistics",
+            "no ideological signals in headline"
           ],
-          "biasScoreGrok": 4.8,
+          "biasScoreGrok": 4.2,
           "biasSignalsGrok": [
-            "collides with burn-bans",
-            "fireworks neutral"
+            "collides neutral verb",
+            "event logistics focus"
           ],
           "pubDate": "Thu, 02 Jul 2026 17:54:24 +0000",
-          "clusterId": "america-250-celebration-july4"
+          "clusterId": "america-250-celebrations"
         },
         {
-          "id": "economist-america-250-celebration-july4-9",
+          "id": "economist-america-250-celebrations-8",
           "outletId": "economist",
           "outletName": "The Economist",
           "headline": "Donald Trump’s reflecting-pool debacle is a gift to America",
           "url": "https://www.economist.com/united-states/2026/07/02/donald-trumps-reflecting-pool-debacle-is-a-gift-to-america",
           "biasScore": 5.2,
           "biasSignals": [
-            "\"debacle\" used for Trump but framed as gift — ambiguous",
-            "center-leaning Economist framing, balanced tone"
+            "'debacle' — mild negative framing of Trump event",
+            "ironically frames failure as 'gift,' ambivalent tone"
           ],
-          "biasScoreGrok": 6.8,
+          "biasScoreGrok": 4.9,
           "biasSignalsGrok": [
-            "debacle gift framing",
-            "Trump reflecting pool"
+            "debacle neutral term",
+            "mixed framing"
           ],
           "pubDate": "Thu, 02 Jul 2026 14:22:37 +0000",
-          "clusterId": "america-250-celebration-july4"
+          "clusterId": "america-250-celebrations"
         },
         {
-          "id": "nypost-america-250-celebration-july4-5",
-          "outletId": "nypost",
-          "outletName": "NY Post",
-          "headline": "‘A Capitol Fourth’ concert still on despite sweltering, record-setting heat",
-          "url": "https://nypost.com/2026/07/03/us-news/a-capitol-fourth-concert-still-on-despite-sweltering-record-setting-heat/",
-          "biasScore": 5.5,
-          "biasSignals": [
-            "neutral factual headline about concert continuing",
-            "no strong ideological signals"
-          ],
-          "biasScoreGrok": 5,
-          "biasSignalsGrok": [
-            "still on despite heat",
-            "neutral concert report"
-          ],
-          "pubDate": "Fri, 03 Jul 2026 07:37:07 -0700",
-          "clusterId": "america-250-celebration-july4"
-        },
-        {
-          "id": "washexaminer-america-250-celebration-july4-13",
-          "outletId": "washexaminer",
-          "outletName": "Washington Examiner",
-          "headline": "Mamdani lashes out at rich and powerful ‘turning us against one another’ during alternative America 250 speech",
-          "url": "https://www.washingtonexaminer.com/news/4635616/mamdani-lashes-out-rich-powerful-america-250-speech/",
-          "biasScore": 5.5,
-          "biasSignals": [
-            "\"lashes out\" — mildly negative verb for Mamdani",
-            "relatively neutral reporting of speech content"
-          ],
-          "biasScoreGrok": 6,
-          "biasSignalsGrok": [
-            "lashes out at rich",
-            "socialist speech"
-          ],
-          "pubDate": "Fri, 03 Jul 2026 15:22:18 +0000",
-          "clusterId": "america-250-celebration-july4"
-        },
-        {
-          "id": "economist-america-250-celebration-july4-10",
-          "outletId": "economist",
-          "outletName": "The Economist",
-          "headline": "The Supreme Court leaves Donald Trump with plenty to celebrate",
-          "url": "https://www.economist.com/united-states/2026/06/29/the-supreme-court-leaves-donald-trump-with-plenty-to-celebrate",
-          "biasScore": 5.8,
-          "biasSignals": [
-            "\"plenty to celebrate\" — mildly favorable toward Trump/SCOTUS",
-            "relatively neutral Economist framing"
-          ],
-          "biasScoreGrok": 5.5,
-          "biasSignalsGrok": [
-            "plenty to celebrate",
-            "Supreme Court neutral"
-          ],
-          "pubDate": "Mon, 29 Jun 2026 23:06:48 +0000",
-          "clusterId": "america-250-celebration-july4"
-        },
-        {
-          "id": "washexaminer-america-250-celebration-july4-12",
+          "id": "washexaminer-america-250-celebrations-10",
           "outletId": "washexaminer",
           "outletName": "Washington Examiner",
           "headline": "Extreme heat won’t stop Capitol Fourth concert, Trump speech, or fireworks. Crowds told to come prepared",
           "url": "https://www.washingtonexaminer.com/news/entertainment/4635608/extreme-heat-not-stop-capitol-fourth-concert-trump-fireworks/",
-          "biasScore": 5.8,
+          "biasScore": 5.5,
           "biasSignals": [
-            "neutral informational framing about event logistics",
-            "no strong ideological signals detected"
+            "neutral informational tone, no loaded language",
+            "factual coverage of event logistics"
           ],
-          "biasScoreGrok": 5.2,
+          "biasScoreGrok": 6.4,
           "biasSignalsGrok": [
-            "won't stop concert",
-            "Trump speech neutral"
+            "extreme heat neutral",
+            "Trump speech positive"
           ],
           "pubDate": "Fri, 03 Jul 2026 15:59:47 +0000",
-          "clusterId": "america-250-celebration-july4"
+          "clusterId": "america-250-celebrations"
         },
         {
-          "id": "thefederalist-america-250-celebration-july4-16",
-          "outletId": "thefederalist",
-          "outletName": "The Federalist",
-          "headline": "The Best And Worst Pavilions At The Great American State Fair",
-          "url": "https://thefederalist.com/2026/07/03/the-best-and-worst-pavilions-at-the-great-american-state-fair/?utm_source=rss&utm_medium=rss&utm_campaign=the-best-and-worst-pavilions-at-the-great-american-state-fair",
-          "biasScore": 6,
-          "biasSignals": [
-            "celebratory conservative framing of America 250 fair",
-            "no critical signals, patriotic tone"
-          ],
-          "biasScoreGrok": 6.5,
-          "biasSignalsGrok": [
-            "best and worst pavilions",
-            "state fair positive"
-          ],
-          "pubDate": "Fri, 03 Jul 2026 13:37:01 +0000",
-          "clusterId": "america-250-celebration-july4"
-        },
-        {
-          "id": "thefederalist-america-250-celebration-july4-17",
-          "outletId": "thefederalist",
-          "outletName": "The Federalist",
-          "headline": "Here’s Your Movie Guide For Hosting The Ultimate America 250 Film Fest",
-          "url": "https://thefederalist.com/2026/07/03/heres-your-movie-guide-for-hosting-the-ultimate-america-250-film-fest/?utm_source=rss&utm_medium=rss&utm_campaign=heres-your-movie-guide-for-hosting-the-ultimate-america-250-film-fest",
-          "biasScore": 6,
-          "biasSignals": [
-            "patriotic framing, conservative lifestyle content",
-            "celebratory America 250 framing without critique"
-          ],
-          "biasScoreGrok": 6.2,
-          "biasSignalsGrok": [
-            "ultimate film fest",
-            "America 250 positive"
-          ],
-          "pubDate": "Fri, 03 Jul 2026 11:30:45 +0000",
-          "clusterId": "america-250-celebration-july4"
-        },
-        {
-          "id": "washexaminer-america-250-celebration-july4-14",
+          "id": "washexaminer-america-250-celebrations-12",
           "outletId": "washexaminer",
           "outletName": "Washington Examiner",
           "headline": "Mamdani offers socialist challenge to Trump’s vision of America with July Fourth speech",
           "url": "https://www.washingtonexaminer.com/news/white-house/4634936/mamdani-offers-socialist-challenge-trump-vision-america/",
-          "biasScore": 6.2,
+          "biasScore": 5.5,
           "biasSignals": [
-            "\"socialist challenge\" framing positions Mamdani as challenger",
-            "frames Trump's vision as the norm to be challenged"
+            "neutral framing of ideological contrast",
+            "balanced 'socialist challenge' descriptor used"
           ],
-          "biasScoreGrok": 7,
+          "biasScoreGrok": 7.9,
           "biasSignalsGrok": [
-            "socialist challenge",
-            "Trump vision contrast"
+            "socialist challenge emphasis",
+            "Trump vision opposed"
           ],
           "pubDate": "Fri, 03 Jul 2026 11:00:00 +0000",
-          "clusterId": "america-250-celebration-july4"
+          "clusterId": "america-250-celebrations"
         },
         {
-          "id": "dailycaller-america-250-celebration-july4-6",
+          "id": "thefederalist-america-250-celebrations-15",
+          "outletId": "thefederalist",
+          "outletName": "The Federalist",
+          "headline": "Here’s Your Movie Guide For Hosting The Ultimate America 250 Film Fest",
+          "url": "https://thefederalist.com/2026/07/03/heres-your-movie-guide-for-hosting-the-ultimate-america-250-film-fest/?utm_source=rss&utm_medium=rss&utm_campaign=heres-your-movie-guide-for-hosting-the-ultimate-america-250-film-fest",
+          "biasScore": 5.5,
+          "biasSignals": [
+            "celebratory patriotic framing, mildly conservative",
+            "promotes America 250 event positively"
+          ],
+          "biasScoreGrok": 6.3,
+          "biasSignalsGrok": [
+            "film fest guide",
+            "patriotic emphasis"
+          ],
+          "pubDate": "Fri, 03 Jul 2026 11:30:45 +0000",
+          "clusterId": "america-250-celebrations"
+        },
+        {
+          "id": "washexaminer-america-250-celebrations-11",
+          "outletId": "washexaminer",
+          "outletName": "Washington Examiner",
+          "headline": "Mamdani lashes out at rich and powerful ‘turning us against one another’ during alternative America 250 speech",
+          "url": "https://www.washingtonexaminer.com/news/4635616/mamdani-lashes-out-rich-powerful-america-250-speech/",
+          "biasScore": 5.8,
+          "biasSignals": [
+            "neutral reporting on Mamdani's speech content",
+            "minimal editorializing on socialist challenger"
+          ],
+          "biasScoreGrok": 7.8,
+          "biasSignalsGrok": [
+            "lashes out loaded",
+            "socialist challenge frame"
+          ],
+          "pubDate": "Fri, 03 Jul 2026 15:22:18 +0000",
+          "clusterId": "america-250-celebrations"
+        },
+        {
+          "id": "thefederalist-america-250-celebrations-14",
+          "outletId": "thefederalist",
+          "outletName": "The Federalist",
+          "headline": "The Best And Worst Pavilions At The Great American State Fair",
+          "url": "https://thefederalist.com/2026/07/03/the-best-and-worst-pavilions-at-the-great-american-state-fair/?utm_source=rss&utm_medium=rss&utm_campaign=the-best-and-worst-pavilions-at-the-great-american-state-fair",
+          "biasScore": 5.8,
+          "biasSignals": [
+            "neutral evaluative framing of state fair pavilions",
+            "no strong ideological loading detected"
+          ],
+          "biasScoreGrok": 6.5,
+          "biasSignalsGrok": [
+            "best worst subjective",
+            "conservative cultural view"
+          ],
+          "pubDate": "Fri, 03 Jul 2026 13:37:01 +0000",
+          "clusterId": "america-250-celebrations"
+        },
+        {
+          "id": "dailycaller-america-250-celebrations-7",
           "outletId": "dailycaller",
           "outletName": "Daily Caller",
           "headline": "Freedom 250 Plans Seven Hours Of Flyovers In Most Ambitious US Aviation Event Ever",
           "url": "https://dailycaller.com/2026/07/03/freedom-250-flyover-aviation-july-4/",
-          "biasScore": 6.5,
+          "biasScore": 6.2,
           "biasSignals": [
-            "\"Most Ambitious US Aviation Event Ever\" — celebratory framing",
-            "positive framing of Freedom 250 without critique"
+            "'most ambitious' — laudatory framing of Trump event",
+            "superlative praise signals pro-administration enthusiasm"
           ],
-          "biasScoreGrok": 6.5,
+          "biasScoreGrok": 7.5,
           "biasSignalsGrok": [
-            "most ambitious event",
-            "Freedom 250 positive"
+            "ambitious event praise",
+            "right sympathetic tone"
           ],
           "pubDate": "Fri, 03 Jul 2026 15:42:03 +0000",
-          "clusterId": "america-250-celebration-july4"
+          "clusterId": "america-250-celebrations"
         },
         {
-          "id": "foxnews-america-250-celebration-july4-4",
+          "id": "nypost-america-250-celebrations-6",
+          "outletId": "nypost",
+          "outletName": "NY Post",
+          "headline": "Trump roasts other presidents during children’s book reading",
+          "url": "https://nypost.com/2026/07/03/us-news/trump-roasts-other-presidents-during-childrens-book-reading/",
+          "biasScore": 6.5,
+          "biasSignals": [
+            "'roasts' — positive framing of Trump's behavior",
+            "neutral-positive tone toward Trump public appearance"
+          ],
+          "biasScoreGrok": 6.8,
+          "biasSignalsGrok": [
+            "roasts verb loaded",
+            "Trump positive light"
+          ],
+          "pubDate": "Fri, 03 Jul 2026 07:18:29 -0700",
+          "clusterId": "america-250-celebrations"
+        },
+        {
+          "id": "foxnews-america-250-celebrations-5",
           "outletId": "foxnews",
           "outletName": "Fox News",
           "headline": "SEE IT: Pennsylvania Democrats boot GOP lawmaker from House floor over patriotic America 250 suit",
           "url": "https://www.foxnews.com/politics/see-it-pennsylvania-democrats-boot-gop-lawmaker-from-house-floor-over-patriotic-america-250-suit",
           "biasScore": 7.5,
           "biasSignals": [
-            "\"boot GOP lawmaker\" — victim framing for Republican",
-            "\"patriotic America 250 suit\" — sympathetic conservative framing"
+            "'boot' — charged verb against Democrats' action",
+            "frames GOP lawmaker as victim of partisan attack"
           ],
-          "biasScoreGrok": 7.5,
+          "biasScoreGrok": 7.2,
           "biasSignalsGrok": [
-            "boot GOP charged",
-            "patriotic suit positive"
+            "patriotic suit emphasis",
+            "Democrats critical"
           ],
           "pubDate": "2026-07-02T15:37:20.3078087Z",
-          "clusterId": "america-250-celebration-july4"
+          "clusterId": "america-250-celebrations"
         }
       ]
     },
     {
-      "id": "birthright-citizenship-scotus",
-      "topicLabel": "Supreme Court birthright citizenship ruling and fallout",
+      "id": "june-jobs-report",
+      "topicLabel": "June 2026 US jobs report disappoints expectations",
       "date": "2026-07-03",
       "articles": [
         {
-          "id": "huffpost-birthright-citizenship-scotus-7",
-          "outletId": "huffpost",
-          "outletName": "HuffPost",
-          "headline": "AWKWARD! Ted Cruz Gets Busted By His Own Past Words On Birthright Citizenship",
-          "url": "https://www.huffpost.com/entry/ted-cruz-birthright-citizenship_n_6a46383ae4b03060a84bd23e",
-          "biasScore": 2,
+          "id": "msnbc-june-jobs-report-1",
+          "outletId": "msnbc",
+          "outletName": "MSNBC",
+          "headline": "Job numbers disappoint again as 2026 reaches the halfway point",
+          "url": "https://www.ms.now/rachel-maddow-show/maddowblog/job-numbers-disappoint-again-as-2026-halfway-point",
+          "biasScore": 2.8,
           "biasSignals": [
-            "\"AWKWARD!\" — emotionally charged, mocking framing of Cruz",
-            "progressive activist tone, Cruz portrayed as hypocrite"
-          ],
-          "biasScoreGrok": 2.8,
-          "biasSignalsGrok": [
-            "busted by past words",
-            "Cruz awkward"
-          ],
-          "pubDate": "2026-07-02T13:07:03Z",
-          "clusterId": "birthright-citizenship-scotus"
-        },
-        {
-          "id": "huffpost-birthright-citizenship-scotus-10",
-          "outletId": "huffpost",
-          "outletName": "HuffPost",
-          "headline": "U.S. World Cup Fans Taunt Trump Over Folarin Balogun's Birthright Citizenship",
-          "url": "https://www.huffpost.com/entry/world-cup-fans-folarin-balogun-donald-trump-birthright-citizenship_n_6a464906e4b001e08fc2227a",
-          "biasScore": 2,
-          "biasSignals": [
-            "\"Taunt Trump\" framed approvingly — progressive celebration",
-            "Balogun's birthright status used as political weapon vs Trump"
-          ],
-          "biasScoreGrok": 3,
-          "biasSignalsGrok": [
-            "taunt Trump framing",
-            "World Cup fans"
-          ],
-          "pubDate": "2026-07-02T13:36:28Z",
-          "clusterId": "birthright-citizenship-scotus"
-        },
-        {
-          "id": "vox-birthright-citizenship-scotus-6",
-          "outletId": "vox",
-          "outletName": "Vox",
-          "headline": "The Supreme Court can no longer explain itself",
-          "url": "https://www.vox.com/politics/494282/supreme-court-illegible",
-          "biasScore": 2.5,
-          "biasSignals": [
-            "\"can no longer explain itself\" — strong institutional critique",
-            "Vox framing of SCOTUS as failing democracy"
+            "'disappoint again' — repetitive failure framing",
+            "implies systematic underperformance under Trump"
           ],
           "biasScoreGrok": 3.2,
           "biasSignalsGrok": [
-            "no longer explain",
-            "court negative"
+            "disappoint again",
+            "repeated negative"
           ],
-          "pubDate": "2026-07-03T10:45:00.000Z",
-          "clusterId": "birthright-citizenship-scotus"
+          "pubDate": "2026-07-02T12:51:05Z",
+          "clusterId": "june-jobs-report"
         },
         {
-          "id": "theatlantic-birthright-citizenship-scotus-9",
-          "outletId": "theatlantic",
-          "outletName": "The Atlantic",
-          "headline": "These Justices Are Not Impartial",
-          "url": "https://www.theatlantic.com/ideas/2026/07/birthright-citizenship-dissents/687799/?utm_source=feed",
-          "biasScore": 2.5,
+          "id": "cnn-june-jobs-report-0",
+          "outletId": "cnn",
+          "outletName": "CNN",
+          "headline": "US job growth slowed more than expected in June",
+          "url": "https://www.cnn.com/2026/07/02/economy/us-jobs-report-june-final",
+          "biasScore": 4.5,
           "biasSignals": [
-            "\"Not Impartial\" — strong institutional critique of justices",
-            "Atlantic progressive framing, implies partisan court"
+            "neutral 'slowed more than expected' framing",
+            "factual economic reporting, no blame attribution"
           ],
-          "biasScoreGrok": 2.5,
+          "biasScoreGrok": 4.1,
           "biasSignalsGrok": [
-            "justices not impartial",
-            "loaded critique"
+            "slowed more expected",
+            "neutral economic"
           ],
-          "pubDate": "Fri, 03 Jul 2026 08:25:00 -0400",
-          "clusterId": "birthright-citizenship-scotus"
+          "pubDate": "2026-07-02T09:00:25Z",
+          "clusterId": "june-jobs-report"
         },
         {
-          "id": "thehill-birthright-citizenship-scotus-2",
+          "id": "thehill-june-jobs-report-2",
           "outletId": "thehill",
           "outletName": "The Hill",
-          "headline": "Justice Barrett faces conservative ire, sexist attacks after birthright citizenship ruling",
-          "url": "https://thehill.com/regulation/court-battles/5950325-conservative-outrage-barrett-ruling/",
-          "biasScore": 3,
+          "headline": "Live updates: Trump pushes for lower oil prices; US adds fewer jobs than expected",
+          "url": "https://thehill.com/homenews/administration/5950215-live-updates-trump-america-250/",
+          "biasScore": 4.5,
           "biasSignals": [
-            "\"sexist attacks\" on Barrett — progressive victim framing",
-            "\"conservative ire\" framed as unfair pressure"
+            "neutral live-update format, factual framing",
+            "no loaded language about jobs data"
           ],
-          "biasScoreGrok": 3.8,
+          "biasScoreGrok": 4.7,
           "biasSignalsGrok": [
-            "conservative ire attacks",
-            "Barrett focus"
-          ],
-          "pubDate": "2026-07-02T10:00:00Z",
-          "clusterId": "birthright-citizenship-scotus"
-        },
-        {
-          "id": "politico-birthright-citizenship-scotus-0",
-          "outletId": "politico",
-          "outletName": "Politico",
-          "headline": "Birthright citizens score - Live Updates - POLITICO",
-          "url": "https://www.politico.com/live-updates/2026/07/01/world-cup-2026/big-week-birthright-citizens-folarin-balogun-supreme-court-00985309",
-          "biasScore": 5,
-          "biasSignals": [
-            "\"score\" — neutral framing of legal outcome",
-            "live updates format, minimal editorial loading"
-          ],
-          "biasScoreGrok": 5,
-          "biasSignalsGrok": [
-            "birthright citizens score",
+            "fewer jobs expected",
             "live updates neutral"
           ],
-          "pubDate": "2026-07-02T00:59:48+00:00",
-          "clusterId": "birthright-citizenship-scotus"
+          "pubDate": "2026-07-02T13:04:55Z",
+          "clusterId": "june-jobs-report"
         },
         {
-          "id": "reason-birthright-citizenship-scotus-8",
-          "outletId": "reason",
-          "outletName": "Reason",
-          "headline": "Some Thoughts on the Court's Opinion(s) in the Birthright Citizenship Case",
-          "url": "https://reason.com/volokh/2026/07/03/birthright-citizenship-case-1/",
-          "biasScore": 5.5,
+          "id": "axios-june-jobs-report-3",
+          "outletId": "axios",
+          "outletName": "Axios",
+          "headline": "No World Cup jobs bump evident in June data",
+          "url": "https://www.axios.com/2026/07/02/jobs-data-world-cup",
+          "biasScore": 4.8,
           "biasSignals": [
-            "\"Some Thoughts\" — neutral academic framing",
-            "Reason libertarian lens, relatively balanced analysis"
+            "neutral analytical framing about World Cup jobs link",
+            "factual absence-of-evidence framing"
           ],
-          "biasScoreGrok": 5.5,
+          "biasScoreGrok": 4.3,
           "biasSignalsGrok": [
-            "some thoughts neutral",
-            "court opinion"
+            "no bump evident",
+            "data focused"
           ],
-          "pubDate": "Fri, 03 Jul 2026 14:00:06 +0000",
-          "clusterId": "birthright-citizenship-scotus"
+          "pubDate": "Thu, 02 Jul 2026 16:15:47 +0000",
+          "clusterId": "june-jobs-report"
+        }
+      ]
+    },
+    {
+      "id": "trump-personal-financial-gains",
+      "topicLabel": "Trump reports billions in personal financial gains",
+      "date": "2026-07-03",
+      "articles": [
+        {
+          "id": "msnbc-trump-personal-financial-gains-0",
+          "outletId": "msnbc",
+          "outletName": "MSNBC",
+          "headline": "As Trump profits from the presidency, he tries (and fails) to defend his massive windfall",
+          "url": "https://www.ms.now/rachel-maddow-show/maddowblog/trum-defends-massive-crypto-profits-white-house",
+          "biasScore": 2,
+          "biasSignals": [
+            "'profits from presidency' — corruption framing",
+            "'fails to defend' — dismisses Trump's response"
+          ],
+          "biasScoreGrok": 2,
+          "biasSignalsGrok": [
+            "profits presidency",
+            "windfall failed defend"
+          ],
+          "pubDate": "2026-07-02T13:55:23Z",
+          "clusterId": "trump-personal-financial-gains"
         },
         {
-          "id": "economist-birthright-citizenship-scotus-1",
-          "outletId": "economist",
-          "outletName": "The Economist",
-          "headline": "The Supreme Court leaves Donald Trump with plenty to celebrate",
-          "url": "https://www.economist.com/united-states/2026/06/29/the-supreme-court-leaves-donald-trump-with-plenty-to-celebrate",
-          "biasScore": 5.8,
+          "id": "npr-trump-personal-financial-gains-3",
+          "outletId": "npr",
+          "outletName": "NPR",
+          "headline": "Former ethics lawyer says Trump's crypto poses 'clear conflict of interest'",
+          "url": "https://www.npr.org/2026/07/02/nx-s1-5877487/trump-crypto-earnings-ethics",
+          "biasScore": 2.5,
           "biasSignals": [
-            "\"plenty to celebrate\" frames ruling positively for Trump",
-            "Economist center-right framing on SCOTUS decisions"
+            "'clear conflict of interest' — ethics lawyer trusted source",
+            "ACLU-adjacent sourcing signals left-leaning framing"
           ],
-          "biasScoreGrok": 5.5,
+          "biasScoreGrok": 2.6,
           "biasSignalsGrok": [
-            "plenty to celebrate",
-            "Trump Supreme Court"
+            "clear conflict interest",
+            "ethics lawyer quote"
           ],
-          "pubDate": "Mon, 29 Jun 2026 23:06:48 +0000",
-          "clusterId": "birthright-citizenship-scotus"
+          "pubDate": "Thu, 02 Jul 2026 06:44:01 -0400",
+          "clusterId": "trump-personal-financial-gains"
         },
         {
-          "id": "thehill-birthright-citizenship-scotus-3",
-          "outletId": "thehill",
-          "outletName": "The Hill",
-          "headline": "FOR INSIDERS: Trump sees opportunity on birthright citizenship in Brett Kavanaugh opinion",
-          "url": "https://thehill.com/regulation/court-battles/5950533-supreme-court-birthright-ruling/",
-          "biasScore": 6.5,
+          "id": "axios-trump-personal-financial-gains-5",
+          "outletId": "axios",
+          "outletName": "Axios",
+          "headline": "Democrats plot subpoena storm over Trump's $2 billion gold rush",
+          "url": "https://www.axios.com/2026/07/03/trump-financial-disclosure-democrats-subpoena",
+          "biasScore": 3,
           "biasSignals": [
-            "Trump framed as strategically seizing opportunity — neutral-positive",
-            "insider framing sympathetic to Republican strategy"
+            "'subpoena storm' — dramatic charged language",
+            "'gold rush' — greed framing of Trump finances"
           ],
-          "biasScoreGrok": 6,
+          "biasScoreGrok": 6.9,
           "biasSignalsGrok": [
-            "sees opportunity",
-            "Kavanaugh opinion"
+            "subpoena storm",
+            "gold rush critical"
           ],
-          "pubDate": "2026-07-02T10:00:00Z",
-          "clusterId": "birthright-citizenship-scotus"
+          "pubDate": "Fri, 03 Jul 2026 09:45:04 +0000",
+          "clusterId": "trump-personal-financial-gains"
         },
         {
-          "id": "nbc-birthright-citizenship-scotus-5",
-          "outletId": "nbc",
-          "outletName": "NBC News",
-          "headline": "Republicans fear Trump will use the SAVE Act to blame them if they lose the election",
-          "url": "https://www.nbcnews.com/politics/donald-trump/republicans-fear-trump-will-use-save-america-act-blame-lose-election-rcna352551",
-          "biasScore": 6.5,
+          "id": "npr-trump-personal-financial-gains-2",
+          "outletId": "npr",
+          "outletName": "NPR",
+          "headline": "Trump raked in more than $1B through crypto ventures, federal filing shows",
+          "url": "https://www.npr.org/2026/07/02/nx-s1-5878394/trump-raked-in-more-than-1b-through-crypto-ventures-federal-filing-shows",
+          "biasScore": 3.2,
           "biasSignals": [
-            "\"fear Trump will use SAVE Act to blame them\" — GOP victim framing",
-            "Republican concerns given sympathetic treatment"
+            "neutral factual lead on crypto filing amount",
+            "mild conflict-of-interest framing via context"
           ],
-          "biasScoreGrok": 4.5,
+          "biasScoreGrok": 3.9,
           "biasSignalsGrok": [
-            "Republicans fear",
-            "blame if lose"
+            "raked in crypto",
+            "conflict implied"
           ],
-          "pubDate": "2026-07-02T10:00:00Z",
-          "clusterId": "birthright-citizenship-scotus"
+          "pubDate": "Thu, 02 Jul 2026 06:44:06 -0400",
+          "clusterId": "trump-personal-financial-gains"
         },
         {
-          "id": "thefederalist-birthright-citizenship-scotus-4",
-          "outletId": "thefederalist",
-          "outletName": "The Federalist",
-          "headline": "SCOTUS Birthplace Citizenship Decision Is John Roberts’ Roe v. Wade",
-          "url": "https://thefederalist.com/2026/07/03/scotus-birthplace-citizenship-decision-is-john-roberts-roe-v-wade/?utm_source=rss&utm_medium=rss&utm_campaign=scotus-birthplace-citizenship-decision-is-john-roberts-roe-v-wade",
-          "biasScore": 8,
+          "id": "nytimes-trump-personal-financial-gains-1",
+          "outletId": "nytimes",
+          "outletName": "NY Times",
+          "headline": "MAGA Base Stays Quiet After Trump Reports Billions in Personal Gains",
+          "url": "https://www.nytimes.com/2026/07/02/us/politics/trump-earnings-maga-reaction.html",
+          "biasScore": 3.5,
           "biasSignals": [
-            "\"Roberts' Roe v. Wade\" — extreme negative comparison for precedent",
-            "far-right framing: SCOTUS decision as constitutional crisis"
+            "'MAGA Base Stays Quiet' — implies complicit silence",
+            "frames base as enabling financial misconduct"
           ],
-          "biasScoreGrok": 8,
+          "biasScoreGrok": 3.6,
           "biasSignalsGrok": [
-            "Roberts Roe v Wade",
-            "heavy conservative"
+            "MAGA base quiet",
+            "gains negative tone"
           ],
-          "pubDate": "Fri, 03 Jul 2026 11:32:41 +0000",
-          "clusterId": "birthright-citizenship-scotus"
+          "pubDate": "Fri, 03 Jul 2026 15:37:28 +0000",
+          "clusterId": "trump-personal-financial-gains"
+        },
+        {
+          "id": "bostonglobe-trump-personal-financial-gains-6",
+          "outletId": "bostonglobe",
+          "outletName": "Boston Globe",
+          "headline": "MAGA base stays quiet after Trump reports billions in personal gains",
+          "url": "https://www.bostonglobe.com/2026/07/03/nation/trump-personal-finances-maga/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
+          "biasScore": 3.5,
+          "biasSignals": [
+            "'stays quiet' implies complicit base enabling corruption",
+            "frames silence as moral failure"
+          ],
+          "biasScoreGrok": 3.7,
+          "biasSignalsGrok": [
+            "MAGA base quiet",
+            "gains focus"
+          ],
+          "pubDate": "Fri, 03 Jul 2026 11:51:22 +0000",
+          "clusterId": "trump-personal-financial-gains"
+        },
+        {
+          "id": "washexaminer-trump-personal-financial-gains-4",
+          "outletId": "washexaminer",
+          "outletName": "Washington Examiner",
+          "headline": "Democrats plan to bury Trumpworld in subpoenas after $2 billion financial disclosure",
+          "url": "https://www.washingtonexaminer.com/news/house/4635578/democrats-bury-trump-world-subpoenas-financial-disclosure/",
+          "biasScore": 3.8,
+          "biasSignals": [
+            "'bury in subpoenas' — aggressive Democratic action framing",
+            "Democrat plans presented without Republican response"
+          ],
+          "biasScoreGrok": 7.1,
+          "biasSignalsGrok": [
+            "bury subpoenas",
+            "Democrats aggressive"
+          ],
+          "pubDate": "Fri, 03 Jul 2026 14:25:27 +0000",
+          "clusterId": "trump-personal-financial-gains"
         }
       ]
     },
     {
       "id": "fbi-georgia-election-probe",
-      "topicLabel": "FBI analysts assigned to Georgia election investigation records",
+      "topicLabel": "FBI analysts assigned to examine Georgia election records",
       "date": "2026-07-03",
       "articles": [
         {
@@ -889,15 +718,15 @@
           "outletName": "MSNBC",
           "headline": "FBI directing hundreds of analysts to dig into subjects of GA election probe, sources say",
           "url": "https://www.ms.now/news/fbi-directing-hundreds-of-analysts-to-dig-into-subjects-of-ga-election-probe-sources-say",
-          "biasScore": 3,
+          "biasScore": 3.2,
           "biasSignals": [
-            "\"dig into subjects\" — mildly loaded verb implying targeting",
-            "progressive concern framing, sources cited sympathetically"
+            "'dig into' — investigative framing implies overreach",
+            "progressive concern about FBI targeting implied"
           ],
-          "biasScoreGrok": 4.8,
+          "biasScoreGrok": 4.4,
           "biasSignalsGrok": [
-            "hundreds of analysts",
-            "GA election probe"
+            "dig into subjects",
+            "neutral probe"
           ],
           "pubDate": "2026-07-02T10:00:00Z",
           "clusterId": "fbi-georgia-election-probe"
@@ -910,13 +739,13 @@
           "url": "https://www.nytimes.com/2026/07/02/us/politics/fbi-georgia-fulton-county-2020-election.html",
           "biasScore": 4.5,
           "biasSignals": [
-            "\"Scores of Analysts\" — neutral factual description",
-            "NYT balanced framing, minimal ideological signals"
+            "neutral verb 'assigns' — factual framing",
+            "balanced sourcing without ideological signals"
           ],
-          "biasScoreGrok": 4.5,
+          "biasScoreGrok": 4.6,
           "biasSignalsGrok": [
-            "assigns scores neutral",
-            "examine records"
+            "scores analysts",
+            "election records neutral"
           ],
           "pubDate": "Thu, 02 Jul 2026 23:54:32 +0000",
           "clusterId": "fbi-georgia-election-probe"
@@ -924,321 +753,188 @@
       ]
     },
     {
-      "id": "democratic-socialism-primary-midterms",
-      "topicLabel": "Democratic socialist candidates challenge party establishment in primaries",
+      "id": "birthright-citizenship-scotus",
+      "topicLabel": "Supreme Court birthright citizenship ruling and fallout",
       "date": "2026-07-03",
       "articles": [
         {
-          "id": "npr-democratic-socialism-primary-midterms-3",
-          "outletId": "npr",
-          "outletName": "NPR",
-          "headline": "Hakeem Jeffries addresses Democratic Party divisions, says Trump is the bigger issue",
-          "url": "https://www.npr.org/2026/07/03/nx-s1-5879082/hakeem-jeffries-democratic-party-divisions-trump-midterms",
-          "biasScore": 3.5,
+          "id": "huffpost-birthright-citizenship-scotus-6",
+          "outletId": "huffpost",
+          "outletName": "HuffPost",
+          "headline": "AWKWARD! Ted Cruz Gets Busted By His Own Past Words On Birthright Citizenship",
+          "url": "https://www.huffpost.com/entry/ted-cruz-birthright-citizenship_n_6a46383ae4b03060a84bd23e",
+          "biasScore": 2,
           "biasSignals": [
-            "Jeffries given platform to frame Trump as bigger issue",
-            "sympathetic framing of Democratic unity narrative"
+            "'busted by his own past words' — gotcha framing of Cruz",
+            "conservative hypocrisy as primary narrative"
           ],
-          "biasScoreGrok": 4.8,
+          "biasScoreGrok": 2.8,
           "biasSignalsGrok": [
-            "addresses divisions",
-            "Trump bigger issue"
+            "busted own words",
+            "awkward framing"
           ],
-          "pubDate": "Fri, 03 Jul 2026 04:15:00 -0400",
-          "clusterId": "democratic-socialism-primary-midterms"
+          "pubDate": "2026-07-02T13:07:03Z",
+          "clusterId": "birthright-citizenship-scotus"
         },
         {
-          "id": "ap-democratic-socialism-primary-midterms-14",
-          "outletId": "ap",
-          "outletName": "Associated Press",
-          "headline": "Trump and Republicans return to communist attacks against Democrats",
-          "url": "https://apnews.com/article/trump-republicans-democrats-communism-election-2026-5381c24e8eb4235ae993e812ad45ffbd",
-          "biasScore": 3.5,
+          "id": "vox-birthright-citizenship-scotus-5",
+          "outletId": "vox",
+          "outletName": "Vox",
+          "headline": "The Supreme Court can no longer explain itself",
+          "url": "https://www.vox.com/politics/494282/supreme-court-illegible",
+          "biasScore": 2.5,
           "biasSignals": [
-            "\"communist attacks\" — neutral description of GOP rhetoric",
-            "AP framing implies GOP overreach with \"communist\" label"
+            "'can no longer explain itself' — institutional delegitimization",
+            "progressive skepticism of conservative court majority"
           ],
-          "biasScoreGrok": 3,
+          "biasScoreGrok": 2.2,
           "biasSignalsGrok": [
-            "communist attacks",
-            "return to framing"
+            "can no longer explain",
+            "court critical"
           ],
-          "pubDate": "2026-07-02T10:49:00Z",
-          "clusterId": "democratic-socialism-primary-midterms"
+          "pubDate": "2026-07-03T10:45:00.000Z",
+          "clusterId": "birthright-citizenship-scotus"
         },
         {
-          "id": "washpost-democratic-socialism-primary-midterms-1",
-          "outletId": "washpost",
-          "outletName": "Washington Post",
-          "headline": "Ocasio-Cortez endorses in Michigan’s fraught Democratic Senate primary",
-          "url": "https://www.washingtonpost.com/politics/2026/07/02/alexandria-ocasio-cortez-endorses-michigans-democratic-senate-primary/",
-          "biasScore": 3.8,
+          "id": "huffpost-birthright-citizenship-scotus-8",
+          "outletId": "huffpost",
+          "outletName": "HuffPost",
+          "headline": "U.S. World Cup Fans Taunt Trump Over Folarin Balogun's Birthright Citizenship",
+          "url": "https://www.huffpost.com/entry/world-cup-fans-folarin-balogun-donald-trump-birthright-citizenship_n_6a464906e4b001e08fc2227a",
+          "biasScore": 2.8,
           "biasSignals": [
-            "\"fraught Democratic Senate primary\" — tension framing",
-            "AOC endorsement reported neutrally but context implies conflict"
+            "frames World Cup citizenship case to mock Trump",
+            "anti-Trump irony as primary narrative device"
           ],
-          "biasScoreGrok": 4,
+          "biasScoreGrok": 2.4,
           "biasSignalsGrok": [
-            "endorses in fraught",
-            "Ocasio-Cortez"
+            "taunt Trump",
+            "fans progressive"
           ],
-          "pubDate": "2026-07-02T14:33:17Z",
-          "clusterId": "democratic-socialism-primary-midterms"
+          "pubDate": "2026-07-02T13:36:28Z",
+          "clusterId": "birthright-citizenship-scotus"
         },
         {
-          "id": "npr-democratic-socialism-primary-midterms-2",
-          "outletId": "npr",
-          "outletName": "NPR",
-          "headline": "Could infighting derail Democrats' hopes to win back House?",
-          "url": "https://www.npr.org/2026/07/03/nx-s1-5879393/could-infighting-derail-democrats-hopes-to-win-back-house",
-          "biasScore": 4,
-          "biasSignals": [
-            "\"infighting\" — neutral but implies Democratic dysfunction",
-            "balanced framing of party divisions"
-          ],
-          "biasScoreGrok": 4.2,
-          "biasSignalsGrok": [
-            "infighting derail",
-            "Democrats hopes"
-          ],
-          "pubDate": "Fri, 03 Jul 2026 04:15:16 -0400",
-          "clusterId": "democratic-socialism-primary-midterms"
-        },
-        {
-          "id": "guardian-democratic-socialism-primary-midterms-9",
-          "outletId": "guardian",
-          "outletName": "The Guardian",
-          "headline": "Zohran Mamdani to deliver speech to mark US’s 250th birthday in New York",
-          "url": "https://www.theguardian.com/us-news/2026/jul/03/zohran-mamdani-america-250-new-york",
-          "biasScore": 4,
-          "biasSignals": [
-            "neutral reporting of Mamdani's speech event",
-            "no strong ideological signals in headline"
-          ],
-          "biasScoreGrok": 3.5,
-          "biasSignalsGrok": [
-            "Mamdani speech",
-            "250 birthday"
-          ],
-          "pubDate": "Fri, 03 Jul 2026 10:00:25 GMT",
-          "clusterId": "democratic-socialism-primary-midterms"
-        },
-        {
-          "id": "nbc-democratic-socialism-primary-midterms-13",
-          "outletId": "nbc",
-          "outletName": "NBC News",
-          "headline": "Rep. Alexandria Ocasio-Cortez endorses Abdul El-Sayed in Michigan Democratic primary",
-          "url": "https://www.nbcnews.com/politics/2026-election/alexandria-ocasio-cortez-endorses-abdul-el-sayed-michigan-primary-rcna352705",
-          "biasScore": 4,
-          "biasSignals": [
-            "neutral factual reporting of AOC endorsement",
-            "no strong ideological loading in headline"
-          ],
-          "biasScoreGrok": 4.2,
-          "biasSignalsGrok": [
-            "endorses El-Sayed",
-            "primary neutral"
-          ],
-          "pubDate": "2026-07-02T13:37:35Z",
-          "clusterId": "democratic-socialism-primary-midterms"
-        },
-        {
-          "id": "npr-democratic-socialism-primary-midterms-4",
-          "outletId": "npr",
-          "outletName": "NPR",
-          "headline": "Democratic socialists pose a challenge for the party as midterms approach",
-          "url": "https://www.npr.org/2026/07/02/nx-s1-5877755/democratic-socialists-pose-a-challenge-for-the-party-as-midterms-approach",
-          "biasScore": 4.2,
-          "biasSignals": [
-            "\"challenge\" — neutral framing of socialist candidates",
-            "NPR balanced tone, no strong loading"
-          ],
-          "biasScoreGrok": 3.8,
-          "biasSignalsGrok": [
-            "pose a challenge",
-            "socialists midterms"
-          ],
-          "pubDate": "Thu, 02 Jul 2026 04:48:05 -0400",
-          "clusterId": "democratic-socialism-primary-midterms"
-        },
-        {
-          "id": "nytimes-democratic-socialism-primary-midterms-0",
-          "outletId": "nytimes",
-          "outletName": "NY Times",
-          "headline": "A Big Gamble for the Left: Can Socialism Appeal in a Swing State?",
-          "url": "https://www.nytimes.com/2026/07/03/us/politics/democratic-socialism-wisconsin-francesca-hong.html",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "\"Big Gamble\" — neutral-skeptical framing of left strategy",
-            "balanced question format, no strong ideological loading"
-          ],
-          "biasScoreGrok": 3.5,
-          "biasSignalsGrok": [
-            "big gamble for left",
-            "socialism swing state"
-          ],
-          "pubDate": "Fri, 03 Jul 2026 09:01:28 +0000",
-          "clusterId": "democratic-socialism-primary-midterms"
-        },
-        {
-          "id": "thehill-democratic-socialism-primary-midterms-10",
+          "id": "thehill-birthright-citizenship-scotus-3",
           "outletId": "thehill",
           "outletName": "The Hill",
-          "headline": "Stephen A. Smith: Democratic socialism won’t ‘sell’ in general election",
-          "url": "https://thehill.com/homenews/campaign/5951296-stephen-a-smith-democratic-socialism/",
-          "biasScore": 6.5,
+          "headline": "Justice Barrett faces conservative ire, sexist attacks after birthright citizenship ruling",
+          "url": "https://thehill.com/regulation/court-battles/5950325-conservative-outrage-barrett-ruling/",
+          "biasScore": 3.2,
           "biasSignals": [
-            "Stephen A. Smith skepticism of socialism used approvingly",
-            "right-leaning framing: socialism won't sell"
+            "'sexist attacks' — victimization of Barrett by conservatives",
+            "conservative critics labeled with 'ire' and 'sexist'"
+          ],
+          "biasScoreGrok": 3.3,
+          "biasSignalsGrok": [
+            "conservative ire",
+            "sexist attacks"
+          ],
+          "pubDate": "2026-07-02T10:00:00Z",
+          "clusterId": "birthright-citizenship-scotus"
+        },
+        {
+          "id": "politico-birthright-citizenship-scotus-0",
+          "outletId": "politico",
+          "outletName": "Politico",
+          "headline": "Birthright citizens score - Live Updates - POLITICO",
+          "url": "https://www.politico.com/live-updates/2026/07/01/world-cup-2026/big-week-birthright-citizens-folarin-balogun-supreme-court-00985309",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "'score' — neutral competitive framing of legal victory",
+            "live-update format minimizes editorializing"
           ],
           "biasScoreGrok": 5.8,
           "biasSignalsGrok": [
-            "won't sell general",
-            "Smith socialism"
+            "score live updates",
+            "neutral legal"
           ],
-          "pubDate": "2026-07-02T15:00:07Z",
-          "clusterId": "democratic-socialism-primary-midterms"
+          "pubDate": "2026-07-02T00:59:48+00:00",
+          "clusterId": "birthright-citizenship-scotus"
         },
         {
-          "id": "foxnews-democratic-socialism-primary-midterms-5",
-          "outletId": "foxnews",
-          "outletName": "Fox News",
-          "headline": "AOC sides with Bernie-backed progressive in Senate primary clash with Schumer establishment",
-          "url": "https://www.foxnews.com/politics/aoc-sides-bernie-backed-progressive-senate-primary-clash-schumer-establishment",
-          "biasScore": 7,
+          "id": "reason-birthright-citizenship-scotus-7",
+          "outletId": "reason",
+          "outletName": "Reason",
+          "headline": "Some Thoughts on the Court's Opinion(s) in the Birthright Citizenship Case",
+          "url": "https://reason.com/volokh/2026/07/03/birthright-citizenship-case-1/",
+          "biasScore": 5.2,
           "biasSignals": [
-            "\"Bernie-backed progressive\" — framing as radical faction",
-            "\"Schumer establishment\" — conservative framing of Democratic split"
+            "analytical legal framing, relatively neutral",
+            "libertarian-leaning skepticism of both sides"
           ],
-          "biasScoreGrok": 6.5,
+          "biasScoreGrok": 5.5,
           "biasSignalsGrok": [
-            "sides with progressive",
-            "clash with establishment"
+            "thoughts opinion",
+            "legal analysis neutral"
           ],
-          "pubDate": "2026-07-02T15:52:21.8033401Z",
-          "clusterId": "democratic-socialism-primary-midterms"
+          "pubDate": "Fri, 03 Jul 2026 14:00:06 +0000",
+          "clusterId": "birthright-citizenship-scotus"
         },
         {
-          "id": "breitbart-democratic-socialism-primary-midterms-8",
-          "outletId": "breitbart",
-          "outletName": "Breitbart",
-          "headline": "Donny Deutsch: 'Democrats Have Gone off the Rails'",
-          "url": "https://www.breitbart.com/clips/2026/07/02/donny-deutsch-democrats-have-gone-off-the-rails/",
-          "biasScore": 7.2,
+          "id": "economist-birthright-citizenship-scotus-1",
+          "outletId": "economist",
+          "outletName": "The Economist",
+          "headline": "The Supreme Court leaves Donald Trump with plenty to celebrate",
+          "url": "https://www.economist.com/united-states/2026/06/29/the-supreme-court-leaves-donald-trump-with-plenty-to-celebrate",
+          "biasScore": 6.5,
           "biasSignals": [
-            "\"off the rails\" quote used to criticize Democrats",
-            "Breitbart platforming anti-Democrat voice approvingly"
+            "'plenty to celebrate' — positive framing for Trump",
+            "conservative-sympathetic framing of SCOTUS outcome"
           ],
-          "biasScoreGrok": 7.2,
+          "biasScoreGrok": 6.2,
           "biasSignalsGrok": [
-            "gone off the rails",
-            "Democrats attack"
+            "plenty celebrate",
+            "Trump positive"
           ],
-          "pubDate": "Fri, 03 Jul 2026 00:57:16 +0000",
-          "clusterId": "democratic-socialism-primary-midterms"
+          "pubDate": "Mon, 29 Jun 2026 23:06:48 +0000",
+          "clusterId": "birthright-citizenship-scotus"
         },
         {
-          "id": "breitbart-democratic-socialism-primary-midterms-6",
-          "outletId": "breitbart",
-          "outletName": "Breitbart",
-          "headline": "El-Sayed: 'Not Going to Play This Gotcha Game About' if Israel 'Has a Right to Exist'",
-          "url": "https://www.breitbart.com/clips/2026/07/03/el-sayed-not-going-to-play-this-gotcha-game-about-if-israel-has-a-right-to-exist/",
-          "biasScore": 7.5,
+          "id": "thehill-birthright-citizenship-scotus-2",
+          "outletId": "thehill",
+          "outletName": "The Hill",
+          "headline": "‘Birth tourism,’ though rare, prompts talk of barring pregnant women from entering US",
+          "url": "https://thehill.com/regulation/court-battles/5951451-trump-birthright-citizenship-outcry/",
+          "biasScore": 6.8,
           "biasSignals": [
-            "\"Gotcha Game\" quote highlights El-Sayed's evasiveness",
-            "Breitbart framing: progressive candidate as slippery"
+            "'birth tourism' framing signals immigration skepticism",
+            "right-leaning concern about border exploitation"
           ],
-          "biasScoreGrok": 7.8,
+          "biasScoreGrok": 7.3,
           "biasSignalsGrok": [
-            "right to exist gotcha",
-            "El-Sayed loaded"
+            "birth tourism",
+            "barring pregnant"
           ],
-          "pubDate": "Fri, 03 Jul 2026 07:15:55 +0000",
-          "clusterId": "democratic-socialism-primary-midterms"
+          "pubDate": "2026-07-02T15:53:40Z",
+          "clusterId": "birthright-citizenship-scotus"
         },
         {
-          "id": "nationalreview-democratic-socialism-primary-midterms-11",
-          "outletId": "nationalreview",
-          "outletName": "National Review",
-          "headline": "The Week: Socialism Spreads West",
-          "url": "https://www.nationalreview.com/2026/07/the-week-socialism-spreads-west/",
-          "biasScore": 7.5,
-          "biasSignals": [
-            "\"Socialism Spreads West\" — alarmist conservative framing",
-            "NR frames socialist expansion as negative threat"
-          ],
-          "biasScoreGrok": 6.8,
-          "biasSignalsGrok": [
-            "socialism spreads west",
-            "conservative framing"
-          ],
-          "pubDate": "Fri, 03 Jul 2026 10:30:31 +0000",
-          "clusterId": "democratic-socialism-primary-midterms"
-        },
-        {
-          "id": "breitbart-democratic-socialism-primary-midterms-7",
-          "outletId": "breitbart",
-          "outletName": "Breitbart",
-          "headline": "El-Sayed: Judge Me by Actions, Not Defund the Police Tweets I Deleted So They Wouldn't Be Taken Out of Context",
-          "url": "https://www.breitbart.com/clips/2026/07/03/el-sayed-judge-me-by-actions-not-defund-the-police-tweets-i-deleted-so-they-wouldnt-be-taken-out-of-context/",
-          "biasScore": 7.8,
-          "biasSignals": [
-            "deleted tweets headline — far-right gotcha framing",
-            "Breitbart implies El-Sayed hides radical views"
-          ],
-          "biasScoreGrok": 7.5,
-          "biasSignalsGrok": [
-            "defund tweets deleted",
-            "context defense"
-          ],
-          "pubDate": "Fri, 03 Jul 2026 07:15:57 +0000",
-          "clusterId": "democratic-socialism-primary-midterms"
-        },
-        {
-          "id": "thefederalist-democratic-socialism-primary-midterms-12",
+          "id": "thefederalist-birthright-citizenship-scotus-4",
           "outletId": "thefederalist",
           "outletName": "The Federalist",
-          "headline": "Mamdani Is Telling A Brazen Lie About ‘Capitalist Mismanagement’ Of New York",
-          "url": "https://thefederalist.com/2026/07/03/mamdani-is-telling-a-brazen-lie-about-capitalist-mismanagement-of-new-york/?utm_source=rss&utm_medium=rss&utm_campaign=mamdani-is-telling-a-brazen-lie-about-capitalist-mismanagement-of-new-york",
-          "biasScore": 8,
+          "headline": "SCOTUS Birthplace Citizenship Decision Is John Roberts’ Roe v. Wade",
+          "url": "https://thefederalist.com/2026/07/03/scotus-birthplace-citizenship-decision-is-john-roberts-roe-v-wade/?utm_source=rss&utm_medium=rss&utm_campaign=scotus-birthplace-citizenship-decision-is-john-roberts-roe-v-wade",
+          "biasScore": 8.5,
           "biasSignals": [
-            "\"Brazen Lie\" — highly charged attack on Mamdani",
-            "Federalist frames socialist as dishonest demagogue"
+            "'John Roberts' Roe v. Wade' — catastrophizing conservative framing",
+            "compares ruling to most contested SCOTUS precedent"
           ],
-          "biasScoreGrok": 7.5,
+          "biasScoreGrok": 8.1,
           "biasSignalsGrok": [
-            "brazen lie charged",
-            "capitalist mismanagement"
+            "Roe v Wade comparison",
+            "Roberts negative"
           ],
-          "pubDate": "Fri, 03 Jul 2026 11:33:18 +0000",
-          "clusterId": "democratic-socialism-primary-midterms"
+          "pubDate": "Fri, 03 Jul 2026 11:32:41 +0000",
+          "clusterId": "birthright-citizenship-scotus"
         }
       ]
     },
     {
       "id": "iran-supreme-leader-funeral",
-      "topicLabel": "Iran's week of ceremonies for slain supreme leader Khamenei",
+      "topicLabel": "Iran mourning and funeral for slain supreme leader Khamenei",
       "date": "2026-07-03",
       "articles": [
-        {
-          "id": "msnbc-iran-supreme-leader-funeral-4",
-          "outletId": "msnbc",
-          "outletName": "MSNBC",
-          "headline": "Markwayne Mullin’s celebration of Iran’s World Cup exit is worse than poor sportsmanship",
-          "url": "https://www.ms.now/opinion/markwayne-mullin-iran-happy-dance-world-cup",
-          "biasScore": 2.5,
-          "biasSignals": [
-            "\"worse than poor sportsmanship\" — moral criticism of Mullin",
-            "MSNBC frames Republican gloating as indecent"
-          ],
-          "biasScoreGrok": 2.8,
-          "biasSignalsGrok": [
-            "worse than sportsmanship",
-            "Mullin celebration"
-          ],
-          "pubDate": "2026-07-02T10:00:00Z",
-          "clusterId": "iran-supreme-leader-funeral"
-        },
         {
           "id": "cnn-iran-supreme-leader-funeral-0",
           "outletId": "cnn",
@@ -1247,13 +943,13 @@
           "url": "https://www.cnn.com/2026/07/02/world/live-news/iran-war-us-talks",
           "biasScore": 4.5,
           "biasSignals": [
-            "\"slain supreme leader\" — neutral factual description",
-            "\"gears up\" — neutral verb, no ideological loading"
+            "neutral 'gears up' verb, factual framing",
+            "no ideological loading in headline"
           ],
-          "biasScoreGrok": 4.5,
+          "biasScoreGrok": 4.9,
           "biasSignalsGrok": [
-            "gears up huge",
-            "slain leader neutral"
+            "gears up farewell",
+            "neutral mourning"
           ],
           "pubDate": "2026-07-02T04:01:11Z",
           "clusterId": "iran-supreme-leader-funeral"
@@ -1266,10 +962,10 @@
           "url": "https://www.timesofisrael.com/khamenei-lies-in-state-in-tehran-as-iran-begins-week-of-mass-funeral-ceremonies/",
           "biasScore": 4.5,
           "biasSignals": [
-            "neutral factual reporting on funeral ceremonies",
-            "Times of Israel balanced tone on Iran event"
+            "neutral factual reporting on funeral proceedings",
+            "no emotionally charged language"
           ],
-          "biasScoreGrok": 4.8,
+          "biasScoreGrok": 5.1,
           "biasSignalsGrok": [
             "lies in state",
             "mass ceremonies"
@@ -1285,13 +981,13 @@
           "url": "https://www.theguardian.com/us-news/2026/jul/03/first-thing-iran-defiance-six-day-funeral-supreme-leader",
           "biasScore": 4.8,
           "biasSignals": [
-            "\"show defiance\" — neutral framing of Iran's posture",
-            "Guardian balanced international reporting tone"
+            "neutral 'show defiance' — factual diplomatic framing",
+            "balanced international reporting tone"
           ],
-          "biasScoreGrok": 3.8,
+          "biasScoreGrok": 4.2,
           "biasSignalsGrok": [
             "show defiance",
-            "mass funeral"
+            "funeral focus"
           ],
           "pubDate": "Fri, 03 Jul 2026 10:29:51 GMT",
           "clusterId": "iran-supreme-leader-funeral"
@@ -1304,13 +1000,13 @@
           "url": "https://www.timesofisrael.com/extravagant-ceremony-for-a-dictator-some-iranians-will-avoid-khameneis-funeral/",
           "biasScore": 5.5,
           "biasSignals": [
-            "\"Extravagant ceremony for a dictator\" quote — critical of Iran",
-            "Times of Israel allows anti-regime voices to lead"
+            "'extravagant ceremony for a dictator' — negative Iran framing",
+            "dissenting Iranian voices used to delegitimize regime"
           ],
-          "biasScoreGrok": 5.5,
+          "biasScoreGrok": 6.7,
           "biasSignalsGrok": [
-            "extravagant for dictator",
-            "some avoid"
+            "extravagant dictator",
+            "avoid funeral"
           ],
           "pubDate": "Fri, 03 Jul 2026 13:27:14 +0000",
           "clusterId": "iran-supreme-leader-funeral"
@@ -1318,168 +1014,479 @@
       ]
     },
     {
-      "id": "vatican-excommunication-sspx",
-      "topicLabel": "Vatican excommunicates breakaway Catholic bishops",
+      "id": "us-iran-nuclear-talks",
+      "topicLabel": "US-Iran nuclear peace talks and strike threats",
       "date": "2026-07-03",
       "articles": [
         {
-          "id": "cnn-vatican-excommunication-sspx-0",
-          "outletId": "cnn",
-          "outletName": "CNN",
-          "headline": "Breakaway Catholic group excommunicated after defying warnings from Pope Leo",
-          "url": "https://www.cnn.com/2026/07/02/europe/vatican-excommunicates-breakaway-catholic-group-intl",
-          "biasScore": 4.8,
+          "id": "nytimes-us-iran-nuclear-talks-0",
+          "outletId": "nytimes",
+          "outletName": "NY Times",
+          "headline": "As Ukraine War Escalates, Witkoff and Kushner Are Focused on Iran",
+          "url": "https://www.nytimes.com/2026/07/02/us/politics/ukraine-russia-witkoff-kushner-trump.html",
+          "biasScore": 4.5,
           "biasSignals": [
-            "neutral factual framing of Church decision",
-            "no ideological signals in headline"
-          ],
-          "biasScoreGrok": 4.5,
-          "biasSignalsGrok": [
-            "excommunicated after defying",
-            "Pope Leo neutral"
-          ],
-          "pubDate": "2026-07-02T07:46:10Z",
-          "clusterId": "vatican-excommunication-sspx"
-        },
-        {
-          "id": "abc-vatican-excommunication-sspx-2",
-          "outletId": "abc",
-          "outletName": "ABC News",
-          "headline": "Vatican declares Society of St. Pius X in schism, excommunicates bishops",
-          "url": "https://abcnews.com/International/wireStory/vatican-declares-society-st-pius-schism-excommunicates-bishops-134400204",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral factual headline on Vatican declaration",
-            "ABC standard news framing, no loading"
+            "neutral diplomatic framing of negotiators",
+            "factual focus on personnel rather than policy"
           ],
           "biasScoreGrok": 4.8,
           "biasSignalsGrok": [
-            "declares schism",
-            "excommunicates bishops"
+            "Ukraine escalates",
+            "Witkoff Kushner"
           ],
-          "pubDate": "2026-07-02T07:32:56Z",
-          "clusterId": "vatican-excommunication-sspx"
+          "pubDate": "Fri, 03 Jul 2026 00:33:03 +0000",
+          "clusterId": "us-iran-nuclear-talks"
         },
         {
-          "id": "foxnews-vatican-excommunication-sspx-1",
+          "id": "cbsnews-us-iran-nuclear-talks-3",
+          "outletId": "cbsnews",
+          "outletName": "CBS News",
+          "headline": "Details on progress toward Iran peace agreement as Trump calls off strikes",
+          "url": "https://www.cbsnews.com/video/details-on-progress-toward-iran-peace-agreement-as-trump-calls-off-strikes/",
+          "biasScore": 4.8,
+          "biasSignals": [
+            "neutral progress framing of peace agreement",
+            "factual 'calls off strikes' without praise or criticism"
+          ],
+          "biasScoreGrok": 5.3,
+          "biasSignalsGrok": [
+            "progress agreement",
+            "calls off strikes"
+          ],
+          "pubDate": "2026-06-11T19:18:45+00:00",
+          "clusterId": "us-iran-nuclear-talks"
+        },
+        {
+          "id": "breitbart-us-iran-nuclear-talks-2",
+          "outletId": "breitbart",
+          "outletName": "Breitbart",
+          "headline": "Report: U.S. Feared Israel Might Target Iran’s Negotiators During Peace Talks",
+          "url": "https://www.breitbart.com/politics/2026/07/02/report-u-s-feared-israel-might-target-irans-negotiators-peace-talks/",
+          "biasScore": 5.5,
+          "biasSignals": [
+            "neutral 'feared' — diplomatic concern framing",
+            "factual sourcing without strong ideological lean"
+          ],
+          "biasScoreGrok": 7.6,
+          "biasSignalsGrok": [
+            "feared Israel target",
+            "negotiators during"
+          ],
+          "pubDate": "Fri, 03 Jul 2026 05:50:14 +0000",
+          "clusterId": "us-iran-nuclear-talks"
+        },
+        {
+          "id": "foxnews-us-iran-nuclear-talks-1",
           "outletId": "foxnews",
           "outletName": "Fox News",
-          "headline": "Vatican excommunicates breakaway Catholic bishops who defied Pope Leo XIV",
-          "url": "https://www.foxnews.com/world/vatican-excommunicates-breakaway-catholic-bishops-defied-pope-leo-xiv",
-          "biasScore": 5.2,
+          "headline": "Trump hails war talks but Iran continues to threaten the Strait of Hormuz",
+          "url": "https://www.foxnews.com/live-news/us-iran-war-strait-hormuz-trump-mou-july-2",
+          "biasScore": 6.5,
           "biasSignals": [
-            "\"Vatican excommunicates\" — neutral verb, standard reporting",
-            "Fox News balanced on religious institutional story"
+            "'hails' — positive framing of Trump diplomacy",
+            "Iran framed as continuing threat despite talks"
           ],
-          "biasScoreGrok": 5,
+          "biasScoreGrok": 7.4,
           "biasSignalsGrok": [
-            "defied Pope Leo",
-            "Vatican action"
+            "hails war talks",
+            "Iran threatens"
           ],
-          "pubDate": "2026-07-02T13:07:23.120987Z",
-          "clusterId": "vatican-excommunication-sspx"
+          "pubDate": "2026-07-02T16:22:24.2869087Z",
+          "clusterId": "us-iran-nuclear-talks"
         }
       ]
     },
     {
-      "id": "june-jobs-report-economy",
-      "topicLabel": "June US jobs report disappoints, slower than expected growth",
+      "id": "aoc-michigan-democratic-primary",
+      "topicLabel": "AOC endorses El-Sayed in Michigan Democratic Senate primary",
       "date": "2026-07-03",
       "articles": [
         {
-          "id": "msnbc-june-jobs-report-economy-1",
-          "outletId": "msnbc",
-          "outletName": "MSNBC",
-          "headline": "Job numbers disappoint again as 2026 reaches the halfway point",
-          "url": "https://www.ms.now/rachel-maddow-show/maddowblog/job-numbers-disappoint-again-as-2026-halfway-point",
-          "biasScore": 2.8,
+          "id": "npr-aoc-michigan-democratic-primary-1",
+          "outletId": "npr",
+          "outletName": "NPR",
+          "headline": "Could infighting derail Democrats' hopes to win back House?",
+          "url": "https://www.npr.org/2026/07/03/nx-s1-5879393/could-infighting-derail-democrats-hopes-to-win-back-house",
+          "biasScore": 3.5,
           "biasSignals": [
-            "\"disappoint again\" — repeated failure framing for Trump economy",
-            "MSNBC editorial framing emphasizes ongoing weakness"
+            "'infighting' and 'derail' — internal failure framing",
+            "sympathetic framing of progressive electoral challenge"
           ],
           "biasScoreGrok": 3.5,
           "biasSignalsGrok": [
-            "disappoint again",
-            "2026 halfway"
+            "infighting derail",
+            "Democrats hopes"
           ],
-          "pubDate": "2026-07-02T12:51:05Z",
-          "clusterId": "june-jobs-report-economy"
+          "pubDate": "Fri, 03 Jul 2026 04:15:16 -0400",
+          "clusterId": "aoc-michigan-democratic-primary"
         },
         {
-          "id": "cnn-june-jobs-report-economy-0",
-          "outletId": "cnn",
-          "outletName": "CNN",
-          "headline": "US job growth slowed more than expected in June",
-          "url": "https://www.cnn.com/2026/07/02/economy/us-jobs-report-june-final",
+          "id": "npr-aoc-michigan-democratic-primary-3",
+          "outletId": "npr",
+          "outletName": "NPR",
+          "headline": "Democratic socialists pose a challenge for the party as midterms approach",
+          "url": "https://www.npr.org/2026/07/02/nx-s1-5877755/democratic-socialists-pose-a-challenge-for-the-party-as-midterms-approach",
+          "biasScore": 3.8,
+          "biasSignals": [
+            "'pose a challenge' — neutral framing of DSA role",
+            "factual midterm electoral analysis"
+          ],
+          "biasScoreGrok": 3.2,
+          "biasSignalsGrok": [
+            "socialists challenge",
+            "party midterms"
+          ],
+          "pubDate": "Thu, 02 Jul 2026 04:48:05 -0400",
+          "clusterId": "aoc-michigan-democratic-primary"
+        },
+        {
+          "id": "npr-aoc-michigan-democratic-primary-2",
+          "outletId": "npr",
+          "outletName": "NPR",
+          "headline": "Hakeem Jeffries addresses Democratic Party divisions, says Trump is the bigger issue",
+          "url": "https://www.npr.org/2026/07/03/nx-s1-5879082/hakeem-jeffries-democratic-party-divisions-trump-midterms",
+          "biasScore": 4,
+          "biasSignals": [
+            "neutral reporting on Jeffries party unity messaging",
+            "balanced framing of Democratic divisions"
+          ],
+          "biasScoreGrok": 4.1,
+          "biasSignalsGrok": [
+            "addresses divisions",
+            "Trump bigger issue"
+          ],
+          "pubDate": "Fri, 03 Jul 2026 04:15:00 -0400",
+          "clusterId": "aoc-michigan-democratic-primary"
+        },
+        {
+          "id": "washpost-aoc-michigan-democratic-primary-0",
+          "outletId": "washpost",
+          "outletName": "Washington Post",
+          "headline": "Ocasio-Cortez endorses in Michigan’s fraught Democratic Senate primary",
+          "url": "https://www.washingtonpost.com/politics/2026/07/02/alexandria-ocasio-cortez-endorses-michigans-democratic-senate-primary/",
+          "biasScore": 4.2,
+          "biasSignals": [
+            "neutral 'fraught' acknowledges party tension",
+            "factual endorsement reporting, minimal spin"
+          ],
+          "biasScoreGrok": 3.9,
+          "biasSignalsGrok": [
+            "fraught primary",
+            "Ocasio-Cortez"
+          ],
+          "pubDate": "2026-07-02T14:33:17Z",
+          "clusterId": "aoc-michigan-democratic-primary"
+        },
+        {
+          "id": "nytimes-aoc-michigan-democratic-primary-8",
+          "outletId": "nytimes",
+          "outletName": "NY Times",
+          "headline": "A Big Gamble for the Left: Can Socialism Appeal in a Swing State?",
+          "url": "https://www.nytimes.com/2026/07/03/us/politics/democratic-socialism-wisconsin-francesca-hong.html",
+          "biasScore": 4.2,
+          "biasSignals": [
+            "'Big Gamble' — neutral risk framing for socialism",
+            "analytical rather than advocacy framing"
+          ],
+          "biasScoreGrok": 2.9,
+          "biasSignalsGrok": [
+            "big gamble left",
+            "socialism swing"
+          ],
+          "pubDate": "Fri, 03 Jul 2026 09:01:28 +0000",
+          "clusterId": "aoc-michigan-democratic-primary"
+        },
+        {
+          "id": "nbc-aoc-michigan-democratic-primary-7",
+          "outletId": "nbc",
+          "outletName": "NBC News",
+          "headline": "Rep. Alexandria Ocasio-Cortez endorses Abdul El-Sayed in Michigan Democratic primary",
+          "url": "https://www.nbcnews.com/politics/2026-election/alexandria-ocasio-cortez-endorses-abdul-el-sayed-michigan-primary-rcna352705",
           "biasScore": 4.5,
           "biasSignals": [
-            "\"slowed more than expected\" — neutral economic framing",
-            "no partisan loading, factual description"
+            "neutral factual endorsement reporting",
+            "no loaded language in headline"
           ],
-          "biasScoreGrok": 4.5,
+          "biasScoreGrok": 4.3,
           "biasSignalsGrok": [
-            "slowed more expected",
-            "June jobs neutral"
+            "endorses primary",
+            "neutral report"
           ],
-          "pubDate": "2026-07-02T09:00:25Z",
-          "clusterId": "june-jobs-report-economy"
+          "pubDate": "2026-07-02T13:37:35Z",
+          "clusterId": "aoc-michigan-democratic-primary"
         },
         {
-          "id": "thehill-june-jobs-report-economy-2",
-          "outletId": "thehill",
-          "outletName": "The Hill",
-          "headline": "Live updates: Trump pushes for lower oil prices; US adds fewer jobs than expected",
-          "url": "https://thehill.com/homenews/administration/5950215-live-updates-trump-america-250/",
-          "biasScore": 4.5,
+          "id": "foxnews-aoc-michigan-democratic-primary-4",
+          "outletId": "foxnews",
+          "outletName": "Fox News",
+          "headline": "AOC sides with Bernie-backed progressive in Senate primary clash with Schumer establishment",
+          "url": "https://www.foxnews.com/politics/aoc-sides-bernie-backed-progressive-senate-primary-clash-schumer-establishment",
+          "biasScore": 7,
           "biasSignals": [
-            "neutral live updates framing, factual job numbers",
-            "paired with Trump oil price push — neutral balance"
+            "'Bernie-backed progressive' — labels as radical",
+            "'Schumer establishment' — frames as elite vs populist"
           ],
-          "biasScoreGrok": 4.8,
+          "biasScoreGrok": 7,
           "biasSignalsGrok": [
-            "fewer jobs expected",
-            "Trump oil push"
+            "sides progressive",
+            "establishment clash"
           ],
-          "pubDate": "2026-07-02T13:04:55Z",
-          "clusterId": "june-jobs-report-economy"
+          "pubDate": "2026-07-02T15:52:21.8033401Z",
+          "clusterId": "aoc-michigan-democratic-primary"
         },
         {
-          "id": "axios-june-jobs-report-economy-3",
-          "outletId": "axios",
-          "outletName": "Axios",
-          "headline": "No World Cup jobs bump evident in June data",
-          "url": "https://www.axios.com/2026/07/02/jobs-data-world-cup",
-          "biasScore": 4.8,
+          "id": "breitbart-aoc-michigan-democratic-primary-5",
+          "outletId": "breitbart",
+          "outletName": "Breitbart",
+          "headline": "El-Sayed: 'Not Going to Play This Gotcha Game About' if Israel 'Has a Right to Exist'",
+          "url": "https://www.breitbart.com/clips/2026/07/03/el-sayed-not-going-to-play-this-gotcha-game-about-if-israel-has-a-right-to-exist/",
+          "biasScore": 7.5,
           "biasSignals": [
-            "neutral economic analysis, World Cup jobs angle",
-            "Axios factual framing, no ideological signals"
+            "'Gotcha Game' quote implies El-Sayed evasive on Israel",
+            "framing highlights candidate's controversial Israel stance"
           ],
-          "biasScoreGrok": 4.2,
+          "biasScoreGrok": 7.8,
           "biasSignalsGrok": [
-            "no World Cup bump",
-            "June data neutral"
+            "right exist quote",
+            "Bernie backed"
           ],
-          "pubDate": "Thu, 02 Jul 2026 16:15:47 +0000",
-          "clusterId": "june-jobs-report-economy"
+          "pubDate": "Fri, 03 Jul 2026 07:15:55 +0000",
+          "clusterId": "aoc-michigan-democratic-primary"
         },
         {
-          "id": "abc-june-jobs-report-economy-4",
-          "outletId": "abc",
-          "outletName": "ABC News",
-          "headline": "U.S. filings for jobless aid fall to 215,000 as layoffs remain at historically healthy levels",
-          "url": "https://abcnews.com/Business/wireStory/us-filings-jobless-aid-fall-215000-layoffs-remain-134405927",
+          "id": "nationalreview-aoc-michigan-democratic-primary-9",
+          "outletId": "nationalreview",
+          "outletName": "National Review",
+          "headline": "The Week: Socialism Spreads West",
+          "url": "https://www.nationalreview.com/2026/07/the-week-socialism-spreads-west/",
+          "biasScore": 7.5,
+          "biasSignals": [
+            "'Socialism Spreads West' — threat/invasion framing",
+            "conservative alarm framing of progressive movement"
+          ],
+          "biasScoreGrok": 7.2,
+          "biasSignalsGrok": [
+            "socialism spreads",
+            "conservative view"
+          ],
+          "pubDate": "Fri, 03 Jul 2026 10:30:31 +0000",
+          "clusterId": "aoc-michigan-democratic-primary"
+        },
+        {
+          "id": "breitbart-aoc-michigan-democratic-primary-6",
+          "outletId": "breitbart",
+          "outletName": "Breitbart",
+          "headline": "El-Sayed: Judge Me by Actions, Not Defund the Police Tweets I Deleted So They Wouldn't Be Taken Out of Context",
+          "url": "https://www.breitbart.com/clips/2026/07/03/el-sayed-judge-me-by-actions-not-defund-the-police-tweets-i-deleted-so-they-wouldnt-be-taken-out-of-context/",
+          "biasScore": 7.8,
+          "biasSignals": [
+            "deleted tweets framing implies dishonesty",
+            "'defund the police' label used as political weapon"
+          ],
+          "biasScoreGrok": 7.5,
+          "biasSignalsGrok": [
+            "deleted tweets",
+            "defund police"
+          ],
+          "pubDate": "Fri, 03 Jul 2026 07:15:57 +0000",
+          "clusterId": "aoc-michigan-democratic-primary"
+        },
+        {
+          "id": "thefederalist-aoc-michigan-democratic-primary-10",
+          "outletId": "thefederalist",
+          "outletName": "The Federalist",
+          "headline": "Mamdani Is Telling A Brazen Lie About ‘Capitalist Mismanagement’ Of New York",
+          "url": "https://thefederalist.com/2026/07/03/mamdani-is-telling-a-brazen-lie-about-capitalist-mismanagement-of-new-york/?utm_source=rss&utm_medium=rss&utm_campaign=mamdani-is-telling-a-brazen-lie-about-capitalist-mismanagement-of-new-york",
+          "biasScore": 8.5,
+          "biasSignals": [
+            "'Brazen Lie' — extreme accusatory language toward Mamdani",
+            "capitalist vs socialist framing strongly favors capitalism"
+          ],
+          "biasScoreGrok": 8,
+          "biasSignalsGrok": [
+            "brazen lie",
+            "capitalist mismanagement"
+          ],
+          "pubDate": "Fri, 03 Jul 2026 11:33:18 +0000",
+          "clusterId": "aoc-michigan-democratic-primary"
+        }
+      ]
+    },
+    {
+      "id": "world-cup-2026",
+      "topicLabel": "2026 FIFA World Cup opening and US team progress",
+      "date": "2026-07-03",
+      "articles": [
+        {
+          "id": "vox-world-cup-2026-8",
+          "outletId": "vox",
+          "outletName": "Vox",
+          "headline": "The worst thing about America’s World Cup",
+          "url": "https://www.vox.com/podcasts/494086/world-cup-football-hydration-breaks-commercials-capitalism-roger-bennett",
+          "biasScore": 3,
+          "biasSignals": [
+            "'worst thing' — critical framing of US World Cup",
+            "progressive critical lens on sports infrastructure"
+          ],
+          "biasScoreGrok": 3.1,
+          "biasSignalsGrok": [
+            "worst thing",
+            "America World Cup"
+          ],
+          "pubDate": "2026-07-02T17:10:00.000Z",
+          "clusterId": "world-cup-2026"
+        },
+        {
+          "id": "politico-world-cup-2026-0",
+          "outletId": "politico",
+          "outletName": "Politico",
+          "headline": "Why the World Cup is a royal affair - Live Updates - POLITICO",
+          "url": "https://www.politico.com/live-updates/2026/07/01/world-cup-2026/european-royals-attending-fifa-world-cup-2026-00983717",
           "biasScore": 5,
           "biasSignals": [
-            "\"historically healthy levels\" — slightly positive economic framing",
-            "ABC neutral but notes positive jobless claims context"
+            "neutral cultural framing of royalty and sport",
+            "no political loading in sports coverage"
           ],
           "biasScoreGrok": 5,
           "biasSignalsGrok": [
-            "filings fall healthy",
-            "layoffs neutral"
+            "royal affair",
+            "neutral sports"
           ],
-          "pubDate": "2026-07-02T12:45:05Z",
-          "clusterId": "june-jobs-report-economy"
+          "pubDate": "2026-07-01T23:15:00+00:00",
+          "clusterId": "world-cup-2026"
+        },
+        {
+          "id": "cbsnews-world-cup-2026-2",
+          "outletId": "cbsnews",
+          "outletName": "CBS News",
+          "headline": "The 2026 World Cup begins today. Here's what to know.",
+          "url": "https://www.cbsnews.com/video/2026-world-cup-begins-today-heres-what-to-know/",
+          "biasScore": 5,
+          "biasSignals": [
+            "neutral informational 'what to know' format",
+            "no ideological signals in sports coverage"
+          ],
+          "biasScoreGrok": 4.7,
+          "biasSignalsGrok": [
+            "begins today",
+            "what know neutral"
+          ],
+          "pubDate": "2026-06-11T19:52:21+00:00",
+          "clusterId": "world-cup-2026"
+        },
+        {
+          "id": "cbsnews-world-cup-2026-3",
+          "outletId": "cbsnews",
+          "outletName": "CBS News",
+          "headline": "World Cup opening ceremony kicks off in Mexico with Shakira",
+          "url": "https://www.cbsnews.com/news/world-cup-opening-ceremony-mexico-shakira/",
+          "biasScore": 5,
+          "biasSignals": [
+            "neutral factual opening ceremony reporting",
+            "no political framing"
+          ],
+          "biasScoreGrok": 4.5,
+          "biasSignalsGrok": [
+            "kicks off Mexico",
+            "Shakira neutral"
+          ],
+          "pubDate": "2026-06-11T18:41:38+00:00",
+          "clusterId": "world-cup-2026"
+        },
+        {
+          "id": "forbes-world-cup-2026-5",
+          "outletId": "forbes",
+          "outletName": "Forbes",
+          "headline": "Why The World Cup Has Been So Successful And So Much Fun",
+          "url": "https://www.forbes.com/sites/michaellewis/2026/07/03/why-the-world-cup-has-been-so-successful-and-so-much-fun/",
+          "biasScore": 5,
+          "biasSignals": [
+            "positive neutral sports success framing",
+            "no political content"
+          ],
+          "biasScoreGrok": 5.4,
+          "biasSignalsGrok": [
+            "successful fun",
+            "positive neutral"
+          ],
+          "pubDate": "Fri, 03 Jul 2026 10:17:37 -0400",
+          "clusterId": "world-cup-2026"
+        },
+        {
+          "id": "nbc-world-cup-2026-6",
+          "outletId": "nbc",
+          "outletName": "NBC News",
+          "headline": "From The Sports Desk: The U.S. advances, but loses Folarin Balogun to costly red card",
+          "url": "https://www.nbcnews.com/sports/soccer/sports-newsletter-us-advances-loses-folarin-balogun-costly-red-card-rcna352724",
+          "biasScore": 5,
+          "biasSignals": [
+            "neutral sports reporting on US team advance",
+            "factual game result coverage"
+          ],
+          "biasScoreGrok": 4.9,
+          "biasSignalsGrok": [
+            "advances loses",
+            "costly red card"
+          ],
+          "pubDate": "2026-07-02T15:01:19Z",
+          "clusterId": "world-cup-2026"
+        },
+        {
+          "id": "ap-world-cup-2026-7",
+          "outletId": "ap",
+          "outletName": "Associated Press",
+          "headline": "FIFA World Cup: US beats Bosnia-Herzegovina 2-0 to advance to round of 16",
+          "url": "https://apnews.com/article/world-cup-usmnt-bosnia-score-b78bdf42bf14d604d7b466aa58d33324",
+          "biasScore": 5,
+          "biasSignals": [
+            "neutral AP sports result reporting",
+            "factual score and advancement news"
+          ],
+          "biasScoreGrok": 5.2,
+          "biasSignalsGrok": [
+            "beats advances",
+            "neutral sports"
+          ],
+          "pubDate": "2026-07-02T02:08:19Z",
+          "clusterId": "world-cup-2026"
+        },
+        {
+          "id": "foxnews-world-cup-2026-1",
+          "outletId": "foxnews",
+          "outletName": "Fox News",
+          "headline": "FIFA rules leave Team USA no recourse after Folarin Balogun's controversial red card",
+          "url": "https://www.foxnews.com/sports/fifa-rules-leave-team-usa-no-recourse-folarin-balogun-controversial-red-card",
+          "biasScore": 5.5,
+          "biasSignals": [
+            "neutral 'controversial red card' — balanced sports framing",
+            "factual FIFA rules reporting"
+          ],
+          "biasScoreGrok": 6.6,
+          "biasSignalsGrok": [
+            "controversial red card",
+            "no recourse"
+          ],
+          "pubDate": "2026-07-02T16:07:21.1046079Z",
+          "clusterId": "world-cup-2026"
+        },
+        {
+          "id": "economist-world-cup-2026-4",
+          "outletId": "economist",
+          "outletName": "The Economist",
+          "headline": "Checks and Balance newsletter: The World Cup doesn’t understand America",
+          "url": "https://www.economist.com/united-states/2026/06/27/checks-and-balance-newsletter-the-world-cup-doesnt-understand-america",
+          "biasScore": 5.5,
+          "biasSignals": [
+            "mildly skeptical 'doesn't understand America' framing",
+            "analytical cultural critique, not political"
+          ],
+          "biasScoreGrok": 3.8,
+          "biasSignalsGrok": [
+            "doesnt understand",
+            "America critical"
+          ],
+          "pubDate": "Sat, 27 Jun 2026 10:54:34 +0000",
+          "clusterId": "world-cup-2026"
         }
       ]
     },
@@ -1494,15 +1501,15 @@
           "outletName": "Axios",
           "headline": "OpenAI courts Trump administration as its latest investor",
           "url": "https://www.axios.com/2026/07/02/openai-stake-trump-altman",
-          "biasScore": 4,
+          "biasScore": 3.8,
           "biasSignals": [
-            "\"courts Trump administration\" — mildly loaded verb",
-            "Axios neutral-leaning framing of AI-government relationship"
+            "'courts' — implies OpenAI seeking favor",
+            "subtle corruption-adjacent framing of tech-government ties"
           ],
-          "biasScoreGrok": 5.2,
+          "biasScoreGrok": 5.6,
           "biasSignalsGrok": [
-            "courts as investor",
-            "Trump admin"
+            "courts investor",
+            "neutral business"
           ],
           "pubDate": "Thu, 02 Jul 2026 17:16:08 +0000",
           "clusterId": "openai-trump-administration-investment"
@@ -1515,13 +1522,13 @@
           "url": "https://www.cnn.com/2026/07/02/business/openai-trump-stake-intl",
           "biasScore": 4.5,
           "biasSignals": [
-            "neutral factual framing citing FT report",
-            "no ideological loading in headline"
+            "neutral factual sourcing from Financial Times",
+            "no ideological framing in headline"
           ],
-          "biasScoreGrok": 4.5,
+          "biasScoreGrok": 3.4,
           "biasSignalsGrok": [
-            "give 5% stake",
-            "FT reports neutral"
+            "give stake",
+            "Trump administration"
           ],
           "pubDate": "2026-07-02T09:05:33Z",
           "clusterId": "openai-trump-administration-investment"
@@ -1529,782 +1536,789 @@
       ]
     },
     {
-      "id": "heat-wave-july4-grid-stress",
-      "topicLabel": "Extreme US heat wave threatens July 4th events and power grids",
+      "id": "extreme-heat-july4",
+      "topicLabel": "Extreme heat wave affects US July 4th celebrations",
       "date": "2026-07-03",
       "articles": [
         {
-          "id": "vox-heat-wave-july4-grid-stress-4",
+          "id": "vox-extreme-heat-july4-5",
           "outletId": "vox",
           "outletName": "Vox",
           "headline": "The fatal flaw in how America handles heat waves",
           "url": "https://www.vox.com/future-perfect/494126/heat-wave-ac-passive-homes",
-          "biasScore": 2.8,
+          "biasScore": 3,
           "biasSignals": [
-            "\"fatal flaw\" — systemic failure framing, progressive angle",
-            "Vox implies institutional inadequacy on heat response"
+            "'fatal flaw' — systemic failure framing",
+            "progressive infrastructure critique implied"
           ],
-          "biasScoreGrok": 3.5,
+          "biasScoreGrok": 2.7,
           "biasSignalsGrok": [
-            "fatal flaw handling",
-            "America heat"
+            "fatal flaw",
+            "handles heat"
           ],
           "pubDate": "2026-07-03T10:00:00.000Z",
-          "clusterId": "heat-wave-july4-grid-stress"
+          "clusterId": "extreme-heat-july4"
         },
         {
-          "id": "vox-heat-wave-july4-grid-stress-5",
+          "id": "vox-extreme-heat-july4-6",
           "outletId": "vox",
           "outletName": "Vox",
           "headline": "How extreme heat is changing summer camp",
           "url": "https://www.vox.com/life/493986/extreme-heat-wave-summer-camp-climate-change-kids",
-          "biasScore": 3.5,
+          "biasScore": 3.2,
           "biasSignals": [
-            "\"changing summer camp\" — mild concern framing",
-            "Vox climate-sympathetic framing of heat impact"
+            "climate change implied cause framing",
+            "sympathetic framing of heat impact on children"
           ],
-          "biasScoreGrok": 3.8,
+          "biasScoreGrok": 3.3,
           "biasSignalsGrok": [
-            "changing summer camp",
+            "changing camp",
             "extreme heat"
           ],
           "pubDate": "2026-07-02T11:45:00.000Z",
-          "clusterId": "heat-wave-july4-grid-stress"
+          "clusterId": "extreme-heat-july4"
         },
         {
-          "id": "abc-heat-wave-july4-grid-stress-1",
+          "id": "abc-extreme-heat-july4-2",
           "outletId": "abc",
           "outletName": "ABC News",
           "headline": "'Stretched to the limit': Heat wave prompts US electrical grid emergency",
           "url": "https://abcnews.com/US/stretched-limit-heat-wave-prompts-us-electrical-grid/story?id=134369230",
           "biasScore": 4.5,
           "biasSignals": [
-            "\"Stretched to the limit\" — moderate dramatic framing",
-            "ABC neutral-leaning emergency reporting"
+            "'stretched to the limit' — mild alarm framing",
+            "factual grid emergency reporting"
           ],
-          "biasScoreGrok": 4.5,
+          "biasScoreGrok": 3.9,
           "biasSignalsGrok": [
-            "stretched to limit",
-            "grid emergency"
+            "stretched limit",
+            "emergency grid"
           ],
           "pubDate": "2026-07-02T02:21:28Z",
-          "clusterId": "heat-wave-july4-grid-stress"
+          "clusterId": "extreme-heat-july4"
         },
         {
-          "id": "ap-heat-wave-july4-grid-stress-3",
-          "outletId": "ap",
-          "outletName": "Associated Press",
-          "headline": "Extreme heat adds to strains on data centers and tensions in host communities",
-          "url": "https://apnews.com/article/data-center-heat-wave-lowell-5607b4ea8ef9776b28268561060752a8",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral framing of heat/data center intersection",
-            "AP balanced reporting, no partisan loading"
-          ],
-          "biasScoreGrok": 4.2,
-          "biasSignalsGrok": [
-            "adds strains data",
-            "host tensions"
-          ],
-          "pubDate": "2026-07-02T15:13:33Z",
-          "clusterId": "heat-wave-july4-grid-stress"
-        },
-        {
-          "id": "ap-heat-wave-july4-grid-stress-2",
+          "id": "ap-extreme-heat-july4-4",
           "outletId": "ap",
           "outletName": "Associated Press",
           "headline": "Northeast US heat wave causes July 4th cancellations",
           "url": "https://apnews.com/article/extreme-heat-northeast-july-fourth-95b2bf4bcfcd7b1444bf2f5085e01947",
-          "biasScore": 4.8,
+          "biasScore": 4.5,
           "biasSignals": [
-            "neutral factual AP reporting on cancellations",
-            "no ideological signals detected"
+            "neutral AP framing of heat event",
+            "factual cancellations reporting"
           ],
-          "biasScoreGrok": 4.8,
+          "biasScoreGrok": 4.3,
           "biasSignalsGrok": [
             "causes cancellations",
-            "Northeast heat"
+            "neutral heat"
           ],
           "pubDate": "2026-07-02T15:17:49Z",
-          "clusterId": "heat-wave-july4-grid-stress"
+          "clusterId": "extreme-heat-july4"
         },
         {
-          "id": "cnbc-heat-wave-july4-grid-stress-0",
+          "id": "cnbc-extreme-heat-july4-1",
           "outletId": "cnbc",
           "outletName": "CNBC",
           "headline": "Extreme heat wave threatens U.S. power grids and July 4 travel",
           "url": "https://www.cnbc.com/2026/07/03/extreme-heat-us-power-grids-july-4-travel.html",
+          "biasScore": 4.8,
+          "biasSignals": [
+            "neutral grid-threat framing, factual",
+            "no political attribution of climate cause"
+          ],
+          "biasScoreGrok": 4.2,
+          "biasSignalsGrok": [
+            "threatens grids",
+            "travel neutral"
+          ],
+          "pubDate": "Fri, 03 Jul 2026 08:06:40 GMT",
+          "clusterId": "extreme-heat-july4"
+        },
+        {
+          "id": "nbc-extreme-heat-july4-3",
+          "outletId": "nbc",
+          "outletName": "NBC News",
+          "headline": "Finding freedom from the heat on July 4th will be a challenge in eastern U.S.",
+          "url": "https://www.nbcnews.com/weather/heat/finding-freedom-heat-july-4th-will-challenge-eastern-us-rcna352748",
+          "biasScore": 4.8,
+          "biasSignals": [
+            "neutral 'challenge' framing of heat impact",
+            "factual holiday weather reporting"
+          ],
+          "biasScoreGrok": 4.5,
+          "biasSignalsGrok": [
+            "freedom challenge",
+            "eastern US"
+          ],
+          "pubDate": "2026-07-02T16:00:44Z",
+          "clusterId": "extreme-heat-july4"
+        },
+        {
+          "id": "nypost-extreme-heat-july4-0",
+          "outletId": "nypost",
+          "outletName": "NY Post",
+          "headline": "DC broils under heat warnings as July 4th celebrations get underway",
+          "url": "https://nypost.com/2026/07/03/us-news/a-capitol-fourth-concert-still-on-despite-sweltering-record-setting-heat/",
           "biasScore": 5,
           "biasSignals": [
-            "neutral factual framing of heat threat",
-            "CNBC balanced economic/infrastructure angle"
+            "neutral factual heat warning reporting",
+            "no political framing"
           ],
           "biasScoreGrok": 4.8,
           "biasSignalsGrok": [
-            "threatens grids travel",
-            "extreme heat"
+            "broils warnings",
+            "celebrations neutral"
           ],
-          "pubDate": "Fri, 03 Jul 2026 08:06:40 GMT",
-          "clusterId": "heat-wave-july4-grid-stress"
+          "pubDate": "Fri, 03 Jul 2026 07:37:07 -0700",
+          "clusterId": "extreme-heat-july4"
         }
       ]
     },
     {
-      "id": "ukraine-russia-war-attacks",
-      "topicLabel": "Russia attacks Kyiv; Ukraine strikes Russian targets",
+      "id": "nato-europe-defense-spending",
+      "topicLabel": "NATO defense spending debate between Europe and Trump",
       "date": "2026-07-03",
       "articles": [
         {
-          "id": "huffpost-ukraine-russia-war-attacks-3",
+          "id": "bostonglobe-nato-europe-defense-spending-2",
+          "outletId": "bostonglobe",
+          "outletName": "Boston Globe",
+          "headline": "NATO commander says Europe has backfilled most gaps from US cutbacks on military equipment",
+          "url": "https://www.bostonglobe.com/2026/07/03/world/nato-us-military-cutbacks/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral 'backfilled' framing of European defense",
+            "factual NATO capability reporting"
+          ],
+          "biasScoreGrok": 5.4,
+          "biasSignalsGrok": [
+            "backfilled gaps",
+            "US cutbacks"
+          ],
+          "pubDate": "Fri, 03 Jul 2026 14:04:58 +0000",
+          "clusterId": "nato-europe-defense-spending"
+        },
+        {
+          "id": "aljazeera-nato-europe-defense-spending-0",
+          "outletId": "aljazeera",
+          "outletName": "Al Jazeera",
+          "headline": "Germany’s Merz defends NATO spending after Trump calls it ‘ridiculous’",
+          "url": "https://www.aljazeera.com/news/2026/7/3/germanys-merz-defends-nato-spending-after-trump-calls-it-ridiculous?traffic_source=rss",
+          "biasScore": 4.8,
+          "biasSignals": [
+            "neutral 'defends' verb, factual diplomatic framing",
+            "balanced reporting of US-Europe tension"
+          ],
+          "biasScoreGrok": 5.1,
+          "biasSignalsGrok": [
+            "defends spending",
+            "Trump ridiculous"
+          ],
+          "pubDate": "Fri, 03 Jul 2026 16:05:29 +0000",
+          "clusterId": "nato-europe-defense-spending"
+        },
+        {
+          "id": "bloomberg-nato-europe-defense-spending-3",
+          "outletId": "bloomberg",
+          "outletName": "Bloomberg",
+          "headline": "Erdogan Shows Europe Why NATO Needs Turkey’s Clout on Defense",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-02/erdogan-shows-europe-why-nato-needs-turkey-s-clout-on-defense",
+          "biasScore": 5.5,
+          "biasSignals": [
+            "neutral analytical framing of Turkey's NATO value",
+            "realpolitik framing without ideological lean"
+          ],
+          "biasScoreGrok": 5.7,
+          "biasSignalsGrok": [
+            "shows clout",
+            "NATO needs"
+          ],
+          "pubDate": "2026-07-02T05:15:20+00:00",
+          "clusterId": "nato-europe-defense-spending"
+        },
+        {
+          "id": "dailycaller-nato-europe-defense-spending-1",
+          "outletId": "dailycaller",
+          "outletName": "Daily Caller",
+          "headline": "Hegseth Reportedly Pulled Plug On Troop Cuts In Europe",
+          "url": "https://dailycaller.com/2026/07/03/pentagon-troop-cuts-europe/",
+          "biasScore": 6.2,
+          "biasSignals": [
+            "neutral factual reporting on Hegseth decision",
+            "mildly positive framing of troop retention decision"
+          ],
+          "biasScoreGrok": 6.8,
+          "biasSignalsGrok": [
+            "pulled plug",
+            "troop cuts"
+          ],
+          "pubDate": "Fri, 03 Jul 2026 15:24:08 +0000",
+          "clusterId": "nato-europe-defense-spending"
+        }
+      ]
+    },
+    {
+      "id": "reflecting-pool-vandalism",
+      "topicLabel": "Former Olympian charged with Reflecting Pool vandalism",
+      "date": "2026-07-03",
+      "articles": [
+        {
+          "id": "axios-reflecting-pool-vandalism-1",
+          "outletId": "axios",
+          "outletName": "Axios",
+          "headline": "Olympian indicted for vandalizing Reflecting Pool",
+          "url": "https://www.axios.com/2026/07/02/olympian-indicted-for-allegedly-vandalizing-reflecting-pool",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral 'indicted' — legal framing, factual",
+            "no ideological signals"
+          ],
+          "biasScoreGrok": 4.4,
+          "biasSignalsGrok": [
+            "indicted vandalizing",
+            "neutral legal"
+          ],
+          "pubDate": "Thu, 02 Jul 2026 19:28:59 +0000",
+          "clusterId": "reflecting-pool-vandalism"
+        },
+        {
+          "id": "bostonglobe-reflecting-pool-vandalism-2",
+          "outletId": "bostonglobe",
+          "outletName": "Boston Globe",
+          "headline": "Former Olympian indicted for alleged Reflecting Pool vandalism. See how the day unfolded.",
+          "url": "https://www.bostonglobe.com/2026/07/02/nation/trump-presidency-live-updates/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral 'alleged' qualifier used appropriately",
+            "factual chronological reporting"
+          ],
+          "biasScoreGrok": 4.5,
+          "biasSignalsGrok": [
+            "indicted alleged",
+            "day unfolded"
+          ],
+          "pubDate": "Thu, 02 Jul 2026 04:29:11 +0000",
+          "clusterId": "reflecting-pool-vandalism"
+        },
+        {
+          "id": "npr-reflecting-pool-vandalism-0",
+          "outletId": "npr",
+          "outletName": "NPR",
+          "headline": "Ex-Olympian charged over alleged reflecting pool damage",
+          "url": "https://www.npr.org/2026/07/03/nx-s1-5879451/ex-olympian-charged-over-alleged-reflecting-pool-damage",
+          "biasScore": 4.8,
+          "biasSignals": [
+            "neutral factual criminal charge reporting",
+            "no political framing"
+          ],
+          "biasScoreGrok": 4.6,
+          "biasSignalsGrok": [
+            "ex charged",
+            "damage alleged"
+          ],
+          "pubDate": "Fri, 03 Jul 2026 05:00:31 -0400",
+          "clusterId": "reflecting-pool-vandalism"
+        }
+      ]
+    },
+    {
+      "id": "trump-smart-wall-border",
+      "topicLabel": "Trump administration's $46 billion smart border wall",
+      "date": "2026-07-03",
+      "articles": [
+        {
+          "id": "bostonglobe-trump-smart-wall-border-1",
+          "outletId": "bostonglobe",
+          "outletName": "Boston Globe",
+          "headline": "Trump administration’s $46 billion ‘smart wall’ races ahead on the US-Mexico border",
+          "url": "https://www.bostonglobe.com/2026/07/02/nation/trump-immigration-border-security/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "'races ahead' — neutral speed framing",
+            "factual border policy reporting"
+          ],
+          "biasScoreGrok": 6.3,
+          "biasSignalsGrok": [
+            "races ahead",
+            "smart wall"
+          ],
+          "pubDate": "Thu, 02 Jul 2026 12:04:33 +0000",
+          "clusterId": "trump-smart-wall-border"
+        },
+        {
+          "id": "ap-trump-smart-wall-border-0",
+          "outletId": "ap",
+          "outletName": "Associated Press",
+          "headline": "Trump 'smart wall' uses steel fencing and advanced border surveillance",
+          "url": "https://apnews.com/article/border-security-smart-wall-immigration-trump-e0ec5fd754a25d345dfb1e5f24a49b80",
+          "biasScore": 5,
+          "biasSignals": [
+            "neutral AP descriptive framing of wall technology",
+            "factual infrastructure reporting"
+          ],
+          "biasScoreGrok": 6.5,
+          "biasSignalsGrok": [
+            "smart wall",
+            "advanced surveillance"
+          ],
+          "pubDate": "2026-07-02T11:48:18Z",
+          "clusterId": "trump-smart-wall-border"
+        }
+      ]
+    },
+    {
+      "id": "catholic-schism-excommunication",
+      "topicLabel": "Catholic breakaway group excommunicated by Pope Leo",
+      "date": "2026-07-03",
+      "articles": [
+        {
+          "id": "cnn-catholic-schism-excommunication-0",
+          "outletId": "cnn",
+          "outletName": "CNN",
+          "headline": "Breakaway Catholic group excommunicated after defying warnings from Pope Leo",
+          "url": "https://www.cnn.com/2026/07/02/europe/vatican-excommunicates-breakaway-catholic-group-intl",
+          "biasScore": 4.8,
+          "biasSignals": [
+            "neutral 'defying warnings' — factual cause framing",
+            "no political ideological signals"
+          ],
+          "biasScoreGrok": 4.8,
+          "biasSignalsGrok": [
+            "excommunicated defying",
+            "neutral Vatican"
+          ],
+          "pubDate": "2026-07-02T07:46:10Z",
+          "clusterId": "catholic-schism-excommunication"
+        },
+        {
+          "id": "abc-catholic-schism-excommunication-1",
+          "outletId": "abc",
+          "outletName": "ABC News",
+          "headline": "Vatican declares Society of St. Pius X in schism, excommunicates bishops",
+          "url": "https://abcnews.com/International/wireStory/vatican-declares-society-st-pius-schism-excommunicates-bishops-134400204",
+          "biasScore": 4.8,
+          "biasSignals": [
+            "neutral factual Vatican declaration reporting",
+            "no ideological loading"
+          ],
+          "biasScoreGrok": 4.9,
+          "biasSignalsGrok": [
+            "declares schism",
+            "excommunicates bishops"
+          ],
+          "pubDate": "2026-07-02T07:32:56Z",
+          "clusterId": "catholic-schism-excommunication"
+        }
+      ]
+    },
+    {
+      "id": "ukraine-russia-war",
+      "topicLabel": "Russia attacks Kyiv, Ukraine strikes back",
+      "date": "2026-07-03",
+      "articles": [
+        {
+          "id": "huffpost-ukraine-russia-war-2",
           "outletId": "huffpost",
           "outletName": "HuffPost",
           "headline": "Major Russian Attack Kills 17 In Kyiv As Ukraine Keeps Striking Moscow's Oil Sector",
           "url": "https://www.huffpost.com/entry/major-russian-attack-on-kyiv_n_6a4639d7e4b03060a84bd4e6",
           "biasScore": 3,
           "biasSignals": [
-            "\"Major Russian Attack Kills 17\" — strong victim framing for Ukraine",
-            "HuffPost frames Russia as clear aggressor"
+            "'Major Russian Attack Kills 17' — victim framing leads",
+            "emotionally charged language amplifies Russian threat"
           ],
-          "biasScoreGrok": 4.2,
+          "biasScoreGrok": 3.6,
           "biasSignalsGrok": [
             "major attack kills",
-            "Ukraine strikes oil"
+            "keeps striking"
           ],
           "pubDate": "2026-07-02T10:18:46Z",
-          "clusterId": "ukraine-russia-war-attacks"
+          "clusterId": "ukraine-russia-war"
         },
         {
-          "id": "nbc-ukraine-russia-war-attacks-2",
+          "id": "nbc-ukraine-russia-war-1",
           "outletId": "nbc",
           "outletName": "NBC News",
           "headline": "Russia unleashes ‘night of horror’ on Kyiv in massive drone and missile attack",
           "url": "https://www.nbcnews.com/world/ukraine/kyiv-russia-attacks-ukraine-drones-zelenskyy-putin-war-rcna352697",
-          "biasScore": 4.2,
+          "biasScore": 3.5,
           "biasSignals": [
-            "\"night of horror\" quote — dramatic but attributed",
-            "NBC neutral framing of Russian attack on Kyiv"
+            "'night of horror' — emotionally charged victim framing",
+            "Ukraine portrayed as victim, Russia as aggressor"
           ],
-          "biasScoreGrok": 3.8,
+          "biasScoreGrok": 4.1,
           "biasSignalsGrok": [
-            "night of horror",
+            "unleashes horror",
             "massive attack"
           ],
           "pubDate": "2026-07-02T13:52:33Z",
-          "clusterId": "ukraine-russia-war-attacks"
+          "clusterId": "ukraine-russia-war"
         },
         {
-          "id": "aljazeera-ukraine-russia-war-attacks-0",
-          "outletId": "aljazeera",
-          "outletName": "Al Jazeera",
-          "headline": "Russia’s advance collapses in Ukraine, ‘40,000’ troops killed in June",
-          "url": "https://www.aljazeera.com/news/2026/7/3/russian-advance-collapses-in-ukraine-as-anxiety-rises-in-moscow?traffic_source=rss",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "\"collapses\" — strong verb but factually descriptive of Russia",
-            "Al Jazeera neutral-leaning military reporting"
-          ],
-          "biasScoreGrok": 6.5,
-          "biasSignalsGrok": [
-            "advance collapses",
-            "40k killed June"
-          ],
-          "pubDate": "Fri, 03 Jul 2026 13:57:24 +0000",
-          "clusterId": "ukraine-russia-war-attacks"
-        },
-        {
-          "id": "axios-ukraine-russia-war-attacks-1",
+          "id": "axios-ukraine-russia-war-0",
           "outletId": "axios",
           "outletName": "Axios",
           "headline": "Ukraine proves it can hit Russia almost anywhere",
           "url": "https://www.axios.com/2026/07/03/ukraine-russia-drone-flamingo-strikes",
-          "biasScore": 4.8,
+          "biasScore": 5,
           "biasSignals": [
-            "\"proves it can hit Russia almost anywhere\" — capability framing",
-            "Axios neutral-positive framing of Ukrainian military"
+            "neutral factual military capability reporting",
+            "no ideological framing"
           ],
-          "biasScoreGrok": 4,
+          "biasScoreGrok": 5.8,
           "biasSignalsGrok": [
-            "proves hit anywhere",
-            "Ukraine positive"
+            "proves hit",
+            "almost anywhere"
           ],
           "pubDate": "Fri, 03 Jul 2026 08:40:05 +0000",
-          "clusterId": "ukraine-russia-war-attacks"
-        },
-        {
-          "id": "bostonglobe-ukraine-russia-war-attacks-4",
-          "outletId": "bostonglobe",
-          "outletName": "Boston Globe",
-          "headline": "NATO commander says Europe has backfilled most gaps from US cutbacks on military equipment",
-          "url": "https://www.bostonglobe.com/2026/07/03/world/nato-us-military-cutbacks/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral factual NATO military reporting",
-            "Boston Globe balanced framing on defense gaps"
-          ],
-          "biasScoreGrok": 5,
-          "biasSignalsGrok": [
-            "Europe backfilled",
-            "US cutbacks"
-          ],
-          "pubDate": "Fri, 03 Jul 2026 14:04:58 +0000",
-          "clusterId": "ukraine-russia-war-attacks"
+          "clusterId": "ukraine-russia-war"
         }
       ]
     },
     {
-      "id": "world-cup-2026-coverage",
-      "topicLabel": "2026 FIFA World Cup matches and cultural coverage",
+      "id": "trump-communist-attacks-democrats",
+      "topicLabel": "Trump and Republicans label Democrats as communist/socialist",
       "date": "2026-07-03",
       "articles": [
         {
-          "id": "vox-world-cup-2026-coverage-3",
+          "id": "vox-trump-communist-attacks-democrats-2",
           "outletId": "vox",
           "outletName": "Vox",
-          "headline": "The worst thing about America’s World Cup",
-          "url": "https://www.vox.com/podcasts/494086/world-cup-football-hydration-breaks-commercials-capitalism-roger-bennett",
+          "headline": "Why Gen Z bros are ditching their MAGA hats",
+          "url": "https://www.vox.com/america-actually/494140/donald-trump-gen-z-bro-vote-iran-israel-epstein-economy",
           "biasScore": 3.2,
           "biasSignals": [
-            "\"worst thing\" — critical framing of US hosting",
-            "Vox negative angle on American World Cup experience"
+            "'ditching MAGA hats' — implies rightward trend reversing",
+            "progressive framing of Gen Z political shift"
           ],
-          "biasScoreGrok": 3.5,
+          "biasScoreGrok": 2.5,
           "biasSignalsGrok": [
-            "worst thing about",
-            "America World Cup"
+            "Gen Z ditching",
+            "MAGA hats"
           ],
-          "pubDate": "2026-07-02T17:10:00.000Z",
-          "clusterId": "world-cup-2026-coverage"
+          "pubDate": "2026-07-03T11:15:00.000Z",
+          "clusterId": "trump-communist-attacks-democrats"
         },
         {
-          "id": "cbsnews-world-cup-2026-coverage-0",
-          "outletId": "cbsnews",
-          "outletName": "CBS News",
-          "headline": "The 2026 World Cup begins today. Here's what to know.",
-          "url": "https://www.cbsnews.com/video/2026-world-cup-begins-today-heres-what-to-know/",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral informational framing of World Cup start",
-            "CBS News factual, no ideological signals"
-          ],
-          "biasScoreGrok": 4.5,
-          "biasSignalsGrok": [
-            "begins today",
-            "what to know"
-          ],
-          "pubDate": "2026-06-11T19:52:21+00:00",
-          "clusterId": "world-cup-2026-coverage"
-        },
-        {
-          "id": "cbsnews-world-cup-2026-coverage-1",
-          "outletId": "cbsnews",
-          "outletName": "CBS News",
-          "headline": "World Cup opening ceremony kicks off in Mexico with Shakira",
-          "url": "https://www.cbsnews.com/news/world-cup-opening-ceremony-mexico-shakira/",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral event coverage of opening ceremony",
-            "CBS factual reporting, no loading"
-          ],
-          "biasScoreGrok": 4.8,
-          "biasSignalsGrok": [
-            "kicks off Mexico",
-            "Shakira neutral"
-          ],
-          "pubDate": "2026-06-11T18:41:38+00:00",
-          "clusterId": "world-cup-2026-coverage"
-        },
-        {
-          "id": "ap-world-cup-2026-coverage-2",
+          "id": "ap-trump-communist-attacks-democrats-0",
           "outletId": "ap",
           "outletName": "Associated Press",
-          "headline": "FIFA World Cup: US beats Bosnia-Herzegovina 2-0 to advance to round of 16",
-          "url": "https://apnews.com/article/world-cup-usmnt-bosnia-score-b78bdf42bf14d604d7b466aa58d33324",
-          "biasScore": 5,
+          "headline": "Trump and Republicans return to communist attacks against Democrats",
+          "url": "https://apnews.com/article/trump-republicans-democrats-communism-election-2026-5381c24e8eb4235ae993e812ad45ffbd",
+          "biasScore": 3.5,
           "biasSignals": [
-            "neutral sports result reporting",
-            "AP factual framing of match outcome"
+            "'return to communist attacks' — dismisses GOP framing",
+            "implies Republican rhetoric is recycled propaganda"
           ],
-          "biasScoreGrok": 4.5,
+          "biasScoreGrok": 3.2,
           "biasSignalsGrok": [
-            "beats Bosnia",
-            "advance round 16"
+            "return communist",
+            "attacks Democrats"
           ],
-          "pubDate": "2026-07-02T02:08:19Z",
-          "clusterId": "world-cup-2026-coverage"
+          "pubDate": "2026-07-02T10:49:00Z",
+          "clusterId": "trump-communist-attacks-democrats"
         },
         {
-          "id": "forbes-world-cup-2026-coverage-4",
-          "outletId": "forbes",
-          "outletName": "Forbes",
-          "headline": "Why The World Cup Has Been So Successful And So Much Fun",
-          "url": "https://www.forbes.com/sites/michaellewis/2026/07/03/why-the-world-cup-has-been-so-successful-and-so-much-fun/",
-          "biasScore": 5.2,
+          "id": "nationalreview-trump-communist-attacks-democrats-1",
+          "outletId": "nationalreview",
+          "outletName": "National Review",
+          "headline": "What Marx and Engels Thought About Socialism in the United States",
+          "url": "https://www.nationalreview.com/2026/07/what-marx-and-engels-thought-about-socialism-in-the-united-states/",
+          "biasScore": 6.5,
           "biasSignals": [
-            "celebratory framing of World Cup success",
-            "Forbes positive commercial/entertainment angle"
+            "historical framing implies socialism is foreign threat",
+            "conservative academic lens on socialist ideology"
           ],
-          "biasScoreGrok": 5.5,
+          "biasScoreGrok": 6.9,
           "biasSignalsGrok": [
-            "successful and fun",
-            "World Cup positive"
+            "Marx Engels thought",
+            "US socialism"
           ],
-          "pubDate": "Fri, 03 Jul 2026 10:17:37 -0400",
-          "clusterId": "world-cup-2026-coverage"
+          "pubDate": "Fri, 03 Jul 2026 10:30:26 +0000",
+          "clusterId": "trump-communist-attacks-democrats"
         }
       ]
     },
     {
-      "id": "olympian-reflecting-pool-vandalism",
-      "topicLabel": "Former Olympian charged with Reflecting Pool vandalism",
+      "id": "gary-glitter-sex-charges",
+      "topicLabel": "Gary Glitter charged with historical sexual offenses",
       "date": "2026-07-03",
       "articles": [
         {
-          "id": "npr-olympian-reflecting-pool-vandalism-0",
-          "outletId": "npr",
-          "outletName": "NPR",
-          "headline": "Ex-Olympian charged over alleged reflecting pool damage",
-          "url": "https://www.npr.org/2026/07/03/nx-s1-5879451/ex-olympian-charged-over-alleged-reflecting-pool-damage",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral factual legal reporting",
-            "NPR balanced framing, no ideological loading"
-          ],
-          "biasScoreGrok": 4.8,
-          "biasSignalsGrok": [
-            "ex-Olympian charged",
-            "damage alleged"
-          ],
-          "pubDate": "Fri, 03 Jul 2026 05:00:31 -0400",
-          "clusterId": "olympian-reflecting-pool-vandalism"
-        },
-        {
-          "id": "axios-olympian-reflecting-pool-vandalism-1",
-          "outletId": "axios",
-          "outletName": "Axios",
-          "headline": "Olympian indicted for vandalizing Reflecting Pool",
-          "url": "https://www.axios.com/2026/07/02/olympian-indicted-for-allegedly-vandalizing-reflecting-pool",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral factual Axios reporting",
-            "\"indicted\" — standard legal verb, no loading"
-          ],
-          "biasScoreGrok": 5,
-          "biasSignalsGrok": [
-            "Olympian indicted",
-            "vandalizing neutral"
-          ],
-          "pubDate": "Thu, 02 Jul 2026 19:28:59 +0000",
-          "clusterId": "olympian-reflecting-pool-vandalism"
-        },
-        {
-          "id": "bostonglobe-olympian-reflecting-pool-vandalism-2",
-          "outletId": "bostonglobe",
-          "outletName": "Boston Globe",
-          "headline": "Former Olympian indicted for alleged Reflecting Pool vandalism. See how the day unfolded.",
-          "url": "https://www.bostonglobe.com/2026/07/02/nation/trump-presidency-live-updates/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral factual Boston Globe reporting",
-            "\"alleged\" qualifier — fair legal framing"
-          ],
-          "biasScoreGrok": 4.8,
-          "biasSignalsGrok": [
-            "indicted alleged",
-            "vandalism unfolded"
-          ],
-          "pubDate": "Thu, 02 Jul 2026 04:29:11 +0000",
-          "clusterId": "olympian-reflecting-pool-vandalism"
-        }
-      ]
-    },
-    {
-      "id": "taylor-swift-travis-kelce-wedding",
-      "topicLabel": "Taylor Swift and Travis Kelce's wedding at MSG",
-      "date": "2026-07-03",
-      "articles": [
-        {
-          "id": "forbes-taylor-swift-travis-kelce-wedding-1",
-          "outletId": "forbes",
-          "outletName": "Forbes",
-          "headline": "Taylor Swift's Wedding Is Today: Here's Every Famous Guest Spotted So Far",
-          "url": "https://www.forbes.com/sites/maryroeloffs/2026/07/03/taylor-swifts-wedding-is-today-heres-every-famous-guest-spotted-so-far/",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral celebrity event coverage",
-            "Forbes factual guest list reporting"
-          ],
-          "biasScoreGrok": 5,
-          "biasSignalsGrok": [
-            "every famous guest",
-            "wedding today"
-          ],
-          "pubDate": "Fri, 03 Jul 2026 09:49:33 -0400",
-          "clusterId": "taylor-swift-travis-kelce-wedding"
-        },
-        {
-          "id": "bostonglobe-taylor-swift-travis-kelce-wedding-2",
-          "outletId": "bostonglobe",
-          "outletName": "Boston Globe",
-          "headline": "A fairytale at MSG: Taylor Swift and Travis Kelce’s wedding set to take place",
-          "url": "https://www.bostonglobe.com/2026/07/03/lifestyle/taylor-swift-travis-kelce-wedding/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
-          "biasScore": 5,
-          "biasSignals": [
-            "\"fairytale\" — positive framing but standard celebrity language",
-            "Boston Globe neutral entertainment framing"
-          ],
-          "biasScoreGrok": 4.8,
-          "biasSignalsGrok": [
-            "fairytale at MSG",
-            "set to take place"
-          ],
-          "pubDate": "Fri, 03 Jul 2026 12:02:39 +0000",
-          "clusterId": "taylor-swift-travis-kelce-wedding"
-        },
-        {
-          "id": "skynews-taylor-swift-travis-kelce-wedding-3",
-          "outletId": "skynews",
-          "outletName": "Sky News",
-          "headline": "'Most excitement around a celebrity wedding since Posh and Becks'",
-          "url": "https://news.sky.com/story/are-taylor-swift-and-travis-kelce-about-to-tie-the-knot-everything-we-know-about-expected-wedding-at-madison-square-garden-13559888",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral celebrity comparison framing",
-            "Sky News balanced entertainment reporting"
-          ],
-          "biasScoreGrok": 5.2,
-          "biasSignalsGrok": [
-            "most excitement",
-            "celebrity wedding"
-          ],
-          "pubDate": "Thu, 02 Jul 2026 16:01:00 +0100",
-          "clusterId": "taylor-swift-travis-kelce-wedding"
-        },
-        {
-          "id": "nypost-taylor-swift-travis-kelce-wedding-0",
-          "outletId": "nypost",
-          "outletName": "NY Post",
-          "headline": "Street closures for Taylor Swift’s wedding add to chaos for commuters already stricken by record heat",
-          "url": "https://nypost.com/2026/07/03/us-news/street-closures-for-taylor-swifts-wedding-add-to-chaos-for-commuters-already-striken-by-record-heat/",
-          "biasScore": 5.5,
-          "biasSignals": [
-            "mild negative framing via commuter chaos angle",
-            "NY Post links celebrity event to reader inconvenience"
-          ],
-          "biasScoreGrok": 4.5,
-          "biasSignalsGrok": [
-            "add to chaos",
-            "record heat"
-          ],
-          "pubDate": "Fri, 03 Jul 2026 07:18:08 -0700",
-          "clusterId": "taylor-swift-travis-kelce-wedding"
-        }
-      ]
-    },
-    {
-      "id": "lyra-mckee-murder-acquittal",
-      "topicLabel": "Three men acquitted of murdering journalist Lyra McKee",
-      "date": "2026-07-03",
-      "articles": [
-        {
-          "id": "dailymail-lyra-mckee-murder-acquittal-0",
-          "outletId": "dailymail",
-          "outletName": "Daily Mail",
-          "headline": "Three men found not guilty of murdering journalist Lyra McKee during riot in Londonderry",
-          "url": "\n\thttps://www.dailymail.com/news/article-15951113/Three-men-not-guilty-murdering-journalist-Lyra-McKee-riot-Londonderry.html?ns_mchannel=rss&ito=1490&ns_campaign=1490\n      ",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral factual reporting of verdict",
-            "Daily Mail standard court reporting, no loading"
-          ],
-          "biasScoreGrok": 4.8,
-          "biasSignalsGrok": [
-            "found not guilty",
-            "during riot"
-          ],
-          "pubDate": "Fri, 03 Jul 2026 16:59:17 +0100",
-          "clusterId": "lyra-mckee-murder-acquittal"
-        },
-        {
-          "id": "independent-lyra-mckee-murder-acquittal-1",
-          "outletId": "independent",
-          "outletName": "The Independent",
-          "headline": "Three men acquitted of journalist Lyra McKee’s murder",
-          "url": "https://www.independent.co.uk/bulletin/news/lyra-mckee-murder-mcintyre-cavanagh-devine-not-guilty-londonderry-b3008520.html",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral factual headline on acquittal",
-            "Independent balanced legal reporting"
-          ],
-          "biasScoreGrok": 4.5,
-          "biasSignalsGrok": [
-            "acquitted murder",
-            "journalist neutral"
-          ],
-          "pubDate": "Fri, 03 Jul 2026 15:57:30 GMT",
-          "clusterId": "lyra-mckee-murder-acquittal"
-        },
-        {
-          "id": "skynews-lyra-mckee-murder-acquittal-2",
-          "outletId": "skynews",
-          "outletName": "Sky News",
-          "headline": "Three men found not guilty of murdering journalist Lyra McKee",
-          "url": "https://news.sky.com/story/three-men-found-not-guilty-of-murdering-journalist-lyra-mckee-13560026",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral factual Sky News court reporting",
-            "no ideological signals detected"
-          ],
-          "biasScoreGrok": 4.8,
-          "biasSignalsGrok": [
-            "found not guilty",
-            "murdering journalist"
-          ],
-          "pubDate": "Fri, 03 Jul 2026 06:20:00 +0100",
-          "clusterId": "lyra-mckee-murder-acquittal"
-        }
-      ]
-    },
-    {
-      "id": "venezuela-earthquake-survivor-rescued",
-      "topicLabel": "Venezuelan security guard rescued 8 days after earthquake",
-      "date": "2026-07-03",
-      "articles": [
-        {
-          "id": "abc-venezuela-earthquake-survivor-rescued-0",
-          "outletId": "abc",
-          "outletName": "ABC News",
-          "headline": "Venezuelan security guard pulled alive from building basement 8 days after twin quakes",
-          "url": "https://abcnews.com/International/wireStory/venezuelan-security-guard-pulled-alive-building-basement-8-134408646",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral factual human interest reporting",
-            "ABC balanced international disaster coverage"
-          ],
-          "biasScoreGrok": 4.5,
-          "biasSignalsGrok": [
-            "pulled alive",
-            "8 days after"
-          ],
-          "pubDate": "2026-07-02T13:30:42Z",
-          "clusterId": "venezuela-earthquake-survivor-rescued"
-        },
-        {
-          "id": "ap-venezuela-earthquake-survivor-rescued-1",
-          "outletId": "ap",
-          "outletName": "Associated Press",
-          "headline": "Venezuelan security guard pulled alive from building basement 8 days after twin quakes",
-          "url": "https://apnews.com/article/venezuela-earthquake-survivor-gil-flores-security-guard-ecb4f8db7608e16dd09bcca962a35bc8",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral AP wire reporting on rescue",
-            "no ideological signals, factual international news"
-          ],
-          "biasScoreGrok": 4.5,
-          "biasSignalsGrok": [
-            "pulled alive",
-            "twin quakes"
-          ],
-          "pubDate": "2026-07-02T13:30:42Z",
-          "clusterId": "venezuela-earthquake-survivor-rescued"
-        }
-      ]
-    },
-    {
-      "id": "gary-glitter-sex-offences-charged",
-      "topicLabel": "Gary Glitter charged with historical sexual offences",
-      "date": "2026-07-03",
-      "articles": [
-        {
-          "id": "bbc-gary-glitter-sex-offences-charged-0",
+          "id": "bbc-gary-glitter-sex-charges-0",
           "outletId": "bbc",
           "outletName": "BBC",
           "headline": "Gary Glitter charged with historical sexual offences",
           "url": "https://www.bbc.co.uk/news/articles/c2lywez0zddo",
           "biasScore": 5,
           "biasSignals": [
-            "neutral factual BBC reporting on charges",
-            "\"historical\" — standard UK legal terminology"
+            "neutral factual criminal charge reporting",
+            "no political or ideological framing"
           ],
-          "biasScoreGrok": 4.8,
+          "biasScoreGrok": 4.7,
           "biasSignalsGrok": [
-            "charged historical",
-            "sexual offences"
+            "charged offences",
+            "neutral legal"
           ],
           "pubDate": "2026-07-02T13:52:25.3972424Z",
-          "clusterId": "gary-glitter-sex-offences-charged"
+          "clusterId": "gary-glitter-sex-charges"
         },
         {
-          "id": "nbc-gary-glitter-sex-offences-charged-1",
+          "id": "nbc-gary-glitter-sex-charges-1",
           "outletId": "nbc",
           "outletName": "NBC News",
           "headline": "Gary Glitter charged with historical sex offenses against girl under 14",
           "url": "https://www.nbcnews.com/world/united-kingdom/gary-glitter-charged-new-historical-sex-offences-girl-rcna352728",
           "biasScore": 5,
           "biasSignals": [
-            "neutral factual NBC reporting on charges",
-            "consistent factual framing, no loading"
+            "neutral factual charge reporting",
+            "no political framing"
           ],
           "biasScoreGrok": 4.5,
           "biasSignalsGrok": [
-            "charged against girl",
-            "under 14"
+            "charged offenses",
+            "girl under 14"
           ],
           "pubDate": "2026-07-02T14:51:14Z",
-          "clusterId": "gary-glitter-sex-offences-charged"
+          "clusterId": "gary-glitter-sex-charges"
         }
       ]
     },
     {
-      "id": "trump-border-smart-wall",
-      "topicLabel": "Trump administration's 'smart wall' border surveillance system",
+      "id": "venezuela-earthquake-survivor",
+      "topicLabel": "Venezuelan security guard rescued 8 days after quakes",
       "date": "2026-07-03",
       "articles": [
         {
-          "id": "ap-trump-border-smart-wall-1",
+          "id": "abc-venezuela-earthquake-survivor-0",
+          "outletId": "abc",
+          "outletName": "ABC News",
+          "headline": "Venezuelan security guard pulled alive from building basement 8 days after twin quakes",
+          "url": "https://abcnews.com/International/wireStory/venezuelan-security-guard-pulled-alive-building-basement-8-134408646",
+          "biasScore": 5,
+          "biasSignals": [
+            "neutral factual rescue reporting",
+            "no political framing"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "pulled alive",
+            "twin quakes"
+          ],
+          "pubDate": "2026-07-02T13:30:42Z",
+          "clusterId": "venezuela-earthquake-survivor"
+        },
+        {
+          "id": "ap-venezuela-earthquake-survivor-1",
           "outletId": "ap",
           "outletName": "Associated Press",
-          "headline": "Trump 'smart wall' uses steel fencing and advanced border surveillance",
-          "url": "https://apnews.com/article/border-security-smart-wall-immigration-trump-e0ec5fd754a25d345dfb1e5f24a49b80",
-          "biasScore": 5.2,
+          "headline": "Venezuelan security guard pulled alive from building basement 8 days after twin quakes",
+          "url": "https://apnews.com/article/venezuela-earthquake-survivor-gil-flores-security-guard-ecb4f8db7608e16dd09bcca962a35bc8",
+          "biasScore": 5,
           "biasSignals": [
-            "AP neutral description of wall components",
-            "\"advanced border surveillance\" — neutral technical language"
+            "neutral AP factual rescue reporting",
+            "human interest framing, no ideological signals"
           ],
-          "biasScoreGrok": 5.5,
+          "biasScoreGrok": 5.1,
           "biasSignalsGrok": [
-            "uses steel fencing",
-            "advanced surveillance"
+            "pulled alive",
+            "twin quakes"
           ],
-          "pubDate": "2026-07-02T11:48:18Z",
-          "clusterId": "trump-border-smart-wall"
+          "pubDate": "2026-07-02T13:30:42Z",
+          "clusterId": "venezuela-earthquake-survivor"
+        }
+      ]
+    },
+    {
+      "id": "trump-accounts-newborns",
+      "topicLabel": "Trump Accounts launch giving newborns $1000",
+      "date": "2026-07-03",
+      "articles": [
+        {
+          "id": "abc-trump-accounts-newborns-1",
+          "outletId": "abc",
+          "outletName": "ABC News",
+          "headline": "Trump Accounts launch July 4, giving newborns $1,000. Here's what to know",
+          "url": "https://abcnews.com/Business/wireStory/trump-accounts-launch-july-4-giving-newborns-1000-134405062",
+          "biasScore": 5,
+          "biasSignals": [
+            "neutral informational framing of new policy",
+            "no ideological loading"
+          ],
+          "biasScoreGrok": 5.9,
+          "biasSignalsGrok": [
+            "giving newborns",
+            "what know neutral"
+          ],
+          "pubDate": "2026-07-02T12:31:19Z",
+          "clusterId": "trump-accounts-newborns"
         },
         {
-          "id": "bostonglobe-trump-border-smart-wall-0",
-          "outletId": "bostonglobe",
-          "outletName": "Boston Globe",
-          "headline": "Trump administration’s $46 billion ‘smart wall’ races ahead on the US-Mexico border",
-          "url": "https://www.bostonglobe.com/2026/07/02/nation/trump-immigration-border-security/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
+          "id": "washpost-trump-accounts-newborns-0",
+          "outletId": "washpost",
+          "outletName": "Washington Post",
+          "headline": "Babies born this year will receive Social Security cards with ‘Freedom 250′ logo",
+          "url": "https://www.washingtonpost.com/politics/2026/07/03/babies-born-this-year-will-receive-social-security-cards-with-freedom-250-logo/",
           "biasScore": 5.5,
           "biasSignals": [
-            "neutral factual description of border technology",
-            "Boston Globe balanced reporting, no strong loading"
+            "neutral factual reporting on Social Security branding",
+            "mild implicit criticism via 'Freedom 250 logo' detail"
           ],
-          "biasScoreGrok": 6.5,
+          "biasScoreGrok": 6.7,
           "biasSignalsGrok": [
-            "races ahead border",
-            "smart wall positive"
+            "Freedom 250 logo",
+            "newborns receive"
           ],
-          "pubDate": "Thu, 02 Jul 2026 12:04:33 +0000",
-          "clusterId": "trump-border-smart-wall"
+          "pubDate": "2026-07-02T16:01:00Z",
+          "clusterId": "trump-accounts-newborns"
         }
       ]
     },
     {
-      "id": "monaco-bombing-ukrainian-suspect",
-      "topicLabel": "Interpol names Ukrainian woman as Monaco bombing suspect",
+      "id": "mamdani-america-250-speech",
+      "topicLabel": "Zohran Mamdani delivers alternative America 250 speech",
       "date": "2026-07-03",
       "articles": [
         {
-          "id": "aljazeera-monaco-bombing-ukrainian-suspect-0",
-          "outletId": "aljazeera",
-          "outletName": "Al Jazeera",
-          "headline": "Interpol names Ukrainian woman as suspect in Monaco bombing",
-          "url": "https://www.aljazeera.com/news/2026/7/3/interpol-names-ukrainian-woman-as-suspect-in-monaco-bombing?traffic_source=rss",
-          "biasScore": 5,
+          "id": "guardian-mamdani-america-250-speech-0",
+          "outletId": "guardian",
+          "outletName": "The Guardian",
+          "headline": "Zohran Mamdani to deliver speech to mark US’s 250th birthday in New York",
+          "url": "https://www.theguardian.com/us-news/2026/jul/03/zohran-mamdani-america-250-new-york",
+          "biasScore": 4.2,
           "biasSignals": [
-            "neutral factual Al Jazeera crime reporting",
-            "no ideological signals detected"
+            "neutral factual reporting on speech event",
+            "no loaded language"
           ],
-          "biasScoreGrok": 4.8,
+          "biasScoreGrok": 3.7,
           "biasSignalsGrok": [
-            "names Ukrainian",
-            "Monaco bombing"
+            "deliver speech",
+            "mark 250th"
           ],
-          "pubDate": "Fri, 03 Jul 2026 13:25:55 +0000",
-          "clusterId": "monaco-bombing-ukrainian-suspect"
+          "pubDate": "Fri, 03 Jul 2026 10:00:25 GMT",
+          "clusterId": "mamdani-america-250-speech"
         },
         {
-          "id": "skynews-monaco-bombing-ukrainian-suspect-1",
-          "outletId": "skynews",
-          "outletName": "Sky News",
-          "headline": "Woman wanted over Monaco bombing 'that targeted Ukrainian tycoon' is named",
-          "url": "https://news.sky.com/story/arrest-warrant-issued-for-woman-wanted-over-monaco-bombing-13560051",
-          "biasScore": 5,
+          "id": "washexaminer-mamdani-america-250-speech-2",
+          "outletId": "washexaminer",
+          "outletName": "Washington Examiner",
+          "headline": "READ IN FULL: Zohran Mamdani’s America 250 address from George Washington’s desk at New York City Hall",
+          "url": "https://www.washingtonexaminer.com/news/4635610/read-in-full-zohran-mamdani-america-250-address/",
+          "biasScore": 4.8,
           "biasSignals": [
-            "neutral factual Sky News crime reporting",
-            "\"wanted over\" — standard neutral legal language"
+            "neutral 'read in full' framing gives platform",
+            "no editorial framing of speech content"
           ],
-          "biasScoreGrok": 4.5,
+          "biasScoreGrok": 7.4,
           "biasSignalsGrok": [
-            "wanted over bombing",
-            "targeted tycoon"
+            "read full address",
+            "Washington desk"
           ],
-          "pubDate": "Fri, 03 Jul 2026 08:38:00 +0100",
-          "clusterId": "monaco-bombing-ukrainian-suspect"
+          "pubDate": "Fri, 03 Jul 2026 15:10:57 +0000",
+          "clusterId": "mamdani-america-250-speech"
+        },
+        {
+          "id": "washexaminer-mamdani-america-250-speech-3",
+          "outletId": "washexaminer",
+          "outletName": "Washington Examiner",
+          "headline": "Mamdani offers socialist challenge to Trump’s vision of America with July Fourth speech",
+          "url": "https://www.washingtonexaminer.com/news/white-house/4634936/mamdani-offers-socialist-challenge-trump-vision-america/",
+          "biasScore": 5.2,
+          "biasSignals": [
+            "neutral ideological contrast framing",
+            "balanced 'socialist challenge' descriptor"
+          ],
+          "biasScoreGrok": 7.9,
+          "biasSignalsGrok": [
+            "socialist challenge",
+            "Trump vision"
+          ],
+          "pubDate": "Fri, 03 Jul 2026 11:00:00 +0000",
+          "clusterId": "mamdani-america-250-speech"
+        },
+        {
+          "id": "washexaminer-mamdani-america-250-speech-1",
+          "outletId": "washexaminer",
+          "outletName": "Washington Examiner",
+          "headline": "Mamdani lashes out at rich and powerful ‘turning us against one another’ during alternative America 250 speech",
+          "url": "https://www.washingtonexaminer.com/news/4635616/mamdani-lashes-out-rich-powerful-america-250-speech/",
+          "biasScore": 5.5,
+          "biasSignals": [
+            "neutral reporting on speech content",
+            "no editorializing on socialist framing"
+          ],
+          "biasScoreGrok": 7.7,
+          "biasSignalsGrok": [
+            "lashes out rich",
+            "alternative speech"
+          ],
+          "pubDate": "Fri, 03 Jul 2026 15:22:18 +0000",
+          "clusterId": "mamdani-america-250-speech"
+        },
+        {
+          "id": "thefederalist-mamdani-america-250-speech-4",
+          "outletId": "thefederalist",
+          "outletName": "The Federalist",
+          "headline": "Mamdani Is Telling A Brazen Lie About ‘Capitalist Mismanagement’ Of New York",
+          "url": "https://thefederalist.com/2026/07/03/mamdani-is-telling-a-brazen-lie-about-capitalist-mismanagement-of-new-york/?utm_source=rss&utm_medium=rss&utm_campaign=mamdani-is-telling-a-brazen-lie-about-capitalist-mismanagement-of-new-york",
+          "biasScore": 8.5,
+          "biasSignals": [
+            "'Brazen Lie' — extreme accusatory attack language",
+            "far-right dismissal of socialist economic critique"
+          ],
+          "biasScoreGrok": 8.2,
+          "biasSignalsGrok": [
+            "brazen lie",
+            "capitalist mismanagement"
+          ],
+          "pubDate": "Fri, 03 Jul 2026 11:33:18 +0000",
+          "clusterId": "mamdani-america-250-speech"
         }
       ]
     },
     {
-      "id": "nancy-guthrie-kidnapping-fbi",
-      "topicLabel": "FBI continues investigating Nancy Guthrie kidnapping case",
+      "id": "deepseek-china-ai",
+      "topicLabel": "China's DeepSeek AI model shocks Silicon Valley",
       "date": "2026-07-03",
       "articles": [
         {
-          "id": "huffpost-nancy-guthrie-kidnapping-fbi-1",
-          "outletId": "huffpost",
-          "outletName": "HuffPost",
-          "headline": "FBI Says Nancy Guthrie Probe Remains Kidnap-For-Ransom Case, Despite Notes Deemed Not Credible",
-          "url": "https://www.huffpost.com/entry/nancy-guthrie-probe_n_6a462276e4b001e08fc207c0",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral factual framing of FBI update",
-            "HuffPost relatively balanced on crime story"
-          ],
-          "biasScoreGrok": 4.5,
-          "biasSignalsGrok": [
-            "remains kidnap case",
-            "notes not credible"
-          ],
-          "pubDate": "2026-07-02T08:42:10Z",
-          "clusterId": "nancy-guthrie-kidnapping-fbi"
-        },
-        {
-          "id": "nbc-nancy-guthrie-kidnapping-fbi-0",
-          "outletId": "nbc",
-          "outletName": "NBC News",
-          "headline": "Nancy Guthrie case: FBI still investigating some notes as legitimate",
-          "url": "https://www.nbcnews.com/news/us-news/nancy-guthrie-fbi-investigating-notes-legitimate-extortion-demands-rcna352692",
+          "id": "wsj-deepseek-china-ai-0",
+          "outletId": "wsj",
+          "outletName": "Wall Street Journal",
+          "headline": "What to Know About China's DeepSeek AI",
+          "url": "https://www.wsj.com/articles/deepseek-ai-china-tech-stocks-explained-ee6cc80e?mod=rss_Technology",
           "biasScore": 5,
           "biasSignals": [
-            "neutral factual NBC crime reporting",
-            "balanced framing of ongoing investigation"
+            "neutral informational 'what to know' framing",
+            "no political loading"
           ],
           "biasScoreGrok": 4.8,
           "biasSignalsGrok": [
-            "still investigating",
-            "notes legitimate"
+            "shocks Silicon",
+            "what know"
           ],
-          "pubDate": "2026-07-02T12:07:24Z",
-          "clusterId": "nancy-guthrie-kidnapping-fbi"
+          "pubDate": "Mon, 27 Jan 2025 13:17:00 -0500",
+          "clusterId": "deepseek-china-ai"
         },
         {
-          "id": "metro-nancy-guthrie-kidnapping-fbi-2",
-          "outletId": "metro",
-          "outletName": "Metro",
-          "headline": "What happened to Nancy Guthrie? Timeline of kidnapping after FBI admission",
-          "url": "https://metro.co.uk/2026/07/03/happened-nancy-guthrie-timeline-kidnapping-fbi-admission-29028526/",
+          "id": "wsj-deepseek-china-ai-1",
+          "outletId": "wsj",
+          "outletName": "Wall Street Journal",
+          "headline": "Silicon Valley Is Raving About a Made-in-China AI Model",
+          "url": "https://www.wsj.com/articles/china-ai-deepseek-chatbot-6ac4ad33?mod=rss_Technology",
           "biasScore": 5,
           "biasSignals": [
-            "neutral factual timeline reporting",
-            "Metro balanced crime reporting, no loading"
+            "'raving' — positive framing of tech reaction",
+            "neutral tech reporting, no geopolitical alarm"
           ],
-          "biasScoreGrok": 4.8,
+          "biasScoreGrok": 5.3,
           "biasSignalsGrok": [
-            "timeline of kidnapping",
-            "FBI admission"
+            "raving made China",
+            "AI model"
           ],
-          "pubDate": "Fri, 03 Jul 2026 14:50:34 +0000",
-          "clusterId": "nancy-guthrie-kidnapping-fbi"
+          "pubDate": "Mon, 27 Jan 2025 09:36:00 -0500",
+          "clusterId": "deepseek-china-ai"
         }
       ]
     }
@@ -2314,8 +2328,8 @@
       "outletId": "latimes",
       "outletName": "LA Times",
       "abbreviation": "LAT",
-      "currentScore": 2,
-      "currentScoreGrok": 2.8,
+      "currentScore": 2.2,
+      "currentScoreGrok": 2.1,
       "articleCount": 1,
       "expectedRange": [
         2.5,
@@ -2323,26 +2337,26 @@
       ]
     },
     {
-      "outletId": "msnbc",
-      "outletName": "MSNBC",
-      "abbreviation": "MSNBC",
-      "currentScore": 2.43,
-      "currentScoreGrok": 3.12,
-      "articleCount": 6,
+      "outletId": "huffpost",
+      "outletName": "HuffPost",
+      "abbreviation": "HPost",
+      "currentScore": 2.45,
+      "currentScoreGrok": 2.8,
+      "articleCount": 4,
       "expectedRange": [
-        1.5,
+        2,
         3.5
       ]
     },
     {
-      "outletId": "huffpost",
-      "outletName": "HuffPost",
-      "abbreviation": "HPost",
+      "outletId": "msnbc",
+      "outletName": "MSNBC",
+      "abbreviation": "MSNBC",
       "currentScore": 2.7,
-      "currentScoreGrok": 3.55,
-      "articleCount": 6,
+      "currentScoreGrok": 3.03,
+      "articleCount": 4,
       "expectedRange": [
-        2,
+        1.5,
         3.5
       ]
     },
@@ -2350,9 +2364,9 @@
       "outletId": "vox",
       "outletName": "Vox",
       "abbreviation": "Vox",
-      "currentScore": 3.08,
-      "currentScoreGrok": 3.53,
-      "articleCount": 6,
+      "currentScore": 3.06,
+      "currentScoreGrok": 3.14,
+      "articleCount": 7,
       "expectedRange": [
         2.5,
         4
@@ -2362,32 +2376,20 @@
       "outletId": "theatlantic",
       "outletName": "The Atlantic",
       "abbreviation": "Atlntc",
-      "currentScore": 3.15,
-      "currentScoreGrok": 3.5,
-      "articleCount": 2,
+      "currentScore": 3.2,
+      "currentScoreGrok": 5.2,
+      "articleCount": 1,
       "expectedRange": [
         2.5,
         4
       ]
     },
     {
-      "outletId": "washpost",
-      "outletName": "Washington Post",
-      "abbreviation": "WPost",
-      "currentScore": 3.67,
-      "currentScoreGrok": 4,
-      "articleCount": 3,
-      "expectedRange": [
-        2.8,
-        4.2
-      ]
-    },
-    {
       "outletId": "npr",
       "outletName": "NPR",
       "abbreviation": "NPR",
-      "currentScore": 3.69,
-      "currentScoreGrok": 4.06,
+      "currentScore": 3.47,
+      "currentScoreGrok": 3.46,
       "articleCount": 7,
       "expectedRange": [
         3.5,
@@ -2398,32 +2400,32 @@
       "outletId": "guardian",
       "outletName": "The Guardian",
       "abbreviation": "Guard",
-      "currentScore": 3.78,
-      "currentScoreGrok": 3.53,
-      "articleCount": 4,
+      "currentScore": 3.74,
+      "currentScoreGrok": 3.62,
+      "articleCount": 5,
       "expectedRange": [
         2.5,
         4
       ]
     },
     {
-      "outletId": "politico",
-      "outletName": "Politico",
-      "abbreviation": "PLTICO",
-      "currentScore": 4,
-      "currentScoreGrok": 4.6,
-      "articleCount": 2,
+      "outletId": "bostonglobe",
+      "outletName": "Boston Globe",
+      "abbreviation": "Globe",
+      "currentScore": 3.96,
+      "currentScoreGrok": 4.52,
+      "articleCount": 5,
       "expectedRange": [
-        4,
-        5.5
+        2.5,
+        4
       ]
     },
     {
       "outletId": "cnbc",
       "outletName": "CNBC",
       "abbreviation": "CNBC",
-      "currentScore": 4.25,
-      "currentScoreGrok": 4.4,
+      "currentScore": 4.15,
+      "currentScoreGrok": 3.65,
       "articleCount": 2,
       "expectedRange": [
         4.5,
@@ -2431,11 +2433,35 @@
       ]
     },
     {
+      "outletId": "nytimes",
+      "outletName": "NY Times",
+      "abbreviation": "NYT",
+      "currentScore": 4.18,
+      "currentScoreGrok": 3.98,
+      "articleCount": 4,
+      "expectedRange": [
+        3,
+        4.5
+      ]
+    },
+    {
+      "outletId": "politico",
+      "outletName": "Politico",
+      "abbreviation": "PLTICO",
+      "currentScore": 4.23,
+      "currentScoreGrok": 5.3,
+      "articleCount": 3,
+      "expectedRange": [
+        4,
+        5.5
+      ]
+    },
+    {
       "outletId": "axios",
       "outletName": "Axios",
       "abbreviation": "Axios",
-      "currentScore": 4.47,
-      "currentScoreGrok": 5,
+      "currentScore": 4.32,
+      "currentScoreGrok": 5.2,
       "articleCount": 6,
       "expectedRange": [
         5.5,
@@ -2443,27 +2469,27 @@
       ]
     },
     {
-      "outletId": "nytimes",
-      "outletName": "NY Times",
-      "abbreviation": "NYT",
-      "currentScore": 4.5,
-      "currentScoreGrok": 4.5,
-      "articleCount": 3,
+      "outletId": "washpost",
+      "outletName": "Washington Post",
+      "abbreviation": "WPost",
+      "currentScore": 4.38,
+      "currentScoreGrok": 4.47,
+      "articleCount": 4,
       "expectedRange": [
-        3,
-        4.5
+        2.8,
+        4.2
       ]
     },
     {
-      "outletId": "bostonglobe",
-      "outletName": "Boston Globe",
-      "abbreviation": "Globe",
-      "currentScore": 4.55,
-      "currentScoreGrok": 5.02,
-      "articleCount": 6,
+      "outletId": "nbc",
+      "outletName": "NBC News",
+      "abbreviation": "NBC",
+      "currentScore": 4.56,
+      "currentScoreGrok": 4.46,
+      "articleCount": 5,
       "expectedRange": [
-        2.5,
-        4
+        3,
+        4.5
       ]
     },
     {
@@ -2471,7 +2497,7 @@
       "outletName": "CNN",
       "abbreviation": "CNN",
       "currentScore": 4.58,
-      "currentScoreGrok": 4.5,
+      "currentScoreGrok": 4.3,
       "articleCount": 4,
       "expectedRange": [
         2.5,
@@ -2482,9 +2508,9 @@
       "outletId": "ap",
       "outletName": "Associated Press",
       "abbreviation": "AP",
-      "currentScore": 4.67,
-      "currentScoreGrok": 4.42,
-      "articleCount": 6,
+      "currentScore": 4.6,
+      "currentScoreGrok": 4.86,
+      "articleCount": 5,
       "expectedRange": [
         4.5,
         5.5
@@ -2494,20 +2520,32 @@
       "outletId": "aljazeera",
       "outletName": "Al Jazeera",
       "abbreviation": "AJ",
-      "currentScore": 4.75,
-      "currentScoreGrok": 5.65,
-      "articleCount": 2,
+      "currentScore": 4.8,
+      "currentScoreGrok": 5.1,
+      "articleCount": 1,
       "expectedRange": [
         3.5,
         5
       ]
     },
     {
+      "outletId": "thehill",
+      "outletName": "The Hill",
+      "abbreviation": "Hill",
+      "currentScore": 4.83,
+      "currentScoreGrok": 5.1,
+      "articleCount": 3,
+      "expectedRange": [
+        5.5,
+        7
+      ]
+    },
+    {
       "outletId": "abc",
       "outletName": "ABC News",
       "abbreviation": "ABC",
-      "currentScore": 4.88,
-      "currentScoreGrok": 4.7,
+      "currentScore": 4.83,
+      "currentScoreGrok": 4.93,
       "articleCount": 4,
       "expectedRange": [
         3,
@@ -2515,12 +2553,12 @@
       ]
     },
     {
-      "outletId": "nbc",
-      "outletName": "NBC News",
-      "abbreviation": "NBC",
-      "currentScore": 4.94,
-      "currentScoreGrok": 4.36,
-      "articleCount": 5,
+      "outletId": "cbsnews",
+      "outletName": "CBS News",
+      "abbreviation": "CBS",
+      "currentScore": 4.93,
+      "currentScoreGrok": 4.83,
+      "articleCount": 3,
       "expectedRange": [
         3,
         4.5
@@ -2531,7 +2569,7 @@
       "outletName": "Times of Israel",
       "abbreviation": "TOI",
       "currentScore": 5,
-      "currentScoreGrok": 5.15,
+      "currentScoreGrok": 5.9,
       "articleCount": 2,
       "expectedRange": [
         5.5,
@@ -2539,51 +2577,15 @@
       ]
     },
     {
-      "outletId": "cbsnews",
-      "outletName": "CBS News",
-      "abbreviation": "CBS",
+      "outletId": "forbes",
+      "outletName": "Forbes",
+      "abbreviation": "Forbes",
       "currentScore": 5,
-      "currentScoreGrok": 4.65,
-      "articleCount": 2,
-      "expectedRange": [
-        3,
-        4.5
-      ]
-    },
-    {
-      "outletId": "skynews",
-      "outletName": "Sky News",
-      "abbreviation": "Sky",
-      "currentScore": 5,
-      "currentScoreGrok": 4.83,
-      "articleCount": 3,
-      "expectedRange": [
-        4,
-        5.5
-      ]
-    },
-    {
-      "outletId": "dailymail",
-      "outletName": "Daily Mail",
-      "abbreviation": "DM",
-      "currentScore": 5,
-      "currentScoreGrok": 4.8,
+      "currentScoreGrok": 5.4,
       "articleCount": 1,
       "expectedRange": [
-        6.5,
-        8.5
-      ]
-    },
-    {
-      "outletId": "independent",
-      "outletName": "The Independent",
-      "abbreviation": "Indep",
-      "currentScore": 5,
-      "currentScoreGrok": 4.5,
-      "articleCount": 1,
-      "expectedRange": [
-        3,
-        4.5
+        5,
+        6.5
       ]
     },
     {
@@ -2591,7 +2593,7 @@
       "outletName": "BBC",
       "abbreviation": "BBC",
       "currentScore": 5,
-      "currentScoreGrok": 4.8,
+      "currentScoreGrok": 4.7,
       "articleCount": 1,
       "expectedRange": [
         4,
@@ -2599,36 +2601,12 @@
       ]
     },
     {
-      "outletId": "metro",
-      "outletName": "Metro",
-      "abbreviation": "Metro",
+      "outletId": "wsj",
+      "outletName": "Wall Street Journal",
+      "abbreviation": "WSJ",
       "currentScore": 5,
-      "currentScoreGrok": 4.8,
-      "articleCount": 1,
-      "expectedRange": [
-        3,
-        5
-      ]
-    },
-    {
-      "outletId": "forbes",
-      "outletName": "Forbes",
-      "abbreviation": "Forbes",
-      "currentScore": 5.1,
-      "currentScoreGrok": 5.25,
+      "currentScoreGrok": 5.05,
       "articleCount": 2,
-      "expectedRange": [
-        5,
-        6.5
-      ]
-    },
-    {
-      "outletId": "thehill",
-      "outletName": "The Hill",
-      "abbreviation": "Hill",
-      "currentScore": 5.13,
-      "currentScoreGrok": 5.1,
-      "articleCount": 4,
       "expectedRange": [
         5.5,
         7
@@ -2638,31 +2616,19 @@
       "outletId": "washexaminer",
       "outletName": "Washington Examiner",
       "abbreviation": "WExam",
-      "currentScore": 5.25,
-      "currentScoreGrok": 6.35,
-      "articleCount": 4,
+      "currentScore": 5.16,
+      "currentScoreGrok": 7.46,
+      "articleCount": 7,
       "expectedRange": [
         7,
         8.5
       ]
     },
     {
-      "outletId": "nypost",
-      "outletName": "NY Post",
-      "abbreviation": "NYPost",
-      "currentScore": 5.5,
-      "currentScoreGrok": 4.75,
-      "articleCount": 2,
-      "expectedRange": [
-        6.5,
-        8
-      ]
-    },
-    {
       "outletId": "reason",
       "outletName": "Reason",
       "abbreviation": "Reason",
-      "currentScore": 5.5,
+      "currentScore": 5.2,
       "currentScoreGrok": 5.5,
       "articleCount": 1,
       "expectedRange": [
@@ -2671,11 +2637,23 @@
       ]
     },
     {
+      "outletId": "bloomberg",
+      "outletName": "Bloomberg",
+      "abbreviation": "BBG",
+      "currentScore": 5.5,
+      "currentScoreGrok": 5.7,
+      "articleCount": 1,
+      "expectedRange": [
+        4,
+        5.5
+      ]
+    },
+    {
       "outletId": "economist",
       "outletName": "The Economist",
       "abbreviation": "Econ",
-      "currentScore": 5.6,
-      "currentScoreGrok": 5.93,
+      "currentScore": 5.73,
+      "currentScoreGrok": 4.97,
       "articleCount": 3,
       "expectedRange": [
         4.5,
@@ -2683,12 +2661,24 @@
       ]
     },
     {
+      "outletId": "nypost",
+      "outletName": "NY Post",
+      "abbreviation": "NYPost",
+      "currentScore": 5.75,
+      "currentScoreGrok": 5.8,
+      "articleCount": 2,
+      "expectedRange": [
+        6.5,
+        8
+      ]
+    },
+    {
       "outletId": "dailycaller",
       "outletName": "Daily Caller",
       "abbreviation": "DC",
-      "currentScore": 6.5,
-      "currentScoreGrok": 6.5,
-      "articleCount": 1,
+      "currentScore": 6.2,
+      "currentScoreGrok": 7.15,
+      "articleCount": 2,
       "expectedRange": [
         7.5,
         9
@@ -2698,32 +2688,20 @@
       "outletId": "foxnews",
       "outletName": "Fox News",
       "abbreviation": "FOX",
-      "currentScore": 6.57,
-      "currentScoreGrok": 6.33,
-      "articleCount": 3,
+      "currentScore": 6.63,
+      "currentScoreGrok": 7.05,
+      "articleCount": 4,
       "expectedRange": [
         7,
         8.5
       ]
     },
     {
-      "outletId": "thefederalist",
-      "outletName": "The Federalist",
-      "abbreviation": "Fed",
-      "currentScore": 7,
-      "currentScoreGrok": 7.05,
-      "articleCount": 4,
-      "expectedRange": [
-        7.5,
-        9
-      ]
-    },
-    {
       "outletId": "breitbart",
       "outletName": "Breitbart",
       "abbreviation": "BB",
-      "currentScore": 7.5,
-      "currentScoreGrok": 7.5,
+      "currentScore": 6.93,
+      "currentScoreGrok": 7.63,
       "articleCount": 3,
       "expectedRange": [
         8.5,
@@ -2734,15 +2712,27 @@
       "outletId": "nationalreview",
       "outletName": "National Review",
       "abbreviation": "NR",
-      "currentScore": 7.5,
-      "currentScoreGrok": 6.8,
-      "articleCount": 1,
+      "currentScore": 7,
+      "currentScoreGrok": 7.05,
+      "articleCount": 2,
       "expectedRange": [
         7,
         8.5
       ]
+    },
+    {
+      "outletId": "thefederalist",
+      "outletName": "The Federalist",
+      "abbreviation": "Fed",
+      "currentScore": 7.36,
+      "currentScoreGrok": 7.42,
+      "articleCount": 5,
+      "expectedRange": [
+        7.5,
+        9
+      ]
     }
   ],
   "articleCount": 114,
-  "storyCount": 20
+  "storyCount": 22
 }
