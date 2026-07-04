@@ -1,171 +1,1115 @@
 {
   "date": "2026-07-04",
-  "generatedAt": "2026-07-04T11:31:50.012Z",
+  "generatedAt": "2026-07-04T15:58:19.586Z",
   "stories": [
     {
-      "id": "khamenei-funeral",
-      "topicLabel": "Iran Khamenei funeral and nuclear talks",
+      "id": "khamenei-funeral-iran",
+      "topicLabel": "Iran's Khamenei funeral and nuclear talks pause",
       "date": "2026-07-04",
       "articles": [
         {
-          "id": "aljazeera-khamenei-funeral-1",
-          "outletId": "aljazeera",
-          "outletName": "Al Jazeera",
-          "headline": "Thousands gather as Khamenei funeral ceremonies open in Tehran",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/4/thousands-gather-as-khamenei-funeral-ceremonies-open-in-tehran?traffic_source=rss",
-          "biasScore": 4.3,
-          "biasSignals": [
-            "neutral 'gather' verb, factual reporting",
-            "no ideological framing of Iranian government"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Sat, 04 Jul 2026 09:35:45 +0000",
-          "clusterId": "khamenei-funeral"
-        },
-        {
-          "id": "aljazeera-khamenei-funeral-0",
-          "outletId": "aljazeera",
-          "outletName": "Al Jazeera",
-          "headline": "Millions mourn Iran’s Ali Khamenei amid historic funeral procession",
-          "url": "https://www.aljazeera.com/gallery/2026/7/4/millions-mourn-irans-ali-khamenei-amid-historic-funeral-procession?traffic_source=rss",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral 'mourns' framing, factual tone",
-            "no charged language around Iran regime"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Sat, 04 Jul 2026 10:16:31 +0000",
-          "clusterId": "khamenei-funeral"
-        },
-        {
-          "id": "cnbc-khamenei-funeral-4",
+          "id": "cnbc-khamenei-funeral-iran-2",
           "outletId": "cnbc",
           "outletName": "CNBC",
           "headline": "Iran begins six-day funeral for Ayatollah Khamenei nearly four months after his death",
           "url": "https://www.cnbc.com/2026/07/04/-khamenei-funeral-procession-route.html",
           "biasScore": 4.5,
           "biasSignals": [
-            "neutral factual framing of funeral timeline",
-            "no ideological signals, business-focused outlet tone"
+            "neutral factual timeline provided",
+            "balanced sourcing, minimal ideological signal"
           ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
+          "biasScoreGrok": 5.1,
+          "biasSignalsGrok": [
+            "neutral timeline",
+            "factual reporting"
+          ],
           "pubDate": "Sat, 04 Jul 2026 05:20:52 GMT",
-          "clusterId": "khamenei-funeral"
+          "clusterId": "khamenei-funeral-iran"
         },
         {
-          "id": "ap-khamenei-funeral-7",
+          "id": "aljazeera-khamenei-funeral-iran-4",
+          "outletId": "aljazeera",
+          "outletName": "Al Jazeera",
+          "headline": "Iran promotes message of continuity and revenge at Khamenei commemoration",
+          "url": "https://www.aljazeera.com/news/2026/7/4/iran-promotes-message-of-continuity-and-revenge-at-khamenei-commemoration?traffic_source=rss",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral description of Iranian state messaging",
+            "balanced framing of 'revenge' as regime narrative"
+          ],
+          "biasScoreGrok": 3.8,
+          "biasSignalsGrok": [
+            "revenge emphasis",
+            "left framing"
+          ],
+          "pubDate": "Sat, 04 Jul 2026 15:49:39 +0000",
+          "clusterId": "khamenei-funeral-iran"
+        },
+        {
+          "id": "timesofisrael-khamenei-funeral-iran-6",
+          "outletId": "timesofisrael",
+          "outletName": "Times of Israel",
+          "headline": "Mourners chant for ‘revenge’ as Iran’s regime choreographs mass, days-long Khamenei funeral",
+          "url": "https://www.timesofisrael.com/mourners-chant-death-to-america-and-israel-as-iran-begins-days-long-khamenei-funeral/",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "'choreographs' implies regime manipulation neutrally",
+            "quotes chants without editorial endorsement"
+          ],
+          "biasScoreGrok": 4.9,
+          "biasSignalsGrok": [
+            "regime choreographs",
+            "sympathetic to Israel"
+          ],
+          "pubDate": "Sat, 04 Jul 2026 09:32:36 +0000",
+          "clusterId": "khamenei-funeral-iran"
+        },
+        {
+          "id": "ap-khamenei-funeral-iran-7",
           "outletId": "ap",
           "outletName": "Associated Press",
           "headline": "What to know about Ayatollah Ali Khamenei's funeral in Iran",
           "url": "https://apnews.com/article/iran-ayatollah-khamenei-funeral-us-war-what-to-know-5269a930c4a2263f788ebe893db86d61",
           "biasScore": 4.5,
           "biasSignals": [
-            "neutral 'what to know' explainer format",
-            "balanced sourcing, no charged language"
+            "neutral 'what to know' framing",
+            "factual, balanced sourcing"
           ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "neutral what to know",
+            "minimal signals"
+          ],
           "pubDate": "2026-07-03T06:08:12Z",
-          "clusterId": "khamenei-funeral"
+          "clusterId": "khamenei-funeral-iran"
         },
         {
-          "id": "ap-khamenei-funeral-8",
+          "id": "ap-khamenei-funeral-iran-8",
           "outletId": "ap",
           "outletName": "Associated Press",
           "headline": "Powerful general in Iran seen as Tehran readies for Khamenei's funeral",
           "url": "https://apnews.com/article/ali-khamenei-funeral-supreme-leader-iran-us-war-july-3-2026-554d4f05f43ebbb86f81821eb18c0927",
-          "biasScore": 4.7,
+          "biasScore": 4.5,
           "biasSignals": [
-            "neutral military framing, factual tone",
-            "no ideological signals detected"
+            "neutral verb 'seen as' for general",
+            "factual diplomatic framing"
           ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
+          "biasScoreGrok": 5.2,
+          "biasSignalsGrok": [
+            "powerful general",
+            "factual"
+          ],
           "pubDate": "2026-07-03T01:50:27Z",
-          "clusterId": "khamenei-funeral"
+          "clusterId": "khamenei-funeral-iran"
         },
         {
-          "id": "nbc-khamenei-funeral-6",
-          "outletId": "nbc",
-          "outletName": "NBC News",
-          "headline": "Iran Khamenei funeral: Regime expects millions for delayed ceremony",
-          "url": "https://www.nbcnews.com/world/iran/iran-funeral-supreme-leader-khamenei-rcna352664",
-          "biasScore": 4.8,
-          "biasSignals": [
-            "'regime expects millions' — slight negative framing",
-            "factual but 'regime' word choice signals distrust"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "2026-07-03T07:36:06Z",
-          "clusterId": "khamenei-funeral"
-        },
-        {
-          "id": "skynews-khamenei-funeral-9",
+          "id": "skynews-khamenei-funeral-iran-9",
           "outletId": "skynews",
           "outletName": "Sky News",
-          "headline": "Thousands gather for funeral of Iran's assassinated supreme leader Ali Khamenei",
+          "headline": "Thousands gather for funeral of Iran's assassinated supreme leader",
           "url": "https://news.sky.com/story/thousands-of-mourners-gather-for-funeral-of-irans-assassinated-supreme-leader-ali-khamenei-13560339",
-          "biasScore": 5,
+          "biasScore": 4.5,
           "biasSignals": [
-            "neutral 'gather for funeral' framing",
-            "'assassinated' — strong word choice for death"
+            "neutral 'assassinated' used factually",
+            "straightforward crowd reporting"
           ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
+          "biasScoreGrok": 5.8,
+          "biasSignalsGrok": [
+            "thousands gather",
+            "neutral"
+          ],
           "pubDate": "Sat, 04 Jul 2026 10:20:00 +0100",
-          "clusterId": "khamenei-funeral"
+          "clusterId": "khamenei-funeral-iran"
         },
         {
-          "id": "timesofisrael-khamenei-funeral-5",
+          "id": "washpost-khamenei-funeral-iran-10",
+          "outletId": "washpost",
+          "outletName": "Washington Post",
+          "headline": "Iran begins funeral rites for Ali Khamenei, supreme leader killed in war",
+          "url": "https://www.washingtonpost.com/world/2026/07/03/iran-begins-funeral-rites-ali-khamenei-supreme-leader-killed-war/",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral 'killed in war' factual descriptor",
+            "no ideological framing added"
+          ],
+          "biasScoreGrok": 4.5,
+          "biasSignalsGrok": [
+            "killed in war",
+            "left-leaning"
+          ],
+          "pubDate": "2026-07-03T12:41:39Z",
+          "clusterId": "khamenei-funeral-iran"
+        },
+        {
+          "id": "cbsnews-khamenei-funeral-iran-11",
+          "outletId": "cbsnews",
+          "outletName": "CBS News",
+          "headline": "Details on progress toward Iran peace agreement as Trump calls off strikes",
+          "url": "https://www.cbsnews.com/video/details-on-progress-toward-iran-peace-agreement-as-trump-calls-off-strikes/",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral framing of diplomatic progress",
+            "factual reporting on Iran deal talks"
+          ],
+          "biasScoreGrok": 4.2,
+          "biasSignalsGrok": [
+            "peace agreement",
+            "progressive framing"
+          ],
+          "pubDate": "2026-06-11T19:18:45+00:00",
+          "clusterId": "khamenei-funeral-iran"
+        },
+        {
+          "id": "timesofisrael-khamenei-funeral-iran-5",
           "outletId": "timesofisrael",
           "outletName": "Times of Israel",
-          "headline": "Mourners chant ‘death’ to America and Israel as Iran begins days-long Khamenei funeral",
-          "url": "https://www.timesofisrael.com/mourners-chant-death-to-america-and-israel-as-iran-begins-days-long-khamenei-funeral/",
-          "biasScore": 5.5,
+          "headline": "Iran said to bar Mojtaba Khamenei from father’s funeral, fearing Israel could kill him",
+          "url": "https://www.timesofisrael.com/iran-said-to-fear-israel-could-kill-mojtaba-khamenei-if-he-attends-fathers-funeral/",
+          "biasScore": 4.8,
           "biasSignals": [
-            "'death to America' chants reported neutrally",
-            "factual sourcing, no editorializing on Iran regime"
+            "neutrally reports Israeli security concern",
+            "factual sourcing with 'said to' qualifier"
           ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Sat, 04 Jul 2026 09:32:36 +0000",
-          "clusterId": "khamenei-funeral"
+          "biasScoreGrok": 5.5,
+          "biasSignalsGrok": [
+            "Israel security focus",
+            "neutral verbs"
+          ],
+          "pubDate": "Sat, 04 Jul 2026 13:05:49 +0000",
+          "clusterId": "khamenei-funeral-iran"
         },
         {
-          "id": "foxnews-khamenei-funeral-2",
+          "id": "washexaminer-khamenei-funeral-iran-3",
+          "outletId": "washexaminer",
+          "outletName": "Washington Examiner",
+          "headline": "Iran begins Khamenei’s funeral 126 days after assassination",
+          "url": "https://www.washingtonexaminer.com/news/world/4636077/iran-begin-khamenei-funeral/",
+          "biasScore": 5,
+          "biasSignals": [
+            "neutral verb 'begins' for funeral",
+            "factual day-count framing"
+          ],
+          "biasScoreGrok": 6.8,
+          "biasSignalsGrok": [
+            "assassination framing",
+            "conservative outlet"
+          ],
+          "pubDate": "Sat, 04 Jul 2026 14:20:20 +0000",
+          "clusterId": "khamenei-funeral-iran"
+        },
+        {
+          "id": "foxnews-khamenei-funeral-iran-0",
           "outletId": "foxnews",
           "outletName": "Fox News",
           "headline": "US agrees to halt talks with Iran for a week as funeral for Khamenei begins",
           "url": "https://www.foxnews.com/live-news/us-iran-peace-talks-pause-supreme-leader-ayatollah-khamenei-funeral-july-3-2026",
-          "biasScore": 6.2,
+          "biasScore": 5.5,
           "biasSignals": [
-            "'halt talks' framing emphasizes US concession",
-            "leads with funeral context, soft on Trump action"
+            "neutral reporting on talks halt",
+            "factual framing of diplomatic pause"
           ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "2026-07-03T11:37:21.7073884Z",
-          "clusterId": "khamenei-funeral"
+          "biasScoreGrok": 6.5,
+          "biasSignalsGrok": [
+            "neutral verbs",
+            "balanced sourcing"
+          ],
+          "pubDate": "2026-07-03T13:07:23.3653629Z",
+          "clusterId": "khamenei-funeral-iran"
         },
         {
-          "id": "nypost-khamenei-funeral-3",
+          "id": "nypost-khamenei-funeral-iran-1",
           "outletId": "nypost",
           "outletName": "NY Post",
-          "headline": "Iranians call for revenge as crowd mourns late Ayatollah Khamenei, whose nuclear quest brought war, during funeral",
-          "url": "https://nypost.com/2026/07/04/us-news/iranians-mourn-late-ayatollah-khamenei-whose-nuclear-quest-brought-war-during-dayslong-funeral/",
-          "biasScore": 7.8,
+          "headline": "Trump says Iran gets ‘week off’ for lengthy funeral for former supreme leader Ali Khamenei: ‘Isn’t that nice?’",
+          "url": "https://nypost.com/2026/07/04/world-news/trump-says-iran-gets-week-off-for-lengthy-khamenei-funeral-isnt-that-nice/",
+          "biasScore": 6.5,
           "biasSignals": [
-            "'nuclear quest brought war' — charged condemnation",
-            "'revenge' and 'war' framing of Iranian mourners"
+            "Trump's sarcastic 'Isn't that nice?' quoted approvingly",
+            "framing favors Trump's dismissive tone"
           ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Sat, 04 Jul 2026 01:25:47 -0400",
-          "clusterId": "khamenei-funeral"
+          "biasScoreGrok": 7.2,
+          "biasSignalsGrok": [
+            "Trump quote emphasis",
+            "critical of Iran"
+          ],
+          "pubDate": "Sat, 04 Jul 2026 11:40:31 -0400",
+          "clusterId": "khamenei-funeral-iran"
+        }
+      ]
+    },
+    {
+      "id": "america-250-july4-celebrations",
+      "topicLabel": "America's 250th birthday celebrations and July Fourth",
+      "date": "2026-07-04",
+      "articles": [
+        {
+          "id": "huffpost-america-250-july4-celebrations-32",
+          "outletId": "huffpost",
+          "outletName": "HuffPost",
+          "headline": "The Right’s Birthright Citizenship Freak-Out Shows What’s At The Heart Of MAGA",
+          "url": "https://www.huffpost.com/entry/donald-trump-birthright-citizenship-maga_n_6a4707c3e4b07748e75c9aa6",
+          "biasScore": 2,
+          "biasSignals": [
+            "'freak-out' dismisses right concerns",
+            "'heart of MAGA' — charged anti-right framing"
+          ],
+          "biasScoreGrok": 1.5,
+          "biasSignalsGrok": [
+            "MAGA freak-out",
+            "heavy progressive"
+          ],
+          "pubDate": "2026-07-03T12:00:17Z",
+          "clusterId": "america-250-july4-celebrations"
+        },
+        {
+          "id": "msnbc-america-250-july4-celebrations-0",
+          "outletId": "msnbc",
+          "outletName": "MSNBC",
+          "headline": "‘It’s going to be a disaster’: Concerns mount about Trump’s supersized July Fourth",
+          "url": "https://www.ms.now/news/trump-july-4-washington-national-mall-fireworks",
+          "biasScore": 2.5,
+          "biasSignals": [
+            "'disaster' framing against Trump's event",
+            "sources emphasize concern over celebration"
+          ],
+          "biasScoreGrok": 2.1,
+          "biasSignalsGrok": [
+            "disaster framing",
+            "anti-Trump"
+          ],
+          "pubDate": "2026-07-03T11:40:37Z",
+          "clusterId": "america-250-july4-celebrations"
+        },
+        {
+          "id": "guardian-america-250-july4-celebrations-10",
+          "outletId": "guardian",
+          "outletName": "The Guardian",
+          "headline": "Trump launches America’s 250th birthday celebrations with partisan attack",
+          "url": "https://www.theguardian.com/us-news/2026/jul/04/trump-launches-americas-250th-birthday-celebrations-with-partisan-attack",
+          "biasScore": 2.5,
+          "biasSignals": [
+            "'partisan attack' frames Trump negatively",
+            "celebration undercut by editorial qualifier"
+          ],
+          "biasScoreGrok": 2,
+          "biasSignalsGrok": [
+            "partisan attack",
+            "anti-Trump"
+          ],
+          "pubDate": "Sat, 04 Jul 2026 09:33:34 GMT",
+          "clusterId": "america-250-july4-celebrations"
+        },
+        {
+          "id": "bostonglobe-america-250-july4-celebrations-25",
+          "outletId": "bostonglobe",
+          "outletName": "Boston Globe",
+          "headline": "At Mount Rushmore, Trump veers from patriotism to ‘communism’",
+          "url": "https://www.bostonglobe.com/2026/07/04/nation/trump-speech-mount-rushmore/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
+          "biasScore": 2.5,
+          "biasSignals": [
+            "'veers from patriotism to communism' — anti-Trump framing",
+            "negative verb 'veers' signals left lean"
+          ],
+          "biasScoreGrok": 2.8,
+          "biasSignalsGrok": [
+            "veers to communism",
+            "anti-Trump"
+          ],
+          "pubDate": "Sat, 04 Jul 2026 13:33:08 +0000",
+          "clusterId": "america-250-july4-celebrations"
+        },
+        {
+          "id": "independent-america-250-july4-celebrations-29",
+          "outletId": "independent",
+          "outletName": "The Independent",
+          "headline": "Donors duped into giving cash to Trump-backed group instead of bipartisan America 250 team: report",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-america-250-donations-anniversary-b3007708.html",
+          "biasScore": 2.5,
+          "biasSignals": [
+            "'duped' and 'Trump-backed' framing negative",
+            "donors cast as victims of Trump's group"
+          ],
+          "biasScoreGrok": 2.5,
+          "biasSignalsGrok": [
+            "donors duped",
+            "anti-Trump"
+          ],
+          "pubDate": "Sat, 04 Jul 2026 15:43:41 GMT",
+          "clusterId": "america-250-july4-celebrations"
+        },
+        {
+          "id": "npr-america-250-july4-celebrations-5",
+          "outletId": "npr",
+          "outletName": "NPR",
+          "headline": "House Democrats accuse Trump of 'hijacking' America's 250th birthday for his own gain",
+          "url": "https://www.npr.org/2026/07/02/nx-s1-5879162/freedom-250-report-house-democrats-controversy",
+          "biasScore": 3,
+          "biasSignals": [
+            "'hijacking' — charged Democratic framing adopted",
+            "Democrat accusation framed sympathetically"
+          ],
+          "biasScoreGrok": 1.9,
+          "biasSignalsGrok": [
+            "hijacking accusation",
+            "heavy progressive"
+          ],
+          "pubDate": "Thu, 02 Jul 2026 17:47:30 -0400",
+          "clusterId": "america-250-july4-celebrations"
+        },
+        {
+          "id": "thehill-america-250-july4-celebrations-16",
+          "outletId": "thehill",
+          "outletName": "The Hill",
+          "headline": "Mamdani addresses America’s 250th: ‘Patriotism is every act of righteous dissent’",
+          "url": "https://thehill.com/homenews/state-watch/5952794-nyc-zohran-mamdani-patriotism-righteous-dissent/",
+          "biasScore": 3,
+          "biasSignals": [
+            "Mamdani's 'righteous dissent' quoted approvingly",
+            "progressive framing of patriotism"
+          ],
+          "biasScoreGrok": 2.2,
+          "biasSignalsGrok": [
+            "righteous dissent",
+            "left activist framing"
+          ],
+          "pubDate": "2026-07-03T15:50:11Z",
+          "clusterId": "america-250-july4-celebrations"
+        },
+        {
+          "id": "vox-america-250-july4-celebrations-31",
+          "outletId": "vox",
+          "outletName": "Vox",
+          "headline": "A very Trump July 4",
+          "url": "https://www.vox.com/the-logoff-newsletter-trump/494300/trump-july-4-america-freedom-250-state-fair-fireworks-speech",
+          "biasScore": 3,
+          "biasSignals": [
+            "'very Trump July 4' — dismissive framing",
+            "critical of Trump's role in celebrations"
+          ],
+          "biasScoreGrok": 2.8,
+          "biasSignalsGrok": [
+            "very Trump July 4",
+            "critical"
+          ],
+          "pubDate": "2026-07-02T22:10:00.000Z",
+          "clusterId": "america-250-july4-celebrations"
+        },
+        {
+          "id": "washpost-america-250-july4-celebrations-2",
+          "outletId": "washpost",
+          "outletName": "Washington Post",
+          "headline": "As Trump commands 250th stage, Democrats offer their vision of patriotism",
+          "url": "https://www.washingtonpost.com/politics/2026/07/03/trump-headlines-america250-democrats-offer-their-vision-patriotism/",
+          "biasScore": 3.5,
+          "biasSignals": [
+            "Democrats' 'vision' framed sympathetically",
+            "Trump framed as commanding rather than leading"
+          ],
+          "biasScoreGrok": 3,
+          "biasSignalsGrok": [
+            "Democrats vision",
+            "sympathetic left"
+          ],
+          "pubDate": "2026-07-03T10:00:01Z",
+          "clusterId": "america-250-july4-celebrations"
+        },
+        {
+          "id": "npr-america-250-july4-celebrations-3",
+          "outletId": "npr",
+          "outletName": "NPR",
+          "headline": "Week in Politics: U.S. turns 250 under record heat; worries over the future",
+          "url": "https://www.npr.org/2026/07/04/nx-s1-5879352/week-in-politics-u-s-turns-250-under-record-heat-worries-over-the-future",
+          "biasScore": 3.5,
+          "biasSignals": [
+            "'worries over the future' leads framing",
+            "progressive concern emphasis"
+          ],
+          "biasScoreGrok": 2.8,
+          "biasSignalsGrok": [
+            "worries over future",
+            "progressive"
+          ],
+          "pubDate": "Sat, 04 Jul 2026 07:43:48 -0400",
+          "clusterId": "america-250-july4-celebrations"
+        },
+        {
+          "id": "guardian-america-250-july4-celebrations-8",
+          "outletId": "guardian",
+          "outletName": "The Guardian",
+          "headline": "Washington DC’s Fourth of July parade canceled due to soaring temperature",
+          "url": "https://www.theguardian.com/us-news/2026/jul/04/washington-dc-fourth-of-july-parade-canceled-extreme-heat",
+          "biasScore": 3.5,
+          "biasSignals": [
+            "parade cancellation framed as Trump's failure",
+            "heat used to undercut Trump event"
+          ],
+          "biasScoreGrok": 3.2,
+          "biasSignalsGrok": [
+            "canceled due to heat",
+            "minimal ideology"
+          ],
+          "pubDate": "Sat, 04 Jul 2026 13:31:41 GMT",
+          "clusterId": "america-250-july4-celebrations"
+        },
+        {
+          "id": "latimes-america-250-july4-celebrations-23",
+          "outletId": "latimes",
+          "outletName": "LA Times",
+          "headline": "Faces and voices of Angelenos on America's 250th",
+          "url": "https://www.latimes.com/california/story/2026-07-02/faces-voices-of-angelenos-on-americas-250th",
+          "biasScore": 3.5,
+          "biasSignals": [
+            "diverse voices framed sympathetically",
+            "progressive California framing implied"
+          ],
+          "biasScoreGrok": 4,
+          "biasSignalsGrok": [
+            "faces and voices",
+            "neutral"
+          ],
+          "pubDate": "Thu, 2 Jul 2026 10:00:00 GMT",
+          "clusterId": "america-250-july4-celebrations"
+        },
+        {
+          "id": "vox-america-250-july4-celebrations-30",
+          "outletId": "vox",
+          "outletName": "Vox",
+          "headline": "The solution to America’s 250th birthday mess? Party like it’s 1976.",
+          "url": "https://www.vox.com/podcasts/493891/america-250th-birthday-celebration-trump-1976-grassroots-history",
+          "biasScore": 3.5,
+          "biasSignals": [
+            "'mess' frames Trump's event negatively",
+            "progressive nostalgia framing"
+          ],
+          "biasScoreGrok": 2,
+          "biasSignalsGrok": [
+            "mess party like 1976",
+            "left framing"
+          ],
+          "pubDate": "2026-07-04T10:45:00.000Z",
+          "clusterId": "america-250-july4-celebrations"
+        },
+        {
+          "id": "guardian-america-250-july4-celebrations-11",
+          "outletId": "guardian",
+          "outletName": "The Guardian",
+          "headline": "Burning flags, busty blondes and bison skulls: 48 photographs that capture America at 250",
+          "url": "https://www.theguardian.com/us-news/2026/jul/04/america-250-anniversary-photos-civil-rights-moon-landing-9-11-gold-rush",
+          "biasScore": 4,
+          "biasSignals": [
+            "eclectic imagery, no strong framing",
+            "neutral visual storytelling"
+          ],
+          "biasScoreGrok": 2.5,
+          "biasSignalsGrok": [
+            "busty blondes framing",
+            "loaded descriptors"
+          ],
+          "pubDate": "Sat, 04 Jul 2026 05:00:04 GMT",
+          "clusterId": "america-250-july4-celebrations"
+        },
+        {
+          "id": "thehill-america-250-july4-celebrations-17",
+          "outletId": "thehill",
+          "outletName": "The Hill",
+          "headline": "How extreme heat is changing DC’s July Fourth weekend event plans",
+          "url": "https://thehill.com/homenews/state-watch/5952009-extreme-heat-washington-dc-july-fourth-events-impact/",
+          "biasScore": 4,
+          "biasSignals": [
+            "neutral factual heat impact reporting",
+            "no partisan framing"
+          ],
+          "biasScoreGrok": 4.8,
+          "biasSignalsGrok": [
+            "extreme heat changing",
+            "neutral"
+          ],
+          "pubDate": "2026-07-03T14:26:12Z",
+          "clusterId": "america-250-july4-celebrations"
+        },
+        {
+          "id": "thehill-america-250-july4-celebrations-19",
+          "outletId": "thehill",
+          "outletName": "The Hill",
+          "headline": "Trump’s July 4 plans face unexpected challenge: Blazing heat",
+          "url": "https://thehill.com/homenews/administration/5952278-freedom-250-trump-july-4-heat-concerns/",
+          "biasScore": 4,
+          "biasSignals": [
+            "heat as 'unexpected challenge' — neutral",
+            "no partisan framing"
+          ],
+          "biasScoreGrok": 4,
+          "biasSignalsGrok": [
+            "unexpected challenge",
+            "heat focus"
+          ],
+          "pubDate": "2026-07-03T10:00:00Z",
+          "clusterId": "america-250-july4-celebrations"
+        },
+        {
+          "id": "axios-america-250-july4-celebrations-22",
+          "outletId": "axios",
+          "outletName": "Axios",
+          "headline": "America's 250th fireworks party collides with burn-bans",
+          "url": "https://www.axios.com/2026/07/02/americas-250th-fireworks-party-collides-with-burn-bans",
+          "biasScore": 4,
+          "biasSignals": [
+            "neutral collision framing, factual",
+            "minimal ideological signal"
+          ],
+          "biasScoreGrok": 4.2,
+          "biasSignalsGrok": [
+            "collides with burn-bans",
+            "neutral"
+          ],
+          "pubDate": "Thu, 02 Jul 2026 17:54:24 +0000",
+          "clusterId": "america-250-july4-celebrations"
+        },
+        {
+          "id": "bostonglobe-america-250-july4-celebrations-24",
+          "outletId": "bostonglobe",
+          "outletName": "Boston Globe",
+          "headline": "Fireworks, heat and politics: America celebrates its 250th birthday",
+          "url": "https://www.bostonglobe.com/2026/07/04/nation/fireworks-heat-politics-us-celebrates-its-250th-birthday/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
+          "biasScore": 4,
+          "biasSignals": [
+            "balanced tri-theme headline",
+            "neutral sourcing"
+          ],
+          "biasScoreGrok": 4.8,
+          "biasSignalsGrok": [
+            "fireworks heat politics",
+            "balanced"
+          ],
+          "pubDate": "Sat, 04 Jul 2026 05:23:34 +0000",
+          "clusterId": "america-250-july4-celebrations"
+        },
+        {
+          "id": "independent-america-250-july4-celebrations-28",
+          "outletId": "independent",
+          "outletName": "The Independent",
+          "headline": "America’s Independence Day Parade canceled and Great American State Fair opening delayed",
+          "url": "https://www.independent.co.uk/bulletin/news/independence-day-parade-canceled-extreme-heat-america-250th-trump-b3008972.html",
+          "biasScore": 4,
+          "biasSignals": [
+            "neutral factual reporting of cancellation",
+            "no strong partisan framing"
+          ],
+          "biasScoreGrok": 4.2,
+          "biasSignalsGrok": [
+            "canceled delayed",
+            "neutral"
+          ],
+          "pubDate": "Sat, 04 Jul 2026 15:48:41 GMT",
+          "clusterId": "america-250-july4-celebrations"
+        },
+        {
+          "id": "npr-america-250-july4-celebrations-4",
+          "outletId": "npr",
+          "outletName": "NPR",
+          "headline": "'Cautiously optimistic':  Swing voters describe their view of America at 250",
+          "url": "https://www.npr.org/2026/07/04/nx-s1-5877727/swing-voters-america-250-midterms",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "balanced 'cautiously optimistic' framing",
+            "swing voter sourcing is neutral"
+          ],
+          "biasScoreGrok": 4,
+          "biasSignalsGrok": [
+            "swing voters view",
+            "balanced"
+          ],
+          "pubDate": "Sat, 04 Jul 2026 05:00:00 -0400",
+          "clusterId": "america-250-july4-celebrations"
+        },
+        {
+          "id": "guardian-america-250-july4-celebrations-9",
+          "outletId": "guardian",
+          "outletName": "The Guardian",
+          "headline": "Born on the Fourth of July: mixed feelings for people who share a birthday with the US’s 250th anniversary",
+          "url": "https://www.theguardian.com/us-news/2026/jul/04/fourth-of-july-birthdays-250th-anniversary",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "human interest framing, neutral tone",
+            "no strong ideological signal"
+          ],
+          "biasScoreGrok": 3.8,
+          "biasSignalsGrok": [
+            "mixed feelings",
+            "left outlet"
+          ],
+          "pubDate": "Sat, 04 Jul 2026 11:00:11 GMT",
+          "clusterId": "america-250-july4-celebrations"
+        },
+        {
+          "id": "cbsnews-america-250-july4-celebrations-12",
+          "outletId": "cbsnews",
+          "outletName": "CBS News",
+          "headline": "Markings that appear to show the numbers \"86 47\" seen on National Mall in Washington",
+          "url": "https://www.cbsnews.com/news/86-47-markings-national-mall-washington-dc/",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral factual reporting of imagery",
+            "no partisan framing added"
+          ],
+          "biasScoreGrok": 4.5,
+          "biasSignalsGrok": [
+            "markings seen",
+            "neutral"
+          ],
+          "pubDate": "2026-06-11T18:56:44+00:00",
+          "clusterId": "america-250-july4-celebrations"
+        },
+        {
+          "id": "ap-america-250-july4-celebrations-27",
+          "outletId": "ap",
+          "outletName": "Associated Press",
+          "headline": "Extreme heat grips the United States as America 250 celebrations begin",
+          "url": "https://apnews.com/article/america-250-celebrations-heatwave-trump-9d84acb8bd36837b2f21fab9e1808fc0",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral 'grips' verb for heat",
+            "factual celebration framing"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "extreme heat grips",
+            "neutral"
+          ],
+          "pubDate": "2026-07-03T11:30:55Z",
+          "clusterId": "america-250-july4-celebrations"
+        },
+        {
+          "id": "economist-america-250-july4-celebrations-13",
+          "outletId": "economist",
+          "outletName": "The Economist",
+          "headline": "Donald Trump’s reflecting-pool debacle is a gift to America",
+          "url": "https://www.economist.com/united-states/2026/07/02/donald-trumps-reflecting-pool-debacle-is-a-gift-to-america",
+          "biasScore": 5,
+          "biasSignals": [
+            "'debacle' for Trump but 'gift' framing",
+            "center-right ironic framing"
+          ],
+          "biasScoreGrok": 3.5,
+          "biasSignalsGrok": [
+            "debacle is gift",
+            "critical of Trump"
+          ],
+          "pubDate": "Thu, 02 Jul 2026 14:22:37 +0000",
+          "clusterId": "america-250-july4-celebrations"
+        },
+        {
+          "id": "thehill-america-250-july4-celebrations-18",
+          "outletId": "thehill",
+          "outletName": "The Hill",
+          "headline": "Live updates: Trump to headline Mount Rushmore’s celebrations",
+          "url": "https://thehill.com/homenews/administration/5951925-live-updates-trump-mount-rushmore-america-250-extreme-heat/",
+          "biasScore": 5,
+          "biasSignals": [
+            "neutral live-update framing",
+            "minimal ideological signal"
+          ],
+          "biasScoreGrok": 5.5,
+          "biasSignalsGrok": [
+            "live updates",
+            "factual"
+          ],
+          "pubDate": "2026-07-03T13:25:53Z",
+          "clusterId": "america-250-july4-celebrations"
+        },
+        {
+          "id": "axios-america-250-july4-celebrations-20",
+          "outletId": "axios",
+          "outletName": "Axios",
+          "headline": "What America gets right",
+          "url": "https://www.axios.com/2026/07/04/america-4th-of-july-patriotism-capitalism-business",
+          "biasScore": 5,
+          "biasSignals": [
+            "positive framing of America, balanced",
+            "no strong ideological signal"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "what America gets right",
+            "balanced"
+          ],
+          "pubDate": "Sat, 04 Jul 2026 12:00:05 +0000",
+          "clusterId": "america-250-july4-celebrations"
+        },
+        {
+          "id": "axios-america-250-july4-celebrations-21",
+          "outletId": "axios",
+          "outletName": "Axios",
+          "headline": "Portrait exhibit brings 47 American presidencies to life",
+          "url": "https://www.axios.com/2026/07/03/us-presidents-portrait-exhibit-america-250",
+          "biasScore": 5,
+          "biasSignals": [
+            "neutral portrait exhibit coverage",
+            "no partisan framing"
+          ],
+          "biasScoreGrok": 4.5,
+          "biasSignalsGrok": [
+            "presidencies to life",
+            "neutral"
+          ],
+          "pubDate": "Fri, 03 Jul 2026 01:25:07 +0000",
+          "clusterId": "america-250-july4-celebrations"
+        },
+        {
+          "id": "nbc-america-250-july4-celebrations-26",
+          "outletId": "nbc",
+          "outletName": "NBC News",
+          "headline": "America 250 live updates: July Fourth festivities unfold; Trump to give speech at Mt. Rushmore",
+          "url": "https://www.nbcnews.com/politics/politics-news/live-blog/america-250-celebration-trump-speech-mt-rushmore-live-updates-rcna352190",
+          "biasScore": 5,
+          "biasSignals": [
+            "neutral live-update framing",
+            "factual coverage of events"
+          ],
+          "biasScoreGrok": 4.5,
+          "biasSignalsGrok": [
+            "live updates",
+            "neutral"
+          ],
+          "pubDate": "2026-07-03T13:29:27Z",
+          "clusterId": "america-250-july4-celebrations"
+        },
+        {
+          "id": "washexaminer-america-250-july4-celebrations-14",
+          "outletId": "washexaminer",
+          "outletName": "Washington Examiner",
+          "headline": "Midterm countdown: Will Trump and Republicans get a polling bump from America 250?",
+          "url": "https://www.washingtonexaminer.com/news/campaigns/4630657/trump-america-250-midterm-countdown/",
+          "biasScore": 5.5,
+          "biasSignals": [
+            "neutral polling question framing",
+            "no ideological lean in question"
+          ],
+          "biasScoreGrok": 6.8,
+          "biasSignalsGrok": [
+            "polling bump",
+            "conservative"
+          ],
+          "pubDate": "Sat, 04 Jul 2026 11:00:00 +0000",
+          "clusterId": "america-250-july4-celebrations"
+        },
+        {
+          "id": "washpost-america-250-july4-celebrations-1",
+          "outletId": "washpost",
+          "outletName": "Washington Post",
+          "headline": "Trump returns to Mount Rushmore after years of hinting he belongs there",
+          "url": "https://www.washingtonpost.com/politics/2026/07/03/white-house-says-trump-would-make-great-addition-mount-rushmore/",
+          "biasScore": 6.5,
+          "biasSignals": [
+            "sympathetic framing of Trump at Rushmore",
+            "'hints he belongs there' — favorable implication"
+          ],
+          "biasScoreGrok": 3.5,
+          "biasSignalsGrok": [
+            "hinting he belongs",
+            "critical tone"
+          ],
+          "pubDate": "2026-07-03T15:00:00Z",
+          "clusterId": "america-250-july4-celebrations"
+        },
+        {
+          "id": "nypost-america-250-july4-celebrations-6",
+          "outletId": "nypost",
+          "outletName": "NY Post",
+          "headline": "JD Vance celebrates ‘250 years of America facing the future without fear’ in 4th of July address in NYC",
+          "url": "https://nypost.com/2026/07/04/us-news/jd-vance-celebrates-250-years-of-america-facing-the-future-without-fear-in-4th-of-july-address-in-nyc/",
+          "biasScore": 6.5,
+          "biasSignals": [
+            "Vance's speech framed positively",
+            "patriotic language presented uncritically"
+          ],
+          "biasScoreGrok": 7.5,
+          "biasSignalsGrok": [
+            "facing future without fear",
+            "conservative framing"
+          ],
+          "pubDate": "Sat, 04 Jul 2026 11:41:47 -0400",
+          "clusterId": "america-250-july4-celebrations"
+        },
+        {
+          "id": "breitbart-america-250-july4-celebrations-7",
+          "outletId": "breitbart",
+          "outletName": "Breitbart",
+          "headline": "PHOTOS — Countries Around the World Celebrate America's 250th Birthday: 'Happy U.S. Independence Day!'",
+          "url": "https://www.breitbart.com/europe/2026/07/04/photos-countries-around-the-world-celebrate-americas-250th-birthday-happy-u-s-independence-day/",
+          "biasScore": 6.5,
+          "biasSignals": [
+            "celebratory global framing of US birthday",
+            "no critical context offered"
+          ],
+          "biasScoreGrok": 8,
+          "biasSignalsGrok": [
+            "world celebrates",
+            "right sympathetic"
+          ],
+          "pubDate": "Sat, 04 Jul 2026 13:54:47 +0000",
+          "clusterId": "america-250-july4-celebrations"
+        },
+        {
+          "id": "washexaminer-america-250-july4-celebrations-15",
+          "outletId": "washexaminer",
+          "outletName": "Washington Examiner",
+          "headline": "Trump warns of ‘resurgence of the Communist menace’ during Mount Rushmore America 250 speech",
+          "url": "https://www.washingtonexaminer.com/news/white-house/4636028/trump-resurgence-communist-menace-mount-rushmore-america-250/",
+          "biasScore": 6.5,
+          "biasSignals": [
+            "Trump's 'communist menace' speech presented without critique",
+            "favorable framing of Trump's rhetorical stance"
+          ],
+          "biasScoreGrok": 8.2,
+          "biasSignalsGrok": [
+            "communist menace",
+            "charged right language"
+          ],
+          "pubDate": "Sat, 04 Jul 2026 04:14:39 +0000",
+          "clusterId": "america-250-july4-celebrations"
+        }
+      ]
+    },
+    {
+      "id": "heat-july4-weather",
+      "topicLabel": "Extreme heat affects July Fourth events and US",
+      "date": "2026-07-04",
+      "articles": [
+        {
+          "id": "theatlantic-heat-july4-weather-7",
+          "outletId": "theatlantic",
+          "outletName": "The Atlantic",
+          "headline": "Hell Arrives in Washington",
+          "url": "https://www.theatlantic.com/science/2026/07/washington-dc-heat-wave-america-250/687808/?utm_source=feed",
+          "biasScore": 2.5,
+          "biasSignals": [
+            "'Hell arrives' — dramatic charged language",
+            "Washington heat used as political metaphor"
+          ],
+          "biasScoreGrok": 2,
+          "biasSignalsGrok": [
+            "Hell arrives",
+            "charged left"
+          ],
+          "pubDate": "Fri, 03 Jul 2026 18:35:22 -0400",
+          "clusterId": "heat-july4-weather"
+        },
+        {
+          "id": "vox-heat-july4-weather-6",
+          "outletId": "vox",
+          "outletName": "Vox",
+          "headline": "The fatal flaw in how America handles heat waves",
+          "url": "https://www.vox.com/future-perfect/494126/heat-wave-ac-passive-homes",
+          "biasScore": 3,
+          "biasSignals": [
+            "'fatal flaw' implies systemic failure critique",
+            "progressive systemic framing"
+          ],
+          "biasScoreGrok": 2.5,
+          "biasSignalsGrok": [
+            "fatal flaw America",
+            "left critique"
+          ],
+          "pubDate": "2026-07-03T10:00:00.000Z",
+          "clusterId": "heat-july4-weather"
+        },
+        {
+          "id": "nytimes-heat-july4-weather-0",
+          "outletId": "nytimes",
+          "outletName": "NY Times",
+          "headline": "It’s heat dome 1, George Washington 0.",
+          "url": "https://www.nytimes.com/live/2026/07/04/us/america-250-celebrations-fourth-july/heat-dome-1-george-washington-0",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "humorous neutral framing",
+            "no partisan signal"
+          ],
+          "biasScoreGrok": 2.2,
+          "biasSignalsGrok": [
+            "heat dome Washington 0",
+            "anti-Trump"
+          ],
+          "pubDate": "Sat, 04 Jul 2026 15:46:41 +0000",
+          "clusterId": "heat-july4-weather"
+        },
+        {
+          "id": "washpost-heat-july4-weather-1",
+          "outletId": "washpost",
+          "outletName": "Washington Post",
+          "headline": "Annual Capitol concert to go forward Friday, despite heat, but gates open later",
+          "url": "https://www.washingtonpost.com/dc-md-va/2026/07/03/annual-capitol-concert-go-forward-tonight-despite-heat-gates-open-later/",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral factual reporting",
+            "no ideological framing"
+          ],
+          "biasScoreGrok": 4.5,
+          "biasSignalsGrok": [
+            "concert go forward",
+            "neutral"
+          ],
+          "pubDate": "2026-07-03T14:17:46Z",
+          "clusterId": "heat-july4-weather"
+        },
+        {
+          "id": "washpost-heat-july4-weather-2",
+          "outletId": "washpost",
+          "outletName": "Washington Post",
+          "headline": "Peak of heat reaches Mid-Atlantic as many records fall across East",
+          "url": "https://www.washingtonpost.com/weather/2026/07/03/peak-heat-reaches-mid-atlantic-many-records-fall-across-east/",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral factual heat reporting",
+            "no partisan signal"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "records fall",
+            "neutral"
+          ],
+          "pubDate": "2026-07-03T10:28:35Z",
+          "clusterId": "heat-july4-weather"
+        },
+        {
+          "id": "axios-heat-july4-weather-3",
+          "outletId": "axios",
+          "outletName": "Axios",
+          "headline": "Why this July 4 weekend is a wildfire tinderbox",
+          "url": "https://www.axios.com/2026/07/03/wildfire-weather-firework-bans-july-4-weekend",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "factual wildfire risk framing",
+            "neutral sourcing"
+          ],
+          "biasScoreGrok": 4.8,
+          "biasSignalsGrok": [
+            "wildfire tinderbox",
+            "neutral"
+          ],
+          "pubDate": "Fri, 03 Jul 2026 18:00:05 +0000",
+          "clusterId": "heat-july4-weather"
+        },
+        {
+          "id": "abc-heat-july4-weather-4",
+          "outletId": "abc",
+          "outletName": "ABC News",
+          "headline": "Eastern heat on July 4 threatens World Cup players and fans",
+          "url": "https://abcnews.com/Health/wireStory/eastern-heat-july-4-threatens-world-cup-players-134435025",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral factual threat assessment",
+            "no partisan framing"
+          ],
+          "biasScoreGrok": 4.5,
+          "biasSignalsGrok": [
+            "threatens World Cup",
+            "neutral"
+          ],
+          "pubDate": "2026-07-03T07:08:26Z",
+          "clusterId": "heat-july4-weather"
+        },
+        {
+          "id": "ap-heat-july4-weather-5",
+          "outletId": "ap",
+          "outletName": "Associated Press",
+          "headline": "Extreme heat grips the United States as America 250 celebrations begin",
+          "url": "https://apnews.com/article/america-250-celebrations-heatwave-trump-9d84acb8bd36837b2f21fab9e1808fc0",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral 'grips' for heat",
+            "factual framing"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "extreme heat grips",
+            "neutral"
+          ],
+          "pubDate": "2026-07-03T11:30:55Z",
+          "clusterId": "heat-july4-weather"
+        },
+        {
+          "id": "skynews-heat-july4-weather-8",
+          "outletId": "skynews",
+          "outletName": "Sky News",
+          "headline": "Week-long health warning comes into effect as another heatwave is on the way",
+          "url": "https://news.sky.com/story/week-long-health-warning-comes-into-effect-as-another-heatwave-is-on-the-way-13560381",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral health warning framing",
+            "factual UK heat coverage"
+          ],
+          "biasScoreGrok": 5.5,
+          "biasSignalsGrok": [
+            "health warning",
+            "neutral"
+          ],
+          "pubDate": "Sat, 04 Jul 2026 12:54:00 +0100",
+          "clusterId": "heat-july4-weather"
+        }
+      ]
+    },
+    {
+      "id": "declaration-independence-discovery",
+      "topicLabel": "Rare Declaration of Independence copy found in UK",
+      "date": "2026-07-04",
+      "articles": [
+        {
+          "id": "nbc-declaration-independence-discovery-1",
+          "outletId": "nbc",
+          "outletName": "NBC News",
+          "headline": "Declaration of Independence copy seized by British in 1776 uncovered in London",
+          "url": "https://www.nbcnews.com/world/europe/rare-declaration-independence-found-in-uk-rcna352852",
+          "biasScore": 5,
+          "biasSignals": [
+            "neutral factual framing",
+            "historical context provided"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "seized by British",
+            "neutral"
+          ],
+          "pubDate": "2026-07-03T12:58:57Z",
+          "clusterId": "declaration-independence-discovery"
+        },
+        {
+          "id": "ap-declaration-independence-discovery-2",
+          "outletId": "ap",
+          "outletName": "Associated Press",
+          "headline": "UK archivists find rare Declaration of Independence in papers of captured US ship",
+          "url": "https://apnews.com/article/declaration-of-independence-ship-rate-uk-national-archives-d9336ffef70b9c79183ce4d54d9466e7",
+          "biasScore": 5,
+          "biasSignals": [
+            "neutral 'archivists find' verb",
+            "factual historical framing"
+          ],
+          "biasScoreGrok": 5.2,
+          "biasSignalsGrok": [
+            "UK archivists find",
+            "neutral"
+          ],
+          "pubDate": "2026-07-02T23:03:55Z",
+          "clusterId": "declaration-independence-discovery"
+        },
+        {
+          "id": "breitbart-declaration-independence-discovery-0",
+          "outletId": "breitbart",
+          "outletName": "Breitbart",
+          "headline": "Previously Unidentified Original Declaration of Independence Discovered in UK Royal Navy Archives",
+          "url": "https://www.breitbart.com/europe/2026/07/04/previously-unidentified-original-declaration-of-independence-discovered-in-uk-royal-navy-archives/",
+          "biasScore": 5.5,
+          "biasSignals": [
+            "patriotic framing of discovery",
+            "no partisan signal, celebratory tone"
+          ],
+          "biasScoreGrok": 7.5,
+          "biasSignalsGrok": [
+            "previously unidentified",
+            "right outlet"
+          ],
+          "pubDate": "Sat, 04 Jul 2026 13:45:17 +0000",
+          "clusterId": "declaration-independence-discovery"
         }
       ]
     },
@@ -175,1389 +1119,249 @@
       "date": "2026-07-04",
       "articles": [
         {
-          "id": "metro-taylor-swift-kelce-wedding-10",
-          "outletId": "metro",
-          "outletName": "Metro",
-          "headline": "Trump hijacks Taylor Swift and Travis Kelce’s wedding news",
-          "url": "https://metro.co.uk/2026/07/04/trump-hijacks-taylor-swift-travis-kelces-wedding-news-29038354/",
-          "biasScore": 3.5,
-          "biasSignals": [
-            "'hijacks' — negative framing of Trump action",
-            "implies Trump intrudes on celebrity moment"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Sat, 04 Jul 2026 11:08:31 +0000",
-          "clusterId": "taylor-swift-kelce-wedding"
-        },
-        {
-          "id": "washpost-taylor-swift-kelce-wedding-0",
-          "outletId": "washpost",
-          "outletName": "Washington Post",
-          "headline": "Taylor Swift and Travis Kelce’s wedding: A guide",
-          "url": "https://www.washingtonpost.com/style/2026/07/03/taylor-swift-travis-kelces-wedding-guide/",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral 'guide' framing, no political signals",
-            "factual celebrity coverage"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "2026-07-03T09:00:00Z",
-          "clusterId": "taylor-swift-kelce-wedding"
-        },
-        {
-          "id": "bbc-taylor-swift-kelce-wedding-1",
-          "outletId": "bbc",
-          "outletName": "BBC",
-          "headline": "Taylor Swift's rumoured wedding celebrations kick off in New York",
-          "url": "https://www.bbc.co.uk/news/articles/crlw1eeez19o",
-          "biasScore": 5,
-          "biasSignals": [
-            "'rumoured' qualifier, hedged neutral framing",
-            "factual celebrity reporting tone"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "2026-07-03T01:22:22.8346814Z",
-          "clusterId": "taylor-swift-kelce-wedding"
-        },
-        {
-          "id": "timesofisrael-taylor-swift-kelce-wedding-3",
-          "outletId": "timesofisrael",
-          "outletName": "Times of Israel",
-          "headline": "Love Story: Adam Sandler officiates as Taylor Swift and Travis Kelce marry at NYC wedding",
-          "url": "https://www.timesofisrael.com/love-story-adam-sandler-officiates-as-taylor-swift-and-travis-kelce-marry-at-nyc-wedding/",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral factual reporting on wedding",
-            "no ideological framing detected"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Sat, 04 Jul 2026 05:44:29 +0000",
-          "clusterId": "taylor-swift-kelce-wedding"
-        },
-        {
-          "id": "latimes-taylor-swift-kelce-wedding-4",
-          "outletId": "latimes",
-          "outletName": "LA Times",
-          "headline": "Taylor Swift, Travis Kelce married at lavish Madison Square Garden wedding",
-          "url": "https://www.latimes.com/entertainment-arts/story/2026-07-03/taylor-swift-travis-kelce-wedding-fans-flock-to-madison-square-garden-for-nyc-nuptials",
-          "biasScore": 5,
-          "biasSignals": [
-            "'lavish' descriptor, neutral tone overall",
-            "factual celebrity event reporting"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Fri, 3 Jul 2026 22:30:39 GMT",
-          "clusterId": "taylor-swift-kelce-wedding"
-        },
-        {
-          "id": "latimes-taylor-swift-kelce-wedding-5",
-          "outletId": "latimes",
-          "outletName": "LA Times",
-          "headline": "Taylor Swift and Travis Kelce: Revisit the roots of their love story ahead of MSG wedding bash",
-          "url": "https://www.latimes.com/entertainment-arts/story/2026-07-03/taylor-swift-travis-kelce-timeline-new-heights-msg-wedding",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral retrospective framing",
-            "no political or ideological signals"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Fri, 3 Jul 2026 20:22:30 GMT",
-          "clusterId": "taylor-swift-kelce-wedding"
-        },
-        {
-          "id": "bostonglobe-taylor-swift-kelce-wedding-6",
+          "id": "bostonglobe-taylor-swift-kelce-wedding-0",
           "outletId": "bostonglobe",
           "outletName": "Boston Globe",
-          "headline": "Taylor Swift and Travis Kelce are married in elaborate Madison Square Garden ceremony",
+          "headline": "Taylor Swift and Travis Kelce marry in front of famous friends at Madison Square Garden",
           "url": "https://www.bostonglobe.com/2026/07/03/lifestyle/taylor-swift-travis-kelce-wedding/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
           "biasScore": 5,
           "biasSignals": [
-            "'elaborate' descriptor, neutral factual tone",
-            "no political framing"
+            "neutral celebrity event reporting",
+            "no ideological framing"
           ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
+          "biasScoreGrok": 4.8,
+          "biasSignalsGrok": [
+            "marry in front",
+            "neutral"
+          ],
           "pubDate": "Fri, 03 Jul 2026 12:02:39 +0000",
           "clusterId": "taylor-swift-kelce-wedding"
         },
         {
-          "id": "bostonglobe-taylor-swift-kelce-wedding-7",
+          "id": "bostonglobe-taylor-swift-kelce-wedding-1",
           "outletId": "bostonglobe",
           "outletName": "Boston Globe",
           "headline": "Taylor Swift and Travis Kelce wed at Madison Square Garden",
           "url": "https://www.bostonglobe.com/2026/07/03/nation/taylor-swift-travis-kelce-wed-madison-square-garden/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
           "biasScore": 5,
           "biasSignals": [
-            "neutral factual headline framing",
-            "no ideological signals"
+            "neutral factual reporting",
+            "no partisan signal"
           ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
+          "biasScoreGrok": 4.5,
+          "biasSignalsGrok": [
+            "wed at MSG",
+            "neutral"
+          ],
           "pubDate": "Sat, 04 Jul 2026 00:26:05 +0000",
           "clusterId": "taylor-swift-kelce-wedding"
         },
         {
-          "id": "ap-taylor-swift-kelce-wedding-11",
-          "outletId": "ap",
-          "outletName": "Associated Press",
-          "headline": "Extreme heat disrupts July 4th celebrations, what to know about Trump Accounts, Taylor Swift’s wedding",
-          "url": "https://apnews.com/newsletter/morning-wire/july-3-2026",
+          "id": "dailymail-taylor-swift-kelce-wedding-2",
+          "outletId": "dailymail",
+          "outletName": "Daily Mail",
+          "headline": "Weary A-listers emerge from Taylor and Travis's wedding bash as superstars share cabs and desperately grab their confiscated phones... but who partied the hardest?",
+          "url": "\n\thttps://www.dailymail.com/tvshowbiz/article-15952797/taylor-swift-travis-kelce-wedding-celebrities-party.html?ns_mchannel=rss&ito=1490&ns_campaign=1490\n      ",
           "biasScore": 5,
           "biasSignals": [
-            "neutral multi-topic explainer format",
+            "neutral celebrity coverage",
             "no ideological framing"
           ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "2026-07-03T10:42:52Z",
+          "biasScoreGrok": 6,
+          "biasSignalsGrok": [
+            "weary A-listers",
+            "tabloid right"
+          ],
+          "pubDate": "Sat, 04 Jul 2026 16:51:17 +0100",
           "clusterId": "taylor-swift-kelce-wedding"
         },
         {
-          "id": "ap-taylor-swift-kelce-wedding-12",
+          "id": "dailymail-taylor-swift-kelce-wedding-3",
+          "outletId": "dailymail",
+          "outletName": "Daily Mail",
+          "headline": "First photos from inside Taylor Swift and Travis Kelce's dazzling MSG wedding leaks as guests share intimate details about 'emotional' vows and 'lush' decor",
+          "url": "\n\thttps://www.dailymail.com/lifestyle/article-15952765/taylor-swift-travis-kelce-wedding-photos-leak-msg.html?ns_mchannel=rss&ito=1490&ns_campaign=1490\n      ",
+          "biasScore": 5,
+          "biasSignals": [
+            "neutral celebrity detail reporting",
+            "no partisan signal"
+          ],
+          "biasScoreGrok": 5.8,
+          "biasSignalsGrok": [
+            "first photos leak",
+            "sensational"
+          ],
+          "pubDate": "Sat, 04 Jul 2026 16:50:16 +0100",
+          "clusterId": "taylor-swift-kelce-wedding"
+        },
+        {
+          "id": "metro-taylor-swift-kelce-wedding-4",
+          "outletId": "metro",
+          "outletName": "Metro",
+          "headline": "First photos from inside Taylor Swift and Travis Kelce’s wedding leak online",
+          "url": "https://metro.co.uk/2026/07/04/first-photos-inside-taylor-swift-travis-kelces-wedding-leak-online-29040672/",
+          "biasScore": 5,
+          "biasSignals": [
+            "neutral factual framing",
+            "no ideological signal"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "photos leak online",
+            "neutral"
+          ],
+          "pubDate": "Sat, 04 Jul 2026 15:40:29 +0000",
+          "clusterId": "taylor-swift-kelce-wedding"
+        },
+        {
+          "id": "nbc-taylor-swift-kelce-wedding-5",
+          "outletId": "nbc",
+          "outletName": "NBC News",
+          "headline": "Taylor Swift and Travis Kelce’s Madison Square Garden wedding: Live updates",
+          "url": "https://www.nbcnews.com/news/us-news/live-blog/taylor-swift-travis-kelces-madison-square-garden-wedding-live-updates-rcna352411",
+          "biasScore": 5,
+          "biasSignals": [
+            "neutral live-update format",
+            "no partisan framing"
+          ],
+          "biasScoreGrok": 4.5,
+          "biasSignalsGrok": [
+            "live updates",
+            "neutral"
+          ],
+          "pubDate": "2026-07-03T12:48:33Z",
+          "clusterId": "taylor-swift-kelce-wedding"
+        },
+        {
+          "id": "ap-taylor-swift-kelce-wedding-6",
           "outletId": "ap",
           "outletName": "Associated Press",
           "headline": "Taylor Swift and Travis Kelce’s wedding set for Friday at MSG",
           "url": "https://apnews.com/article/taylor-swift-travis-kelce-wedding-09fe20408ed795a47aeb600cc4adf2e8",
           "biasScore": 5,
           "biasSignals": [
-            "neutral factual 'set for Friday' framing",
-            "no political signals"
+            "neutral factual framing",
+            "no ideological signal"
           ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
+          "biasScoreGrok": 4.8,
+          "biasSignalsGrok": [
+            "set for Friday",
+            "neutral"
+          ],
           "pubDate": "2026-07-03T04:02:55Z",
           "clusterId": "taylor-swift-kelce-wedding"
         },
         {
-          "id": "independent-taylor-swift-kelce-wedding-13",
-          "outletId": "independent",
-          "outletName": "The Independent",
-          "headline": "Taylor Swift-Travis Kelce wedding live: Adam Sandler officiates star-studded ceremony at New York’s MSG",
-          "url": "https://www.independent.co.uk/arts-entertainment/music/news/taylor-swift-wedding-travis-kelce-live-updates-madison-square-garden-b3008083.html",
+          "id": "ap-taylor-swift-kelce-wedding-7",
+          "outletId": "ap",
+          "outletName": "Associated Press",
+          "headline": "Fans flock ahead of Taylor Swift and Travis Kelce's wedding",
+          "url": "https://apnews.com/article/taylor-swift-travis-kelce-wedding-msg-nyc-75ca26c753396d9482125084236232cb",
           "biasScore": 5,
           "biasSignals": [
-            "neutral live blog format",
-            "no ideological signals"
+            "neutral fan interest framing",
+            "no partisan signal"
           ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Sat, 04 Jul 2026 11:25:18 GMT",
+          "biasScoreGrok": 4.5,
+          "biasSignalsGrok": [
+            "fans flock",
+            "neutral"
+          ],
+          "pubDate": "2026-07-02T20:28:51Z",
           "clusterId": "taylor-swift-kelce-wedding"
         },
         {
-          "id": "dailymail-taylor-swift-kelce-wedding-9",
-          "outletId": "dailymail",
-          "outletName": "Daily Mail",
-          "headline": "Her wildest dreams! Taylor Swift marries Travis Kelce in 'moving' ceremony where the bride wore Dior and walked down the aisle to one of her own songs... before partying the night away at Madison Square Garden",
-          "url": "\n\thttps://www.dailymail.com/tvshowbiz/article-15951901/taylor-swift-travis-kelce-wedding-new-york.html?ns_mchannel=rss&ito=1490&ns_campaign=1490\n      ",
-          "biasScore": 5.1,
+          "id": "ap-taylor-swift-kelce-wedding-8",
+          "outletId": "ap",
+          "outletName": "Associated Press",
+          "headline": "Taylor Swift and Travis Kelce's wedding schedule revealed in permit obtained by AP",
+          "url": "https://apnews.com/article/taylor-swift-travis-kelce-wedding-madison-square-garden-fe8b13f27f8f896a97ae200005b1ecc4",
+          "biasScore": 5,
           "biasSignals": [
-            "'wildest dreams' — celebratory framing",
-            "neutral wedding coverage overall"
+            "neutral permit/logistics framing",
+            "factual sourcing"
           ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Sat, 04 Jul 2026 12:07:58 +0100",
-          "clusterId": "taylor-swift-kelce-wedding"
-        },
-        {
-          "id": "foxnews-taylor-swift-kelce-wedding-2",
-          "outletId": "foxnews",
-          "outletName": "Fox News",
-          "headline": "Taylor Swift and Travis Kelce's wild wedding weekend could include unusually long 'cocktail hour'",
-          "url": "https://www.foxnews.com/travel/taylor-swift-travis-kelces-wild-wedding-weekend-could-include-unusually-long-cocktail-hour",
-          "biasScore": 5.2,
-          "biasSignals": [
-            "'wild wedding weekend' — slightly sensational language",
-            "neutral celebrity coverage overall"
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "schedule revealed",
+            "neutral"
           ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "2026-07-03T09:37:17.3492903Z",
-          "clusterId": "taylor-swift-kelce-wedding"
-        },
-        {
-          "id": "dailymail-taylor-swift-kelce-wedding-8",
-          "outletId": "dailymail",
-          "outletName": "Daily Mail",
-          "headline": "Blake Lively's fury after Taylor Swift left her off wedding guest list… as sources say it's the final straw",
-          "url": "\n\thttps://www.dailymail.com/tvshowbiz/article-15952393/inside-blake-lively-fury-taylor-swift-left-wedding-guest-list-sources-final-straw.html?ns_mchannel=rss&ito=1490&ns_campaign=1490\n      ",
-          "biasScore": 5.3,
-          "biasSignals": [
-            "'fury' — emotionally charged verb choice",
-            "tabloid framing, celebrity conflict emphasis"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Sat, 04 Jul 2026 12:17:36 +0100",
+          "pubDate": "2026-07-02T16:24:42Z",
           "clusterId": "taylor-swift-kelce-wedding"
         }
       ]
     },
     {
-      "id": "america-250-celebrations",
-      "topicLabel": "America's 250th birthday celebrations and events",
+      "id": "trump-crypto-profits",
+      "topicLabel": "Trump's crypto profits and investor losses",
       "date": "2026-07-04",
       "articles": [
         {
-          "id": "guardian-america-250-celebrations-11",
-          "outletId": "guardian",
-          "outletName": "The Guardian",
-          "headline": "Trump launches America’s 250th birthday celebrations with partisan attack",
-          "url": "https://www.theguardian.com/us-news/2026/jul/04/trump-launches-americas-250th-birthday-celebrations-with-partisan-attack",
-          "biasScore": 3,
-          "biasSignals": [
-            "'partisan attack' — critical framing of Trump speech",
-            "negative Trump characterization leads headline"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Sat, 04 Jul 2026 09:33:34 GMT",
-          "clusterId": "america-250-celebrations"
-        },
-        {
-          "id": "vox-america-250-celebrations-32",
-          "outletId": "vox",
-          "outletName": "Vox",
-          "headline": "A very Trump July 4",
-          "url": "https://www.vox.com/the-logoff-newsletter-trump/494300/trump-july-4-america-freedom-250-state-fair-fireworks-speech",
-          "biasScore": 3,
-          "biasSignals": [
-            "'very Trump July 4' — critical partisan framing",
-            "negative characterization of Trump's celebration"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "2026-07-02T22:10:00.000Z",
-          "clusterId": "america-250-celebrations"
-        },
-        {
-          "id": "npr-america-250-celebrations-4",
-          "outletId": "npr",
-          "outletName": "NPR",
-          "headline": "House Democrats accuse Trump of 'hijacking' America's 250th birthday for his own gain",
-          "url": "https://www.npr.org/2026/07/02/nx-s1-5879162/freedom-250-report-house-democrats-controversy",
-          "biasScore": 3.2,
-          "biasSignals": [
-            "'hijacking' — charged accusation against Trump",
-            "sympathetic framing of Democratic accusation"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Thu, 02 Jul 2026 17:47:30 -0400",
-          "clusterId": "america-250-celebrations"
-        },
-        {
-          "id": "vox-america-250-celebrations-31",
-          "outletId": "vox",
-          "outletName": "Vox",
-          "headline": "The solution to America’s 250th birthday mess? Party like it’s 1976.",
-          "url": "https://www.vox.com/podcasts/493891/america-250th-birthday-celebration-trump-1976-grassroots-history",
-          "biasScore": 3.5,
-          "biasSignals": [
-            "'mess' — negative framing of current celebration",
-            "implies current approach is inferior to 1976"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "2026-07-04T10:45:00.000Z",
-          "clusterId": "america-250-celebrations"
-        },
-        {
-          "id": "washpost-america-250-celebrations-2",
-          "outletId": "washpost",
-          "outletName": "Washington Post",
-          "headline": "As Trump commands 250th stage, Democrats offer their vision of patriotism",
-          "url": "https://www.washingtonpost.com/politics/2026/07/03/trump-headlines-america250-democrats-offer-their-vision-patriotism/",
-          "biasScore": 3.8,
-          "biasSignals": [
-            "'commands' vs Democrats 'offer' — contrast framing",
-            "sympathetic to Democratic vision narrative"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "2026-07-03T10:00:01Z",
-          "clusterId": "america-250-celebrations"
-        },
-        {
-          "id": "guardian-america-250-celebrations-13",
-          "outletId": "guardian",
-          "outletName": "The Guardian",
-          "headline": "‘A total disappointment’: revelers face unbearable heat at Great American State Fair",
-          "url": "https://www.theguardian.com/us-news/2026/jul/03/great-american-state-washington-dc",
-          "biasScore": 4,
-          "biasSignals": [
-            "'total disappointment' — critical of event planning",
-            "slight negative framing of fair experience"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Fri, 03 Jul 2026 21:47:03 GMT",
-          "clusterId": "america-250-celebrations"
-        },
-        {
-          "id": "thehill-america-250-celebrations-21",
-          "outletId": "thehill",
-          "outletName": "The Hill",
-          "headline": "The Memo: Clashing visions of America underscore nation’s divisions",
-          "url": "https://thehill.com/homenews/administration/5952306-immigration-birthright-citizenship-debate/",
-          "biasScore": 4,
-          "biasSignals": [
-            "'clashing visions' — balanced division framing",
-            "neutral analytical memo format"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "2026-07-03T10:00:00Z",
-          "clusterId": "america-250-celebrations"
-        },
-        {
-          "id": "guardian-america-250-celebrations-10",
-          "outletId": "guardian",
-          "outletName": "The Guardian",
-          "headline": "Born on the Fourth of July: mixed feelings for people who share a birthday with the US’s 250th anniversary",
-          "url": "https://www.theguardian.com/us-news/2026/jul/04/fourth-of-july-birthdays-250th-anniversary",
-          "biasScore": 4.2,
-          "biasSignals": [
-            "'mixed feelings' — balanced human interest framing",
-            "neutral personal story angle"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Sat, 04 Jul 2026 11:00:11 GMT",
-          "clusterId": "america-250-celebrations"
-        },
-        {
-          "id": "npr-america-250-celebrations-3",
-          "outletId": "npr",
-          "outletName": "NPR",
-          "headline": "'Cautiously optimistic':  Swing voters describe their view of America at 250",
-          "url": "https://www.npr.org/2026/07/04/nx-s1-5877727/swing-voters-america-250-midterms",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral 'cautiously optimistic' framing",
-            "balanced sourcing of swing voter voices"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Sat, 04 Jul 2026 05:00:00 -0400",
-          "clusterId": "america-250-celebrations"
-        },
-        {
-          "id": "guardian-america-250-celebrations-12",
-          "outletId": "guardian",
-          "outletName": "The Guardian",
-          "headline": "Burning flags, busty blondes and bison skulls: 48 photographs that capture America at 250",
-          "url": "https://www.theguardian.com/us-news/2026/jul/04/america-250-anniversary-photos-civil-rights-moon-landing-9-11-gold-rush",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral photo essay framing",
-            "no strong ideological signals"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Sat, 04 Jul 2026 05:00:04 GMT",
-          "clusterId": "america-250-celebrations"
-        },
-        {
-          "id": "economist-america-250-celebrations-14",
-          "outletId": "economist",
-          "outletName": "The Economist",
-          "headline": "Donald Trump’s reflecting-pool debacle is a gift to America",
-          "url": "https://www.economist.com/united-states/2026/07/02/donald-trumps-reflecting-pool-debacle-is-a-gift-to-america",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "'debacle' — critical of Trump event",
-            "framed as gift to America, ironic tone"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Thu, 02 Jul 2026 14:22:37 +0000",
-          "clusterId": "america-250-celebrations"
-        },
-        {
-          "id": "latimes-america-250-celebrations-28",
-          "outletId": "latimes",
-          "outletName": "LA Times",
-          "headline": "Faces and voices of Angelenos on America's 250th",
-          "url": "https://www.latimes.com/california/story/2026-07-02/faces-voices-of-angelenos-on-americas-250th",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral human interest framing",
-            "diverse voices, balanced sourcing"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Thu, 2 Jul 2026 10:00:00 GMT",
-          "clusterId": "america-250-celebrations"
-        },
-        {
-          "id": "nbc-america-250-celebrations-30",
-          "outletId": "nbc",
-          "outletName": "NBC News",
-          "headline": "As America turns 250, a Montana tribe holds a solemn ceremony for its buffalo",
-          "url": "https://www.nbcnews.com/news/us-news/america-turns-250-montana-tribe-holds-solemn-ceremony-buffalo-rcna351250",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "'solemn ceremony' — respectful neutral framing",
-            "indigenous perspective included, balanced"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "2026-07-03T09:00:00Z",
-          "clusterId": "america-250-celebrations"
-        },
-        {
-          "id": "cnn-america-250-celebrations-0",
-          "outletId": "cnn",
-          "outletName": "CNN",
-          "headline": "On the eve of America’s birthday, the first American pope takes center stage",
-          "url": "https://www.cnn.com/2026/07/03/world/pope-liberty-medal-philadelphia-intl",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral framing of pope's role",
-            "factual 'center stage' language"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "2026-07-03T10:00:27Z",
-          "clusterId": "america-250-celebrations"
-        },
-        {
-          "id": "economist-america-250-celebrations-15",
-          "outletId": "economist",
-          "outletName": "The Economist",
-          "headline": "America is mighty—but becoming less dominant",
-          "url": "https://www.economist.com/interactive/united-states/2026/07/01/america-is-mighty-but-becoming-less-dominant",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral analytical framing of US power",
-            "balanced assessment, no partisan signals"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Wed, 01 Jul 2026 11:37:49 +0000",
-          "clusterId": "america-250-celebrations"
-        },
-        {
-          "id": "axios-america-250-celebrations-22",
-          "outletId": "axios",
-          "outletName": "Axios",
-          "headline": "Portrait exhibit brings 47 American presidencies to life",
-          "url": "https://www.axios.com/2026/07/03/us-presidents-portrait-exhibit-america-250",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral descriptive framing",
-            "no ideological signals"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Fri, 03 Jul 2026 01:25:07 +0000",
-          "clusterId": "america-250-celebrations"
-        },
-        {
-          "id": "axios-america-250-celebrations-23",
-          "outletId": "axios",
-          "outletName": "Axios",
-          "headline": "America's 250th fireworks party collides with burn-bans",
-          "url": "https://www.axios.com/2026/07/02/americas-250th-fireworks-party-collides-with-burn-bans",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral conflict framing between events",
-            "no partisan signals"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Thu, 02 Jul 2026 17:54:24 +0000",
-          "clusterId": "america-250-celebrations"
-        },
-        {
-          "id": "bostonglobe-america-250-celebrations-29",
-          "outletId": "bostonglobe",
-          "outletName": "Boston Globe",
-          "headline": "Fireworks, heat and politics: America celebrates its 250th birthday",
-          "url": "https://www.bostonglobe.com/2026/07/04/nation/fireworks-heat-politics-us-celebrates-its-250th-birthday/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral multi-topic descriptive framing",
-            "no ideological signals"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Sat, 04 Jul 2026 05:23:34 +0000",
-          "clusterId": "america-250-celebrations"
-        },
-        {
-          "id": "thehill-america-250-celebrations-20",
-          "outletId": "thehill",
-          "outletName": "The Hill",
-          "headline": "Trump’s July 4 plans face unexpected challenge: Blazing heat",
-          "url": "https://thehill.com/homenews/administration/5952278-freedom-250-trump-july-4-heat-concerns/",
-          "biasScore": 5.2,
-          "biasSignals": [
-            "neutral weather-challenge framing",
-            "no ideological signals"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "2026-07-03T10:00:00Z",
-          "clusterId": "america-250-celebrations"
-        },
-        {
-          "id": "msnbc-america-250-celebrations-1",
-          "outletId": "msnbc",
-          "outletName": "MSNBC",
-          "headline": "Trump settles for July 4 eve flyovers and fireworks at Mount Rushmore",
-          "url": "https://www.ms.now/news/trump-mount-rushmore-july-4",
-          "biasScore": 5.5,
-          "biasSignals": [
-            "'settles for' implies Trump wanted more",
-            "slight right-sympathetic framing"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "2026-07-03T09:00:00Z",
-          "clusterId": "america-250-celebrations"
-        },
-        {
-          "id": "washexaminer-america-250-celebrations-16",
-          "outletId": "washexaminer",
-          "outletName": "Washington Examiner",
-          "headline": "Midterm countdown: Will Trump and Republicans get a polling bump from America 250?",
-          "url": "https://www.washingtonexaminer.com/news/campaigns/4630657/trump-america-250-midterm-countdown/",
-          "biasScore": 5.5,
-          "biasSignals": [
-            "neutral polling analysis framing",
-            "no strong ideological signals"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Sat, 04 Jul 2026 11:00:00 +0000",
-          "clusterId": "america-250-celebrations"
-        },
-        {
-          "id": "washexaminer-america-250-celebrations-17",
-          "outletId": "washexaminer",
-          "outletName": "Washington Examiner",
-          "headline": "Trump warns of ‘resurgence of the Communist menace’ during Mount Rushmore America 250 speech",
-          "url": "https://www.washingtonexaminer.com/news/white-house/4636028/trump-resurgence-communist-menace-mount-rushmore-america-250/",
-          "biasScore": 5.5,
-          "biasSignals": [
-            "'Communist menace' quote reported neutrally",
-            "slight right-sympathetic by amplifying Trump message"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Sat, 04 Jul 2026 04:14:39 +0000",
-          "clusterId": "america-250-celebrations"
-        },
-        {
-          "id": "thefederalist-america-250-celebrations-26",
-          "outletId": "thefederalist",
-          "outletName": "The Federalist",
-          "headline": "The Best And Worst Pavilions At The Great American State Fair",
-          "url": "https://thefederalist.com/2026/07/03/the-best-and-worst-pavilions-at-the-great-american-state-fair/?utm_source=rss&utm_medium=rss&utm_campaign=the-best-and-worst-pavilions-at-the-great-american-state-fair",
-          "biasScore": 6,
-          "biasSignals": [
-            "conservative outlet coverage of fair",
-            "evaluative framing suggests insider access"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Fri, 03 Jul 2026 13:37:01 +0000",
-          "clusterId": "america-250-celebrations"
-        },
-        {
-          "id": "timesofisrael-america-250-celebrations-27",
-          "outletId": "timesofisrael",
-          "outletName": "Times of Israel",
-          "headline": "Ushering in America 250, Trump hails US exceptionalism before evoking Red Scare",
-          "url": "https://www.timesofisrael.com/ushering-in-america-250-trump-hails-us-exceptionalism-before-evoking-red-scare/",
-          "biasScore": 6,
-          "biasSignals": [
-            "'Red Scare' noted neutrally but headline emphasizes it",
-            "slight critical framing of Trump's rhetoric"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Sat, 04 Jul 2026 07:17:29 +0000",
-          "clusterId": "america-250-celebrations"
-        },
-        {
-          "id": "dailycaller-america-250-celebrations-7",
-          "outletId": "dailycaller",
-          "outletName": "Daily Caller",
-          "headline": "First US-Born Pope Champions America’s Founding During Award By National Constitution Center",
-          "url": "https://dailycaller.com/2026/07/03/national-constitution-center-awards-pope-leo-xiv-liberty-medal-philadelphia/",
-          "biasScore": 6.5,
-          "biasSignals": [
-            "positive framing of pope's American founding link",
-            "conservative outlet emphasizes patriotic message"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Fri, 03 Jul 2026 19:12:23 +0000",
-          "clusterId": "america-250-celebrations"
-        },
-        {
-          "id": "washexaminer-america-250-celebrations-18",
-          "outletId": "washexaminer",
-          "outletName": "Washington Examiner",
-          "headline": "WATCH LIVE: Trump gives Independence Day eve speech at Mount Rushmore",
-          "url": "https://www.washingtonexaminer.com/news/white-house/4635986/watch-live-president-trump-gives-independence-day-eve-speech-mount-rushmore/",
-          "biasScore": 6.5,
-          "biasSignals": [
-            "live event promotion framing",
-            "conservative outlet platforming Trump speech"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Sat, 04 Jul 2026 02:31:11 +0000",
-          "clusterId": "america-250-celebrations"
-        },
-        {
-          "id": "nationalreview-america-250-celebrations-24",
-          "outletId": "nationalreview",
-          "outletName": "National Review",
-          "headline": "A Visit to Mount Rushmore, More Than a Shrine of Democracy",
-          "url": "https://www.nationalreview.com/2026/07/a-visit-to-mount-rushmore-more-than-a-shrine-of-democracy/",
-          "biasScore": 6.5,
-          "biasSignals": [
-            "positive framing of Mount Rushmore visit",
-            "conservative patriotic celebration tone"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Sat, 04 Jul 2026 10:30:19 +0000",
-          "clusterId": "america-250-celebrations"
-        },
-        {
-          "id": "nationalreview-america-250-celebrations-25",
-          "outletId": "nationalreview",
-          "outletName": "National Review",
-          "headline": "America at 250: Reflections of a Patriot by Choice",
-          "url": "https://www.nationalreview.com/2026/07/america-at-250-reflections-of-a-patriot-by-choice/",
-          "biasScore": 6.5,
-          "biasSignals": [
-            "'Patriot by Choice' — conservative identity framing",
-            "celebratory pro-America narrative"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Sat, 04 Jul 2026 10:30:10 +0000",
-          "clusterId": "america-250-celebrations"
-        },
-        {
-          "id": "dailycaller-america-250-celebrations-8",
-          "outletId": "dailycaller",
-          "outletName": "Daily Caller",
-          "headline": "Aboard The Freedom Train: America’s Most Underrated 250th Birthday Party",
-          "url": "https://dailycaller.com/2026/07/03/csx-freedom-train-america-250-birthday-party-private-tour-videos/",
-          "biasScore": 6.8,
-          "biasSignals": [
-            "'most underrated' — boosterish conservative framing",
-            "patriotic celebratory tone throughout"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Fri, 03 Jul 2026 18:00:41 +0000",
-          "clusterId": "america-250-celebrations"
-        },
-        {
-          "id": "foxnews-america-250-celebrations-5",
-          "outletId": "foxnews",
-          "outletName": "Fox News",
-          "headline": "Navy SEAL who killed bin Laden says America's 250th proves hard work still pays, warns of 'victimhood' culture",
-          "url": "https://www.foxnews.com/politics/navy-seal-killed-bin-laden-says-americas-250th-proves-hard-work-still-pays-warns-victimhood-culture",
-          "biasScore": 8,
-          "biasSignals": [
-            "'victimhood culture' warning — conservative framing",
-            "SEAL hero framing reinforces right values"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "2026-07-03T09:37:28.5964783Z",
-          "clusterId": "america-250-celebrations"
-        },
-        {
-          "id": "washexaminer-america-250-celebrations-19",
-          "outletId": "washexaminer",
-          "outletName": "Washington Examiner",
-          "headline": "White House suggests ‘no better addition’ to Mount Rushmore than Trump",
-          "url": "https://www.washingtonexaminer.com/news/white-house/4635951/white-house-suggests-mount-rushmore-trump-addition/",
-          "biasScore": 8,
-          "biasSignals": [
-            "'no better addition' — uncritical White House promotion",
-            "Trump Mount Rushmore suggestion treated positively"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Sat, 04 Jul 2026 00:47:30 +0000",
-          "clusterId": "america-250-celebrations"
-        },
-        {
-          "id": "breitbart-america-250-celebrations-9",
-          "outletId": "breitbart",
-          "outletName": "Breitbart",
-          "headline": "Watch Live: Donald Trump Speaks at Mount Rushmore",
-          "url": "https://www.breitbart.com/america250/2026/07/03/watch-live-donald-trump-speaks-at-mount-rushmore/",
-          "biasScore": 8.5,
-          "biasSignals": [
-            "live event promotion, no critical framing",
-            "Breitbart platform for Trump speech"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Sat, 04 Jul 2026 03:06:04 +0000",
-          "clusterId": "america-250-celebrations"
-        },
-        {
-          "id": "nypost-america-250-celebrations-6",
-          "outletId": "nypost",
-          "outletName": "NY Post",
-          "headline": "A happy 250th birthday letter to America from President Donald Trump",
-          "url": "https://nypost.com/2026/07/04/us-news/a-happy-250th-birthday-letter-to-america-from-president-trump/",
-          "biasScore": 9,
-          "biasSignals": [
-            "direct Trump propaganda piece, no critical distance",
-            "celebratory nationalist framing throughout"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Sat, 04 Jul 2026 07:00:00 -0400",
-          "clusterId": "america-250-celebrations"
-        }
-      ]
-    },
-    {
-      "id": "trump-mount-rushmore-speech",
-      "topicLabel": "Trump speech at Mount Rushmore for America 250",
-      "date": "2026-07-04",
-      "articles": [
-        {
-          "id": "washexaminer-trump-mount-rushmore-speech-1",
-          "outletId": "washexaminer",
-          "outletName": "Washington Examiner",
-          "headline": "Pope Leo XIV calls on US to recommit to unity while accepting Liberty Medal",
-          "url": "https://www.washingtonexaminer.com/news/world/4635973/pope-leo-xiv-liberty-medal-unity/",
-          "biasScore": 5.5,
-          "biasSignals": [
-            "neutral framing of pope's unity message",
-            "no strong partisan signals"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Sat, 04 Jul 2026 02:49:08 +0000",
-          "clusterId": "trump-mount-rushmore-speech"
-        },
-        {
-          "id": "nationalreview-trump-mount-rushmore-speech-2",
-          "outletId": "nationalreview",
-          "outletName": "National Review",
-          "headline": "Celebrate American Vastness, in All Its Glory",
-          "url": "https://www.nationalreview.com/2026/07/celebrate-american-vastness-in-all-its-glory/",
-          "biasScore": 6.5,
-          "biasSignals": [
-            "celebratory conservative patriotic framing",
-            "National Review pro-America 250 tone"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Sat, 04 Jul 2026 10:30:46 +0000",
-          "clusterId": "trump-mount-rushmore-speech"
-        },
-        {
-          "id": "nationalreview-trump-mount-rushmore-speech-3",
-          "outletId": "nationalreview",
-          "outletName": "National Review",
-          "headline": "The Endurance of Our Declaration of Independence",
-          "url": "https://www.nationalreview.com/2026/07/the-endurance-of-our-declaration-of-independence/",
-          "biasScore": 6.5,
-          "biasSignals": [
-            "'Endurance' — positive conservative framing",
-            "patriotic celebration of founding document"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Sat, 04 Jul 2026 10:30:35 +0000",
-          "clusterId": "trump-mount-rushmore-speech"
-        },
-        {
-          "id": "breitbart-trump-mount-rushmore-speech-0",
-          "outletId": "breitbart",
-          "outletName": "Breitbart",
-          "headline": "'Ingrates': Hegseth Fires Back at Leftists Shouting at National Guard",
-          "url": "https://www.breitbart.com/politics/2026/07/03/ingrates-hegseth-fires-back-leftists-shouting-national-guard/",
-          "biasScore": 8.5,
-          "biasSignals": [
-            "'Ingrates' and 'Leftists' — charged enemy framing",
-            "Hegseth portrayed as justified hero"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Sat, 04 Jul 2026 02:10:45 +0000",
-          "clusterId": "trump-mount-rushmore-speech"
-        }
-      ]
-    },
-    {
-      "id": "trump-crypto-conflict",
-      "topicLabel": "Trump crypto profits and conflict of interest concerns",
-      "date": "2026-07-04",
-      "articles": [
-        {
-          "id": "npr-trump-crypto-conflict-2",
-          "outletId": "npr",
-          "outletName": "NPR",
-          "headline": "Former ethics lawyer says Trump's crypto poses 'clear conflict of interest'",
-          "url": "https://www.npr.org/2026/07/02/nx-s1-5877487/trump-crypto-earnings-ethics",
-          "biasScore": 3,
-          "biasSignals": [
-            "'clear conflict of interest' — expert critical framing",
-            "ethics lawyer source signals left-leaning trust"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Thu, 02 Jul 2026 06:44:01 -0400",
-          "clusterId": "trump-crypto-conflict"
-        },
-        {
-          "id": "axios-trump-crypto-conflict-3",
+          "id": "axios-trump-crypto-profits-2",
           "outletId": "axios",
           "outletName": "Axios",
           "headline": "Democrats plot subpoena storm over Trump's $2 billion gold rush",
           "url": "https://www.axios.com/2026/07/03/trump-financial-disclosure-democrats-subpoena",
-          "biasScore": 3.2,
+          "biasScore": 2.5,
           "biasSignals": [
-            "'gold rush' — negative greed framing of Trump",
-            "'subpoena storm' implies aggressive Democratic action"
+            "'gold rush' — greed framing of Trump profits",
+            "'subpoena storm' implies Democratic heroism"
           ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
+          "biasScoreGrok": 2.2,
+          "biasSignalsGrok": [
+            "subpoena storm",
+            "left framing"
+          ],
           "pubDate": "Fri, 03 Jul 2026 09:45:04 +0000",
-          "clusterId": "trump-crypto-conflict"
+          "clusterId": "trump-crypto-profits"
         },
         {
-          "id": "nytimes-trump-crypto-conflict-0",
+          "id": "nytimes-trump-crypto-profits-0",
           "outletId": "nytimes",
           "outletName": "NY Times",
           "headline": "Nearly a Million Investors Lost a Total of $3.8 Billion on Trump Crypto Coin",
-          "url": "https://www.nytimes.com/2026/07/04/us/politics/nearly-a-million-investors-lost-a-total-of-3-8-billion-on-trump-crypto-coin.html",
-          "biasScore": 4,
+          "url": "https://www.nytimes.com/2026/07/04/us/politics/trump-coin-crypto-investors-loss.html",
+          "biasScore": 3,
           "biasSignals": [
-            "factual loss framing, investor harm emphasis",
-            "neutral 'lost' verb, no charged language"
+            "'Lost' — victim framing for investors",
+            "Trump's gain framed against investor harm"
           ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Sat, 04 Jul 2026 10:28:33 +0000",
-          "clusterId": "trump-crypto-conflict"
+          "biasScoreGrok": 2.8,
+          "biasSignalsGrok": [
+            "nearly million lost",
+            "anti-Trump"
+          ],
+          "pubDate": "Sat, 04 Jul 2026 10:28:34 +0000",
+          "clusterId": "trump-crypto-profits"
         },
         {
-          "id": "npr-trump-crypto-conflict-1",
+          "id": "npr-trump-crypto-profits-1",
           "outletId": "npr",
           "outletName": "NPR",
           "headline": "Trump raked in more than $1B through crypto ventures, federal filing shows",
           "url": "https://www.npr.org/2026/07/02/nx-s1-5878394/trump-raked-in-more-than-1b-through-crypto-ventures-federal-filing-shows",
-          "biasScore": 4.2,
+          "biasScore": 3.5,
           "biasSignals": [
-            "neutral factual '$1B' framing",
-            "federal filing sourcing, balanced tone"
+            "neutral 'raked in' slightly charged",
+            "factual filing sourcing"
           ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
+          "biasScoreGrok": 3,
+          "biasSignalsGrok": [
+            "raked in more than",
+            "critical"
+          ],
           "pubDate": "Thu, 02 Jul 2026 06:44:06 -0400",
-          "clusterId": "trump-crypto-conflict"
-        },
-        {
-          "id": "marketwatch-trump-crypto-conflict-4",
-          "outletId": "marketwatch",
-          "outletName": "MarketWatch",
-          "headline": "Opening a ‘Trump account’ for your children? Here is the risk you need to reckon with first.",
-          "url": "https://www.marketwatch.com/story/opening-a-trump-account-for-your-children-here-is-the-risk-you-need-to-recognize-first-fe206bc0?mod=mw_rss_topstories",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral consumer risk framing",
-            "financial advice angle, no partisan signals"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Fri, 03 Jul 2026 19:10:00 GMT",
-          "clusterId": "trump-crypto-conflict"
+          "clusterId": "trump-crypto-profits"
         }
       ]
     },
     {
-      "id": "reflecting-pool-vandalism-indictment",
-      "topicLabel": "Olympian indicted for Reflecting Pool vandalism",
+      "id": "democratic-socialists-mamdani",
+      "topicLabel": "Democratic Socialists rise and Mamdani political profile",
       "date": "2026-07-04",
       "articles": [
         {
-          "id": "huffpost-reflecting-pool-vandalism-indictment-5",
-          "outletId": "huffpost",
-          "outletName": "HuffPost",
-          "headline": "Jeanine Pirro Torched By Critics Over 'Total Bulls**t' Reflecting Pool Indictment",
-          "url": "https://www.huffpost.com/entry/jeanine-pirro-torched-by-critics-over-reflecting-pool-indictment_n_6a4722dde4b03060a8500ca9",
-          "biasScore": 2.5,
-          "biasSignals": [
-            "'Torched by critics' — left-sympathetic framing",
-            "'Total Bulls**t' quote amplified approvingly"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "2026-07-03T09:05:10Z",
-          "clusterId": "reflecting-pool-vandalism-indictment"
-        },
-        {
-          "id": "msnbc-reflecting-pool-vandalism-indictment-0",
-          "outletId": "msnbc",
-          "outletName": "MSNBC",
-          "headline": "Grand jury indicts former Olympian in Trump DOJ’s Reflecting Pool vandalism case",
-          "url": "https://www.ms.now/rachel-maddow-show/maddowblog/trumps-justice-department-indicts-former-olympian-in-odd-reflecting-pool-case",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral 'indicts' verb, factual framing",
-            "no ideological signals in headline"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "2026-07-02T18:58:23Z",
-          "clusterId": "reflecting-pool-vandalism-indictment"
-        },
-        {
-          "id": "npr-reflecting-pool-vandalism-indictment-1",
-          "outletId": "npr",
-          "outletName": "NPR",
-          "headline": "Ex-Olympian charged over alleged reflecting pool damage",
-          "url": "https://www.npr.org/2026/07/03/nx-s1-5879451/ex-olympian-charged-over-alleged-reflecting-pool-damage",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral 'charged' verb framing",
-            "factual, no partisan signals"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Fri, 03 Jul 2026 05:00:31 -0400",
-          "clusterId": "reflecting-pool-vandalism-indictment"
-        },
-        {
-          "id": "abc-reflecting-pool-vandalism-indictment-4",
-          "outletId": "abc",
-          "outletName": "ABC News",
-          "headline": "Olympian David Hearn indicted for alleged vandalism of Reflecting Pool",
-          "url": "https://abcnews.com/Politics/olympian-david-hearn-indicted-alleged-vandalism-reflecting-pool/story?id=134420251",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral 'indicted for alleged vandalism'",
-            "factual framing, no ideological signals"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "2026-07-02T21:02:00Z",
-          "clusterId": "reflecting-pool-vandalism-indictment"
-        },
-        {
-          "id": "axios-reflecting-pool-vandalism-indictment-3",
-          "outletId": "axios",
-          "outletName": "Axios",
-          "headline": "Olympian indicted for vandalizing Reflecting Pool",
-          "url": "https://www.axios.com/2026/07/02/olympian-indicted-for-allegedly-vandalizing-reflecting-pool",
-          "biasScore": 4.8,
-          "biasSignals": [
-            "neutral 'indicted' verb, factual framing",
-            "no partisan signals"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Thu, 02 Jul 2026 19:28:59 +0000",
-          "clusterId": "reflecting-pool-vandalism-indictment"
-        },
-        {
-          "id": "cbsnews-reflecting-pool-vandalism-indictment-2",
-          "outletId": "cbsnews",
-          "outletName": "CBS News",
-          "headline": "Markings that appear to show the numbers \"86 47\" seen on National Mall in Washington",
-          "url": "https://www.cbsnews.com/news/86-47-markings-national-mall-washington-dc/",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral factual description of markings",
-            "no ideological framing"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "2026-06-11T18:56:44+00:00",
-          "clusterId": "reflecting-pool-vandalism-indictment"
-        }
-      ]
-    },
-    {
-      "id": "birthright-citizenship-scotus",
-      "topicLabel": "Supreme Court birthright citizenship ruling fallout",
-      "date": "2026-07-04",
-      "articles": [
-        {
-          "id": "vox-birthright-citizenship-scotus-4",
-          "outletId": "vox",
-          "outletName": "Vox",
-          "headline": "The Supreme Court can no longer explain itself",
-          "url": "https://www.vox.com/politics/494282/supreme-court-illegible",
-          "biasScore": 2.5,
-          "biasSignals": [
-            "critical of Supreme Court legitimacy",
-            "left-leaning critique of court's reasoning"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "2026-07-03T10:45:00.000Z",
-          "clusterId": "birthright-citizenship-scotus"
-        },
-        {
-          "id": "thehill-birthright-citizenship-scotus-2",
-          "outletId": "thehill",
-          "outletName": "The Hill",
-          "headline": "FOR INSIDERS | GOP lawmakers eye legislation challenging birthright citizenship ruling",
-          "url": "https://thehill.com/homenews/house/5952184-birthright-citizenship-legislation-republicans/",
-          "biasScore": 6,
-          "biasSignals": [
-            "neutral 'eye legislation' framing",
-            "GOP perspective leads without critical balance"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "2026-07-03T10:00:00Z",
-          "clusterId": "birthright-citizenship-scotus"
-        },
-        {
-          "id": "economist-birthright-citizenship-scotus-1",
-          "outletId": "economist",
-          "outletName": "The Economist",
-          "headline": "The Supreme Court leaves Donald Trump with plenty to celebrate",
-          "url": "https://www.economist.com/united-states/2026/06/29/the-supreme-court-leaves-donald-trump-with-plenty-to-celebrate",
-          "biasScore": 6.5,
-          "biasSignals": [
-            "'plenty to celebrate' — Trump-favorable framing",
-            "SCOTUS ruling framed as Trump win"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Mon, 29 Jun 2026 23:06:48 +0000",
-          "clusterId": "birthright-citizenship-scotus"
-        },
-        {
-          "id": "breitbart-birthright-citizenship-scotus-0",
-          "outletId": "breitbart",
-          "outletName": "Breitbart",
-          "headline": "Marlow: Conservatives Must Vet Judges, Justices on Birthright Citizenship",
-          "url": "https://www.breitbart.com/clips/2026/07/03/marlow-conservatives-must-vet-judges-justices-on-birthright-citizenship/",
-          "biasScore": 8,
-          "biasSignals": [
-            "Breitbart calls on conservatives to 'vet' judges",
-            "framing SCOTUS decision as conservative victory to build on"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Sat, 04 Jul 2026 03:33:16 +0000",
-          "clusterId": "birthright-citizenship-scotus"
-        },
-        {
-          "id": "thefederalist-birthright-citizenship-scotus-3",
-          "outletId": "thefederalist",
-          "outletName": "The Federalist",
-          "headline": "SCOTUS Birthplace Citizenship Decision Is John Roberts’ Roe v. Wade",
-          "url": "https://thefederalist.com/2026/07/03/scotus-birthplace-citizenship-decision-is-john-roberts-roe-v-wade/?utm_source=rss&utm_medium=rss&utm_campaign=scotus-birthplace-citizenship-decision-is-john-roberts-roe-v-wade",
-          "biasScore": 8.5,
-          "biasSignals": [
-            "Roe v. Wade comparison — inflammatory framing",
-            "Roberts portrayed as betrayer of conservative cause"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Fri, 03 Jul 2026 11:32:41 +0000",
-          "clusterId": "birthright-citizenship-scotus"
-        }
-      ]
-    },
-    {
-      "id": "extreme-heat-july4",
-      "topicLabel": "Extreme heat disrupts July 4th celebrations",
-      "date": "2026-07-04",
-      "articles": [
-        {
-          "id": "theatlantic-extreme-heat-july4-5",
-          "outletId": "theatlantic",
-          "outletName": "The Atlantic",
-          "headline": "Hell Arrives in Washington",
-          "url": "https://www.theatlantic.com/science/2026/07/washington-dc-heat-wave-america-250/687808/?utm_source=feed",
-          "biasScore": 2.5,
-          "biasSignals": [
-            "'Hell Arrives' — dramatic charged language",
-            "left-leaning Atlantic crisis framing"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Fri, 03 Jul 2026 18:35:22 -0400",
-          "clusterId": "extreme-heat-july4"
-        },
-        {
-          "id": "vox-extreme-heat-july4-4",
-          "outletId": "vox",
-          "outletName": "Vox",
-          "headline": "The fatal flaw in how America handles heat waves",
-          "url": "https://www.vox.com/future-perfect/494126/heat-wave-ac-passive-homes",
-          "biasScore": 3,
-          "biasSignals": [
-            "'fatal flaw' — systemic critique framing",
-            "progressive policy failure narrative"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "2026-07-03T10:00:00.000Z",
-          "clusterId": "extreme-heat-july4"
-        },
-        {
-          "id": "thehill-extreme-heat-july4-0",
-          "outletId": "thehill",
-          "outletName": "The Hill",
-          "headline": "Extreme heat advisory delays National Mall July 4 event, organizers say",
-          "url": "https://thehill.com/homenews/5952439-extreme-heat-advisory-delays-national-mall-july-4-event-organizers-say/",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral 'delays' framing, factual",
-            "no ideological signals"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "2026-07-03T01:25:12Z",
-          "clusterId": "extreme-heat-july4"
-        },
-        {
-          "id": "thehill-extreme-heat-july4-1",
-          "outletId": "thehill",
-          "outletName": "The Hill",
-          "headline": "How extreme heat is changing DC’s July Fourth weekend event plans",
-          "url": "https://thehill.com/homenews/state-watch/5952009-extreme-heat-washington-dc-july-fourth-events-impact/",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral explanatory framing",
-            "factual event coverage"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "2026-07-02T20:23:58Z",
-          "clusterId": "extreme-heat-july4"
-        },
-        {
-          "id": "axios-extreme-heat-july4-2",
-          "outletId": "axios",
-          "outletName": "Axios",
-          "headline": "Why this July 4 weekend is a wildfire tinderbox",
-          "url": "https://www.axios.com/2026/07/03/wildfire-weather-firework-bans-july-4-weekend",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral wildfire risk framing",
-            "factual environmental reporting"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Fri, 03 Jul 2026 18:00:05 +0000",
-          "clusterId": "extreme-heat-july4"
-        },
-        {
-          "id": "abc-extreme-heat-july4-3",
-          "outletId": "abc",
-          "outletName": "ABC News",
-          "headline": "Eastern heat on July 4 threatens World Cup players and fans",
-          "url": "https://abcnews.com/Health/wireStory/eastern-heat-july-4-threatens-world-cup-players-134435025",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral 'threatens' framing for heat risk",
-            "factual health risk reporting"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "2026-07-03T07:08:26Z",
-          "clusterId": "extreme-heat-july4"
-        }
-      ]
-    },
-    {
-      "id": "monaco-bomb-attack-ukraine",
-      "topicLabel": "Ukrainian woman named suspect in Monaco bombing",
-      "date": "2026-07-04",
-      "articles": [
-        {
-          "id": "huffpost-monaco-bomb-attack-ukraine-2",
-          "outletId": "huffpost",
-          "outletName": "HuffPost",
-          "headline": "Interpol Names Suspect In Monaco Bombing That Reportedly Targeted Russia-Linked Ukrainian Tycoon",
-          "url": "https://www.huffpost.com/entry/monaco-bombing-suspect-named_n_6a47923be4b03060a850420d",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral Interpol attribution framing",
-            "factual reporting, no ideological signals"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "2026-07-03T10:49:53Z",
-          "clusterId": "monaco-bomb-attack-ukraine"
-        },
-        {
-          "id": "cnn-monaco-bomb-attack-ukraine-0",
-          "outletId": "cnn",
-          "outletName": "CNN",
-          "headline": "Ukrainian woman disguised as a man is main suspect in Monaco attack, authorities say",
-          "url": "https://www.cnn.com/2026/07/03/europe/monaco-bomb-woman-suspect-intl",
-          "biasScore": 4.8,
-          "biasSignals": [
-            "neutral 'main suspect' framing",
-            "factual attribution to authorities"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "2026-07-03T09:45:51Z",
-          "clusterId": "monaco-bomb-attack-ukraine"
-        },
-        {
-          "id": "bbc-monaco-bomb-attack-ukraine-1",
-          "outletId": "bbc",
-          "outletName": "BBC",
-          "headline": "Ukrainian woman named by Interpol as main suspect in Monaco bomb attack",
-          "url": "https://www.bbc.co.uk/news/articles/c4gy603z2qlo",
-          "biasScore": 4.8,
-          "biasSignals": [
-            "neutral Interpol sourcing, factual",
-            "no ideological signals"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "2026-07-03T11:37:22.4415797Z",
-          "clusterId": "monaco-bomb-attack-ukraine"
-        }
-      ]
-    },
-    {
-      "id": "nasa-swift-telescope-rescue",
-      "topicLabel": "NASA launches robot to save falling Swift telescope",
-      "date": "2026-07-04",
-      "articles": [
-        {
-          "id": "cnn-nasa-swift-telescope-rescue-0",
-          "outletId": "cnn",
-          "outletName": "CNN",
-          "headline": "A 3,200-pound space observatory may soon fall from orbit. A risky endeavor just launched to save it",
-          "url": "https://www.cnn.com/2026/07/03/science/nasa-swift-boost-rescue-mission",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral descriptive science framing",
-            "'risky endeavor' — mildly dramatic but factual"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "2026-07-03T10:38:59Z",
-          "clusterId": "nasa-swift-telescope-rescue"
-        },
-        {
-          "id": "bbc-nasa-swift-telescope-rescue-1",
-          "outletId": "bbc",
-          "outletName": "BBC",
-          "headline": "Nasa launches robot to save Swift telescope falling to Earth",
-          "url": "https://www.bbc.co.uk/news/articles/c0ry4xx7rk8o",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral factual science reporting",
-            "no ideological signals"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "2026-07-03T11:07:26.6668693Z",
-          "clusterId": "nasa-swift-telescope-rescue"
-        }
-      ]
-    },
-    {
-      "id": "democratic-party-divisions",
-      "topicLabel": "Democratic Party internal divisions and strategy",
-      "date": "2026-07-04",
-      "articles": [
-        {
-          "id": "npr-democratic-party-divisions-1",
-          "outletId": "npr",
-          "outletName": "NPR",
-          "headline": "Hakeem Jeffries addresses Democratic Party divisions, says Trump is the bigger issue",
-          "url": "https://www.npr.org/2026/07/03/nx-s1-5879082/hakeem-jeffries-democratic-party-divisions-trump-midterms",
-          "biasScore": 3.8,
-          "biasSignals": [
-            "Jeffries perspective leads sympathetically",
-            "Trump framed as 'bigger issue' — Dem framing adopted"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Fri, 03 Jul 2026 04:15:00 -0400",
-          "clusterId": "democratic-party-divisions"
-        },
-        {
-          "id": "npr-democratic-party-divisions-0",
-          "outletId": "npr",
-          "outletName": "NPR",
-          "headline": "Could infighting derail Democrats' hopes to win back House?",
-          "url": "https://www.npr.org/2026/07/03/nx-s1-5879393/could-infighting-derail-democrats-hopes-to-win-back-house",
-          "biasScore": 4,
-          "biasSignals": [
-            "neutral 'could derail' framing",
-            "balanced internal party analysis"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Fri, 03 Jul 2026 04:15:16 -0400",
-          "clusterId": "democratic-party-divisions"
-        },
-        {
-          "id": "washexaminer-democratic-party-divisions-3",
-          "outletId": "washexaminer",
-          "outletName": "Washington Examiner",
-          "headline": "AOC ignites Schumer proxy fight with Michigan Senate primary endorsement",
-          "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4635327/aoc-michigan-senate-primary-schumer-new-york/",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral 'ignites' verb, factual political reporting",
-            "balanced framing of party conflict"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Sat, 04 Jul 2026 10:00:00 +0000",
-          "clusterId": "democratic-party-divisions"
-        },
-        {
-          "id": "breitbart-democratic-party-divisions-2",
-          "outletId": "breitbart",
-          "outletName": "Breitbart",
-          "headline": "'Moderate' Sen. Hickenlooper Suggests Socialists Like Melat Kiros Will Help Democrats Win over 'Farmers, Ranchers'",
-          "url": "https://www.breitbart.com/clips/2026/07/03/moderate-sen-hickenlooper-suggests-socialists-like-melat-kiros-will-help-democrats-win-over-farmers-ranchers/",
-          "biasScore": 8,
-          "biasSignals": [
-            "'Moderate' in scare quotes — mocking framing",
-            "socialists framing used pejoratively"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Sat, 04 Jul 2026 03:33:20 +0000",
-          "clusterId": "democratic-party-divisions"
-        }
-      ]
-    },
-    {
-      "id": "mamdani-nyc-socialist",
-      "topicLabel": "Zohran Mamdani democratic socialist rise in NYC",
-      "date": "2026-07-04",
-      "articles": [
-        {
-          "id": "msnbc-mamdani-nyc-socialist-0",
+          "id": "msnbc-democratic-socialists-mamdani-0",
           "outletId": "msnbc",
           "outletName": "MSNBC",
           "headline": "What is a democratic socialist? Inside the movement behind Mamdani’s rise",
@@ -1565,93 +1369,561 @@
           "biasScore": 3,
           "biasSignals": [
             "sympathetic 'inside the movement' framing",
-            "democratic socialist labeled positively"
+            "progressive framing of DSA rise"
           ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
+          "biasScoreGrok": 2.5,
+          "biasSignalsGrok": [
+            "inside movement",
+            "left sympathetic"
+          ],
           "pubDate": "2026-07-03T10:00:00Z",
-          "clusterId": "mamdani-nyc-socialist"
+          "clusterId": "democratic-socialists-mamdani"
         },
         {
-          "id": "foxnews-mamdani-nyc-socialist-1",
+          "id": "foxnews-democratic-socialists-mamdani-1",
           "outletId": "foxnews",
           "outletName": "Fox News",
-          "headline": "Mamdani's advice for seniors gets brutally mocked after urging New Yorkers to limit AC use",
-          "url": "https://www.foxnews.com/politics/mamdanis-advice-seniors-brutally-mocked-after-urging-new-yorkers-limit-ac-use",
-          "biasScore": 8.5,
+          "headline": "Democratic Socialists of America leader says ‘many’ in group would be 'thrilled' at AOC in 2028",
+          "url": "https://www.foxnews.com/media/democratic-socialists-america-leader-says-many-group-would-thrilled-aoc-2028",
+          "biasScore": 6.5,
           "biasSignals": [
-            "'brutally mocked' — mockery of Mamdani foregrounded",
-            "AC advice framed as absurd, anti-left framing"
+            "DSA leader framed as radical threat",
+            "AOC 2028 framed as alarming prospect"
           ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "2026-07-03T11:07:26.7449754Z",
-          "clusterId": "mamdani-nyc-socialist"
+          "biasScoreGrok": 7,
+          "biasSignalsGrok": [
+            "thrilled at AOC",
+            "right critical"
+          ],
+          "pubDate": "2026-07-03T14:37:23.2217961Z",
+          "clusterId": "democratic-socialists-mamdani"
         },
         {
-          "id": "thefederalist-mamdani-nyc-socialist-2",
+          "id": "thefederalist-democratic-socialists-mamdani-4",
           "outletId": "thefederalist",
           "outletName": "The Federalist",
           "headline": "Mamdani Is Telling A Brazen Lie About ‘Capitalist Mismanagement’ Of New York",
           "url": "https://thefederalist.com/2026/07/03/mamdani-is-telling-a-brazen-lie-about-capitalist-mismanagement-of-new-york/?utm_source=rss&utm_medium=rss&utm_campaign=mamdani-is-telling-a-brazen-lie-about-capitalist-mismanagement-of-new-york",
+          "biasScore": 8,
+          "biasSignals": [
+            "'Brazen lie' — charged attack on Mamdani",
+            "no neutral sourcing, one-sided framing"
+          ],
+          "biasScoreGrok": 7.8,
+          "biasSignalsGrok": [
+            "brazen lie",
+            "right critical"
+          ],
+          "pubDate": "Fri, 03 Jul 2026 11:33:18 +0000",
+          "clusterId": "democratic-socialists-mamdani"
+        },
+        {
+          "id": "breitbart-democratic-socialists-mamdani-3",
+          "outletId": "breitbart",
+          "outletName": "Breitbart",
+          "headline": "Data Suggests Democratic Socialists Overeducated, Learned to Hate America at School, Marlow Says",
+          "url": "https://www.breitbart.com/clips/2026/07/03/data-suggests-democratic-socialists-overeducated-learned-to-hate-america-at-school-marlow-says/",
           "biasScore": 8.5,
           "biasSignals": [
-            "'brazen lie' — charged accusation language",
-            "Mamdani framed as dishonest ideologue"
+            "'Learned to hate America' — charged right framing",
+            "'Overeducated' dismissive framing of socialists"
           ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Fri, 03 Jul 2026 11:33:18 +0000",
-          "clusterId": "mamdani-nyc-socialist"
+          "biasScoreGrok": 8,
+          "biasSignalsGrok": [
+            "learned to hate America",
+            "conservative framing"
+          ],
+          "pubDate": "Sat, 04 Jul 2026 03:33:13 +0000",
+          "clusterId": "democratic-socialists-mamdani"
+        },
+        {
+          "id": "breitbart-democratic-socialists-mamdani-2",
+          "outletId": "breitbart",
+          "outletName": "Breitbart",
+          "headline": "Davi: Mamdani, DSA, Marxists Part of Klaus Schwab's Global Infiltration",
+          "url": "https://www.breitbart.com/clips/2026/07/03/davi-mamdani-dsa-marxists-part-of-klaus-schwabs-global-infiltration/",
+          "biasScore": 9,
+          "biasSignals": [
+            "'Marxists,' 'global infiltration' — far-right charged framing",
+            "Schwab conspiracy framing, no balance"
+          ],
+          "biasScoreGrok": 8.5,
+          "biasSignalsGrok": [
+            "Marxists global infiltration",
+            "far right charged"
+          ],
+          "pubDate": "Sat, 04 Jul 2026 03:33:26 +0000",
+          "clusterId": "democratic-socialists-mamdani"
         }
       ]
     },
     {
-      "id": "trump-pardons-clean-air",
-      "topicLabel": "Trump pardons Clean Air Act violators",
+      "id": "trump-mount-rushmore-speech",
+      "topicLabel": "Trump's Mount Rushmore America 250 speech",
       "date": "2026-07-04",
       "articles": [
         {
-          "id": "nytimes-trump-pardons-clean-air-0",
-          "outletId": "nytimes",
-          "outletName": "NY Times",
-          "headline": "Trump Pardons Violators of the Clean Air Act and a Major Donor",
-          "url": "https://www.nytimes.com/2026/07/03/us/politics/trump-pardon-clean-air-act.html",
-          "biasScore": 3.5,
+          "id": "bostonglobe-trump-mount-rushmore-speech-2",
+          "outletId": "bostonglobe",
+          "outletName": "Boston Globe",
+          "headline": "At Mount Rushmore, Trump veers from patriotism to ‘communism’",
+          "url": "https://www.bostonglobe.com/2026/07/04/nation/trump-speech-mount-rushmore/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
+          "biasScore": 2.5,
           "biasSignals": [
-            "'major donor' connection emphasized — corruption framing",
-            "NYT leads with donor conflict angle"
+            "'veers' — negative verb for Trump's speech",
+            "patriotism vs communism framing unfavorable to Trump"
           ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Sat, 04 Jul 2026 02:06:23 +0000",
-          "clusterId": "trump-pardons-clean-air"
+          "biasScoreGrok": 2.8,
+          "biasSignalsGrok": [
+            "veers from patriotism",
+            "anti-Trump"
+          ],
+          "pubDate": "Sat, 04 Jul 2026 13:33:08 +0000",
+          "clusterId": "trump-mount-rushmore-speech"
         },
         {
-          "id": "washexaminer-trump-pardons-clean-air-1",
+          "id": "washpost-trump-mount-rushmore-speech-0",
+          "outletId": "washpost",
+          "outletName": "Washington Post",
+          "headline": "Trump returns to Mount Rushmore after years of hinting he belongs there",
+          "url": "https://www.washingtonpost.com/politics/2026/07/03/white-house-says-trump-would-make-great-addition-mount-rushmore/",
+          "biasScore": 6.5,
+          "biasSignals": [
+            "favorable 'belongs there' implication",
+            "sympathetic framing of Trump's visit"
+          ],
+          "biasScoreGrok": 3.5,
+          "biasSignalsGrok": [
+            "hinting he belongs",
+            "critical"
+          ],
+          "pubDate": "2026-07-03T15:00:00Z",
+          "clusterId": "trump-mount-rushmore-speech"
+        },
+        {
+          "id": "washexaminer-trump-mount-rushmore-speech-1",
           "outletId": "washexaminer",
           "outletName": "Washington Examiner",
-          "headline": "Trump profits financially from gaming platform facing legal trouble for child predator epidemic",
-          "url": "https://www.washingtonexaminer.com/news/white-house/4633301/trump-profits-gaming-platform-child-predator-epidemic/",
+          "headline": "Trump warns of ‘resurgence of the Communist menace’ during Mount Rushmore America 250 speech",
+          "url": "https://www.washingtonexaminer.com/news/white-house/4636028/trump-resurgence-communist-menace-mount-rushmore-america-250/",
+          "biasScore": 6.5,
+          "biasSignals": [
+            "Trump's 'communist menace' warning quoted without critique",
+            "favorable framing of Trump's rhetoric"
+          ],
+          "biasScoreGrok": 8.2,
+          "biasSignalsGrok": [
+            "communist menace",
+            "charged language"
+          ],
+          "pubDate": "Sat, 04 Jul 2026 04:14:39 +0000",
+          "clusterId": "trump-mount-rushmore-speech"
+        }
+      ]
+    },
+    {
+      "id": "intelligence-officials-fired",
+      "topicLabel": "Trump administration fires intelligence officials",
+      "date": "2026-07-04",
+      "articles": [
+        {
+          "id": "huffpost-intelligence-officials-fired-1",
+          "outletId": "huffpost",
+          "outletName": "HuffPost",
+          "headline": "U.S. Appeals Court Prevents Firing Of 19 Intelligence Officers Assigned To DEI Programs",
+          "url": "https://www.huffpost.com/entry/court-prevents-firings-of-intelligence-officers_n_6a47811ee4b03060a8503b65",
+          "biasScore": 2,
+          "biasSignals": [
+            "court as hero preventing firings",
+            "DEI framing sympathetic to fired officials"
+          ],
+          "biasScoreGrok": 2.5,
+          "biasSignalsGrok": [
+            "prevents firing",
+            "DEI focus"
+          ],
+          "pubDate": "2026-07-03T09:36:52Z",
+          "clusterId": "intelligence-officials-fired"
+        },
+        {
+          "id": "msnbc-intelligence-officials-fired-0",
+          "outletId": "msnbc",
+          "outletName": "MSNBC",
+          "headline": "Intelligence chief Bill Pulte begins firing dozens of intelligence officials",
+          "url": "https://www.ms.now/news/pulte-firings-intelligence-officials-deep-state-trump",
+          "biasScore": 2.5,
+          "biasSignals": [
+            "'firing dozens' — charged verb emphasizing scale",
+            "Pulte framed as aggressor against officials"
+          ],
+          "biasScoreGrok": 3,
+          "biasSignalsGrok": [
+            "begins firing dozens",
+            "left framing"
+          ],
+          "pubDate": "2026-07-03T15:39:46Z",
+          "clusterId": "intelligence-officials-fired"
+        }
+      ]
+    },
+    {
+      "id": "reflecting-pool-olympian-indictment",
+      "topicLabel": "Olympian indicted for Reflecting Pool vandalism",
+      "date": "2026-07-04",
+      "articles": [
+        {
+          "id": "huffpost-reflecting-pool-olympian-indictment-3",
+          "outletId": "huffpost",
+          "outletName": "HuffPost",
+          "headline": "Jeanine Pirro Torched By Critics Over 'Total Bulls**t' Reflecting Pool Indictment",
+          "url": "https://www.huffpost.com/entry/jeanine-pirro-torched-by-critics-over-reflecting-pool-indictment_n_6a4722dde4b03060a8500ca9",
+          "biasScore": 2,
+          "biasSignals": [
+            "'Torched' Pirro — charged anti-right framing",
+            "critics framed as righteous heroes"
+          ],
+          "biasScoreGrok": 2,
+          "biasSignalsGrok": [
+            "total BS indictment",
+            "anti-right"
+          ],
+          "pubDate": "2026-07-03T09:05:10Z",
+          "clusterId": "reflecting-pool-olympian-indictment"
+        },
+        {
+          "id": "npr-reflecting-pool-olympian-indictment-0",
+          "outletId": "npr",
+          "outletName": "NPR",
+          "headline": "Ex-Olympian charged over alleged reflecting pool damage",
+          "url": "https://www.npr.org/2026/07/03/nx-s1-5879451/ex-olympian-charged-over-alleged-reflecting-pool-damage",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral 'charged' verb",
+            "factual framing"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "ex-Olympian charged",
+            "neutral"
+          ],
+          "pubDate": "Fri, 03 Jul 2026 05:00:31 -0400",
+          "clusterId": "reflecting-pool-olympian-indictment"
+        },
+        {
+          "id": "axios-reflecting-pool-olympian-indictment-1",
+          "outletId": "axios",
+          "outletName": "Axios",
+          "headline": "Olympian indicted for vandalizing Reflecting Pool",
+          "url": "https://www.axios.com/2026/07/02/olympian-indicted-for-allegedly-vandalizing-reflecting-pool",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral 'indicted' verb",
+            "factual sourcing"
+          ],
+          "biasScoreGrok": 4.8,
+          "biasSignalsGrok": [
+            "vandalizing reflecting pool",
+            "neutral"
+          ],
+          "pubDate": "Thu, 02 Jul 2026 19:28:59 +0000",
+          "clusterId": "reflecting-pool-olympian-indictment"
+        },
+        {
+          "id": "abc-reflecting-pool-olympian-indictment-2",
+          "outletId": "abc",
+          "outletName": "ABC News",
+          "headline": "Olympian David Hearn indicted for alleged vandalism of Reflecting Pool",
+          "url": "https://abcnews.com/Politics/olympian-david-hearn-indicted-alleged-vandalism-reflecting-pool/story?id=134420251",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral 'indicted for alleged' framing",
+            "factual sourcing"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "indicted for alleged",
+            "neutral"
+          ],
+          "pubDate": "2026-07-02T21:02:00Z",
+          "clusterId": "reflecting-pool-olympian-indictment"
+        }
+      ]
+    },
+    {
+      "id": "supreme-court-birthright-citizenship",
+      "topicLabel": "Supreme Court birthright citizenship ruling impact",
+      "date": "2026-07-04",
+      "articles": [
+        {
+          "id": "huffpost-supreme-court-birthright-citizenship-3",
+          "outletId": "huffpost",
+          "outletName": "HuffPost",
+          "headline": "The Right’s Birthright Citizenship Freak-Out Shows What’s At The Heart Of MAGA",
+          "url": "https://www.huffpost.com/entry/donald-trump-birthright-citizenship-maga_n_6a4707c3e4b07748e75c9aa6",
+          "biasScore": 2,
+          "biasSignals": [
+            "'freak-out' dismisses right concerns as hysteria",
+            "'heart of MAGA' — charged progressive framing"
+          ],
+          "biasScoreGrok": 1.8,
+          "biasSignalsGrok": [
+            "rights freak-out",
+            "heavy progressive"
+          ],
+          "pubDate": "2026-07-03T12:00:17Z",
+          "clusterId": "supreme-court-birthright-citizenship"
+        },
+        {
+          "id": "thehill-supreme-court-birthright-citizenship-1",
+          "outletId": "thehill",
+          "outletName": "The Hill",
+          "headline": "FOR INSIDERS | GOP lawmakers eye legislation challenging birthright citizenship ruling",
+          "url": "https://thehill.com/homenews/house/5952184-birthright-citizenship-legislation-republicans/",
+          "biasScore": 6,
+          "biasSignals": [
+            "GOP legislation framed as proactive response",
+            "neutral-to-right framing of birthright challenge"
+          ],
+          "biasScoreGrok": 7,
+          "biasSignalsGrok": [
+            "GOP lawmakers eye",
+            "conservative"
+          ],
+          "pubDate": "2026-07-03T10:00:00Z",
+          "clusterId": "supreme-court-birthright-citizenship"
+        },
+        {
+          "id": "economist-supreme-court-birthright-citizenship-0",
+          "outletId": "economist",
+          "outletName": "The Economist",
+          "headline": "The Supreme Court leaves Donald Trump with plenty to celebrate",
+          "url": "https://www.economist.com/united-states/2026/06/29/the-supreme-court-leaves-donald-trump-with-plenty-to-celebrate",
+          "biasScore": 6.5,
+          "biasSignals": [
+            "'Trump with plenty to celebrate' — favorable framing",
+            "conservative framing of court's direction"
+          ],
+          "biasScoreGrok": 6.5,
+          "biasSignalsGrok": [
+            "plenty to celebrate",
+            "right sympathetic"
+          ],
+          "pubDate": "Mon, 29 Jun 2026 23:06:48 +0000",
+          "clusterId": "supreme-court-birthright-citizenship"
+        },
+        {
+          "id": "thefederalist-supreme-court-birthright-citizenship-2",
+          "outletId": "thefederalist",
+          "outletName": "The Federalist",
+          "headline": "SCOTUS Birthplace Citizenship Decision Is John Roberts’ Roe v. Wade",
+          "url": "https://thefederalist.com/2026/07/03/scotus-birthplace-citizenship-decision-is-john-roberts-roe-v-wade/?utm_source=rss&utm_medium=rss&utm_campaign=scotus-birthplace-citizenship-decision-is-john-roberts-roe-v-wade",
+          "biasScore": 7.5,
+          "biasSignals": [
+            "SCOTUS decision compared to Roe reversal negatively",
+            "charged conservative framing of Roberts' ruling"
+          ],
+          "biasScoreGrok": 8.5,
+          "biasSignalsGrok": [
+            "Roberts Roe v Wade",
+            "far right charged"
+          ],
+          "pubDate": "Fri, 03 Jul 2026 11:32:41 +0000",
+          "clusterId": "supreme-court-birthright-citizenship"
+        }
+      ]
+    },
+    {
+      "id": "pope-leo-lampedusa-migrants",
+      "topicLabel": "Pope Leo visits Lampedusa migrant hotspot",
+      "date": "2026-07-04",
+      "articles": [
+        {
+          "id": "aljazeera-pope-leo-lampedusa-migrants-0",
+          "outletId": "aljazeera",
+          "outletName": "Al Jazeera",
+          "headline": "Pope Leo urges migrant protection, integration on visit to Lampedusa",
+          "url": "https://www.aljazeera.com/news/2026/7/4/pope-urges-protection-integration-of-migrants-on-visit-to-island-frontier?traffic_source=rss",
           "biasScore": 3.5,
           "biasSignals": [
-            "'child predator epidemic' — charged language",
-            "Trump profit framing as exposé"
+            "'urges protection' — sympathetic migrant framing",
+            "Pope framed as advocate for migrants"
           ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Sat, 04 Jul 2026 09:00:00 +0000",
-          "clusterId": "trump-pardons-clean-air"
+          "biasScoreGrok": 2.8,
+          "biasSignalsGrok": [
+            "urges migrant protection",
+            "left framing"
+          ],
+          "pubDate": "Sat, 04 Jul 2026 12:17:29 +0000",
+          "clusterId": "pope-leo-lampedusa-migrants"
+        },
+        {
+          "id": "cnn-pope-leo-lampedusa-migrants-2",
+          "outletId": "cnn",
+          "outletName": "CNN",
+          "headline": "On the eve of America’s birthday, the first American pope takes center stage",
+          "url": "https://www.cnn.com/2026/07/03/world/pope-liberty-medal-philadelphia-intl",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral 'takes center stage' framing",
+            "American pope angle, minimal ideological signal"
+          ],
+          "biasScoreGrok": 4.5,
+          "biasSignalsGrok": [
+            "first American pope",
+            "neutral"
+          ],
+          "pubDate": "2026-07-03T10:00:27Z",
+          "clusterId": "pope-leo-lampedusa-migrants"
+        },
+        {
+          "id": "breitbart-pope-leo-lampedusa-migrants-1",
+          "outletId": "breitbart",
+          "outletName": "Breitbart",
+          "headline": "Pope Marks Fourth of July by Praying at Europe Illegal Migrant Hotspot Lampedusa",
+          "url": "https://www.breitbart.com/europe/2026/07/04/pope-marks-4th-of-july-by-praying-at-europe-illegal-migrant-hotspot-lampedusa/",
+          "biasScore": 8,
+          "biasSignals": [
+            "'Illegal migrant hotspot' — right-charged framing",
+            "Pope's visit framed as political act, not pastoral"
+          ],
+          "biasScoreGrok": 8,
+          "biasSignalsGrok": [
+            "illegal migrant hotspot",
+            "right language"
+          ],
+          "pubDate": "Sat, 04 Jul 2026 11:11:05 +0000",
+          "clusterId": "pope-leo-lampedusa-migrants"
+        }
+      ]
+    },
+    {
+      "id": "ukraine-russia-attacks",
+      "topicLabel": "Ukraine-Russia conflict and drone strikes",
+      "date": "2026-07-04",
+      "articles": [
+        {
+          "id": "aljazeera-ukraine-russia-attacks-0",
+          "outletId": "aljazeera",
+          "outletName": "Al Jazeera",
+          "headline": "Russian attacks leave trail of destruction across Ukraine",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/4/russian-attacks-leave-trail-of-destruction-across-ukraine?traffic_source=rss",
+          "biasScore": 4,
+          "biasSignals": [
+            "'trail of destruction' — victim framing for Ukraine",
+            "neutral factual reporting otherwise"
+          ],
+          "biasScoreGrok": 3.5,
+          "biasSignalsGrok": [
+            "trail of destruction",
+            "anti-Russia"
+          ],
+          "pubDate": "Sat, 04 Jul 2026 15:46:35 +0000",
+          "clusterId": "ukraine-russia-attacks"
+        },
+        {
+          "id": "abc-ukraine-russia-attacks-3",
+          "outletId": "abc",
+          "outletName": "ABC News",
+          "headline": "20 dead, dozens injured in Kyiv as Ukraine hit with 'massive' Russian strike",
+          "url": "https://abcnews.com/International/kyiv-fire-missile-drone-attack-russian-strike-mayor/story?id=134395585",
+          "biasScore": 4,
+          "biasSignals": [
+            "'massive' strike — factual scale descriptor",
+            "victim framing for Kyiv civilians"
+          ],
+          "biasScoreGrok": 4.5,
+          "biasSignalsGrok": [
+            "massive Russian strike",
+            "neutral"
+          ],
+          "pubDate": "2026-07-02T10:22:54Z",
+          "clusterId": "ukraine-russia-attacks"
+        },
+        {
+          "id": "axios-ukraine-russia-attacks-2",
+          "outletId": "axios",
+          "outletName": "Axios",
+          "headline": "Ukraine proves it can hit Russia almost anywhere",
+          "url": "https://www.axios.com/2026/07/03/ukraine-russia-drone-flamingo-strikes",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral 'proves' framing",
+            "factual military capability reporting"
+          ],
+          "biasScoreGrok": 4,
+          "biasSignalsGrok": [
+            "hit Russia anywhere",
+            "neutral"
+          ],
+          "pubDate": "Fri, 03 Jul 2026 08:40:05 +0000",
+          "clusterId": "ukraine-russia-attacks"
+        },
+        {
+          "id": "breitbart-ukraine-russia-attacks-1",
+          "outletId": "breitbart",
+          "outletName": "Breitbart",
+          "headline": "Ukrainian Drones Strike St. Petersburg Oil Terminal in Latest Long-Range Attack on Russia",
+          "url": "https://www.breitbart.com/europe/2026/07/04/ukrainian-drones-strike-st-petersburg-oil-terminal-in-latest-long-range-attack-on-russia/",
+          "biasScore": 5.5,
+          "biasSignals": [
+            "neutral 'strike' verb",
+            "factual military reporting"
+          ],
+          "biasScoreGrok": 7.5,
+          "biasSignalsGrok": [
+            "Ukrainian drones strike",
+            "right sympathetic"
+          ],
+          "pubDate": "Sat, 04 Jul 2026 10:46:53 +0000",
+          "clusterId": "ukraine-russia-attacks"
         }
       ]
     },
     {
       "id": "world-cup-2026",
-      "topicLabel": "2026 FIFA World Cup opening and matches",
+      "topicLabel": "2026 FIFA World Cup matches and coverage",
       "date": "2026-07-04",
       "articles": [
         {
-          "id": "cbsnews-world-cup-2026-0",
+          "id": "timesofisrael-world-cup-2026-4",
+          "outletId": "timesofisrael",
+          "outletName": "Times of Israel",
+          "headline": "Egypt’s manager raises Palestinian flag after World Cup knockout win",
+          "url": "https://www.timesofisrael.com/egypts-manager-raises-palestinian-flag-after-world-cup-knockout-win/",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral sports-political crossover reporting",
+            "factual flag gesture coverage"
+          ],
+          "biasScoreGrok": 5.5,
+          "biasSignalsGrok": [
+            "raises Palestinian flag",
+            "neutral"
+          ],
+          "pubDate": "Sat, 04 Jul 2026 14:20:14 +0000",
+          "clusterId": "world-cup-2026"
+        },
+        {
+          "id": "aljazeera-world-cup-2026-0",
+          "outletId": "aljazeera",
+          "outletName": "Al Jazeera",
+          "headline": "Canada vs Morocco LIVE: FIFA World Cup 2026 last 16",
+          "url": "https://www.aljazeera.com/sports/liveblog/2026/7/4/canada-vs-morocco-live-fifa-world-cup-2026-last-16?traffic_source=rss",
+          "biasScore": 5,
+          "biasSignals": [
+            "neutral sports live coverage",
+            "no ideological framing"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "live World Cup",
+            "neutral"
+          ],
+          "pubDate": "Sat, 04 Jul 2026 14:00:00 +0000",
+          "clusterId": "world-cup-2026"
+        },
+        {
+          "id": "cbsnews-world-cup-2026-1",
           "outletId": "cbsnews",
           "outletName": "CBS News",
           "headline": "The 2026 World Cup begins today. Here's what to know.",
@@ -1659,483 +1931,116 @@
           "biasScore": 5,
           "biasSignals": [
             "neutral explainer framing",
-            "no ideological signals"
+            "factual sports coverage"
           ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
+          "biasScoreGrok": 4.8,
+          "biasSignalsGrok": [
+            "what to know",
+            "neutral"
+          ],
           "pubDate": "2026-06-11T19:52:21+00:00",
           "clusterId": "world-cup-2026"
         },
         {
-          "id": "cbsnews-world-cup-2026-1",
+          "id": "cbsnews-world-cup-2026-2",
           "outletId": "cbsnews",
           "outletName": "CBS News",
           "headline": "World Cup opening ceremony kicks off in Mexico with Shakira",
           "url": "https://www.cbsnews.com/news/world-cup-opening-ceremony-mexico-shakira/",
           "biasScore": 5,
           "biasSignals": [
-            "neutral ceremony reporting",
-            "no ideological signals"
+            "neutral ceremony coverage",
+            "no partisan signal"
           ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
+          "biasScoreGrok": 4.5,
+          "biasSignalsGrok": [
+            "kicks off with Shakira",
+            "neutral"
+          ],
           "pubDate": "2026-06-11T18:41:38+00:00",
           "clusterId": "world-cup-2026"
         },
         {
-          "id": "telegraph-world-cup-2026-3",
+          "id": "cnbc-world-cup-2026-3",
+          "outletId": "cnbc",
+          "outletName": "CNBC",
+          "headline": "The World Cup sends prediction market volumes soaring to record highs",
+          "url": "https://www.cnbc.com/2026/07/04/2026-fifa-world-cup-boosts-prediction-market-volumes.html",
+          "biasScore": 5,
+          "biasSignals": [
+            "neutral market data framing",
+            "no ideological signal"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "volumes soaring",
+            "neutral"
+          ],
+          "pubDate": "Sat, 04 Jul 2026 12:54:04 GMT",
+          "clusterId": "world-cup-2026"
+        },
+        {
+          "id": "telegraph-world-cup-2026-5",
           "outletId": "telegraph",
           "outletName": "The Telegraph",
           "headline": "Cape Verde turn World Cup’s biggest mismatch into one of its greatest games",
           "url": "https://www.telegraph.co.uk/football/2026/07/03/argentina-vs-cape-verde-live-score-latest-world-cup-2026/",
           "biasScore": 5,
           "biasSignals": [
-            "neutral sports framing",
-            "no ideological signals"
+            "neutral sports narrative framing",
+            "no ideological signal"
           ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
+          "biasScoreGrok": 4.8,
+          "biasSignalsGrok": [
+            "biggest mismatch",
+            "neutral"
+          ],
           "pubDate": "Sat, 04 Jul 2026 04:50:59 GMT",
           "clusterId": "world-cup-2026"
         },
         {
-          "id": "economist-world-cup-2026-2",
-          "outletId": "economist",
-          "outletName": "The Economist",
-          "headline": "Checks and Balance newsletter: The World Cup doesn’t understand America",
-          "url": "https://www.economist.com/united-states/2026/06/27/checks-and-balance-newsletter-the-world-cup-doesnt-understand-america",
-          "biasScore": 5.5,
-          "biasSignals": [
-            "slightly contrarian 'doesn't understand America' framing",
-            "light cultural critique, minimal bias signals"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Sat, 27 Jun 2026 10:54:34 +0000",
-          "clusterId": "world-cup-2026"
-        }
-      ]
-    },
-    {
-      "id": "iran-nuclear-deal-diplomacy",
-      "topicLabel": "US-Iran nuclear talks and diplomatic progress",
-      "date": "2026-07-04",
-      "articles": [
-        {
-          "id": "nbc-iran-nuclear-deal-diplomacy-1",
+          "id": "nbc-world-cup-2026-6",
           "outletId": "nbc",
           "outletName": "NBC News",
-          "headline": "Inside Iran, the economic fallout from war takes a huge personal toll",
-          "url": "https://www.nbcnews.com/world/iran/iran-war-us-israel-ceasefire-food-goods-tehran-expensive-economic-toll-rcna352335",
-          "biasScore": 4,
-          "biasSignals": [
-            "human cost framing emphasizes Iranian suffering",
-            "slightly sympathetic to Iranian civilians"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "2026-07-03T09:00:42Z",
-          "clusterId": "iran-nuclear-deal-diplomacy"
-        },
-        {
-          "id": "bbc-iran-nuclear-deal-diplomacy-2",
-          "outletId": "bbc",
-          "outletName": "BBC",
-          "headline": "Strait of Hormuz: BBC sees seized ships and stranded tankers on visit to Iran",
-          "url": "https://www.bbc.co.uk/news/articles/cvg53ngvvpxo",
-          "biasScore": 4.8,
-          "biasSignals": [
-            "neutral BBC on-the-ground reporting",
-            "factual 'sees' framing, no charged language"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "2026-07-03T00:07:29.0427492Z",
-          "clusterId": "iran-nuclear-deal-diplomacy"
-        },
-        {
-          "id": "cbsnews-iran-nuclear-deal-diplomacy-0",
-          "outletId": "cbsnews",
-          "outletName": "CBS News",
-          "headline": "Details on progress toward Iran peace agreement as Trump calls off strikes",
-          "url": "https://www.cbsnews.com/video/details-on-progress-toward-iran-peace-agreement-as-trump-calls-off-strikes/",
+          "headline": "From The Sports Desk: Portugal advances, Croatia sent packing after dramatic finish",
+          "url": "https://www.nbcnews.com/sports/soccer/sports-newsletter-portugal-advances-croatia-sent-home-dramatic-finish-rcna352864",
           "biasScore": 5,
           "biasSignals": [
-            "neutral 'progress toward' framing",
-            "factual diplomatic reporting"
+            "neutral sports results framing",
+            "no partisan signal"
           ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "2026-06-11T19:18:45+00:00",
-          "clusterId": "iran-nuclear-deal-diplomacy"
-        }
-      ]
-    },
-    {
-      "id": "ukraine-russia-war-updates",
-      "topicLabel": "Ukraine-Russia war latest battlefield developments",
-      "date": "2026-07-04",
-      "articles": [
-        {
-          "id": "huffpost-ukraine-russia-war-updates-5",
-          "outletId": "huffpost",
-          "outletName": "HuffPost",
-          "headline": "Putin Shrugs Off Fuel Shortages In Russia As He Ramps Up Attacks On Ukraine",
-          "url": "https://www.huffpost.com/entry/russia-putin-doubling-down_n_6a476fbee4b07748e75cd4a1",
-          "biasScore": 3,
-          "biasSignals": [
-            "'shrugs off' — dismissive framing of Putin",
-            "Putin portrayed as callous against Ukrainians"
+          "biasScoreGrok": 4.5,
+          "biasSignalsGrok": [
+            "advances dramatic finish",
+            "neutral"
           ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "2026-07-03T08:23:06Z",
-          "clusterId": "ukraine-russia-war-updates"
+          "pubDate": "2026-07-03T15:00:59Z",
+          "clusterId": "world-cup-2026"
         },
         {
-          "id": "aljazeera-ukraine-russia-war-updates-0",
-          "outletId": "aljazeera",
-          "outletName": "Al Jazeera",
-          "headline": "Ukraine hits oil and military facilities near Russia’s St Petersburg",
-          "url": "https://www.aljazeera.com/news/2026/7/4/ukraine-hits-oil-and-military-facilities-near-russias-st-petersburg?traffic_source=rss",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral 'hits' verb for Ukraine strikes",
-            "factual military reporting"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Sat, 04 Jul 2026 10:29:19 +0000",
-          "clusterId": "ukraine-russia-war-updates"
-        },
-        {
-          "id": "abc-ukraine-russia-war-updates-4",
-          "outletId": "abc",
-          "outletName": "ABC News",
-          "headline": "20 dead, dozens injured in Kyiv as Ukraine hit with 'massive' Russian strike",
-          "url": "https://abcnews.com/International/kyiv-fire-missile-drone-attack-russian-strike-mayor/story?id=134395585",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "'massive Russian strike' — factual but emphatic",
-            "victim framing of Ukrainian civilians"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "2026-07-02T10:22:54Z",
-          "clusterId": "ukraine-russia-war-updates"
-        },
-        {
-          "id": "axios-ukraine-russia-war-updates-3",
-          "outletId": "axios",
-          "outletName": "Axios",
-          "headline": "Ukraine proves it can hit Russia almost anywhere",
-          "url": "https://www.axios.com/2026/07/03/ukraine-russia-drone-flamingo-strikes",
-          "biasScore": 4.8,
-          "biasSignals": [
-            "neutral capability assessment framing",
-            "factual military reporting"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Fri, 03 Jul 2026 08:40:05 +0000",
-          "clusterId": "ukraine-russia-war-updates"
-        },
-        {
-          "id": "aljazeera-ukraine-russia-war-updates-1",
-          "outletId": "aljazeera",
-          "outletName": "Al Jazeera",
-          "headline": "Russia claims it captured the strategic key Ukrainian city of Kostiantynivk",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/4/russia-claims-it-captured-the-strategic-key-ukrainian-city-of-kostiantynivk?traffic_source=rss",
-          "biasScore": 5.5,
-          "biasSignals": [
-            "'claims' qualifier on Russia — appropriate skepticism",
-            "neutral framing overall"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Sat, 04 Jul 2026 10:04:35 +0000",
-          "clusterId": "ukraine-russia-war-updates"
-        },
-        {
-          "id": "dailycaller-ukraine-russia-war-updates-2",
-          "outletId": "dailycaller",
-          "outletName": "Daily Caller",
-          "headline": "There’s One Country Winning Big In Ukraine War",
-          "url": "https://dailycaller.com/2026/07/03/ukraine-war-russia-north-korea-unlikely-winner/",
-          "biasScore": 6.5,
-          "biasSignals": [
-            "'one country winning big' — framing favors Russia narrative",
-            "Daily Caller contrarian framing"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Fri, 03 Jul 2026 19:48:34 +0000",
-          "clusterId": "ukraine-russia-war-updates"
-        }
-      ]
-    },
-    {
-      "id": "ice-immigration-arrests",
-      "topicLabel": "ICE mass arrests and immigration enforcement",
-      "date": "2026-07-04",
-      "articles": [
-        {
-          "id": "reason-ice-immigration-arrests-2",
-          "outletId": "reason",
-          "outletName": "Reason",
-          "headline": "Judge's Conclusions About Risks of Identification for ICE Officers",
-          "url": "https://reason.com/volokh/2026/07/03/judges-conclusions-about-risks-of-identification-for-ice-officers/",
+          "id": "independent-world-cup-2026-7",
+          "outletId": "independent",
+          "outletName": "The Independent",
+          "headline": "Canada v Morocco LIVE: Alphonso Davies fails to start as World Cup co-hosts face African champions in last-16",
+          "url": "https://www.independent.co.uk/sport/football/canada-morocco-live-stream-score-result-world-cup-b3008903.html",
           "biasScore": 5,
           "biasSignals": [
-            "neutral legal framing of identification risks",
-            "libertarian balanced analysis"
+            "neutral live sports coverage",
+            "no ideological framing"
           ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Sat, 04 Jul 2026 01:02:35 +0000",
-          "clusterId": "ice-immigration-arrests"
-        },
-        {
-          "id": "reason-ice-immigration-arrests-3",
-          "outletId": "reason",
-          "outletName": "Reason",
-          "headline": "Virginia Law Banning Law Enforcement Officer Masks Blocked as to ICE",
-          "url": "https://reason.com/volokh/2026/07/03/virginia-law-banning-law-enforcement-officer-masks-blocked-as-to-ice/",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral legal ruling framing",
-            "libertarian legal analysis, no partisan signals"
+          "biasScoreGrok": 4.8,
+          "biasSignalsGrok": [
+            "fails to start",
+            "neutral"
           ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Sat, 04 Jul 2026 00:48:51 +0000",
-          "clusterId": "ice-immigration-arrests"
-        },
-        {
-          "id": "abc-ice-immigration-arrests-0",
-          "outletId": "abc",
-          "outletName": "ABC News",
-          "headline": "ICE arrests 10,000 illegally in US in 5-day span",
-          "url": "https://abcnews.com/Politics/ice-arrests-10000-illegally-us-5-day-span/story?id=134407065",
-          "biasScore": 6.5,
-          "biasSignals": [
-            "'illegally' — right-leaning word choice",
-            "10,000 figure leads, enforcement framed positively"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "2026-07-02T16:04:47Z",
-          "clusterId": "ice-immigration-arrests"
-        },
-        {
-          "id": "nypost-ice-immigration-arrests-1",
-          "outletId": "nypost",
-          "outletName": "NY Post",
-          "headline": "Pennsylvania state trooper Michael Pahira killed by Haitian illegal immigrant truck driver in crash: report",
-          "url": "https://nypost.com/2026/07/04/us-news/pennsylvania-state-trooper-michael-pahira-killed-by-haitian-illegal-immigrant-truck-driver-michael-bon-report/",
-          "biasScore": 8.5,
-          "biasSignals": [
-            "'Haitian illegal immigrant' — charged identity framing",
-            "criminal-immigrant link emphasized, victim is trooper"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Sat, 04 Jul 2026 05:34:17 -0400",
-          "clusterId": "ice-immigration-arrests"
-        }
-      ]
-    },
-    {
-      "id": "trump-accounts-children-investment",
-      "topicLabel": "Trump children investment accounts launch",
-      "date": "2026-07-04",
-      "articles": [
-        {
-          "id": "guardian-trump-accounts-children-investment-0",
-          "outletId": "guardian",
-          "outletName": "The Guardian",
-          "headline": "‘Trump accounts’: Wall Street-backed investment funds for children to go live",
-          "url": "https://www.theguardian.com/us-news/2026/jul/04/trump-accounts-savings",
-          "biasScore": 3.5,
-          "biasSignals": [
-            "'Wall Street-backed' — implicit distrust framing",
-            "Guardian skeptical framing of financial product"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Sat, 04 Jul 2026 10:00:10 GMT",
-          "clusterId": "trump-accounts-children-investment"
-        },
-        {
-          "id": "marketwatch-trump-accounts-children-investment-1",
-          "outletId": "marketwatch",
-          "outletName": "MarketWatch",
-          "headline": "Opening a ‘Trump account’ for your children? Here is the risk you need to reckon with first.",
-          "url": "https://www.marketwatch.com/story/opening-a-trump-account-for-your-children-here-is-the-risk-you-need-to-recognize-first-fe206bc0?mod=mw_rss_topstories",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral consumer risk framing",
-            "financial advice angle, minimal partisan signals"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Fri, 03 Jul 2026 19:10:00 GMT",
-          "clusterId": "trump-accounts-children-investment"
-        }
-      ]
-    },
-    {
-      "id": "pope-leo-liberty-medal",
-      "topicLabel": "Pope Leo XIV receives Liberty Medal in US",
-      "date": "2026-07-04",
-      "articles": [
-        {
-          "id": "bostonglobe-pope-leo-liberty-medal-2",
-          "outletId": "bostonglobe",
-          "outletName": "Boston Globe",
-          "headline": "As Pope Leo faces traditionalists’ schism, a Minnesota church merges old customs with fidelity",
-          "url": "https://www.bostonglobe.com/2026/07/03/nation/pope-leo-faces-traditionalists-schism-minnesota-church-merges-old-customs-with-fidelity/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral framing of Catholic traditionalist schism",
-            "factual community reporting"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Fri, 03 Jul 2026 21:40:05 +0000",
-          "clusterId": "pope-leo-liberty-medal"
-        },
-        {
-          "id": "washexaminer-pope-leo-liberty-medal-1",
-          "outletId": "washexaminer",
-          "outletName": "Washington Examiner",
-          "headline": "Pope Leo XIV calls on US to recommit to unity while accepting Liberty Medal",
-          "url": "https://www.washingtonexaminer.com/news/world/4635973/pope-leo-xiv-liberty-medal-unity/",
-          "biasScore": 5.5,
-          "biasSignals": [
-            "neutral 'calls on US to recommit' framing",
-            "balanced reporting of pope's message"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Sat, 04 Jul 2026 02:49:08 +0000",
-          "clusterId": "pope-leo-liberty-medal"
-        },
-        {
-          "id": "dailycaller-pope-leo-liberty-medal-0",
-          "outletId": "dailycaller",
-          "outletName": "Daily Caller",
-          "headline": "First US-Born Pope Champions America’s Founding During Award By National Constitution Center",
-          "url": "https://dailycaller.com/2026/07/03/national-constitution-center-awards-pope-leo-xiv-liberty-medal-philadelphia/",
-          "biasScore": 6.5,
-          "biasSignals": [
-            "positive framing of pope's American identity",
-            "conservative outlet emphasizes founding values link"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Fri, 03 Jul 2026 19:12:23 +0000",
-          "clusterId": "pope-leo-liberty-medal"
-        }
-      ]
-    },
-    {
-      "id": "jack-smith-interview",
-      "topicLabel": "Jack Smith speaks out on rule of law attack",
-      "date": "2026-07-04",
-      "articles": [
-        {
-          "id": "theatlantic-jack-smith-interview-1",
-          "outletId": "theatlantic",
-          "outletName": "The Atlantic",
-          "headline": "Trump’s Remarkable Losing Streak",
-          "url": "https://www.theatlantic.com/politics/2026/07/trump-election-law-strategies/687786/?utm_source=feed",
-          "biasScore": 2.5,
-          "biasSignals": [
-            "'Remarkable Losing Streak' — critical framing of Trump",
-            "Atlantic sympathetic to Smith/anti-Trump narrative"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "Sat, 04 Jul 2026 06:00:00 -0400",
-          "clusterId": "jack-smith-interview"
-        },
-        {
-          "id": "msnbc-jack-smith-interview-0",
-          "outletId": "msnbc",
-          "outletName": "MSNBC",
-          "headline": "Jack Smith says rule of law under unprecedented attack in first TV interview since resignation",
-          "url": "https://www.ms.now/news/jack-smith-doj-trump-defends-investigations",
-          "biasScore": 2.8,
-          "biasSignals": [
-            "'unprecedented attack' — Smith's charge amplified approvingly",
-            "MSNBC platform gives Smith credibility without pushback"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "2026-07-02T21:31:42Z",
-          "clusterId": "jack-smith-interview"
-        }
-      ]
-    },
-    {
-      "id": "transgender-athlete-ban",
-      "topicLabel": "Trans athlete ban after Supreme Court ruling",
-      "date": "2026-07-04",
-      "articles": [
-        {
-          "id": "thehill-transgender-athlete-ban-2",
-          "outletId": "thehill",
-          "outletName": "The Hill",
-          "headline": "Transgender rights advocates’ hope in Gorsuch fades after athlete ban ruling",
-          "url": "https://thehill.com/regulation/court-battles/5952123-transgender-rights-neil-gorsuch-supreme-court/",
-          "biasScore": 3,
-          "biasSignals": [
-            "trans advocates' 'hope fades' — sympathetic victim framing",
-            "Gorsuch framed as disappointing progressive hopes"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "2026-07-03T10:00:00Z",
-          "clusterId": "transgender-athlete-ban"
-        },
-        {
-          "id": "washpost-transgender-athlete-ban-0",
-          "outletId": "washpost",
-          "outletName": "Washington Post",
-          "headline": "Conservatives seek blue-state bans on trans athletes in wake of Supreme Court win",
-          "url": "https://www.washingtonpost.com/education/2026/07/03/after-win-trans-athletes-conservative-group-tells-blue-states-youre-next/",
-          "biasScore": 3.8,
-          "biasSignals": [
-            "'seek bans' — framing conservatives as aggressors",
-            "trans rights advocates sourced sympathetically"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "2026-07-03T10:00:01Z",
-          "clusterId": "transgender-athlete-ban"
-        },
-        {
-          "id": "foxnews-transgender-athlete-ban-1",
-          "outletId": "foxnews",
-          "outletName": "Fox News",
-          "headline": "WATCH: Controversial SCOTUS decision strikes a divide among lawmakers",
-          "url": "https://www.foxnews.com/politics/watch-supreme-court-birthright-citizenship-decision-strikes-divide-lawmakers",
-          "biasScore": 5.5,
-          "biasSignals": [
-            "'controversial SCOTUS decision' — qualifier signals left lean",
-            "divide framing presents both sides"
-          ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
-          "pubDate": "2026-07-03T08:52:18.8408536Z",
-          "clusterId": "transgender-athlete-ban"
+          "pubDate": "Sat, 04 Jul 2026 15:51:03 GMT",
+          "clusterId": "world-cup-2026"
         }
       ]
     },
     {
       "id": "deepseek-china-ai",
-      "topicLabel": "China's DeepSeek AI model shakes tech industry",
+      "topicLabel": "China's DeepSeek AI model and Silicon Valley reaction",
       "date": "2026-07-04",
       "articles": [
         {
@@ -2147,10 +2052,13 @@
           "biasScore": 5,
           "biasSignals": [
             "neutral explainer framing",
-            "no ideological signals"
+            "factual technology coverage"
           ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "what to know",
+            "neutral"
+          ],
           "pubDate": "Mon, 27 Jan 2025 13:17:00 -0500",
           "clusterId": "deepseek-china-ai"
         },
@@ -2160,102 +2068,221 @@
           "outletName": "Wall Street Journal",
           "headline": "Silicon Valley Is Raving About a Made-in-China AI Model",
           "url": "https://www.wsj.com/articles/china-ai-deepseek-chatbot-6ac4ad33?mod=rss_Technology",
-          "biasScore": 5.2,
+          "biasScore": 5,
           "biasSignals": [
-            "'raving' — slightly sensational but neutral overall",
-            "factual tech industry reporting"
+            "'Raving' — positive but neutral tech framing",
+            "no political ideological signal"
           ],
-          "biasScoreGrok": null,
-          "biasSignalsGrok": null,
+          "biasScoreGrok": 4.5,
+          "biasSignalsGrok": [
+            "raving about made-in-China",
+            "neutral"
+          ],
           "pubDate": "Mon, 27 Jan 2025 09:36:00 -0500",
           "clusterId": "deepseek-china-ai"
+        }
+      ]
+    },
+    {
+      "id": "trump-accounts-children",
+      "topicLabel": "Trump investment accounts for children launch",
+      "date": "2026-07-04",
+      "articles": [
+        {
+          "id": "marketwatch-trump-accounts-children-1",
+          "outletId": "marketwatch",
+          "outletName": "MarketWatch",
+          "headline": "Opening a ‘Trump account’ for your children? Here is the risk you need to reckon with first.",
+          "url": "https://www.marketwatch.com/story/opening-a-trump-account-for-your-children-here-is-the-risk-you-need-to-recognize-first-fe206bc0?mod=mw_rss_topstories",
+          "biasScore": 3,
+          "biasSignals": [
+            "'risk you need to reckon with' — warning framing",
+            "skeptical of Trump accounts"
+          ],
+          "biasScoreGrok": 5.5,
+          "biasSignalsGrok": [
+            "risk you need reckon",
+            "neutral"
+          ],
+          "pubDate": "Fri, 03 Jul 2026 19:10:00 GMT",
+          "clusterId": "trump-accounts-children"
+        },
+        {
+          "id": "guardian-trump-accounts-children-0",
+          "outletId": "guardian",
+          "outletName": "The Guardian",
+          "headline": "‘Trump accounts’: Wall Street-backed investment funds for children to go live",
+          "url": "https://www.theguardian.com/us-news/2026/jul/04/trump-accounts-savings",
+          "biasScore": 3.5,
+          "biasSignals": [
+            "'Wall Street-backed' implies corporate capture",
+            "neutral-to-skeptical framing"
+          ],
+          "biasScoreGrok": 3,
+          "biasSignalsGrok": [
+            "Wall Street-backed",
+            "left critical"
+          ],
+          "pubDate": "Sat, 04 Jul 2026 10:00:10 GMT",
+          "clusterId": "trump-accounts-children"
+        }
+      ]
+    },
+    {
+      "id": "sce-ice-immigration",
+      "topicLabel": "ICE arrests and immigration enforcement actions",
+      "date": "2026-07-04",
+      "articles": [
+        {
+          "id": "cbsnews-sce-ice-immigration-1",
+          "outletId": "cbsnews",
+          "outletName": "CBS News",
+          "headline": "U.S. charges 3 for alleged smuggling conspiracy involving unaccompanied minors",
+          "url": "https://www.cbsnews.com/news/unaccompanied-minors-smuggling-conspiracy-charges/",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral 'charges' verb",
+            "factual smuggling framing"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "smuggling conspiracy",
+            "neutral"
+          ],
+          "pubDate": "2026-06-11T18:27:47+00:00",
+          "clusterId": "sce-ice-immigration"
+        },
+        {
+          "id": "abc-sce-ice-immigration-0",
+          "outletId": "abc",
+          "outletName": "ABC News",
+          "headline": "ICE arrests 10,000 illegally in US in 5-day span",
+          "url": "https://abcnews.com/Politics/ice-arrests-10000-illegally-us-5-day-span/story?id=134407065",
+          "biasScore": 7.5,
+          "biasSignals": [
+            "'illegally in US' — right-framed descriptor",
+            "'arrests' presented as achievement, no critique"
+          ],
+          "biasScoreGrok": 7.5,
+          "biasSignalsGrok": [
+            "illegally in US",
+            "right language"
+          ],
+          "pubDate": "2026-07-02T16:04:47Z",
+          "clusterId": "sce-ice-immigration"
+        }
+      ]
+    },
+    {
+      "id": "jack-smith-rule-of-law",
+      "topicLabel": "Jack Smith's first TV interview after resignation",
+      "date": "2026-07-04",
+      "articles": [
+        {
+          "id": "msnbc-jack-smith-rule-of-law-0",
+          "outletId": "msnbc",
+          "outletName": "MSNBC",
+          "headline": "Jack Smith says rule of law under unprecedented attack in first TV interview since resignation",
+          "url": "https://www.ms.now/news/jack-smith-doj-trump-defends-investigations",
+          "biasScore": 2.5,
+          "biasSignals": [
+            "'unprecedented attack' on rule of law — sympathetic framing",
+            "Smith presented as defender of democracy"
+          ],
+          "biasScoreGrok": 2,
+          "biasSignalsGrok": [
+            "rule of law attack",
+            "anti-Trump"
+          ],
+          "pubDate": "2026-07-02T21:31:42Z",
+          "clusterId": "jack-smith-rule-of-law"
+        },
+        {
+          "id": "theatlantic-jack-smith-rule-of-law-1",
+          "outletId": "theatlantic",
+          "outletName": "The Atlantic",
+          "headline": "Trump Is Getting Tired of Losing Election Cases",
+          "url": "https://www.theatlantic.com/politics/2026/07/trump-election-law-strategies/687786/?utm_source=feed",
+          "biasScore": 3,
+          "biasSignals": [
+            "'tired of losing' — dismissive of Trump legally",
+            "progressive framing of election cases"
+          ],
+          "biasScoreGrok": 3.5,
+          "biasSignalsGrok": [
+            "tired of losing",
+            "critical"
+          ],
+          "pubDate": "Sat, 04 Jul 2026 06:00:00 -0400",
+          "clusterId": "jack-smith-rule-of-law"
+        }
+      ]
+    },
+    {
+      "id": "grooming-gangs-deportation",
+      "topicLabel": "UK grooming gang leader deportation talks",
+      "date": "2026-07-04",
+      "articles": [
+        {
+          "id": "cnn-grooming-gangs-deportation-1",
+          "outletId": "cnn",
+          "outletName": "CNN",
+          "headline": "Police uncover international networks of men using online chat groups to drug and rape women",
+          "url": "https://www.cnn.com/2026/07/03/europe/online-drug-rape-investigations-intl-hnk",
+          "biasScore": 4,
+          "biasSignals": [
+            "neutral 'uncover' verb for investigation",
+            "factual international crime framing"
+          ],
+          "biasScoreGrok": 4.5,
+          "biasSignalsGrok": [
+            "international networks",
+            "neutral"
+          ],
+          "pubDate": "2026-07-03T05:54:30Z",
+          "clusterId": "grooming-gangs-deportation"
+        },
+        {
+          "id": "bbc-grooming-gangs-deportation-0",
+          "outletId": "bbc",
+          "outletName": "BBC",
+          "headline": "UK and Pakistan in talks about deporting grooming gang leader",
+          "url": "https://www.bbc.co.uk/news/articles/c8e2j0z7xgxo",
+          "biasScore": 5.5,
+          "biasSignals": [
+            "neutral 'talks about deporting' framing",
+            "factual diplomatic reporting"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "deporting grooming leader",
+            "neutral"
+          ],
+          "pubDate": "2026-07-03T15:37:21.0546747Z",
+          "clusterId": "grooming-gangs-deportation"
         }
       ]
     }
   ],
   "outlets": [
     {
-      "outletId": "theatlantic",
-      "outletName": "The Atlantic",
-      "abbreviation": "Atlntc",
-      "currentScore": 2.5,
-      "articleCount": 2,
-      "expectedRange": [
-        2.5,
-        4
-      ]
-    },
-    {
-      "outletId": "vox",
-      "outletName": "Vox",
-      "abbreviation": "Vox",
-      "currentScore": 3,
-      "articleCount": 4,
-      "expectedRange": [
-        2.5,
-        4
-      ]
-    },
-    {
       "outletId": "huffpost",
       "outletName": "HuffPost",
       "abbreviation": "HPost",
-      "currentScore": 3.33,
-      "articleCount": 3,
+      "currentScore": 2,
+      "currentScoreGrok": 1.95,
+      "articleCount": 4,
       "expectedRange": [
         2,
         3.5
       ]
     },
     {
-      "outletId": "metro",
-      "outletName": "Metro",
-      "abbreviation": "Metro",
-      "currentScore": 3.5,
-      "articleCount": 1,
-      "expectedRange": [
-        3,
-        5
-      ]
-    },
-    {
-      "outletId": "nytimes",
-      "outletName": "NY Times",
-      "abbreviation": "NYT",
-      "currentScore": 3.75,
-      "articleCount": 2,
-      "expectedRange": [
-        3,
-        4.5
-      ]
-    },
-    {
-      "outletId": "guardian",
-      "outletName": "The Guardian",
-      "abbreviation": "Guard",
-      "currentScore": 3.84,
-      "articleCount": 5,
-      "expectedRange": [
-        2.5,
-        4
-      ]
-    },
-    {
-      "outletId": "npr",
-      "outletName": "NPR",
-      "abbreviation": "NPR",
-      "currentScore": 3.89,
-      "articleCount": 7,
-      "expectedRange": [
-        3.5,
-        4.5
-      ]
-    },
-    {
       "outletId": "msnbc",
       "outletName": "MSNBC",
       "abbreviation": "MSNBC",
-      "currentScore": 3.95,
+      "currentScore": 2.63,
+      "currentScoreGrok": 2.4,
       "articleCount": 4,
       "expectedRange": [
         1.5,
@@ -2263,143 +2290,96 @@
       ]
     },
     {
-      "outletId": "washpost",
-      "outletName": "Washington Post",
-      "abbreviation": "WPost",
-      "currentScore": 4.2,
-      "articleCount": 3,
+      "outletId": "theatlantic",
+      "outletName": "The Atlantic",
+      "abbreviation": "Atlntc",
+      "currentScore": 2.75,
+      "currentScoreGrok": 2.75,
+      "articleCount": 2,
       "expectedRange": [
-        2.8,
-        4.2
-      ]
-    },
-    {
-      "outletId": "nbc",
-      "outletName": "NBC News",
-      "abbreviation": "NBC",
-      "currentScore": 4.43,
-      "articleCount": 3,
-      "expectedRange": [
-        3,
-        4.5
-      ]
-    },
-    {
-      "outletId": "cnbc",
-      "outletName": "CNBC",
-      "abbreviation": "CNBC",
-      "currentScore": 4.5,
-      "articleCount": 1,
-      "expectedRange": [
-        4.5,
-        6
+        2.5,
+        4
       ]
     },
     {
       "outletId": "marketwatch",
       "outletName": "MarketWatch",
       "abbreviation": "MW",
-      "currentScore": 4.5,
-      "articleCount": 2,
+      "currentScore": 3,
+      "currentScoreGrok": 5.5,
+      "articleCount": 1,
       "expectedRange": [
         4.5,
         6
       ]
     },
     {
-      "outletId": "axios",
-      "outletName": "Axios",
-      "abbreviation": "Axios",
-      "currentScore": 4.63,
-      "articleCount": 6,
+      "outletId": "vox",
+      "outletName": "Vox",
+      "abbreviation": "Vox",
+      "currentScore": 3.17,
+      "currentScoreGrok": 2.43,
+      "articleCount": 3,
       "expectedRange": [
-        5.5,
-        6.5
-      ]
-    },
-    {
-      "outletId": "aljazeera",
-      "outletName": "Al Jazeera",
-      "abbreviation": "AJ",
-      "currentScore": 4.7,
-      "articleCount": 4,
-      "expectedRange": [
-        3.5,
-        5
-      ]
-    },
-    {
-      "outletId": "thehill",
-      "outletName": "The Hill",
-      "abbreviation": "Hill",
-      "currentScore": 4.7,
-      "articleCount": 6,
-      "expectedRange": [
-        5.5,
-        7
-      ]
-    },
-    {
-      "outletId": "ap",
-      "outletName": "Associated Press",
-      "abbreviation": "AP",
-      "currentScore": 4.8,
-      "articleCount": 4,
-      "expectedRange": [
-        4.5,
-        5.5
+        2.5,
+        4
       ]
     },
     {
       "outletId": "latimes",
       "outletName": "LA Times",
       "abbreviation": "LAT",
-      "currentScore": 4.83,
-      "articleCount": 3,
-      "expectedRange": [
-        2.5,
-        4
-      ]
-    },
-    {
-      "outletId": "bbc",
-      "outletName": "BBC",
-      "abbreviation": "BBC",
-      "currentScore": 4.9,
-      "articleCount": 4,
-      "expectedRange": [
-        4,
-        5.5
-      ]
-    },
-    {
-      "outletId": "cnn",
-      "outletName": "CNN",
-      "abbreviation": "CNN",
-      "currentScore": 4.93,
-      "articleCount": 3,
-      "expectedRange": [
-        2.5,
-        4
-      ]
-    },
-    {
-      "outletId": "skynews",
-      "outletName": "Sky News",
-      "abbreviation": "Sky",
-      "currentScore": 5,
+      "currentScore": 3.5,
+      "currentScoreGrok": 4,
       "articleCount": 1,
       "expectedRange": [
-        4,
-        5.5
+        2.5,
+        4
+      ]
+    },
+    {
+      "outletId": "guardian",
+      "outletName": "The Guardian",
+      "abbreviation": "Guard",
+      "currentScore": 3.6,
+      "currentScoreGrok": 2.9,
+      "articleCount": 5,
+      "expectedRange": [
+        2.5,
+        4
+      ]
+    },
+    {
+      "outletId": "nytimes",
+      "outletName": "NY Times",
+      "abbreviation": "NYT",
+      "currentScore": 3.75,
+      "currentScoreGrok": 2.5,
+      "articleCount": 2,
+      "expectedRange": [
+        3,
+        4.5
+      ]
+    },
+    {
+      "outletId": "npr",
+      "outletName": "NPR",
+      "abbreviation": "NPR",
+      "currentScore": 3.8,
+      "currentScoreGrok": 3.34,
+      "articleCount": 5,
+      "expectedRange": [
+        3.5,
+        4.5
       ]
     },
     {
       "outletId": "bostonglobe",
       "outletName": "Boston Globe",
       "abbreviation": "Globe",
-      "currentScore": 5,
-      "articleCount": 4,
+      "currentScore": 3.8,
+      "currentScoreGrok": 3.94,
+      "articleCount": 5,
       "expectedRange": [
         2.5,
         4
@@ -2409,18 +2389,140 @@
       "outletId": "independent",
       "outletName": "The Independent",
       "abbreviation": "Indep",
-      "currentScore": 5,
-      "articleCount": 1,
+      "currentScore": 3.83,
+      "currentScoreGrok": 3.83,
+      "articleCount": 3,
       "expectedRange": [
         3,
         4.5
       ]
     },
     {
+      "outletId": "aljazeera",
+      "outletName": "Al Jazeera",
+      "abbreviation": "AJ",
+      "currentScore": 4.25,
+      "currentScoreGrok": 3.78,
+      "articleCount": 4,
+      "expectedRange": [
+        3.5,
+        5
+      ]
+    },
+    {
+      "outletId": "cnn",
+      "outletName": "CNN",
+      "abbreviation": "CNN",
+      "currentScore": 4.25,
+      "currentScoreGrok": 4.5,
+      "articleCount": 2,
+      "expectedRange": [
+        2.5,
+        4
+      ]
+    },
+    {
+      "outletId": "axios",
+      "outletName": "Axios",
+      "abbreviation": "Axios",
+      "currentScore": 4.29,
+      "currentScoreGrok": 4.21,
+      "articleCount": 7,
+      "expectedRange": [
+        5.5,
+        6.5
+      ]
+    },
+    {
+      "outletId": "thehill",
+      "outletName": "The Hill",
+      "abbreviation": "Hill",
+      "currentScore": 4.4,
+      "currentScoreGrok": 4.7,
+      "articleCount": 5,
+      "expectedRange": [
+        5.5,
+        7
+      ]
+    },
+    {
+      "outletId": "skynews",
+      "outletName": "Sky News",
+      "abbreviation": "Sky",
+      "currentScore": 4.5,
+      "currentScoreGrok": 5.65,
+      "articleCount": 2,
+      "expectedRange": [
+        4,
+        5.5
+      ]
+    },
+    {
+      "outletId": "timesofisrael",
+      "outletName": "Times of Israel",
+      "abbreviation": "TOI",
+      "currentScore": 4.6,
+      "currentScoreGrok": 5.3,
+      "articleCount": 3,
+      "expectedRange": [
+        5.5,
+        7.5
+      ]
+    },
+    {
       "outletId": "cbsnews",
       "outletName": "CBS News",
       "abbreviation": "CBS",
+      "currentScore": 4.7,
+      "currentScoreGrok": 4.6,
+      "articleCount": 5,
+      "expectedRange": [
+        3,
+        4.5
+      ]
+    },
+    {
+      "outletId": "cnbc",
+      "outletName": "CNBC",
+      "abbreviation": "CNBC",
+      "currentScore": 4.75,
+      "currentScoreGrok": 5.05,
+      "articleCount": 2,
+      "expectedRange": [
+        4.5,
+        6
+      ]
+    },
+    {
+      "outletId": "ap",
+      "outletName": "Associated Press",
+      "abbreviation": "AP",
+      "currentScore": 4.75,
+      "currentScoreGrok": 4.96,
+      "articleCount": 8,
+      "expectedRange": [
+        4.5,
+        5.5
+      ]
+    },
+    {
+      "outletId": "washpost",
+      "outletName": "Washington Post",
+      "abbreviation": "WPost",
       "currentScore": 5,
+      "currentScoreGrok": 4,
+      "articleCount": 6,
+      "expectedRange": [
+        2.8,
+        4.2
+      ]
+    },
+    {
+      "outletId": "nbc",
+      "outletName": "NBC News",
+      "abbreviation": "NBC",
+      "currentScore": 5,
+      "currentScoreGrok": 4.63,
       "articleCount": 4,
       "expectedRange": [
         3,
@@ -2428,10 +2530,35 @@
       ]
     },
     {
+      "outletId": "dailymail",
+      "outletName": "Daily Mail",
+      "abbreviation": "DM",
+      "currentScore": 5,
+      "currentScoreGrok": 5.9,
+      "articleCount": 2,
+      "expectedRange": [
+        6.5,
+        8.5
+      ]
+    },
+    {
+      "outletId": "metro",
+      "outletName": "Metro",
+      "abbreviation": "Metro",
+      "currentScore": 5,
+      "currentScoreGrok": 5,
+      "articleCount": 1,
+      "expectedRange": [
+        3,
+        5
+      ]
+    },
+    {
       "outletId": "telegraph",
       "outletName": "The Telegraph",
       "abbreviation": "Tele",
       "currentScore": 5,
+      "currentScoreGrok": 4.8,
       "articleCount": 1,
       "expectedRange": [
         6,
@@ -2439,21 +2566,11 @@
       ]
     },
     {
-      "outletId": "reason",
-      "outletName": "Reason",
-      "abbreviation": "Reason",
-      "currentScore": 5,
-      "articleCount": 2,
-      "expectedRange": [
-        4.5,
-        6.5
-      ]
-    },
-    {
       "outletId": "wsj",
       "outletName": "Wall Street Journal",
       "abbreviation": "WSJ",
-      "currentScore": 5.1,
+      "currentScore": 5,
+      "currentScoreGrok": 4.75,
       "articleCount": 2,
       "expectedRange": [
         5.5,
@@ -2465,6 +2582,7 @@
       "outletName": "ABC News",
       "abbreviation": "ABC",
       "currentScore": 5.13,
+      "currentScoreGrok": 5.38,
       "articleCount": 4,
       "expectedRange": [
         3,
@@ -2472,116 +2590,90 @@
       ]
     },
     {
-      "outletId": "dailymail",
-      "outletName": "Daily Mail",
-      "abbreviation": "DM",
-      "currentScore": 5.2,
-      "articleCount": 2,
+      "outletId": "bbc",
+      "outletName": "BBC",
+      "abbreviation": "BBC",
+      "currentScore": 5.5,
+      "currentScoreGrok": 5,
+      "articleCount": 1,
       "expectedRange": [
-        6.5,
-        8.5
+        4,
+        5.5
       ]
     },
     {
       "outletId": "economist",
       "outletName": "The Economist",
       "abbreviation": "Econ",
-      "currentScore": 5.38,
-      "articleCount": 4,
+      "currentScore": 5.75,
+      "currentScoreGrok": 5,
+      "articleCount": 2,
       "expectedRange": [
         4.5,
         6
       ]
     },
     {
-      "outletId": "timesofisrael",
-      "outletName": "Times of Israel",
-      "abbreviation": "TOI",
-      "currentScore": 5.5,
-      "articleCount": 3,
-      "expectedRange": [
-        5.5,
-        7.5
-      ]
-    },
-    {
       "outletId": "washexaminer",
       "outletName": "Washington Examiner",
       "abbreviation": "WExam",
-      "currentScore": 5.63,
-      "articleCount": 8,
-      "expectedRange": [
-        7,
-        8.5
-      ]
-    },
-    {
-      "outletId": "nationalreview",
-      "outletName": "National Review",
-      "abbreviation": "NR",
-      "currentScore": 6.5,
+      "currentScore": 5.88,
+      "currentScoreGrok": 7.5,
       "articleCount": 4,
       "expectedRange": [
         7,
         8.5
-      ]
-    },
-    {
-      "outletId": "dailycaller",
-      "outletName": "Daily Caller",
-      "abbreviation": "DC",
-      "currentScore": 6.58,
-      "articleCount": 4,
-      "expectedRange": [
-        7.5,
-        9
       ]
     },
     {
       "outletId": "foxnews",
       "outletName": "Fox News",
       "abbreviation": "FOX",
-      "currentScore": 6.68,
-      "articleCount": 5,
+      "currentScore": 6,
+      "currentScoreGrok": 6.75,
+      "articleCount": 2,
       "expectedRange": [
         7,
         8.5
       ]
     },
     {
-      "outletId": "thefederalist",
-      "outletName": "The Federalist",
-      "abbreviation": "Fed",
-      "currentScore": 7.67,
-      "articleCount": 3,
+      "outletId": "nypost",
+      "outletName": "NY Post",
+      "abbreviation": "NYPost",
+      "currentScore": 6.5,
+      "currentScoreGrok": 7.35,
+      "articleCount": 2,
       "expectedRange": [
-        7.5,
-        9
+        6.5,
+        8
       ]
     },
     {
       "outletId": "breitbart",
       "outletName": "Breitbart",
       "abbreviation": "BB",
-      "currentScore": 8.25,
-      "articleCount": 4,
+      "currentScore": 7.17,
+      "currentScoreGrok": 7.92,
+      "articleCount": 6,
       "expectedRange": [
         8.5,
         9.8
       ]
     },
     {
-      "outletId": "nypost",
-      "outletName": "NY Post",
-      "abbreviation": "NYPost",
-      "currentScore": 8.43,
-      "articleCount": 3,
+      "outletId": "thefederalist",
+      "outletName": "The Federalist",
+      "abbreviation": "Fed",
+      "currentScore": 7.75,
+      "currentScoreGrok": 8.15,
+      "articleCount": 2,
       "expectedRange": [
-        6.5,
-        8
+        7.5,
+        9
       ]
     }
   ],
-  "articleCount": 126,
-  "storyCount": 22
+  "articleCount": 112,
+  "storyCount": 19
 }
