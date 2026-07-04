@@ -1,10 +1,11 @@
 /**
  * Optional daily social post to X (Twitter).
  *
- * After scoring, pick the single most share-worthy result of the day and post
- * it. Preference order:
- *   1. The headline where Claude and Grok disagree MOST (the "Model Wars" hook).
- *   2. Failing that (no Grok scores), the single most slanted headline.
+ * After scoring, pick the day's most share-worthy STORY and post it:
+ *   1. The story (cluster) with the widest bias spread across its articles —
+ *      i.e. the biggest gap between how the most-left and most-right outlets
+ *      framed the SAME event. Ties broken by the most outlets in the cluster.
+ *   2. Failing that (no multi-outlet clusters), the single most slanted headline.
  *
  * Gated on X_* env vars — if any are missing it logs and skips, never failing
  * the pipeline. Requires an X developer app with Read+Write permission and
@@ -12,8 +13,10 @@
  */
 
 const SITE_URL = 'https://www.spindetector.com'
+// Cap raw string length at 280. X weights a link as only 23 chars but our URL
+// is longer, so capping the raw length keeps the X-weighted length safely under
+// the 280 limit with margin to spare.
 const MAX_TWEET = 280
-const TCO_LEN = 23 // X counts any link as 23 chars
 
 const X_ENV = ['X_API_KEY', 'X_API_SECRET', 'X_ACCESS_TOKEN', 'X_ACCESS_SECRET']
 
@@ -37,44 +40,61 @@ function truncate(str, max) {
   return str.slice(0, max - 1).trimEnd() + '…'
 }
 
-/** Choose the day's most interesting article and compose tweet text. */
+/** Choose the day's highest-spread story and compose tweet text. */
 function composeTweet(articles) {
-  const withGrok = articles.filter(
-    (a) => typeof a.biasScore === 'number' && typeof a.biasScoreGrok === 'number'
-  )
+  // Group scored articles into their story clusters.
+  const byCluster = new Map()
+  for (const a of articles) {
+    if (typeof a.biasScore !== 'number' || !a.clusterId) continue
+    if (!byCluster.has(a.clusterId)) byCluster.set(a.clusterId, [])
+    byCluster.get(a.clusterId).push(a)
+  }
 
-  let text = null
-
-  if (withGrok.length > 0) {
-    // Biggest Claude vs Grok divergence
-    const top = withGrok
-      .map((a) => ({ a, gap: Math.abs(a.biasScore - a.biasScoreGrok) }))
-      .sort((x, y) => y.gap - x.gap)[0]
-    if (top.gap >= 1.0) {
-      const a = top.a
-      const outlet = (a.outletName || a.outletId || '').toUpperCase()
-      const scores = `Claude ${fmt(a.biasScore)} vs Grok ${fmt(a.biasScoreGrok)}`
-      const fixed = `🤖 Claude & Grok disagree most today on ${outlet}:\n\n"__H__"\n\n${scores}\n\n${SITE_URL}\n#MediaBias`
-      const room = MAX_TWEET - (fixed.length - '__H__'.length - SITE_URL.length + TCO_LEN)
-      text = fixed.replace('__H__', truncate(a.headline || '', Math.max(20, room)))
+  // For each multi-article cluster, find its bias spread (max − min score) and
+  // the outlets at each extreme.
+  const candidates = []
+  for (const arts of byCluster.values()) {
+    if (arts.length < 2) continue
+    let lo = arts[0]
+    let hi = arts[0]
+    for (const a of arts) {
+      if (a.biasScore < lo.biasScore) lo = a
+      if (a.biasScore > hi.biasScore) hi = a
     }
+    candidates.push({
+      count: arts.length,
+      spread: hi.biasScore - lo.biasScore,
+      lo,
+      hi,
+      topicLabel: (arts.find((a) => a.topicLabel) || {}).topicLabel || '',
+    })
   }
 
-  if (!text) {
-    // Fallback: single most slanted headline
-    const top = articles
-      .filter((a) => typeof a.biasScore === 'number')
-      .map((a) => ({ a, dist: Math.abs(a.biasScore - 5) }))
-      .sort((x, y) => y.dist - x.dist)[0]
-    if (!top) return null
-    const a = top.a
-    const outlet = (a.outletName || a.outletId || '').toUpperCase()
-    const fixed = `Today's most slanted headline — ${outlet} (${label(a.biasScore)}, ${fmt(a.biasScore)} on our −5/+5 scale):\n\n"__H__"\n\n${SITE_URL}\n#MediaBias`
-    const room = MAX_TWEET - (fixed.length - '__H__'.length - SITE_URL.length + TCO_LEN)
-    text = fixed.replace('__H__', truncate(a.headline || '', Math.max(20, room)))
+  // Widest spread wins; ties broken by most outlets in the cluster.
+  candidates.sort((x, y) => y.spread - x.spread || y.count - x.count)
+  const top = candidates[0]
+
+  if (top && top.spread >= 1.0) {
+    const loOutlet = (top.lo.outletName || top.lo.outletId || '').toUpperCase()
+    const hiOutlet = (top.hi.outletName || top.hi.outletId || '').toUpperCase()
+    const spreadStr = top.spread.toFixed(1)
+    const scores = `${loOutlet} ${fmt(top.lo.biasScore)} ↔ ${hiOutlet} ${fmt(top.hi.biasScore)} (${spreadStr}-pt gap)`
+    const fixed = `📊 Widest spin gap today — ${top.count} outlets on the same story:\n\n"__T__"\n\n${scores}\n\n${SITE_URL}\n#MediaBias`
+    const room = MAX_TWEET - (fixed.length - '__T__'.length)
+    return fixed.replace('__T__', truncate(top.topicLabel || 'today’s top story', Math.max(20, room)))
   }
 
-  return text
+  // Fallback: single most slanted headline (no multi-outlet clusters).
+  const single = articles
+    .filter((a) => typeof a.biasScore === 'number')
+    .map((a) => ({ a, dist: Math.abs(a.biasScore - 5) }))
+    .sort((x, y) => y.dist - x.dist)[0]
+  if (!single) return null
+  const a = single.a
+  const outlet = (a.outletName || a.outletId || '').toUpperCase()
+  const fixed = `Today's most slanted headline — ${outlet} (${label(a.biasScore)}, ${fmt(a.biasScore)} on our −5/+5 scale):\n\n"__H__"\n\n${SITE_URL}\n#MediaBias`
+  const room = MAX_TWEET - (fixed.length - '__H__'.length)
+  return fixed.replace('__H__', truncate(a.headline || '', Math.max(20, room)))
 }
 
 async function postDailyTweet(articles) {
