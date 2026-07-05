@@ -365,6 +365,19 @@ function StoryCard({ cluster }: { cluster: StoryCluster }) {
 
 // ─── Battleground View ────────────────────────────────────────────────────────
 
+// Bias spread across a cluster's articles (max − min score). Larger = outlets
+// framed the same story more differently.
+function clusterSpread(cluster: StoryCluster): number {
+  if (cluster.articles.length < 2) return 0
+  let lo = cluster.articles[0].biasScore
+  let hi = cluster.articles[0].biasScore
+  for (const a of cluster.articles) {
+    if (a.biasScore < lo) lo = a.biasScore
+    if (a.biasScore > hi) hi = a.biasScore
+  }
+  return hi - lo
+}
+
 function BattlegroundView({ stories }: { stories: StoryCluster[] }) {
   if (stories.length === 0) {
     return (
@@ -375,9 +388,14 @@ function BattlegroundView({ stories }: { stories: StoryCluster[] }) {
     )
   }
 
+  // Widest discrepancy first; ties broken by the larger cluster (more outlets).
+  const sorted = [...stories].sort(
+    (a, b) => clusterSpread(b) - clusterSpread(a) || b.articles.length - a.articles.length
+  )
+
   return (
     <div className="space-y-4">
-      {stories.map((cluster) => (
+      {sorted.map((cluster) => (
         <StoryCard key={cluster.id} cluster={cluster} />
       ))}
     </div>
