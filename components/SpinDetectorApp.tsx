@@ -33,6 +33,26 @@ function getBiasLabel(score: number): string {
   return 'Far Right'
 }
 
+// Compact X-icon share link, used inline in dense rows (e.g. Bias Board).
+function ShareIcon({ url, text }: { url: string; text: string }) {
+  const href = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`
+  return (
+    <a
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Share on X"
+      title="Share on X"
+      className="text-slate-600 hover:text-slate-200 transition-colors flex-shrink-0"
+      onClick={(e) => e.stopPropagation()}
+    >
+      <svg viewBox="0 0 24 24" width="12" height="12" fill="currentColor" aria-hidden="true">
+        <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+      </svg>
+    </a>
+  )
+}
+
 // Article URLs come from external RSS feeds — only allow http/https through
 function safeUrl(url: string): string {
   try {
@@ -574,6 +594,8 @@ function BiasBoardView({ outlets, hasGrokData }: { outlets: OutletScore[]; hasGr
             const activeScore = sortModel === 'grok' && outlet.currentScoreGrok !== undefined
               ? outlet.currentScoreGrok
               : outlet.currentScore
+            const outletUrl = `https://www.spindetector.com/outlets/${outlet.outletId}`
+            const outletShareText = `Is ${outlet.outletName} biased? It scores ${fmt(outlet.currentScore)} (${getBiasLabel(outlet.currentScore)}) on Spin Detector's AI media-bias tracker. #MediaBias`
             return (
               <div key={outlet.outletId} className="hover:bg-slate-800/30 transition-colors">
 
@@ -581,7 +603,10 @@ function BiasBoardView({ outlets, hasGrokData }: { outlets: OutletScore[]; hasGr
                 <div className="hidden sm:flex px-4 py-3 items-center gap-4">
                   <span className="text-slate-600 text-sm font-mono w-5 text-right flex-shrink-0">{rank + 1}</span>
                   <div className="w-36 flex-shrink-0">
-                    <div className="font-semibold text-sm text-slate-200">{outlet.outletName}</div>
+                    <div className="flex items-center gap-1.5">
+                      <a href={outletUrl} className="font-semibold text-sm text-slate-200 hover:text-white transition-colors">{outlet.outletName}</a>
+                      <ShareIcon url={outletUrl} text={outletShareText} />
+                    </div>
                     <div className="text-[11px] text-slate-500">{outlet.articleCount} articles scored</div>
                   </div>
                   <div className="w-36 flex-shrink-0">
@@ -637,7 +662,10 @@ function BiasBoardView({ outlets, hasGrokData }: { outlets: OutletScore[]; hasGr
                     {/* Name + scores on one line */}
                     <div className="flex items-start justify-between gap-2 mb-2">
                       <div>
-                        <div className="font-semibold text-sm text-slate-200">{outlet.outletName}</div>
+                        <div className="flex items-center gap-1.5">
+                          <a href={outletUrl} className="font-semibold text-sm text-slate-200 hover:text-white transition-colors">{outlet.outletName}</a>
+                          <ShareIcon url={outletUrl} text={outletShareText} />
+                        </div>
                         <div className="text-[11px] mt-0.5 font-semibold" style={{ color: getBiasColor(activeScore) }}>
                           {getBiasLabel(activeScore)}
                         </div>
