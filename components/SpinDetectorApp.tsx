@@ -285,12 +285,28 @@ function StoryCard({ cluster, featured = false }: { cluster: StoryCluster; featu
             </span>
           </div>
         </div>
-        <button
-          onClick={() => setExpanded(!expanded)}
-          className="flex-shrink-0 text-slate-500 hover:text-slate-300 transition-colors text-xs mt-0.5"
-        >
-          {expanded ? 'Collapse ↑' : 'Expand ↓'}
-        </button>
+        <div className="flex-shrink-0 flex items-center gap-3 mt-0.5">
+          <a
+            href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(
+              `📊 ${cluster.topicLabel} — ${sorted[0]?.outletName} ${fmt(minScore)} ↔ ${sorted[sorted.length - 1]?.outletName} ${fmt(maxScore)} (${spread.toFixed(1)}-pt spread) #MediaBias`
+            )}&url=${encodeURIComponent(`https://www.spindetector.com/story/${cluster.date}/${cluster.id}`)}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Share this story on X"
+            className="text-slate-500 hover:text-slate-200 transition-colors"
+            title="Share on X"
+          >
+            <svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor" aria-hidden="true">
+              <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+            </svg>
+          </a>
+          <button
+            onClick={() => setExpanded(!expanded)}
+            className="text-slate-500 hover:text-slate-300 transition-colors text-xs"
+          >
+            {expanded ? 'Collapse ↑' : 'Expand ↓'}
+          </button>
+        </div>
       </div>
 
       {/* Spectrum overview */}
