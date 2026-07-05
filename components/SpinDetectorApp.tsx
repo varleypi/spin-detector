@@ -801,9 +801,16 @@ function TrendsView({ outlets }: { outlets: OutletScore[] }) {
   })
 
   const selectedList = outlets.filter((o) => selectedOutlets.has(o.outletId))
+  const trendsShareText = `📈 30-day political bias trends for major news outlets — tracked daily by AI (Claude & Grok) on Spin Detector. #MediaBias`
 
   return (
     <div className="space-y-4">
+      {/* Share bar */}
+      <div className="flex items-center justify-between gap-3">
+        <p className="text-xs text-slate-500">How each outlet&apos;s bias has shifted over the last 30 days.</p>
+        <ShareOnX url="https://www.spindetector.com" text={trendsShareText} label="Share Trends" />
+      </div>
+
       {/* Outlet selector — grouped, collapsible */}
       <div className="bg-slate-900 border border-slate-800 rounded-xl overflow-hidden">
         <div className="px-4 py-3 flex items-center justify-between">
@@ -1146,8 +1153,16 @@ function ModelWarsView({ outlets }: { outlets: OutletScore[] }) {
     )
   }
 
+  const modelWarsShareText = `🤖 Model Wars: do Claude and Grok agree on media bias? They diverge by ${avgDiff.toFixed(2)} pts on average across ${rows.length} outlets — ${divergentCount} disagree sharply. #MediaBias`
+
   return (
     <div className="space-y-4">
+      {/* Share bar */}
+      <div className="flex items-center justify-between gap-3">
+        <p className="text-xs text-slate-500">Claude vs Grok — two AI models scoring the same outlets, independently.</p>
+        <ShareOnX url="https://www.spindetector.com" text={modelWarsShareText} label="Share Model Wars" />
+      </div>
+
       {/* Summary cards */}
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
         <div className="bg-slate-900 border border-slate-800 rounded-xl p-4">
