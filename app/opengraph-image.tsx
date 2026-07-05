@@ -40,7 +40,7 @@ export default function Image() {
           <span>Far Right</span>
         </div>
         <div style={{ fontSize: 22, color: '#475569', marginTop: 44 }}>
-          55 outlets · scored by Claude &amp; Grok · spindetector.com
+          56 outlets · scored by Claude &amp; Grok · spindetector.com
         </div>
       </div>
     ),

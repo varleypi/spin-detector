@@ -36,7 +36,7 @@ export default function About() {
           <section>
             <h3 className="text-lg font-bold text-slate-100 mb-3">What Is Spin Detector?</h3>
             <p className="mb-3">
-              Spin Detector is an automated media bias tracker that analyzes how 55 major news outlets
+              Spin Detector is an automated media bias tracker that analyzes how 56 major news outlets
               cover the same political stories. Every day, our pipeline fetches hundreds of headlines,
               clusters them by topic, and uses AI to score each headline&apos;s political language on a
               −5 to +5 scale — from Far Left to Far Right, with 0 representing a neutral center.
@@ -103,7 +103,7 @@ export default function About() {
           <section>
             <h3 className="text-lg font-bold text-slate-100 mb-3">The Outlets We Track</h3>
             <p className="mb-3">
-              We currently track 54 major English-language news outlets across the political spectrum,
+              We currently track 56 major English-language news outlets across the political spectrum,
               from HuffPost and Vox on the left to Breitbart and The Federalist on the right, with
               the Associated Press and Reuters providing a neutral wire-service baseline in the center.
               Broadcast networks (ABC, NBC, CBS) and commentary outlets (The Atlantic, Reason) round

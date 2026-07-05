@@ -390,6 +390,13 @@ const OUTLETS = {
     rssUrl: 'https://www.tampabay.com/news/rss/',
     expectedRange: [3.5, 5.0],
   },
+  neutralnews: {
+    name: 'Neutral News',
+    abbr: 'NN',
+    newsapiId: null, // Sister site — AI-neutralized summaries, RSS only
+    rssUrl: 'https://www.neutralnews.us/rss.xml',
+    expectedRange: [4.5, 5.5], // designed to read center/neutral
+  },
 }
 
 // NewsAPI source ID → outletId reverse map

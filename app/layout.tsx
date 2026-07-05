@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://www.spindetector.com'),
   title: 'Spin Detector — Political Media Bias Tracker',
   description:
-    'Real-time AI analysis of political bias across 55 major news outlets. Same story, multiple outlets, measurable bias.',
+    'Real-time AI analysis of political bias across 56 major news outlets. Same story, multiple outlets, measurable bias.',
   keywords: ['media bias', 'political bias', 'news analysis', 'spin detector', 'journalism'],
   twitter: { card: 'summary_large_image' },
   verification: {

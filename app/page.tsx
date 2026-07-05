@@ -5,12 +5,12 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Spin Detector — Political Media Bias Tracker',
   description:
-    'Real-time AI analysis of political bias across 55 major news outlets. See how CNN, Fox News, BBC, NYT, and more frame the same stories — scored from Far Left to Far Right by Claude and Grok.',
+    'Real-time AI analysis of political bias across 56 major news outlets. See how CNN, Fox News, BBC, NYT, and more frame the same stories — scored from Far Left to Far Right by Claude and Grok.',
   alternates: { canonical: '/' },
   openGraph: {
     title: 'Spin Detector — Political Media Bias Tracker',
     description:
-      'Real-time AI analysis of political bias across 55 major news outlets. Same story, multiple outlets, measurable bias.',
+      'Real-time AI analysis of political bias across 56 major news outlets. Same story, multiple outlets, measurable bias.',
     url: 'https://spindetector.com',
     siteName: 'Spin Detector',
     type: 'website',

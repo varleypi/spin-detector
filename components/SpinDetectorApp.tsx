@@ -104,6 +104,8 @@ function getOutletLineColor(outletId: string): string {
     cbsnews:        '#7c3aed',  // violet-600
     washexaminer:   '#9333ea',  // purple-600
     thefederalist:  '#4c1d95',  // violet-900
+    // Sister site — bright emerald to stand out at center
+    neutralnews:    '#10b981',  // emerald-500
     // Reds (spread across bright → dark)
     nationalreview: '#dc2626',  // red-600
     foxnews:        '#ef4444',  // red-500 (brightest)
@@ -156,7 +158,7 @@ const OUTLET_GROUPS: { label: string; ids: string[] }[] = [
   },
   {
     label: 'Center',
-    ids: ['ap', 'reuters', 'politico', 'thehill', 'axios', 'newsweek', 'usatoday', 'economist', 'thefreepress', 'reason'],
+    ids: ['ap', 'reuters', 'politico', 'thehill', 'axios', 'newsweek', 'usatoday', 'economist', 'thefreepress', 'reason', 'neutralnews'],
   },
   {
     label: 'Lean Right',
@@ -997,7 +999,7 @@ function AboutView() {
       <section>
         <h3 className="text-lg font-bold text-slate-100 mb-3">What Is Spin Detector?</h3>
         <p className="mb-3">
-          Spin Detector is an automated media bias tracker that analyzes how 55 major news outlets
+          Spin Detector is an automated media bias tracker that analyzes how 56 major news outlets
           cover the same political stories. Every day, the pipeline fetches hundreds of headlines,
           clusters them by topic, and uses AI to score each headline&apos;s political language on a
           −5 to +5 scale — from Far Left to Far Right, with 0 representing a neutral center.
@@ -1056,7 +1058,7 @@ function AboutView() {
       <section>
         <h3 className="text-lg font-bold text-slate-100 mb-3">The Outlets We Track</h3>
         <p className="mb-3">
-          We currently track 55 major English-language news outlets across the political spectrum,
+          We currently track 56 major English-language news outlets across the political spectrum,
           from HuffPost and Vox on the left to Breitbart and The Federalist on the right, with the
           Associated Press and Reuters providing a neutral wire-service baseline in the center.
           Broadcast networks (ABC, NBC, CBS) and commentary outlets (The Atlantic, Reason) round

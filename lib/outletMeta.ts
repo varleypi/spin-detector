@@ -342,6 +342,12 @@ export const OUTLET_META: Record<string, OutletMeta> = {
     readerType: 'web',
     readerNote: 'Unique visitors/day (SimilarWeb 2024); multiple Pulitzer Prize winner',
   },
+  neutralnews: {
+    dailyReaders: 5_000,
+    readerLabel: '~5K',
+    readerType: 'web',
+    readerNote: 'Sister project — AI-neutralized news summaries (neutralnews.us); new site',
+  },
 }
 
 /** Max daily readers across all outlets — used for proportional bar sizing. Computed dynamically. */

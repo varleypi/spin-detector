@@ -178,7 +178,7 @@ export default async function OutletPage({ params }: { params: { slug: string } 
         <section className="space-y-4 text-slate-300 leading-relaxed">
           <h3 className="text-lg font-bold text-slate-100">How this score is measured</h3>
           <p>
-            Every day, Spin Detector fetches {outlet.name}&apos;s latest headlines alongside those of 54 other
+            Every day, Spin Detector fetches {outlet.name}&apos;s latest headlines alongside those of 55 other
             major outlets, groups them by story, and uses AI to score each headline&apos;s political language
             from −5 to +5. Two independent models — Claude (Anthropic) and Grok (xAI) — score the same
             headlines without seeing each other&apos;s results, so you can see where they agree and where they
@@ -197,7 +197,7 @@ export default async function OutletPage({ params }: { params: { slug: string } 
             See today&apos;s full bias board →
           </Link>
           <Link href="/outlets" className="px-4 py-2 rounded-lg border border-slate-700 hover:border-slate-500 text-slate-300 text-sm font-semibold transition-colors">
-            Compare all 55 outlets
+            Compare all 56 outlets
           </Link>
           <ShareOnX url={shareUrl} text={shareText} label={`Share ${outlet.name}'s score`} />
         </div>

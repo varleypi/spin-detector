@@ -6,7 +6,7 @@ import { leanLabel, scoreColor } from '@/lib/score'
 export const metadata: Metadata = {
   title: 'Media Bias Ratings for 55 News Outlets — Spin Detector',
   description:
-    'Browse AI-measured political bias ratings for 55 major news outlets — CNN, Fox News, BBC, NYT, and more — scored daily from −5 (Far Left) to +5 (Far Right) by Claude and Grok.',
+    'Browse AI-measured political bias ratings for 56 major news outlets — CNN, Fox News, BBC, NYT, and more — scored daily from −5 (Far Left) to +5 (Far Right) by Claude and Grok.',
   alternates: { canonical: '/outlets' },
 }
 
@@ -35,7 +35,7 @@ export default function OutletsIndex() {
       </header>
 
       <main className="max-w-4xl mx-auto px-4 py-10">
-        <h2 className="text-3xl font-black mb-2">Media bias ratings for 55 news outlets</h2>
+        <h2 className="text-3xl font-black mb-2">Media bias ratings for 56 news outlets</h2>
         <p className="text-slate-400 text-lg mb-8 leading-relaxed">
           AI-measured political bias for every outlet Spin Detector tracks, from Far Left to Far Right.
           Tap any outlet for its current score, 30-day trend, and Claude-vs-Grok comparison.
