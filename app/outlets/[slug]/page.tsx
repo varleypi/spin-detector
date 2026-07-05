@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation'
 import { WEB_OUTLETS } from '@/lib/outlets'
 import { getOutletPageData } from '@/lib/outletData'
 import { fmtScore, biasLabel, leanLabel, scoreColor, toDisplay } from '@/lib/score'
+import ShareOnX from '@/components/ShareOnX'
 
 export const revalidate = 900
 
@@ -83,6 +84,11 @@ export default async function OutletPage({ params }: { params: { slug: string } 
   const label = biasLabel(displayScore)
   const color = scoreColor(displayScore)
 
+  const shareUrl = `https://www.spindetector.com/outlets/${outlet.slug}`
+  const shareText = hasLive
+    ? `Is ${outlet.name} biased? It scores ${fmtScore(score!)} (${label}) today on Spin Detector's AI media-bias tracker. #MediaBias`
+    : `Is ${outlet.name} biased? See its daily AI-measured media-bias score on Spin Detector. #MediaBias`
+
   // JSON-LD structured data — helps Google render richer results.
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -107,9 +113,12 @@ export default async function OutletPage({ params }: { params: { slug: string } 
               <span style={{ color: '#ef4444' }}>DETECTOR</span>
             </h1>
           </Link>
-          <Link href="/outlets" className="text-sm text-slate-400 hover:text-slate-200 transition-colors">
-            All outlets →
-          </Link>
+          <div className="flex items-center gap-4">
+            <ShareOnX url={shareUrl} text={shareText} label="Share" />
+            <Link href="/outlets" className="text-sm text-slate-400 hover:text-slate-200 transition-colors">
+              All outlets →
+            </Link>
+          </div>
         </div>
       </header>
 
@@ -183,13 +192,14 @@ export default async function OutletPage({ params }: { params: { slug: string } 
           </p>
         </section>
 
-        <div className="mt-10 flex flex-wrap gap-3">
+        <div className="mt-10 flex flex-wrap items-center gap-3">
           <Link href="/" className="px-4 py-2 rounded-lg bg-blue-600 hover:bg-blue-500 text-white text-sm font-semibold transition-colors">
             See today&apos;s full bias board →
           </Link>
           <Link href="/outlets" className="px-4 py-2 rounded-lg border border-slate-700 hover:border-slate-500 text-slate-300 text-sm font-semibold transition-colors">
             Compare all 55 outlets
           </Link>
+          <ShareOnX url={shareUrl} text={shareText} label={`Share ${outlet.name}'s score`} />
         </div>
       </main>
     </div>

@@ -54,6 +54,31 @@ export async function getStoriesForDate(date: string): Promise<StoryCluster[]> {
   }))
 }
 
+/**
+ * Lightweight list of recent story clusters (id + date only) for the sitemap.
+ * No article payload — just enough to build /story/<date>/<id> URLs.
+ */
+export async function getRecentStoryRefs(days = 10): Promise<{ id: string; date: string }[]> {
+  const supabase = getSupabase()
+  if (!supabase) return []
+
+  const since = new Date()
+  since.setDate(since.getDate() - days)
+
+  const { data, error } = await supabase
+    .from('story_clusters')
+    .select('cluster_id, date')
+    .gte('date', since.toISOString().split('T')[0])
+    .order('date', { ascending: false })
+
+  if (error) throw new Error(`recent story refs query failed: ${error.message}`)
+
+  return (data ?? []).map((r: Record<string, unknown>) => ({
+    id: r.cluster_id as string,
+    date: r.date as string,
+  }))
+}
+
 export async function getOutletScores(): Promise<OutletScore[]> {
   const supabase = getSupabase()
   if (!supabase) throw new Error('No database configured')
