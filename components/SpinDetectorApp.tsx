@@ -7,6 +7,7 @@ import {
 } from 'recharts'
 import type { StoryCluster, OutletScore, TrendPoint, PipelineStatus } from '@/lib/types'
 import { OUTLET_META, MAX_DAILY_READERS } from '@/lib/outletMeta'
+import ShareOnX from '@/components/ShareOnX'
 
 type Tab = 'about' | 'battleground' | 'biasboard' | 'trends' | 'modelwars'
 
@@ -454,8 +455,18 @@ function BiasBoardView({ outlets, hasGrokData }: { outlets: OutletScore[]; hasGr
     return a.currentScore - b.currentScore
   })
 
+  const boardShareText = `📊 How ${outlets.length} major news outlets rank on political bias — Far Left to Far Right, scored daily by Claude & Grok. #MediaBias`
+
   return (
     <div className="space-y-6">
+      {/* Share bar */}
+      <div className="flex items-center justify-between gap-3">
+        <p className="text-xs text-slate-500">
+          Where each outlet lands on the −5 to +5 bias spectrum, averaged over 30 days.
+        </p>
+        <ShareOnX url="https://www.spindetector.com" text={boardShareText} label="Share the board" />
+      </div>
+
       {/* Spectrum visual */}
       <div className="bg-slate-900 border border-slate-800 rounded-xl p-5">
         <h3 className="text-xs font-semibold uppercase tracking-widest text-slate-500 mb-4">
