@@ -248,7 +248,7 @@ function OutletBadge({ outlet, score }: { outlet: string; score: number }) {
 
 // ─── Story Card ───────────────────────────────────────────────────────────────
 
-function StoryCard({ cluster }: { cluster: StoryCluster }) {
+function StoryCard({ cluster, featured = false }: { cluster: StoryCluster; featured?: boolean }) {
   const [expanded, setExpanded] = useState(false)
   const sorted = [...cluster.articles].sort((a, b) => a.biasScore - b.biasScore)
   const minScore = sorted[0]?.biasScore ?? 5
@@ -256,7 +256,20 @@ function StoryCard({ cluster }: { cluster: StoryCluster }) {
   const spread = maxScore - minScore
 
   return (
-    <div className="bg-slate-900 border border-slate-800 rounded-xl overflow-hidden hover:border-slate-700 transition-colors">
+    <div
+      className={`bg-slate-900 border rounded-xl overflow-hidden transition-colors ${
+        featured
+          ? 'border-amber-500/60 ring-1 ring-amber-500/40 shadow-lg shadow-amber-500/10'
+          : 'border-slate-800 hover:border-slate-700'
+      }`}
+    >
+      {/* Spin of the Day ribbon */}
+      {featured && (
+        <div className="flex items-center gap-2 px-4 py-1.5 border-b border-amber-500/30 bg-gradient-to-r from-amber-500/20 to-transparent">
+          <span className="text-amber-400 text-xs font-black uppercase tracking-wide">🌀 Spin of the Day</span>
+          <span className="hidden sm:inline text-[11px] text-amber-500/70">Widest bias gap across outlets today</span>
+        </div>
+      )}
       {/* Card Header */}
       <div className="px-4 py-3 border-b border-slate-800 flex items-start justify-between gap-3">
         <div>
@@ -393,10 +406,14 @@ function BattlegroundView({ stories }: { stories: StoryCluster[] }) {
     (a, b) => clusterSpread(b) - clusterSpread(a) || b.articles.length - a.articles.length
   )
 
+  // Only crown a "Spin of the Day" if the top story is a real multi-outlet
+  // divergence, not a lone article.
+  const topIsFeatured = clusterSpread(sorted[0]) > 0 && sorted[0].articles.length >= 2
+
   return (
     <div className="space-y-4">
-      {sorted.map((cluster) => (
-        <StoryCard key={cluster.id} cluster={cluster} />
+      {sorted.map((cluster, i) => (
+        <StoryCard key={cluster.id} cluster={cluster} featured={i === 0 && topIsFeatured} />
       ))}
     </div>
   )
