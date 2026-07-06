@@ -17,10 +17,12 @@ export const metadata: Metadata = {
   },
 }
 
-// Regenerate the page (ISR) at most every 15 minutes. Data is queried directly
-// from Supabase in getHomeData — no self-HTTP hop — and getHomeData never throws,
-// so a transient DB blip falls back to latest.json/mock rather than erroring.
-export const revalidate = 900
+// Regenerate the page (ISR) at most every 2 minutes so the site tracks the
+// pipeline closely (the daily X post is generated live at run time; a long cache
+// let the two drift). Data is queried directly from Supabase in getHomeData — no
+// self-HTTP hop — and getHomeData never throws, so a transient DB blip falls back
+// to latest.json/mock rather than erroring.
+export const revalidate = 120
 
 export default async function Home() {
   const { stories, outlets, status } = await getHomeData()

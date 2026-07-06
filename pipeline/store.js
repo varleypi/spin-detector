@@ -209,9 +209,23 @@ function writeJsonFallback({ scoredArticles, clusters, date }) {
 
 // ── Main export ───────────────────────────────────────────────────────────────
 
+// Each run is a full snapshot of "today". Clear the day's rows first so re-runs
+// REPLACE rather than accumulate — otherwise clusters/articles from earlier runs
+// linger (each run mints fresh cluster_ids), leaving the site showing a wider
+// day-spanning set than the latest run and diverging from the X post, which only
+// ever sees the current run's data.
+async function clearDay(supabase, date) {
+  for (const table of ['articles', 'story_clusters', 'outlet_daily_scores']) {
+    const { error } = await supabase.from(table).delete().eq('date', date)
+    if (error) throw new Error(`clearing ${table} for ${date} failed: ${error.message}`)
+  }
+  console.log(`   ✓ cleared existing ${date} rows (replace, not accumulate)`)
+}
+
 async function storeResults({ scoredArticles, clusters, date, elapsedSeconds }) {
   const supabase = getSupabase()
 
+  await clearDay(supabase, date)
   await upsertArticles(supabase, scoredArticles, date)
   await upsertClusters(supabase, clusters, scoredArticles, date)
   await upsertOutletScores(supabase, scoredArticles, date)
