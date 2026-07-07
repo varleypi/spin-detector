@@ -77,34 +77,43 @@ ALTER TABLE story_clusters       ENABLE ROW LEVEL SECURITY;
 ALTER TABLE pipeline_runs        ENABLE ROW LEVEL SECURITY;
 
 -- Public read policies (frontend API routes use anon key)
+-- DROP + CREATE so this schema can be re-applied without erroring.
+DROP POLICY IF EXISTS "public read articles" ON articles;
 CREATE POLICY "public read articles"
   ON articles FOR SELECT USING (true);
 
+DROP POLICY IF EXISTS "public read outlet_daily_scores" ON outlet_daily_scores;
 CREATE POLICY "public read outlet_daily_scores"
   ON outlet_daily_scores FOR SELECT USING (true);
 
+DROP POLICY IF EXISTS "public read story_clusters" ON story_clusters;
 CREATE POLICY "public read story_clusters"
   ON story_clusters FOR SELECT USING (true);
 
+DROP POLICY IF EXISTS "public read pipeline_runs" ON pipeline_runs;
 CREATE POLICY "public read pipeline_runs"
   ON pipeline_runs FOR SELECT USING (true);
 
 -- Service-role write policies (pipeline uses service key)
+DROP POLICY IF EXISTS "service write articles" ON articles;
 CREATE POLICY "service write articles"
   ON articles FOR ALL
   USING (auth.role() = 'service_role')
   WITH CHECK (auth.role() = 'service_role');
 
+DROP POLICY IF EXISTS "service write outlet_daily_scores" ON outlet_daily_scores;
 CREATE POLICY "service write outlet_daily_scores"
   ON outlet_daily_scores FOR ALL
   USING (auth.role() = 'service_role')
   WITH CHECK (auth.role() = 'service_role');
 
+DROP POLICY IF EXISTS "service write story_clusters" ON story_clusters;
 CREATE POLICY "service write story_clusters"
   ON story_clusters FOR ALL
   USING (auth.role() = 'service_role')
   WITH CHECK (auth.role() = 'service_role');
 
+DROP POLICY IF EXISTS "service write pipeline_runs" ON pipeline_runs;
 CREATE POLICY "service write pipeline_runs"
   ON pipeline_runs FOR ALL
   USING (auth.role() = 'service_role')
