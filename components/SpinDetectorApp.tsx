@@ -1319,6 +1319,23 @@ export default function SpinDetectorApp({ initialStories, initialOutlets, initia
   const [outlets, setOutlets] = useState<OutletScore[]>(initialOutlets)
   const [status, setStatus] = useState<PipelineStatus>(initialStatus)
   const [refreshing, setRefreshing] = useState(false)
+  const [runState, setRunState] = useState<'idle' | 'running' | 'triggered' | 'error'>('idle')
+
+  async function handleRunPipeline() {
+    setRunState('running')
+    const triggerSecret = process.env.NEXT_PUBLIC_PIPELINE_TRIGGER_SECRET
+    try {
+      const res = await fetch('/api/pipeline/run', {
+        method: 'POST',
+        headers: triggerSecret ? { 'x-trigger-secret': triggerSecret } : {},
+      })
+      setRunState(res.ok ? 'triggered' : 'error')
+    } catch {
+      setRunState('error')
+    } finally {
+      setTimeout(() => setRunState('idle'), 4000)
+    }
+  }
 
   async function handleRefresh() {
     setRefreshing(true)
@@ -1387,6 +1404,28 @@ export default function SpinDetectorApp({ initialStories, initialOutlets, initia
               >
                 {refreshing ? 'Refreshing…' : '↻ Refresh'}
               </button>
+              {status.dataSource !== 'demo' && (
+                <button
+                  onClick={handleRunPipeline}
+                  disabled={runState === 'running'}
+                  title="Trigger the bias pipeline to run now"
+                  className={`text-[10px] font-semibold px-2 py-0.5 rounded border transition-colors disabled:opacity-60 ${
+                    runState === 'triggered'
+                      ? 'border-green-500/40 text-green-400 bg-green-500/10'
+                      : runState === 'error'
+                      ? 'border-red-500/40 text-red-400 bg-red-500/10'
+                      : 'border-slate-700 text-slate-400 hover:text-slate-200 hover:border-slate-500'
+                  }`}
+                >
+                  {runState === 'running'
+                    ? 'Triggering…'
+                    : runState === 'triggered'
+                    ? '✓ Triggered'
+                    : runState === 'error'
+                    ? '✗ Failed'
+                    : '▶ Run Pipeline'}
+                </button>
+              )}
             </div>
             <p className="text-xs text-slate-500 mt-0.5">
               Same story. Multiple outlets. Measurable bias.
