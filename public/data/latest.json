@@ -1,2068 +1,2051 @@
 {
-  "date": "2026-07-13",
-  "generatedAt": "2026-07-13T17:11:11.261Z",
+  "date": "2026-07-14",
+  "generatedAt": "2026-07-14T11:28:23.849Z",
   "stories": [
     {
-      "id": "lindsey-graham-death",
-      "topicLabel": "Senator Lindsey Graham dies at 71",
-      "date": "2026-07-13",
+      "id": "iran-strait-of-hormuz-conflict",
+      "topicLabel": "US-Iran military strikes over Strait of Hormuz",
+      "date": "2026-07-14",
       "articles": [
         {
-          "id": "huffpost-lindsey-graham-death-37",
-          "outletId": "huffpost",
-          "outletName": "HuffPost",
-          "headline": "Trump Hijacks Graham Tribute On CNN To Stump For Bill, Slam Dems In Weird Exchange",
-          "url": "https://www.huffpost.com/entry/trump-lindsey-graham-save-america-act-cnn-interview_n_6a53b69ee4b04a4b8d2d88b1",
-          "biasScore": 2.5,
+          "id": "aljazeera-iran-strait-of-hormuz-conflict-5",
+          "outletId": "aljazeera",
+          "outletName": "Al Jazeera",
+          "headline": "Schumer slams Trump over Iran war",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/14/schumer-slams-trump-over-iran-war?traffic_source=rss",
+          "biasScore": 2.8,
           "biasSignals": [
-            "'Hijacks' — charged verb implying Trump disrespected Graham",
-            "'Weird Exchange' — disparaging framing of Trump"
-          ],
-          "biasScoreGrok": 6.5,
-          "biasSignalsGrok": [
-            "hijacks tribute phrasing",
-            "weird exchange loaded"
-          ],
-          "pubDate": "2026-07-12T16:53:20Z",
-          "clusterId": "lindsey-graham-death"
-        },
-        {
-          "id": "huffpost-lindsey-graham-death-38",
-          "outletId": "huffpost",
-          "outletName": "HuffPost",
-          "headline": "Trump Uses Lindsey Graham's Death To Push His Pet Voting Legislation",
-          "url": "https://www.huffpost.com/entry/trump-lindsey-graham-death-save-america-act_n_6a5399fde4b0107f0db64bbb",
-          "biasScore": 2.5,
-          "biasSignals": [
-            "'Uses' death implies cynical political exploitation",
-            "'Pet Voting Legislation' — dismissive of SAVE Act"
-          ],
-          "biasScoreGrok": 6.8,
-          "biasSignalsGrok": [
-            "uses death to push",
-            "pet voting legislation"
-          ],
-          "pubDate": "2026-07-12T15:12:37Z",
-          "clusterId": "lindsey-graham-death"
-        },
-        {
-          "id": "theatlantic-lindsey-graham-death-42",
-          "outletId": "theatlantic",
-          "outletName": "The Atlantic",
-          "headline": "How Lindsey Graham Persuaded Trump to Attack Iran",
-          "url": "https://www.theatlantic.com/national-security/2026/07/lindsey-graham-iran-hawk-trump/687900/?utm_source=feed",
-          "biasScore": 3,
-          "biasSignals": [
-            "'Persuaded Trump to Attack Iran' — frames Graham as war instigator",
-            "implies Graham bears responsibility for military action"
-          ],
-          "biasScoreGrok": 5,
-          "biasSignalsGrok": [
-            "persuaded Trump Iran",
-            "critical framing"
-          ],
-          "pubDate": "Mon, 13 Jul 2026 12:54:57 -0400",
-          "clusterId": "lindsey-graham-death"
-        },
-        {
-          "id": "huffpost-lindsey-graham-death-39",
-          "outletId": "huffpost",
-          "outletName": "HuffPost",
-          "headline": "Lindsey Graham Draws Tributes For His Support Of Ukraine, Trans-Atlantic Ties And Israel",
-          "url": "https://www.huffpost.com/entry/ap-lindsey-graham-dies-reaction-tributess_n_6a537d86e4b04a4b8d2d7ba9",
-          "biasScore": 4,
-          "biasSignals": [
-            "neutral tribute framing emphasizing Ukraine/NATO/Israel",
-            "no ideological loading"
+            "'slams' verb — activist/opposition hero framing",
+            "Schumer portrayed as righteous critic"
           ],
           "biasScoreGrok": 3.5,
           "biasSignalsGrok": [
-            "tributes for Ukraine support",
-            "trans atlantic ties"
+            "Schumer slams Trump",
+            "progressive framing"
           ],
-          "pubDate": "2026-07-12T11:48:52Z",
-          "clusterId": "lindsey-graham-death"
+          "pubDate": "Tue, 14 Jul 2026 10:34:14 +0000",
+          "clusterId": "iran-strait-of-hormuz-conflict"
         },
         {
-          "id": "npr-lindsey-graham-death-6",
-          "outletId": "npr",
-          "outletName": "NPR",
-          "headline": "Sen. Richard Blumenthal talks about Lindsey Graham's legacy",
-          "url": "https://www.npr.org/2026/07/13/nx-s1-5890884/sen-richard-blumenthal-talks-about-lindsey-grahams-legacy",
-          "biasScore": 4.2,
-          "biasSignals": [
-            "neutral 'legacy' framing via tribute piece",
-            "no charged language"
-          ],
-          "biasScoreGrok": 3.2,
-          "biasSignalsGrok": [
-            "legacy discussion",
-            "neutral sourcing"
-          ],
-          "pubDate": "Mon, 13 Jul 2026 07:08:53 -0400",
-          "clusterId": "lindsey-graham-death"
-        },
-        {
-          "id": "nytimes-lindsey-graham-death-3",
-          "outletId": "nytimes",
-          "outletName": "NY Times",
-          "headline": "Mercurial and Magnetic, Lindsey Graham Was a Force in the Senate",
-          "url": "https://www.nytimes.com/2026/07/13/us/politics/lindsey-graham-senate-force.html",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "'Mercurial and Magnetic' — balanced characterization",
-            "neutral obituary framing"
-          ],
-          "biasScoreGrok": 3.8,
-          "biasSignalsGrok": [
-            "positive personality descriptors",
-            "minimal ideological signals"
-          ],
-          "pubDate": "Mon, 13 Jul 2026 12:23:14 +0000",
-          "clusterId": "lindsey-graham-death"
-        },
-        {
-          "id": "washpost-lindsey-graham-death-5",
-          "outletId": "washpost",
-          "outletName": "Washington Post",
-          "headline": "What happens next with Lindsey Graham’s Senate seat",
-          "url": "https://www.washingtonpost.com/politics/2026/07/12/south-carolina-gop-governor-name-graham-initial-replacement/",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral process-focused headline",
-            "no ideological signals"
-          ],
-          "biasScoreGrok": 3,
-          "biasSignalsGrok": [
-            "procedural focus",
-            "no bias indicators"
-          ],
-          "pubDate": "2026-07-12T14:39:11Z",
-          "clusterId": "lindsey-graham-death"
-        },
-        {
-          "id": "latimes-lindsey-graham-death-24",
-          "outletId": "latimes",
-          "outletName": "LA Times",
-          "headline": "Preliminary report reveals cause of death for Sen. Lindsey Graham",
-          "url": "https://www.latimes.com/politics/story/2026-07-12/lindsey-graham-cause-of-death-preliminary-report",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral medical cause-of-death framing",
-            "no ideological signals"
-          ],
-          "biasScoreGrok": 3,
-          "biasSignalsGrok": [
-            "preliminary report focus",
-            "neutral medical detail"
-          ],
-          "pubDate": "Sun, 12 Jul 2026 23:22:38 GMT",
-          "clusterId": "lindsey-graham-death"
-        },
-        {
-          "id": "bostonglobe-lindsey-graham-death-26",
-          "outletId": "bostonglobe",
-          "outletName": "Boston Globe",
-          "headline": "Aortic tear blamed in Senator Lindsey Graham’s sudden death is a fast-killing emergency",
-          "url": "https://www.bostonglobe.com/2026/07/13/nation/lindsey-graham-death-aortic-tear/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "medical focus on aortic tear — purely factual",
-            "no political framing"
-          ],
-          "biasScoreGrok": 3.5,
-          "biasSignalsGrok": [
-            "aortic tear cause",
-            "medical emergency framing"
-          ],
-          "pubDate": "Mon, 13 Jul 2026 15:48:20 +0000",
-          "clusterId": "lindsey-graham-death"
-        },
-        {
-          "id": "nbc-lindsey-graham-death-30",
-          "outletId": "nbc",
-          "outletName": "NBC News",
-          "headline": "Lindsey Graham remembered by allies and rivals alike for his love of public service and bipartisan charm",
-          "url": "https://www.nbcnews.com/news/us-news/lindsey-graham-remembered-allies-rivals-alike-love-public-service-bipa-rcna552738",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "'love of public service and bipartisan charm' — positive framing",
-            "neutral tribute tone"
-          ],
-          "biasScoreGrok": 3.8,
-          "biasSignalsGrok": [
-            "allies and rivals tribute",
-            "bipartisan charm focus"
-          ],
-          "pubDate": "2026-07-12T14:59:34Z",
-          "clusterId": "lindsey-graham-death"
-        },
-        {
-          "id": "ap-lindsey-graham-death-35",
-          "outletId": "ap",
-          "outletName": "Associated Press",
-          "headline": "Lindsey Graham dies after unexpected illness, his office says",
-          "url": "https://apnews.com/article/lindsey-graham-dies-south-carolina-bfa556e170f2df22ce9ffc7165da3dfa",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral death report citing official source",
-            "no charged language"
-          ],
-          "biasScoreGrok": 3,
-          "biasSignalsGrok": [
-            "unexpected illness",
-            "office says factual"
-          ],
-          "pubDate": "2026-07-12T06:38:43Z",
-          "clusterId": "lindsey-graham-death"
-        },
-        {
-          "id": "huffpost-lindsey-graham-death-40",
-          "outletId": "huffpost",
-          "outletName": "HuffPost",
-          "headline": "Lindsey Graham Dead After Brief And Unexpected Illness, His Office Says",
-          "url": "https://www.huffpost.com/entry/lindsey-graham-dead-dies_n_6a533872e4b09843d52b77af",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral death report",
-            "no charged language"
-          ],
-          "biasScoreGrok": 3,
-          "biasSignalsGrok": [
-            "brief unexpected illness",
-            "office says factual"
-          ],
-          "pubDate": "2026-07-12T07:02:46Z",
-          "clusterId": "lindsey-graham-death"
-        },
-        {
-          "id": "neutralnews-lindsey-graham-death-44",
-          "outletId": "neutralnews",
-          "outletName": "Neutral News",
-          "headline": "Reports Say Sen. Lindsey Graham Has Died at 71; Details Not Independently Verified",
-          "url": "https://www.neutralnews.us/article/260",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "'Cannot Be Independently Verified' — cautious neutral framing",
-            "no ideological signals"
-          ],
-          "biasScoreGrok": 2.5,
-          "biasSignalsGrok": [
-            "reports say neutral",
-            "not independently verified"
-          ],
-          "pubDate": "Mon, 13 Jul 2026 15:56:21 GMT",
-          "clusterId": "lindsey-graham-death"
-        },
-        {
-          "id": "neutralnews-lindsey-graham-death-45",
-          "outletId": "neutralnews",
-          "outletName": "Neutral News",
-          "headline": "Reports of Senator Lindsey Graham's Death Cannot Be Verified",
-          "url": "https://www.neutralnews.us/article/255",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "same cautious verification language",
-            "no ideological framing"
-          ],
-          "biasScoreGrok": 2,
-          "biasSignalsGrok": [
-            "cannot be verified",
-            "purely cautious neutral"
-          ],
-          "pubDate": "Sun, 12 Jul 2026 16:07:43 GMT",
-          "clusterId": "lindsey-graham-death"
-        },
-        {
-          "id": "msnbc-lindsey-graham-death-0",
-          "outletId": "msnbc",
-          "outletName": "MSNBC",
-          "headline": "U.S. Senator Lindsey Graham dies at 71",
-          "url": "https://www.ms.now/news/senator-lindsey-graham-dies-at-71",
-          "biasScore": 4.8,
-          "biasSignals": [
-            "neutral death report, minimal framing",
-            "no ideological loading in headline"
-          ],
-          "biasScoreGrok": 3.5,
-          "biasSignalsGrok": [
-            "neutral death announcement",
-            "no loaded terms"
-          ],
-          "pubDate": "2026-07-12T06:34:50Z",
-          "clusterId": "lindsey-graham-death"
-        },
-        {
-          "id": "washpost-lindsey-graham-death-4",
-          "outletId": "washpost",
-          "outletName": "Washington Post",
-          "headline": "Lindsey Graham, foreign policy hawk and Trump’s critic-turned-ally, dies at 71",
-          "url": "https://www.washingtonpost.com/obituaries/2026/07/12/south-carolina-senator-was-known-folksy-demeanor-that-put-soft-edge-his-sometimes-tough-views/",
-          "biasScore": 4.8,
-          "biasSignals": [
-            "'critic-turned-ally' signals skeptical framing of loyalty",
-            "otherwise neutral obituary language"
-          ],
-          "biasScoreGrok": 4.2,
-          "biasSignalsGrok": [
-            "hawk and ally framing",
-            "balanced but critical tone"
-          ],
-          "pubDate": "2026-07-12T16:54:20Z",
-          "clusterId": "lindsey-graham-death"
-        },
-        {
-          "id": "thehill-lindsey-graham-death-17",
-          "outletId": "thehill",
-          "outletName": "The Hill",
-          "headline": "Colleagues, leaders pay tribute to Lindsey Graham",
-          "url": "https://thehill.com/homenews/senate/5964517-colleagues-leaders-pay-tribute-to-lindsey-graham/",
-          "biasScore": 4.8,
-          "biasSignals": [
-            "'colleagues, leaders' — bipartisan tribute framing",
-            "neutral tone throughout"
-          ],
-          "biasScoreGrok": 3.2,
-          "biasSignalsGrok": [
-            "tributes from colleagues",
-            "balanced tone"
-          ],
-          "pubDate": "2026-07-12T13:06:54Z",
-          "clusterId": "lindsey-graham-death"
-        },
-        {
-          "id": "thehill-lindsey-graham-death-18",
-          "outletId": "thehill",
-          "outletName": "The Hill",
-          "headline": "Live updates: Nation mourns Lindsey Graham after senator’s sudden death",
-          "url": "https://thehill.com/homenews/administration/5964452-live-updates-senator-lindsey-graham-death/",
-          "biasScore": 4.8,
-          "biasSignals": [
-            "'Nation mourns' — emotional but broadly inclusive",
-            "live update format neutral"
-          ],
-          "biasScoreGrok": 3,
-          "biasSignalsGrok": [
-            "nation mourns phrasing",
-            "live updates neutral"
-          ],
-          "pubDate": "2026-07-12T11:47:20Z",
-          "clusterId": "lindsey-graham-death"
-        },
-        {
-          "id": "thehill-lindsey-graham-death-19",
-          "outletId": "thehill",
-          "outletName": "The Hill",
-          "headline": "Sen. Lindsey Graham dies of ‘brief and sudden illness’",
-          "url": "https://thehill.com/homenews/senate/5964424-lindsey-graham-sudden-death/",
-          "biasScore": 4.8,
-          "biasSignals": [
-            "neutral death report with cause attribution",
-            "no ideological framing"
-          ],
-          "biasScoreGrok": 3.5,
-          "biasSignalsGrok": [
-            "sudden illness detail",
-            "factual office statement"
-          ],
-          "pubDate": "2026-07-12T09:42:55Z",
-          "clusterId": "lindsey-graham-death"
-        },
-        {
-          "id": "abc-lindsey-graham-death-28",
-          "outletId": "abc",
-          "outletName": "ABC News",
-          "headline": "Lindsey Graham's death prompts process to fill his Senate seat",
-          "url": "https://abcnews.com/Politics/lindsey-grahams-death-prompts-process-fill-senate-seat/story?id=134693556",
-          "biasScore": 4.8,
-          "biasSignals": [
-            "neutral process-focused headline",
-            "no ideological loading"
-          ],
-          "biasScoreGrok": 3,
-          "biasSignalsGrok": [
-            "process to fill seat",
-            "neutral ABC style"
-          ],
-          "pubDate": "2026-07-12T16:36:44Z",
-          "clusterId": "lindsey-graham-death"
-        },
-        {
-          "id": "ap-lindsey-graham-death-33",
-          "outletId": "ap",
-          "outletName": "Associated Press",
-          "headline": "Graham's long, strange and consequential friendship with Trump",
-          "url": "https://apnews.com/article/trump-graham-fierce-critical-close-ally-iran-abce65fdea00e13e34b8cb6380b4f8c9",
-          "biasScore": 4.8,
-          "biasSignals": [
-            "'long, strange' — mildly skeptical descriptor",
-            "'consequential' balances with neutral weight"
-          ],
-          "biasScoreGrok": 4.8,
-          "biasSignalsGrok": [
-            "long strange friendship",
-            "Trump critical undertone"
-          ],
-          "pubDate": "2026-07-12T15:01:24Z",
-          "clusterId": "lindsey-graham-death"
-        },
-        {
-          "id": "ap-lindsey-graham-death-34",
-          "outletId": "ap",
-          "outletName": "Associated Press",
-          "headline": "Lindsey Graham lauded for support of Ukraine, NATO, Israel",
-          "url": "https://apnews.com/article/lindsey-graham-death-reactions-30c9758bfc124c30e8e4db0e4dd719e2",
-          "biasScore": 4.8,
-          "biasSignals": [
-            "neutral tribute framing with policy focus",
-            "no ideological loading"
-          ],
-          "biasScoreGrok": 3.2,
-          "biasSignalsGrok": [
-            "Ukraine NATO Israel support",
-            "lauded neutral"
-          ],
-          "pubDate": "2026-07-12T09:20:07Z",
-          "clusterId": "lindsey-graham-death"
-        },
-        {
-          "id": "theatlantic-lindsey-graham-death-43",
-          "outletId": "theatlantic",
-          "outletName": "The Atlantic",
-          "headline": "The Last of the Three Amigos",
-          "url": "https://www.theatlantic.com/ideas/2026/07/lindsey-graham-ukraine-russia/687898/?utm_source=feed",
-          "biasScore": 4.8,
-          "biasSignals": [
-            "neutral 'Three Amigos' historical framing",
-            "analytical tone without heavy ideological loading"
-          ],
-          "biasScoreGrok": 4.8,
-          "biasSignalsGrok": [
-            "last of three amigos",
-            "neutral obituary style"
-          ],
-          "pubDate": "Mon, 13 Jul 2026 10:44:26 -0400",
-          "clusterId": "lindsey-graham-death"
-        },
-        {
-          "id": "nytimes-lindsey-graham-death-1",
-          "outletId": "nytimes",
-          "outletName": "NY Times",
-          "headline": "How Lindsey Graham’s Journey From Trump Critic to Ally Made Him a Power Player",
-          "url": "https://www.nytimes.com/2026/07/13/us/politics/lindsey-graham-death-donald-trump.html",
-          "biasScore": 5,
-          "biasSignals": [
-            "'Trump Critic to Ally' frames Graham's arc skeptically",
-            "neutral analytical framing overall"
-          ],
-          "biasScoreGrok": 4.5,
-          "biasSignalsGrok": [
-            "focus on Trump alliance",
-            "sympathetic journey framing"
-          ],
-          "pubDate": "Mon, 13 Jul 2026 16:48:52 +0000",
-          "clusterId": "lindsey-graham-death"
-        },
-        {
-          "id": "guardian-lindsey-graham-death-10",
-          "outletId": "guardian",
-          "outletName": "The Guardian",
-          "headline": "Trump backs Lindsey Graham’s sister to serve rest of Republican’s Senate term",
-          "url": "https://www.theguardian.com/us-news/2026/jul/13/lindsey-graham-sister-senate-seat-trump",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral reporting on Trump's recommendation",
-            "no loaded language"
-          ],
-          "biasScoreGrok": 3.5,
-          "biasSignalsGrok": [
-            "succession process neutral",
-            "Republican label used"
-          ],
-          "pubDate": "Mon, 13 Jul 2026 16:38:23 GMT",
-          "clusterId": "lindsey-graham-death"
-        },
-        {
-          "id": "cnbc-lindsey-graham-death-12",
-          "outletId": "cnbc",
-          "outletName": "CNBC",
-          "headline": "Trump recommends Lindsey Graham's sister serve as interim senator for South Carolina",
-          "url": "https://www.cnbc.com/2026/07/13/trump-lindsey-graham-darline-south-carolina-senator.html",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral headline reporting Trump's recommendation",
-            "no ideological signals"
-          ],
-          "biasScoreGrok": 3,
-          "biasSignalsGrok": [
-            "factual Trump recommendation",
-            "neutral reporting"
-          ],
-          "pubDate": "Mon, 13 Jul 2026 16:18:49 GMT",
-          "clusterId": "lindsey-graham-death"
-        },
-        {
-          "id": "bostonglobe-lindsey-graham-death-25",
-          "outletId": "bostonglobe",
-          "outletName": "Boston Globe",
-          "headline": "South Carolina’s governor should appoint Graham’s sister to finish his term, Trump says",
-          "url": "https://www.bostonglobe.com/2026/07/13/nation/lindsey-graham-south-carolina-replacement/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral reporting of Trump's recommendation",
-            "no charged language"
-          ],
-          "biasScoreGrok": 4.2,
-          "biasSignalsGrok": [
-            "governor appoint suggestion",
-            "Trump says quoted"
-          ],
-          "pubDate": "Mon, 13 Jul 2026 04:15:06 +0000",
-          "clusterId": "lindsey-graham-death"
-        },
-        {
-          "id": "abc-lindsey-graham-death-29",
-          "outletId": "abc",
-          "outletName": "ABC News",
-          "headline": "Lindsey Graham, longtime senator from South Carolina and Trump ally, dies at 71",
-          "url": "https://abcnews.com/Politics/sen-lindsey-graham-south-carolina-dies-71/story?id=134688641",
-          "biasScore": 5,
-          "biasSignals": [
-            "'Trump ally' characterization is factual but framing choice",
-            "otherwise neutral death report"
-          ],
-          "biasScoreGrok": 4,
-          "biasSignalsGrok": [
-            "Trump ally mention",
-            "longtime senator label"
-          ],
-          "pubDate": "2026-07-12T13:40:25Z",
-          "clusterId": "lindsey-graham-death"
-        },
-        {
-          "id": "nytimes-lindsey-graham-death-2",
-          "outletId": "nytimes",
-          "outletName": "NY Times",
-          "headline": "Trump Backs Lindsey Graham’s Sister to Finish His Senate Term in South Carolina",
-          "url": "https://www.nytimes.com/2026/07/13/us/politics/trump-graham-sister-south-carolina-senate.html",
-          "biasScore": 5.2,
-          "biasSignals": [
-            "neutral reporting on Trump's recommendation",
-            "no loaded language in headline"
-          ],
-          "biasScoreGrok": 4,
-          "biasSignalsGrok": [
-            "neutral succession note",
-            "Trump involvement highlighted"
-          ],
-          "pubDate": "Mon, 13 Jul 2026 16:10:06 +0000",
-          "clusterId": "lindsey-graham-death"
-        },
-        {
-          "id": "economist-lindsey-graham-death-11",
-          "outletId": "economist",
-          "outletName": "The Economist",
-          "headline": "Lindsey Graham represented the arc of his party",
-          "url": "https://www.economist.com/united-states/2026/07/12/lindsey-graham-represented-the-arc-of-his-party",
-          "biasScore": 5.2,
-          "biasSignals": [
-            "'arc of his party' — analytical, mild critical framing",
-            "center-right outlet, balanced obituary"
-          ],
-          "biasScoreGrok": 4.8,
-          "biasSignalsGrok": [
-            "party arc analysis",
-            "left-leaning historical view"
-          ],
-          "pubDate": "Sun, 12 Jul 2026 18:30:19 +0000",
-          "clusterId": "lindsey-graham-death"
-        },
-        {
-          "id": "axios-lindsey-graham-death-20",
-          "outletId": "axios",
-          "outletName": "Axios",
-          "headline": "Trump wants Graham's sister as Senate replacement — not Mace",
-          "url": "https://www.axios.com/2026/07/13/trump-graham-sister-senate",
-          "biasScore": 5.2,
-          "biasSignals": [
-            "neutral report on Trump Senate preference",
-            "mentions Mace as rejected alternative without judgment"
-          ],
-          "biasScoreGrok": 4,
-          "biasSignalsGrok": [
-            "sister replacement note",
-            "not Mace emphasis"
-          ],
-          "pubDate": "Mon, 13 Jul 2026 15:41:52 +0000",
-          "clusterId": "lindsey-graham-death"
-        },
-        {
-          "id": "nbc-lindsey-graham-death-32",
-          "outletId": "nbc",
-          "outletName": "NBC News",
-          "headline": "Trump says he spoke with Sen. Lindsey Graham hours before his death",
-          "url": "https://www.nbcnews.com/politics/congress/trump-phone-call-lindsey-graham-death-save-act-rcna552732",
-          "biasScore": 5.2,
-          "biasSignals": [
-            "neutral reporting of Trump personal statement",
-            "no loaded language"
-          ],
-          "biasScoreGrok": 3.5,
-          "biasSignalsGrok": [
-            "hours before death",
-            "Trump spoke fact"
-          ],
-          "pubDate": "2026-07-12T13:31:12Z",
-          "clusterId": "lindsey-graham-death"
-        },
-        {
-          "id": "independent-lindsey-graham-death-36",
-          "outletId": "independent",
-          "outletName": "The Independent",
-          "headline": "Trump’s idea for Lindsey Graham’s sister to replace him in Senate gains steam: ‘No one better’",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-lindsey-graham-sister-senate-b3014054.html",
-          "biasScore": 5.2,
-          "biasSignals": [
-            "'gains steam' — neutral momentum framing",
-            "quote 'No one better' presented without critique"
-          ],
-          "biasScoreGrok": 4,
-          "biasSignalsGrok": [
-            "sister replace gains steam",
-            "no one better quote"
-          ],
-          "pubDate": "Mon, 13 Jul 2026 17:04:09 GMT",
-          "clusterId": "lindsey-graham-death"
-        },
-        {
-          "id": "foxnews-lindsey-graham-death-7",
-          "outletId": "foxnews",
-          "outletName": "Fox News",
-          "headline": "GOP Sen. Lindsey Graham dies at 71 after 'brief and sudden illness'",
-          "url": "https://www.foxnews.com/live-news/longtime-gop-sen-lindsey-graham-dies-71-brief-sudden-illness",
-          "biasScore": 5.5,
-          "biasSignals": [
-            "'GOP Sen.' label emphasizes partisan identity",
-            "otherwise straightforward death report"
-          ],
-          "biasScoreGrok": 4,
-          "biasSignalsGrok": [
-            "GOP label emphasis",
-            "sudden illness detail"
-          ],
-          "pubDate": "2026-07-12T16:22:20.6918834Z",
-          "clusterId": "lindsey-graham-death"
-        },
-        {
-          "id": "forbes-lindsey-graham-death-13",
-          "outletId": "forbes",
-          "outletName": "Forbes",
-          "headline": "Trump Recounts Sometimes Rocky Relationship With Graham—Suggests Graham’s Sister Replace Him",
-          "url": "https://www.forbes.com/sites/saradorn/2026/07/13/trump-recounts-sometimes-rocky-relationship-with-graham-suggests-grahams-sister-replace-him/",
-          "biasScore": 5.5,
-          "biasSignals": [
-            "'Rocky Relationship' signals Trump-Graham tensions neutrally",
-            "no heavy ideological loading"
-          ],
-          "biasScoreGrok": 4,
-          "biasSignalsGrok": [
-            "rocky relationship note",
-            "replacement suggestion"
-          ],
-          "pubDate": "Mon, 13 Jul 2026 11:48:11 -0400",
-          "clusterId": "lindsey-graham-death"
-        },
-        {
-          "id": "thehill-lindsey-graham-death-15",
-          "outletId": "thehill",
-          "outletName": "The Hill",
-          "headline": "Trump says he spoke with Graham before late senator’s death: ‘It could have been his last call’",
-          "url": "https://thehill.com/homenews/senate/5964686-trump-mourns-senator-graham/",
-          "biasScore": 5.5,
-          "biasSignals": [
-            "neutral reporting of Trump's personal statement",
-            "no charged language"
-          ],
-          "biasScoreGrok": 3.8,
-          "biasSignalsGrok": [
-            "last call anecdote",
-            "neutral tribute style"
-          ],
-          "pubDate": "2026-07-12T16:48:30Z",
-          "clusterId": "lindsey-graham-death"
-        },
-        {
-          "id": "dailymail-lindsey-graham-death-27",
-          "outletId": "dailymail",
-          "outletName": "Daily Mail",
-          "headline": "Trump unveils surprise candidate to fill Lindsey Graham's shoes",
-          "url": "\n\thttps://www.dailymail.com/news/article-15974089/Trump-unveils-surprise-candidate-Lindsey-Grahams-shoes.html?ns_mchannel=rss&ito=1490&ns_campaign=1490\n      ",
-          "biasScore": 5.5,
-          "biasSignals": [
-            "'Surprise candidate' adds intrigue framing",
-            "neutral on replacement process"
-          ],
-          "biasScoreGrok": 5,
-          "biasSignalsGrok": [
-            "surprise candidate note",
-            "Trump unveils phrasing"
-          ],
-          "pubDate": "Mon, 13 Jul 2026 18:07:42 +0100",
-          "clusterId": "lindsey-graham-death"
-        },
-        {
-          "id": "reason-lindsey-graham-death-41",
-          "outletId": "reason",
-          "outletName": "Reason",
-          "headline": "Last of the Neocon 'Three Amigos': Lindsey Graham Dies Unexpectedly",
-          "url": "https://reason.com/2026/07/13/last-of-the-neocon-three-amigos-lindsey-graham-dies-unexpectedly/",
-          "biasScore": 5.5,
-          "biasSignals": [
-            "'Last of the Neocon Three Amigos' — skeptical of neoconservatism",
-            "libertarian outlet's mild critical framing"
-          ],
-          "biasScoreGrok": 5.5,
-          "biasSignalsGrok": [
-            "last neocon three amigos",
-            "unexpected death note"
-          ],
-          "pubDate": "Mon, 13 Jul 2026 13:45:47 +0000",
-          "clusterId": "lindsey-graham-death"
-        },
-        {
-          "id": "nbc-lindsey-graham-death-31",
-          "outletId": "nbc",
-          "outletName": "NBC News",
-          "headline": "Republicans scramble to find a replacement for Sen. Lindsey Graham ahead of the midterm elections",
-          "url": "https://www.nbcnews.com/politics/2026-election/scramble-replacement-lindsey-graham-midterm-election-senate-seat-rcna552739",
-          "biasScore": 5.8,
-          "biasSignals": [
-            "'scramble' implies Republican disarray",
-            "midterm elections framing adds political stakes"
-          ],
-          "biasScoreGrok": 4.5,
-          "biasSignalsGrok": [
-            "Republicans scramble",
-            "midterm pressure angle"
-          ],
-          "pubDate": "2026-07-12T14:54:02Z",
-          "clusterId": "lindsey-graham-death"
-        },
-        {
-          "id": "thehill-lindsey-graham-death-16",
-          "outletId": "thehill",
-          "outletName": "The Hill",
-          "headline": "Trump says Graham’s death is ‘big blow to the SAVE America Act’",
-          "url": "https://thehill.com/homenews/administration/5964574-trump-graham-save-america-act/",
-          "biasScore": 6,
-          "biasSignals": [
-            "frames death through Trump's legislative priorities",
-            "no critical framing of SAVE Act"
-          ],
-          "biasScoreGrok": 5.5,
-          "biasSignalsGrok": [
-            "SAVE America Act focus",
-            "Trump sympathetic quote"
-          ],
-          "pubDate": "2026-07-12T14:32:46Z",
-          "clusterId": "lindsey-graham-death"
-        },
-        {
-          "id": "nationalreview-lindsey-graham-death-23",
-          "outletId": "nationalreview",
-          "outletName": "National Review",
-          "headline": "Lindsey Graham Infuriated and Charmed His Critics",
-          "url": "https://www.nationalreview.com/2026/07/lindsey-graham-infuriated-and-charmed-his-critics/",
-          "biasScore": 6,
-          "biasSignals": [
-            "'Infuriated and Charmed' — balanced but conservative outlet",
-            "sympathetic overall framing"
-          ],
-          "biasScoreGrok": 4.5,
-          "biasSignalsGrok": [
-            "infuriated and charmed",
-            "critics balanced view"
-          ],
-          "pubDate": "Sun, 12 Jul 2026 19:06:55 +0000",
-          "clusterId": "lindsey-graham-death"
-        },
-        {
-          "id": "washexaminer-lindsey-graham-death-14",
-          "outletId": "washexaminer",
-          "outletName": "Washington Examiner",
-          "headline": "Senate GOP agenda suffers another setback with Lindsey Graham’s death",
-          "url": "https://www.washingtonexaminer.com/news/senate/4645900/senate-gop-agenda-lindsey-graham-death-one-seat-judiciary-committee-majority/",
-          "biasScore": 6.2,
-          "biasSignals": [
-            "'setback' frames Graham's death as Republican loss",
-            "sympathetic to Senate GOP agenda"
-          ],
-          "biasScoreGrok": 6.5,
-          "biasSignalsGrok": [
-            "GOP agenda setback",
-            "conservative framing"
-          ],
-          "pubDate": "Mon, 13 Jul 2026 16:05:26 +0000",
-          "clusterId": "lindsey-graham-death"
-        },
-        {
-          "id": "breitbart-lindsey-graham-death-9",
-          "outletId": "breitbart",
-          "outletName": "Breitbart",
-          "headline": "Trump: Graham’s Death a 'Big Blow to the SAVE America Act'",
-          "url": "https://www.breitbart.com/clips/2026/07/12/trump-grahams-death-a-big-blow-to-the-save-america-act/",
-          "biasScore": 6.5,
-          "biasSignals": [
-            "frames Graham's death through Trump legislative agenda lens",
-            "sympathetic to SAVE America Act priority"
-          ],
-          "biasScoreGrok": 6.8,
-          "biasSignalsGrok": [
-            "Trump quote on SAVE Act",
-            "conservative policy emphasis"
-          ],
-          "pubDate": "Sun, 12 Jul 2026 16:01:41 +0000",
-          "clusterId": "lindsey-graham-death"
-        },
-        {
-          "id": "nationalreview-lindsey-graham-death-22",
-          "outletId": "nationalreview",
-          "outletName": "National Review",
-          "headline": "Lindsey Graham, R.I.P.",
-          "url": "https://www.nationalreview.com/2026/07/lindsey-graham-rip/",
-          "biasScore": 6.5,
-          "biasSignals": [
-            "R.I.P. framing with conservative outlet reverence",
-            "no critical assessment of Graham"
-          ],
-          "biasScoreGrok": 5.8,
-          "biasSignalsGrok": [
-            "R.I.P. traditional note",
-            "conservative outlet tone"
-          ],
-          "pubDate": "Sun, 12 Jul 2026 19:10:19 +0000",
-          "clusterId": "lindsey-graham-death"
-        },
-        {
-          "id": "nationalreview-lindsey-graham-death-21",
-          "outletId": "nationalreview",
-          "outletName": "National Review",
-          "headline": "Lindsey Graham Was a Fierce Defender of the Pro-Life Cause",
-          "url": "https://www.nationalreview.com/2026/07/lindsey-graham-was-a-fierce-defender-of-the-pro-life-cause/",
-          "biasScore": 7,
-          "biasSignals": [
-            "'Fierce Defender of Pro-Life Cause' — ideological framing",
-            "sympathetic conservative obituary framing"
-          ],
-          "biasScoreGrok": 7,
-          "biasSignalsGrok": [
-            "pro-life defender praise",
-            "conservative cause sympathy"
-          ],
-          "pubDate": "Mon, 13 Jul 2026 13:40:21 +0000",
-          "clusterId": "lindsey-graham-death"
-        },
-        {
-          "id": "foxnews-lindsey-graham-death-8",
-          "outletId": "foxnews",
-          "outletName": "Fox News",
-          "headline": "Media ghouls, commentators across political aisle mock Lindsey Graham’s death with ‘good riddance’ posts",
-          "url": "https://www.foxnews.com/media/media-ghouls-commentators-political-aisle-mock-lindsey-graham-death-good-riddance-posts",
-          "biasScore": 7.5,
-          "biasSignals": [
-            "'Media ghouls' — charged attack on critics of Graham",
-            "frames left-wing reaction as morally monstrous"
-          ],
-          "biasScoreGrok": 7.5,
-          "biasSignalsGrok": [
-            "media ghouls charged term",
-            "mockery criticism of left"
-          ],
-          "pubDate": "2026-07-12T15:37:26.5058942Z",
-          "clusterId": "lindsey-graham-death"
-        }
-      ]
-    },
-    {
-      "id": "us-iran-strait-hormuz",
-      "topicLabel": "US and Iran exchange strikes over Strait of Hormuz",
-      "date": "2026-07-13",
-      "articles": [
-        {
-          "id": "theatlantic-us-iran-strait-hormuz-17",
+          "id": "theatlantic-iran-strait-of-hormuz-conflict-22",
           "outletId": "theatlantic",
           "outletName": "The Atlantic",
           "headline": "The War Trump Can’t Control",
           "url": "https://www.theatlantic.com/podcasts/2026/07/ra-iran-reescalation/687849/?utm_source=feed",
           "biasScore": 3.2,
           "biasSignals": [
-            "'War Trump Can't Control' — frames Trump as incompetent",
-            "implies administration lacks strategic coherence"
-          ],
-          "biasScoreGrok": 5.5,
-          "biasSignalsGrok": [
-            "war Trump can't control",
-            "critical framing"
-          ],
-          "pubDate": "Mon, 13 Jul 2026 08:40:00 -0400",
-          "clusterId": "us-iran-strait-hormuz"
-        },
-        {
-          "id": "cnn-us-iran-strait-hormuz-0",
-          "outletId": "cnn",
-          "outletName": "CNN",
-          "headline": "Iran war heats up while US weapon stocks remain depleted, risking military’s ability to fight future wars",
-          "url": "https://www.cnn.com/2026/07/12/politics/us-weapon-stocks-depleted-iran-war",
-          "biasScore": 3.5,
-          "biasSignals": [
-            "'Depleted' weapon stocks frames US vulnerability critically",
-            "implies policy failure without explicit blame"
-          ],
-          "biasScoreGrok": 7,
-          "biasSignalsGrok": [
-            "weapon stocks depleted",
-            "risking future wars"
-          ],
-          "pubDate": "2026-07-12T10:30:26Z",
-          "clusterId": "us-iran-strait-hormuz"
-        },
-        {
-          "id": "huffpost-us-iran-strait-hormuz-16",
-          "outletId": "huffpost",
-          "outletName": "HuffPost",
-          "headline": "Trump Suggests A Standing Order To Attack Iran If It Assassinates Him — But Vance Would Make The Call",
-          "url": "https://www.huffpost.com/entry/trump-suggests-standing-order-attack-iran-assassinates-him-vance-would-make-call_n_6a52ca0ae4b0aaa374289e03",
-          "biasScore": 3.5,
-          "biasSignals": [
-            "'Standing Order to Attack' frames Trump's policy as escalatory",
-            "'Vance Would Make The Call' implies instability concern"
-          ],
-          "biasScoreGrok": 5.8,
-          "biasSignalsGrok": [
-            "standing order suggestion",
-            "Vance would make call"
-          ],
-          "pubDate": "2026-07-11T23:02:35Z",
-          "clusterId": "us-iran-strait-hormuz"
-        },
-        {
-          "id": "msnbc-us-iran-strait-hormuz-2",
-          "outletId": "msnbc",
-          "outletName": "MSNBC",
-          "headline": "Iran targets Gulf states after U.S. strikes Iran over ship attack in strait",
-          "url": "https://www.ms.now/news/iran-targets-gulf-states-after-u-s-strikes-iran-over-ship-attack-in-strait",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral sequencing of events",
-            "no charged framing"
-          ],
-          "biasScoreGrok": 5.5,
-          "biasSignalsGrok": [
-            "Iran targets Gulf states",
-            "after U.S. strikes"
-          ],
-          "pubDate": "2026-07-12T13:43:22Z",
-          "clusterId": "us-iran-strait-hormuz"
-        },
-        {
-          "id": "ap-us-iran-strait-hormuz-14",
-          "outletId": "ap",
-          "outletName": "Associated Press",
-          "headline": "US has no 'dead man's switch' to attack Iran if it kills Trump",
-          "url": "https://apnews.com/article/trump-iran-threats-dead-mans-switch-vance-9f2fd9085fac9a0d67629ee9424d1fa4",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral factual framing of deterrence policy",
-            "no ideological loading"
-          ],
-          "biasScoreGrok": 4,
-          "biasSignalsGrok": [
-            "no dead man's switch",
-            "attack if kills Trump"
-          ],
-          "pubDate": "2026-07-11T16:48:05Z",
-          "clusterId": "us-iran-strait-hormuz"
-        },
-        {
-          "id": "huffpost-us-iran-strait-hormuz-15",
-          "outletId": "huffpost",
-          "outletName": "HuffPost",
-          "headline": "U.S. Attacks Iran Over Ship Being Hit In Strait Of Hormuz; Tehran Lashes Out Again At Gulf Arab States",
-          "url": "https://www.huffpost.com/entry/us-attacks-iran-over-ship-being-hit-in-strait-of-hormuz-tehran-lashes-out-again-gulf-arab-states_n_6a530612e4b09843d52b7444",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral sequencing of attacks",
-            "no charged language"
-          ],
-          "biasScoreGrok": 5,
-          "biasSignalsGrok": [
-            "U.S. attacks Iran",
-            "Tehran lashes out"
-          ],
-          "pubDate": "2026-07-12T03:31:15Z",
-          "clusterId": "us-iran-strait-hormuz"
-        },
-        {
-          "id": "cnn-us-iran-strait-hormuz-1",
-          "outletId": "cnn",
-          "outletName": "CNN",
-          "headline": "Hostilities resume with new US strikes on Iran and Gulf nations intercepting attacks",
-          "url": "https://www.cnn.com/2026/07/12/world/live-news/iran-war-trump",
-          "biasScore": 4.8,
-          "biasSignals": [
-            "neutral 'hostilities resume' language",
-            "no ideological loading in headline"
-          ],
-          "biasScoreGrok": 4.5,
-          "biasSignalsGrok": [
-            "hostilities resume",
-            "Gulf nations intercepting"
-          ],
-          "pubDate": "2026-07-12T05:11:46Z",
-          "clusterId": "us-iran-strait-hormuz"
-        },
-        {
-          "id": "yahoofinance-us-iran-strait-hormuz-11",
-          "outletId": "yahoofinance",
-          "outletName": "Yahoo Finance",
-          "headline": "Stock market today: Dow, S&P 500, Nasdaq slip as US and Iran exchange fire, oil jumps",
-          "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-july-13-dow-sp-nasdaq-113249278.html",
-          "biasScore": 4.8,
-          "biasSignals": [
-            "neutral market impact framing",
-            "no political ideological signals"
-          ],
-          "biasScoreGrok": 3.5,
-          "biasSignalsGrok": [
-            "stock market slip",
-            "oil jumps factual"
-          ],
-          "pubDate": "2026-07-13T11:32:49Z",
-          "clusterId": "us-iran-strait-hormuz"
-        },
-        {
-          "id": "neutralnews-us-iran-strait-hormuz-18",
-          "outletId": "neutralnews",
-          "outletName": "Neutral News",
-          "headline": "US and Iran Exchange Strikes as Standoff Over Strait of Hormuz Escalates",
-          "url": "https://www.neutralnews.us/article/261",
-          "biasScore": 4.8,
-          "biasSignals": [
-            "neutral 'standoff' and 'escalates' language",
-            "no ideological framing"
+            "'Can't Control' — critical framing of Trump",
+            "implies Trump incompetence on Iran"
           ],
           "biasScoreGrok": 3,
           "biasSignalsGrok": [
-            "exchange strikes neutral",
-            "standoff escalates"
+            "war Trump cannot control",
+            "critical framing"
           ],
-          "pubDate": "Mon, 13 Jul 2026 15:56:21 GMT",
-          "clusterId": "us-iran-strait-hormuz"
+          "pubDate": "Mon, 13 Jul 2026 08:40:00 -0400",
+          "clusterId": "iran-strait-of-hormuz-conflict"
         },
         {
-          "id": "neutralnews-us-iran-strait-hormuz-19",
-          "outletId": "neutralnews",
-          "outletName": "Neutral News",
-          "headline": "US and Iran Trade Strikes as Tensions Rise Over Strait of Hormuz",
-          "url": "https://www.neutralnews.us/article/256",
-          "biasScore": 4.8,
+          "id": "guardian-iran-strait-of-hormuz-conflict-9",
+          "outletId": "guardian",
+          "outletName": "The Guardian",
+          "headline": "First Thing: Trump threatens to impose US tolls on Hormuz shipping as strikes on Iran continue",
+          "url": "https://www.theguardian.com/us-news/2026/jul/14/first-thing-trump-us-tolls-hormuz-iran",
+          "biasScore": 3.5,
           "biasSignals": [
-            "neutral 'trade strikes' and 'tensions rise' language",
-            "no ideological signals"
+            "'threatens to impose' — mild critical framing of Trump",
+            "balanced but slightly left-leaning tone"
           ],
-          "biasScoreGrok": 3.2,
+          "biasScoreGrok": 3,
           "biasSignalsGrok": [
-            "trade strikes neutral",
-            "tensions rise"
+            "Trump threatens tolls",
+            "strikes continue noted"
           ],
-          "pubDate": "Sun, 12 Jul 2026 16:07:43 GMT",
-          "clusterId": "us-iran-strait-hormuz"
+          "pubDate": "Tue, 14 Jul 2026 10:22:41 GMT",
+          "clusterId": "iran-strait-of-hormuz-conflict"
         },
         {
-          "id": "cbsnews-us-iran-strait-hormuz-6",
+          "id": "vox-iran-strait-of-hormuz-conflict-21",
+          "outletId": "vox",
+          "outletName": "Vox",
+          "headline": "Is the Iran war back on for real?",
+          "url": "https://www.vox.com/politics/495263/trump-strait-hormuz-guardian-fees-iran",
+          "biasScore": 3.5,
+          "biasSignals": [
+            "'back on for real' — skeptical framing of war",
+            "mild left-leaning questioning tone"
+          ],
+          "biasScoreGrok": 3.5,
+          "biasSignalsGrok": [
+            "war back on",
+            "question framing"
+          ],
+          "pubDate": "2026-07-13T21:20:00.000Z",
+          "clusterId": "iran-strait-of-hormuz-conflict"
+        },
+        {
+          "id": "aljazeera-iran-strait-of-hormuz-conflict-6",
+          "outletId": "aljazeera",
+          "outletName": "Al Jazeera",
+          "headline": "What is Iran’s Pickaxe Mountain, the mystery site Trump warns he’ll attack?",
+          "url": "https://www.aljazeera.com/news/2026/7/14/what-is-irans-pickaxe-mountain-the-mystery-site-trump-warns-hell-attack?traffic_source=rss",
+          "biasScore": 4,
+          "biasSignals": [
+            "neutral 'mystery site' framing",
+            "no strong ideological loading"
+          ],
+          "biasScoreGrok": 4,
+          "biasSignalsGrok": [
+            "mystery site described",
+            "Trump warns noted"
+          ],
+          "pubDate": "Tue, 14 Jul 2026 10:11:22 +0000",
+          "clusterId": "iran-strait-of-hormuz-conflict"
+        },
+        {
+          "id": "aljazeera-iran-strait-of-hormuz-conflict-4",
+          "outletId": "aljazeera",
+          "outletName": "Al Jazeera",
+          "headline": "Can Gulf countries defend themselves against renewed Iranian attacks?",
+          "url": "https://www.aljazeera.com/news/2026/7/14/can-gulf-countries-defend-themselves-against-renewed-iranian-attacks?traffic_source=rss",
+          "biasScore": 4.2,
+          "biasSignals": [
+            "neutral analytical question framing",
+            "no strong ideological signals"
+          ],
+          "biasScoreGrok": 4.5,
+          "biasSignalsGrok": [
+            "Gulf defense question",
+            "renewed attacks emphasis"
+          ],
+          "pubDate": "Tue, 14 Jul 2026 10:59:02 +0000",
+          "clusterId": "iran-strait-of-hormuz-conflict"
+        },
+        {
+          "id": "cnbc-iran-strait-of-hormuz-conflict-11",
+          "outletId": "cnbc",
+          "outletName": "CNBC",
+          "headline": "Global shipping industry sounds the alarm over Trump’s Hormuz toll plan",
+          "url": "https://www.cnbc.com/2026/07/14/shipping-industry-trump-hormuz-toll-backfire.html",
+          "biasScore": 4.3,
+          "biasSignals": [
+            "industry 'sounds the alarm' — mild alarmist framing",
+            "neutral business sourcing"
+          ],
+          "biasScoreGrok": 3.5,
+          "biasSignalsGrok": [
+            "industry sounds alarm",
+            "Trump toll plan critical"
+          ],
+          "pubDate": "Tue, 14 Jul 2026 10:40:44 GMT",
+          "clusterId": "iran-strait-of-hormuz-conflict"
+        },
+        {
+          "id": "msnbc-iran-strait-of-hormuz-conflict-0",
+          "outletId": "msnbc",
+          "outletName": "MSNBC",
+          "headline": "U.S., Iran trade strikes over Strait of Hormuz closure",
+          "url": "https://www.ms.now/way-too-early/watch/u-s-iran-trade-strikes-over-strait-of-hormuz-closure-2506366531783",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral 'trade strikes' framing",
+            "no ideological loading detected"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "neutral verbs used",
+            "balanced description"
+          ],
+          "pubDate": "2026-07-13T09:49:36Z",
+          "clusterId": "iran-strait-of-hormuz-conflict"
+        },
+        {
+          "id": "nytimes-iran-strait-of-hormuz-conflict-2",
+          "outletId": "nytimes",
+          "outletName": "NY Times",
+          "headline": "Trump’s Plan to Charge a Toll in the Strait of Hormuz: What to Know",
+          "url": "https://www.nytimes.com/2026/07/14/world/middleeast/trump-iran-strait-hormuz-toll-oil.html",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral explainer format, 'what to know'",
+            "no charged language detected"
+          ],
+          "biasScoreGrok": 4,
+          "biasSignalsGrok": [
+            "Trump plan highlighted",
+            "neutral explanatory tone"
+          ],
+          "pubDate": "Tue, 14 Jul 2026 10:32:30 +0000",
+          "clusterId": "iran-strait-of-hormuz-conflict"
+        },
+        {
+          "id": "washpost-iran-strait-of-hormuz-conflict-3",
+          "outletId": "washpost",
+          "outletName": "Washington Post",
+          "headline": "U.S.-Iran airstrikes intensify as Tehran says deal is in ‘crisis phase’",
+          "url": "https://www.washingtonpost.com/world/2026/07/13/airstrikes-intensify-between-us-iran/",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral 'airstrikes intensify' framing",
+            "balanced sourcing, includes Tehran's perspective"
+          ],
+          "biasScoreGrok": 5.5,
+          "biasSignalsGrok": [
+            "airstrikes intensify noted",
+            "Tehran crisis framing"
+          ],
+          "pubDate": "2026-07-13T10:48:46Z",
+          "clusterId": "iran-strait-of-hormuz-conflict"
+        },
+        {
+          "id": "cbsnews-iran-strait-of-hormuz-conflict-10",
           "outletId": "cbsnews",
           "outletName": "CBS News",
           "headline": "Details on progress toward Iran peace agreement as Trump calls off strikes",
           "url": "https://www.cbsnews.com/video/details-on-progress-toward-iran-peace-agreement-as-trump-calls-off-strikes/",
-          "biasScore": 5,
+          "biasScore": 4.5,
           "biasSignals": [
-            "neutral progress-toward-peace framing",
-            "no ideological loading"
-          ],
-          "biasScoreGrok": 4,
-          "biasSignalsGrok": [
-            "progress toward peace",
-            "Trump calls off strikes"
-          ],
-          "pubDate": "2026-06-11T19:18:45+00:00",
-          "clusterId": "us-iran-strait-hormuz"
-        },
-        {
-          "id": "ap-us-iran-strait-hormuz-13",
-          "outletId": "ap",
-          "outletName": "Associated Press",
-          "headline": "US launches airstrikes on Iran; Tehran lashes out at Gulf states",
-          "url": "https://apnews.com/article/iran-usa-united-arab-emirates-attack-0764d17c09370a8c5cf1e8197a8878ab",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral 'launches' and 'lashes out' balanced verbs",
-            "AP neutral sourcing standard"
-          ],
-          "biasScoreGrok": 4.8,
-          "biasSignalsGrok": [
-            "US launches airstrikes",
-            "Tehran lashes out"
-          ],
-          "pubDate": "2026-07-12T02:45:09Z",
-          "clusterId": "us-iran-strait-hormuz"
-        },
-        {
-          "id": "bbc-us-iran-strait-hormuz-3",
-          "outletId": "bbc",
-          "outletName": "BBC",
-          "headline": "US insists Strait of Hormuz is open as it exchanges strikes with Iran",
-          "url": "https://www.bbc.co.uk/news/articles/cj9gkpp0dkeo",
-          "biasScore": 5.2,
-          "biasSignals": [
-            "'US insists' implies doubt about American claims",
-            "neutral international outlet framing"
-          ],
-          "biasScoreGrok": 3.8,
-          "biasSignalsGrok": [
-            "US insists strait open",
-            "exchanges strikes"
-          ],
-          "pubDate": "2026-07-12T17:07:24.7665322Z",
-          "clusterId": "us-iran-strait-hormuz"
-        },
-        {
-          "id": "bostonglobe-us-iran-strait-hormuz-10",
-          "outletId": "bostonglobe",
-          "outletName": "Boston Globe",
-          "headline": "Trump demands 20 percent toll for passage through Strait of Hormuz. Follow live updates.",
-          "url": "https://www.bostonglobe.com/2026/07/13/nation/trump-presidency-live-updates/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
-          "biasScore": 5.2,
-          "biasSignals": [
-            "neutral 'demands' language for toll proposal",
-            "live updates format neutral"
-          ],
-          "biasScoreGrok": 5.2,
-          "biasSignalsGrok": [
-            "demands 20 percent toll",
-            "follow live updates"
-          ],
-          "pubDate": "Mon, 13 Jul 2026 04:01:43 +0000",
-          "clusterId": "us-iran-strait-hormuz"
-        },
-        {
-          "id": "marketwatch-us-iran-strait-hormuz-12",
-          "outletId": "marketwatch",
-          "outletName": "MarketWatch",
-          "headline": "Global oil prices top $80 a barrel after Trump reimposes Strait of Hormuz blockade and charges 20% fee for cargo shipped through",
-          "url": "https://www.marketwatch.com/story/oil-prices-surge-as-much-as-5-after-iran-declares-strait-of-hormuz-is-closed-6905599b?mod=mw_rss_topstories",
-          "biasScore": 5.2,
-          "biasSignals": [
-            "neutral price reporting with factual cause attribution",
-            "no ideological framing"
+            "neutral progress-framing on peace agreement",
+            "balanced without ideological signals"
           ],
           "biasScoreGrok": 5.5,
           "biasSignalsGrok": [
-            "oil prices top $80",
-            "blockade and fee"
+            "peace agreement progress",
+            "Trump calls off noted"
           ],
-          "pubDate": "Mon, 13 Jul 2026 15:18:00 GMT",
-          "clusterId": "us-iran-strait-hormuz"
+          "pubDate": "2026-06-11T19:18:45+00:00",
+          "clusterId": "iran-strait-of-hormuz-conflict"
         },
         {
-          "id": "cnbc-us-iran-strait-hormuz-7",
-          "outletId": "cnbc",
-          "outletName": "CNBC",
-          "headline": "Trump proposes 20% toll on cargo through Strait of Hormuz; restarts Iran blockade",
-          "url": "https://www.cnbc.com/2026/07/13/trump-iran-hormuz-strait-charge-reimburse.html",
-          "biasScore": 5.5,
+          "id": "nbc-iran-strait-of-hormuz-conflict-17",
+          "outletId": "nbc",
+          "outletName": "NBC News",
+          "headline": "U.S., Iran locked in struggle for control of the Strait of Hormuz",
+          "url": "https://www.nbcnews.com/world/iran/us-iran-struggle-control-strait-hormuz-trump-attacks-energy-prices-rcna587244",
+          "biasScore": 4.5,
           "biasSignals": [
-            "neutral report of Trump's 20% toll proposal",
-            "factual 'restarts blockade' language"
+            "'locked in struggle' — neutral conflict framing",
+            "balanced sourcing with no ideological signals"
           ],
-          "biasScoreGrok": 6.5,
+          "biasScoreGrok": 5,
           "biasSignalsGrok": [
-            "20 percent toll proposal",
-            "restarts blockade"
+            "locked in struggle",
+            "control emphasis"
           ],
-          "pubDate": "Mon, 13 Jul 2026 16:55:29 GMT",
-          "clusterId": "us-iran-strait-hormuz"
+          "pubDate": "2026-07-13T10:50:20Z",
+          "clusterId": "iran-strait-of-hormuz-conflict"
         },
         {
-          "id": "axios-us-iran-strait-hormuz-8",
+          "id": "ap-iran-strait-of-hormuz-conflict-18",
+          "outletId": "ap",
+          "outletName": "Associated Press",
+          "headline": "Sen. McConnell breaks weeks of silence about health, US and Iran vie for Strait of Hormuz control",
+          "url": "https://apnews.com/newsletter/morning-wire/july-13-2026",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral 'vie for control' framing",
+            "balanced multi-topic AP format"
+          ],
+          "biasScoreGrok": 5.5,
+          "biasSignalsGrok": [
+            "McConnell silence broken",
+            "vie for control"
+          ],
+          "pubDate": "2026-07-13T10:44:19Z",
+          "clusterId": "iran-strait-of-hormuz-conflict"
+        },
+        {
+          "id": "ap-iran-strait-of-hormuz-conflict-19",
+          "outletId": "ap",
+          "outletName": "Associated Press",
+          "headline": "Oil prices jump 4% and Asian shares fall as US strikes at Iran",
+          "url": "https://apnews.com/article/stocks-markets-iran-trump-ai-2d6744b09c68b5473d0bc8584b89e60e",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral market impact framing",
+            "no ideological loading"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "oil prices jump",
+            "US strikes noted"
+          ],
+          "pubDate": "2026-07-13T03:59:32Z",
+          "clusterId": "iran-strait-of-hormuz-conflict"
+        },
+        {
+          "id": "ap-iran-strait-of-hormuz-conflict-20",
+          "outletId": "ap",
+          "outletName": "Associated Press",
+          "headline": "US ends latest round of airstrikes on Iran, Tehran strikes Gulf states",
+          "url": "https://apnews.com/article/iran-us-hormuz-strait-war-july-13-2026-6c2c44cfdd089d6393d18fa5930ed620",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral 'ends latest round' framing",
+            "balanced AP reporting style"
+          ],
+          "biasScoreGrok": 5.5,
+          "biasSignalsGrok": [
+            "airstrikes ended",
+            "Tehran strikes noted"
+          ],
+          "pubDate": "2026-07-13T02:45:04Z",
+          "clusterId": "iran-strait-of-hormuz-conflict"
+        },
+        {
+          "id": "neutralnews-iran-strait-of-hormuz-conflict-23",
+          "outletId": "neutralnews",
+          "outletName": "Neutral News",
+          "headline": "US and Iran Exchange Strikes as Tensions Rise Over Strait of Hormuz",
+          "url": "https://www.neutralnews.us/article/271",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral 'exchange strikes' framing",
+            "balanced, minimal ideological signals"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "exchange strikes",
+            "tensions rise noted"
+          ],
+          "pubDate": "Mon, 13 Jul 2026 17:30:13 GMT",
+          "clusterId": "iran-strait-of-hormuz-conflict"
+        },
+        {
+          "id": "neutralnews-iran-strait-of-hormuz-conflict-24",
+          "outletId": "neutralnews",
+          "outletName": "Neutral News",
+          "headline": "US and Iran Trade Strikes as Tensions Rise Over Strait of Hormuz",
+          "url": "https://www.neutralnews.us/article/256",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral 'trade strikes' framing",
+            "consistent neutral news wire tone"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "trade strikes",
+            "tensions rise noted"
+          ],
+          "pubDate": "Sun, 12 Jul 2026 16:07:43 GMT",
+          "clusterId": "iran-strait-of-hormuz-conflict"
+        },
+        {
+          "id": "nytimes-iran-strait-of-hormuz-conflict-1",
+          "outletId": "nytimes",
+          "outletName": "NY Times",
+          "headline": "Europe, Flexing Muscle in Ukraine, Is Still on Sidelines in Iran",
+          "url": "https://www.nytimes.com/2026/07/14/world/europe/macron-trump-bastille-day-military-parade.html",
+          "biasScore": 4.8,
+          "biasSignals": [
+            "Europe described as 'flexing muscle' — mild positive framing",
+            "neutral analytical tone overall"
+          ],
+          "biasScoreGrok": 4.5,
+          "biasSignalsGrok": [
+            "focus on Europe inaction",
+            "minimal ideological signals"
+          ],
+          "pubDate": "Tue, 14 Jul 2026 11:04:35 +0000",
+          "clusterId": "iran-strait-of-hormuz-conflict"
+        },
+        {
+          "id": "axios-iran-strait-of-hormuz-conflict-14",
           "outletId": "axios",
           "outletName": "Axios",
-          "headline": "Trump reimposes naval blockade on Iran amid escalating clashes in Hormuz",
+          "headline": "Oil jumps as Trump claims new Hormuz blockade on Iran",
+          "url": "https://www.axios.com/2026/07/13/oil-trump-us-iran-blockade-strait-hormuz",
+          "biasScore": 5,
+          "biasSignals": [
+            "neutral oil price reporting",
+            "no strong ideological loading"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "oil jumps reported",
+            "Trump claims noted"
+          ],
+          "pubDate": "Mon, 13 Jul 2026 19:31:28 +0000",
+          "clusterId": "iran-strait-of-hormuz-conflict"
+        },
+        {
+          "id": "axios-iran-strait-of-hormuz-conflict-15",
+          "outletId": "axios",
+          "outletName": "Axios",
+          "headline": "U.S. military to enforce new Iran blockade starting 4pm Tuesday",
           "url": "https://www.axios.com/2026/07/13/trump-iran-blockade-strait-hormuz",
           "biasScore": 5.5,
           "biasSignals": [
-            "neutral 'reimposes' language",
-            "factual escalation framing"
-          ],
-          "biasScoreGrok": 5.8,
-          "biasSignalsGrok": [
-            "reimposes naval blockade",
-            "escalating clashes"
-          ],
-          "pubDate": "Mon, 13 Jul 2026 15:35:02 +0000",
-          "clusterId": "us-iran-strait-hormuz"
-        },
-        {
-          "id": "aljazeera-us-iran-strait-hormuz-4",
-          "outletId": "aljazeera",
-          "outletName": "Al Jazeera",
-          "headline": "Trump: US will ‘take over’ Strait of Hormuz",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/13/trump-us-will-take-over-strait-of-hormuz?traffic_source=rss",
-          "biasScore": 5.8,
-          "biasSignals": [
-            "neutral reporting of Trump's 'take over' claim",
-            "no critical or supportive framing"
+            "matter-of-fact military enforcement framing",
+            "slightly authoritative US-favorable tone"
           ],
           "biasScoreGrok": 6,
           "biasSignalsGrok": [
-            "Trump take over quote",
-            "blockade context"
+            "enforce new blockade",
+            "starting time specific"
           ],
-          "pubDate": "Mon, 13 Jul 2026 15:41:07 +0000",
-          "clusterId": "us-iran-strait-hormuz"
+          "pubDate": "Mon, 13 Jul 2026 18:28:40 +0000",
+          "clusterId": "iran-strait-of-hormuz-conflict"
         },
         {
-          "id": "timesofisrael-us-iran-strait-hormuz-9",
-          "outletId": "timesofisrael",
-          "outletName": "Times of Israel",
-          "headline": "Trump says US ‘guardian’ of Hormuz, will charge ‘20% on all cargo’ traversing strait",
-          "url": "https://www.timesofisrael.com/iran-fires-warning-shots-at-2-ships-in-strait-of-hormuz-as-clashes-with-us-intensify/",
-          "biasScore": 5.8,
-          "biasSignals": [
-            "neutral report of Trump's 'guardian' claim",
-            "factual cargo charge detail"
-          ],
-          "biasScoreGrok": 5,
-          "biasSignalsGrok": [
-            "guardian of Hormuz",
-            "20 percent cargo charge"
-          ],
-          "pubDate": "Mon, 13 Jul 2026 14:21:05 +0000",
-          "clusterId": "us-iran-strait-hormuz"
-        },
-        {
-          "id": "breitbart-us-iran-strait-hormuz-5",
-          "outletId": "breitbart",
-          "outletName": "Breitbart",
-          "headline": "Dire Strait: Iran Hits Oman, Bahrain, Jordan and Kuwait as It Again Claims Sole Control of Hormuz Waterway",
-          "url": "https://www.breitbart.com/europe/2026/07/13/iran-hits-oman-bahrain-jordan-and-kuwait-as-it-again-claims-sole-control-of-strait-of-hormuz/",
-          "biasScore": 7.5,
-          "biasSignals": [
-            "'Dire Strait' — alarmist headline framing Iran aggression",
-            "emphasizes Iranian threat to US allies"
-          ],
-          "biasScoreGrok": 8.2,
-          "biasSignalsGrok": [
-            "dire strait charged",
-            "Iran hits multiple nations"
-          ],
-          "pubDate": "Mon, 13 Jul 2026 09:33:16 +0000",
-          "clusterId": "us-iran-strait-hormuz"
-        }
-      ]
-    },
-    {
-      "id": "maine-senate-platner-race",
-      "topicLabel": "Maine Democrats seek replacement for Senate candidate Platner",
-      "date": "2026-07-13",
-      "articles": [
-        {
-          "id": "thehill-maine-senate-platner-race-6",
-          "outletId": "thehill",
-          "outletName": "The Hill",
-          "headline": "Democrats apply 2024 lessons in Maine with Platner replacement process",
-          "url": "https://thehill.com/homenews/campaign/5963392-maine-senate-platner-biden-harris-lessons/",
-          "biasScore": 3.5,
-          "biasSignals": [
-            "sympathetic 'lessons' framing for Democrats",
-            "no critical framing of Democratic process"
-          ],
-          "biasScoreGrok": 4.2,
-          "biasSignalsGrok": [
-            "apply 2024 lessons",
-            "replacement process"
-          ],
-          "pubDate": "2026-07-12T10:00:00Z",
-          "clusterId": "maine-senate-platner-race"
-        },
-        {
-          "id": "msnbc-maine-senate-platner-race-0",
-          "outletId": "msnbc",
-          "outletName": "MSNBC",
-          "headline": "Maine Democrats seek a Platner-like change agent — ‘without the baggage’",
-          "url": "https://www.ms.now/news/maine-democrats-seek-a-platner-like-change-agent-without-the-baggage",
-          "biasScore": 3.8,
-          "biasSignals": [
-            "'Change agent without the baggage' — sympathetic to progressive framing",
-            "frames Platner exit as opportunity, not scandal"
-          ],
-          "biasScoreGrok": 5,
-          "biasSignalsGrok": [
-            "Platner-like change agent",
-            "without the baggage"
-          ],
-          "pubDate": "2026-07-12T09:00:00Z",
-          "clusterId": "maine-senate-platner-race"
-        },
-        {
-          "id": "npr-maine-senate-platner-race-3",
-          "outletId": "npr",
-          "outletName": "NPR",
-          "headline": "Maine Secretary of State Shenna Bellows on her bid to replace Platner in Senate race",
-          "url": "https://www.npr.org/2026/07/13/nx-s1-5888574/maine-secretary-of-state-shenna-bellows-on-her-bid-to-replace-platner-in-senate-race",
-          "biasScore": 3.8,
-          "biasSignals": [
-            "sympathetic profile framing of Bellows candidacy",
-            "no critical framing of Democratic process"
-          ],
-          "biasScoreGrok": 3.5,
-          "biasSignalsGrok": [
-            "Bellows bid neutral",
-            "secretary of state"
-          ],
-          "pubDate": "Mon, 13 Jul 2026 04:48:19 -0400",
-          "clusterId": "maine-senate-platner-race"
-        },
-        {
-          "id": "npr-maine-senate-platner-race-2",
-          "outletId": "npr",
-          "outletName": "NPR",
-          "headline": "Maine Democrats scramble to select replacement for Platner in Senate race",
-          "url": "https://www.npr.org/2026/07/13/nx-s1-5888430/maine-democrats-scramble-to-select-replacement-for-platner-in-senate-race",
-          "biasScore": 4,
-          "biasSignals": [
-            "'Scramble' implies urgency without partisan judgment",
-            "neutral framing of replacement process"
-          ],
-          "biasScoreGrok": 3.8,
-          "biasSignalsGrok": [
-            "scramble to select",
-            "replacement process"
-          ],
-          "pubDate": "Mon, 13 Jul 2026 04:48:28 -0400",
-          "clusterId": "maine-senate-platner-race"
-        },
-        {
-          "id": "nytimes-maine-senate-platner-race-1",
-          "outletId": "nytimes",
-          "outletName": "NY Times",
-          "headline": "Maine Democrats to Chuck Schumer: Stay Out of Our Senate Race",
-          "url": "https://www.nytimes.com/2026/07/13/us/politics/maine-democrats-schumer-stay-out-senate-race.html",
-          "biasScore": 4.2,
-          "biasSignals": [
-            "neutral reporting of intraparty tension",
-            "no ideological loading"
-          ],
-          "biasScoreGrok": 4.8,
-          "biasSignalsGrok": [
-            "Schumer stay out",
-            "Maine Democrats focus"
-          ],
-          "pubDate": "Mon, 13 Jul 2026 09:02:46 +0000",
-          "clusterId": "maine-senate-platner-race"
-        },
-        {
-          "id": "neutralnews-maine-senate-platner-race-7",
-          "outletId": "neutralnews",
-          "outletName": "Neutral News",
-          "headline": "Graham Platner Withdraws From Maine Senate Race",
-          "url": "https://www.neutralnews.us/article/258",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral factual withdrawal report",
-            "no ideological framing"
-          ],
-          "biasScoreGrok": 2.8,
-          "biasSignalsGrok": [
-            "withdraws from race",
-            "neutral report"
-          ],
-          "pubDate": "Sun, 12 Jul 2026 16:07:43 GMT",
-          "clusterId": "maine-senate-platner-race"
-        },
-        {
-          "id": "economist-maine-senate-platner-race-4",
-          "outletId": "economist",
-          "outletName": "The Economist",
-          "headline": "What Graham Platner’s collapse means for the Democrats",
-          "url": "https://www.economist.com/united-states/2026/07/07/what-graham-platners-collapse-means-for-the-democrats",
-          "biasScore": 5.2,
-          "biasSignals": [
-            "'Collapse' — neutral but dramatic framing of Platner exit",
-            "analytical tone without partisan sympathy"
-          ],
-          "biasScoreGrok": 4.5,
-          "biasSignalsGrok": [
-            "Platner collapse analysis",
-            "Democrats implications"
-          ],
-          "pubDate": "Tue, 07 Jul 2026 19:16:31 +0000",
-          "clusterId": "maine-senate-platner-race"
-        },
-        {
-          "id": "washexaminer-maine-senate-platner-race-5",
+          "id": "washexaminer-iran-strait-of-hormuz-conflict-13",
           "outletId": "washexaminer",
           "outletName": "Washington Examiner",
-          "headline": "Mamdani to continue to work with Morris Katz after Platner scandal",
-          "url": "https://www.washingtonexaminer.com/news/campaigns/4645945/mamdani-continue-work-strategist-morris-katz-after-platner-scandal/",
-          "biasScore": 6,
+          "headline": "One dead after Iran attacks two tankers in Strait of Hormuz, UAE says",
+          "url": "https://www.washingtonexaminer.com/news/world/4647107/iran-attacks-two-tankers-hormuz-uae/",
+          "biasScore": 6.5,
           "biasSignals": [
-            "implies scandal connection with Katz continued work",
-            "conservative outlet skeptical framing of Democrat"
-          ],
-          "biasScoreGrok": 4,
-          "biasSignalsGrok": [
-            "Mamdani continue work",
-            "after Platner scandal"
-          ],
-          "pubDate": "Mon, 13 Jul 2026 16:50:04 +0000",
-          "clusterId": "maine-senate-platner-race"
-        }
-      ]
-    },
-    {
-      "id": "ice-shooting-maine",
-      "topicLabel": "ICE agents fatally shoot driver in Maine",
-      "date": "2026-07-13",
-      "articles": [
-        {
-          "id": "guardian-ice-shooting-maine-2",
-          "outletId": "guardian",
-          "outletName": "The Guardian",
-          "headline": "Person reported killed during ICE operation in Maine, state house speaker says – US politics live",
-          "url": "https://www.theguardian.com/us-news/live/2026/jul/13/congress-capitol-lindsey-graham-trump-republicans-democrats-us-politics-latest-news-updates",
-          "biasScore": 3,
-          "biasSignals": [
-            "'Person reported killed during ICE operation' — victim framing",
-            "ACLU-aligned sourcing via state house speaker"
-          ],
-          "biasScoreGrok": 3.8,
-          "biasSignalsGrok": [
-            "reported killed",
-            "US politics live"
-          ],
-          "pubDate": "Mon, 13 Jul 2026 16:40:33 GMT",
-          "clusterId": "ice-shooting-maine"
-        },
-        {
-          "id": "guardian-ice-shooting-maine-3",
-          "outletId": "guardian",
-          "outletName": "The Guardian",
-          "headline": "Person killed in shooting involving ICE agents in Maine, reports say",
-          "url": "https://www.theguardian.com/us-news/2026/jul/13/maine-ice-shooting-death",
-          "biasScore": 3.2,
-          "biasSignals": [
-            "'Person killed in shooting involving ICE agents' — victim-centered",
-            "passive framing minimizes driver's alleged actions"
-          ],
-          "biasScoreGrok": 3.2,
-          "biasSignalsGrok": [
-            "killed in shooting",
-            "reports say"
-          ],
-          "pubDate": "Mon, 13 Jul 2026 14:42:05 GMT",
-          "clusterId": "ice-shooting-maine"
-        },
-        {
-          "id": "aljazeera-ice-shooting-maine-0",
-          "outletId": "aljazeera",
-          "outletName": "Al Jazeera",
-          "headline": "Person killed in shooting involving ICE agents in US state of Maine",
-          "url": "https://www.aljazeera.com/news/2026/7/13/person-killed-in-shooting-involving-ice-agents-in-us-state-of-maine?traffic_source=rss",
-          "biasScore": 3.5,
-          "biasSignals": [
-            "'Person killed in shooting involving ICE' — victim-forward framing",
-            "passive construction downplays driver's alleged attack"
-          ],
-          "biasScoreGrok": 3,
-          "biasSignalsGrok": [
-            "person killed neutral",
-            "ICE operation"
-          ],
-          "pubDate": "Mon, 13 Jul 2026 16:11:38 +0000",
-          "clusterId": "ice-shooting-maine"
-        },
-        {
-          "id": "independent-ice-shooting-maine-4",
-          "outletId": "independent",
-          "outletName": "The Independent",
-          "headline": "ICE shooting victim identified as 26-year-old as questions swirl over how traffic incident turned deadly",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/ice-biddeford-maine-shooting-b3013920.html",
-          "biasScore": 3.5,
-          "biasSignals": [
-            "'Questions swirl over how traffic incident turned deadly' — skeptical of ICE",
-            "'Victim identified' language centers deceased not agents"
-          ],
-          "biasScoreGrok": 4,
-          "biasSignalsGrok": [
-            "victim identified",
-            "questions swirl"
-          ],
-          "pubDate": "Mon, 13 Jul 2026 13:48:32 GMT",
-          "clusterId": "ice-shooting-maine"
-        },
-        {
-          "id": "nypost-ice-shooting-maine-1",
-          "outletId": "nypost",
-          "outletName": "NY Post",
-          "headline": "ICE fatally shoots driver in Maine after he tried to mow down agents: authorities",
-          "url": "https://nypost.com/2026/07/13/us-news/ice-fatally-shoots-driver-in-maine-after-he-tried-to-mow-down-agents-authorities/",
-          "biasScore": 7.5,
-          "biasSignals": [
-            "'Mow down agents' — frames driver as attacker, agents as victims",
-            "sympathetic to ICE, uses 'authorities' as trusted source"
-          ],
-          "biasScoreGrok": 6.5,
-          "biasSignalsGrok": [
-            "tried to mow down",
-            "agents authorities"
-          ],
-          "pubDate": "Mon, 13 Jul 2026 11:44:30 -0400",
-          "clusterId": "ice-shooting-maine"
-        }
-      ]
-    },
-    {
-      "id": "trump-irs-judge-sanctions",
-      "topicLabel": "Judge sanctions Trump lawyers over IRS settlement",
-      "date": "2026-07-13",
-      "articles": [
-        {
-          "id": "independent-trump-irs-judge-sanctions-5",
-          "outletId": "independent",
-          "outletName": "The Independent",
-          "headline": "Judge sanctions Trump lawyers over IRS ‘settlement’ in brutal takedown",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-irs-settlement-slush-fund-lawsuit-b3014060.html",
-          "biasScore": 2.8,
-          "biasSignals": [
-            "'Brutal takedown' — dramatic framing favoring judge over Trump",
-            "implies Trump lawyers deserve rebuke"
-          ],
-          "biasScoreGrok": 6.2,
-          "biasSignalsGrok": [
-            "brutal takedown",
-            "over IRS settlement"
-          ],
-          "pubDate": "Mon, 13 Jul 2026 16:19:27 GMT",
-          "clusterId": "trump-irs-judge-sanctions"
-        },
-        {
-          "id": "forbes-trump-irs-judge-sanctions-2",
-          "outletId": "forbes",
-          "outletName": "Forbes",
-          "headline": "Judge Smacks Down Trump’s IRS Settlement And Orders Sanctions",
-          "url": "https://www.forbes.com/sites/alisondurkee/2026/07/13/judge-smacks-down-trumps-irs-settlement-and-orders-sanctions/",
-          "biasScore": 3,
-          "biasSignals": [
-            "'Smacks Down' — charged verb framing Trump defeat",
-            "'Orders Sanctions' emphasizes punitive action against Trump"
+            "Iran portrayed as aggressor attacking tankers",
+            "right-leaning framing of Iranian threat"
           ],
           "biasScoreGrok": 6,
           "biasSignalsGrok": [
-            "smacks down IRS",
-            "orders sanctions"
+            "Iran attacks noted",
+            "UAE says reported"
           ],
-          "pubDate": "Mon, 13 Jul 2026 12:05:38 -0400",
-          "clusterId": "trump-irs-judge-sanctions"
+          "pubDate": "Tue, 14 Jul 2026 02:03:11 +0000",
+          "clusterId": "iran-strait-of-hormuz-conflict"
         },
         {
-          "id": "independent-trump-irs-judge-sanctions-4",
-          "outletId": "independent",
-          "outletName": "The Independent",
-          "headline": "Trump’s legal team sanctioned by judge for potential disciplinary action over slush fund",
-          "url": "https://www.independent.co.uk/bulletin/news/trump-legal-team-irs-slush-fund-alejandro-brito-b3014082.html",
-          "biasScore": 3.2,
+          "id": "foxnews-iran-strait-of-hormuz-conflict-7",
+          "outletId": "foxnews",
+          "outletName": "Fox News",
+          "headline": "The US launches a new wave of strikes in the war against Iran",
+          "url": "https://www.foxnews.com/live-news/iran-war-trump-israel-hormuz-july-13",
+          "biasScore": 7,
           "biasSignals": [
-            "'Legal team sanctioned' — frames Trump org as penalized",
-            "'Slush fund' language is charged and dismissive"
-          ],
-          "biasScoreGrok": 5.8,
-          "biasSignalsGrok": [
-            "sanctioned for slush fund",
-            "potential disciplinary"
-          ],
-          "pubDate": "Mon, 13 Jul 2026 16:58:39 GMT",
-          "clusterId": "trump-irs-judge-sanctions"
-        },
-        {
-          "id": "nytimes-trump-irs-judge-sanctions-0",
-          "outletId": "nytimes",
-          "outletName": "NY Times",
-          "headline": "Judge Denounces Trump’s I.R.S. Suit as Improper Exercise in Self-Dealing",
-          "url": "https://www.nytimes.com/2026/07/13/us/politics/trump-irs-suit.html",
-          "biasScore": 3.5,
-          "biasSignals": [
-            "'Denounces' and 'Self-Dealing' — charged language critical of Trump",
-            "frames judge as moral authority against Trump"
-          ],
-          "biasScoreGrok": 6.8,
-          "biasSignalsGrok": [
-            "denounces self-dealing",
-            "improper exercise"
-          ],
-          "pubDate": "Mon, 13 Jul 2026 17:02:18 +0000",
-          "clusterId": "trump-irs-judge-sanctions"
-        },
-        {
-          "id": "cnbc-trump-irs-judge-sanctions-1",
-          "outletId": "cnbc",
-          "outletName": "CNBC",
-          "headline": "Judge says Trump sued IRS for 'improper purpose'; refers his lawyer to bar",
-          "url": "https://www.cnbc.com/2026/07/13/trump-irs-doj-lawsuit-blanche.html",
-          "biasScore": 4,
-          "biasSignals": [
-            "'Improper purpose' quoted neutrally",
-            "bar referral noted without dramatic framing"
+            "'war against Iran' — strong hawkish framing",
+            "US cast as aggressor-hero in clear conflict"
           ],
           "biasScoreGrok": 6.5,
           "biasSignalsGrok": [
-            "improper purpose",
-            "refers to bar"
+            "new wave of strikes",
+            "war against Iran"
           ],
-          "pubDate": "Mon, 13 Jul 2026 16:49:42 GMT",
-          "clusterId": "trump-irs-judge-sanctions"
+          "pubDate": "2026-07-13T10:52:24.7816375Z",
+          "clusterId": "iran-strait-of-hormuz-conflict"
         },
         {
-          "id": "axios-trump-irs-judge-sanctions-3",
-          "outletId": "axios",
-          "outletName": "Axios",
-          "headline": "Judge sanctions Trump's lawyers for IRS settlement, anti-weaponization fund",
-          "url": "https://www.axios.com/2026/07/13/judge-trump-irs-settlement-anti-weaponization-fund",
-          "biasScore": 4,
+          "id": "breitbart-iran-strait-of-hormuz-conflict-8",
+          "outletId": "breitbart",
+          "outletName": "Breitbart",
+          "headline": "GOP Sen. Marshall: Gulf States Should 'Finish the Job' with Iran, 'We've Done Our Job'",
+          "url": "https://www.breitbart.com/clips/2026/07/13/gop-sen-marshall-gulf-states-should-finish-the-job-with-iran-weve-done-our-job/",
+          "biasScore": 7.5,
           "biasSignals": [
-            "neutral 'sanctions' language",
-            "'anti-weaponization fund' named without editorial comment"
+            "'Finish the Job' — hawkish, triumphalist framing",
+            "Gulf States and US cast as victors"
           ],
-          "biasScoreGrok": 5.5,
+          "biasScoreGrok": 7.5,
           "biasSignalsGrok": [
-            "sanctions for settlement",
-            "anti-weaponization fund"
+            "GOP Sen quote",
+            "finish the job framing"
           ],
-          "pubDate": "Mon, 13 Jul 2026 17:04:04 +0000",
-          "clusterId": "trump-irs-judge-sanctions"
+          "pubDate": "Tue, 14 Jul 2026 03:57:46 +0000",
+          "clusterId": "iran-strait-of-hormuz-conflict"
+        },
+        {
+          "id": "washexaminer-iran-strait-of-hormuz-conflict-12",
+          "outletId": "washexaminer",
+          "outletName": "Washington Examiner",
+          "headline": "Trump returns to war with Iran from ‘position of strength’",
+          "url": "https://www.washingtonexaminer.com/news/white-house/4646825/trump-iran-war-return-position-of-strength/",
+          "biasScore": 7.5,
+          "biasSignals": [
+            "'position of strength' — Trump-favorable framing",
+            "hawkish, approving tone toward US military action"
+          ],
+          "biasScoreGrok": 7,
+          "biasSignalsGrok": [
+            "position of strength",
+            "returns to war"
+          ],
+          "pubDate": "Tue, 14 Jul 2026 11:00:00 +0000",
+          "clusterId": "iran-strait-of-hormuz-conflict"
+        },
+        {
+          "id": "nationalreview-iran-strait-of-hormuz-conflict-16",
+          "outletId": "nationalreview",
+          "outletName": "National Review",
+          "headline": "The End of a ‘Phony Peace’ with Iran",
+          "url": "https://www.nationalreview.com/2026/07/the-end-of-a-phony-peace-with-iran/",
+          "biasScore": 7.5,
+          "biasSignals": [
+            "'Phony Peace' — dismissive of diplomacy",
+            "hawkish conservative framing of Iran conflict"
+          ],
+          "biasScoreGrok": 7.5,
+          "biasSignalsGrok": [
+            "phony peace ended",
+            "conservative framing"
+          ],
+          "pubDate": "Tue, 14 Jul 2026 10:30:13 +0000",
+          "clusterId": "iran-strait-of-hormuz-conflict"
         }
       ]
     },
     {
-      "id": "ann-widdecombe-death-investigation",
-      "topicLabel": "UK politician Ann Widdecombe killed; counter-terror probe",
-      "date": "2026-07-13",
+      "id": "lindsey-graham-death-senate",
+      "topicLabel": "Senator Lindsey Graham dies, Senate seat succession",
+      "date": "2026-07-14",
       "articles": [
         {
-          "id": "aljazeera-ann-widdecombe-death-investigation-1",
-          "outletId": "aljazeera",
-          "outletName": "Al Jazeera",
-          "headline": "Anti-terror police take over probe into death of UK politician Widdecombe",
-          "url": "https://www.aljazeera.com/news/2026/7/13/anti-terror-police-take-over-probe-into-death-of-uk-politician-widdecombe?traffic_source=rss",
-          "biasScore": 4.5,
+          "id": "huffpost-lindsey-graham-death-senate-25",
+          "outletId": "huffpost",
+          "outletName": "HuffPost",
+          "headline": "GOP Strategist Pens Scathing Tribute To 'Parasitic Sucker Fish' Lindsey Graham",
+          "url": "https://www.huffpost.com/entry/steve-schmidt-lindsey-graham-eulogy_n_6a54a3c7e4b0107f0db69201",
+          "biasScore": 2,
           "biasSignals": [
-            "neutral 'anti-terror police take over' language",
-            "no ideological loading"
-          ],
-          "biasScoreGrok": 4,
-          "biasSignalsGrok": [
-            "anti-terror police",
-            "take over probe"
-          ],
-          "pubDate": "Mon, 13 Jul 2026 16:02:39 +0000",
-          "clusterId": "ann-widdecombe-death-investigation"
-        },
-        {
-          "id": "neutralnews-ann-widdecombe-death-investigation-6",
-          "outletId": "neutralnews",
-          "outletName": "Neutral News",
-          "headline": "Reports of Ann Widdecombe's Death Cannot Be Verified",
-          "url": "https://www.neutralnews.us/article/264",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "cautious verification language — neutral framing",
-            "no ideological signals"
+            "'Parasitic Sucker Fish' — extreme negative framing",
+            "editorial insult presented approvingly"
           ],
           "biasScoreGrok": 2,
           "biasSignalsGrok": [
-            "cannot be verified",
-            "pure neutral caution"
+            "parasitic sucker fish",
+            "scathing tribute"
           ],
-          "pubDate": "Mon, 13 Jul 2026 15:56:21 GMT",
-          "clusterId": "ann-widdecombe-death-investigation"
+          "pubDate": "2026-07-13T09:16:13Z",
+          "clusterId": "lindsey-graham-death-senate"
         },
         {
-          "id": "bbc-ann-widdecombe-death-investigation-0",
-          "outletId": "bbc",
-          "outletName": "BBC",
-          "headline": "Nothing to suggest Ann Widdecombe killing was politically motivated, police say",
-          "url": "https://www.bbc.co.uk/news/articles/c8628q3eqdeo",
-          "biasScore": 4.8,
+          "id": "huffpost-lindsey-graham-death-senate-27",
+          "outletId": "huffpost",
+          "outletName": "HuffPost",
+          "headline": "'What The F**K Is Your Problem': Katie Miller Shredded Over Lindsey Graham-Related Retort",
+          "url": "https://www.huffpost.com/entry/katie-miller-lindsey-graham-retort-backlash_n_6a5482bde4b09843d52bb3c4",
+          "biasScore": 2,
           "biasSignals": [
-            "neutral 'not politically motivated' police statement",
-            "no ideological framing"
+            "'Shredded' — aggressive attack framing on Trump ally",
+            "profanity-laden headline approving of criticism"
           ],
           "biasScoreGrok": 2.5,
           "biasSignalsGrok": [
-            "nothing to suggest",
-            "politically motivated"
+            "what the f**k",
+            "Katie Miller shredded"
           ],
-          "pubDate": "2026-07-12T11:07:22.1167397Z",
-          "clusterId": "ann-widdecombe-death-investigation"
+          "pubDate": "2026-07-13T07:29:25Z",
+          "clusterId": "lindsey-graham-death-senate"
         },
         {
-          "id": "independent-ann-widdecombe-death-investigation-5",
-          "outletId": "independent",
-          "outletName": "The Independent",
-          "headline": "Ann Widdecombe’s murder investigation becomes terror probe as suspect re-arrested",
-          "url": "https://www.independent.co.uk/news/uk/crime/ann-widdecombe-death-latest-news-police-suspect-b3014021.html",
-          "biasScore": 4.8,
+          "id": "huffpost-lindsey-graham-death-senate-24",
+          "outletId": "huffpost",
+          "outletName": "HuffPost",
+          "headline": "Kash Patel's Response To Lindsey Graham's Death Prompts Ridicule",
+          "url": "https://www.huffpost.com/entry/kash-patel-fbi-assisting-lindsey-graham-reckless_n_6a549e14e4b04a4b8d2dc59d",
+          "biasScore": 2.5,
           "biasSignals": [
-            "neutral 'murder investigation becomes terror probe'",
-            "no ideological loading"
+            "'Prompts Ridicule' — mocking right figure",
+            "left-sympathetic framing of Patel criticism"
           ],
-          "biasScoreGrok": 4.8,
+          "biasScoreGrok": 2.5,
           "biasSignalsGrok": [
-            "becomes terror probe",
-            "suspect re-arrested"
+            "prompts ridicule",
+            "Kash Patel response"
           ],
-          "pubDate": "Mon, 13 Jul 2026 17:04:13 GMT",
-          "clusterId": "ann-widdecombe-death-investigation"
+          "pubDate": "2026-07-13T10:26:08Z",
+          "clusterId": "lindsey-graham-death-senate"
         },
         {
-          "id": "dailymail-ann-widdecombe-death-investigation-3",
-          "outletId": "dailymail",
-          "outletName": "Daily Mail",
-          "headline": "New CCTV shows Ann Widdecombe 'murder' suspect being arrested by armed police - as counter terror cops probe ex-MP's death",
-          "url": "\n\thttps://www.dailymail.com/news/article-15973541/Counter-terror-police-leading-Ann-Widdecombe-murder-investigation-ex-MP-dead-home.html?ns_mchannel=rss&ito=1490&ns_campaign=1490\n      ",
-          "biasScore": 5,
+          "id": "msnbc-lindsey-graham-death-senate-0",
+          "outletId": "msnbc",
+          "outletName": "MSNBC",
+          "headline": "Lindsey Graham’s death deepens the GOP’s headaches caused by McConnell’s absence",
+          "url": "https://www.ms.now/news/lindsey-graham-death-gop-headaches-mcconnell-absence",
+          "biasScore": 3.5,
           "biasSignals": [
-            "neutral CCTV reporting",
-            "scare quotes around 'murder' maintain factual caution"
-          ],
-          "biasScoreGrok": 5,
-          "biasSignalsGrok": [
-            "murder suspect CCTV",
-            "counter terror cops"
-          ],
-          "pubDate": "Mon, 13 Jul 2026 18:07:41 +0100",
-          "clusterId": "ann-widdecombe-death-investigation"
-        },
-        {
-          "id": "dailymail-ann-widdecombe-death-investigation-4",
-          "outletId": "dailymail",
-          "outletName": "Daily Mail",
-          "headline": "Commons Speaker slaps down Reform UK over claims he doesn't 'care at all' about safety of party's MPs in wake of Ann Widdecombe 'murder'",
-          "url": "\n\thttps://www.dailymail.com/news/article-15974277/Commons-Speaker-slaps-Reform-UK-claims-doesnt-care-safety-partys-MPs-wake-Ann-Widdecombe-murder.html?ns_mchannel=rss&ito=1490&ns_campaign=1490\n      ",
-          "biasScore": 5.2,
-          "biasSignals": [
-            "neutral 'slaps down' is mildly charged",
-            "Reform UK concerns presented without strong framing"
-          ],
-          "biasScoreGrok": 5.5,
-          "biasSignalsGrok": [
-            "slaps down Reform UK",
-            "safety of MPs"
-          ],
-          "pubDate": "Mon, 13 Jul 2026 18:03:19 +0100",
-          "clusterId": "ann-widdecombe-death-investigation"
-        },
-        {
-          "id": "breitbart-ann-widdecombe-death-investigation-2",
-          "outletId": "breitbart",
-          "outletName": "Breitbart",
-          "headline": "Counter-Terror Police Take Over Investigation Into Slain Brexiteer Lawmaker Ann Widdecombe",
-          "url": "https://www.breitbart.com/europe/2026/07/13/counter-terror-police-take-over-investigation-into-slain-brexiteer-lawmaker-ann-widdecombe/",
-          "biasScore": 7,
-          "biasSignals": [
-            "'Slain Brexiteer Lawmaker' — martyrdom framing for right-wing figure",
-            "conservative outlet emphasizes political identity of victim"
-          ],
-          "biasScoreGrok": 6.8,
-          "biasSignalsGrok": [
-            "slain Brexiteer lawmaker",
-            "counter-terror probe"
-          ],
-          "pubDate": "Mon, 13 Jul 2026 12:59:46 +0000",
-          "clusterId": "ann-widdecombe-death-investigation"
-        }
-      ]
-    },
-    {
-      "id": "spacex-ipo-stock",
-      "topicLabel": "SpaceX IPO launch and stock performance",
-      "date": "2026-07-13",
-      "articles": [
-        {
-          "id": "forbes-spacex-ipo-stock-2",
-          "outletId": "forbes",
-          "outletName": "Forbes",
-          "headline": "Elon Musk’s Fortune Falls Below $900 Billion As SpaceX Slide Worsens",
-          "url": "https://www.forbes.com/sites/tylerroush/2026/07/13/elon-musks-fortune-falls-below-900-billion-as-spacex-slide-worsens/",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral wealth tracking framing",
-            "'Falls Below' is factual not charged"
-          ],
-          "biasScoreGrok": 4,
-          "biasSignalsGrok": [
-            "fortune falls below",
-            "SpaceX slide worsens"
-          ],
-          "pubDate": "Mon, 13 Jul 2026 12:19:54 -0400",
-          "clusterId": "spacex-ipo-stock"
-        },
-        {
-          "id": "yahoofinance-spacex-ipo-stock-3",
-          "outletId": "yahoofinance",
-          "outletName": "Yahoo Finance",
-          "headline": "This is how rich SpaceX workers are after the IPO",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/rich-spacex-workers-ipo-143700468.html",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral employee wealth framing",
-            "no ideological signals"
-          ],
-          "biasScoreGrok": 3.2,
-          "biasSignalsGrok": [
-            "how rich workers",
-            "after the IPO"
-          ],
-          "pubDate": "2026-07-12T14:37:00Z",
-          "clusterId": "spacex-ipo-stock"
-        },
-        {
-          "id": "cbsnews-spacex-ipo-stock-0",
-          "outletId": "cbsnews",
-          "outletName": "CBS News",
-          "headline": "SpaceX IPO could see a \"volatile few hours\" after launch, market reporter says",
-          "url": "https://www.cbsnews.com/video/spacex-ipo-could-see-a-volatile-few-hours-after-launch/",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral 'volatile hours' market framing",
-            "no ideological signals"
+            "'deepens headaches' — framing Graham death as GOP problem",
+            "sympathetic to Democratic opposition narrative"
           ],
           "biasScoreGrok": 3,
           "biasSignalsGrok": [
-            "volatile few hours",
-            "market reporter"
+            "deepens GOP headaches",
+            "McConnell absence noted"
           ],
-          "pubDate": "2026-06-11T18:29:43+00:00",
-          "clusterId": "spacex-ipo-stock"
+          "pubDate": "2026-07-13T09:00:00Z",
+          "clusterId": "lindsey-graham-death-senate"
         },
         {
-          "id": "cnbc-spacex-ipo-stock-1",
-          "outletId": "cnbc",
-          "outletName": "CNBC",
-          "headline": "SpaceX stock sinks for a second-straight day, nearing $135 IPO price",
-          "url": "https://www.cnbc.com/2026/07/13/spacex-spcx-stock-ipo-price.html",
-          "biasScore": 5,
+          "id": "huffpost-lindsey-graham-death-senate-26",
+          "outletId": "huffpost",
+          "outletName": "HuffPost",
+          "headline": "Lindsey Graham's Death Sets Off Scramble To Fill His Seat, U.S. And Iran Vie For Strait Of Hormuz: Live Updates",
+          "url": "https://www.huffpost.com/entry/latest-news-live-updates_n_6a54a703e4b0107f0db695c4",
+          "biasScore": 3.5,
           "biasSignals": [
-            "neutral stock price reporting",
-            "no ideological loading"
+            "neutral live-update format",
+            "slightly left-leaning outlet framing"
           ],
           "biasScoreGrok": 3.5,
           "biasSignalsGrok": [
-            "stock sinks factual",
-            "nearing IPO price"
+            "scramble to fill",
+            "live updates"
           ],
-          "pubDate": "Mon, 13 Jul 2026 16:14:03 GMT",
-          "clusterId": "spacex-ipo-stock"
+          "pubDate": "2026-07-13T09:00:53Z",
+          "clusterId": "lindsey-graham-death-senate"
         },
         {
-          "id": "yahoofinance-spacex-ipo-stock-4",
-          "outletId": "yahoofinance",
-          "outletName": "Yahoo Finance",
-          "headline": "SpaceX stock drops. Here's what to do next.",
-          "url": "https://finance.yahoo.com/personal-finance/investing/article/spacex-stock-drops-heres-what-to-do-next-141704338.html",
-          "biasScore": 5,
+          "id": "theatlantic-lindsey-graham-death-senate-29",
+          "outletId": "theatlantic",
+          "outletName": "The Atlantic",
+          "headline": "How Lindsey Graham Miscalculated on Iran",
+          "url": "https://www.theatlantic.com/national-security/2026/07/lindsey-graham-iran-hawk-trump/687900/?utm_source=feed",
+          "biasScore": 3.5,
           "biasSignals": [
-            "neutral investor advice framing",
-            "no ideological loading"
+            "'Miscalculated' — critical framing of Graham legacy",
+            "implies Graham caused Iran conflict"
           ],
           "biasScoreGrok": 3,
           "biasSignalsGrok": [
-            "stock drops",
-            "what to do next"
+            "miscalculated on Iran",
+            "how noted"
           ],
-          "pubDate": "2026-06-17T14:17:04Z",
-          "clusterId": "spacex-ipo-stock"
+          "pubDate": "Mon, 13 Jul 2026 12:54:57 -0400",
+          "clusterId": "lindsey-graham-death-senate"
+        },
+        {
+          "id": "guardian-lindsey-graham-death-senate-10",
+          "outletId": "guardian",
+          "outletName": "The Guardian",
+          "headline": "Lindsey Graham autobiography sheds light on record on race",
+          "url": "https://www.theguardian.com/us-news/2026/jul/14/lindsey-graham-south-carolina-autobiography",
+          "biasScore": 3.8,
+          "biasSignals": [
+            "focus on Graham's 'record on race' — implied criticism",
+            "mild left-leaning framing of his legacy"
+          ],
+          "biasScoreGrok": 3,
+          "biasSignalsGrok": [
+            "autobiography on race",
+            "record focus"
+          ],
+          "pubDate": "Tue, 14 Jul 2026 10:00:57 GMT",
+          "clusterId": "lindsey-graham-death-senate"
+        },
+        {
+          "id": "reason-lindsey-graham-death-senate-28",
+          "outletId": "reason",
+          "outletName": "Reason",
+          "headline": "Did Lindsey Graham Push Trump Toward War?",
+          "url": "https://reason.com/podcast/2026/07/13/did-lindsey-graham-push-trump-toward-war/",
+          "biasScore": 4,
+          "biasSignals": [
+            "questioning framing linking Graham to war",
+            "neutral but mildly critical of hawkish influence"
+          ],
+          "biasScoreGrok": 3.5,
+          "biasSignalsGrok": [
+            "push toward war",
+            "question framing"
+          ],
+          "pubDate": "Mon, 13 Jul 2026 21:10:03 +0000",
+          "clusterId": "lindsey-graham-death-senate"
+        },
+        {
+          "id": "washpost-lindsey-graham-death-senate-1",
+          "outletId": "washpost",
+          "outletName": "Washington Post",
+          "headline": "Graham’s death complicates Senate Republicans’ packed agenda",
+          "url": "https://www.washingtonpost.com/politics/2026/07/13/lindsey-grahams-death-narrows-gop-senate-majority-key-votes/",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral 'complicates' framing",
+            "balanced reporting on Senate agenda"
+          ],
+          "biasScoreGrok": 4,
+          "biasSignalsGrok": [
+            "complicates agenda",
+            "Republicans focus"
+          ],
+          "pubDate": "2026-07-13T09:00:00Z",
+          "clusterId": "lindsey-graham-death-senate"
+        },
+        {
+          "id": "washpost-lindsey-graham-death-senate-2",
+          "outletId": "washpost",
+          "outletName": "Washington Post",
+          "headline": "Lindsey Graham, foreign policy hawk and Trump’s critic-turned-ally, dies at 71",
+          "url": "https://www.washingtonpost.com/obituaries/2026/07/12/south-carolina-senator-was-known-folksy-demeanor-that-put-soft-edge-his-sometimes-tough-views/",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral obituary framing",
+            "balanced description 'critic-turned-ally'"
+          ],
+          "biasScoreGrok": 4.5,
+          "biasSignalsGrok": [
+            "hawk and ally noted",
+            "Trump critic framing"
+          ],
+          "pubDate": "2026-07-12T16:54:20Z",
+          "clusterId": "lindsey-graham-death-senate"
+        },
+        {
+          "id": "npr-lindsey-graham-death-senate-3",
+          "outletId": "npr",
+          "outletName": "NPR",
+          "headline": "South Carolina's governor appoints Lindsey Graham's sister to serve out his term",
+          "url": "https://www.npr.org/2026/07/14/nx-s1-5891798/south-carolinas-governor-appoints-lindsey-grahams-sister-to-serve-out-his-term",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral factual appointment reporting",
+            "no ideological framing"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "sister appointed",
+            "neutral succession"
+          ],
+          "pubDate": "Tue, 14 Jul 2026 05:01:46 -0400",
+          "clusterId": "lindsey-graham-death-senate"
+        },
+        {
+          "id": "npr-lindsey-graham-death-senate-4",
+          "outletId": "npr",
+          "outletName": "NPR",
+          "headline": "South Carolina's governor names Lindsey Graham's sister to serve out his term",
+          "url": "https://www.npr.org/2026/07/13/nx-s1-5891839/lindsey-graham-senate-seat-darline-graham",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral factual appointment reporting",
+            "duplicate story, no bias signals"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "sister named",
+            "neutral succession"
+          ],
+          "pubDate": "Mon, 13 Jul 2026 16:17:53 -0400",
+          "clusterId": "lindsey-graham-death-senate"
+        },
+        {
+          "id": "npr-lindsey-graham-death-senate-5",
+          "outletId": "npr",
+          "outletName": "NPR",
+          "headline": "On foreign policy, Graham's influence may have been felt the most",
+          "url": "https://www.npr.org/2026/07/13/nx-s1-5890936/on-foreign-policy-grahams-influence-may-have-been-felt-the-most",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral policy legacy framing",
+            "balanced assessment of influence"
+          ],
+          "biasScoreGrok": 4.5,
+          "biasSignalsGrok": [
+            "foreign policy influence",
+            "Graham focus"
+          ],
+          "pubDate": "Mon, 13 Jul 2026 16:05:24 -0400",
+          "clusterId": "lindsey-graham-death-senate"
+        },
+        {
+          "id": "axios-lindsey-graham-death-senate-18",
+          "outletId": "axios",
+          "outletName": "Axios",
+          "headline": "Lindsey Graham's sister appointed to his Senate seat",
+          "url": "https://www.axios.com/2026/07/13/lindsey-graham-senate-replacement-darline-nordone",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral appointment reporting",
+            "no ideological loading"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "sister appointed",
+            "neutral noted"
+          ],
+          "pubDate": "Mon, 13 Jul 2026 20:34:56 +0000",
+          "clusterId": "lindsey-graham-death-senate"
+        },
+        {
+          "id": "bostonglobe-lindsey-graham-death-senate-20",
+          "outletId": "bostonglobe",
+          "outletName": "Boston Globe",
+          "headline": "Lindsey Graham’s sister picked to fulfill remainder of his US Senate term following his death. See how the day unfolded.",
+          "url": "https://www.bostonglobe.com/2026/07/13/nation/trump-presidency-live-updates/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral live-update framing",
+            "balanced Boston Globe reporting"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "sister picked",
+            "term fulfilled"
+          ],
+          "pubDate": "Mon, 13 Jul 2026 04:01:43 +0000",
+          "clusterId": "lindsey-graham-death-senate"
+        },
+        {
+          "id": "ap-lindsey-graham-death-senate-21",
+          "outletId": "ap",
+          "outletName": "Associated Press",
+          "headline": "South Carolina's next steps to replace Graham after senator's death",
+          "url": "https://apnews.com/article/lindsey-graham-dies-south-carolina-whats-next-5ba55574ce6f087d56999abe3a7f9fdc",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral 'next steps' framing",
+            "AP balanced factual reporting"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "next steps",
+            "replace after death"
+          ],
+          "pubDate": "2026-07-13T04:06:05Z",
+          "clusterId": "lindsey-graham-death-senate"
+        },
+        {
+          "id": "ap-lindsey-graham-death-senate-22",
+          "outletId": "ap",
+          "outletName": "Associated Press",
+          "headline": "Senate returns to Washington after Graham's death with uncertain agenda",
+          "url": "https://apnews.com/article/lindsey-graham-dies-senate-agenda-uncertain-trump-316557edcf7cbcde3dcfe3dffcd2d566",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral 'uncertain agenda' framing",
+            "balanced AP reporting"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "uncertain agenda",
+            "returns noted"
+          ],
+          "pubDate": "2026-07-13T04:01:11Z",
+          "clusterId": "lindsey-graham-death-senate"
+        },
+        {
+          "id": "theatlantic-lindsey-graham-death-senate-30",
+          "outletId": "theatlantic",
+          "outletName": "The Atlantic",
+          "headline": "The Last of the Three Amigos",
+          "url": "https://www.theatlantic.com/ideas/2026/07/lindsey-graham-ukraine-russia/687898/?utm_source=feed",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral elegiac framing",
+            "balanced Atlantic obituary tone"
+          ],
+          "biasScoreGrok": 4,
+          "biasSignalsGrok": [
+            "last of three amigos",
+            "Graham focus"
+          ],
+          "pubDate": "Mon, 13 Jul 2026 10:44:26 -0400",
+          "clusterId": "lindsey-graham-death-senate"
+        },
+        {
+          "id": "neutralnews-lindsey-graham-death-senate-31",
+          "outletId": "neutralnews",
+          "outletName": "Neutral News",
+          "headline": "Sen. Lindsey Graham Dies at 71 After Sudden Illness, His Office Says",
+          "url": "https://www.neutralnews.us/article/260",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral factual death reporting",
+            "no ideological framing"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "dies at 71",
+            "sudden illness noted"
+          ],
+          "pubDate": "Mon, 13 Jul 2026 17:30:13 GMT",
+          "clusterId": "lindsey-graham-death-senate"
+        },
+        {
+          "id": "neutralnews-lindsey-graham-death-senate-32",
+          "outletId": "neutralnews",
+          "outletName": "Neutral News",
+          "headline": "Reports of Senator Lindsey Graham's Death Cannot Be Verified",
+          "url": "https://www.neutralnews.us/article/255",
+          "biasScore": 4.8,
+          "biasSignals": [
+            "unusual verification caveat — neutral skepticism",
+            "no ideological loading"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "cannot be verified",
+            "reports noted"
+          ],
+          "pubDate": "Sun, 12 Jul 2026 16:07:43 GMT",
+          "clusterId": "lindsey-graham-death-senate"
+        },
+        {
+          "id": "nypost-lindsey-graham-death-senate-6",
+          "outletId": "nypost",
+          "outletName": "NY Post",
+          "headline": "Sen. Lindsey Graham told his scheduler he had ‘chest pains’ and to call 911 shortly before his death, colleague says",
+          "url": "https://nypost.com/2026/07/14/us-news/sen-lindsey-graham-told-his-scheduler-he-had-chest-pains-and-to-call-911-shortly-before-his-death-colleague-says/",
+          "biasScore": 5,
+          "biasSignals": [
+            "factual reporting on final moments",
+            "neutral tone, no ideological signals"
+          ],
+          "biasScoreGrok": 5.5,
+          "biasSignalsGrok": [
+            "chest pains reported",
+            "colleague says noted"
+          ],
+          "pubDate": "Tue, 14 Jul 2026 07:19:01 -0400",
+          "clusterId": "lindsey-graham-death-senate"
+        },
+        {
+          "id": "economist-lindsey-graham-death-senate-11",
+          "outletId": "economist",
+          "outletName": "The Economist",
+          "headline": "Lindsey Graham represented the arc of his party",
+          "url": "https://www.economist.com/united-states/2026/07/12/lindsey-graham-represented-the-arc-of-his-party",
+          "biasScore": 5,
+          "biasSignals": [
+            "neutral analytical framing of GOP arc",
+            "balanced Economist tone"
+          ],
+          "biasScoreGrok": 4,
+          "biasSignalsGrok": [
+            "arc of his party",
+            "represented noted"
+          ],
+          "pubDate": "Sun, 12 Jul 2026 18:30:19 +0000",
+          "clusterId": "lindsey-graham-death-senate"
+        },
+        {
+          "id": "thehill-lindsey-graham-death-senate-13",
+          "outletId": "thehill",
+          "outletName": "The Hill",
+          "headline": "Graham’s death ripples across GOP agenda in Senate",
+          "url": "https://thehill.com/newsletters/morning-report/5965272-lindsey-graham-death-gop-agenda-senate/",
+          "biasScore": 5,
+          "biasSignals": [
+            "neutral 'ripples across' framing",
+            "balanced Hill reporting"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "ripples across agenda",
+            "GOP focus"
+          ],
+          "pubDate": "2026-07-13T11:16:06Z",
+          "clusterId": "lindsey-graham-death-senate"
+        },
+        {
+          "id": "thehill-lindsey-graham-death-senate-14",
+          "outletId": "thehill",
+          "outletName": "The Hill",
+          "headline": "Graham death sends shockwaves through Senate",
+          "url": "https://thehill.com/homenews/5965101-tributes-pour-graham-death/",
+          "biasScore": 5,
+          "biasSignals": [
+            "neutral 'shockwaves' framing",
+            "no strong ideological signals"
+          ],
+          "biasScoreGrok": 5.5,
+          "biasSignalsGrok": [
+            "shockwaves through Senate",
+            "death impact"
+          ],
+          "pubDate": "2026-07-13T02:25:00Z",
+          "clusterId": "lindsey-graham-death-senate"
+        },
+        {
+          "id": "axios-lindsey-graham-death-senate-17",
+          "outletId": "axios",
+          "outletName": "Axios",
+          "headline": "Senate looks to honor Graham with Russia sanctions",
+          "url": "https://www.axios.com/2026/07/13/lindsey-graham-russia-sanctions-senate-trump",
+          "biasScore": 5,
+          "biasSignals": [
+            "neutral 'honor with sanctions' framing",
+            "no strong ideological signals"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "honor with sanctions",
+            "Senate looks"
+          ],
+          "pubDate": "Mon, 13 Jul 2026 23:22:38 +0000",
+          "clusterId": "lindsey-graham-death-senate"
+        },
+        {
+          "id": "thehill-lindsey-graham-death-senate-15",
+          "outletId": "thehill",
+          "outletName": "The Hill",
+          "headline": "Patel says FBI ‘is assisting local authorities’ after Graham’s death",
+          "url": "https://thehill.com/homenews/administration/5964793-fbi-assists-in-graham-death/",
+          "biasScore": 5.5,
+          "biasSignals": [
+            "Patel quoted approvingly on FBI assistance",
+            "slightly pro-administration framing"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "FBI assisting",
+            "Patel says noted"
+          ],
+          "pubDate": "2026-07-12T19:16:36Z",
+          "clusterId": "lindsey-graham-death-senate"
+        },
+        {
+          "id": "thehill-lindsey-graham-death-senate-16",
+          "outletId": "thehill",
+          "outletName": "The Hill",
+          "headline": "Trump says he spoke with Graham before late senator’s death: ‘It could have been his last call’",
+          "url": "https://thehill.com/homenews/senate/5964686-trump-mourns-senator-graham/",
+          "biasScore": 5.5,
+          "biasSignals": [
+            "Trump's account presented uncritically",
+            "mild right-leaning deference to Trump's statement"
+          ],
+          "biasScoreGrok": 5.5,
+          "biasSignalsGrok": [
+            "last call noted",
+            "Trump spoke"
+          ],
+          "pubDate": "2026-07-12T16:48:30Z",
+          "clusterId": "lindsey-graham-death-senate"
+        },
+        {
+          "id": "ap-lindsey-graham-death-senate-23",
+          "outletId": "ap",
+          "outletName": "Associated Press",
+          "headline": "Lindsey's Graham's rise from a pool hall to global statesman",
+          "url": "https://apnews.com/article/lindsey-graham-south-carolina-senate-trump-88aaf34c3a2f1daa382b80b2099ccf5f",
+          "biasScore": 5.5,
+          "biasSignals": [
+            "'global statesman' — flattering framing",
+            "AP obituary slightly adulatory"
+          ],
+          "biasScoreGrok": 4.5,
+          "biasSignalsGrok": [
+            "rise to statesman",
+            "pool hall noted"
+          ],
+          "pubDate": "2026-07-12T19:05:05Z",
+          "clusterId": "lindsey-graham-death-senate"
+        },
+        {
+          "id": "breitbart-lindsey-graham-death-senate-7",
+          "outletId": "breitbart",
+          "outletName": "Breitbart",
+          "headline": "South Carolina Gov. Appoints Darline Graham Nordone to Finish Lindsey Graham's Term",
+          "url": "https://www.breitbart.com/politics/2026/07/13/south-carolina-gov-appoints-darline-graham-nordone-to-finish-lindsey-grahams-term/",
+          "biasScore": 6,
+          "biasSignals": [
+            "neutral appointment reporting",
+            "Breitbart framing slightly favorable to GOP process"
+          ],
+          "biasScoreGrok": 6,
+          "biasSignalsGrok": [
+            "sister appointed",
+            "finish term noted"
+          ],
+          "pubDate": "Mon, 13 Jul 2026 22:11:11 +0000",
+          "clusterId": "lindsey-graham-death-senate"
+        },
+        {
+          "id": "breitbart-lindsey-graham-death-senate-9",
+          "outletId": "breitbart",
+          "outletName": "Breitbart",
+          "headline": "Vance Remembers Sen. Lindsey Graham: 'One Of A Kind Figure in Our Politics'",
+          "url": "https://www.breitbart.com/politics/2026/07/12/3325726/",
+          "biasScore": 6.5,
+          "biasSignals": [
+            "Vance tribute framed positively",
+            "'One of a Kind' — reverential conservative framing"
+          ],
+          "biasScoreGrok": 6.5,
+          "biasSignalsGrok": [
+            "one of a kind",
+            "Vance remembers"
+          ],
+          "pubDate": "Sun, 12 Jul 2026 15:31:34 +0000",
+          "clusterId": "lindsey-graham-death-senate"
+        },
+        {
+          "id": "washexaminer-lindsey-graham-death-senate-12",
+          "outletId": "washexaminer",
+          "outletName": "Washington Examiner",
+          "headline": "Trump says ‘I could see’ Rep. Russell Fry replace Lindsey Graham in Senate",
+          "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4647118/trump-russell-fry-replace-lindsey-graham/",
+          "biasScore": 6.5,
+          "biasSignals": [
+            "Trump's view presented approvingly",
+            "right-leaning framing of succession"
+          ],
+          "biasScoreGrok": 6.5,
+          "biasSignalsGrok": [
+            "Trump says Fry",
+            "replace noted"
+          ],
+          "pubDate": "Tue, 14 Jul 2026 02:18:02 +0000",
+          "clusterId": "lindsey-graham-death-senate"
+        },
+        {
+          "id": "breitbart-lindsey-graham-death-senate-8",
+          "outletId": "breitbart",
+          "outletName": "Breitbart",
+          "headline": "Trump: Graham’s Death a 'Big Blow to the SAVE America Act'",
+          "url": "https://www.breitbart.com/clips/2026/07/12/trump-grahams-death-a-big-blow-to-the-save-america-act/",
+          "biasScore": 7,
+          "biasSignals": [
+            "Trump's words framed approvingly",
+            "'Big Blow' — right-sympathetic emotional framing"
+          ],
+          "biasScoreGrok": 7,
+          "biasSignalsGrok": [
+            "big blow noted",
+            "SAVE America Act"
+          ],
+          "pubDate": "Sun, 12 Jul 2026 16:01:41 +0000",
+          "clusterId": "lindsey-graham-death-senate"
+        },
+        {
+          "id": "nationalreview-lindsey-graham-death-senate-19",
+          "outletId": "nationalreview",
+          "outletName": "National Review",
+          "headline": "Lindsey Graham Was a Fierce Defender of the Pro-Life Cause",
+          "url": "https://www.nationalreview.com/2026/07/lindsey-graham-was-a-fierce-defender-of-the-pro-life-cause/",
+          "biasScore": 7.5,
+          "biasSignals": [
+            "'Fierce Defender' — hero framing for conservative cause",
+            "pro-life framing presented approvingly"
+          ],
+          "biasScoreGrok": 7.5,
+          "biasSignalsGrok": [
+            "fierce defender",
+            "pro-life cause"
+          ],
+          "pubDate": "Mon, 13 Jul 2026 13:40:21 +0000",
+          "clusterId": "lindsey-graham-death-senate"
         }
       ]
     },
     {
-      "id": "paramount-wbd-merger-lawsuit",
-      "topicLabel": "States sue to block Paramount-Warner Bros. merger",
-      "date": "2026-07-13",
+      "id": "mitch-mcconnell-hospitalization",
+      "topicLabel": "Senator Mitch McConnell hospitalized, health update",
+      "date": "2026-07-14",
       "articles": [
         {
-          "id": "latimes-paramount-wbd-merger-lawsuit-2",
-          "outletId": "latimes",
-          "outletName": "LA Times",
-          "headline": "States sue to block Paramount's $111-billion Warner Bros. takeover",
-          "url": "https://www.latimes.com/entertainment-arts/business/story/2026-07-13/states-sue-to-block-paramounts-111-billion-warner-bros-takeover",
-          "biasScore": 4.2,
+          "id": "washpost-mitch-mcconnell-hospitalization-2",
+          "outletId": "washpost",
+          "outletName": "Washington Post",
+          "headline": "Senate again confronts the challenges of an aging membership",
+          "url": "https://www.washingtonpost.com/politics/2026/07/12/grahams-death-mcconnells-absence-highlight-challenges-aging-senate/",
+          "biasScore": 3.5,
           "biasSignals": [
-            "neutral 'sue to block' language",
-            "no ideological signals"
-          ],
-          "biasScoreGrok": 4,
-          "biasSignalsGrok": [
-            "sue to block",
-            "$111 billion takeover"
-          ],
-          "pubDate": "Mon, 13 Jul 2026 15:55:02 GMT",
-          "clusterId": "paramount-wbd-merger-lawsuit"
-        },
-        {
-          "id": "forbes-paramount-wbd-merger-lawsuit-1",
-          "outletId": "forbes",
-          "outletName": "Forbes",
-          "headline": "California And Other States Challenge Massive Paramount-Warner Bros. Merger In New Lawsuit",
-          "url": "https://www.forbes.com/sites/zacharyfolk/2026/07/13/california-and-other-states-challenge-massive-paramount-warner-bros-merger-in-new-lawsuit/",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral 'challenge' framing",
-            "no ideological loading"
-          ],
-          "biasScoreGrok": 4.2,
-          "biasSignalsGrok": [
-            "challenge massive merger",
-            "new lawsuit"
-          ],
-          "pubDate": "Mon, 13 Jul 2026 12:30:25 -0400",
-          "clusterId": "paramount-wbd-merger-lawsuit"
-        },
-        {
-          "id": "cnbc-paramount-wbd-merger-lawsuit-0",
-          "outletId": "cnbc",
-          "outletName": "CNBC",
-          "headline": "Paramount, WBD hit with lawsuit from 12 states, including California, to block merger",
-          "url": "https://www.cnbc.com/2026/07/13/paramount-wbd-merger-lawsuit.html",
-          "biasScore": 4.8,
-          "biasSignals": [
-            "neutral 'hit with lawsuit' language",
-            "no ideological framing"
+            "'aging membership' — institutional criticism framing",
+            "mild left-leaning questioning of Senate fitness"
           ],
           "biasScoreGrok": 4.5,
           "biasSignalsGrok": [
-            "hit with lawsuit",
-            "12 states including CA"
+            "aging membership",
+            "challenges noted"
           ],
-          "pubDate": "Mon, 13 Jul 2026 16:59:22 GMT",
-          "clusterId": "paramount-wbd-merger-lawsuit"
+          "pubDate": "2026-07-12T19:19:29Z",
+          "clusterId": "mitch-mcconnell-hospitalization"
+        },
+        {
+          "id": "msnbc-mitch-mcconnell-hospitalization-0",
+          "outletId": "msnbc",
+          "outletName": "MSNBC",
+          "headline": "BREAKING: Sen. Mitch McConnell releases statement on hospitalization and recovery",
+          "url": "https://www.ms.now/al-sharpton/politicsnation/watch/breaking-sen-mitch-mcconnell-releases-statement-on-hospitalization-and-recovery-2506335299655",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral statement-reporting format",
+            "no ideological framing"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "releases statement",
+            "breaking noted"
+          ],
+          "pubDate": "2026-07-12T21:50:23Z",
+          "clusterId": "mitch-mcconnell-hospitalization"
+        },
+        {
+          "id": "washpost-mitch-mcconnell-hospitalization-1",
+          "outletId": "washpost",
+          "outletName": "Washington Post",
+          "headline": "McConnell says he was hospitalized due to a fall and contracted pneumonia",
+          "url": "https://www.washingtonpost.com/politics/2026/07/12/mitch-mcconnell-says-he-was-hospitalized-due-fall-contracted-pneumonia/",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral factual health reporting",
+            "balanced WaPo tone"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "fall and pneumonia",
+            "McConnell says"
+          ],
+          "pubDate": "2026-07-12T22:04:47Z",
+          "clusterId": "mitch-mcconnell-hospitalization"
+        },
+        {
+          "id": "washexaminer-mitch-mcconnell-hospitalization-3",
+          "outletId": "washexaminer",
+          "outletName": "Washington Examiner",
+          "headline": "Trump says ‘I don’t know’ about McConnell’s condition despite hospital photo",
+          "url": "https://www.washingtonexaminer.com/news/senate/4647139/trump-i-dont-know-mitch-mcconnell-health/",
+          "biasScore": 5.5,
+          "biasSignals": [
+            "Trump's uncertainty presented without criticism",
+            "slightly right-leaning framing of Trump quote"
+          ],
+          "biasScoreGrok": 6.5,
+          "biasSignalsGrok": [
+            "I dont know",
+            "Trump says noted"
+          ],
+          "pubDate": "Tue, 14 Jul 2026 02:42:31 +0000",
+          "clusterId": "mitch-mcconnell-hospitalization"
+        }
+      ]
+    },
+    {
+      "id": "ice-fatal-shooting-maine",
+      "topicLabel": "ICE fatally shoots man during Maine immigration operation",
+      "date": "2026-07-14",
+      "articles": [
+        {
+          "id": "latimes-ice-fatal-shooting-maine-3",
+          "outletId": "latimes",
+          "outletName": "LA Times",
+          "headline": "Arellano: Two Lorenzos from Mexico. One fulfilled his American dream. ICE killed the other",
+          "url": "https://www.latimes.com/california/story/2026-07-14/lorenzo-salgado-araujo-american-dream",
+          "biasScore": 1.5,
+          "biasSignals": [
+            "'ICE killed' — direct indictment framing",
+            "personal narrative victim framing, emotional appeal"
+          ],
+          "biasScoreGrok": 2,
+          "biasSignalsGrok": [
+            "ICE killed the other",
+            "American dream framing"
+          ],
+          "pubDate": "Tue, 14 Jul 2026 10:00:00 GMT",
+          "clusterId": "ice-fatal-shooting-maine"
+        },
+        {
+          "id": "aljazeera-ice-fatal-shooting-maine-0",
+          "outletId": "aljazeera",
+          "outletName": "Al Jazeera",
+          "headline": "ICE kills 26-year-old in Maine: What happened, and who else has ICE killed?",
+          "url": "https://www.aljazeera.com/news/2026/7/14/ice-kills-26-year-old-in-maine-what-happened-and-who-else-has-ice-killed?traffic_source=rss",
+          "biasScore": 2,
+          "biasSignals": [
+            "'ICE kills' — active killer framing of law enforcement",
+            "list of ICE deaths — victim framing, anti-enforcement"
+          ],
+          "biasScoreGrok": 2.5,
+          "biasSignalsGrok": [
+            "ICE kills noted",
+            "who else has killed"
+          ],
+          "pubDate": "Tue, 14 Jul 2026 09:34:55 +0000",
+          "clusterId": "ice-fatal-shooting-maine"
+        },
+        {
+          "id": "guardian-ice-fatal-shooting-maine-2",
+          "outletId": "guardian",
+          "outletName": "The Guardian",
+          "headline": "ICE fatally shoots 26-year-old Colombian man in Maine during immigration operation – as it happened",
+          "url": "https://www.theguardian.com/us-news/live/2026/jul/13/congress-capitol-lindsey-graham-trump-republicans-democrats-us-politics-latest-news-updates",
+          "biasScore": 2,
+          "biasSignals": [
+            "'fatally shoots' — law enforcement as perpetrator framing",
+            "'Colombian man' — victim identity emphasis"
+          ],
+          "biasScoreGrok": 3,
+          "biasSignalsGrok": [
+            "fatally shoots",
+            "Colombian man noted"
+          ],
+          "pubDate": "Tue, 14 Jul 2026 01:59:57 GMT",
+          "clusterId": "ice-fatal-shooting-maine"
+        },
+        {
+          "id": "guardian-ice-fatal-shooting-maine-1",
+          "outletId": "guardian",
+          "outletName": "The Guardian",
+          "headline": "Fatal ICE shooting in Maine comes just days after similar incident in Texas – US politics live",
+          "url": "https://www.theguardian.com/us-news/live/2026/jul/14/ice-shooting-maine-texas-trump-immigration-politics",
+          "biasScore": 2.5,
+          "biasSignals": [
+            "'Fatal ICE shooting' — enforcement cast as lethal threat",
+            "linked to Texas incident — pattern-of-harm framing"
+          ],
+          "biasScoreGrok": 3,
+          "biasSignalsGrok": [
+            "fatal shooting noted",
+            "similar incident"
+          ],
+          "pubDate": "Tue, 14 Jul 2026 11:09:57 GMT",
+          "clusterId": "ice-fatal-shooting-maine"
+        },
+        {
+          "id": "neutralnews-ice-fatal-shooting-maine-4",
+          "outletId": "neutralnews",
+          "outletName": "Neutral News",
+          "headline": "Driver Killed in Shooting Involving ICE Agents in Maine",
+          "url": "https://www.neutralnews.us/article/273",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "'shooting involving ICE' — neutral passive framing",
+            "no victim or perpetrator loading"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "driver killed",
+            "ICE agents involved"
+          ],
+          "pubDate": "Mon, 13 Jul 2026 17:30:13 GMT",
+          "clusterId": "ice-fatal-shooting-maine"
         }
       ]
     },
     {
       "id": "sam-neill-death",
       "topicLabel": "Actor Sam Neill dies at 78",
-      "date": "2026-07-13",
+      "date": "2026-07-14",
       "articles": [
         {
-          "id": "latimes-sam-neill-death-1",
-          "outletId": "latimes",
-          "outletName": "LA Times",
-          "headline": "Sam Neill, 'Jurassic Park' actor, dies at 78",
-          "url": "https://www.latimes.com/entertainment-arts/story/2026-07-12/sam-neill-dies",
-          "biasScore": 4.8,
+          "id": "cnn-sam-neill-death-0",
+          "outletId": "cnn",
+          "outletName": "CNN",
+          "headline": "‘Jurassic Park’ actor Sam Neill dies at 78 | CNN",
+          "url": "https://www.cnn.com/2026/07/13/entertainment/video/jurassic-park-actor-sam-neill-dies-vrtc",
+          "biasScore": 4.5,
           "biasSignals": [
-            "neutral death report",
-            "no ideological framing"
+            "neutral obituary framing",
+            "no political content"
           ],
-          "biasScoreGrok": 3.2,
+          "biasScoreGrok": 5,
           "biasSignalsGrok": [
             "Jurassic Park actor",
             "dies at 78"
           ],
-          "pubDate": "Mon, 13 Jul 2026 06:53:08 GMT",
+          "pubDate": "2026-07-13T11:37:50.2839999Z",
           "clusterId": "sam-neill-death"
         },
         {
-          "id": "skynews-sam-neill-death-2",
-          "outletId": "skynews",
-          "outletName": "Sky News",
-          "headline": "Jurassic Park star Sam Neill has died",
-          "url": "https://news.sky.com/story/jurassic-park-star-sam-neill-has-died-13562906",
-          "biasScore": 4.8,
+          "id": "cnn-sam-neill-death-1",
+          "outletId": "cnn",
+          "outletName": "CNN",
+          "headline": "Sam Neill, star of ‘Jurassic Park,’ has died, family says",
+          "url": "https://www.cnn.com/2026/07/13/entertainment/sam-neill-jurassic-park-dead-intl-hnk",
+          "biasScore": 4.5,
           "biasSignals": [
-            "neutral 'has died' language",
+            "neutral factual death reporting",
             "no ideological signals"
           ],
-          "biasScoreGrok": 3,
+          "biasScoreGrok": 5,
           "biasSignalsGrok": [
-            "Jurassic Park star",
-            "has died"
+            "star has died",
+            "family says noted"
           ],
-          "pubDate": "Mon, 13 Jul 2026 06:51:00 +0100",
+          "pubDate": "2026-07-13T06:12:47Z",
           "clusterId": "sam-neill-death"
         },
         {
-          "id": "breitbart-sam-neill-death-0",
-          "outletId": "breitbart",
-          "outletName": "Breitbart",
-          "headline": "Sam Neill, Beloved New Zealand Actor and 'Jurassic Park' Star, Dies at 78",
-          "url": "https://www.breitbart.com/entertainment/2026/07/13/sam-neill-beloved-new-zealand-actor-and-jurassic-park-star-dies-at-78/",
+          "id": "bbc-sam-neill-death-2",
+          "outletId": "bbc",
+          "outletName": "BBC",
+          "headline": "Sam Neill: His best-known roles in pictures",
+          "url": "https://www.bbc.co.uk/news/articles/c8r271zx43mo",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral pictorial tribute format",
+            "no ideological content"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "best-known roles",
+            "pictures noted"
+          ],
+          "pubDate": "2026-07-13T10:37:30.0801557Z",
+          "clusterId": "sam-neill-death"
+        },
+        {
+          "id": "foxnews-sam-neill-death-3",
+          "outletId": "foxnews",
+          "outletName": "Fox News",
+          "headline": "New Zealand actor Sam Neill dies at age 78 after cancer recovery, family says",
+          "url": "https://www.foxnews.com/entertainment/new-zealand-actor-sam-neill-dies-age-78-after-cancer-recovery-family-says",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral death reporting",
+            "notes New Zealand nationality — no ideological loading"
+          ],
+          "biasScoreGrok": 5.5,
+          "biasSignalsGrok": [
+            "after cancer recovery",
+            "family says noted"
+          ],
+          "pubDate": "2026-07-13T06:37:21.0284975Z",
+          "clusterId": "sam-neill-death"
+        },
+        {
+          "id": "nbc-sam-neill-death-4",
+          "outletId": "nbc",
+          "outletName": "NBC News",
+          "headline": "Sam Neill, actor known for ‘Jurassic Park,’ dies at 78",
+          "url": "https://www.nbcnews.com/news/obituaries/sam-neill-actor-jurassic-park-dies-new-zealand-rcna587240",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral obituary format",
+            "no ideological signals"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "known for Jurassic Park",
+            "dies at 78"
+          ],
+          "pubDate": "2026-07-13T06:05:41Z",
+          "clusterId": "sam-neill-death"
+        },
+        {
+          "id": "ap-sam-neill-death-5",
+          "outletId": "ap",
+          "outletName": "Associated Press",
+          "headline": "Sam Neill, actor known for 'Jurassic Park' and 'The Piano,' dies",
+          "url": "https://apnews.com/article/sam-neill-obituary-91f11b230d06771fb4680c0916b0c876",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral AP obituary style",
+            "no ideological loading"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "known for Jurassic Park",
+            "and The Piano"
+          ],
+          "pubDate": "2026-07-13T06:09:05Z",
+          "clusterId": "sam-neill-death"
+        }
+      ]
+    },
+    {
+      "id": "graham-platner-maine-senate-race",
+      "topicLabel": "Graham Platner withdraws from Maine Senate race",
+      "date": "2026-07-14",
+      "articles": [
+        {
+          "id": "thehill-graham-platner-maine-senate-race-3",
+          "outletId": "thehill",
+          "outletName": "The Hill",
+          "headline": "Democrats battle over the future of their fractured post-Platner party",
+          "url": "https://thehill.com/homenews/campaign/5963341-platner-exit-democrats-divided/",
+          "biasScore": 3.5,
+          "biasSignals": [
+            "'fractured' party — sympathetic to Democrat struggles",
+            "mild left framing of party narrative"
+          ],
+          "biasScoreGrok": 4,
+          "biasSignalsGrok": [
+            "battle over future",
+            "fractured party"
+          ],
+          "pubDate": "2026-07-13T10:00:00Z",
+          "clusterId": "graham-platner-maine-senate-race"
+        },
+        {
+          "id": "npr-graham-platner-maine-senate-race-0",
+          "outletId": "npr",
+          "outletName": "NPR",
+          "headline": "Platner's voters are reeling as Maine Democratic Party races to choose his replacement",
+          "url": "https://www.npr.org/2026/07/14/nx-s1-5892502/platner-collins-maine-democratic-party-senate",
+          "biasScore": 3.8,
+          "biasSignals": [
+            "'reeling' — emotional victim framing for voters",
+            "sympathetic to Democratic party disruption"
+          ],
+          "biasScoreGrok": 3.5,
+          "biasSignalsGrok": [
+            "voters are reeling",
+            "race to choose"
+          ],
+          "pubDate": "Tue, 14 Jul 2026 05:00:00 -0400",
+          "clusterId": "graham-platner-maine-senate-race"
+        },
+        {
+          "id": "npr-graham-platner-maine-senate-race-1",
+          "outletId": "npr",
+          "outletName": "NPR",
+          "headline": "Graham Platner's voters figure out what's next as candidates vie for their support",
+          "url": "https://www.npr.org/2026/07/13/nx-s1-5888428/graham-platners-voters-figure-out-whats-next-as-candidates-vie-for-their-support",
+          "biasScore": 4,
+          "biasSignals": [
+            "neutral 'figure out what's next' framing",
+            "balanced voter perspective"
+          ],
+          "biasScoreGrok": 3.5,
+          "biasSignalsGrok": [
+            "figure out whats next",
+            "candidates vie"
+          ],
+          "pubDate": "Mon, 13 Jul 2026 16:22:39 -0400",
+          "clusterId": "graham-platner-maine-senate-race"
+        },
+        {
+          "id": "thehill-graham-platner-maine-senate-race-4",
+          "outletId": "thehill",
+          "outletName": "The Hill",
+          "headline": "Platner turmoil in Maine could push donors to other high-stakes Senate contests",
+          "url": "https://thehill.com/homenews/senate/5962945-platner-turmoil-in-maine-could-push-donors-to-other-high-stakes-senate-contests/",
+          "biasScore": 4,
+          "biasSignals": [
+            "neutral donor strategy framing",
+            "no strong ideological signals"
+          ],
+          "biasScoreGrok": 4.5,
+          "biasSignalsGrok": [
+            "turmoil could push donors",
+            "high-stakes contests"
+          ],
+          "pubDate": "2026-07-13T10:00:00Z",
+          "clusterId": "graham-platner-maine-senate-race"
+        },
+        {
+          "id": "economist-graham-platner-maine-senate-race-2",
+          "outletId": "economist",
+          "outletName": "The Economist",
+          "headline": "What Graham Platner’s collapse means for the Democrats",
+          "url": "https://www.economist.com/united-states/2026/07/07/what-graham-platners-collapse-means-for-the-democrats",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral analytical 'what it means' framing",
+            "Economist balanced tone"
+          ],
+          "biasScoreGrok": 4,
+          "biasSignalsGrok": [
+            "collapse means for Democrats",
+            "what noted"
+          ],
+          "pubDate": "Tue, 07 Jul 2026 19:16:31 +0000",
+          "clusterId": "graham-platner-maine-senate-race"
+        },
+        {
+          "id": "neutralnews-graham-platner-maine-senate-race-5",
+          "outletId": "neutralnews",
+          "outletName": "Neutral News",
+          "headline": "Graham Platner Withdraws From Maine Senate Race",
+          "url": "https://www.neutralnews.us/article/258",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral withdrawal reporting",
+            "no ideological loading"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "withdraws from race",
+            "neutral noted"
+          ],
+          "pubDate": "Sun, 12 Jul 2026 16:07:43 GMT",
+          "clusterId": "graham-platner-maine-senate-race"
+        }
+      ]
+    },
+    {
+      "id": "wimbledon-sinner-title",
+      "topicLabel": "Jannik Sinner wins Wimbledon title over Zverev",
+      "date": "2026-07-14",
+      "articles": [
+        {
+          "id": "cnn-wimbledon-sinner-title-0",
+          "outletId": "cnn",
+          "outletName": "CNN",
+          "headline": "World No. 1 Jannik Sinner defends Wimbledon title with win over Alexander Zverev",
+          "url": "https://www.cnn.com/2026/07/12/sport/wimbledon-mens-final-sinner-zverev",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral sports reporting",
+            "no political content"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "defends title",
+            "win over Zverev"
+          ],
+          "pubDate": "2026-07-12T19:00:15Z",
+          "clusterId": "wimbledon-sinner-title"
+        },
+        {
+          "id": "telegraph-wimbledon-sinner-title-1",
+          "outletId": "telegraph",
+          "outletName": "The Telegraph",
+          "headline": "Sinner beats Zverev in battle of the serves",
+          "url": "https://www.telegraph.co.uk/tennis/2026/07/12/sinner-vs-zverev-live-score-latest-wimbledon-mens-final/",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral match reporting",
+            "no ideological signals"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "battle of the serves",
+            "Sinner beats"
+          ],
+          "pubDate": "Sun, 12 Jul 2026 20:53:03 GMT",
+          "clusterId": "wimbledon-sinner-title"
+        },
+        {
+          "id": "abc-wimbledon-sinner-title-2",
+          "outletId": "abc",
+          "outletName": "ABC News",
+          "headline": "Sinner beats Zverev to win Wimbledon again, move on from French Open meltdown",
+          "url": "https://abcnews.com/Sports/wireStory/wimbledon-final-features-defending-champion-jannik-sinner-french-134689708",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral sports result framing",
+            "no political content"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "wins Wimbledon again",
+            "move on from meltdown"
+          ],
+          "pubDate": "2026-07-12T12:31:52Z",
+          "clusterId": "wimbledon-sinner-title"
+        }
+      ]
+    },
+    {
+      "id": "bangkok-bar-fire",
+      "topicLabel": "Deadly fire at Bangkok music bar kills dozens",
+      "date": "2026-07-14",
+      "articles": [
+        {
+          "id": "bbc-bangkok-bar-fire-0",
+          "outletId": "bbc",
+          "outletName": "BBC",
+          "headline": "Bangkok bar fire: Witnesses describe how deadly inferno swept through 'maze-like' bar",
+          "url": "https://www.bbc.co.uk/news/articles/crr8gnx01d7o",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral disaster reporting",
+            "no ideological framing"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "witnesses describe",
+            "maze-like bar"
+          ],
+          "pubDate": "2026-07-13T10:37:32.6107732Z",
+          "clusterId": "bangkok-bar-fire"
+        },
+        {
+          "id": "ap-bangkok-bar-fire-1",
+          "outletId": "ap",
+          "outletName": "Associated Press",
+          "headline": "Fire at a music bar in Bangkok kills at least 27 people",
+          "url": "https://apnews.com/article/thailand-fire-bar-bangkok-2770bc2287bec5b7fbe7c8df62209a51",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral AP disaster reporting",
+            "no ideological signals"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "kills at least 27",
+            "music bar noted"
+          ],
+          "pubDate": "2026-07-13T09:11:33Z",
+          "clusterId": "bangkok-bar-fire"
+        },
+        {
+          "id": "huffpost-bangkok-bar-fire-2",
+          "outletId": "huffpost",
+          "outletName": "HuffPost",
+          "headline": "Fire Breaks Out At Pub In Bangkok, Killing At Least 27 People",
+          "url": "https://www.huffpost.com/entry/bangkok-pub-fire_n_6a54ab48e4b09843d52bcadf",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral fire fatality reporting",
+            "no ideological loading"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "breaks out at pub",
+            "killing at least 27"
+          ],
+          "pubDate": "2026-07-13T09:16:11Z",
+          "clusterId": "bangkok-bar-fire"
+        }
+      ]
+    },
+    {
+      "id": "world-cup-2026",
+      "topicLabel": "2026 FIFA World Cup begins, semifinals underway",
+      "date": "2026-07-14",
+      "articles": [
+        {
+          "id": "cnn-world-cup-2026-0",
+          "outletId": "cnn",
+          "outletName": "CNN",
+          "headline": "The World Cup’s final four is set. Here’s what you need to know before the final week",
+          "url": "https://www.cnn.com/2026/07/12/sport/the-beautiful-game-july-12",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral sports preview framing",
+            "no political content"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "final four set",
+            "what to know"
+          ],
+          "pubDate": "2026-07-12T15:00:26Z",
+          "clusterId": "world-cup-2026"
+        },
+        {
+          "id": "cbsnews-world-cup-2026-4",
+          "outletId": "cbsnews",
+          "outletName": "CBS News",
+          "headline": "The 2026 World Cup begins today. Here's what to know.",
+          "url": "https://www.cbsnews.com/video/2026-world-cup-begins-today-heres-what-to-know/",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral World Cup opener reporting",
+            "no political content"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "begins today",
+            "what to know"
+          ],
+          "pubDate": "2026-06-11T19:52:21+00:00",
+          "clusterId": "world-cup-2026"
+        },
+        {
+          "id": "cbsnews-world-cup-2026-5",
+          "outletId": "cbsnews",
+          "outletName": "CBS News",
+          "headline": "World Cup opening ceremony kicks off in Mexico with Shakira",
+          "url": "https://www.cbsnews.com/news/world-cup-opening-ceremony-mexico-shakira/",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral ceremony reporting",
+            "no ideological signals"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "kicks off in Mexico",
+            "Shakira noted"
+          ],
+          "pubDate": "2026-06-11T18:41:38+00:00",
+          "clusterId": "world-cup-2026"
+        },
+        {
+          "id": "cnbc-world-cup-2026-6",
+          "outletId": "cnbc",
+          "outletName": "CNBC",
+          "headline": "World Cup's biggest spenders show up late as semifinals drive host city travel boom",
+          "url": "https://www.cnbc.com/2026/07/14/world-cups-semifinals-travel-to-host-cities-rises.html",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral economic/travel framing",
+            "no political content"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "biggest spenders",
+            "travel boom noted"
+          ],
+          "pubDate": "Tue, 14 Jul 2026 11:20:01 GMT",
+          "clusterId": "world-cup-2026"
+        },
+        {
+          "id": "huffpost-world-cup-2026-7",
+          "outletId": "huffpost",
+          "outletName": "HuffPost",
+          "headline": "Even The World Cup Final Grass Is For Sale. But It's Not Cheap.",
+          "url": "https://www.huffpost.com/entry/fifa-world-cup-final-pitch-for-sale_n_6a54b6a9e4b04a4b8d2dd4a1",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral consumer curiosity framing",
+            "no ideological signals"
+          ],
+          "biasScoreGrok": 3.5,
+          "biasSignalsGrok": [
+            "final grass for sale",
+            "not cheap noted"
+          ],
+          "pubDate": "2026-07-13T10:11:36Z",
+          "clusterId": "world-cup-2026"
+        },
+        {
+          "id": "politico-world-cup-2026-1",
+          "outletId": "politico",
+          "outletName": "Politico",
+          "headline": "How ICE melted from view at the World Cup - Live Updates - POLITICO",
+          "url": "https://www.politico.com/live-updates/2026/07/11/world-cup-2026/ice-dhs-melt-world-cup-enforcement-markwayne-mullin-00993908",
           "biasScore": 5,
           "biasSignals": [
-            "neutral obituary framing",
-            "'Beloved' is warm but not politically charged"
+            "neutral ICE-at-World Cup observation",
+            "mildly critical of ICE absence framing"
           ],
           "biasScoreGrok": 3,
           "biasSignalsGrok": [
-            "beloved NZ actor",
-            "Jurassic Park star"
+            "ICE melted from view",
+            "World Cup noted"
           ],
-          "pubDate": "Mon, 13 Jul 2026 07:23:12 +0000",
-          "clusterId": "sam-neill-death"
+          "pubDate": "2026-07-12T00:45:00+00:00",
+          "clusterId": "world-cup-2026"
+        },
+        {
+          "id": "politico-world-cup-2026-3",
+          "outletId": "politico",
+          "outletName": "Politico",
+          "headline": "Will Trump's Justice Department rescue Messi's Argentina? - Live Updates - POLITICO",
+          "url": "https://www.politico.com/live-updates/2026/07/11/world-cup-2026/trump-department-justice-argentine-football-association-corruption-investigation-00994061",
+          "biasScore": 5,
+          "biasSignals": [
+            "neutral question framing",
+            "no strong ideological signals"
+          ],
+          "biasScoreGrok": 6.5,
+          "biasSignalsGrok": [
+            "Trump Justice Department",
+            "rescue noted"
+          ],
+          "pubDate": "2026-07-11T23:15:00+00:00",
+          "clusterId": "world-cup-2026"
+        },
+        {
+          "id": "politico-world-cup-2026-2",
+          "outletId": "politico",
+          "outletName": "Politico",
+          "headline": "The Trump ally looking for a Messi miracle - Live Updates - POLITICO",
+          "url": "https://www.politico.com/live-updates/2026/07/11/world-cup-2026/looking-a-messi-miracle-argentina-javier-milei-00993907",
+          "biasScore": 5.5,
+          "biasSignals": [
+            "Trump ally framing — slightly pro-Trump",
+            "Messi narrative tied to political figure"
+          ],
+          "biasScoreGrok": 6,
+          "biasSignalsGrok": [
+            "Trump ally looking",
+            "Messi miracle noted"
+          ],
+          "pubDate": "2026-07-11T23:45:00+00:00",
+          "clusterId": "world-cup-2026"
+        }
+      ]
+    },
+    {
+      "id": "trump-white-south-african-refugees",
+      "topicLabel": "Trump fast-tracks White South African refugee admissions",
+      "date": "2026-07-14",
+      "articles": [
+        {
+          "id": "cnn-trump-white-south-african-refugees-0",
+          "outletId": "cnn",
+          "outletName": "CNN",
+          "headline": "Inside Trump’s scramble to get White South Africans to the US as refugees",
+          "url": "https://www.cnn.com/2026/07/13/politics/afrikaner-refugees-trump-south-africa",
+          "biasScore": 3,
+          "biasSignals": [
+            "'scramble' — chaotic, rushed framing of Trump policy",
+            "implicit criticism of race-based refugee selectivity"
+          ],
+          "biasScoreGrok": 2.5,
+          "biasSignalsGrok": [
+            "scramble to get White South Africans",
+            "as refugees"
+          ],
+          "pubDate": "2026-07-13T09:00:26Z",
+          "clusterId": "trump-white-south-african-refugees"
+        },
+        {
+          "id": "npr-trump-white-south-african-refugees-1",
+          "outletId": "npr",
+          "outletName": "NPR",
+          "headline": "Trump's National Guard deployment in D.C. has been extended until 2029",
+          "url": "https://www.npr.org/2026/07/14/nx-s1-5892498/national-guard-deployment-dc-2029",
+          "biasScore": 4,
+          "biasSignals": [
+            "neutral factual National Guard framing",
+            "mild critical context of duration"
+          ],
+          "biasScoreGrok": 4.5,
+          "biasSignalsGrok": [
+            "National Guard deployment",
+            "extended noted"
+          ],
+          "pubDate": "Tue, 14 Jul 2026 05:00:00 -0400",
+          "clusterId": "trump-white-south-african-refugees"
+        }
+      ]
+    },
+    {
+      "id": "senate-gop-agenda-mike-johnson",
+      "topicLabel": "GOP Senate and House agenda amid Republican headaches",
+      "date": "2026-07-14",
+      "articles": [
+        {
+          "id": "msnbc-senate-gop-agenda-mike-johnson-0",
+          "outletId": "msnbc",
+          "outletName": "MSNBC",
+          "headline": "Mike Johnson has two weeks to save the GOP majority",
+          "url": "https://www.ms.now/opinion/mike-johnson-midterms-house-majority-recess",
+          "biasScore": 4,
+          "biasSignals": [
+            "'save the GOP majority' — crisis framing",
+            "mildly sympathetic to Democratic challenge"
+          ],
+          "biasScoreGrok": 3.5,
+          "biasSignalsGrok": [
+            "two weeks to save",
+            "GOP majority"
+          ],
+          "pubDate": "2026-07-13T10:00:00Z",
+          "clusterId": "senate-gop-agenda-mike-johnson"
+        },
+        {
+          "id": "thehill-senate-gop-agenda-mike-johnson-2",
+          "outletId": "thehill",
+          "outletName": "The Hill",
+          "headline": "Senate GOP faces array of disagreements with Trump",
+          "url": "https://thehill.com/homenews/senate/5963414-trump-thune-battle-senate-republicans/",
+          "biasScore": 4,
+          "biasSignals": [
+            "neutral 'disagreements' framing",
+            "balanced Hill reporting"
+          ],
+          "biasScoreGrok": 5.5,
+          "biasSignalsGrok": [
+            "array of disagreements",
+            "with Trump noted"
+          ],
+          "pubDate": "2026-07-13T10:00:00Z",
+          "clusterId": "senate-gop-agenda-mike-johnson"
+        },
+        {
+          "id": "washexaminer-senate-gop-agenda-mike-johnson-1",
+          "outletId": "washexaminer",
+          "outletName": "Washington Examiner",
+          "headline": "Mike Johnson works to flip GOP holdouts as blockade shows signs of thawing",
+          "url": "https://www.washingtonexaminer.com/news/house/4647173/mike-johnson-house-republican-blockade/",
+          "biasScore": 6.5,
+          "biasSignals": [
+            "'flip holdouts' — supportive of GOP legislative effort",
+            "'blockade shows signs of thawing' — positive framing"
+          ],
+          "biasScoreGrok": 6.5,
+          "biasSignalsGrok": [
+            "works to flip holdouts",
+            "blockade thawing"
+          ],
+          "pubDate": "Tue, 14 Jul 2026 10:00:00 +0000",
+          "clusterId": "senate-gop-agenda-mike-johnson"
+        }
+      ]
+    },
+    {
+      "id": "trump-tariffs-supreme-court-refunds",
+      "topicLabel": "Supreme Court rules Trump tariffs illegal, refunds issued",
+      "date": "2026-07-14",
+      "articles": [
+        {
+          "id": "guardian-trump-tariffs-supreme-court-refunds-0",
+          "outletId": "guardian",
+          "outletName": "The Guardian",
+          "headline": "US refunds $81bn in Trump tariffs after supreme court ruled them illegal",
+          "url": "https://www.theguardian.com/us-news/2026/jul/14/trump-tariffs-us-refunds",
+          "biasScore": 3.5,
+          "biasSignals": [
+            "'refunds' framing implies Trump policy failure",
+            "passive framing emphasizes court correction"
+          ],
+          "biasScoreGrok": 3,
+          "biasSignalsGrok": [
+            "refunds after ruled illegal",
+            "supreme court noted"
+          ],
+          "pubDate": "Tue, 14 Jul 2026 07:03:02 GMT",
+          "clusterId": "trump-tariffs-supreme-court-refunds"
+        },
+        {
+          "id": "skynews-trump-tariffs-supreme-court-refunds-1",
+          "outletId": "skynews",
+          "outletName": "Sky News",
+          "headline": "US returns $81bn after Trump tariffs ruled illegal",
+          "url": "https://news.sky.com/story/us-returns-81bn-after-trump-tariffs-ruled-illegal-13563237",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral 'ruled illegal' framing",
+            "no ideological loading"
+          ],
+          "biasScoreGrok": 4.5,
+          "biasSignalsGrok": [
+            "returns after ruled illegal",
+            "Trump tariffs noted"
+          ],
+          "pubDate": "Tue, 14 Jul 2026 07:27:00 +0100",
+          "clusterId": "trump-tariffs-supreme-court-refunds"
         }
       ]
     },
     {
       "id": "ro-khanna-west-bank-detention",
       "topicLabel": "Rep. Ro Khanna detained by Israeli settlers in West Bank",
-      "date": "2026-07-13",
+      "date": "2026-07-14",
       "articles": [
         {
-          "id": "thehill-ro-khanna-west-bank-detention-0",
-          "outletId": "thehill",
-          "outletName": "The Hill",
-          "headline": "Ro Khanna says he was detained by armed Israeli settlers in West Bank",
-          "url": "https://thehill.com/homenews/house/5964095-khanna-detained-israeli-settlers/",
-          "biasScore": 3.5,
+          "id": "timesofisrael-ro-khanna-west-bank-detention-2",
+          "outletId": "timesofisrael",
+          "outletName": "Times of Israel",
+          "headline": "US lawmaker detained by settlers says lack of punishment shows Israeli complicity",
+          "url": "https://www.timesofisrael.com/us-lawmaker-detained-by-settlers-says-lack-of-punishment-shows-israeli-complicity/",
+          "biasScore": 3,
           "biasSignals": [
-            "frames Khanna as victim of Israeli detention",
-            "no counterframing of security context"
+            "'detained by settlers' — Israeli impunity framing",
+            "'Israeli complicity' — critical of Israeli government"
           ],
-          "biasScoreGrok": 5,
+          "biasScoreGrok": 4,
           "biasSignalsGrok": [
-            "detained by armed settlers",
-            "West Bank"
+            "lack of punishment",
+            "Israeli complicity"
           ],
-          "pubDate": "2026-07-11T18:52:51Z",
+          "pubDate": "Tue, 14 Jul 2026 09:24:26 +0000",
           "clusterId": "ro-khanna-west-bank-detention"
         },
         {
-          "id": "abc-ro-khanna-west-bank-detention-2",
+          "id": "abc-ro-khanna-west-bank-detention-3",
           "outletId": "abc",
           "outletName": "ABC News",
           "headline": "Rep. Ro Khanna says he was 'detained' by Israeli settlers, military during West Bank visit",
           "url": "https://abcnews.com/Politics/rep-ro-khanna-detained-israeli-settlers-military-west/story?id=134681240",
-          "biasScore": 3.8,
+          "biasScore": 3.5,
           "biasSignals": [
-            "quotes 'detained' with scare quotes implying dispute",
-            "frames Khanna as victim of Israeli military"
+            "Khanna's 'detained' framing accepted uncritically",
+            "sympathetic to Democratic lawmaker account"
           ],
-          "biasScoreGrok": 4.5,
+          "biasScoreGrok": 5,
           "biasSignalsGrok": [
             "says he was detained",
-            "military during visit"
+            "settlers noted"
           ],
           "pubDate": "2026-07-11T22:29:08Z",
+          "clusterId": "ro-khanna-west-bank-detention"
+        },
+        {
+          "id": "nationalreview-ro-khanna-west-bank-detention-0",
+          "outletId": "nationalreview",
+          "outletName": "National Review",
+          "headline": "Ro Khanna’s Israel Stunt",
+          "url": "https://www.nationalreview.com/2026/07/ro-khanas-israel-stunt/",
+          "biasScore": 7.5,
+          "biasSignals": [
+            "'Stunt' — dismissive framing of Democrat's action",
+            "critical of Khanna as performative"
+          ],
+          "biasScoreGrok": 7,
+          "biasSignalsGrok": [
+            "Israel stunt noted",
+            "conservative framing"
+          ],
+          "pubDate": "Tue, 14 Jul 2026 10:30:35 +0000",
           "clusterId": "ro-khanna-west-bank-detention"
         },
         {
@@ -2071,15 +2054,15 @@
           "outletName": "The Federalist",
           "headline": "Ro Khanna Is Very Important, Explains Ro Khanna",
           "url": "https://thefederalist.com/2026/07/13/ro-khanna-is-very-important-explains-ro-khanna/?utm_source=rss&utm_medium=rss&utm_campaign=ro-khanna-is-very-important-explains-ro-khanna",
-          "biasScore": 8,
+          "biasScore": 7.5,
           "biasSignals": [
-            "mocking headline implies Khanna self-important",
-            "dismissive framing of Democratic congressman's account"
+            "mocking 'very important' framing of Khanna",
+            "dismissive conservative satire of Democrat"
           ],
-          "biasScoreGrok": 7.2,
+          "biasScoreGrok": 7.5,
           "biasSignalsGrok": [
             "very important explains",
-            "mocking tone"
+            "Ro Khanna noted"
           ],
           "pubDate": "Mon, 13 Jul 2026 16:39:13 +0000",
           "clusterId": "ro-khanna-west-bank-detention"
@@ -2087,257 +2070,177 @@
       ]
     },
     {
-      "id": "mcconnell-hospitalization",
-      "topicLabel": "McConnell breaks silence about his hospitalization",
-      "date": "2026-07-13",
+      "id": "trump-freedom-fuel-gas-prices",
+      "topicLabel": "Trump promotes 'Freedom Fuel' amid rising gas prices",
+      "date": "2026-07-14",
       "articles": [
         {
-          "id": "neutralnews-mcconnell-hospitalization-2",
-          "outletId": "neutralnews",
-          "outletName": "Neutral News",
-          "headline": "McConnell Says a Fall Led to His Hospitalization",
-          "url": "https://www.neutralnews.us/article/263",
-          "biasScore": 4.5,
+          "id": "msnbc-trump-freedom-fuel-gas-prices-0",
+          "outletId": "msnbc",
+          "outletName": "MSNBC",
+          "headline": "Trump’s ‘Freedom Fuel’ push is a flimsy answer to rising gas prices",
+          "url": "https://www.ms.now/opinion/freedom-fuel-trump-gas-prices",
+          "biasScore": 2.5,
           "biasSignals": [
-            "neutral factual reporting",
-            "no ideological signals"
+            "'flimsy answer' — dismissive of Trump energy policy",
+            "critical framing of Trump's gas price response"
           ],
-          "biasScoreGrok": 2.8,
+          "biasScoreGrok": 2.5,
           "biasSignalsGrok": [
-            "says a fall led",
-            "neutral medical"
+            "flimsy answer noted",
+            "rising gas prices"
           ],
-          "pubDate": "Mon, 13 Jul 2026 15:56:21 GMT",
-          "clusterId": "mcconnell-hospitalization"
+          "pubDate": "2026-07-12T10:00:00Z",
+          "clusterId": "trump-freedom-fuel-gas-prices"
         },
         {
-          "id": "npr-mcconnell-hospitalization-0",
-          "outletId": "npr",
-          "outletName": "NPR",
-          "headline": "McConnell says a fall led to his hospitalization, breaking weeks of silence",
-          "url": "https://www.npr.org/2026/07/13/nx-s1-5891492/mcconnell-fall-hospitalization",
-          "biasScore": 4.8,
+          "id": "yahoofinance-trump-freedom-fuel-gas-prices-1",
+          "outletId": "yahoofinance",
+          "outletName": "Yahoo Finance",
+          "headline": "Trump's promotion of 'Freedom Fuel' gas stations sparks accusations of a double standard",
+          "url": "https://finance.yahoo.com/energy/articles/trumps-promotion-freedom-fuel-gas-110000934.html",
+          "biasScore": 3.5,
           "biasSignals": [
-            "neutral 'breaking weeks of silence' framing",
-            "no ideological loading"
-          ],
-          "biasScoreGrok": 3,
-          "biasSignalsGrok": [
-            "fall led to hospitalization",
-            "breaking silence"
-          ],
-          "pubDate": "Mon, 13 Jul 2026 01:49:09 -0400",
-          "clusterId": "mcconnell-hospitalization"
-        },
-        {
-          "id": "axios-mcconnell-hospitalization-1",
-          "outletId": "axios",
-          "outletName": "Axios",
-          "headline": "McConnell breaks weeks of silence about his hospitalization",
-          "url": "https://www.axios.com/2026/07/12/mitch-mcconnell-hospitalization-fall-pneumonia",
-          "biasScore": 4.8,
-          "biasSignals": [
-            "neutral 'breaks silence' language",
-            "no ideological framing"
-          ],
-          "biasScoreGrok": 3.2,
-          "biasSignalsGrok": [
-            "breaks weeks of silence",
-            "about hospitalization"
-          ],
-          "pubDate": "Sun, 12 Jul 2026 22:17:01 +0000",
-          "clusterId": "mcconnell-hospitalization"
-        }
-      ]
-    },
-    {
-      "id": "trump-big-beautiful-bill-midterms",
-      "topicLabel": "Trump's major legislation could hurt Republicans in midterms",
-      "date": "2026-07-13",
-      "articles": [
-        {
-          "id": "cnn-trump-big-beautiful-bill-midterms-0",
-          "outletId": "cnn",
-          "outletName": "CNN",
-          "headline": "It was supposed to be Trump’s big legislative achievement. It could be a weapon for Democrats to win in the midterms",
-          "url": "https://www.cnn.com/2026/07/12/politics/trump-big-beautiful-bill-midterms",
-          "biasScore": 3,
-          "biasSignals": [
-            "'Weapon for Democrats' frames bill as Republican liability",
-            "centers Democratic political advantage over policy merits"
-          ],
-          "biasScoreGrok": 6.5,
-          "biasSignalsGrok": [
-            "could hurt Republicans",
-            "weapon for Democrats"
-          ],
-          "pubDate": "2026-07-12T10:30:25Z",
-          "clusterId": "trump-big-beautiful-bill-midterms"
-        },
-        {
-          "id": "economist-trump-big-beautiful-bill-midterms-1",
-          "outletId": "economist",
-          "outletName": "The Economist",
-          "headline": "Why Donald Trump won’t let a doomed bill die",
-          "url": "https://www.economist.com/united-states/2026/07/09/why-donald-trump-wont-let-a-doomed-bill-die",
-          "biasScore": 5.5,
-          "biasSignals": [
-            "'Doomed bill' — dismissive of Trump's legislative push",
-            "analytical framing from center-right outlet"
-          ],
-          "biasScoreGrok": 5,
-          "biasSignalsGrok": [
-            "won't let doomed bill",
-            "die analysis"
-          ],
-          "pubDate": "Thu, 09 Jul 2026 13:03:07 +0000",
-          "clusterId": "trump-big-beautiful-bill-midterms"
-        }
-      ]
-    },
-    {
-      "id": "nytimes-doj-subpoena-press-freedom",
-      "topicLabel": "DOJ subpoenas New York Times journalists",
-      "date": "2026-07-13",
-      "articles": [
-        {
-          "id": "bostonglobe-nytimes-doj-subpoena-press-freedom-0",
-          "outletId": "bostonglobe",
-          "outletName": "Boston Globe",
-          "headline": "Times journalists subpoenaed as Trump escalates pressure on media",
-          "url": "https://www.bostonglobe.com/2026/07/11/nation/trump-escalates-pressure-on-media-times-journalists-subpoenaed/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
-          "biasScore": 3,
-          "biasSignals": [
-            "'Escalates pressure on media' — frames Trump as press antagonist",
-            "sympathetic framing toward journalists as victims"
-          ],
-          "biasScoreGrok": 6.8,
-          "biasSignalsGrok": [
-            "escalates pressure on media",
-            "journalists subpoenaed"
-          ],
-          "pubDate": "Sat, 11 Jul 2026 04:49:43 +0000",
-          "clusterId": "nytimes-doj-subpoena-press-freedom"
-        },
-        {
-          "id": "reason-nytimes-doj-subpoena-press-freedom-1",
-          "outletId": "reason",
-          "outletName": "Reason",
-          "headline": "Justice Department Subpoenas New York Times Journalists Who Reported About Trump's New Plane",
-          "url": "https://reason.com/2026/07/13/justice-department-subpoenas-new-york-times-journalists-who-reported-about-trumps-new-plane/",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral 'Justice Department Subpoenas' language",
-            "libertarian outlet notes Trump press pressure without heavy framing"
-          ],
-          "biasScoreGrok": 4,
-          "biasSignalsGrok": [
-            "subpoenas journalists",
-            "reported about plane"
-          ],
-          "pubDate": "Mon, 13 Jul 2026 16:50:34 +0000",
-          "clusterId": "nytimes-doj-subpoena-press-freedom"
-        }
-      ]
-    },
-    {
-      "id": "automakers-tariffs-production",
-      "topicLabel": "Automakers resist moving US production despite tariffs",
-      "date": "2026-07-13",
-      "articles": [
-        {
-          "id": "cnn-automakers-tariffs-production-0",
-          "outletId": "cnn",
-          "outletName": "CNN",
-          "headline": "After a year of tariffs, automakers are still resistant to moving production to the US",
-          "url": "https://www.cnn.com/2026/07/12/business/tariffs-automakers-new-factories",
-          "biasScore": 3.8,
-          "biasSignals": [
-            "'Resistant' frames automakers sympathetically against tariff pressure",
-            "implies tariff policy is ineffective — skeptical of Trump"
-          ],
-          "biasScoreGrok": 5.2,
-          "biasSignalsGrok": [
-            "still resistant to move",
-            "after tariffs year"
-          ],
-          "pubDate": "2026-07-12T16:00:25Z",
-          "clusterId": "automakers-tariffs-production"
-        },
-        {
-          "id": "reason-automakers-tariffs-production-1",
-          "outletId": "reason",
-          "outletName": "Reason",
-          "headline": "Trump's Tariffs Have Been Particularly Costly for Small Businesses",
-          "url": "https://reason.com/2026/07/13/trumps-tariffs-have-been-particularly-costly-for-small-businesses/",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "'Particularly Costly' — critical framing of tariffs' impact",
-            "libertarian outlet emphasizes economic harm to small business"
-          ],
-          "biasScoreGrok": 6,
-          "biasSignalsGrok": [
-            "particularly costly",
-            "for small businesses"
-          ],
-          "pubDate": "Mon, 13 Jul 2026 15:40:34 +0000",
-          "clusterId": "automakers-tariffs-production"
-        }
-      ]
-    },
-    {
-      "id": "illinois-family-shooting",
-      "topicLabel": "Five family members killed in Illinois shooting",
-      "date": "2026-07-13",
-      "articles": [
-        {
-          "id": "guardian-illinois-family-shooting-0",
-          "outletId": "guardian",
-          "outletName": "The Guardian",
-          "headline": "Two teens arrested after five members of family killed in Illinois shooting",
-          "url": "https://www.theguardian.com/us-news/2026/jul/13/east-st-louis-illinois-shooting-arrests",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral 'two teens arrested' language",
-            "no ideological framing"
-          ],
-          "biasScoreGrok": 3,
-          "biasSignalsGrok": [
-            "two teens arrested",
-            "family killed"
-          ],
-          "pubDate": "Mon, 13 Jul 2026 14:19:01 GMT",
-          "clusterId": "illinois-family-shooting"
-        },
-        {
-          "id": "bostonglobe-illinois-family-shooting-1",
-          "outletId": "bostonglobe",
-          "outletName": "Boston Globe",
-          "headline": "Family targeted in mass shooting that left 5 dead in Illinois, police say",
-          "url": "https://www.bostonglobe.com/2026/07/13/nation/illinois-mass-shooting-family-targeted/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "'Targeted' implies deliberate attack — neutral framing",
-            "no political loading"
+            "'accusations of double standard' — critical framing",
+            "skeptical of Trump energy branding"
           ],
           "biasScoreGrok": 3.5,
           "biasSignalsGrok": [
-            "family targeted",
-            "mass shooting 5 dead"
+            "sparks accusations",
+            "double standard noted"
           ],
-          "pubDate": "Mon, 13 Jul 2026 16:13:31 +0000",
-          "clusterId": "illinois-family-shooting"
+          "pubDate": "2026-07-14T11:00:00Z",
+          "clusterId": "trump-freedom-fuel-gas-prices"
+        }
+      ]
+    },
+    {
+      "id": "bbc-scott-mills-highest-earner",
+      "topicLabel": "Scott Mills revealed as BBC's highest-paid star before sacking",
+      "date": "2026-07-14",
+      "articles": [
+        {
+          "id": "independent-bbc-scott-mills-highest-earner-0",
+          "outletId": "independent",
+          "outletName": "The Independent",
+          "headline": "Scott Mills was BBC’s highest-paid employee until he was sacked from Radio 2",
+          "url": "https://www.independent.co.uk/arts-entertainment/tv/news/bbc-salary-report-scott-mills-gary-lineker-b3014518.html",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral salary disclosure reporting",
+            "no ideological signals"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "highest-paid until sacked",
+            "Radio 2 noted"
+          ],
+          "pubDate": "Tue, 14 Jul 2026 11:22:35 GMT",
+          "clusterId": "bbc-scott-mills-highest-earner"
+        },
+        {
+          "id": "independent-bbc-scott-mills-highest-earner-1",
+          "outletId": "independent",
+          "outletName": "The Independent",
+          "headline": "BBC top earners in full: Highest-paid stars from Scott Mills to Gary Lineker",
+          "url": "https://www.independent.co.uk/arts-entertainment/tv/news/bbc-salaries-scott-mills-greg-james-lineker-b3014531.html",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral list-style earnings reporting",
+            "no ideological loading"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "top earners in full",
+            "from Scott Mills"
+          ],
+          "pubDate": "Tue, 14 Jul 2026 11:21:58 GMT",
+          "clusterId": "bbc-scott-mills-highest-earner"
+        },
+        {
+          "id": "skynews-bbc-scott-mills-highest-earner-2",
+          "outletId": "skynews",
+          "outletName": "Sky News",
+          "headline": "Scott Mills was BBC's highest earner before his sacking, new figures reveal",
+          "url": "https://news.sky.com/story/scott-mills-was-bbcs-highest-earner-before-his-sacking-new-figures-reveal-13563313",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral BBC earnings reporting",
+            "no ideological signals"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "highest earner before sacking",
+            "new figures noted"
+          ],
+          "pubDate": "Tue, 14 Jul 2026 11:28:00 +0100",
+          "clusterId": "bbc-scott-mills-highest-earner"
+        },
+        {
+          "id": "metro-bbc-scott-mills-highest-earner-3",
+          "outletId": "metro",
+          "outletName": "Metro",
+          "headline": "Scott Mills tops BBC’s list of highest-paid stars 4 months after axe",
+          "url": "https://metro.co.uk/2026/07/14/scott-mills-tops-bbcs-list-highest-paid-stars-4-months-axe-29133467/",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral salary reporting",
+            "no political framing"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "tops list 4 months",
+            "after axe noted"
+          ],
+          "pubDate": "Tue, 14 Jul 2026 11:03:36 +0000",
+          "clusterId": "bbc-scott-mills-highest-earner"
         }
       ]
     }
   ],
   "outlets": [
     {
+      "outletId": "latimes",
+      "outletName": "LA Times",
+      "abbreviation": "LAT",
+      "currentScore": 1.5,
+      "currentScoreGrok": 2,
+      "articleCount": 1,
+      "expectedRange": [
+        2.5,
+        4
+      ]
+    },
+    {
+      "outletId": "timesofisrael",
+      "outletName": "Times of Israel",
+      "abbreviation": "TOI",
+      "currentScore": 3,
+      "currentScoreGrok": 4,
+      "articleCount": 1,
+      "expectedRange": [
+        5.5,
+        7.5
+      ]
+    },
+    {
+      "outletId": "guardian",
+      "outletName": "The Guardian",
+      "abbreviation": "Guard",
+      "currentScore": 3.06,
+      "currentScoreGrok": 3,
+      "articleCount": 5,
+      "expectedRange": [
+        2.5,
+        4
+      ]
+    },
+    {
       "outletId": "huffpost",
       "outletName": "HuffPost",
       "abbreviation": "HPost",
-      "currentScore": 3.58,
-      "currentScoreGrok": 5.1,
+      "currentScore": 3.17,
+      "currentScoreGrok": 3.17,
       "articleCount": 6,
       "expectedRange": [
         2,
@@ -2345,11 +2248,47 @@
       ]
     },
     {
+      "outletId": "aljazeera",
+      "outletName": "Al Jazeera",
+      "abbreviation": "AJ",
+      "currentScore": 3.25,
+      "currentScoreGrok": 3.63,
+      "articleCount": 4,
+      "expectedRange": [
+        3.5,
+        5
+      ]
+    },
+    {
+      "outletId": "vox",
+      "outletName": "Vox",
+      "abbreviation": "Vox",
+      "currentScore": 3.5,
+      "currentScoreGrok": 3.5,
+      "articleCount": 1,
+      "expectedRange": [
+        2.5,
+        4
+      ]
+    },
+    {
+      "outletId": "yahoofinance",
+      "outletName": "Yahoo Finance",
+      "abbreviation": "YFin",
+      "currentScore": 3.5,
+      "currentScoreGrok": 3.5,
+      "articleCount": 1,
+      "expectedRange": [
+        4.5,
+        6
+      ]
+    },
+    {
       "outletId": "theatlantic",
       "outletName": "The Atlantic",
       "abbreviation": "Atlntc",
-      "currentScore": 3.67,
-      "currentScoreGrok": 5.1,
+      "currentScore": 3.73,
+      "currentScoreGrok": 3.33,
       "articleCount": 3,
       "expectedRange": [
         2.5,
@@ -2357,36 +2296,48 @@
       ]
     },
     {
-      "outletId": "cnn",
-      "outletName": "CNN",
-      "abbreviation": "CNN",
-      "currentScore": 3.78,
-      "currentScoreGrok": 5.8,
-      "articleCount": 4,
+      "outletId": "msnbc",
+      "outletName": "MSNBC",
+      "abbreviation": "MSNBC",
+      "currentScore": 3.8,
+      "currentScoreGrok": 3.8,
+      "articleCount": 5,
       "expectedRange": [
-        2.5,
-        4
+        1.5,
+        3.5
       ]
     },
     {
-      "outletId": "independent",
-      "outletName": "The Independent",
-      "abbreviation": "Indep",
-      "currentScore": 3.9,
-      "currentScoreGrok": 4.96,
-      "articleCount": 5,
+      "outletId": "reason",
+      "outletName": "Reason",
+      "abbreviation": "Reason",
+      "currentScore": 4,
+      "currentScoreGrok": 3.5,
+      "articleCount": 1,
+      "expectedRange": [
+        4.5,
+        6.5
+      ]
+    },
+    {
+      "outletId": "abc",
+      "outletName": "ABC News",
+      "abbreviation": "ABC",
+      "currentScore": 4,
+      "currentScoreGrok": 5,
+      "articleCount": 2,
       "expectedRange": [
         3,
         4.5
       ]
     },
     {
-      "outletId": "guardian",
-      "outletName": "The Guardian",
-      "abbreviation": "Guard",
-      "currentScore": 3.93,
-      "currentScoreGrok": 3.38,
-      "articleCount": 4,
+      "outletId": "cnn",
+      "outletName": "CNN",
+      "abbreviation": "CNN",
+      "currentScore": 4.2,
+      "currentScoreGrok": 4.5,
+      "articleCount": 5,
       "expectedRange": [
         2.5,
         4
@@ -2396,225 +2347,45 @@
       "outletId": "npr",
       "outletName": "NPR",
       "abbreviation": "NPR",
-      "currentScore": 4.2,
-      "currentScoreGrok": 3.38,
-      "articleCount": 4,
-      "expectedRange": [
-        3.5,
-        4.5
-      ]
-    },
-    {
-      "outletId": "msnbc",
-      "outletName": "MSNBC",
-      "abbreviation": "MSNBC",
-      "currentScore": 4.37,
-      "currentScoreGrok": 4.67,
-      "articleCount": 3,
-      "expectedRange": [
-        1.5,
-        3.5
-      ]
-    },
-    {
-      "outletId": "forbes",
-      "outletName": "Forbes",
-      "abbreviation": "Forbes",
-      "currentScore": 4.38,
-      "currentScoreGrok": 4.55,
-      "articleCount": 4,
-      "expectedRange": [
-        5,
-        6.5
-      ]
-    },
-    {
-      "outletId": "bostonglobe",
-      "outletName": "Boston Globe",
-      "abbreviation": "Globe",
-      "currentScore": 4.44,
-      "currentScoreGrok": 4.64,
-      "articleCount": 5,
-      "expectedRange": [
-        2.5,
-        4
-      ]
-    },
-    {
-      "outletId": "nytimes",
-      "outletName": "NY Times",
-      "abbreviation": "NYT",
-      "currentScore": 4.48,
-      "currentScoreGrok": 4.78,
-      "articleCount": 5,
-      "expectedRange": [
-        3,
-        4.5
-      ]
-    },
-    {
-      "outletId": "latimes",
-      "outletName": "LA Times",
-      "abbreviation": "LAT",
-      "currentScore": 4.5,
-      "currentScoreGrok": 3.4,
-      "articleCount": 3,
-      "expectedRange": [
-        2.5,
-        4
-      ]
-    },
-    {
-      "outletId": "abc",
-      "outletName": "ABC News",
-      "abbreviation": "ABC",
-      "currentScore": 4.53,
-      "currentScoreGrok": 3.83,
-      "articleCount": 3,
-      "expectedRange": [
-        3,
-        4.5
-      ]
-    },
-    {
-      "outletId": "neutralnews",
-      "outletName": "Neutral News",
-      "abbreviation": "NN",
-      "currentScore": 4.59,
-      "currentScoreGrok": 2.61,
-      "articleCount": 7,
-      "expectedRange": [
-        4.5,
-        5.5
-      ]
-    },
-    {
-      "outletId": "aljazeera",
-      "outletName": "Al Jazeera",
-      "abbreviation": "AJ",
-      "currentScore": 4.6,
+      "currentScore": 4.22,
       "currentScoreGrok": 4.33,
-      "articleCount": 3,
+      "articleCount": 6,
       "expectedRange": [
         3.5,
-        5
+        4.5
       ]
     },
     {
       "outletId": "washpost",
       "outletName": "Washington Post",
       "abbreviation": "WPost",
-      "currentScore": 4.65,
-      "currentScoreGrok": 3.6,
-      "articleCount": 2,
+      "currentScore": 4.3,
+      "currentScoreGrok": 4.7,
+      "articleCount": 5,
       "expectedRange": [
         2.8,
         4.2
       ]
     },
     {
-      "outletId": "thehill",
-      "outletName": "The Hill",
-      "abbreviation": "Hill",
-      "currentScore": 4.7,
-      "currentScoreGrok": 4.03,
-      "articleCount": 7,
-      "expectedRange": [
-        5.5,
-        7
-      ]
-    },
-    {
-      "outletId": "ap",
-      "outletName": "Associated Press",
-      "abbreviation": "AP",
-      "currentScore": 4.72,
-      "currentScoreGrok": 3.96,
-      "articleCount": 5,
-      "expectedRange": [
-        4.5,
-        5.5
-      ]
-    },
-    {
-      "outletId": "yahoofinance",
-      "outletName": "Yahoo Finance",
-      "abbreviation": "YFin",
-      "currentScore": 4.77,
-      "currentScoreGrok": 3.23,
-      "articleCount": 3,
-      "expectedRange": [
-        4.5,
-        6
-      ]
-    },
-    {
-      "outletId": "skynews",
-      "outletName": "Sky News",
-      "abbreviation": "Sky",
-      "currentScore": 4.8,
-      "currentScoreGrok": 3,
-      "articleCount": 1,
-      "expectedRange": [
-        4,
-        5.5
-      ]
-    },
-    {
-      "outletId": "reason",
-      "outletName": "Reason",
-      "abbreviation": "Reason",
-      "currentScore": 4.83,
-      "currentScoreGrok": 5.17,
-      "articleCount": 3,
-      "expectedRange": [
-        4.5,
-        6.5
-      ]
-    },
-    {
       "outletId": "cnbc",
       "outletName": "CNBC",
       "abbreviation": "CNBC",
-      "currentScore": 4.86,
-      "currentScoreGrok": 4.8,
-      "articleCount": 5,
+      "currentScore": 4.4,
+      "currentScoreGrok": 4.25,
+      "articleCount": 2,
       "expectedRange": [
         4.5,
         6
-      ]
-    },
-    {
-      "outletId": "axios",
-      "outletName": "Axios",
-      "abbreviation": "Axios",
-      "currentScore": 4.88,
-      "currentScoreGrok": 4.63,
-      "articleCount": 4,
-      "expectedRange": [
-        5.5,
-        6.5
-      ]
-    },
-    {
-      "outletId": "bbc",
-      "outletName": "BBC",
-      "abbreviation": "BBC",
-      "currentScore": 5,
-      "currentScoreGrok": 3.15,
-      "articleCount": 2,
-      "expectedRange": [
-        4,
-        5.5
       ]
     },
     {
       "outletId": "cbsnews",
       "outletName": "CBS News",
       "abbreviation": "CBS",
-      "currentScore": 5,
-      "currentScoreGrok": 3.5,
-      "articleCount": 2,
+      "currentScore": 4.5,
+      "currentScoreGrok": 5.17,
+      "articleCount": 3,
       "expectedRange": [
         3,
         4.5
@@ -2624,68 +2395,188 @@
       "outletId": "nbc",
       "outletName": "NBC News",
       "abbreviation": "NBC",
-      "currentScore": 5.17,
-      "currentScoreGrok": 3.93,
-      "articleCount": 3,
+      "currentScore": 4.5,
+      "currentScoreGrok": 5,
+      "articleCount": 2,
       "expectedRange": [
         3,
         4.5
       ]
     },
     {
-      "outletId": "marketwatch",
-      "outletName": "MarketWatch",
-      "abbreviation": "MW",
-      "currentScore": 5.2,
-      "currentScoreGrok": 5.5,
+      "outletId": "bostonglobe",
+      "outletName": "Boston Globe",
+      "abbreviation": "Globe",
+      "currentScore": 4.5,
+      "currentScoreGrok": 5,
       "articleCount": 1,
       "expectedRange": [
-        4.5,
-        6
+        2.5,
+        4
       ]
     },
     {
-      "outletId": "dailymail",
-      "outletName": "Daily Mail",
-      "abbreviation": "DM",
-      "currentScore": 5.23,
-      "currentScoreGrok": 5.17,
-      "articleCount": 3,
+      "outletId": "bbc",
+      "outletName": "BBC",
+      "abbreviation": "BBC",
+      "currentScore": 4.5,
+      "currentScoreGrok": 5,
+      "articleCount": 2,
       "expectedRange": [
-        6.5,
-        8.5
+        4,
+        5.5
+      ]
+    },
+    {
+      "outletId": "telegraph",
+      "outletName": "The Telegraph",
+      "abbreviation": "Tele",
+      "currentScore": 4.5,
+      "currentScoreGrok": 5,
+      "articleCount": 1,
+      "expectedRange": [
+        6,
+        7.5
+      ]
+    },
+    {
+      "outletId": "skynews",
+      "outletName": "Sky News",
+      "abbreviation": "Sky",
+      "currentScore": 4.5,
+      "currentScoreGrok": 4.75,
+      "articleCount": 2,
+      "expectedRange": [
+        4,
+        5.5
+      ]
+    },
+    {
+      "outletId": "independent",
+      "outletName": "The Independent",
+      "abbreviation": "Indep",
+      "currentScore": 4.5,
+      "currentScoreGrok": 5,
+      "articleCount": 2,
+      "expectedRange": [
+        3,
+        4.5
+      ]
+    },
+    {
+      "outletId": "metro",
+      "outletName": "Metro",
+      "abbreviation": "Metro",
+      "currentScore": 4.5,
+      "currentScoreGrok": 5,
+      "articleCount": 1,
+      "expectedRange": [
+        3,
+        5
+      ]
+    },
+    {
+      "outletId": "neutralnews",
+      "outletName": "Neutral News",
+      "abbreviation": "NN",
+      "currentScore": 4.55,
+      "currentScoreGrok": 5,
+      "articleCount": 6,
+      "expectedRange": [
+        4.5,
+        5.5
+      ]
+    },
+    {
+      "outletId": "ap",
+      "outletName": "Associated Press",
+      "abbreviation": "AP",
+      "currentScore": 4.63,
+      "currentScoreGrok": 5.06,
+      "articleCount": 8,
+      "expectedRange": [
+        4.5,
+        5.5
+      ]
+    },
+    {
+      "outletId": "thehill",
+      "outletName": "The Hill",
+      "abbreviation": "Hill",
+      "currentScore": 4.64,
+      "currentScoreGrok": 5,
+      "articleCount": 7,
+      "expectedRange": [
+        5.5,
+        7
+      ]
+    },
+    {
+      "outletId": "nytimes",
+      "outletName": "NY Times",
+      "abbreviation": "NYT",
+      "currentScore": 4.65,
+      "currentScoreGrok": 4.25,
+      "articleCount": 2,
+      "expectedRange": [
+        3,
+        4.5
       ]
     },
     {
       "outletId": "economist",
       "outletName": "The Economist",
       "abbreviation": "Econ",
-      "currentScore": 5.3,
-      "currentScoreGrok": 4.77,
-      "articleCount": 3,
+      "currentScore": 4.75,
+      "currentScoreGrok": 4,
+      "articleCount": 2,
       "expectedRange": [
         4.5,
         6
       ]
     },
     {
-      "outletId": "timesofisrael",
-      "outletName": "Times of Israel",
-      "abbreviation": "TOI",
-      "currentScore": 5.8,
-      "currentScoreGrok": 5,
-      "articleCount": 1,
+      "outletId": "axios",
+      "outletName": "Axios",
+      "abbreviation": "Axios",
+      "currentScore": 5,
+      "currentScoreGrok": 5.25,
+      "articleCount": 4,
       "expectedRange": [
         5.5,
-        7.5
+        6.5
       ]
     },
     {
-      "outletId": "washexaminer",
-      "outletName": "Washington Examiner",
-      "abbreviation": "WExam",
-      "currentScore": 6.1,
-      "currentScoreGrok": 5.25,
+      "outletId": "nypost",
+      "outletName": "NY Post",
+      "abbreviation": "NYPost",
+      "currentScore": 5,
+      "currentScoreGrok": 5.5,
+      "articleCount": 1,
+      "expectedRange": [
+        6.5,
+        8
+      ]
+    },
+    {
+      "outletId": "politico",
+      "outletName": "Politico",
+      "abbreviation": "PLTICO",
+      "currentScore": 5.17,
+      "currentScoreGrok": 5.17,
+      "articleCount": 3,
+      "expectedRange": [
+        4,
+        5.5
+      ]
+    },
+    {
+      "outletId": "foxnews",
+      "outletName": "Fox News",
+      "abbreviation": "FOX",
+      "currentScore": 5.75,
+      "currentScoreGrok": 6,
       "articleCount": 2,
       "expectedRange": [
         7,
@@ -2693,12 +2584,12 @@
       ]
     },
     {
-      "outletId": "foxnews",
-      "outletName": "Fox News",
-      "abbreviation": "FOX",
+      "outletId": "washexaminer",
+      "outletName": "Washington Examiner",
+      "abbreviation": "WExam",
       "currentScore": 6.5,
-      "currentScoreGrok": 5.75,
-      "articleCount": 2,
+      "currentScoreGrok": 6.5,
+      "articleCount": 5,
       "expectedRange": [
         7,
         8.5
@@ -2708,8 +2599,8 @@
       "outletId": "breitbart",
       "outletName": "Breitbart",
       "abbreviation": "BB",
-      "currentScore": 6.5,
-      "currentScoreGrok": 6.2,
+      "currentScore": 6.75,
+      "currentScoreGrok": 6.75,
       "articleCount": 4,
       "expectedRange": [
         8.5,
@@ -2720,8 +2611,8 @@
       "outletId": "nationalreview",
       "outletName": "National Review",
       "abbreviation": "NR",
-      "currentScore": 6.5,
-      "currentScoreGrok": 5.77,
+      "currentScore": 7.5,
+      "currentScoreGrok": 7.33,
       "articleCount": 3,
       "expectedRange": [
         7,
@@ -2729,23 +2620,11 @@
       ]
     },
     {
-      "outletId": "nypost",
-      "outletName": "NY Post",
-      "abbreviation": "NYPost",
-      "currentScore": 7.5,
-      "currentScoreGrok": 6.5,
-      "articleCount": 1,
-      "expectedRange": [
-        6.5,
-        8
-      ]
-    },
-    {
       "outletId": "thefederalist",
       "outletName": "The Federalist",
       "abbreviation": "Fed",
-      "currentScore": 8,
-      "currentScoreGrok": 7.2,
+      "currentScore": 7.5,
+      "currentScoreGrok": 7.5,
       "articleCount": 1,
       "expectedRange": [
         7.5,
@@ -2753,6 +2632,6 @@
       ]
     }
   ],
-  "articleCount": 117,
+  "articleCount": 110,
   "storyCount": 15
 }
