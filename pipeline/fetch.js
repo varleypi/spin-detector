@@ -70,19 +70,27 @@ async function fetchNewsAPIBatch(outletIds) {
 async function fetchFromRSS(outletId) {
   const cfg = OUTLETS[outletId]
   if (!cfg?.rssUrl) return []
-  try {
-    const feed = await RSS_PARSER.parseURL(cfg.rssUrl)
-    return feed.items.slice(0, MAX_PER_OUTLET).map((item) => ({
-      outletId,
-      headline: (item.title ?? '').trim(),
-      url: item.link ?? '',
-      pubDate: item.pubDate ?? item.isoDate ?? new Date().toISOString(),
-      source: 'rss',
-    }))
-  } catch (err) {
-    console.warn(`   ⚠ RSS failed for ${outletId}: ${err.message}`)
-    return []
+  // Retry once: some CDNs (e.g. Newsweek) intermittently 406 a cold request but
+  // serve fine on a quick retry.
+  for (let attempt = 1; attempt <= 2; attempt++) {
+    try {
+      const feed = await RSS_PARSER.parseURL(cfg.rssUrl)
+      return feed.items.slice(0, MAX_PER_OUTLET).map((item) => ({
+        outletId,
+        headline: (item.title ?? '').trim(),
+        url: item.link ?? '',
+        pubDate: item.pubDate ?? item.isoDate ?? new Date().toISOString(),
+        source: 'rss',
+      }))
+    } catch (err) {
+      if (attempt === 2) {
+        console.warn(`   ⚠ RSS failed for ${outletId}: ${err.message}`)
+        return []
+      }
+      await new Promise((r) => setTimeout(r, 1500))
+    }
   }
+  return []
 }
 
 // ── Main export ───────────────────────────────────────────────────────────────

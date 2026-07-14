@@ -107,7 +107,7 @@ const OUTLETS = {
     name: 'Newsweek',
     abbr: 'NW',
     newsapiId: null, // Not a confirmed NewsAPI source — RSS only
-    rssUrl: 'https://feeds.feedburner.com/NewsweekTopNewsAndFeaturedStories',
+    rssUrl: 'https://www.newsweek.com/rss.xml', // old FeedBurner feed 404s
     expectedRange: [4.0, 5.5],
   },
   economist: {
