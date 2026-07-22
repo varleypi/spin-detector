@@ -1,390 +1,143 @@
 {
   "date": "2026-07-22",
-  "generatedAt": "2026-07-22T11:51:43.378Z",
+  "generatedAt": "2026-07-22T16:18:20.778Z",
   "stories": [
     {
       "id": "us-iran-war",
-      "topicLabel": "US military strikes on Iran, war escalation",
+      "topicLabel": "US-Iran military conflict, strikes, and ceasefire talks",
       "date": "2026-07-22",
       "articles": [
         {
-          "id": "vox-us-iran-war-16",
+          "id": "huffpost-us-iran-war-22",
+          "outletId": "huffpost",
+          "outletName": "HuffPost",
+          "headline": "Chris Hayes Shreds Trump Over This 'Unbelievable' Move After U.S. Troops Killed In Iran War",
+          "url": "https://www.huffpost.com/entry/chris-hayes-trump-world-cup-troops-iran-war_n_6a5f4606e4b0fb869f7bf8ce",
+          "biasScore": 2,
+          "biasSignals": [
+            "\"shreds Trump\" — emotionally charged attack framing",
+            "\"unbelievable\" — loaded qualifier against Trump action"
+          ],
+          "biasScoreGrok": 2.5,
+          "biasSignalsGrok": [
+            "shreds Trump loaded",
+            "HuffPost far left"
+          ],
+          "pubDate": "2026-07-21T14:05:42Z",
+          "clusterId": "us-iran-war"
+        },
+        {
+          "id": "huffpost-us-iran-war-26",
+          "outletId": "huffpost",
+          "outletName": "HuffPost",
+          "headline": "U.S. Soldier Killed In Iraq Was 30-Year-Old Father From North Carolina",
+          "url": "https://www.huffpost.com/entry/us-soldier-killed-in-iraq-identified_n_6a5f8aafe4b06bbe43f41700",
+          "biasScore": 2.5,
+          "biasSignals": [
+            "humanizes soldier with personal details — emotional framing",
+            "HuffPost emphasis on individual tragedy over policy"
+          ],
+          "biasScoreGrok": 3.5,
+          "biasSignalsGrok": [
+            "father from NC victim",
+            "HuffPost sympathetic"
+          ],
+          "pubDate": "2026-07-21T15:09:00Z",
+          "clusterId": "us-iran-war"
+        },
+        {
+          "id": "vox-us-iran-war-21",
           "outletId": "vox",
           "outletName": "Vox",
           "headline": "Iran is showing it can still fight back",
           "url": "https://www.vox.com/today-explained-newsletter/496335/iran-war-july-strikes",
           "biasScore": 3,
           "biasSignals": [
-            "'Iran can still fight back' — framing Iran as capable",
-            "sympathetic to Iranian resilience framing"
+            "\"Iran is showing it can still fight back\" — sympathetic to Iran",
+            "Vox framing centers Iranian resilience over US objectives"
           ],
-          "biasScoreGrok": 3.6,
+          "biasScoreGrok": 3,
           "biasSignalsGrok": [
-            "Iran 'can still fight back'",
-            "resilience framing positive"
+            "showing fight back",
+            "Vox left framing"
           ],
           "pubDate": "2026-07-21T21:15:00.000Z",
-          "clusterId": "us-iran-war"
-        },
-        {
-          "id": "theatlantic-us-iran-war-25",
-          "outletId": "theatlantic",
-          "outletName": "The Atlantic",
-          "headline": "J. D. Vance Isn’t a Fool. Why Does He Act Like One?",
-          "url": "https://www.theatlantic.com/newsletters/2026/07/jd-vance-plays-dumb/688018/?utm_source=feed",
-          "biasScore": 3,
-          "biasSignals": [
-            "Vance framed as acting foolishly on war",
-            "critical left-leaning framing of VP"
-          ],
-          "biasScoreGrok": 2.9,
-          "biasSignalsGrok": [
-            "'isn’t a fool' but acts like",
-            "Vance mockery framing"
-          ],
-          "pubDate": "Tue, 21 Jul 2026 18:01:00 -0400",
-          "clusterId": "us-iran-war"
-        },
-        {
-          "id": "theatlantic-us-iran-war-26",
-          "outletId": "theatlantic",
-          "outletName": "The Atlantic",
-          "headline": "Pete Hegseth’s Reckless Message to Helicopter Pilots",
-          "url": "https://www.theatlantic.com/international/2026/07/hegseth-reckless-military-helicopter/688008/?utm_source=feed",
-          "biasScore": 3,
-          "biasSignals": [
-            "'Reckless Message' — charged negative descriptor",
-            "Hegseth framed as endangering military"
-          ],
-          "biasScoreGrok": 2.3,
-          "biasSignalsGrok": [
-            "'reckless message' critical",
-            "helicopter pilots victim angle"
-          ],
-          "pubDate": "Tue, 21 Jul 2026 10:09:47 -0400",
-          "clusterId": "us-iran-war"
-        },
-        {
-          "id": "economist-us-iran-war-9",
-          "outletId": "economist",
-          "outletName": "The Economist",
-          "headline": "The Iran war is America’s least popular since polls began",
-          "url": "https://www.economist.com/united-states/2026/07/19/the-iran-war-is-americas-least-popular-since-polls-began",
-          "biasScore": 3.5,
-          "biasSignals": [
-            "'least popular since polls began' — anti-war emphasis",
-            "data-driven but framing suggests opposition"
-          ],
-          "biasScoreGrok": 3.9,
-          "biasSignalsGrok": [
-            "'least popular war' polls negative",
-            "America's war framing"
-          ],
-          "pubDate": "Sun, 19 Jul 2026 08:38:02 +0000",
-          "clusterId": "us-iran-war"
-        },
-        {
-          "id": "theatlantic-us-iran-war-18",
-          "outletId": "theatlantic",
-          "outletName": "The Atlantic",
-          "headline": "War by Any Other Name",
-          "url": "https://www.theatlantic.com/national-security/2026/07/iran-war-trump-hegseth/688016/?utm_source=feed",
-          "biasScore": 3.5,
-          "biasSignals": [
-            "'War by Any Other Name' — challenges official framing",
-            "implies administration obscuring reality of war"
-          ],
-          "biasScoreGrok": 4.7,
-          "biasSignalsGrok": [
-            "'war by any other name'",
-            "euphemism critique"
-          ],
-          "pubDate": "Tue, 21 Jul 2026 18:38:04 -0400",
-          "clusterId": "us-iran-war"
-        },
-        {
-          "id": "npr-us-iran-war-4",
-          "outletId": "npr",
-          "outletName": "NPR",
-          "headline": "Sen. Patty Murray, D-Wash., on Defense Secretary Pete Hegseth's Senate testimony",
-          "url": "https://www.npr.org/2026/07/22/nx-s1-5902047/sen-patty-murray-d-wash-on-defense-secretary-pete-hegseths-senate-testimony",
-          "biasScore": 3.8,
-          "biasSignals": [
-            "Democrat senator's perspective leads framing",
-            "implies skepticism of Hegseth testimony"
-          ],
-          "biasScoreGrok": 4.2,
-          "biasSignalsGrok": [
-            "neutral reporting on testimony",
-            "party label used factually"
-          ],
-          "pubDate": "Wed, 22 Jul 2026 06:43:28 -0400",
-          "clusterId": "us-iran-war"
-        },
-        {
-          "id": "thehill-us-iran-war-12",
-          "outletId": "thehill",
-          "outletName": "The Hill",
-          "headline": "Rising US death count in Iran war drives Trump toward escalation",
-          "url": "https://thehill.com/homenews/administration/5979309-us-servicemembers-killed-iran/",
-          "biasScore": 4,
-          "biasSignals": [
-            "'rising death count drives escalation' — causal framing",
-            "neutral verbs but emphasizes human cost"
-          ],
-          "biasScoreGrok": 2.7,
-          "biasSignalsGrok": [
-            "'drives Trump toward escalation'",
-            "death count victim emphasis"
-          ],
-          "pubDate": "2026-07-20T21:34:05Z",
-          "clusterId": "us-iran-war"
-        },
-        {
-          "id": "huffpost-us-iran-war-17",
-          "outletId": "huffpost",
-          "outletName": "HuffPost",
-          "headline": "Iranian Official Meets Mediators In Pakistan As Iran And U.S. Keep Up A 10th Day Of Attacks",
-          "url": "https://www.huffpost.com/entry/iran-meetings-pakistan-amid-us-attacks_n_6a5f49f4e4b06bbe43f3da70",
-          "biasScore": 4,
-          "biasSignals": [
-            "neutral diplomatic framing of mediation",
-            "balanced reference to both sides continuing attacks"
-          ],
-          "biasScoreGrok": 3.3,
-          "biasSignalsGrok": [
-            "mediators in Pakistan neutral",
-            "keep up attacks factual"
-          ],
-          "pubDate": "2026-07-21T10:37:09Z",
-          "clusterId": "us-iran-war"
-        },
-        {
-          "id": "washpost-us-iran-war-2",
-          "outletId": "washpost",
-          "outletName": "Washington Post",
-          "headline": "U.S. strikes unlikely to move Iran, intelligence reports say",
-          "url": "https://www.washingtonpost.com/national-security/2026/07/20/us-strikes-unlikely-move-iran-intelligence-reports-say/",
-          "biasScore": 4.2,
-          "biasSignals": [
-            "cites intelligence skepticism of strikes",
-            "neutral framing but anti-war implication"
-          ],
-          "biasScoreGrok": 3.1,
-          "biasSignalsGrok": [
-            "'unlikely to move Iran' doubts efficacy",
-            "intelligence reports neutral but skeptical"
-          ],
-          "pubDate": "2026-07-20T22:07:38Z",
-          "clusterId": "us-iran-war"
-        },
-        {
-          "id": "ap-us-iran-war-15",
-          "outletId": "ap",
-          "outletName": "Associated Press",
-          "headline": "The limits of intensifying attacks emerge as US and Iran dig in",
-          "url": "https://apnews.com/article/iran-war-trump-airstrikes-strait-hormuz-8c42c6ddc0c32d53ce452ace92a62b9a",
-          "biasScore": 4.2,
-          "biasSignals": [
-            "'limits of intensifying attacks' — anti-escalation implication",
-            "neutral sourcing but framing suggests stalemate"
-          ],
-          "biasScoreGrok": 4.9,
-          "biasSignalsGrok": [
-            "limits emerge balanced",
-            "dig in verb neutral"
-          ],
-          "pubDate": "2026-07-21T04:01:20Z",
-          "clusterId": "us-iran-war"
-        },
-        {
-          "id": "washpost-us-iran-war-0",
-          "outletId": "washpost",
-          "outletName": "Washington Post",
-          "headline": "The Pentagon, sinking billions into Iran war, is quickly running short on cash",
-          "url": "https://www.washingtonpost.com/national-security/2026/07/21/pentagon-sinking-billions-into-iran-is-quickly-running-short-cash/",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "'sinking billions' — cost-critical framing",
-            "neutral sourcing but emphasizes Pentagon strain"
-          ],
-          "biasScoreGrok": 2.5,
-          "biasSignalsGrok": [
-            "'sinking billions' critiques spending",
-            "war escalation framing sympathetic to Iran"
-          ],
-          "pubDate": "2026-07-21T10:00:01Z",
-          "clusterId": "us-iran-war"
-        },
-        {
-          "id": "cbsnews-us-iran-war-8",
-          "outletId": "cbsnews",
-          "outletName": "CBS News",
-          "headline": "Details on progress toward Iran peace agreement as Trump calls off strikes",
-          "url": "https://www.cbsnews.com/video/details-on-progress-toward-iran-peace-agreement-as-trump-calls-off-strikes/",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral 'peace agreement' language",
-            "balanced sourcing on strikes and diplomacy"
-          ],
-          "biasScoreGrok": 5.3,
-          "biasSignalsGrok": [
-            "'progress toward peace' balanced",
-            "Trump calls off strikes neutral"
-          ],
-          "pubDate": "2026-06-11T19:18:45+00:00",
-          "clusterId": "us-iran-war"
-        },
-        {
-          "id": "ap-us-iran-war-14",
-          "outletId": "ap",
-          "outletName": "Associated Press",
-          "headline": "US strikes Iran for 10th night as tanker attacked",
-          "url": "https://apnews.com/article/iran-us-hormuz-strait-war-july-21-2026-1664f6a4dad005a99771b2ad15213585",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral verb 'strikes' used throughout",
-            "tanker attack mentioned as factual escalation"
-          ],
-          "biasScoreGrok": 4.5,
-          "biasSignalsGrok": [
-            "strikes count factual",
-            "tanker attacked neutral"
-          ],
-          "pubDate": "2026-07-21T07:44:29Z",
-          "clusterId": "us-iran-war"
-        },
-        {
-          "id": "neutralnews-us-iran-war-19",
-          "outletId": "neutralnews",
-          "outletName": "Neutral News",
-          "headline": "US Expands Strikes on Iran After Attacks Kill American Troops; Mediators Push Ceasefire",
-          "url": "https://www.neutralnews.us/article/390",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral headline balances strikes and ceasefire",
-            "no ideological loading in verb choices"
-          ],
-          "biasScoreGrok": 5,
-          "biasSignalsGrok": [
-            "expands strikes factual",
-            "mediators push ceasefire"
-          ],
-          "pubDate": "Tue, 21 Jul 2026 16:34:08 GMT",
-          "clusterId": "us-iran-war"
-        },
-        {
-          "id": "neutralnews-us-iran-war-20",
-          "outletId": "neutralnews",
-          "outletName": "Neutral News",
-          "headline": "US Strikes Iran After Two Soldiers Killed in Jordan Attack",
-          "url": "https://www.neutralnews.us/article/376",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral factual framing of strikes",
-            "soldier deaths cited without political spin"
-          ],
-          "biasScoreGrok": 5.2,
-          "biasSignalsGrok": [
-            "strikes after deaths neutral",
-            "soldiers killed factual"
-          ],
-          "pubDate": "Mon, 20 Jul 2026 16:37:36 GMT",
-          "clusterId": "us-iran-war"
-        },
-        {
-          "id": "bostonglobe-us-iran-war-24",
-          "outletId": "bostonglobe",
-          "outletName": "Boston Globe",
-          "headline": "US soldier killed in Iraq was a 30-year-old father from North Carolina",
-          "url": "https://www.bostonglobe.com/2026/07/21/nation/us-soldier-killed-iraq-was-30-year-old-father-north-carolina/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "humanizes fallen soldier with personal details",
-            "neutral framing without political attribution"
-          ],
-          "biasScoreGrok": 4.4,
-          "biasSignalsGrok": [
-            "soldier killed factual",
-            "father from NC personal detail"
-          ],
-          "pubDate": "Tue, 21 Jul 2026 20:19:15 +0000",
           "clusterId": "us-iran-war"
         },
         {
           "id": "washpost-us-iran-war-1",
           "outletId": "washpost",
           "outletName": "Washington Post",
-          "headline": "A Red Sea blockade threatens a new front in U.S.-Iran war",
-          "url": "https://www.washingtonpost.com/world/2026/07/21/red-sea-blockade-threatens-new-front-us-iran-war/",
-          "biasScore": 4.8,
+          "headline": "The Pentagon, sinking billions into Iran war, is quickly running short on cash",
+          "url": "https://www.washingtonpost.com/national-security/2026/07/21/pentagon-sinking-billions-into-iran-is-quickly-running-short-cash/",
+          "biasScore": 3.2,
           "biasSignals": [
-            "'threatens new front' — escalation framing",
-            "neutral verbs but alarming emphasis"
+            "\"sinking billions\" implies reckless spending framing",
+            "\"quickly running short on cash\" — alarmist framing"
           ],
-          "biasScoreGrok": 2.8,
+          "biasScoreGrok": 3,
           "biasSignalsGrok": [
-            "'threatens new front' emphasizes risk",
-            "blockade verb loads negatively"
+            "sinking billions framing",
+            "anti-war emphasis"
           ],
-          "pubDate": "2026-07-21T09:41:29Z",
+          "pubDate": "2026-07-21T10:00:01Z",
           "clusterId": "us-iran-war"
         },
         {
-          "id": "marketwatch-us-iran-war-13",
-          "outletId": "marketwatch",
-          "outletName": "MarketWatch",
-          "headline": "Oil prices climb to six-week high as hopes of de-escalation in Iran diminish",
-          "url": "https://www.marketwatch.com/story/oil-prices-climb-to-six-week-high-as-hopes-of-de-escalation-in-iran-diminish-b5fb0942?mod=mw_rss_topstories",
-          "biasScore": 4.8,
+          "id": "msnbc-us-iran-war-0",
+          "outletId": "msnbc",
+          "outletName": "MSNBC",
+          "headline": "After 10 straight nights of U.S-Iran strikes, Hegseth to testify before Senate",
+          "url": "https://www.ms.now/liveblog/pete-hegseth-iran-war-funding-live-updates",
+          "biasScore": 3.5,
           "biasSignals": [
-            "financial framing depoliticizes conflict",
-            "'de-escalation diminishes' — neutral but bearish"
+            "\"fiery hearing\" adds drama, sympathetic framing",
+            "\"testify\" framing implies accountability pressure on Hegseth"
           ],
-          "biasScoreGrok": 5.1,
+          "biasScoreGrok": 3.5,
           "biasSignalsGrok": [
-            "oil prices neutral",
-            "de-escalation hopes factual"
+            "MSNBC left outlet",
+            "neutral factual verbs"
           ],
-          "pubDate": "Wed, 22 Jul 2026 11:19:00 GMT",
+          "pubDate": "2026-07-21T14:16:37Z",
           "clusterId": "us-iran-war"
         },
         {
-          "id": "cnbc-us-iran-war-10",
-          "outletId": "cnbc",
-          "outletName": "CNBC",
-          "headline": "Oil prices jump 4% as Rubio says U.S. will 'continue to protect shipping' after strikes on Iran",
-          "url": "https://www.cnbc.com/2026/07/22/oil-prices-iran-war-macro-rubio-brent-wti.html",
-          "biasScore": 5,
+          "id": "economist-us-iran-war-6",
+          "outletId": "economist",
+          "outletName": "The Economist",
+          "headline": "The Iran war is America’s least popular since polls began",
+          "url": "https://www.economist.com/united-states/2026/07/19/the-iran-war-is-americas-least-popular-since-polls-began",
+          "biasScore": 3.5,
           "biasSignals": [
-            "neutral financial framing of oil price jump",
-            "Rubio quote used without editorial loading"
+            "\"least popular since polls began\" implies public opposition framing",
+            "polling data used to suggest war illegitimacy"
           ],
-          "biasScoreGrok": 4.8,
+          "biasScoreGrok": 3.8,
           "biasSignalsGrok": [
-            "oil prices factual",
-            "protect shipping neutral quote"
+            "least popular war",
+            "Economist left-center"
           ],
-          "pubDate": "Wed, 22 Jul 2026 11:21:14 GMT",
+          "pubDate": "Sun, 19 Jul 2026 08:38:02 +0000",
           "clusterId": "us-iran-war"
         },
         {
-          "id": "npr-us-iran-war-3",
-          "outletId": "npr",
-          "outletName": "NPR",
-          "headline": "Defense Secretary Pete Hegseth defends Iran war funding request at fiery hearing",
-          "url": "https://www.npr.org/2026/07/22/nx-s1-5901981/defense-secretary-pete-hegseth-defends-iran-war-funding-request-at-fiery-hearing",
-          "biasScore": 5.5,
+          "id": "thehill-us-iran-war-9",
+          "outletId": "thehill",
+          "outletName": "The Hill",
+          "headline": "Fox News pundits urge Trump to get out of Iran war",
+          "url": "https://thehill.com/homenews/administration/5979968-fox-news-urges-trump-deescalate-iran/",
+          "biasScore": 4,
           "biasSignals": [
-            "'fiery hearing' — neutral but tension-signaling",
-            "Hegseth named without deference, scrutiny implied"
+            "Fox pundits urging withdrawal — unusual cross-partisan signal",
+            "framing implies GOP dissent, slightly left-leaning emphasis"
           ],
-          "biasScoreGrok": 3.4,
+          "biasScoreGrok": 4.5,
           "biasSignalsGrok": [
-            "'fiery hearing' dramatizes testimony",
-            "defends funding request critical tone"
+            "urge get out framing",
+            "TheHill center"
           ],
-          "pubDate": "Wed, 22 Jul 2026 06:43:36 -0400",
+          "pubDate": "2026-07-21T13:28:05Z",
           "clusterId": "us-iran-war"
         },
         {
@@ -393,755 +146,888 @@
           "outletName": "The Hill",
           "headline": "GOP faces new alarm over Iran as ceasefire implodes",
           "url": "https://thehill.com/homenews/senate/5979426-gop-urges-trump-open-strait/",
-          "biasScore": 5.5,
+          "biasScore": 4.2,
           "biasSignals": [
-            "'new alarm' signals concern within GOP",
-            "neutral but highlights Republican internal tension"
+            "\"new alarm\" implies GOP concern framing",
+            "\"ceasefire implodes\" — neutral but dramatic verb"
           ],
-          "biasScoreGrok": 6.4,
+          "biasScoreGrok": 4.2,
           "biasSignalsGrok": [
-            "GOP 'new alarm' critical",
-            "ceasefire implodes verb"
+            "GOP faces alarm",
+            "TheHill slight left"
           ],
           "pubDate": "2026-07-21T10:00:00Z",
           "clusterId": "us-iran-war"
         },
         {
-          "id": "bostonglobe-us-iran-war-23",
+          "id": "theatlantic-us-iran-war-24",
+          "outletId": "theatlantic",
+          "outletName": "The Atlantic",
+          "headline": "War by Any Other Name",
+          "url": "https://www.theatlantic.com/national-security/2026/07/iran-war-trump-hegseth/688016/?utm_source=feed",
+          "biasScore": 4.2,
+          "biasSignals": [
+            "\"war by any other name\" — analytical framing",
+            "implies definitional critique without heavy partisan loading"
+          ],
+          "biasScoreGrok": 4,
+          "biasSignalsGrok": [
+            "war by any name",
+            "Atlantic left-center"
+          ],
+          "pubDate": "Tue, 21 Jul 2026 18:38:04 -0400",
+          "clusterId": "us-iran-war"
+        },
+        {
+          "id": "bloomberg-us-iran-war-16",
+          "outletId": "bloomberg",
+          "outletName": "Bloomberg",
+          "headline": "US Allies in Persian Gulf Exasperated as Iran War Escalates",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-21/us-allies-in-persian-gulf-exasperated-as-iran-war-escalates",
+          "biasScore": 4.3,
+          "biasSignals": [
+            "\"exasperated\" gives voice to allied concern",
+            "neutral financial/diplomatic framing overall"
+          ],
+          "biasScoreGrok": 3.8,
+          "biasSignalsGrok": [
+            "exasperated allies",
+            "Bloomberg left-center"
+          ],
+          "pubDate": "2026-07-21T15:00:48+00:00",
+          "clusterId": "us-iran-war"
+        },
+        {
+          "id": "washpost-us-iran-war-2",
+          "outletId": "washpost",
+          "outletName": "Washington Post",
+          "headline": "A Red Sea blockade threatens a new front in U.S.-Iran war",
+          "url": "https://www.washingtonpost.com/world/2026/07/21/red-sea-blockade-threatens-new-front-us-iran-war/",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral geographic framing of Red Sea threat",
+            "balanced conflict language without strong ideological signal"
+          ],
+          "biasScoreGrok": 3.2,
+          "biasSignalsGrok": [
+            "blockade threatens framing",
+            "left-leaning outlet"
+          ],
+          "pubDate": "2026-07-21T09:41:29Z",
+          "clusterId": "us-iran-war"
+        },
+        {
+          "id": "cbsnews-us-iran-war-5",
+          "outletId": "cbsnews",
+          "outletName": "CBS News",
+          "headline": "Details on progress toward Iran peace agreement as Trump calls off strikes",
+          "url": "https://www.cbsnews.com/video/details-on-progress-toward-iran-peace-agreement-as-trump-calls-off-strikes/",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral progress-toward-peace framing",
+            "\"Trump calls off strikes\" — neutral verb choice"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "progress toward peace",
+            "balanced CBS headline"
+          ],
+          "pubDate": "2026-06-11T19:18:45+00:00",
+          "clusterId": "us-iran-war"
+        },
+        {
+          "id": "thehill-us-iran-war-10",
+          "outletId": "thehill",
+          "outletName": "The Hill",
+          "headline": "Live updates: Trump hosts Lebanese president amid Iran conflict escalation",
+          "url": "https://thehill.com/homenews/administration/5979578-live-updates-trump-iran-hegseth-caine/",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "\"escalation\" is neutral conflict language",
+            "balanced live-update framing"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "live updates neutral",
+            "TheHill balanced"
+          ],
+          "pubDate": "2026-07-21T13:09:38Z",
+          "clusterId": "us-iran-war"
+        },
+        {
+          "id": "bostonglobe-us-iran-war-14",
           "outletId": "bostonglobe",
           "outletName": "Boston Globe",
-          "headline": "Trump will attend the dignified transfer of 4 US service members killed in the Middle East",
-          "url": "https://www.bostonglobe.com/2026/07/22/nation/trump-dignified-transfer-us-service-members-killed/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
-          "biasScore": 5.5,
+          "headline": "Trump attends dignified transfer of US service members killed in the Middle East. Follow live updates.",
+          "url": "https://www.bostonglobe.com/2026/07/22/nation/trump-presidency-live-updates/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
+          "biasScore": 4.5,
           "biasSignals": [
-            "Trump attending transfer framed respectfully",
-            "neutral factual headline without criticism"
+            "\"dignified transfer\" — solemn neutral language",
+            "live updates framing without ideological signal"
           ],
-          "biasScoreGrok": 4.6,
+          "biasScoreGrok": 5,
           "biasSignalsGrok": [
             "dignified transfer neutral",
-            "service members killed factual"
+            "BostonGlobe center"
+          ],
+          "pubDate": "Wed, 22 Jul 2026 04:55:22 +0000",
+          "clusterId": "us-iran-war"
+        },
+        {
+          "id": "bostonglobe-us-iran-war-15",
+          "outletId": "bostonglobe",
+          "outletName": "Boston Globe",
+          "headline": "Trump will attend the dignified transfer of four US service members killed in the Middle East",
+          "url": "https://www.bostonglobe.com/2026/07/22/nation/trump-dignified-transfer-us-service-members-killed/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "factual attendance report, neutral verb choice",
+            "no ideological loading detected"
+          ],
+          "biasScoreGrok": 5.2,
+          "biasSignalsGrok": [
+            "will attend neutral",
+            "BostonGlobe factual"
           ],
           "pubDate": "Wed, 22 Jul 2026 04:32:50 +0000",
           "clusterId": "us-iran-war"
         },
         {
-          "id": "washexaminer-us-iran-war-22",
+          "id": "marketwatch-us-iran-war-17",
+          "outletId": "marketwatch",
+          "outletName": "MarketWatch",
+          "headline": "Global oil prices rise above $95 a barrel for the first time in 6 weeks as hopes dim for de-escalation of Iran war",
+          "url": "https://www.marketwatch.com/story/oil-prices-climb-to-six-week-high-as-hopes-of-de-escalation-in-iran-diminish-b5fb0942?mod=mw_rss_topstories",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral financial market framing",
+            "\"hopes dim\" slightly negative framing of de-escalation"
+          ],
+          "biasScoreGrok": 4.8,
+          "biasSignalsGrok": [
+            "hopes dim framing",
+            "MarketWatch neutral"
+          ],
+          "pubDate": "Wed, 22 Jul 2026 14:07:00 GMT",
+          "clusterId": "us-iran-war"
+        },
+        {
+          "id": "ap-us-iran-war-18",
+          "outletId": "ap",
+          "outletName": "Associated Press",
+          "headline": "Live updates: Iranian official meets mediators in Pakistan as Iran and US keep up a 10th day of attacks",
+          "url": "https://apnews.com/live/trump-iran-updates-07-21-2026",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral AP live-update framing",
+            "\"keep up attacks\" — neutral verb, factual"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "live updates neutral",
+            "AP center"
+          ],
+          "pubDate": "2026-07-21T08:45:00Z",
+          "clusterId": "us-iran-war"
+        },
+        {
+          "id": "ap-us-iran-war-20",
+          "outletId": "ap",
+          "outletName": "Associated Press",
+          "headline": "The limits of intensifying attacks emerge as US and Iran dig in",
+          "url": "https://apnews.com/article/iran-war-trump-airstrikes-strait-hormuz-8c42c6ddc0c32d53ce452ace92a62b9a",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "\"limits of intensifying attacks\" — analytical neutral framing",
+            "\"dig in\" implies stalemate without partisan signal"
+          ],
+          "biasScoreGrok": 4.5,
+          "biasSignalsGrok": [
+            "limits emerge neutral",
+            "AP balanced"
+          ],
+          "pubDate": "2026-07-21T04:01:20Z",
+          "clusterId": "us-iran-war"
+        },
+        {
+          "id": "huffpost-us-iran-war-23",
+          "outletId": "huffpost",
+          "outletName": "HuffPost",
+          "headline": "Fox News' Brit Hume Warns Why Trump Is Running Out Of Time On Iran War",
+          "url": "https://www.huffpost.com/entry/brit-hume-donald-trump-iran-war_n_6a5f45b1e4b0fb869f7bf8b8",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "Fox News warning framed as notable cross-partisan signal",
+            "\"running out of time\" — neutral urgency framing"
+          ],
+          "biasScoreGrok": 3,
+          "biasSignalsGrok": [
+            "running out time",
+            "HuffPost left lean"
+          ],
+          "pubDate": "2026-07-21T12:38:46Z",
+          "clusterId": "us-iran-war"
+        },
+        {
+          "id": "npr-us-iran-war-3",
+          "outletId": "npr",
+          "outletName": "NPR",
+          "headline": "Defense Secretary Pete Hegseth defends Iran war funding request at fiery hearing",
+          "url": "https://www.npr.org/2026/07/22/nx-s1-5901981/defense-secretary-pete-hegseth-defends-iran-war-funding-request-at-fiery-hearing",
+          "biasScore": 4.8,
+          "biasSignals": [
+            "\"defends\" slightly sympathetic to Hegseth",
+            "\"fiery hearing\" adds drama but relatively neutral overall"
+          ],
+          "biasScoreGrok": 4,
+          "biasSignalsGrok": [
+            "fiery hearing loaded",
+            "NPR center lean"
+          ],
+          "pubDate": "Wed, 22 Jul 2026 06:43:36 -0400",
+          "clusterId": "us-iran-war"
+        },
+        {
+          "id": "neutralnews-us-iran-war-25",
+          "outletId": "neutralnews",
+          "outletName": "Neutral News",
+          "headline": "U.S. Strikes Iran for 10th Night as Casualties Mount and Ceasefire Talks Stall",
+          "url": "https://www.neutralnews.us/article/395",
+          "biasScore": 4.8,
+          "biasSignals": [
+            "neutral headline language, factual casualty framing",
+            "\"ceasefire talks stall\" — balanced neutral language"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "casualties mount neutral",
+            "NeutralNews center"
+          ],
+          "pubDate": "Wed, 22 Jul 2026 15:21:10 GMT",
+          "clusterId": "us-iran-war"
+        },
+        {
+          "id": "ap-us-iran-war-19",
+          "outletId": "ap",
+          "outletName": "Associated Press",
+          "headline": "US strikes Iran for 10th night as tanker attacked",
+          "url": "https://apnews.com/article/iran-us-hormuz-strait-war-july-21-2026-1664f6a4dad005a99771b2ad15213585",
+          "biasScore": 5,
+          "biasSignals": [
+            "\"strikes Iran for 10th night\" — factual, neutral",
+            "\"tanker attacked\" frames Iranian retaliation factually"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "strikes for 10th",
+            "AP factual"
+          ],
+          "pubDate": "2026-07-21T07:44:29Z",
+          "clusterId": "us-iran-war"
+        },
+        {
+          "id": "washexaminer-us-iran-war-7",
           "outletId": "washexaminer",
           "outletName": "Washington Examiner",
-          "headline": "Johnson tells Trump to ‘wrap it up’ in Iran as president rejects midterm influence on war",
-          "url": "https://www.washingtonexaminer.com/policy/foreign-policy/4658186/mike-johnson-trump-iran-war-midterms/",
-          "biasScore": 6,
+          "headline": "WATCH LIVE: Trump attends dignified transfer of soldiers killed in Iran war",
+          "url": "https://www.washingtonexaminer.com/news/white-house/4658495/trump-dignified-transfer-soldiers-killed-iran-war/",
+          "biasScore": 5.5,
           "biasSignals": [
-            "Johnson's 'wrap it up' framing sympathetic to restraint",
-            "Trump rejecting midterm influence framed neutrally"
+            "\"dignified transfer\" — solemn, factual military language",
+            "no critical framing; neutral ceremonial coverage"
           ],
-          "biasScoreGrok": 6.8,
+          "biasScoreGrok": 6.5,
           "biasSignalsGrok": [
-            "Johnson tells 'wrap it up'",
-            "Trump rejects influence"
+            "dignified transfer positive",
+            "WashExaminer right lean"
           ],
-          "pubDate": "Wed, 22 Jul 2026 02:14:21 +0000",
+          "pubDate": "Wed, 22 Jul 2026 15:12:21 +0000",
           "clusterId": "us-iran-war"
         },
         {
-          "id": "aljazeera-us-iran-war-21",
+          "id": "washexaminer-us-iran-war-8",
+          "outletId": "washexaminer",
+          "outletName": "Washington Examiner",
+          "headline": "Republicans shrug off Iran war, but gas prices are another story: Byron York",
+          "url": "https://www.washingtonexaminer.com/news/campaigns/4658347/republicans-shrug-iran-war-gas-prices-another-story-byron-york/",
+          "biasScore": 6.2,
+          "biasSignals": [
+            "\"Republicans shrug off Iran war\" — mild GOP defense framing",
+            "gas prices framed as main concern, not war casualties"
+          ],
+          "biasScoreGrok": 7,
+          "biasSignalsGrok": [
+            "Republicans shrug framing",
+            "Byron York conservative"
+          ],
+          "pubDate": "Wed, 22 Jul 2026 14:55:35 +0000",
+          "clusterId": "us-iran-war"
+        },
+        {
+          "id": "aljazeera-us-iran-war-4",
           "outletId": "aljazeera",
           "outletName": "Al Jazeera",
-          "headline": "US Secretary of State say Iran is in ‘a lot of trouble’",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/22/us-secretary-of-state-say-iran-is-in-a-lot-of?traffic_source=rss",
+          "headline": "Trump threatens to bomb Iranian bridges, power plants over ship attacks",
+          "url": "https://www.aljazeera.com/news/2026/7/22/trump-threatens-to-bomb-iranian-bridges-power-plants-over-ship-attacks?traffic_source=rss",
           "biasScore": 6.5,
           "biasSignals": [
-            "'a lot of trouble' — adversarial framing of Iran",
-            "Rubio quoted approvingly without counterpoint"
+            "\"threatens to bomb\" emphasizes aggression framing for Trump",
+            "Al Jazeera framing centers Iranian vulnerability"
           ],
-          "biasScoreGrok": 4.1,
+          "biasScoreGrok": 2.8,
           "biasSignalsGrok": [
-            "'lot of trouble' quote",
-            "secretary statement neutral"
+            "threatens charged verb",
+            "AlJazeera left framing"
           ],
-          "pubDate": "Wed, 22 Jul 2026 11:05:39 +0000",
+          "pubDate": "Wed, 22 Jul 2026 15:24:13 +0000",
           "clusterId": "us-iran-war"
         },
         {
-          "id": "breitbart-us-iran-war-6",
-          "outletId": "breitbart",
-          "outletName": "Breitbart",
-          "headline": "Rand Paul: Need Hundreds of Thousands of Troops to Secure Strait, Iran Knows We Won't Do That",
-          "url": "https://www.breitbart.com/clips/2026/07/21/rand-paul-need-hundreds-of-thousands-of-troops-to-secure-strait-iran-knows-we-wont-do-that/",
-          "biasScore": 7,
+          "id": "nationalreview-us-iran-war-13",
+          "outletId": "nationalreview",
+          "outletName": "National Review",
+          "headline": "A War Restrained by the People",
+          "url": "https://www.nationalreview.com/2026/07/a-war-restrained-by-the-people/",
+          "biasScore": 6.5,
           "biasSignals": [
-            "Rand Paul skepticism of military overreach framed positively",
-            "implies US lacks capability — conservative realism"
+            "\"restrained\" frames war as limited, responsible",
+            "conservative outlet framing war as measured policy"
           ],
-          "biasScoreGrok": 7.2,
+          "biasScoreGrok": 7.5,
           "biasSignalsGrok": [
-            "'Iran knows we won't' mocks restraint",
-            "troops needed frames weakness"
+            "war restrained positive",
+            "NationalReview right"
           ],
-          "pubDate": "Wed, 22 Jul 2026 03:46:13 +0000",
+          "pubDate": "Wed, 22 Jul 2026 14:03:41 +0000",
           "clusterId": "us-iran-war"
         },
         {
-          "id": "breitbart-us-iran-war-7",
-          "outletId": "breitbart",
-          "outletName": "Breitbart",
-          "headline": "Duckworth on Punishing Iran for Troops' Deaths: It's Trump's Fault",
-          "url": "https://www.breitbart.com/clips/2026/07/21/duckworth-on-punishing-iran-for-troops-deaths-its-trumps-fault/",
-          "biasScore": 7.5,
+          "id": "axios-us-iran-war-12",
+          "outletId": "axios",
+          "outletName": "Axios",
+          "headline": "Trump vows to hit an Iranian bridge or power plant for every ship Iran attacks",
+          "url": "https://www.axios.com/2026/07/22/trump-iran-bridges-power-plants-hormuz",
+          "biasScore": 6.8,
           "biasSignals": [
-            "'It's Trump's fault' attributed to Duckworth critically",
-            "framing Democrat as deflecting blame"
+            "\"vows to hit\" portrays Trump as decisive, strong",
+            "framing centers Iranian ship attacks as provocation"
           ],
-          "biasScoreGrok": 8.1,
+          "biasScoreGrok": 5.5,
           "biasSignalsGrok": [
-            "blames Trump explicitly",
-            "punishing Iran downplays deaths"
+            "vows to hit direct",
+            "Axios center-right"
           ],
-          "pubDate": "Wed, 22 Jul 2026 02:31:40 +0000",
-          "clusterId": "us-iran-war"
-        },
-        {
-          "id": "foxnews-us-iran-war-5",
-          "outletId": "foxnews",
-          "outletName": "Fox News",
-          "headline": "MORNING GLORY: America is winning its battle with Iran. It’s only a matter of time",
-          "url": "https://www.foxnews.com/opinion/morning-glory-america-winning-battle-iran-matter-time",
-          "biasScore": 8.5,
-          "biasSignals": [
-            "'America is winning' — triumphalist framing",
-            "'only a matter of time' — far-right confidence"
-          ],
-          "biasScoreGrok": 7.6,
-          "biasSignalsGrok": [
-            "'America is winning' positive framing",
-            "battle with Iran victory narrative"
-          ],
-          "pubDate": "2026-07-21T09:52:20.873257Z",
+          "pubDate": "Wed, 22 Jul 2026 14:36:02 +0000",
           "clusterId": "us-iran-war"
         }
       ]
     },
     {
-      "id": "canada-tariffs",
-      "topicLabel": "Trump imposes 50% tariffs on Canadian goods",
+      "id": "trump-canada-tariffs",
+      "topicLabel": "Trump imposes 50% tariffs on Canada",
       "date": "2026-07-22",
       "articles": [
         {
-          "id": "vox-canada-tariffs-4",
+          "id": "guardian-trump-canada-tariffs-3",
+          "outletId": "guardian",
+          "outletName": "The Guardian",
+          "headline": "Trump trade envoy grilled about ‘tariff spree’ and price rises for Americans in Senate hearing – US politics live",
+          "url": "https://www.theguardian.com/us-news/live/2026/jul/22/us-politics-trump-arizona-primary-andy-biggs-hegseth-mamdani-netanyahu-latest-news-updates",
+          "biasScore": 3,
+          "biasSignals": [
+            "\"tariff spree\" — loaded negative framing",
+            "\"grilled\" implies adversarial treatment of Trump envoy"
+          ],
+          "biasScoreGrok": 2.8,
+          "biasSignalsGrok": [
+            "tariff spree loaded",
+            "Guardian far left"
+          ],
+          "pubDate": "Wed, 22 Jul 2026 16:03:58 GMT",
+          "clusterId": "trump-canada-tariffs"
+        },
+        {
+          "id": "vox-trump-canada-tariffs-7",
           "outletId": "vox",
           "outletName": "Vox",
           "headline": "Trump goes to (trade) war with Canada",
           "url": "https://www.vox.com/politics/496324/trump-goes-to-trade-war-with-canada",
-          "biasScore": 3,
+          "biasScore": 3.2,
           "biasSignals": [
-            "'goes to war' — aggressive framing of Trump",
-            "trade war metaphor implies recklessness"
+            "\"goes to war\" — militaristic negative framing of tariffs",
+            "Vox framing centers harm to Canada and US consumers"
           ],
-          "biasScoreGrok": 2.6,
+          "biasScoreGrok": 3.2,
           "biasSignalsGrok": [
-            "'(trade) war' loaded",
-            "goes to war with Canada"
+            "goes to war framing",
+            "Vox left"
           ],
           "pubDate": "2026-07-21T20:30:00.000Z",
-          "clusterId": "canada-tariffs"
+          "clusterId": "trump-canada-tariffs"
         },
         {
-          "id": "msnbc-canada-tariffs-0",
-          "outletId": "msnbc",
-          "outletName": "MSNBC",
-          "headline": "Trump imposes new 50% tariff on some Canadian goods",
-          "url": "https://www.ms.now/news/trump-imposes-new-50-tariff-on-some-canadian-goods",
+          "id": "cnn-trump-canada-tariffs-0",
+          "outletId": "cnn",
+          "outletName": "CNN",
+          "headline": "Trump’s 50% tariff on Canada is a warning to the rest of the world",
+          "url": "https://www.cnn.com/2026/07/21/economy/trump-tariffs-who-is-next",
           "biasScore": 3.5,
           "biasSignals": [
-            "'imposes' — neutral but emphasizes unilateral action",
-            "no pro-tariff framing offered"
+            "\"warning to the rest of the world\" — threatening framing",
+            "tariff presented as aggressive act, not policy"
+          ],
+          "biasScoreGrok": 3,
+          "biasSignalsGrok": [
+            "warning to world",
+            "CNN left framing"
+          ],
+          "pubDate": "2026-07-21T14:28:13Z",
+          "clusterId": "trump-canada-tariffs"
+        },
+        {
+          "id": "guardian-trump-canada-tariffs-4",
+          "outletId": "guardian",
+          "outletName": "The Guardian",
+          "headline": "Canada cancels joint bridge-opening celebration with US amid trade tensions",
+          "url": "https://www.theguardian.com/us-news/2026/jul/21/gordie-howe-bridge-opening-celebration-canceled",
+          "biasScore": 3.5,
+          "biasSignals": [
+            "\"amid trade tensions\" — neutral framing of Canada reaction",
+            "cancellation framed as consequence of US aggression"
+          ],
+          "biasScoreGrok": 3,
+          "biasSignalsGrok": [
+            "cancels celebration",
+            "Guardian left lean"
+          ],
+          "pubDate": "Wed, 22 Jul 2026 15:11:31 GMT",
+          "clusterId": "trump-canada-tariffs"
+        },
+        {
+          "id": "thehill-trump-canada-tariffs-5",
+          "outletId": "thehill",
+          "outletName": "The Hill",
+          "headline": "Carney blasts new Trump tariffs: ‘Direct violation’ of trade deal",
+          "url": "https://thehill.com/policy/international/5979864-mark-carney-donald-trump-tariffs-canadian-wildfires/",
+          "biasScore": 3.8,
+          "biasSignals": [
+            "\"blasts\" and \"direct violation\" — charged Canadian reaction framing",
+            "Carney given voice to criticize Trump tariffs prominently"
           ],
           "biasScoreGrok": 4,
           "biasSignalsGrok": [
-            "imposes tariff factual",
-            "Canadian goods neutral"
+            "blasts violation",
+            "TheHill center"
           ],
-          "pubDate": "2026-07-20T22:22:06Z",
-          "clusterId": "canada-tariffs"
+          "pubDate": "2026-07-21T12:01:03Z",
+          "clusterId": "trump-canada-tariffs"
         },
         {
-          "id": "huffpost-canada-tariffs-5",
-          "outletId": "huffpost",
-          "outletName": "HuffPost",
-          "headline": "Trump Imposes 50% Tariffs On Most Canadian Goods",
-          "url": "https://www.huffpost.com/entry/trump-canada-tariffs_n_6a5f2b53e4b0fb869f7be3ca",
-          "biasScore": 4,
+          "id": "nytimes-trump-canada-tariffs-1",
+          "outletId": "nytimes",
+          "outletName": "NY Times",
+          "headline": "Trump’s 50% Tariffs on Canada: What to Know, and What’s Next",
+          "url": "https://www.nytimes.com/2026/07/22/world/canada/canada-trump-tariffs-trade.html",
+          "biasScore": 4.8,
           "biasSignals": [
-            "neutral verb 'imposes' used",
-            "no editorial commentary added"
-          ],
-          "biasScoreGrok": 3.8,
-          "biasSignalsGrok": [
-            "imposes tariffs factual",
-            "most Canadian goods neutral"
-          ],
-          "pubDate": "2026-07-21T08:33:20Z",
-          "clusterId": "canada-tariffs"
-        },
-        {
-          "id": "bbc-canada-tariffs-1",
-          "outletId": "bbc",
-          "outletName": "BBC",
-          "headline": "Trump imposes 50% tariff on Canadian imports",
-          "url": "https://www.bbc.co.uk/news/articles/cg4dzq3x3e1o",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral verb 'imposes' without editorializing",
-            "no framing of winners or losers"
-          ],
-          "biasScoreGrok": 4.3,
-          "biasSignalsGrok": [
-            "imposes tariff factual",
-            "Canadian imports neutral"
-          ],
-          "pubDate": "2026-07-20T22:07:18.5209567Z",
-          "clusterId": "canada-tariffs"
-        },
-        {
-          "id": "ap-canada-tariffs-2",
-          "outletId": "ap",
-          "outletName": "Associated Press",
-          "headline": "Trump imposes 50% tariffs on Canadian goods, unraveling a gas-price mystery, Israel’s Gaza barrier",
-          "url": "https://apnews.com/newsletter/morning-wire/july-21-2026",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral factual headline combining multiple stories",
-            "'unraveling a mystery' framing slightly engaging"
+            "neutral explainer framing, \"what to know\"",
+            "balanced sourcing implied in NYT explainer format"
           ],
           "biasScoreGrok": 4.5,
           "biasSignalsGrok": [
-            "tariffs factual",
-            "unraveling mystery buried"
+            "what to know neutral",
+            "NYTimes center"
           ],
-          "pubDate": "2026-07-21T10:21:57Z",
-          "clusterId": "canada-tariffs"
+          "pubDate": "Wed, 22 Jul 2026 13:18:46 +0000",
+          "clusterId": "trump-canada-tariffs"
         },
         {
-          "id": "ap-canada-tariffs-3",
-          "outletId": "ap",
-          "outletName": "Associated Press",
-          "headline": "Trump 50% tariff targets Canadian autos, alcohol and cheese",
-          "url": "https://apnews.com/article/trump-canada-50-tariff-autos-alcohol-cheese-ca268ef24992b16695954c4c2e5eae6a",
-          "biasScore": 4.5,
+          "id": "neutralnews-trump-canada-tariffs-8",
+          "outletId": "neutralnews",
+          "outletName": "Neutral News",
+          "headline": "Trump Imposes 50% Tariff on Range of Canadian Goods",
+          "url": "https://www.neutralnews.us/article/398",
+          "biasScore": 4.8,
           "biasSignals": [
-            "neutral verb 'targets' — factual",
-            "lists goods affected without emotional loading"
+            "neutral factual headline language",
+            "\"range of Canadian goods\" — specific, non-loaded phrasing"
           ],
-          "biasScoreGrok": 4.2,
+          "biasScoreGrok": 5,
           "biasSignalsGrok": [
-            "tariff targets factual",
-            "autos alcohol cheese neutral"
+            "imposes tariff neutral",
+            "NeutralNews center"
           ],
-          "pubDate": "2026-07-20T21:01:44Z",
-          "clusterId": "canada-tariffs"
+          "pubDate": "Wed, 22 Jul 2026 15:21:10 GMT",
+          "clusterId": "trump-canada-tariffs"
         },
         {
-          "id": "nytimes-canada-tariffs-6",
-          "outletId": "nytimes",
-          "outletName": "NY Times",
-          "headline": "Laredo’s Future Rides on Trump’s Next Trade Move",
-          "url": "https://www.nytimes.com/2026/07/22/business/economy/trump-tariffs-laredo-trade-mexico.html",
-          "biasScore": 4.5,
+          "id": "nationalreview-trump-canada-tariffs-6",
+          "outletId": "nationalreview",
+          "outletName": "National Review",
+          "headline": "Trump’s Canadian Tariffs Make No Sense",
+          "url": "https://www.nationalreview.com/2026/07/trumps-canadian-tariffs-make-no-sense/",
+          "biasScore": 6.5,
           "biasSignals": [
-            "neutral framing of trade impact on border city",
-            "human interest angle without ideological loading"
+            "conservative outlet criticizing Trump tariffs — unusual signal",
+            "\"make no sense\" — direct policy critique from right"
           ],
-          "biasScoreGrok": 3.5,
+          "biasScoreGrok": 6.5,
           "biasSignalsGrok": [
-            "Laredo future rides on",
-            "Trump trade move emphasis"
+            "make no sense critical",
+            "NationalReview right"
           ],
-          "pubDate": "Wed, 22 Jul 2026 09:01:47 +0000",
-          "clusterId": "canada-tariffs"
+          "pubDate": "Wed, 22 Jul 2026 12:30:16 +0000",
+          "clusterId": "trump-canada-tariffs"
+        },
+        {
+          "id": "breitbart-trump-canada-tariffs-2",
+          "outletId": "breitbart",
+          "outletName": "Breitbart",
+          "headline": "Marlow: Trump Threatening Canada with Tariffs over Wildfires Is Exactly What I Voted For",
+          "url": "https://www.breitbart.com/clips/2026/07/22/marlow-trump-threatening-candace-with-tariffs-over-wildfires-is-exactly-what-i-voted-for/",
+          "biasScore": 8.5,
+          "biasSignals": [
+            "\"Exactly What I Voted For\" — enthusiastic Trump endorsement",
+            "opinion piece framing tariffs as voter mandate fulfilled"
+          ],
+          "biasScoreGrok": 7.5,
+          "biasSignalsGrok": [
+            "exactly what voted for",
+            "Breitbart far right"
+          ],
+          "pubDate": "Wed, 22 Jul 2026 07:18:48 +0000",
+          "clusterId": "trump-canada-tariffs"
         }
       ]
     },
     {
-      "id": "arizona-primaries",
-      "topicLabel": "Arizona Republican primaries, Trump-backed candidates win",
+      "id": "epstein-model-recruiter-death",
+      "topicLabel": "Epstein-linked French modeling scout found dead",
       "date": "2026-07-22",
       "articles": [
         {
-          "id": "npr-arizona-primaries-1",
+          "id": "aljazeera-epstein-model-recruiter-death-0",
+          "outletId": "aljazeera",
+          "outletName": "Al Jazeera",
+          "headline": "French model recruiter with close ties to Jeffrey Epstein found dead",
+          "url": "https://www.aljazeera.com/news/2026/7/22/french-model-recruiter-with-close-ties-to-jeffrey-epstein-found-dead?traffic_source=rss",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "\"close ties\" — neutral characterization of Epstein link",
+            "factual death report without heavy ideological framing"
+          ],
+          "biasScoreGrok": 4.5,
+          "biasSignalsGrok": [
+            "close ties neutral",
+            "AlJazeera center"
+          ],
+          "pubDate": "Wed, 22 Jul 2026 15:12:32 +0000",
+          "clusterId": "epstein-model-recruiter-death"
+        },
+        {
+          "id": "skynews-epstein-model-recruiter-death-4",
+          "outletId": "skynews",
+          "outletName": "Sky News",
+          "headline": "Modelling scout linked to Epstein found dead at Paris home",
+          "url": "https://news.sky.com/story/modelling-scout-linked-to-jeffrey-epstein-found-dead-in-paris-home-13565917",
+          "biasScore": 4.8,
+          "biasSignals": [
+            "neutral factual framing, \"linked to Epstein\"",
+            "no strong ideological signals detected"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "linked to Epstein",
+            "SkyNews neutral"
+          ],
+          "pubDate": "Wed, 22 Jul 2026 11:57:00 +0100",
+          "clusterId": "epstein-model-recruiter-death"
+        },
+        {
+          "id": "dailymail-epstein-model-recruiter-death-3",
+          "outletId": "dailymail",
+          "outletName": "Daily Mail",
+          "headline": "Modelling scout and suspected Epstein pimp is found dead at his Paris home after name appeared more than a thousand times in declassified files",
+          "url": "\n\thttps://www.dailymail.com/news/article-15996195/Modelling-scout-suspected-Epstein-pimp-dead-Paris-home-appeared-thousand-times-declassified-files.html?ns_mchannel=rss&ito=1490&ns_campaign=1490\n      ",
+          "biasScore": 5,
+          "biasSignals": [
+            "\"suspected Epstein pimp\" — loaded characterization",
+            "\"more than a thousand times in declassified files\" — emphasis on scandal"
+          ],
+          "biasScoreGrok": 5.8,
+          "biasSignalsGrok": [
+            "suspected pimp charged",
+            "DailyMail right lean"
+          ],
+          "pubDate": "Wed, 22 Jul 2026 17:04:10 +0100",
+          "clusterId": "epstein-model-recruiter-death"
+        },
+        {
+          "id": "washexaminer-epstein-model-recruiter-death-2",
+          "outletId": "washexaminer",
+          "outletName": "Washington Examiner",
+          "headline": "Model recruiter linked to Epstein found dead in Paris apartment: Authorities",
+          "url": "https://www.washingtonexaminer.com/news/crime/4658445/model-recruiter-epstein-dead-paris/",
+          "biasScore": 5.2,
+          "biasSignals": [
+            "factual reporting, neutral verb \"found dead\"",
+            "minimal ideological framing in Washington Examiner"
+          ],
+          "biasScoreGrok": 5.5,
+          "biasSignalsGrok": [
+            "authorities neutral",
+            "WashExaminer center"
+          ],
+          "pubDate": "Wed, 22 Jul 2026 15:46:30 +0000",
+          "clusterId": "epstein-model-recruiter-death"
+        },
+        {
+          "id": "breitbart-epstein-model-recruiter-death-1",
+          "outletId": "breitbart",
+          "outletName": "Breitbart",
+          "headline": "French Modelling Scout Linked to Sex Offender Epstein Found Dead Outside Paris",
+          "url": "https://www.breitbart.com/entertainment/2026/07/22/french-modelling-scout-linked-to-sex-offender-epstein-found-dead-outside-paris/",
+          "biasScore": 5.5,
+          "biasSignals": [
+            "\"sex offender\" — factual characterization of Epstein",
+            "Breitbart uses factual language, no far-right loading here"
+          ],
+          "biasScoreGrok": 6,
+          "biasSignalsGrok": [
+            "sex offender loaded",
+            "Breitbart right"
+          ],
+          "pubDate": "Wed, 22 Jul 2026 10:54:13 +0000",
+          "clusterId": "epstein-model-recruiter-death"
+        }
+      ]
+    },
+    {
+      "id": "arizona-primaries-2026",
+      "topicLabel": "Trump-backed candidates win Arizona 2026 midterm primaries",
+      "date": "2026-07-22",
+      "articles": [
+        {
+          "id": "npr-arizona-primaries-2026-1",
           "outletId": "npr",
           "outletName": "NPR",
           "headline": "Trump-backed candidates, 2020 election deniers, win Arizona primaries",
           "url": "https://www.npr.org/2026/07/22/nx-s1-5902198/arizona-primary-results-trump-elections-biggs",
-          "biasScore": 4,
+          "biasScore": 3.5,
           "biasSignals": [
-            "'2020 election deniers' — delegitimizing label",
-            "neutral verb 'win' without celebration"
+            "\"2020 election deniers\" — loaded framing of winners",
+            "NPR emphasis on election denial as defining characteristic"
           ],
-          "biasScoreGrok": 2.4,
+          "biasScoreGrok": 3,
           "biasSignalsGrok": [
-            "'election deniers' label",
-            "Trump-backed candidates negative"
+            "election deniers loaded",
+            "NPR left lean"
           ],
           "pubDate": "Wed, 22 Jul 2026 04:33:21 -0400",
-          "clusterId": "arizona-primaries"
+          "clusterId": "arizona-primaries-2026"
         },
         {
-          "id": "guardian-arizona-primaries-3",
-          "outletId": "guardian",
-          "outletName": "The Guardian",
-          "headline": "Trump ally pledges to ‘work with people’ he disagrees with after Arizona primary win – US politics live",
-          "url": "https://www.theguardian.com/us-news/live/2026/jul/22/us-politics-trump-arizona-primary-andy-biggs-hegseth-mamdani-netanyahu-latest-news-updates",
-          "biasScore": 4,
-          "biasSignals": [
-            "'Trump ally' used neutrally",
-            "'pledges to work with people' — constructive framing"
-          ],
-          "biasScoreGrok": 3.9,
-          "biasSignalsGrok": [
-            "ally pledges work with",
-            "disagrees framing live"
-          ],
-          "pubDate": "Wed, 22 Jul 2026 11:04:30 GMT",
-          "clusterId": "arizona-primaries"
-        },
-        {
-          "id": "bostonglobe-arizona-primaries-8",
+          "id": "bostonglobe-arizona-primaries-2026-2",
           "outletId": "bostonglobe",
           "outletName": "Boston Globe",
-          "headline": "Six takeaways from Arizona’s tense, Trump-dominated primaries",
-          "url": "https://www.bostonglobe.com/2026/07/22/nation/arizona-primaries-takeaways/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
-          "biasScore": 4,
+          "headline": "Messy primaries plague both major political parties, causing chaos and confusion in the midterms",
+          "url": "https://www.bostonglobe.com/2026/07/22/nation/midterms-primaries-democrats-gop-trump/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
+          "biasScore": 3.5,
           "biasSignals": [
-            "'tense, Trump-dominated' repeated framing",
-            "slightly skeptical of Trump influence"
+            "\"messy primaries plague both parties\" — both-sides framing",
+            "\"chaos and confusion\" — negative framing of midterm landscape"
           ],
-          "biasScoreGrok": 3.4,
+          "biasScoreGrok": 5.5,
           "biasSignalsGrok": [
-            "tense Trump-dominated",
-            "six takeaways framing"
+            "messy primaries neutral",
+            "BostonGlobe center"
           ],
-          "pubDate": "Wed, 22 Jul 2026 06:47:07 +0000",
-          "clusterId": "arizona-primaries"
+          "pubDate": "Wed, 22 Jul 2026 15:09:21 +0000",
+          "clusterId": "arizona-primaries-2026"
         },
         {
-          "id": "nytimes-arizona-primaries-0",
+          "id": "nytimes-arizona-primaries-2026-0",
           "outletId": "nytimes",
           "outletName": "NY Times",
-          "headline": "6 Takeaways From Arizona’s Tense, Trump-Dominated Primaries",
+          "headline": "Arizona Elections: 6 Takeaways From the Trump-Dominated Primaries",
           "url": "https://www.nytimes.com/2026/07/22/us/politics/arizona-primary-takeaways.html",
           "biasScore": 4.5,
           "biasSignals": [
-            "'tense, Trump-dominated' — slight critical framing",
-            "neutral 'takeaways' structure"
+            "\"Trump-Dominated\" — neutral descriptor of primary results",
+            "\"Takeaways\" framing implies analytical neutrality"
           ],
-          "biasScoreGrok": 3.7,
+          "biasScoreGrok": 4,
           "biasSignalsGrok": [
             "Trump-dominated primaries",
-            "tense takeaways framing"
+            "NYTimes left-center"
           ],
           "pubDate": "Wed, 22 Jul 2026 09:17:02 +0000",
-          "clusterId": "arizona-primaries"
+          "clusterId": "arizona-primaries-2026"
         },
         {
-          "id": "guardian-arizona-primaries-4",
-          "outletId": "guardian",
-          "outletName": "The Guardian",
-          "headline": "Trump ally wins Republican primary for Arizona governor, setting up race against Katie Hobbs",
-          "url": "https://www.theguardian.com/us-news/2026/jul/22/arizona-republican-primary-andy-biggs-katie-hobbs",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral framing of primary result",
-            "mentions Hobbs as opponent without bias"
-          ],
-          "biasScoreGrok": 3.6,
-          "biasSignalsGrok": [
-            "ally wins primary",
-            "race against Hobbs"
-          ],
-          "pubDate": "Wed, 22 Jul 2026 03:17:10 GMT",
-          "clusterId": "arizona-primaries"
-        },
-        {
-          "id": "thehill-arizona-primaries-6",
-          "outletId": "thehill",
-          "outletName": "The Hill",
-          "headline": "What to watch in Arizona’s primaries",
-          "url": "https://thehill.com/homenews/campaign/5979241-arizona-primary-elections-what-to-watch/",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "'what to watch' — neutral preview framing",
-            "no partisan loading in language"
-          ],
-          "biasScoreGrok": 4.8,
-          "biasSignalsGrok": [
-            "what to watch neutral",
-            "Arizona primaries factual"
-          ],
-          "pubDate": "2026-07-21T10:00:00Z",
-          "clusterId": "arizona-primaries"
-        },
-        {
-          "id": "bostonglobe-arizona-primaries-7",
-          "outletId": "bostonglobe",
-          "outletName": "Boston Globe",
-          "headline": "Andy Biggs wins Republican nomination to challenge Democrat Katie Hobbs for Arizona governor",
-          "url": "https://www.bostonglobe.com/2026/07/21/nation/arizona-primaries/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral factual framing of primary result",
-            "Hobbs named as Democrat without framing"
-          ],
-          "biasScoreGrok": 4.7,
-          "biasSignalsGrok": [
-            "Biggs wins nomination",
-            "challenge Hobbs neutral"
-          ],
-          "pubDate": "Tue, 21 Jul 2026 04:12:27 +0000",
-          "clusterId": "arizona-primaries"
-        },
-        {
-          "id": "nbc-arizona-primaries-9",
+          "id": "nbc-arizona-primaries-2026-3",
           "outletId": "nbc",
           "outletName": "NBC News",
           "headline": "Election live updates: Arizona Governor Hobbs’ GOP challenger on the ballot as voters hit the polls",
           "url": "https://www.nbcnews.com/politics/2026-election/live-blog/arizona-primary-election-results-congress-trump-live-updates-rcna588432",
           "biasScore": 4.5,
           "biasSignals": [
-            "neutral 'live updates' framing",
-            "factual reference to GOP challenger"
+            "neutral live-update framing",
+            "factual \"voters hit the polls\" language"
           ],
-          "biasScoreGrok": 4.9,
+          "biasScoreGrok": 5,
           "biasSignalsGrok": [
-            "Hobbs challenger on ballot",
-            "voters hit polls"
+            "live updates neutral",
+            "NBC center"
           ],
           "pubDate": "2026-07-21T11:10:44Z",
-          "clusterId": "arizona-primaries"
-        },
-        {
-          "id": "nbc-arizona-primaries-10",
-          "outletId": "nbc",
-          "outletName": "NBC News",
-          "headline": "Battleground Arizona gets ready for another round of hotly contested elections",
-          "url": "https://www.nbcnews.com/politics/2026-election/battleground-arizona-gets-ready-another-hotly-contested-elections-rcna588311",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "'hotly contested' — neutral intensity marker",
-            "no partisan framing in descriptor"
-          ],
-          "biasScoreGrok": 4.3,
-          "biasSignalsGrok": [
-            "hotly contested elections",
-            "Arizona battleground"
-          ],
-          "pubDate": "2026-07-21T09:00:00Z",
-          "clusterId": "arizona-primaries"
-        },
-        {
-          "id": "aljazeera-arizona-primaries-2",
-          "outletId": "aljazeera",
-          "outletName": "Al Jazeera",
-          "headline": "Trump ally Andy Biggs wins Republican nomination for Arizona governor",
-          "url": "https://www.aljazeera.com/news/2026/7/22/trump-ally-andy-biggs-wins-republican-nomination-for-arizona-governor?traffic_source=rss",
-          "biasScore": 5.5,
-          "biasSignals": [
-            "neutral 'wins Republican nomination' framing",
-            "'Trump ally' descriptor without negative loading"
-          ],
-          "biasScoreGrok": 4.1,
-          "biasSignalsGrok": [
-            "Trump ally factual",
-            "wins nomination neutral"
-          ],
-          "pubDate": "Wed, 22 Jul 2026 11:18:44 +0000",
-          "clusterId": "arizona-primaries"
-        },
-        {
-          "id": "washexaminer-arizona-primaries-5",
-          "outletId": "washexaminer",
-          "outletName": "Washington Examiner",
-          "headline": "Biggs wins Republican primary, will face Hobbs in Arizona governor race",
-          "url": "https://www.washingtonexaminer.com/news/campaigns/state/4656807/biggs-hobbs-republican-primary-arizona-governor-race/",
-          "biasScore": 5.5,
-          "biasSignals": [
-            "neutral factual headline",
-            "no ideological framing of Biggs' win"
-          ],
-          "biasScoreGrok": 5.4,
-          "biasSignalsGrok": [
-            "Biggs wins primary",
-            "face Hobbs neutral"
-          ],
-          "pubDate": "Wed, 22 Jul 2026 03:07:56 +0000",
-          "clusterId": "arizona-primaries"
+          "clusterId": "arizona-primaries-2026"
         }
       ]
     },
     {
-      "id": "lindsey-graham-senate-race",
-      "topicLabel": "South Carolina Senate race to replace Lindsey Graham",
+      "id": "lindsey-graham-senate-seat",
+      "topicLabel": "Race to fill Lindsey Graham's Senate seat",
       "date": "2026-07-22",
       "articles": [
         {
-          "id": "politico-lindsey-graham-senate-race-0",
+          "id": "washpost-lindsey-graham-senate-seat-0",
+          "outletId": "washpost",
+          "outletName": "Washington Post",
+          "headline": "Congress to honor Lindsey Graham at Capitol ceremony next week",
+          "url": "https://www.washingtonpost.com/politics/2026/07/21/congress-honor-lindsey-graham-capitol-ceremony-next-week/",
+          "biasScore": 4.8,
+          "biasSignals": [
+            "neutral ceremonial framing of Capitol honor",
+            "no ideological signals in factual announcement"
+          ],
+          "biasScoreGrok": 5.2,
+          "biasSignalsGrok": [
+            "honor Graham neutral",
+            "WaPo center"
+          ],
+          "pubDate": "2026-07-21T14:15:02Z",
+          "clusterId": "lindsey-graham-senate-seat"
+        },
+        {
+          "id": "politico-lindsey-graham-senate-seat-2",
+          "outletId": "politico",
+          "outletName": "Politico",
+          "headline": "Nancy Mace won’t run for Lindsey Graham’s Senate seat",
+          "url": "https://www.politico.com/news/2026/07/20/nancy-mace-not-run-for-senate-01005210",
+          "biasScore": 4.8,
+          "biasSignals": [
+            "factual political news, neutral verb \"won't run\"",
+            "no ideological framing detected"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "won't run neutral",
+            "Politico factual"
+          ],
+          "pubDate": "2026-07-20T20:32:17+00:00",
+          "clusterId": "lindsey-graham-senate-seat"
+        },
+        {
+          "id": "politico-lindsey-graham-senate-seat-1",
           "outletId": "politico",
           "outletName": "Politico",
           "headline": "South Carolina Republicans test Trump's clout in race for Graham's seat",
           "url": "https://www.politico.com/news/2026/07/21/south-carolina-trump-graham-test-01005834",
           "biasScore": 5,
           "biasSignals": [
-            "neutral 'test Trump's clout' framing",
-            "no ideological loading on candidates"
+            "\"tests Trump's clout\" — neutral analytical framing",
+            "balanced political horse-race language"
           ],
-          "biasScoreGrok": 5.1,
+          "biasScoreGrok": 5,
           "biasSignalsGrok": [
-            "test Trump's clout",
-            "race for Graham seat"
+            "test Trump clout",
+            "Politico balanced"
           ],
           "pubDate": "2026-07-21T08:45:00+00:00",
-          "clusterId": "lindsey-graham-senate-race"
+          "clusterId": "lindsey-graham-senate-seat"
         },
         {
-          "id": "politico-lindsey-graham-senate-race-1",
-          "outletId": "politico",
-          "outletName": "Politico",
-          "headline": "Nancy Mace won’t run for Lindsey Graham’s Senate seat",
-          "url": "https://www.politico.com/news/2026/07/20/nancy-mace-not-run-for-senate-01005210",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral factual headline on Mace decision",
-            "no editorial framing"
-          ],
-          "biasScoreGrok": 4.6,
-          "biasSignalsGrok": [
-            "Mace won’t run",
-            "Senate seat factual"
-          ],
-          "pubDate": "2026-07-20T20:32:17+00:00",
-          "clusterId": "lindsey-graham-senate-race"
-        },
-        {
-          "id": "thehill-lindsey-graham-senate-race-4",
-          "outletId": "thehill",
-          "outletName": "The Hill",
-          "headline": "South Carolina Senate candidates pile in despite Trump endorsement",
-          "url": "https://thehill.com/newsletters/morning-report/5979822-south-carolina-senate-race-darline-graham-donald-trump-iran-war/",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral 'pile in despite Trump endorsement' framing",
-            "notes Trump influence without editorializing"
-          ],
-          "biasScoreGrok": 5.3,
-          "biasSignalsGrok": [
-            "candidates pile in",
-            "despite Trump endorsement"
-          ],
-          "pubDate": "2026-07-21T11:01:23Z",
-          "clusterId": "lindsey-graham-senate-race"
-        },
-        {
-          "id": "abc-lindsey-graham-senate-race-6",
-          "outletId": "abc",
-          "outletName": "ABC News",
-          "headline": "Darline Graham, Lindsey Graham's sister, says she will run for full Senate term",
-          "url": "https://abcnews.com/Politics/darline-graham-lindsey-grahams-sister-run-full-senate/story?id=134926606",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral factual announcement headline",
-            "no ideological framing of candidate"
-          ],
-          "biasScoreGrok": 4.4,
-          "biasSignalsGrok": [
-            "Graham's sister run",
-            "full Senate term"
-          ],
-          "pubDate": "2026-07-20T20:35:00Z",
-          "clusterId": "lindsey-graham-senate-race"
-        },
-        {
-          "id": "economist-lindsey-graham-senate-race-3",
+          "id": "economist-lindsey-graham-senate-seat-3",
           "outletId": "economist",
           "outletName": "The Economist",
           "headline": "Lindsey Graham tried to save the wrong countries from Donald Trump",
           "url": "https://www.economist.com/united-states/2026/07/16/lindsey-graham-tried-to-save-the-wrong-countries-from-donald-trump",
           "biasScore": 5.5,
           "biasSignals": [
-            "'tried to save the wrong countries' — critical of Graham",
-            "implies Graham's legacy is flawed"
+            "\"tried to save the wrong countries\" — critical but analytical",
+            "Economist conservative-leaning critique of Graham legacy"
           ],
-          "biasScoreGrok": 5.8,
+          "biasScoreGrok": 4,
           "biasSignalsGrok": [
-            "tried to save wrong",
-            "countries from Trump"
+            "save wrong countries",
+            "Economist left"
           ],
           "pubDate": "Thu, 16 Jul 2026 12:53:49 +0000",
-          "clusterId": "lindsey-graham-senate-race"
+          "clusterId": "lindsey-graham-senate-seat"
         },
         {
-          "id": "foxnews-lindsey-graham-senate-race-2",
-          "outletId": "foxnews",
-          "outletName": "Fox News",
-          "headline": "Darline Graham focuses on kitchen-table issues as she announces full-term Senate bid",
-          "url": "https://www.foxnews.com/media/darline-graham-focuses-kitchen-table-issues-announces-full-term-senate-bid",
-          "biasScore": 6,
-          "biasSignals": [
-            "'kitchen-table issues' — sympathetic conservative framing",
-            "announcement framed positively without critique"
-          ],
-          "biasScoreGrok": 6.2,
-          "biasSignalsGrok": [
-            "focuses kitchen-table issues",
-            "full-term Senate bid"
-          ],
-          "pubDate": "2026-07-21T02:52:26.1624808Z",
-          "clusterId": "lindsey-graham-senate-race"
-        },
-        {
-          "id": "thefederalist-lindsey-graham-senate-race-5",
+          "id": "thefederalist-lindsey-graham-senate-seat-5",
           "outletId": "thefederalist",
           "outletName": "The Federalist",
           "headline": "Exclusive: DOJ, South Carolina Reach Deal On UOCAVA Voting Timeline In Election To Replace Lindsey Graham",
           "url": "https://thefederalist.com/2026/07/21/exclusive-doj-south-carolina-reach-deal-on-uocava-voting-timeline-in-election-to-replace-lindsey-graham/?utm_source=rss&utm_medium=rss&utm_campaign=exclusive-doj-south-carolina-reach-deal-on-uocava-voting-timeline-in-election-to-replace-lindsey-graham",
-          "biasScore": 7,
+          "biasScore": 5.5,
           "biasSignals": [
-            "focuses on DOJ deal — conservative institutional trust",
-            "neutral framing but right-leaning sourcing context"
+            "\"exclusive\" framing on DOJ-SC voting deal",
+            "neutral legal framing of election timeline"
           ],
-          "biasScoreGrok": 6.5,
+          "biasScoreGrok": 6,
           "biasSignalsGrok": [
-            "DOJ SC reach deal",
-            "UOCAVA voting timeline"
+            "exclusive deal neutral",
+            "Federalist right"
           ],
           "pubDate": "Tue, 21 Jul 2026 22:21:58 +0000",
-          "clusterId": "lindsey-graham-senate-race"
-        }
-      ]
-    },
-    {
-      "id": "government-shutdown-spending-bill",
-      "topicLabel": "House passes stopgap spending bill to avoid shutdown",
-      "date": "2026-07-22",
-      "articles": [
-        {
-          "id": "npr-government-shutdown-spending-bill-1",
-          "outletId": "npr",
-          "outletName": "NPR",
-          "headline": "House votes to extend government funding, aiming to avoid an election year shutdown",
-          "url": "https://www.npr.org/2026/07/21/nx-s1-5902245/government-funding-house-vote-continuing-resolution",
-          "biasScore": 4,
-          "biasSignals": [
-            "'aiming to avoid election year shutdown' — neutral motive",
-            "no partisan attribution of blame"
-          ],
-          "biasScoreGrok": 4.2,
-          "biasSignalsGrok": [
-            "extend government funding",
-            "avoid election shutdown"
-          ],
-          "pubDate": "Tue, 21 Jul 2026 22:20:15 -0400",
-          "clusterId": "government-shutdown-spending-bill"
+          "clusterId": "lindsey-graham-senate-seat"
         },
         {
-          "id": "guardian-government-shutdown-spending-bill-2",
-          "outletId": "guardian",
-          "outletName": "The Guardian",
-          "headline": "House passes spending bill to head off government shutdown before midterms",
-          "url": "https://www.theguardian.com/us-news/2026/jul/22/house-passes-spending-bill",
-          "biasScore": 4,
+          "id": "nationalreview-lindsey-graham-senate-seat-4",
+          "outletId": "nationalreview",
+          "outletName": "National Review",
+          "headline": "Pass the New Russia Sanctions Bill to End the War Faster and Honor Lindsey Graham",
+          "url": "https://www.nationalreview.com/2026/07/pass-the-new-russia-sanctions-bill-to-end-the-war-faster-and-honor-lindsey-graham/",
+          "biasScore": 6.5,
           "biasSignals": [
-            "neutral 'head off government shutdown' framing",
-            "no ideological loading"
+            "\"honor Lindsey Graham\" — reverential conservative framing",
+            "Russia sanctions framed as honoring Graham's legacy"
           ],
-          "biasScoreGrok": 3.8,
+          "biasScoreGrok": 7,
           "biasSignalsGrok": [
-            "passes spending bill",
-            "head off shutdown"
+            "honor Lindsey Graham",
+            "NationalReview right"
           ],
-          "pubDate": "Wed, 22 Jul 2026 02:31:39 GMT",
-          "clusterId": "government-shutdown-spending-bill"
-        },
-        {
-          "id": "nytimes-government-shutdown-spending-bill-0",
-          "outletId": "nytimes",
-          "outletName": "NY Times",
-          "headline": "House Narrowly Passes Stopgap Spending Bill, but Shutdown Fight Looms",
-          "url": "https://www.nytimes.com/2026/07/21/us/politics/house-stopgap-spending-bill-shutdown.html",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "'narrowly passes' — implies difficulty without bias",
-            "'shutdown fight looms' — neutral tension framing"
-          ],
-          "biasScoreGrok": 4,
-          "biasSignalsGrok": [
-            "narrowly passes bill",
-            "shutdown fight looms"
-          ],
-          "pubDate": "Wed, 22 Jul 2026 02:37:17 +0000",
-          "clusterId": "government-shutdown-spending-bill"
-        },
-        {
-          "id": "washexaminer-government-shutdown-spending-bill-3",
-          "outletId": "washexaminer",
-          "outletName": "Washington Examiner",
-          "headline": "House jams through funding patch to avert shutdown through December",
-          "url": "https://www.washingtonexaminer.com/news/house/4658106/house-funding-patch-avert-shutdown-december/",
-          "biasScore": 5.5,
-          "biasSignals": [
-            "'jams through' — slightly critical of speed",
-            "neutral on policy substance"
-          ],
-          "biasScoreGrok": 6.1,
-          "biasSignalsGrok": [
-            "jams through funding",
-            "avert shutdown patch"
-          ],
-          "pubDate": "Wed, 22 Jul 2026 02:19:08 +0000",
-          "clusterId": "government-shutdown-spending-bill"
-        },
-        {
-          "id": "thehill-government-shutdown-spending-bill-4",
-          "outletId": "thehill",
-          "outletName": "The Hill",
-          "headline": "GOP seeks to avoid, for once, the shutdown trap",
-          "url": "https://thehill.com/homenews/house/5979250-congressional-shutdown-avoidance-strategy/",
-          "biasScore": 5.5,
-          "biasSignals": [
-            "'avoid the shutdown trap' — sympathetic to GOP",
-            "frames shutdown avoidance as GOP strategy"
-          ],
-          "biasScoreGrok": 6.7,
-          "biasSignalsGrok": [
-            "GOP avoid shutdown trap",
-            "for once framing"
-          ],
-          "pubDate": "2026-07-21T10:00:00Z",
-          "clusterId": "government-shutdown-spending-bill"
+          "pubDate": "Wed, 22 Jul 2026 10:30:46 +0000",
+          "clusterId": "lindsey-graham-senate-seat"
         }
       ]
     },
     {
       "id": "mamdani-netanyahu-arrest",
-      "topicLabel": "NYC Mayor Mamdani urges arrest of Netanyahu",
+      "topicLabel": "NYC Mayor Mamdani calls for Netanyahu arrest",
       "date": "2026-07-22",
       "articles": [
         {
-          "id": "guardian-mamdani-netanyahu-arrest-1",
+          "id": "guardian-mamdani-netanyahu-arrest-2",
           "outletId": "guardian",
           "outletName": "The Guardian",
-          "headline": "Mamdani urges US government to arrest Netanyahu if Israeli PM visits US",
-          "url": "https://www.theguardian.com/us-news/2026/jul/21/mamdani-benjamin-netanyahu-arrest-authority",
-          "biasScore": 3.5,
+          "headline": "Mamdani reiterates ICC support after urging US to execute warrant for Netanyahu’s arrest",
+          "url": "https://www.theguardian.com/us-news/2026/jul/22/zohran-mamdani-netanyahu-arrest-new-york",
+          "biasScore": 3.2,
           "biasSignals": [
-            "Mamdani's demand framed sympathetically",
-            "no pushback on ICC warrant premise"
+            "Guardian gives Mamdani sympathetic platform",
+            "\"reiterates ICC support\" — framed as principled stance"
           ],
-          "biasScoreGrok": 2.7,
+          "biasScoreGrok": 2.8,
           "biasSignalsGrok": [
-            "urges US arrest Netanyahu",
-            "if visits US"
+            "reiterates ICC support",
+            "Guardian far left"
           ],
-          "pubDate": "Wed, 22 Jul 2026 06:41:51 GMT",
+          "pubDate": "Wed, 22 Jul 2026 15:47:54 GMT",
           "clusterId": "mamdani-netanyahu-arrest"
         },
         {
@@ -1150,534 +1036,81 @@
           "outletName": "NPR",
           "headline": "Mamdani says New York City can't arrest Netanyahu but the federal government should",
           "url": "https://www.npr.org/2026/07/22/g-s1-134880/mamdani-nyc-netanyahu",
-          "biasScore": 4,
+          "biasScore": 3.8,
           "biasSignals": [
-            "neutral framing of Mamdani's position",
-            "notes jurisdictional limits without editorializing"
+            "NPR gives Mamdani platform without strong critique",
+            "\"federal government should\" — framed as reasonable policy ask"
           ],
-          "biasScoreGrok": 2.9,
+          "biasScoreGrok": 3,
           "biasSignalsGrok": [
             "can't arrest but should",
-            "federal government emphasis"
+            "NPR left lean"
           ],
           "pubDate": "Wed, 22 Jul 2026 02:04:29 -0400",
           "clusterId": "mamdani-netanyahu-arrest"
         },
         {
-          "id": "msnbc-mamdani-netanyahu-arrest-5",
-          "outletId": "msnbc",
-          "outletName": "MSNBC",
-          "headline": "Meghan McCain warns GOP about  Mamdani’s ‘brilliant tone’ in criticizing the right",
-          "url": "https://www.ms.now/news/meghan-mccain-zohran-mamdani-brilliant-tone-criticizing-republicans",
-          "biasScore": 4,
+          "id": "reason-mamdani-netanyahu-arrest-4",
+          "outletId": "reason",
+          "outletName": "Reason",
+          "headline": "Jailing Netanyahu",
+          "url": "https://reason.com/2026/07/22/jailing-netanyahu/",
+          "biasScore": 5.5,
           "biasSignals": [
-            "Meghan McCain's warning framed as political analysis",
-            "neutral on Mamdani's actual position"
+            "analytical framing of legal arguments",
+            "Reason's libertarian neutrality on ICC issue"
           ],
-          "biasScoreGrok": 2.8,
+          "biasScoreGrok": 5.5,
           "biasSignalsGrok": [
-            "warns GOP about tone",
-            "brilliant criticizing right"
+            "jailing Netanyahu neutral",
+            "Reason center"
           ],
-          "pubDate": "2026-07-20T22:46:09Z",
+          "pubDate": "Wed, 22 Jul 2026 13:30:11 +0000",
           "clusterId": "mamdani-netanyahu-arrest"
         },
         {
-          "id": "forbes-mamdani-netanyahu-arrest-2",
-          "outletId": "forbes",
-          "outletName": "Forbes",
-          "headline": "Mamdani Urges Government To Arrest Netanyahu—But Trump Dismisses It",
-          "url": "https://www.forbes.com/sites/siladityaray/2026/07/22/mamdani-urges-federal-government-to-arrest-netanyahu-but-trump-has-dismissed-it-outright/",
-          "biasScore": 4.5,
+          "id": "foxnews-mamdani-netanyahu-arrest-1",
+          "outletId": "foxnews",
+          "outletName": "Fox News",
+          "headline": "CNN legal analyst calls out 'utterly ridiculous' claim by Mamdani about Netanyahu arrest",
+          "url": "https://www.foxnews.com/media/cnn-legal-analyst-calls-out-utterly-ridiculous-claim-mamdani-netanyahu-arrest",
+          "biasScore": 6.5,
           "biasSignals": [
-            "neutral contrast of Mamdani and Trump positions",
-            "factual framing without ideological loading"
+            "\"utterly ridiculous\" — strongly dismissive framing of Mamdani",
+            "CNN analyst criticism framed approvingly by Fox"
           ],
-          "biasScoreGrok": 4.5,
+          "biasScoreGrok": 6.5,
           "biasSignalsGrok": [
-            "urges arrest but Trump",
-            "dismisses it neutral"
+            "utterly ridiculous loaded",
+            "FoxNews right"
           ],
-          "pubDate": "Wed, 22 Jul 2026 06:11:47 -0400",
-          "clusterId": "mamdani-netanyahu-arrest"
-        },
-        {
-          "id": "cnn-mamdani-netanyahu-arrest-4",
-          "outletId": "cnn",
-          "outletName": "CNN",
-          "headline": "Why Trump and Mamdani might both welcome a fight over Netanyahu",
-          "url": "https://www.cnn.com/2026/07/21/politics/trump-mamdani-netanyahu",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral 'both welcome a fight' framing",
-            "implies mutual political benefit without bias"
-          ],
-          "biasScoreGrok": 3.3,
-          "biasSignalsGrok": [
-            "both welcome fight",
-            "Netanyahu framing"
-          ],
-          "pubDate": "2026-07-21T04:01:25Z",
+          "pubDate": "2026-07-21T15:22:26.7163384Z",
           "clusterId": "mamdani-netanyahu-arrest"
         },
         {
           "id": "washexaminer-mamdani-netanyahu-arrest-3",
           "outletId": "washexaminer",
           "outletName": "Washington Examiner",
-          "headline": "Mamdani says he lacks authority to arrest Netanyahu but urges Trump to do so",
-          "url": "https://www.washingtonexaminer.com/news/justice/4658214/mamdani-arrest-netanyahu-authority-icc-warrant/",
-          "biasScore": 5,
+          "headline": "Mike Huckabee: Mamdani is an ‘evil anti-Semite,’ not just ignorant, after Netanyahu arrest pledge",
+          "url": "https://www.washingtonexaminer.com/news/crime/4658465/mike-huckabee-mamdani-evil-anti-semite-netanyahu/",
+          "biasScore": 8.5,
           "biasSignals": [
-            "notes Mamdani 'lacks authority' — factual limit",
-            "neutral framing of both positions"
+            "\"evil anti-Semite\" — extreme charged language",
+            "Huckabee quote used to condemn Mamdani harshly"
           ],
-          "biasScoreGrok": 5,
+          "biasScoreGrok": 8,
           "biasSignalsGrok": [
-            "lacks authority but urges",
-            "Trump to arrest"
+            "evil anti-Semite charged",
+            "WashExaminer far right"
           ],
-          "pubDate": "Wed, 22 Jul 2026 02:38:15 +0000",
+          "pubDate": "Wed, 22 Jul 2026 14:59:54 +0000",
           "clusterId": "mamdani-netanyahu-arrest"
         }
       ]
     },
     {
-      "id": "israel-gaza-barrier-lebanon",
-      "topicLabel": "Israel builds Gaza barrier, Lebanon troop withdrawal",
-      "date": "2026-07-22",
-      "articles": [
-        {
-          "id": "msnbc-israel-gaza-barrier-lebanon-0",
-          "outletId": "msnbc",
-          "outletName": "MSNBC",
-          "headline": "Israel is building a miles-long earthen barrier inside Gaza, entrenching its division",
-          "url": "https://www.ms.now/news/israel-miles-long-earthen-barrier-inside-gaza-entrenching-its-division",
-          "biasScore": 3.5,
-          "biasSignals": [
-            "'entrenching its division' — critical framing of Israel",
-            "'miles-long earthen barrier' — emphasizes permanence"
-          ],
-          "biasScoreGrok": 2.5,
-          "biasSignalsGrok": [
-            "entrenching its division",
-            "miles-long barrier"
-          ],
-          "pubDate": "2026-07-21T06:18:24Z",
-          "clusterId": "israel-gaza-barrier-lebanon"
-        },
-        {
-          "id": "msnbc-israel-gaza-barrier-lebanon-5",
-          "outletId": "msnbc",
-          "outletName": "MSNBC",
-          "headline": "Lebanon’s president asks Trump to do what he rarely does: cross Netanyahu",
-          "url": "https://www.ms.now/news/lebanon-trump-israel-iran",
-          "biasScore": 3.5,
-          "biasSignals": [
-            "'cross Netanyahu' frames Trump deferring to Israel",
-            "implies Trump compliant with Netanyahu"
-          ],
-          "biasScoreGrok": 2.6,
-          "biasSignalsGrok": [
-            "asks Trump cross Netanyahu",
-            "rarely does framing"
-          ],
-          "pubDate": "2026-07-21T09:00:00Z",
-          "clusterId": "israel-gaza-barrier-lebanon"
-        },
-        {
-          "id": "aljazeera-israel-gaza-barrier-lebanon-2",
-          "outletId": "aljazeera",
-          "outletName": "Al Jazeera",
-          "headline": "Lebanese army deployed in ‘pilot zone’ as families wait to return home",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/22/lebanese-army-deployed-in-pilot-zone-as-families-wait-to-return-home?traffic_source=rss",
-          "biasScore": 4,
-          "biasSignals": [
-            "'families wait to return home' — humanizes Lebanese civilians",
-            "neutral framing of Lebanese army role"
-          ],
-          "biasScoreGrok": 3.9,
-          "biasSignalsGrok": [
-            "deployed in pilot zone",
-            "families wait return"
-          ],
-          "pubDate": "Wed, 22 Jul 2026 10:53:53 +0000",
-          "clusterId": "israel-gaza-barrier-lebanon"
-        },
-        {
-          "id": "bbc-israel-gaza-barrier-lebanon-1",
-          "outletId": "bbc",
-          "outletName": "BBC",
-          "headline": "Lebanese army says troops deploying in 'pilot zone' after Israeli withdrawal",
-          "url": "https://www.bbc.co.uk/news/articles/cy8mynlmn55o",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral factual headline on Lebanese army deployment",
-            "no ideological framing"
-          ],
-          "biasScoreGrok": 4.8,
-          "biasSignalsGrok": [
-            "troops deploying pilot",
-            "after Israeli withdrawal"
-          ],
-          "pubDate": "2026-07-21T11:52:27.8657884Z",
-          "clusterId": "israel-gaza-barrier-lebanon"
-        },
-        {
-          "id": "ap-israel-gaza-barrier-lebanon-3",
-          "outletId": "ap",
-          "outletName": "Associated Press",
-          "headline": "Israeli military builds massive earthen barrier inside Gaza",
-          "url": "https://apnews.com/article/israel-gaza-yellow-line-barrier-ceasefire-941ed80f6d4398ce88916f6b08753dd8",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "'massive earthen barrier' — descriptive but neutral",
-            "factual framing without political loading"
-          ],
-          "biasScoreGrok": 4.1,
-          "biasSignalsGrok": [
-            "builds massive barrier",
-            "inside Gaza neutral"
-          ],
-          "pubDate": "2026-07-21T05:03:14Z",
-          "clusterId": "israel-gaza-barrier-lebanon"
-        },
-        {
-          "id": "ap-israel-gaza-barrier-lebanon-4",
-          "outletId": "ap",
-          "outletName": "Associated Press",
-          "headline": "Lebanon's president will meet Trump to push for Israeli troop withdrawal",
-          "url": "https://apnews.com/article/lebanon-president-hezbollah-trump-aoun-israel-e0364d0334c2f4d888d2b3970c9fe5b1",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral 'push for Israeli troop withdrawal'",
-            "Lebanese president's goal stated factually"
-          ],
-          "biasScoreGrok": 4.4,
-          "biasSignalsGrok": [
-            "president meet Trump",
-            "push withdrawal neutral"
-          ],
-          "pubDate": "2026-07-21T04:59:56Z",
-          "clusterId": "israel-gaza-barrier-lebanon"
-        }
-      ]
-    },
-    {
-      "id": "saudi-nuclear-deal",
-      "topicLabel": "Saudis reach deal with US to enrich uranium",
-      "date": "2026-07-22",
-      "articles": [
-        {
-          "id": "guardian-saudi-nuclear-deal-1",
-          "outletId": "guardian",
-          "outletName": "The Guardian",
-          "headline": "Saudis and US strike deal for kingdom to enrich uranium, reports say",
-          "url": "https://www.theguardian.com/us-news/2026/jul/22/saudi-arabia-would-enrich-uranium-under-reported-deal-with-us",
-          "biasScore": 4,
-          "biasSignals": [
-            "'reports say' — appropriate hedging",
-            "neutral framing without alarm"
-          ],
-          "biasScoreGrok": 4,
-          "biasSignalsGrok": [
-            "strike deal enrich uranium",
-            "reports say neutral"
-          ],
-          "pubDate": "Wed, 22 Jul 2026 05:43:37 GMT",
-          "clusterId": "saudi-nuclear-deal"
-        },
-        {
-          "id": "nytimes-saudi-nuclear-deal-0",
-          "outletId": "nytimes",
-          "outletName": "NY Times",
-          "headline": "Saudis Reach Deal With U.S. That Could Let Them Enrich Nuclear Fuel",
-          "url": "https://www.nytimes.com/2026/07/21/us/politics/trump-saudi-nuclear-deal.html",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral factual headline on deal",
-            "no ideological framing of proliferation risk"
-          ],
-          "biasScoreGrok": 4.3,
-          "biasSignalsGrok": [
-            "deal could let enrich",
-            "nuclear fuel neutral"
-          ],
-          "pubDate": "Wed, 22 Jul 2026 03:44:50 +0000",
-          "clusterId": "saudi-nuclear-deal"
-        }
-      ]
-    },
-    {
-      "id": "epstein-foreign-agent",
-      "topicLabel": "Jeffrey Epstein foreign agent investigation and model testimony",
-      "date": "2026-07-22",
-      "articles": [
-        {
-          "id": "cnn-epstein-foreign-agent-1",
-          "outletId": "cnn",
-          "outletName": "CNN",
-          "headline": "Exclusive: Roza Gilles was an 18-year-old model when Jeffrey Epstein first abused her — while he was serving jail time",
-          "url": "https://www.cnn.com/2026/07/20/politics/roza-gilles-jeffrey-epstein-victim-abuse",
-          "biasScore": 3.5,
-          "biasSignals": [
-            "victim's testimony centered — victim framing",
-            "'while he was serving jail time' — emphasizes impunity"
-          ],
-          "biasScoreGrok": 3.1,
-          "biasSignalsGrok": [
-            "18-year-old model abused",
-            "while serving jail"
-          ],
-          "pubDate": "2026-07-20T23:38:30Z",
-          "clusterId": "epstein-foreign-agent"
-        },
-        {
-          "id": "cnn-epstein-foreign-agent-0",
-          "outletId": "cnn",
-          "outletName": "CNN",
-          "headline": "House Democrats launch investigation into whether Jeffrey Epstein acted as a foreign agent",
-          "url": "https://www.cnn.com/2026/07/21/politics/jeffrey-epstein-democrats-foreign-agent",
-          "biasScore": 4,
-          "biasSignals": [
-            "neutral 'launch investigation' framing",
-            "Democrats' role noted without partisan praise"
-          ],
-          "biasScoreGrok": 2.4,
-          "biasSignalsGrok": [
-            "House Democrats launch",
-            "foreign agent investigation"
-          ],
-          "pubDate": "2026-07-21T09:00:25Z",
-          "clusterId": "epstein-foreign-agent"
-        },
-        {
-          "id": "independent-epstein-foreign-agent-2",
-          "outletId": "independent",
-          "outletName": "The Independent",
-          "headline": "Modelling scout linked to Epstein found dead at his Paris home",
-          "url": "https://www.independent.co.uk/bulletin/news/daniel-siad-dead-epstein-files-paris-b3019471.html",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral factual reporting of death",
-            "Epstein link noted without sensationalism"
-          ],
-          "biasScoreGrok": 4.7,
-          "biasSignalsGrok": [
-            "scout linked Epstein",
-            "found dead Paris"
-          ],
-          "pubDate": "Wed, 22 Jul 2026 11:43:05 GMT",
-          "clusterId": "epstein-foreign-agent"
-        },
-        {
-          "id": "independent-epstein-foreign-agent-3",
-          "outletId": "independent",
-          "outletName": "The Independent",
-          "headline": "French model scout under investigation over Epstein links found dead",
-          "url": "https://www.independent.co.uk/news/world/europe/epstein-french-model-scout-daniel-siad-b3019455.html",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral 'found dead' framing",
-            "investigation context noted factually"
-          ],
-          "biasScoreGrok": 4.5,
-          "biasSignalsGrok": [
-            "model scout under",
-            "investigation Epstein links"
-          ],
-          "pubDate": "Wed, 22 Jul 2026 11:20:14 GMT",
-          "clusterId": "epstein-foreign-agent"
-        },
-        {
-          "id": "skynews-epstein-foreign-agent-4",
-          "outletId": "skynews",
-          "outletName": "Sky News",
-          "headline": "Modelling scout linked to Epstein found dead at Paris home",
-          "url": "https://news.sky.com/story/modelling-scout-linked-to-jeffrey-epstein-found-dead-in-paris-home-13565917",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral factual headline",
-            "no speculative framing on death cause"
-          ],
-          "biasScoreGrok": 4.8,
-          "biasSignalsGrok": [
-            "scout linked Epstein",
-            "dead Paris home"
-          ],
-          "pubDate": "Wed, 22 Jul 2026 11:57:00 +0100",
-          "clusterId": "epstein-foreign-agent"
-        }
-      ]
-    },
-    {
-      "id": "air-force-one-upgrade",
-      "topicLabel": "Trump's Air Force One security upgrade controversy",
-      "date": "2026-07-22",
-      "articles": [
-        {
-          "id": "huffpost-air-force-one-upgrade-3",
-          "outletId": "huffpost",
-          "outletName": "HuffPost",
-          "headline": "White House's New Nickname For Trump's AF1 Upgrade Has Critics Cringing",
-          "url": "https://www.huffpost.com/entry/donald-trump-white-house-planemaxxing_n_6a5f2e58e4b03e4448784286",
-          "biasScore": 3,
-          "biasSignals": [
-            "'Critics cringing' — validates opposition framing",
-            "White House nickname mocked implicitly"
-          ],
-          "biasScoreGrok": 2.8,
-          "biasSignalsGrok": [
-            "new nickname cringing",
-            "critics emphasis"
-          ],
-          "pubDate": "2026-07-21T09:39:22Z",
-          "clusterId": "air-force-one-upgrade"
-        },
-        {
-          "id": "cnn-air-force-one-upgrade-1",
-          "outletId": "cnn",
-          "outletName": "CNN",
-          "headline": "White House rushes to further secure Trump’s new Air Force One — but he plans to keep flying it domestically",
-          "url": "https://www.cnn.com/2026/07/20/politics/air-force-one-trump-security",
-          "biasScore": 4,
-          "biasSignals": [
-            "'rushes to secure' — implies urgency/concern",
-            "notes Trump's continued use despite concerns"
-          ],
-          "biasScoreGrok": 3.7,
-          "biasSignalsGrok": [
-            "rushes to secure",
-            "plans keep flying"
-          ],
-          "pubDate": "2026-07-20T21:41:45Z",
-          "clusterId": "air-force-one-upgrade"
-        },
-        {
-          "id": "cnn-air-force-one-upgrade-0",
-          "outletId": "cnn",
-          "outletName": "CNN",
-          "headline": "Air Force One to be ‘maxed out’ after security concerns | CNN",
-          "url": "https://www.cnn.com/2026/07/20/us/video/air-force-one-to-be-maxed-out-ldn-digvid-vrtc",
-          "biasScore": 5.5,
-          "biasSignals": [
-            "'maxed out' — neutral but implies excess",
-            "security framing without criticism"
-          ],
-          "biasScoreGrok": 4.2,
-          "biasSignalsGrok": [
-            "maxed out after",
-            "security concerns"
-          ],
-          "pubDate": "2026-07-21T08:07:47.9235294Z",
-          "clusterId": "air-force-one-upgrade"
-        },
-        {
-          "id": "nationalreview-air-force-one-upgrade-2",
-          "outletId": "nationalreview",
-          "outletName": "National Review",
-          "headline": "The Qatar Force One Fiasco",
-          "url": "https://www.nationalreview.com/2026/07/the-qatar-force-one-fiasco/",
-          "biasScore": 6.5,
-          "biasSignals": [
-            "'Fiasco' — charged negative label",
-            "Qatar gift framed as scandal for Trump"
-          ],
-          "biasScoreGrok": 7.3,
-          "biasSignalsGrok": [
-            "Qatar Force One",
-            "fiasco framing critical"
-          ],
-          "pubDate": "Tue, 21 Jul 2026 10:30:34 +0000",
-          "clusterId": "air-force-one-upgrade"
-        }
-      ]
-    },
-    {
-      "id": "noncitizen-voter-rolls",
-      "topicLabel": "Noncitizens found on New Jersey voter rolls",
-      "date": "2026-07-22",
-      "articles": [
-        {
-          "id": "breitbart-noncitizen-voter-rolls-1",
-          "outletId": "breitbart",
-          "outletName": "Breitbart",
-          "headline": "Andy Kim: Illegals Voting in New Jersey Not a 'Widespread Systemic Problem'",
-          "url": "https://www.breitbart.com/clips/2026/07/21/andy-kim-illegals-voting-in-new-jersey-not-a-widespread-systemic-problem/",
-          "biasScore": 7,
-          "biasSignals": [
-            "'Illegals Voting' label used for Andy Kim quote",
-            "Kim's denial framed skeptically"
-          ],
-          "biasScoreGrok": 8.4,
-          "biasSignalsGrok": [
-            "illegals voting not",
-            "widespread systemic problem"
-          ],
-          "pubDate": "Wed, 22 Jul 2026 02:53:22 +0000",
-          "clusterId": "noncitizen-voter-rolls"
-        },
-        {
-          "id": "breitbart-noncitizen-voter-rolls-0",
-          "outletId": "breitbart",
-          "outletName": "Breitbart",
-          "headline": "Vance Calls on Sens. Booker, Kim to Pass SAVE Act After New Jersey Admits to Uncovering Non-Citizen Voters",
-          "url": "https://www.breitbart.com/politics/2026/07/21/vance-calls-pass-save-act-new-jersey-admits-uncovering-non-citizen-voters/",
-          "biasScore": 7.5,
-          "biasSignals": [
-            "'Illegals Voting' — charged right-wing framing",
-            "SAVE Act framed as necessary response"
-          ],
-          "biasScoreGrok": 7.8,
-          "biasSignalsGrok": [
-            "calls on pass SAVE",
-            "uncovering non-citizen voters"
-          ],
-          "pubDate": "Wed, 22 Jul 2026 02:04:33 +0000",
-          "clusterId": "noncitizen-voter-rolls"
-        },
-        {
-          "id": "thefederalist-noncitizen-voter-rolls-3",
-          "outletId": "thefederalist",
-          "outletName": "The Federalist",
-          "headline": "‘Worse Than A Democrat’: Lisa Murkowski Can’t Bring Herself To SAVE America",
-          "url": "https://thefederalist.com/2026/07/21/worse-than-a-democrat-lisa-murkowski-cant-bring-herself-to-save-america/?utm_source=rss&utm_medium=rss&utm_campaign=worse-than-a-democrat-lisa-murkowski-cant-bring-herself-to-save-america",
-          "biasScore": 8.5,
-          "biasSignals": [
-            "'Worse Than a Democrat' — far-right attack framing",
-            "Murkowski labeled traitor to conservative cause"
-          ],
-          "biasScoreGrok": 8.2,
-          "biasSignalsGrok": [
-            "worse than Democrat",
-            "Murkowski SAVE America"
-          ],
-          "pubDate": "Tue, 21 Jul 2026 11:31:59 +0000",
-          "clusterId": "noncitizen-voter-rolls"
-        },
-        {
-          "id": "thefederalist-noncitizen-voter-rolls-2",
-          "outletId": "thefederalist",
-          "outletName": "The Federalist",
-          "headline": "6,600 Noncitizens Found On New Jersey Voter Rolls As Democrats Fight Against Voter ID",
-          "url": "https://thefederalist.com/2026/07/21/6600-noncitizens-found-on-new-jersey-voter-rolls-as-democrats-fight-against-voter-id/?utm_source=rss&utm_medium=rss&utm_campaign=6600-noncitizens-found-on-new-jersey-voter-rolls-as-democrats-fight-against-voter-id",
-          "biasScore": 9,
-          "biasSignals": [
-            "'Democrats Fight Against Voter ID' — accusatory framing",
-            "6,600 noncitizens framed as crisis without nuance"
-          ],
-          "biasScoreGrok": 8.6,
-          "biasSignalsGrok": [
-            "6600 noncitizens found",
-            "Democrats fight voter ID"
-          ],
-          "pubDate": "Tue, 21 Jul 2026 20:06:45 +0000",
-          "clusterId": "noncitizen-voter-rolls"
-        }
-      ]
-    },
-    {
       "id": "world-cup-2026",
-      "topicLabel": "2026 FIFA World Cup opening and events",
+      "topicLabel": "2026 FIFA World Cup opens in North America",
       "date": "2026-07-22",
       "articles": [
         {
@@ -1688,13 +1121,13 @@
           "url": "https://www.cbsnews.com/video/2026-world-cup-begins-today-heres-what-to-know/",
           "biasScore": 5,
           "biasSignals": [
-            "neutral informational framing",
-            "no political loading"
+            "neutral informational framing, \"here's what to know\"",
+            "no ideological signals in sports coverage"
           ],
           "biasScoreGrok": 5,
           "biasSignalsGrok": [
-            "begins today what",
-            "to know neutral"
+            "here's what to know",
+            "CBS neutral"
           ],
           "pubDate": "2026-06-11T19:52:21+00:00",
           "clusterId": "world-cup-2026"
@@ -1707,1102 +1140,791 @@
           "url": "https://www.cbsnews.com/news/world-cup-opening-ceremony-mexico-shakira/",
           "biasScore": 5,
           "biasSignals": [
-            "neutral event reporting",
-            "Shakira mention adds cultural color"
+            "factual event coverage, neutral verb choice",
+            "celebrity mention (Shakira) without ideological framing"
           ],
-          "biasScoreGrok": 4.9,
+          "biasScoreGrok": 5,
           "biasSignalsGrok": [
-            "opening ceremony kicks",
-            "Mexico Shakira neutral"
+            "kicks off neutral",
+            "CBS factual"
           ],
           "pubDate": "2026-06-11T18:41:38+00:00",
           "clusterId": "world-cup-2026"
         },
         {
-          "id": "cnbc-world-cup-2026-2",
-          "outletId": "cnbc",
-          "outletName": "CNBC",
-          "headline": "Peacock is getting a lift from World Cup, Spanish-language content",
-          "url": "https://www.cnbc.com/2026/07/22/peacock-is-getting-a-lift-from-world-cup-spanish-language-content.html",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral business framing of viewership",
-            "no political angle"
-          ],
-          "biasScoreGrok": 4.7,
-          "biasSignalsGrok": [
-            "Peacock getting lift",
-            "World Cup content"
-          ],
-          "pubDate": "Wed, 22 Jul 2026 11:00:01 GMT",
-          "clusterId": "world-cup-2026"
-        },
-        {
-          "id": "axios-world-cup-2026-3",
+          "id": "axios-world-cup-2026-2",
           "outletId": "axios",
           "outletName": "Axios",
           "headline": "World Cup final draws record 62.8M U.S. viewers",
           "url": "https://www.axios.com/2026/07/21/world-cup-final-viewership-record",
           "biasScore": 5,
           "biasSignals": [
-            "neutral record viewership framing",
-            "no ideological signals"
+            "factual viewership record reporting",
+            "neutral sports journalism framing"
           ],
-          "biasScoreGrok": 4.8,
+          "biasScoreGrok": 5,
           "biasSignalsGrok": [
-            "final draws record",
-            "US viewers neutral"
+            "record viewers neutral",
+            "Axios center"
           ],
           "pubDate": "Tue, 21 Jul 2026 23:35:27 +0000",
           "clusterId": "world-cup-2026"
         },
         {
-          "id": "latimes-world-cup-2026-4",
-          "outletId": "latimes",
-          "outletName": "LA Times",
-          "headline": "'For a few days the world stopped': L.A. fans share their favorite World Cup memories",
-          "url": "https://www.latimes.com/lifestyle/story/2026-07-22/la-fans-share-their-best-world-cup-memories",
+          "id": "neutralnews-world-cup-2026-3",
+          "outletId": "neutralnews",
+          "outletName": "Neutral News",
+          "headline": "2026 World Cup Opens in North America With Ceremony in Mexico",
+          "url": "https://www.neutralnews.us/article/401",
           "biasScore": 5,
           "biasSignals": [
-            "human interest framing of fan memories",
-            "no political loading"
+            "neutral factual headline, no ideological signals",
+            "straightforward event announcement"
           ],
-          "biasScoreGrok": 4.5,
+          "biasScoreGrok": 5,
           "biasSignalsGrok": [
-            "world stopped LA",
-            "fans memories neutral"
+            "opens with ceremony",
+            "NeutralNews center"
           ],
-          "pubDate": "Wed, 22 Jul 2026 10:00:00 GMT",
+          "pubDate": "Wed, 22 Jul 2026 15:21:10 GMT",
           "clusterId": "world-cup-2026"
         },
         {
-          "id": "nbc-world-cup-2026-5",
-          "outletId": "nbc",
-          "outletName": "NBC News",
-          "headline": "Spain’s supremacy, Messi and Mbappé’s race for greatness, and a freak injury: World Cup quiz",
-          "url": "https://www.nbcnews.com/news/news-quiz/world-cup-news-quiz-rcna588404",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral sports quiz framing",
-            "no political content"
-          ],
-          "biasScoreGrok": 4.6,
-          "biasSignalsGrok": [
-            "Spain supremacy Messi",
-            "Mbappe quiz neutral"
-          ],
-          "pubDate": "2026-07-21T09:15:00Z",
-          "clusterId": "world-cup-2026"
-        },
-        {
-          "id": "huffpost-world-cup-2026-6",
-          "outletId": "huffpost",
-          "outletName": "HuffPost",
-          "headline": "FIFA Probes Argentina's Confrontation With Spain Players After World Cup Final",
-          "url": "https://www.huffpost.com/entry/world-cup-final-brawl-probe-fifa_n_6a5f28a7e4b0fb869f7be238",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral sports governance framing",
-            "no political loading"
-          ],
-          "biasScoreGrok": 4.3,
-          "biasSignalsGrok": [
-            "FIFA probes Argentina",
-            "confrontation Spain neutral"
-          ],
-          "pubDate": "2026-07-21T08:15:44Z",
-          "clusterId": "world-cup-2026"
-        },
-        {
-          "id": "neutralnews-world-cup-2026-7",
+          "id": "neutralnews-world-cup-2026-4",
           "outletId": "neutralnews",
           "outletName": "Neutral News",
           "headline": "Spain Wins Second World Cup, Defeating Argentina in Extra Time",
           "url": "https://www.neutralnews.us/article/391",
           "biasScore": 5,
           "biasSignals": [
-            "neutral factual result headline",
-            "no political framing"
-          ],
-          "biasScoreGrok": 5.1,
-          "biasSignalsGrok": [
-            "Spain wins second",
-            "defeating Argentina neutral"
-          ],
-          "pubDate": "Tue, 21 Jul 2026 16:34:08 GMT",
-          "clusterId": "world-cup-2026"
-        },
-        {
-          "id": "neutralnews-world-cup-2026-8",
-          "outletId": "neutralnews",
-          "outletName": "Neutral News",
-          "headline": "Spain Defeats Argentina in Extra Time to Win Second World Cup Title",
-          "url": "https://www.neutralnews.us/article/375",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral factual result headline",
-            "no political framing"
+            "factual result reporting, neutral language",
+            "no ideological framing in sports result"
           ],
           "biasScoreGrok": 5,
           "biasSignalsGrok": [
-            "Spain defeats Argentina",
-            "win second title"
+            "wins second neutral",
+            "NeutralNews factual"
           ],
-          "pubDate": "Mon, 20 Jul 2026 16:37:36 GMT",
+          "pubDate": "Tue, 21 Jul 2026 16:34:08 GMT",
           "clusterId": "world-cup-2026"
         }
       ]
     },
     {
-      "id": "uk-pm-burnham",
-      "topicLabel": "Andy Burnham becomes UK Prime Minister after Starmer",
+      "id": "hegseth-senate-testimony",
+      "topicLabel": "Defense Secretary Hegseth testifies before Senate on Iran war",
       "date": "2026-07-22",
       "articles": [
         {
-          "id": "bbc-uk-pm-burnham-0",
-          "outletId": "bbc",
-          "outletName": "BBC",
-          "headline": "Starmer ally takes swipe at Burnham's first big policy",
-          "url": "https://www.bbc.co.uk/news/articles/c62xzn3j1p2o",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "intra-Labour tension noted neutrally",
-            "'swipe' — slightly loaded verb"
-          ],
-          "biasScoreGrok": 4.2,
-          "biasSignalsGrok": [
-            "ally takes swipe",
-            "Burnham first policy"
-          ],
-          "pubDate": "2026-07-21T09:52:20.5295929Z",
-          "clusterId": "uk-pm-burnham"
-        },
-        {
-          "id": "nbc-uk-pm-burnham-1",
-          "outletId": "nbc",
-          "outletName": "NBC News",
-          "headline": "U.K.’s Burnham targets lower energy bills in first move as PM",
-          "url": "https://www.nbcnews.com/world/united-kingdom/uks-burnham-targets-lower-energy-bills-first-move-pm-rcna588496",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral 'targets lower energy bills' framing",
-            "policy presented without criticism"
-          ],
-          "biasScoreGrok": 4.4,
-          "biasSignalsGrok": [
-            "targets lower energy",
-            "bills first move"
-          ],
-          "pubDate": "2026-07-21T08:32:05Z",
-          "clusterId": "uk-pm-burnham"
-        },
-        {
-          "id": "vox-uk-pm-burnham-2",
-          "outletId": "vox",
-          "outletName": "Vox",
-          "headline": "“The King of the North” is Britain’s new PM",
-          "url": "https://www.vox.com/today-explained-newsletter/496207/andy-burnham-british-prime-minister",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "'King of the North' — neutral nickname context",
-            "no ideological loading"
-          ],
-          "biasScoreGrok": 3.5,
-          "biasSignalsGrok": [
-            "king of the north",
-            "Britain new PM"
-          ],
-          "pubDate": "2026-07-20T20:40:00.000Z",
-          "clusterId": "uk-pm-burnham"
-        },
-        {
-          "id": "neutralnews-uk-pm-burnham-3",
-          "outletId": "neutralnews",
-          "outletName": "Neutral News",
-          "headline": "Andy Burnham Becomes UK Prime Minister After Starmer Resigns",
-          "url": "https://www.neutralnews.us/article/392",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral factual headline on leadership change",
-            "no partisan framing"
-          ],
-          "biasScoreGrok": 5.2,
-          "biasSignalsGrok": [
-            "Burnham becomes PM",
-            "after Starmer resigns"
-          ],
-          "pubDate": "Tue, 21 Jul 2026 16:34:08 GMT",
-          "clusterId": "uk-pm-burnham"
-        },
-        {
-          "id": "telegraph-uk-pm-burnham-4",
-          "outletId": "telegraph",
-          "outletName": "The Telegraph",
-          "headline": "Burnham’s plan to restore UK aid spending",
-          "url": "https://www.telegraph.co.uk/global-health/climate-and-people/burnhams-plan-to-restore-uk-aid-spending/",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral framing of Burnham's aid policy",
-            "no ideological loading"
-          ],
-          "biasScoreGrok": 5.3,
-          "biasSignalsGrok": [
-            "Burnham plan restore",
-            "UK aid spending"
-          ],
-          "pubDate": "Mon, 20 Jul 2026 16:15:50 GMT",
-          "clusterId": "uk-pm-burnham"
-        }
-      ]
-    },
-    {
-      "id": "trump-media-broadcast-licenses",
-      "topicLabel": "Trump threatens media networks over broadcast licenses",
-      "date": "2026-07-22",
-      "articles": [
-        {
-          "id": "reason-trump-media-broadcast-licenses-1",
-          "outletId": "reason",
-          "outletName": "Reason",
-          "headline": "Trump's Threats To Yank Broadcast Licenses Are Part of a Speech-Chilling Intimidation Campaign",
-          "url": "https://reason.com/2026/07/22/trumps-threats-to-yank-broadcast-licenses-are-part-of-a-speech-chilling-intimidation-campaign/",
-          "biasScore": 3.5,
-          "biasSignals": [
-            "'Speech-Chilling Intimidation Campaign' — charged left framing",
-            "'threats' framing positions Trump as authoritarian"
-          ],
-          "biasScoreGrok": 2.2,
-          "biasSignalsGrok": [
-            "threats yank licenses",
-            "speech-chilling intimidation"
-          ],
-          "pubDate": "Wed, 22 Jul 2026 04:01:06 +0000",
-          "clusterId": "trump-media-broadcast-licenses"
-        },
-        {
-          "id": "foxnews-trump-media-broadcast-licenses-0",
-          "outletId": "foxnews",
-          "outletName": "Fox News",
-          "headline": "Top media networks put on notice after refusing to air Trump's primetime address: 'Serious concerns'",
-          "url": "https://www.foxnews.com/politics/top-media-networks-put-notice-after-refusing-air-trumps-primetime-address",
-          "biasScore": 7.5,
-          "biasSignals": [
-            "'put on notice' — assertive pro-Trump framing",
-            "'Serious concerns' validates Trump's threat"
-          ],
-          "biasScoreGrok": 7.9,
-          "biasSignalsGrok": [
-            "networks put on notice",
-            "serious concerns framing"
-          ],
-          "pubDate": "2026-07-21T08:07:27.0849884Z",
-          "clusterId": "trump-media-broadcast-licenses"
-        }
-      ]
-    },
-    {
-      "id": "houthis-red-sea",
-      "topicLabel": "Houthis threaten Red Sea shipping and oil routes",
-      "date": "2026-07-22",
-      "articles": [
-        {
-          "id": "nytimes-houthis-red-sea-0",
-          "outletId": "nytimes",
-          "outletName": "NY Times",
-          "headline": "See How Houthis Put the Red Sea at Risk as an Alternative Oil Route",
-          "url": "https://www.nytimes.com/2026/07/22/business/energy-environment/red-sea-saudi-arabia-houthis.html",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral 'put at risk' framing",
-            "data visualization emphasis without political loading"
-          ],
-          "biasScoreGrok": 3.8,
-          "biasSignalsGrok": [
-            "see how Houthis",
-            "put Red Sea risk"
-          ],
-          "pubDate": "Wed, 22 Jul 2026 09:02:31 +0000",
-          "clusterId": "houthis-red-sea"
-        },
-        {
-          "id": "ap-houthis-red-sea-1",
-          "outletId": "ap",
-          "outletName": "Associated Press",
-          "headline": "Yemen's Iranian-backed Houthi rebels say they will block Saudi shipping",
-          "url": "https://apnews.com/article/yemen-saudi-arabia-maritime-embargo-fd7c4a3911f7eee18251483fc8af768c",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral 'will block Saudi shipping' framing",
-            "'Iranian-backed' descriptor used factually"
-          ],
-          "biasScoreGrok": 4.1,
-          "biasSignalsGrok": [
-            "Iranian-backed Houthis",
-            "block Saudi shipping"
-          ],
-          "pubDate": "2026-07-20T12:21:22Z",
-          "clusterId": "houthis-red-sea"
-        },
-        {
-          "id": "independent-houthis-red-sea-2",
-          "outletId": "independent",
-          "outletName": "The Independent",
-          "headline": "Wreckage of doomed Pan Am flight found on ocean floor 74 years after crash",
-          "url": "https://www.independent.co.uk/travel/news-and-advice/pan-am-flight-526a-found-b3019234.html",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "Houthi framing of shipping threat neutral",
-            "no political loading on Iran proxy"
-          ],
-          "biasScoreGrok": 5,
-          "biasSignalsGrok": [
-            "wreckage Pan Am",
-            "found ocean floor"
-          ],
-          "pubDate": "Wed, 22 Jul 2026 11:43:35 GMT",
-          "clusterId": "houthis-red-sea"
-        }
-      ]
-    },
-    {
-      "id": "arizona-governor-biggs",
-      "topicLabel": "Andy Biggs wins Arizona GOP gubernatorial primary",
-      "date": "2026-07-22",
-      "articles": [
-        {
-          "id": "guardian-arizona-governor-biggs-1",
-          "outletId": "guardian",
-          "outletName": "The Guardian",
-          "headline": "Trump ally pledges to ‘work with people’ he disagrees with after Arizona primary win – US politics live",
-          "url": "https://www.theguardian.com/us-news/live/2026/jul/22/us-politics-trump-arizona-primary-andy-biggs-hegseth-mamdani-netanyahu-latest-news-updates",
-          "biasScore": 4,
-          "biasSignals": [
-            "'pledges to work with people' — positive framing",
-            "'Trump ally' noted without alarm"
-          ],
-          "biasScoreGrok": 3.7,
-          "biasSignalsGrok": [
-            "ally pledges work",
-            "disagrees primary win"
-          ],
-          "pubDate": "Wed, 22 Jul 2026 11:04:30 GMT",
-          "clusterId": "arizona-governor-biggs"
-        },
-        {
-          "id": "guardian-arizona-governor-biggs-2",
-          "outletId": "guardian",
-          "outletName": "The Guardian",
-          "headline": "Trump ally wins Republican primary for Arizona governor, setting up race against Katie Hobbs",
-          "url": "https://www.theguardian.com/us-news/2026/jul/22/arizona-republican-primary-andy-biggs-katie-hobbs",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral 'setting up race against Hobbs'",
-            "no partisan weighting"
-          ],
-          "biasScoreGrok": 3.5,
-          "biasSignalsGrok": [
-            "ally wins primary",
-            "race against Hobbs"
-          ],
-          "pubDate": "Wed, 22 Jul 2026 03:17:10 GMT",
-          "clusterId": "arizona-governor-biggs"
-        },
-        {
-          "id": "bostonglobe-arizona-governor-biggs-4",
-          "outletId": "bostonglobe",
-          "outletName": "Boston Globe",
-          "headline": "Andy Biggs wins Republican nomination to challenge Democrat Katie Hobbs for Arizona governor",
-          "url": "https://www.bostonglobe.com/2026/07/21/nation/arizona-primaries/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral 'Republican nomination' framing",
-            "no ideological loading"
-          ],
-          "biasScoreGrok": 4.8,
-          "biasSignalsGrok": [
-            "Biggs wins nomination",
-            "challenge Hobbs neutral"
-          ],
-          "pubDate": "Tue, 21 Jul 2026 04:12:27 +0000",
-          "clusterId": "arizona-governor-biggs"
-        },
-        {
-          "id": "aljazeera-arizona-governor-biggs-0",
-          "outletId": "aljazeera",
-          "outletName": "Al Jazeera",
-          "headline": "Trump ally Andy Biggs wins Republican nomination for Arizona governor",
-          "url": "https://www.aljazeera.com/news/2026/7/22/trump-ally-andy-biggs-wins-republican-nomination-for-arizona-governor?traffic_source=rss",
-          "biasScore": 5.5,
-          "biasSignals": [
-            "'Trump ally' — neutral descriptor",
-            "factual 'wins nomination' framing"
-          ],
-          "biasScoreGrok": 4,
-          "biasSignalsGrok": [
-            "Trump ally wins",
-            "Arizona governor nomination"
-          ],
-          "pubDate": "Wed, 22 Jul 2026 11:18:44 +0000",
-          "clusterId": "arizona-governor-biggs"
-        },
-        {
-          "id": "washexaminer-arizona-governor-biggs-3",
-          "outletId": "washexaminer",
-          "outletName": "Washington Examiner",
-          "headline": "Biggs wins Republican primary, will face Hobbs in Arizona governor race",
-          "url": "https://www.washingtonexaminer.com/news/campaigns/state/4656807/biggs-hobbs-republican-primary-arizona-governor-race/",
-          "biasScore": 5.5,
-          "biasSignals": [
-            "neutral factual headline",
-            "Hobbs named without editorial framing"
-          ],
-          "biasScoreGrok": 5.5,
-          "biasSignalsGrok": [
-            "Biggs wins primary",
-            "face Hobbs neutral"
-          ],
-          "pubDate": "Wed, 22 Jul 2026 03:07:56 +0000",
-          "clusterId": "arizona-governor-biggs"
-        }
-      ]
-    },
-    {
-      "id": "maine-democrat-senate",
-      "topicLabel": "Maine Democratic Senate primary and replacement",
-      "date": "2026-07-22",
-      "articles": [
-        {
-          "id": "thehill-maine-democrat-senate-1",
-          "outletId": "thehill",
-          "outletName": "The Hill",
-          "headline": "How Jackson became Democrats’ pick to take on Collins in Maine",
-          "url": "https://thehill.com/homenews/campaign/5979174-jackson-maine-democrats-senate-delegates/",
-          "biasScore": 4,
-          "biasSignals": [
-            "neutral 'how Jackson became pick' framing",
-            "Democrats' choice explained without cheerleading"
-          ],
-          "biasScoreGrok": 4.3,
-          "biasSignalsGrok": [
-            "Jackson Democrats pick",
-            "take on Collins"
-          ],
-          "pubDate": "2026-07-21T10:00:00Z",
-          "clusterId": "maine-democrat-senate"
-        },
-        {
-          "id": "theatlantic-maine-democrat-senate-2",
-          "outletId": "theatlantic",
-          "outletName": "The Atlantic",
-          "headline": "A Morning of Controlled Chaos in Maine",
-          "url": "https://www.theatlantic.com/politics/2026/07/maine-senate-troy-jackson-susan-collins/688007/?utm_source=feed",
-          "biasScore": 4,
-          "biasSignals": [
-            "'Controlled Chaos' — vivid but neutral descriptor",
-            "no partisan loading on primary coverage"
-          ],
-          "biasScoreGrok": 3.9,
-          "biasSignalsGrok": [
-            "morning controlled chaos",
-            "Maine framing"
-          ],
-          "pubDate": "Wed, 22 Jul 2026 06:00:00 -0400",
-          "clusterId": "maine-democrat-senate"
-        },
-        {
-          "id": "washpost-maine-democrat-senate-0",
-          "outletId": "washpost",
-          "outletName": "Washington Post",
-          "headline": "Democrat set to replace Platner in Maine led state Senate with a temper",
-          "url": "https://www.washingtonpost.com/politics/2026/07/20/democrat-set-replace-platner-maine-led-state-senate-with-temper/",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "'led state Senate with a temper' — slightly critical",
-            "neutral factual framing otherwise"
-          ],
-          "biasScoreGrok": 3.2,
-          "biasSignalsGrok": [
-            "led state Senate",
-            "with a temper"
-          ],
-          "pubDate": "2026-07-20T21:14:53Z",
-          "clusterId": "maine-democrat-senate"
-        },
-        {
-          "id": "neutralnews-maine-democrat-senate-3",
-          "outletId": "neutralnews",
-          "outletName": "Neutral News",
-          "headline": "Troy Jackson Emerges as Front-Runner in Maine's Democratic Senate Primary",
-          "url": "https://www.neutralnews.us/article/394",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral 'front-runner' framing",
-            "factual without partisan loading"
-          ],
-          "biasScoreGrok": 5.1,
-          "biasSignalsGrok": [
-            "Jackson emerges front",
-            "runner Maine primary"
-          ],
-          "pubDate": "Tue, 21 Jul 2026 16:34:08 GMT",
-          "clusterId": "maine-democrat-senate"
-        }
-      ]
-    },
-    {
-      "id": "dsa-socialist-politics",
-      "topicLabel": "Democratic Socialists of America political influence",
-      "date": "2026-07-22",
-      "articles": [
-        {
-          "id": "msnbc-dsa-socialist-politics-0",
+          "id": "msnbc-hegseth-senate-testimony-0",
           "outletId": "msnbc",
           "outletName": "MSNBC",
-          "headline": "A new poll shows why Democratic leaders should stop panicking over socialists",
-          "url": "https://www.ms.now/opinion/poll-democratic-socialists-midterms-maga-trump",
-          "biasScore": 2.5,
+          "headline": "After 10 straight nights of U.S-Iran strikes, Hegseth to testify before Senate",
+          "url": "https://www.ms.now/liveblog/pete-hegseth-iran-war-funding-live-updates",
+          "biasScore": 3.5,
           "biasSignals": [
-            "'stop panicking over socialists' — pro-DSA framing",
-            "poll used to legitimize socialist candidates"
+            "\"fiery hearing\" — charged dramatic framing",
+            "framing implies Hegseth under pressure/accountability"
           ],
-          "biasScoreGrok": 2.8,
+          "biasScoreGrok": 3.5,
           "biasSignalsGrok": [
-            "leaders stop panicking",
-            "over socialists"
+            "after strikes neutral",
+            "MSNBC left"
           ],
-          "pubDate": "2026-07-21T10:00:00Z",
-          "clusterId": "dsa-socialist-politics"
+          "pubDate": "2026-07-21T14:16:37Z",
+          "clusterId": "hegseth-senate-testimony"
         },
         {
-          "id": "vox-dsa-socialist-politics-4",
-          "outletId": "vox",
-          "outletName": "Vox",
-          "headline": "A crucial governor&#8217;s primary just became Democrats&#8217; biggest debacle",
-          "url": "https://www.vox.com/politics/496353/wisconsin-governor-chaos-hong-crowley-rodriguez-barnes",
-          "biasScore": 3,
-          "biasSignals": [
-            "'biggest debacle' — critical of Democrats losing to socialist",
-            "framing implies progressive overreach harmed party"
-          ],
-          "biasScoreGrok": 2.5,
-          "biasSignalsGrok": [
-            "governor primary debacle",
-            "Democrats biggest"
-          ],
-          "pubDate": "2026-07-22T10:45:00.000Z",
-          "clusterId": "dsa-socialist-politics"
-        },
-        {
-          "id": "theatlantic-dsa-socialist-politics-6",
-          "outletId": "theatlantic",
-          "outletName": "The Atlantic",
-          "headline": "The DSA Isn’t Wrong About Everything",
-          "url": "https://www.theatlantic.com/ideas/2026/07/senate-representation-undemocratic-imbalance/688012/?utm_source=feed",
-          "biasScore": 3,
-          "biasSignals": [
-            "'DSA Isn't Wrong About Everything' — sympathetic framing",
-            "implies DSA has legitimate policy positions"
-          ],
-          "biasScoreGrok": 3.3,
-          "biasSignalsGrok": [
-            "DSA isn’t wrong",
-            "about everything"
-          ],
-          "pubDate": "Wed, 22 Jul 2026 07:00:00 -0400",
-          "clusterId": "dsa-socialist-politics"
-        },
-        {
-          "id": "nationalreview-dsa-socialist-politics-3",
-          "outletId": "nationalreview",
-          "outletName": "National Review",
-          "headline": "Socialists vs. the Senate",
-          "url": "https://www.nationalreview.com/2026/07/socialists-vs-the-senate/",
-          "biasScore": 6.5,
-          "biasSignals": [
-            "'Socialists vs. the Senate' — adversarial framing",
-            "implies socialists threaten institutional order"
-          ],
-          "biasScoreGrok": 7.1,
-          "biasSignalsGrok": [
-            "socialists vs Senate",
-            "critical framing"
-          ],
-          "pubDate": "Tue, 21 Jul 2026 15:57:29 +0000",
-          "clusterId": "dsa-socialist-politics"
-        },
-        {
-          "id": "reason-dsa-socialist-politics-5",
-          "outletId": "reason",
-          "outletName": "Reason",
-          "headline": "Socialist Influencer Hasan Piker Is Praising Mao. Here's the Truth About Chinese Communism.",
-          "url": "https://reason.com/video/2026/07/21/socialist-influencer-hasan-piker-is-praising-mao-heres-the-truth-about-chinese-communism/",
-          "biasScore": 7,
-          "biasSignals": [
-            "Hasan Piker framed as praising Mao approvingly",
-            "'Here's the Truth' positions article as corrective"
-          ],
-          "biasScoreGrok": 7.4,
-          "biasSignalsGrok": [
-            "praising Mao truth",
-            "Chinese communism"
-          ],
-          "pubDate": "Tue, 21 Jul 2026 21:33:33 +0000",
-          "clusterId": "dsa-socialist-politics"
-        },
-        {
-          "id": "washexaminer-dsa-socialist-politics-2",
-          "outletId": "washexaminer",
-          "outletName": "Washington Examiner",
-          "headline": "DSA candidate interned at Hamas ‘greenhouse’ school infamous for terrorist recruitment",
-          "url": "https://www.washingtonexaminer.com/news/investigations/4655374/dsa-candidate-hamas-greenhouse-school-internship/",
-          "biasScore": 8.5,
-          "biasSignals": [
-            "'Hamas greenhouse school infamous for terrorist recruitment'",
-            "DSA candidate linked to terrorism via association"
-          ],
-          "biasScoreGrok": 8.7,
-          "biasSignalsGrok": [
-            "DSA interned Hamas",
-            "terrorist recruitment school"
-          ],
-          "pubDate": "Wed, 22 Jul 2026 11:00:00 +0000",
-          "clusterId": "dsa-socialist-politics"
-        },
-        {
-          "id": "breitbart-dsa-socialist-politics-1",
-          "outletId": "breitbart",
-          "outletName": "Breitbart",
-          "headline": "WATCH: DSA-Backed Candidates Mourn Iran Losing Power to Fund Hezbollah, Hamas",
-          "url": "https://www.breitbart.com/politics/2026/07/21/watch-dsa-backed-candidates-iran-losing-power-fund-hamas-hezbollah/",
-          "biasScore": 9,
-          "biasSignals": [
-            "'Mourn Iran Losing Power to Fund Hezbollah' — accusatory framing",
-            "DSA candidates framed as terrorist sympathizers"
-          ],
-          "biasScoreGrok": 8.3,
-          "biasSignalsGrok": [
-            "DSA mourn Iran",
-            "losing Hezbollah Hamas"
-          ],
-          "pubDate": "Wed, 22 Jul 2026 01:13:36 +0000",
-          "clusterId": "dsa-socialist-politics"
-        }
-      ]
-    },
-    {
-      "id": "cyclosporiasis-outbreak",
-      "topicLabel": "Cyclosporiasis outbreak and federal health response",
-      "date": "2026-07-22",
-      "articles": [
-        {
-          "id": "thehill-cyclosporiasis-outbreak-1",
-          "outletId": "thehill",
-          "outletName": "The Hill",
-          "headline": "Trump health staffing, funding cuts slow cyclospora response",
-          "url": "https://thehill.com/policy/healthcare/5979279-cyclospora-cases-rise-cdc-cuts/",
-          "biasScore": 3,
-          "biasSignals": [
-            "'Trump health cuts slow response' — causal blame framing",
-            "implies administration worsened outbreak response"
-          ],
-          "biasScoreGrok": 2.9,
-          "biasSignalsGrok": [
-            "Trump staffing cuts",
-            "slow cyclospora response"
-          ],
-          "pubDate": "2026-07-21T10:00:00Z",
-          "clusterId": "cyclosporiasis-outbreak"
-        },
-        {
-          "id": "washpost-cyclosporiasis-outbreak-0",
-          "outletId": "washpost",
-          "outletName": "Washington Post",
-          "headline": "Can I eat lettuce now? What to know about the cyclosporiasis outbreak.",
-          "url": "https://www.washingtonpost.com/health/2026/07/21/can-i-eat-lettuce-now-what-know-about-cyclosporiasis-outbreak/",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral consumer health framing",
-            "no political attribution of outbreak"
-          ],
-          "biasScoreGrok": 4.9,
-          "biasSignalsGrok": [
-            "can I eat",
-            "cyclosporiasis outbreak"
-          ],
-          "pubDate": "2026-07-21T09:00:00Z",
-          "clusterId": "cyclosporiasis-outbreak"
-        },
-        {
-          "id": "abc-cyclosporiasis-outbreak-2",
-          "outletId": "abc",
-          "outletName": "ABC News",
-          "headline": "Federal health officials have investigated 5 different clusters of cyclosporiasis cases, FDA says",
-          "url": "https://abcnews.com/Health/federal-health-officials-investigated-5-clusters-cyclosporiasis-cases/story?id=134913883",
-          "biasScore": 4.5,
-          "biasSignals": [
-            "neutral 'FDA says' attribution",
-            "factual cluster count without political loading"
-          ],
-          "biasScoreGrok": 4.7,
-          "biasSignalsGrok": [
-            "investigated clusters",
-            "FDA says neutral"
-          ],
-          "pubDate": "2026-07-20T20:09:32Z",
-          "clusterId": "cyclosporiasis-outbreak"
-        }
-      ]
-    },
-    {
-      "id": "rfk-medicaid-freeze",
-      "topicLabel": "RFK Jr. freezes Medicaid funds over fraud concerns",
-      "date": "2026-07-22",
-      "articles": [
-        {
-          "id": "npr-rfk-medicaid-freeze-0",
-          "outletId": "npr",
-          "outletName": "NPR",
-          "headline": "States want to bring Medicaid behind bars. Federal changes make that harder",
-          "url": "https://www.npr.org/2026/07/22/nx-s1-5896456/medicaid-cuts-incarceration-states-obbba",
-          "biasScore": 4,
-          "biasSignals": [
-            "'federal changes make that harder' — implies obstruction",
-            "neutral framing of state Medicaid efforts"
-          ],
-          "biasScoreGrok": 3.6,
-          "biasSignalsGrok": [
-            "states want Medicaid",
-            "behind bars harder"
-          ],
-          "pubDate": "Wed, 22 Jul 2026 05:00:00 -0400",
-          "clusterId": "rfk-medicaid-freeze"
-        },
-        {
-          "id": "breitbart-rfk-medicaid-freeze-1",
-          "outletId": "breitbart",
-          "outletName": "Breitbart",
-          "headline": "RFK Jr. Freezes $1B in Medicaid to California, Minnesota over Fraud Fears",
-          "url": "https://www.breitbart.com/politics/2026/07/21/rfk-jr-freezes-1b-in-medicaid-to-california-minnesota-over-fraud-fears/",
-          "biasScore": 7,
-          "biasSignals": [
-            "'Fraud Fears' frames freeze as justified",
-            "RFK action presented sympathetically"
-          ],
-          "biasScoreGrok": 7.5,
-          "biasSignalsGrok": [
-            "RFK freezes Medicaid",
-            "California fraud fears"
-          ],
-          "pubDate": "Wed, 22 Jul 2026 00:35:06 +0000",
-          "clusterId": "rfk-medicaid-freeze"
-        }
-      ]
-    },
-    {
-      "id": "pete-hegseth-dod",
-      "topicLabel": "Defense Secretary Hegseth Senate testimony and policies",
-      "date": "2026-07-22",
-      "articles": [
-        {
-          "id": "theatlantic-pete-hegseth-dod-3",
-          "outletId": "theatlantic",
-          "outletName": "The Atlantic",
-          "headline": "Pete Hegseth’s Reckless Message to Helicopter Pilots",
-          "url": "https://www.theatlantic.com/international/2026/07/hegseth-reckless-military-helicopter/688008/?utm_source=feed",
-          "biasScore": 3,
-          "biasSignals": [
-            "'Reckless Message' — charged against Hegseth",
-            "framing endangers pilots implicitly"
-          ],
-          "biasScoreGrok": 2.1,
-          "biasSignalsGrok": [
-            "reckless message pilots",
-            "Hegseth critical"
-          ],
-          "pubDate": "Tue, 21 Jul 2026 10:09:47 -0400",
-          "clusterId": "pete-hegseth-dod"
-        },
-        {
-          "id": "npr-pete-hegseth-dod-1",
+          "id": "npr-hegseth-senate-testimony-2",
           "outletId": "npr",
           "outletName": "NPR",
           "headline": "Sen. Patty Murray, D-Wash., on Defense Secretary Pete Hegseth's Senate testimony",
           "url": "https://www.npr.org/2026/07/22/nx-s1-5902047/sen-patty-murray-d-wash-on-defense-secretary-pete-hegseths-senate-testimony",
-          "biasScore": 3.5,
+          "biasScore": 4,
           "biasSignals": [
-            "Democrat senator's perspective leads",
-            "implies skepticism of Hegseth"
+            "Democrat senator perspective given prominence",
+            "neutral factual framing of senator reaction"
+          ],
+          "biasScoreGrok": 4.5,
+          "biasSignalsGrok": [
+            "on testimony neutral",
+            "NPR center"
+          ],
+          "pubDate": "Wed, 22 Jul 2026 06:43:28 -0400",
+          "clusterId": "hegseth-senate-testimony"
+        },
+        {
+          "id": "theatlantic-hegseth-senate-testimony-4",
+          "outletId": "theatlantic",
+          "outletName": "The Atlantic",
+          "headline": "The <em>Top Gun: Maverick</em> Theory of Pete Hegseth",
+          "url": "https://www.theatlantic.com/national-security/2026/07/top-gun-hegseth-pentagon-leadership/687997/?utm_source=feed",
+          "biasScore": 4,
+          "biasSignals": [
+            "Top Gun movie reference frames Hegseth analytically",
+            "Atlantic takes cultural-analytical rather than partisan angle"
           ],
           "biasScoreGrok": 4,
           "biasSignalsGrok": [
-            "Murray on Hegseth",
-            "Senate testimony neutral"
+            "Top Gun theory framing",
+            "Atlantic left"
           ],
-          "pubDate": "Wed, 22 Jul 2026 06:43:28 -0400",
-          "clusterId": "pete-hegseth-dod"
+          "pubDate": "Wed, 22 Jul 2026 12:00:00 -0400",
+          "clusterId": "hegseth-senate-testimony"
         },
         {
-          "id": "npr-pete-hegseth-dod-0",
+          "id": "npr-hegseth-senate-testimony-1",
           "outletId": "npr",
           "outletName": "NPR",
           "headline": "Defense Secretary Pete Hegseth defends Iran war funding request at fiery hearing",
           "url": "https://www.npr.org/2026/07/22/nx-s1-5901981/defense-secretary-pete-hegseth-defends-iran-war-funding-request-at-fiery-hearing",
-          "biasScore": 5.5,
+          "biasScore": 4.5,
           "biasSignals": [
-            "'fiery hearing' — neutral but tension-signaling",
-            "no explicit bias in framing Hegseth"
+            "\"defends\" implies Hegseth on defensive",
+            "\"fiery hearing\" adds drama, slightly left-leaning"
           ],
-          "biasScoreGrok": 3.2,
+          "biasScoreGrok": 4,
           "biasSignalsGrok": [
-            "defends funding fiery",
-            "hearing critical"
+            "fiery hearing loaded",
+            "NPR slight left"
           ],
           "pubDate": "Wed, 22 Jul 2026 06:43:36 -0400",
-          "clusterId": "pete-hegseth-dod"
+          "clusterId": "hegseth-senate-testimony"
         },
         {
-          "id": "economist-pete-hegseth-dod-2",
+          "id": "economist-hegseth-senate-testimony-3",
           "outletId": "economist",
           "outletName": "The Economist",
           "headline": "Pete Hegseth’s testosterone-screening plan is unusual, not crazy",
           "url": "https://www.economist.com/united-states/2026/07/17/pete-hegseths-testosterone-screening-plan-is-unusual-not-crazy",
           "biasScore": 6,
           "biasSignals": [
-            "'unusual, not crazy' — defends Hegseth's policy",
-            "testosterone screening framed as reasonable"
+            "\"unusual, not crazy\" — mild defense of Hegseth policy",
+            "Economist framing validates Hegseth's testosterone screening"
           ],
-          "biasScoreGrok": 5.6,
+          "biasScoreGrok": 5.5,
           "biasSignalsGrok": [
-            "testosterone plan unusual",
-            "not crazy framing"
+            "unusual not crazy",
+            "Economist balanced"
           ],
           "pubDate": "Fri, 17 Jul 2026 13:36:24 +0000",
-          "clusterId": "pete-hegseth-dod"
+          "clusterId": "hegseth-senate-testimony"
         }
       ]
     },
     {
-      "id": "tropical-storm-bertha",
-      "topicLabel": "Tropical Storm Bertha approaches US Gulf Coast",
+      "id": "red-sea-houthi-attacks",
+      "topicLabel": "Houthi attacks threaten Red Sea shipping routes",
       "date": "2026-07-22",
       "articles": [
         {
-          "id": "nypost-tropical-storm-bertha-0",
-          "outletId": "nypost",
-          "outletName": "NY Post",
-          "headline": "Beaches closed as Tropical Storm Bertha approaches Gulf Coast",
-          "url": "https://nypost.com/2026/07/22/us-news/beaches-closed-and-sandbags-filled-as-tropical-storm-bertha-approaches-the-gulf-coast/",
+          "id": "washpost-red-sea-houthi-attacks-2",
+          "outletId": "washpost",
+          "outletName": "Washington Post",
+          "headline": "A Red Sea blockade threatens a new front in U.S.-Iran war",
+          "url": "https://www.washingtonpost.com/world/2026/07/21/red-sea-blockade-threatens-new-front-us-iran-war/",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "\"threatens\" — neutral warning language",
+            "balanced framing of Red Sea conflict consequences"
+          ],
+          "biasScoreGrok": 3.2,
+          "biasSignalsGrok": [
+            "threatens new front",
+            "WaPo left"
+          ],
+          "pubDate": "2026-07-21T09:41:29Z",
+          "clusterId": "red-sea-houthi-attacks"
+        },
+        {
+          "id": "nytimes-red-sea-houthi-attacks-0",
+          "outletId": "nytimes",
+          "outletName": "NY Times",
+          "headline": "See How Houthis Put the Red Sea at Risk as an Alternative Oil Route",
+          "url": "https://www.nytimes.com/2026/07/22/business/energy-environment/red-sea-saudi-arabia-houthis.html",
+          "biasScore": 4.8,
+          "biasSignals": [
+            "neutral geographic/economic framing of oil route threat",
+            "visual explainer format implies analytical neutrality"
+          ],
+          "biasScoreGrok": 4,
+          "biasSignalsGrok": [
+            "put Red Sea at risk",
+            "NYTimes left-center"
+          ],
+          "pubDate": "Wed, 22 Jul 2026 12:17:51 +0000",
+          "clusterId": "red-sea-houthi-attacks"
+        },
+        {
+          "id": "cnbc-red-sea-houthi-attacks-1",
+          "outletId": "cnbc",
+          "outletName": "CNBC",
+          "headline": "Houthis deploy missiles and drones to attack ships in southern Red Sea, naval group says",
+          "url": "https://www.cnbc.com/2026/07/22/houthis-red-sea-bab-el-mandeb-saudi-oil-iran.html",
           "biasScore": 5,
           "biasSignals": [
-            "neutral factual weather headline",
-            "no political loading"
+            "factual military report from naval group source",
+            "neutral verb choice \"deploy\" and \"attack\""
           ],
           "biasScoreGrok": 5,
           "biasSignalsGrok": [
-            "beaches closed Bertha",
-            "Gulf Coast neutral"
+            "deploy missiles neutral",
+            "CNBC factual"
           ],
-          "pubDate": "Wed, 22 Jul 2026 01:31:12 -0700",
-          "clusterId": "tropical-storm-bertha"
-        },
-        {
-          "id": "bostonglobe-tropical-storm-bertha-1",
-          "outletId": "bostonglobe",
-          "outletName": "Boston Globe",
-          "headline": "Beaches closed and sandbags filled as Tropical Storm Bertha approaches the Gulf Coast",
-          "url": "https://www.bostonglobe.com/2026/07/22/nation/tropical-storm-bertha/?rss_id=section_rss_full&s_campaign=bg:full:rss:section",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral factual weather and response headline",
-            "no political framing"
-          ],
-          "biasScoreGrok": 4.8,
-          "biasSignalsGrok": [
-            "beaches closed sandbags",
-            "Bertha approaches"
-          ],
-          "pubDate": "Wed, 22 Jul 2026 07:22:34 +0000",
-          "clusterId": "tropical-storm-bertha"
-        },
-        {
-          "id": "skynews-tropical-storm-bertha-2",
-          "outletId": "skynews",
-          "outletName": "Sky News",
-          "headline": "Tropical Storm Bertha, with winds of 60mph, due to make landfall in US",
-          "url": "https://news.sky.com/story/tropical-storm-bertha-with-winds-of-60mph-due-to-make-landfall-in-louisiana-13565903",
-          "biasScore": 5,
-          "biasSignals": [
-            "neutral factual wind speed reporting",
-            "no political loading"
-          ],
-          "biasScoreGrok": 4.9,
-          "biasSignalsGrok": [
-            "Bertha 60mph landfall",
-            "US neutral"
-          ],
-          "pubDate": "Wed, 22 Jul 2026 11:11:00 +0100",
-          "clusterId": "tropical-storm-bertha"
+          "pubDate": "Wed, 22 Jul 2026 14:58:36 GMT",
+          "clusterId": "red-sea-houthi-attacks"
         }
       ]
     },
     {
-      "id": "ai-chip-deepseek",
-      "topicLabel": "Chinese AI models challenge US tech dominance",
+      "id": "trump-canada-tariff-canada-response",
+      "topicLabel": "Lebanon president meets Trump amid Iran conflict",
       "date": "2026-07-22",
       "articles": [
         {
-          "id": "latimes-ai-chip-deepseek-4",
-          "outletId": "latimes",
-          "outletName": "LA Times",
-          "headline": "They built AI. Now Silicon Valley workers protest its threat to jobs and humanity",
-          "url": "https://www.latimes.com/business/story/2026-07-22/they-built-ai-now-silicon-valley-workers-protest-its-threat-to-jobs-humanity",
+          "id": "msnbc-trump-canada-tariff-canada-response-0",
+          "outletId": "msnbc",
+          "outletName": "MSNBC",
+          "headline": "Lebanon’s president asks Trump to do what he rarely does: cross Netanyahu",
+          "url": "https://www.ms.now/news/lebanon-trump-israel-iran",
+          "biasScore": 3.2,
+          "biasSignals": [
+            "\"cross Netanyahu\" — framing Trump as deferring to Israel",
+            "MSNBC framing implies Trump controlled by Netanyahu"
+          ],
+          "biasScoreGrok": 3,
+          "biasSignalsGrok": [
+            "asks cross Netanyahu",
+            "MSNBC left"
+          ],
+          "pubDate": "2026-07-21T09:00:00Z",
+          "clusterId": "trump-canada-tariff-canada-response"
+        },
+        {
+          "id": "thehill-trump-canada-tariff-canada-response-1",
+          "outletId": "thehill",
+          "outletName": "The Hill",
+          "headline": "Live updates: Trump hosts Lebanese president amid Iran conflict escalation",
+          "url": "https://thehill.com/homenews/administration/5979578-live-updates-trump-iran-hegseth-caine/",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral live-update framing",
+            "\"amid Iran conflict escalation\" — factual contextual language"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "live updates neutral",
+            "TheHill center"
+          ],
+          "pubDate": "2026-07-21T13:09:38Z",
+          "clusterId": "trump-canada-tariff-canada-response"
+        },
+        {
+          "id": "ap-trump-canada-tariff-canada-response-2",
+          "outletId": "ap",
+          "outletName": "Associated Press",
+          "headline": "Lebanon's president meets with Trump at White House",
+          "url": "https://apnews.com/article/lebanon-president-hezbollah-trump-aoun-israel-e0364d0334c2f4d888d2b3970c9fe5b1",
+          "biasScore": 4.8,
+          "biasSignals": [
+            "neutral AP factual reporting of diplomatic meeting",
+            "no ideological loading detected"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "meets with Trump",
+            "AP neutral"
+          ],
+          "pubDate": "2026-07-21T04:59:56Z",
+          "clusterId": "trump-canada-tariff-canada-response"
+        }
+      ]
+    },
+    {
+      "id": "israel-gaza-barrier",
+      "topicLabel": "Israel builds earthen barrier and walls inside Gaza",
+      "date": "2026-07-22",
+      "articles": [
+        {
+          "id": "aljazeera-israel-gaza-barrier-0",
+          "outletId": "aljazeera",
+          "outletName": "Al Jazeera",
+          "headline": "From towns to zones: Why Israel gives military names to civilian areas",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/22/from-towns-to-zones-why-israel-gives-military-names-to-civilian-areas?traffic_source=rss",
+          "biasScore": 2.5,
+          "biasSignals": [
+            "\"military names to civilian areas\" — critical of Israeli framing",
+            "Al Jazeera centers Palestinian civilian harm perspective"
+          ],
+          "biasScoreGrok": 2.5,
+          "biasSignalsGrok": [
+            "military names to civilian",
+            "AlJazeera far left"
+          ],
+          "pubDate": "Wed, 22 Jul 2026 15:36:51 +0000",
+          "clusterId": "israel-gaza-barrier"
+        },
+        {
+          "id": "newsweek-israel-gaza-barrier-1",
+          "outletId": "newsweek",
+          "outletName": "Newsweek",
+          "headline": "Gaza Wall Imagery Shows Israel Has &#039;Zero Intention of Withdrawal&#039;: Analyst",
+          "url": "https://www.newsweek.com/gaza-wall-imagery-shows-israel-has-zero-intention-of-withdrawal-analyst-12228667",
+          "biasScore": 2.8,
+          "biasSignals": [
+            "\"zero intention of withdrawal\" — analyst quoted critically",
+            "framing centers Israeli expansionist narrative"
+          ],
+          "biasScoreGrok": 3.5,
+          "biasSignalsGrok": [
+            "zero intention loaded",
+            "Newsweek left"
+          ],
+          "pubDate": "Wed, 22 Jul 2026 11:58:31 -0400",
+          "clusterId": "israel-gaza-barrier"
+        },
+        {
+          "id": "ap-israel-gaza-barrier-2",
+          "outletId": "ap",
+          "outletName": "Associated Press",
+          "headline": "Israeli military builds massive earthen barrier inside Gaza",
+          "url": "https://apnews.com/article/israel-gaza-yellow-line-barrier-ceasefire-941ed80f6d4398ce88916f6b08753dd8",
+          "biasScore": 4.8,
+          "biasSignals": [
+            "\"massive earthen barrier\" — factual neutral description",
+            "AP neutral factual framing of military construction"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "builds massive barrier",
+            "AP neutral"
+          ],
+          "pubDate": "2026-07-21T05:03:14Z",
+          "clusterId": "israel-gaza-barrier"
+        },
+        {
+          "id": "neutralnews-israel-gaza-barrier-3",
+          "outletId": "neutralnews",
+          "outletName": "Neutral News",
+          "headline": "Lebanese Army Deploys to 'Pilot Zone' as Israel Builds Earthen Barrier Inside Gaza",
+          "url": "https://www.neutralnews.us/article/404",
+          "biasScore": 4.8,
+          "biasSignals": [
+            "neutral framing combining Lebanon and Gaza stories",
+            "factual military terminology used"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "builds earthen neutral",
+            "NeutralNews center"
+          ],
+          "pubDate": "Wed, 22 Jul 2026 15:21:10 GMT",
+          "clusterId": "israel-gaza-barrier"
+        }
+      ]
+    },
+    {
+      "id": "democratic-socialists-senate",
+      "topicLabel": "Democratic Socialists gaining influence, Senate debate",
+      "date": "2026-07-22",
+      "articles": [
+        {
+          "id": "msnbc-democratic-socialists-senate-0",
+          "outletId": "msnbc",
+          "outletName": "MSNBC",
+          "headline": "A new poll shows why Democratic leaders should stop panicking over socialists",
+          "url": "https://www.ms.now/opinion/poll-democratic-socialists-midterms-maga-trump",
+          "biasScore": 2.5,
+          "biasSignals": [
+            "\"should stop panicking\" — coaching Democratic leaders leftward",
+            "poll framing supports socialist electoral viability"
+          ],
+          "biasScoreGrok": 2,
+          "biasSignalsGrok": [
+            "stop panicking over",
+            "MSNBC far left"
+          ],
+          "pubDate": "2026-07-21T10:00:00Z",
+          "clusterId": "democratic-socialists-senate"
+        },
+        {
+          "id": "theatlantic-democratic-socialists-senate-4",
+          "outletId": "theatlantic",
+          "outletName": "The Atlantic",
+          "headline": "Abolishing the Senate Might Be the DSA’s Best Idea",
+          "url": "https://www.theatlantic.com/ideas/2026/07/senate-representation-undemocratic-imbalance/688012/?utm_source=feed",
           "biasScore": 3,
           "biasSignals": [
-            "'protest its threat to jobs and humanity' — worker-sympathetic framing",
-            "AI framed as existential threat by workers"
+            "\"Best Idea\" — sympathetic framing of DSA proposal",
+            "Atlantic framing validates socialist policy idea"
           ],
-          "biasScoreGrok": 2.7,
+          "biasScoreGrok": 3,
           "biasSignalsGrok": [
-            "workers protest threat",
-            "jobs humanity framing"
+            "might be best idea",
+            "Atlantic left"
           ],
-          "pubDate": "Wed, 22 Jul 2026 10:01:00 GMT",
-          "clusterId": "ai-chip-deepseek"
+          "pubDate": "Wed, 22 Jul 2026 07:00:00 -0400",
+          "clusterId": "democratic-socialists-senate"
         },
         {
-          "id": "cnbc-ai-chip-deepseek-0",
+          "id": "axios-democratic-socialists-senate-2",
+          "outletId": "axios",
+          "outletName": "Axios",
+          "headline": "Senate rabble-rousers are gaining power",
+          "url": "https://www.axios.com/2026/07/22/senate-lindsey-graham-committtee-assignments",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral analytical framing of Senate dynamics",
+            "\"gaining power\" — factual, non-loaded verb"
+          ],
+          "biasScoreGrok": 4.5,
+          "biasSignalsGrok": [
+            "rabble-rousers gaining",
+            "Axios center"
+          ],
+          "pubDate": "Wed, 22 Jul 2026 00:03:38 +0000",
+          "clusterId": "democratic-socialists-senate"
+        },
+        {
+          "id": "neutralnews-democratic-socialists-senate-5",
+          "outletId": "neutralnews",
+          "outletName": "Neutral News",
+          "headline": "Democratic Socialists Draw National Debate Over Their Influence",
+          "url": "https://www.neutralnews.us/article/397",
+          "biasScore": 4.8,
+          "biasSignals": [
+            "neutral framing of national debate",
+            "\"draw national debate\" — balanced language"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "draw national debate",
+            "NeutralNews center"
+          ],
+          "pubDate": "Wed, 22 Jul 2026 15:21:10 GMT",
+          "clusterId": "democratic-socialists-senate"
+        },
+        {
+          "id": "nationalreview-democratic-socialists-senate-3",
+          "outletId": "nationalreview",
+          "outletName": "National Review",
+          "headline": "Socialists vs. the Senate",
+          "url": "https://www.nationalreview.com/2026/07/socialists-vs-the-senate/",
+          "biasScore": 6.5,
+          "biasSignals": [
+            "\"socialists vs. the Senate\" — framing socialists as outsiders",
+            "National Review conservative framing of DSA as threat"
+          ],
+          "biasScoreGrok": 6.5,
+          "biasSignalsGrok": [
+            "socialists vs Senate",
+            "NationalReview right"
+          ],
+          "pubDate": "Tue, 21 Jul 2026 15:57:29 +0000",
+          "clusterId": "democratic-socialists-senate"
+        },
+        {
+          "id": "washexaminer-democratic-socialists-senate-1",
+          "outletId": "washexaminer",
+          "outletName": "Washington Examiner",
+          "headline": "Socialists’ hypocrisy ‘so thick and so pure you could snort it’: Joe Concha",
+          "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4658438/socialist-hypocrisy-joe-concha-michigan-senate-race-dsa/",
+          "biasScore": 8,
+          "biasSignals": [
+            "\"hypocrisy so thick you could snort it\" — extreme charged language",
+            "Washington Examiner opinion piece attacks socialists harshly"
+          ],
+          "biasScoreGrok": 7.5,
+          "biasSignalsGrok": [
+            "hypocrisy so thick",
+            "WashExaminer far right"
+          ],
+          "pubDate": "Wed, 22 Jul 2026 14:22:43 +0000",
+          "clusterId": "democratic-socialists-senate"
+        }
+      ]
+    },
+    {
+      "id": "biden-ghostwriter-recordings",
+      "topicLabel": "Court orders release of Biden ghostwriter recordings",
+      "date": "2026-07-22",
+      "articles": [
+        {
+          "id": "msnbc-biden-ghostwriter-recordings-0",
+          "outletId": "msnbc",
+          "outletName": "MSNBC",
+          "headline": "Appeals court rejects Biden’s bid to block release of recordings with ghostwriter",
+          "url": "https://www.ms.now/news/appeals-court-rejects-biden-ghostwriter-recordings",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral legal outcome framing",
+            "\"rejects Biden's bid\" — factual court decision language"
+          ],
+          "biasScoreGrok": 3.5,
+          "biasSignalsGrok": [
+            "rejects Biden bid",
+            "MSNBC left"
+          ],
+          "pubDate": "2026-07-21T12:18:49Z",
+          "clusterId": "biden-ghostwriter-recordings"
+        },
+        {
+          "id": "ap-biden-ghostwriter-recordings-1",
+          "outletId": "ap",
+          "outletName": "Associated Press",
+          "headline": "Biden loses bid to block release of ghostwriter interview recordings",
+          "url": "https://apnews.com/article/biden-special-counsel-heritage-foundation-ghostwriter-301b4f2f142dc3490e5d307761210786",
+          "biasScore": 4.8,
+          "biasSignals": [
+            "AP neutral factual legal reporting",
+            "\"loses bid\" — neutral verb choice for Biden"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "loses bid neutral",
+            "AP center"
+          ],
+          "pubDate": "2026-07-21T12:12:08Z",
+          "clusterId": "biden-ghostwriter-recordings"
+        }
+      ]
+    },
+    {
+      "id": "ai-models-openai-deepseek",
+      "topicLabel": "Chinese AI models, OpenAI incidents draw Silicon Valley attention",
+      "date": "2026-07-22",
+      "articles": [
+        {
+          "id": "forbes-ai-models-openai-deepseek-1",
+          "outletId": "forbes",
+          "outletName": "Forbes",
+          "headline": "Did China's AI Save Hugging Face From Disaster After Open AI Hack?",
+          "url": "https://www.forbes.com/sites/maryroeloffs/2026/07/22/did-chinas-ai-save-hugging-face-from-disaster-after-open-ai-hack/",
+          "biasScore": 4.5,
+          "biasSignals": [
+            "neutral framing of Chinese AI competitive position",
+            "question-format headline implies balanced inquiry"
+          ],
+          "biasScoreGrok": 5.5,
+          "biasSignalsGrok": [
+            "save from disaster",
+            "Forbes center"
+          ],
+          "pubDate": "Wed, 22 Jul 2026 11:29:47 -0400",
+          "clusterId": "ai-models-openai-deepseek"
+        },
+        {
+          "id": "cnbc-ai-models-openai-deepseek-0",
           "outletId": "cnbc",
           "outletName": "CNBC",
-          "headline": "Trump's push for American-made AI chips hits TSMC's margins",
-          "url": "https://www.cnbc.com/2026/07/22/trump-pressure-ai-chips-us-tsmc-margins.html",
-          "biasScore": 5,
+          "headline": "OpenAI cyber models broke out of training environment to hack Hugging Face",
+          "url": "https://www.cnbc.com/2026/07/22/open-ai-cyber-models-hack-hugging-face.html",
+          "biasScore": 4.8,
           "biasSignals": [
-            "neutral 'hits TSMC's margins' framing",
-            "trade policy impact stated factually"
+            "neutral technical reporting of AI security incident",
+            "factual \"broke out\" describing AI behavior"
           ],
-          "biasScoreGrok": 5.3,
+          "biasScoreGrok": 5,
           "biasSignalsGrok": [
-            "Trump AI chips",
-            "hits TSMC margins"
+            "broke out neutral",
+            "CNBC factual"
           ],
-          "pubDate": "Wed, 22 Jul 2026 05:00:01 GMT",
-          "clusterId": "ai-chip-deepseek"
+          "pubDate": "Wed, 22 Jul 2026 15:54:48 GMT",
+          "clusterId": "ai-models-openai-deepseek"
         },
         {
-          "id": "wsj-ai-chip-deepseek-1",
+          "id": "skynews-ai-models-openai-deepseek-5",
+          "outletId": "skynews",
+          "outletName": "Sky News",
+          "headline": "Powerful AI model goes rogue in 'unprecedented' incident",
+          "url": "https://news.sky.com/story/openai-admits-its-models-hacked-another-company-in-unprecedented-cyber-incident-13565814",
+          "biasScore": 4.8,
+          "biasSignals": [
+            "\"goes rogue\" — dramatic but neutral tech framing",
+            "\"unprecedented\" — neutral superlative, factual claim"
+          ],
+          "biasScoreGrok": 5,
+          "biasSignalsGrok": [
+            "goes rogue neutral",
+            "SkyNews factual"
+          ],
+          "pubDate": "Tue, 21 Jul 2026 22:42:00 +0100",
+          "clusterId": "ai-models-openai-deepseek"
+        },
+        {
+          "id": "wsj-ai-models-openai-deepseek-2",
           "outletId": "wsj",
           "outletName": "Wall Street Journal",
           "headline": "What to Know About China's DeepSeek AI",
           "url": "https://www.wsj.com/articles/deepseek-ai-china-tech-stocks-explained-ee6cc80e?mod=rss_Technology",
           "biasScore": 5,
           "biasSignals": [
-            "neutral explainer framing",
-            "no ideological loading on Chinese AI"
+            "neutral explainer framing, \"what to know\"",
+            "no ideological signals in AI coverage"
           ],
-          "biasScoreGrok": 4.6,
+          "biasScoreGrok": 5,
           "biasSignalsGrok": [
-            "what to know",
-            "China DeepSeek neutral"
+            "what to know neutral",
+            "WSJ center"
           ],
           "pubDate": "Mon, 27 Jan 2025 13:17:00 -0500",
-          "clusterId": "ai-chip-deepseek"
+          "clusterId": "ai-models-openai-deepseek"
         },
         {
-          "id": "wsj-ai-chip-deepseek-2",
+          "id": "wsj-ai-models-openai-deepseek-3",
           "outletId": "wsj",
           "outletName": "Wall Street Journal",
           "headline": "Silicon Valley Is Raving About a Made-in-China AI Model",
           "url": "https://www.wsj.com/articles/china-ai-deepseek-chatbot-6ac4ad33?mod=rss_Technology",
-          "biasScore": 5,
+          "biasScore": 5.2,
           "biasSignals": [
-            "'Silicon Valley Raving' — neutral enthusiasm framing",
-            "'Made-in-China' noted factually"
+            "\"raving\" implies positive framing of Chinese AI",
+            "no overt political framing in tech coverage"
           ],
-          "biasScoreGrok": 4.4,
+          "biasScoreGrok": 5.5,
           "biasSignalsGrok": [
-            "Silicon Valley raving",
-            "made-in-China AI"
+            "raving about China",
+            "WSJ slight right"
           ],
           "pubDate": "Mon, 27 Jan 2025 09:36:00 -0500",
-          "clusterId": "ai-chip-deepseek"
+          "clusterId": "ai-models-openai-deepseek"
         },
         {
-          "id": "axios-ai-chip-deepseek-3",
+          "id": "axios-ai-models-openai-deepseek-4",
           "outletId": "axios",
           "outletName": "Axios",
           "headline": "Exclusive: Nvidia's Jensen Huang defends Chinese AI amid Kimi panic",
           "url": "https://www.axios.com/2026/07/22/nvidia-jensen-huang-china-open-source-ai",
-          "biasScore": 5,
+          "biasScore": 5.5,
           "biasSignals": [
-            "Huang 'defends' framing implies scrutiny",
-            "neutral 'amid Kimi panic' qualifier"
+            "\"defends\" implies Huang on defensive about China",
+            "\"Kimi panic\" — loaded term suggesting overreaction"
           ],
-          "biasScoreGrok": 4.2,
+          "biasScoreGrok": 4.5,
           "biasSignalsGrok": [
-            "Huang defends Chinese",
-            "AI Kimi panic"
+            "defends Chinese AI",
+            "Axios center"
           ],
           "pubDate": "Wed, 22 Jul 2026 10:12:33 +0000",
-          "clusterId": "ai-chip-deepseek"
+          "clusterId": "ai-models-openai-deepseek"
+        }
+      ]
+    },
+    {
+      "id": "medicaid-food-aid-cuts",
+      "topicLabel": "Trump administration cuts to Medicaid and food aid programs",
+      "date": "2026-07-22",
+      "articles": [
+        {
+          "id": "washpost-medicaid-food-aid-cuts-0",
+          "outletId": "washpost",
+          "outletName": "Washington Post",
+          "headline": "1.5 million children lost food aid since last July, analysis says",
+          "url": "https://www.washingtonpost.com/nation/2026/07/20/15-million-children-lost-food-aid-since-last-july-analysis-says/",
+          "biasScore": 2.8,
+          "biasSignals": [
+            "\"lost food aid\" — victim framing of children",
+            "1.5 million children statistic leads for emotional impact"
+          ],
+          "biasScoreGrok": 2.5,
+          "biasSignalsGrok": [
+            "children lost aid",
+            "WaPo far left"
+          ],
+          "pubDate": "2026-07-21T13:00:00Z",
+          "clusterId": "medicaid-food-aid-cuts"
+        },
+        {
+          "id": "npr-medicaid-food-aid-cuts-1",
+          "outletId": "npr",
+          "outletName": "NPR",
+          "headline": "States want to bring Medicaid behind bars. Federal changes make that harder",
+          "url": "https://www.npr.org/2026/07/22/nx-s1-5896456/medicaid-cuts-incarceration-states-obbba",
+          "biasScore": 3.5,
+          "biasSignals": [
+            "\"Federal changes make that harder\" — critical of federal policy",
+            "NPR frames Medicaid expansion behind bars sympathetically"
+          ],
+          "biasScoreGrok": 3,
+          "biasSignalsGrok": [
+            "make that harder",
+            "NPR left lean"
+          ],
+          "pubDate": "Wed, 22 Jul 2026 05:00:00 -0400",
+          "clusterId": "medicaid-food-aid-cuts"
+        },
+        {
+          "id": "washpost-medicaid-food-aid-cuts-3",
+          "outletId": "washpost",
+          "outletName": "Washington Post",
+          "headline": "Democratic senator proposes expanding Medicare to cover children",
+          "url": "https://www.washingtonpost.com/politics/2026/07/22/democratic-senator-proposes-expanding-medicare-cover-children/",
+          "biasScore": 3.5,
+          "biasSignals": [
+            "\"proposes expanding Medicare\" — neutral policy framing",
+            "Democrat proposal framed as child welfare initiative"
+          ],
+          "biasScoreGrok": 3.5,
+          "biasSignalsGrok": [
+            "proposes expanding",
+            "WaPo left lean"
+          ],
+          "pubDate": "2026-07-21T11:50:00Z",
+          "clusterId": "medicaid-food-aid-cuts"
+        },
+        {
+          "id": "foxnews-medicaid-food-aid-cuts-2",
+          "outletId": "foxnews",
+          "outletName": "Fox News",
+          "headline": "Trump admin pausing over $1B in Medicaid payments to Minnesota, California over fraud, compliance concerns",
+          "url": "https://www.foxnews.com/politics/trump-admin-pausing-over-1b-medicaid-payments-minnesota-california-over-fraud-compliance-concerns",
+          "biasScore": 6.8,
+          "biasSignals": [
+            "\"fraud, compliance concerns\" — justifies payment pause",
+            "Fox frames Medicaid pause as legitimate enforcement action"
+          ],
+          "biasScoreGrok": 7,
+          "biasSignalsGrok": [
+            "over fraud concerns",
+            "FoxNews right"
+          ],
+          "pubDate": "2026-07-21T15:37:40.2700124Z",
+          "clusterId": "medicaid-food-aid-cuts"
         }
       ]
     }
   ],
   "outlets": [
     {
-      "outletId": "theatlantic",
-      "outletName": "The Atlantic",
-      "abbreviation": "Atlntc",
-      "currentScore": 3.25,
-      "currentScoreGrok": 3.2,
-      "articleCount": 6,
+      "outletId": "newsweek",
+      "outletName": "Newsweek",
+      "abbreviation": "NW",
+      "currentScore": 2.8,
+      "currentScoreGrok": 3.5,
+      "articleCount": 1,
       "expectedRange": [
-        2.5,
-        4
-      ]
-    },
-    {
-      "outletId": "vox",
-      "outletName": "Vox",
-      "abbreviation": "Vox",
-      "currentScore": 3.38,
-      "currentScoreGrok": 3.05,
-      "articleCount": 4,
-      "expectedRange": [
-        2.5,
-        4
-      ]
-    },
-    {
-      "outletId": "msnbc",
-      "outletName": "MSNBC",
-      "abbreviation": "MSNBC",
-      "currentScore": 3.4,
-      "currentScoreGrok": 2.94,
-      "articleCount": 5,
-      "expectedRange": [
-        1.5,
-        3.5
+        4,
+        5.5
       ]
     },
     {
       "outletId": "huffpost",
       "outletName": "HuffPost",
       "abbreviation": "HPost",
-      "currentScore": 4,
-      "currentScoreGrok": 3.55,
-      "articleCount": 4,
+      "currentScore": 3,
+      "currentScoreGrok": 3,
+      "articleCount": 3,
       "expectedRange": [
         2,
         3.5
       ]
     },
     {
-      "outletId": "latimes",
-      "outletName": "LA Times",
-      "abbreviation": "LAT",
-      "currentScore": 4,
-      "currentScoreGrok": 3.6,
+      "outletId": "vox",
+      "outletName": "Vox",
+      "abbreviation": "Vox",
+      "currentScore": 3.1,
+      "currentScoreGrok": 3.1,
       "articleCount": 2,
       "expectedRange": [
         2.5,
@@ -2813,93 +1935,141 @@
       "outletId": "guardian",
       "outletName": "The Guardian",
       "abbreviation": "Guard",
-      "currentScore": 4.07,
-      "currentScoreGrok": 3.6,
-      "articleCount": 7,
+      "currentScore": 3.23,
+      "currentScoreGrok": 2.87,
+      "articleCount": 3,
       "expectedRange": [
         2.5,
         4
       ]
     },
     {
-      "outletId": "npr",
-      "outletName": "NPR",
-      "abbreviation": "NPR",
-      "currentScore": 4.29,
-      "currentScoreGrok": 3.49,
-      "articleCount": 8,
+      "outletId": "msnbc",
+      "outletName": "MSNBC",
+      "abbreviation": "MSNBC",
+      "currentScore": 3.44,
+      "currentScoreGrok": 3.1,
+      "articleCount": 5,
       "expectedRange": [
-        3.5,
-        4.5
+        1.5,
+        3.5
       ]
     },
     {
       "outletId": "cnn",
       "outletName": "CNN",
       "abbreviation": "CNN",
-      "currentScore": 4.3,
-      "currentScoreGrok": 3.34,
-      "articleCount": 5,
+      "currentScore": 3.5,
+      "currentScoreGrok": 3,
+      "articleCount": 1,
       "expectedRange": [
         2.5,
         4
       ]
     },
     {
-      "outletId": "ap",
-      "outletName": "Associated Press",
-      "abbreviation": "AP",
-      "currentScore": 4.46,
-      "currentScoreGrok": 4.39,
-      "articleCount": 7,
+      "outletId": "theatlantic",
+      "outletName": "The Atlantic",
+      "abbreviation": "Atlntc",
+      "currentScore": 3.73,
+      "currentScoreGrok": 3.67,
+      "articleCount": 3,
       "expectedRange": [
-        4.5,
-        5.5
+        2.5,
+        4
       ]
     },
     {
       "outletId": "washpost",
       "outletName": "Washington Post",
       "abbreviation": "WPost",
-      "currentScore": 4.5,
-      "currentScoreGrok": 3.3,
-      "articleCount": 5,
+      "currentScore": 3.88,
+      "currentScoreGrok": 3.43,
+      "articleCount": 6,
       "expectedRange": [
         2.8,
         4.2
       ]
     },
     {
+      "outletId": "npr",
+      "outletName": "NPR",
+      "abbreviation": "NPR",
+      "currentScore": 4.02,
+      "currentScoreGrok": 3.58,
+      "articleCount": 6,
+      "expectedRange": [
+        3.5,
+        4.5
+      ]
+    },
+    {
+      "outletId": "bostonglobe",
+      "outletName": "Boston Globe",
+      "abbreviation": "Globe",
+      "currentScore": 4.17,
+      "currentScoreGrok": 5.23,
+      "articleCount": 3,
+      "expectedRange": [
+        2.5,
+        4
+      ]
+    },
+    {
       "outletId": "thehill",
       "outletName": "The Hill",
       "abbreviation": "Hill",
-      "currentScore": 4.5,
-      "currentScoreGrok": 4.73,
-      "articleCount": 7,
+      "currentScore": 4.2,
+      "currentScoreGrok": 4.54,
+      "articleCount": 5,
       "expectedRange": [
         5.5,
         7
       ]
     },
     {
-      "outletId": "bbc",
-      "outletName": "BBC",
-      "abbreviation": "BBC",
-      "currentScore": 4.5,
-      "currentScoreGrok": 4.43,
-      "articleCount": 3,
+      "outletId": "bloomberg",
+      "outletName": "Bloomberg",
+      "abbreviation": "BBG",
+      "currentScore": 4.3,
+      "currentScoreGrok": 3.8,
+      "articleCount": 1,
       "expectedRange": [
         4,
         5.5
       ]
     },
     {
-      "outletId": "nytimes",
-      "outletName": "NY Times",
-      "abbreviation": "NYT",
+      "outletId": "aljazeera",
+      "outletName": "Al Jazeera",
+      "abbreviation": "AJ",
       "currentScore": 4.5,
-      "currentScoreGrok": 3.86,
-      "articleCount": 5,
+      "currentScoreGrok": 3.27,
+      "articleCount": 3,
+      "expectedRange": [
+        3.5,
+        5
+      ]
+    },
+    {
+      "outletId": "marketwatch",
+      "outletName": "MarketWatch",
+      "abbreviation": "MW",
+      "currentScore": 4.5,
+      "currentScoreGrok": 4.8,
+      "articleCount": 1,
+      "expectedRange": [
+        4.5,
+        6
+      ]
+    },
+    {
+      "outletId": "nbc",
+      "outletName": "NBC News",
+      "abbreviation": "NBC",
+      "currentScore": 4.5,
+      "currentScoreGrok": 5,
+      "articleCount": 1,
       "expectedRange": [
         3,
         4.5
@@ -2910,7 +2080,7 @@
       "outletName": "Forbes",
       "abbreviation": "Forbes",
       "currentScore": 4.5,
-      "currentScoreGrok": 4.5,
+      "currentScoreGrok": 5.5,
       "articleCount": 1,
       "expectedRange": [
         5,
@@ -2918,11 +2088,11 @@
       ]
     },
     {
-      "outletId": "independent",
-      "outletName": "The Independent",
-      "abbreviation": "Indep",
-      "currentScore": 4.5,
-      "currentScoreGrok": 4.73,
+      "outletId": "nytimes",
+      "outletName": "NY Times",
+      "abbreviation": "NYT",
+      "currentScore": 4.7,
+      "currentScoreGrok": 4.17,
       "articleCount": 3,
       "expectedRange": [
         3,
@@ -2930,24 +2100,36 @@
       ]
     },
     {
-      "outletId": "telegraph",
-      "outletName": "The Telegraph",
-      "abbreviation": "Tele",
-      "currentScore": 4.5,
-      "currentScoreGrok": 5.3,
-      "articleCount": 1,
+      "outletId": "ap",
+      "outletName": "Associated Press",
+      "abbreviation": "AP",
+      "currentScore": 4.73,
+      "currentScoreGrok": 4.92,
+      "articleCount": 6,
       "expectedRange": [
-        6,
-        7.5
+        4.5,
+        5.5
       ]
     },
     {
-      "outletId": "nbc",
-      "outletName": "NBC News",
-      "abbreviation": "NBC",
-      "currentScore": 4.63,
-      "currentScoreGrok": 4.55,
-      "articleCount": 4,
+      "outletId": "skynews",
+      "outletName": "Sky News",
+      "abbreviation": "Sky",
+      "currentScore": 4.8,
+      "currentScoreGrok": 5,
+      "articleCount": 2,
+      "expectedRange": [
+        4,
+        5.5
+      ]
+    },
+    {
+      "outletId": "cbsnews",
+      "outletName": "CBS News",
+      "abbreviation": "CBS",
+      "currentScore": 4.83,
+      "currentScoreGrok": 5,
+      "articleCount": 3,
       "expectedRange": [
         3,
         4.5
@@ -2957,8 +2139,8 @@
       "outletId": "neutralnews",
       "outletName": "Neutral News",
       "abbreviation": "NN",
-      "currentScore": 4.67,
-      "currentScoreGrok": 5.1,
+      "currentScore": 4.87,
+      "currentScoreGrok": 5,
       "articleCount": 6,
       "expectedRange": [
         4.5,
@@ -2966,35 +2148,11 @@
       ]
     },
     {
-      "outletId": "bostonglobe",
-      "outletName": "Boston Globe",
-      "abbreviation": "Globe",
-      "currentScore": 4.67,
-      "currentScoreGrok": 4.45,
-      "articleCount": 6,
-      "expectedRange": [
-        2.5,
-        4
-      ]
-    },
-    {
-      "outletId": "abc",
-      "outletName": "ABC News",
-      "abbreviation": "ABC",
-      "currentScore": 4.75,
-      "currentScoreGrok": 4.55,
-      "articleCount": 2,
-      "expectedRange": [
-        3,
-        4.5
-      ]
-    },
-    {
-      "outletId": "skynews",
-      "outletName": "Sky News",
-      "abbreviation": "Sky",
-      "currentScore": 4.75,
-      "currentScoreGrok": 4.85,
+      "outletId": "politico",
+      "outletName": "Politico",
+      "abbreviation": "PLTICO",
+      "currentScore": 4.9,
+      "currentScoreGrok": 5,
       "articleCount": 2,
       "expectedRange": [
         4,
@@ -3002,27 +2160,15 @@
       ]
     },
     {
-      "outletId": "marketwatch",
-      "outletName": "MarketWatch",
-      "abbreviation": "MW",
-      "currentScore": 4.8,
-      "currentScoreGrok": 5.1,
-      "articleCount": 1,
+      "outletId": "cnbc",
+      "outletName": "CNBC",
+      "abbreviation": "CNBC",
+      "currentScore": 4.9,
+      "currentScoreGrok": 5,
+      "articleCount": 2,
       "expectedRange": [
         4.5,
         6
-      ]
-    },
-    {
-      "outletId": "cbsnews",
-      "outletName": "CBS News",
-      "abbreviation": "CBS",
-      "currentScore": 4.83,
-      "currentScoreGrok": 5.07,
-      "articleCount": 3,
-      "expectedRange": [
-        3,
-        4.5
       ]
     },
     {
@@ -3030,7 +2176,7 @@
       "outletName": "The Economist",
       "abbreviation": "Econ",
       "currentScore": 5,
-      "currentScoreGrok": 5.1,
+      "currentScoreGrok": 4.43,
       "articleCount": 3,
       "expectedRange": [
         4.5,
@@ -3038,59 +2184,23 @@
       ]
     },
     {
-      "outletId": "cnbc",
-      "outletName": "CNBC",
-      "abbreviation": "CNBC",
+      "outletId": "dailymail",
+      "outletName": "Daily Mail",
+      "abbreviation": "DM",
       "currentScore": 5,
-      "currentScoreGrok": 4.93,
-      "articleCount": 3,
-      "expectedRange": [
-        4.5,
-        6
-      ]
-    },
-    {
-      "outletId": "politico",
-      "outletName": "Politico",
-      "abbreviation": "PLTICO",
-      "currentScore": 5,
-      "currentScoreGrok": 4.85,
-      "articleCount": 2,
-      "expectedRange": [
-        4,
-        5.5
-      ]
-    },
-    {
-      "outletId": "axios",
-      "outletName": "Axios",
-      "abbreviation": "Axios",
-      "currentScore": 5,
-      "currentScoreGrok": 4.5,
-      "articleCount": 2,
-      "expectedRange": [
-        5.5,
-        6.5
-      ]
-    },
-    {
-      "outletId": "nypost",
-      "outletName": "NY Post",
-      "abbreviation": "NYPost",
-      "currentScore": 5,
-      "currentScoreGrok": 5,
+      "currentScoreGrok": 5.8,
       "articleCount": 1,
       "expectedRange": [
         6.5,
-        8
+        8.5
       ]
     },
     {
       "outletId": "wsj",
       "outletName": "Wall Street Journal",
       "abbreviation": "WSJ",
-      "currentScore": 5,
-      "currentScoreGrok": 4.5,
+      "currentScore": 5.1,
+      "currentScoreGrok": 5.25,
       "articleCount": 2,
       "expectedRange": [
         5.5,
@@ -3098,39 +2208,39 @@
       ]
     },
     {
-      "outletId": "reason",
-      "outletName": "Reason",
-      "abbreviation": "Reason",
-      "currentScore": 5.25,
-      "currentScoreGrok": 4.8,
-      "articleCount": 2,
+      "outletId": "axios",
+      "outletName": "Axios",
+      "abbreviation": "Axios",
+      "currentScore": 5.45,
+      "currentScoreGrok": 4.88,
+      "articleCount": 4,
       "expectedRange": [
-        4.5,
+        5.5,
         6.5
       ]
     },
     {
-      "outletId": "aljazeera",
-      "outletName": "Al Jazeera",
-      "abbreviation": "AJ",
-      "currentScore": 5.38,
-      "currentScoreGrok": 4.03,
-      "articleCount": 4,
+      "outletId": "thefederalist",
+      "outletName": "The Federalist",
+      "abbreviation": "Fed",
+      "currentScore": 5.5,
+      "currentScoreGrok": 6,
+      "articleCount": 1,
       "expectedRange": [
-        3.5,
-        5
+        7.5,
+        9
       ]
     },
     {
-      "outletId": "washexaminer",
-      "outletName": "Washington Examiner",
-      "abbreviation": "WExam",
-      "currentScore": 6,
-      "currentScoreGrok": 6.25,
-      "articleCount": 6,
+      "outletId": "reason",
+      "outletName": "Reason",
+      "abbreviation": "Reason",
+      "currentScore": 5.5,
+      "currentScoreGrok": 5.5,
+      "articleCount": 1,
       "expectedRange": [
-        7,
-        8.5
+        4.5,
+        6.5
       ]
     },
     {
@@ -3138,8 +2248,8 @@
       "outletName": "National Review",
       "abbreviation": "NR",
       "currentScore": 6.5,
-      "currentScoreGrok": 7.2,
-      "articleCount": 2,
+      "currentScoreGrok": 6.88,
+      "articleCount": 4,
       "expectedRange": [
         7,
         8.5
@@ -3149,9 +2259,21 @@
       "outletId": "foxnews",
       "outletName": "Fox News",
       "abbreviation": "FOX",
-      "currentScore": 7.33,
-      "currentScoreGrok": 7.23,
-      "articleCount": 3,
+      "currentScore": 6.65,
+      "currentScoreGrok": 6.75,
+      "articleCount": 2,
+      "expectedRange": [
+        7,
+        8.5
+      ]
+    },
+    {
+      "outletId": "washexaminer",
+      "outletName": "Washington Examiner",
+      "abbreviation": "WExam",
+      "currentScore": 6.68,
+      "currentScoreGrok": 6.9,
+      "articleCount": 5,
       "expectedRange": [
         7,
         8.5
@@ -3161,27 +2283,15 @@
       "outletId": "breitbart",
       "outletName": "Breitbart",
       "abbreviation": "BB",
-      "currentScore": 7.5,
-      "currentScoreGrok": 7.88,
-      "articleCount": 6,
+      "currentScore": 7,
+      "currentScoreGrok": 6.75,
+      "articleCount": 2,
       "expectedRange": [
         8.5,
         9.8
       ]
-    },
-    {
-      "outletId": "thefederalist",
-      "outletName": "The Federalist",
-      "abbreviation": "Fed",
-      "currentScore": 8.17,
-      "currentScoreGrok": 7.77,
-      "articleCount": 3,
-      "expectedRange": [
-        7.5,
-        9
-      ]
     }
   ],
-  "articleCount": 136,
-  "storyCount": 23
+  "articleCount": 94,
+  "storyCount": 15
 }
