@@ -8,15 +8,15 @@ const OUTLETS = {
   cnn: {
     name: 'CNN',
     abbr: 'CNN',
-    newsapiId: 'cnn',
-    rssUrl: 'http://rssnews.cnn.com/rss/edition.rss',
+    newsapiId: null, // Native/legacy feed dead — Google News source feed
+    rssUrl: 'https://news.google.com/rss/search?q=when:24h+site:cnn.com&hl=en-US&gl=US&ceid=US:en',
     expectedRange: [2.5, 4.0],
   },
   msnbc: {
     name: 'MSNBC',
     abbr: 'MSNBC',
-    newsapiId: 'msnbc',
-    rssUrl: 'http://feeds.msnbc.msn.com/msnbc/topstories',
+    newsapiId: 'msnbc', // TV network, little indexed web text — NewsAPI primary, Google News (7d) fallback
+    rssUrl: 'https://news.google.com/rss/search?q=when:7d+site:msnbc.com&hl=en-US&gl=US&ceid=US:en',
     expectedRange: [1.5, 3.5],
   },
   nytimes: {
@@ -43,8 +43,8 @@ const OUTLETS = {
   politico: {
     name: 'Politico',
     abbr: 'PLTICO',
-    newsapiId: 'politico',
-    rssUrl: 'https://www.politico.com/rss/politics08.xml',
+    newsapiId: null, // Native/legacy feed dead — Google News source feed
+    rssUrl: 'https://news.google.com/rss/search?q=when:24h+site:politico.com&hl=en-US&gl=US&ceid=US:en',
     expectedRange: [4.0, 5.5],
   },
   bbc: {
@@ -78,8 +78,8 @@ const OUTLETS = {
   dailycaller: {
     name: 'Daily Caller',
     abbr: 'DC',
-    newsapiId: null, // Not in NewsAPI — RSS only
-    rssUrl: 'https://dailycaller.com/feed/',
+    newsapiId: null, // Native/legacy feed dead — Google News source feed
+    rssUrl: 'https://news.google.com/rss/search?q=when:24h+site:dailycaller.com&hl=en-US&gl=US&ceid=US:en',
     expectedRange: [7.5, 9.0],
   },
   breitbart: {
@@ -148,8 +148,8 @@ const OUTLETS = {
   thefreepress: {
     name: 'The Free Press',
     abbr: 'TFP',
-    newsapiId: null, // Not in NewsAPI — RSS only
-    rssUrl: 'https://thefreepress.substack.com/feed',
+    newsapiId: null, // Native/legacy feed dead — Google News source feed
+    rssUrl: 'https://news.google.com/rss/search?q=when:24h+site:thefp.com&hl=en-US&gl=US&ceid=US:en',
     expectedRange: [4.5, 6.5],
   },
   thehill: {
@@ -169,8 +169,8 @@ const OUTLETS = {
   usatoday: {
     name: 'USA Today',
     abbr: 'USAT',
-    newsapiId: 'the-usa-today',
-    rssUrl: 'https://www.usatoday.com/rss/news/',
+    newsapiId: null, // Native/legacy feed dead — Google News source feed
+    rssUrl: 'https://news.google.com/rss/search?q=when:24h+site:usatoday.com&hl=en-US&gl=US&ceid=US:en',
     expectedRange: [4.5, 6.0],
   },
   nationalreview: {
@@ -211,22 +211,22 @@ const OUTLETS = {
   chicagotribune: {
     name: 'Chicago Tribune',
     abbr: 'ChiTrib',
-    newsapiId: null, // Not reliably in NewsAPI — RSS only
-    rssUrl: 'https://www.chicagotribune.com/arcio/rss/',
+    newsapiId: null, // Native/legacy feed dead — Google News source feed
+    rssUrl: 'https://news.google.com/rss/search?q=when:24h+site:chicagotribune.com&hl=en-US&gl=US&ceid=US:en',
     expectedRange: [4.5, 6.5],
   },
   startribune: {
     name: 'Star Tribune',
     abbr: 'StarTrib',
-    newsapiId: null, // Not in NewsAPI — RSS only
-    rssUrl: 'https://www.startribune.com/politics/rss/',
+    newsapiId: null, // Native/legacy feed dead — Google News source feed
+    rssUrl: 'https://news.google.com/rss/search?q=when:24h+site:startribune.com&hl=en-US&gl=US&ceid=US:en',
     expectedRange: [3.5, 5.0],
   },
   charlotteobserver: {
     name: 'Charlotte Observer',
     abbr: 'CO',
-    newsapiId: null, // Not in NewsAPI — RSS only
-    rssUrl: 'https://www.charlotteobserver.com/?rss=y',
+    newsapiId: null, // Native/legacy feed dead — Google News source feed
+    rssUrl: 'https://news.google.com/rss/search?q=when:24h+site:charlotteobserver.com&hl=en-US&gl=US&ceid=US:en',
     expectedRange: [4.0, 5.5],
   },
   dailymail: {
@@ -253,8 +253,8 @@ const OUTLETS = {
   financialtimes: {
     name: 'Financial Times',
     abbr: 'FT',
-    newsapiId: null, // Paywalled — RSS only (headlines available)
-    rssUrl: 'https://www.ft.com/rss/home/us',
+    newsapiId: null, // Native/legacy feed dead — Google News source feed
+    rssUrl: 'https://news.google.com/rss/search?q=when:24h+site:ft.com&hl=en-US&gl=US&ceid=US:en',
     expectedRange: [4.5, 6.0],
   },
   bloomberg: {
@@ -274,8 +274,8 @@ const OUTLETS = {
   reuters: {
     name: 'Reuters',
     abbr: 'Reuters',
-    newsapiId: 'reuters',
-    rssUrl: 'https://feeds.reuters.com/reuters/topNews',
+    newsapiId: null, // Removed from NewsAPI (licensing) + native RSS discontinued 2020 — use Google News feed
+    rssUrl: 'https://news.google.com/rss/search?q=when:24h+site:reuters.com&hl=en-US&gl=US&ceid=US:en',
     expectedRange: [4.0, 5.5],
   },
   marketwatch: {
@@ -295,15 +295,15 @@ const OUTLETS = {
   houstonchronicle: {
     name: 'Houston Chronicle',
     abbr: 'HChron',
-    newsapiId: null, // Not in NewsAPI — RSS only
-    rssUrl: 'https://www.houstonchronicle.com/news/rss/',
+    newsapiId: null, // Native/legacy feed dead — Google News source feed
+    rssUrl: 'https://news.google.com/rss/search?q=when:24h+site:houstonchronicle.com&hl=en-US&gl=US&ceid=US:en',
     expectedRange: [4.0, 5.5],
   },
   miamiherald: {
     name: 'Miami Herald',
     abbr: 'MHerald',
-    newsapiId: null, // Not in NewsAPI — RSS only
-    rssUrl: 'https://www.miamiherald.com/?rss=y',
+    newsapiId: null, // Native/legacy feed dead — Google News source feed
+    rssUrl: 'https://news.google.com/rss/search?q=when:24h+site:miamiherald.com&hl=en-US&gl=US&ceid=US:en',
     expectedRange: [3.5, 5.0],
   },
   abc: {
@@ -323,8 +323,8 @@ const OUTLETS = {
   ap: {
     name: 'Associated Press',
     abbr: 'AP',
-    newsapiId: 'associated-press',
-    rssUrl: 'https://apnews.com/hub/ap-top-news?format=rss',
+    newsapiId: null, // Native/legacy feed dead — Google News source feed
+    rssUrl: 'https://news.google.com/rss/search?q=when:24h+site:apnews.com&hl=en-US&gl=US&ceid=US:en',
     expectedRange: [4.5, 5.5],
   },
   independent: {
@@ -344,15 +344,15 @@ const OUTLETS = {
   cbc: {
     name: 'CBC News',
     abbr: 'CBC',
-    newsapiId: null, // Canadian outlet — RSS only
-    rssUrl: 'https://www.cbc.ca/cmlink/rss-topstories',
+    newsapiId: null, // Native/legacy feed dead — Google News source feed
+    rssUrl: 'https://news.google.com/rss/search?q=when:24h+site:cbc.ca&hl=en-CA&gl=CA&ceid=CA:en',
     expectedRange: [3.5, 5.0],
   },
   huffpost: {
     name: 'HuffPost',
     abbr: 'HPost',
-    newsapiId: 'the-huffington-post',
-    rssUrl: 'https://www.huffpost.com/section/front-page/feed',
+    newsapiId: null, // Native/legacy feed dead — Google News source feed
+    rssUrl: 'https://news.google.com/rss/search?q=when:24h+site:huffpost.com&hl=en-US&gl=US&ceid=US:en',
     expectedRange: [2.0, 3.5],
   },
   reason: {
@@ -379,15 +379,15 @@ const OUTLETS = {
   timeslondon: {
     name: 'The Times (London)',
     abbr: 'TimesUK',
-    newsapiId: null, // Paywalled — RSS headlines only
-    rssUrl: 'https://www.thetimes.com/rss',
+    newsapiId: null, // Native/legacy feed dead — Google News source feed
+    rssUrl: 'https://news.google.com/rss/search?q=when:24h+site:thetimes.com&hl=en-GB&gl=GB&ceid=GB:en',
     expectedRange: [5.5, 7.0],
   },
   tampabaytimes: {
     name: 'Tampa Bay Times',
     abbr: 'TBTimes',
-    newsapiId: null, // Not in NewsAPI — RSS only
-    rssUrl: 'https://www.tampabay.com/news/rss/',
+    newsapiId: null, // Native/legacy feed dead — Google News source feed
+    rssUrl: 'https://news.google.com/rss/search?q=when:24h+site:tampabay.com&hl=en-US&gl=US&ceid=US:en',
     expectedRange: [3.5, 5.0],
   },
   neutralnews: {

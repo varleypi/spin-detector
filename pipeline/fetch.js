@@ -72,12 +72,14 @@ async function fetchFromRSS(outletId) {
   if (!cfg?.rssUrl) return []
   // Retry once: some CDNs (e.g. Newsweek) intermittently 406 a cold request but
   // serve fine on a quick retry.
+  // Google News feeds append " - Publisher" to every title; strip it for clean headlines.
+  const isGoogleNews = cfg.rssUrl.includes('news.google.com')
   for (let attempt = 1; attempt <= 2; attempt++) {
     try {
       const feed = await RSS_PARSER.parseURL(cfg.rssUrl)
       return feed.items.slice(0, MAX_PER_OUTLET).map((item) => ({
         outletId,
-        headline: (item.title ?? '').trim(),
+        headline: (item.title ?? '').replace(isGoogleNews ? / - [^-]+$/ : '', '').trim(),
         url: item.link ?? '',
         pubDate: item.pubDate ?? item.isoDate ?? new Date().toISOString(),
         source: 'rss',
