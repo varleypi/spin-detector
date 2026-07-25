@@ -1,0 +1,87 @@
+name: X Viral Scoring
+
+# Finds viral news tweets, scores them for spin, and QUEUES them for human
+# approval at /admin/x-queue. This workflow never posts to X — publishing is a
+# deliberate human action. See docs/x-viral-scoring-design.md.
+
+on:
+  schedule:
+    # Times are UTC. Comments show US Eastern for EDT (UTC-4, summer);
+    # in EST (winter) each lands an hour earlier local.
+    - cron: '0 12 * * *'   # 08:00 ET — morning news cycle
+    - cron: '0 17 * * *'   # 13:00 ET — midday
+    - cron: '0 22 * * *'   # 18:00 ET — evening, before peak X usage
+  workflow_dispatch:        # Manual trigger from the Actions tab
+
+# No writes needed — this workflow commits nothing.
+permissions:
+  contents: read
+
+# If a run is still going when the next fires, let it finish rather than
+# double-spending on Grok calls.
+concurrency:
+  group: x-viral-scoring
+  cancel-in-progress: false
+
+jobs:
+  discover-and-score:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: 'npm'
+          cache-dependency-path: package-lock.json
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Verify required secrets
+        env:
+          XAI_API_KEY:          ${{ secrets.XAI_API_KEY }}
+          SUPABASE_URL:         ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+        run: |
+          missing=""
+          for key in XAI_API_KEY SUPABASE_URL SUPABASE_SERVICE_KEY; do
+            if [ -z "${!key}" ]; then
+              missing="$missing $key"
+            fi
+          done
+          if [ -n "$missing" ]; then
+            echo "❌ Missing repository secrets:$missing"
+            echo "   Add them under Settings → Secrets and variables → Actions."
+            exit 1
+          fi
+          echo "✓ All required secrets present"
+
+      - name: Run X viral scoring pipeline
+        run: node pipeline/x/run.js
+        env:
+          XAI_API_KEY:          ${{ secrets.XAI_API_KEY }}
+          SUPABASE_URL:         ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          # Caps and quality gates — repository *variables*, not secrets, so they
+          # can be tuned in the GitHub UI without rotating anything. Each falls
+          # back to the default baked into the code if unset.
+          DAILY_CANDIDATE_CAP:     ${{ vars.DAILY_CANDIDATE_CAP }}
+          MAX_LIVE_SEARCH_RESULTS: ${{ vars.MAX_LIVE_SEARCH_RESULTS }}
+          ELIGIBLE_AUTHOR_TYPES:   ${{ vars.ELIGIBLE_AUTHOR_TYPES }}
+          MIN_SPIN_THRESHOLD:      ${{ vars.MIN_SPIN_THRESHOLD }}
+          STORY_DEDUPE_THRESHOLD:  ${{ vars.STORY_DEDUPE_THRESHOLD }}
+          CANDIDATE_EXPIRY_HOURS:  ${{ vars.CANDIDATE_EXPIRY_HOURS }}
+
+      - name: Report success
+        if: success()
+        run: |
+          echo "✅ Candidates queued — review at https://www.spindetector.com/admin/x-queue"
+
+      - name: Report failure
+        if: failure()
+        run: echo "❌ X viral scoring failed — check logs above"
