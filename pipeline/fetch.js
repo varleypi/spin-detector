@@ -19,6 +19,23 @@ const RSS_PARSER = new Parser({
 })
 const MAX_PER_OUTLET = 8   // 56 outlets × 8 = ~448 headlines max; keeps Claude prompt manageable
 
+// ── Freshness ─────────────────────────────────────────────────────────────────
+// Feeds die silently: the host keeps serving the last items it ever published,
+// forever, with a 200 and no error. WSJ's feeds.a.dj.com froze on 2025-01-27 and
+// served that day's DeepSeek headlines every morning for 18 months — long enough
+// that they clustered into a genuinely current chip selloff and rewrote its
+// framing downstream. So we drop items too old to be today's news, and shout
+// when an outlet's whole feed looks abandoned.
+
+const MAX_AGE_HOURS = 72   // generous: some outlets stamp dates loosely or run slow feeds
+const DEAD_FEED_DAYS = 7   // newest item older than this ⇒ the feed is almost certainly dead
+
+function parsePubDate(raw) {
+  if (!raw) return null
+  const d = new Date(raw)
+  return Number.isNaN(d.getTime()) ? null : d.toISOString()
+}
+
 // ── NewsAPI ───────────────────────────────────────────────────────────────────
 
 async function fetchFromNewsAPI(sourceIds) {
@@ -56,7 +73,9 @@ async function fetchNewsAPIBatch(outletIds) {
         outletId,
         headline: a.title.trim(),
         url: a.url ?? '',
-        pubDate: a.publishedAt ?? new Date().toISOString(),
+        // null, not now() — defaulting an unknown date to "now" would make every
+        // undated item look fresh and defeat the staleness filter below.
+        pubDate: parsePubDate(a.publishedAt),
         source: 'newsapi',
       })
     }
@@ -81,7 +100,7 @@ async function fetchFromRSS(outletId) {
         outletId,
         headline: (item.title ?? '').replace(isGoogleNews ? / - [^-]+$/ : '', '').trim(),
         url: item.link ?? '',
-        pubDate: item.pubDate ?? item.isoDate ?? new Date().toISOString(),
+        pubDate: parsePubDate(item.pubDate ?? item.isoDate),
         source: 'rss',
       }))
     } catch (err) {
@@ -124,16 +143,87 @@ async function fetchAllHeadlines() {
   const rssResults = await Promise.all(needsRSS.map(fetchFromRSS))
   const rssByOutlet = Object.fromEntries(needsRSS.map((id, i) => [id, rssResults[i]]))
 
-  // Merge and flatten
+  // Merge, drop stale items, and flatten
   const articles = []
+  const health = []
+  const now = Date.now()
+
   for (const outletId of allOutletIds) {
     const items = newsapiResults[outletId] ?? rssByOutlet[outletId] ?? []
-    const validItems = items.filter((a) => a.headline && a.headline.length > 10)
-    articles.push(...validItems)
-    console.log(`   ${outletId.padEnd(12)} ${validItems.length} headlines (${validItems[0]?.source ?? 'none'})`)
+    const source = items[0]?.source ?? 'none'
+
+    const kept = []
+    let stale = 0
+    let undated = 0
+    let newest = null
+
+    for (const a of items) {
+      if (!a.headline || a.headline.length <= 10) continue
+
+      const at = a.pubDate ? new Date(a.pubDate).getTime() : null
+      if (at !== null && (newest === null || at > newest)) newest = at
+
+      if (at === null) {
+        // No usable date. Keep it — a few feeds simply don't publish one, and
+        // dropping them would silently erase the outlet — but count it so the
+        // health report can flag an outlet whose freshness we can't verify.
+        undated++
+        kept.push(a)
+        continue
+      }
+      if (now - at > MAX_AGE_HOURS * 3600 * 1000) {
+        stale++
+        continue
+      }
+      kept.push(a)
+    }
+
+    articles.push(...kept)
+    health.push({ outletId, kept: kept.length, stale, undated, newest, source })
+
+    const notes = [stale && `${stale} stale dropped`, undated && `${undated} undated`]
+      .filter(Boolean).join(', ')
+    console.log(`   ${outletId.padEnd(12)} ${kept.length} headlines (${source})${notes ? ` — ${notes}` : ''}`)
   }
 
+  reportFeedHealth(health, now)
+
   return articles
+}
+
+// ── Feed health ───────────────────────────────────────────────────────────────
+// A dead feed produces no error, so it can only be caught by looking at how old
+// its newest item is. This runs for NewsAPI outlets too — NewsAPI sources go
+// stale the same way, and the RSS fallback only triggers on an *empty* result,
+// not an old one.
+
+function reportFeedHealth(health, now) {
+  const days = (ms) => (now - ms) / (24 * 3600 * 1000)
+
+  const dead = health.filter((h) => h.newest !== null && days(h.newest) > DEAD_FEED_DAYS)
+  // A dead feed also has zero kept items — report it once, as dead.
+  const empty = health.filter((h) => h.kept === 0 && !dead.includes(h))
+  const unverifiable = health.filter((h) => h.kept > 0 && h.newest === null)
+
+  if (dead.length === 0 && empty.length === 0 && unverifiable.length === 0) {
+    console.log(`\n   ✓ All ${health.length} outlets returned fresh headlines`)
+    return
+  }
+
+  console.warn(`\n   ⚠ FEED HEALTH — ${dead.length} dead, ${empty.length} empty, ${unverifiable.length} undated`)
+
+  for (const h of dead.sort((a, b) => a.newest - b.newest)) {
+    console.warn(
+      `     ✗ ${h.outletId.padEnd(14)} DEAD — newest item is ${Math.floor(days(h.newest))} days old ` +
+      `(${new Date(h.newest).toISOString().slice(0, 10)}, via ${h.source}); needs a new feed URL`
+    )
+  }
+  for (const h of empty) {
+    console.warn(`     ✗ ${h.outletId.padEnd(14)} returned nothing usable (via ${h.source})`)
+  }
+  for (const h of unverifiable) {
+    console.warn(`     · ${h.outletId.padEnd(14)} ${h.kept} headlines with no publication date — freshness unverified`)
+  }
 }
 
 module.exports = { fetchAllHeadlines }

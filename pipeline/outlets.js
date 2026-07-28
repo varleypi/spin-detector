@@ -135,7 +135,10 @@ const OUTLETS = {
     name: 'Wall Street Journal',
     abbr: 'WSJ',
     newsapiId: null, // Paywalled — not available via NewsAPI free tier
-    rssUrl: 'https://feeds.a.dj.com/rss/RSSWSJD.xml',
+    // Every feeds.a.dj.com feed (WSJD, WorldNews, MarketsMain, Opinion, USBusiness)
+    // froze on 2025-01-27 and kept serving that day's items for 18 months.
+    // Migrated to the Google News source feed like the other 17 dead-RSS outlets.
+    rssUrl: 'https://news.google.com/rss/search?q=when:24h+site:wsj.com&hl=en-US&gl=US&ceid=US:en',
     expectedRange: [5.5, 7.0],
   },
   washexaminer: {
