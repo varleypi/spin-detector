@@ -35,6 +35,7 @@ export async function getStoriesForDate(date: string): Promise<StoryCluster[]> {
     id: cluster.cluster_id as string,
     topicLabel: cluster.topic_label as string,
     date: cluster.date as string,
+    analysis: (cluster.analysis as string | null) ?? null,
     articles: (articles as Record<string, unknown>[])
       .filter((a) => a.cluster_id === cluster.cluster_id)
       .map((a) => ({

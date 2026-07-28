@@ -51,6 +51,12 @@ CREATE TABLE IF NOT EXISTS story_clusters (
   cluster_id   TEXT    NOT NULL,
   topic_label  TEXT    NOT NULL,
   outlet_ids   TEXT[]  NOT NULL DEFAULT '{}',
+  -- Original grounded analysis of how outlets framed this story across the
+  -- bias spectrum (see migrations/001_story_analysis.sql). Shown on the story
+  -- page as its original written content.
+  analysis        TEXT,
+  analysis_model  TEXT,
+  analysis_at     TIMESTAMPTZ,
   created_at   TIMESTAMPTZ DEFAULT NOW(),
   UNIQUE (date, cluster_id)
 );

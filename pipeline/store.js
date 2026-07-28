@@ -61,7 +61,8 @@ async function upsertArticles(supabase, scoredArticles, date) {
 
 // ── Story Clusters ────────────────────────────────────────────────────────────
 
-async function upsertClusters(supabase, clusters, scoredArticles, date) {
+async function upsertClusters(supabase, clusters, scoredArticles, date, analyses) {
+  const nowIso = new Date().toISOString()
   const rows = clusters.map((c) => {
     const outletIds = [
       ...new Set(
@@ -70,11 +71,15 @@ async function upsertClusters(supabase, clusters, scoredArticles, date) {
           .map((a) => a.outletId)
       ),
     ]
+    const analysis = analyses?.get(c.clusterId)
     return {
       date,
       cluster_id: c.clusterId,
       topic_label: c.topicLabel,
       outlet_ids: outletIds,
+      analysis: analysis?.analysis ?? null,
+      analysis_model: analysis?.model ?? null,
+      analysis_at: analysis ? nowIso : null,
     }
   })
 
@@ -153,13 +158,14 @@ async function logRun(supabase, { status, errorMessage, articleCount, storyCount
 
 // ── JSON Fallback ─────────────────────────────────────────────────────────────
 
-function writeJsonFallback({ scoredArticles, clusters, date }) {
+function writeJsonFallback({ scoredArticles, clusters, date, analyses }) {
   // Build StoryCluster[] — same shape as db.ts getStoriesForDate()
   const stories = clusters
     .map((c) => ({
       id: c.clusterId,
       topicLabel: c.topicLabel,
       date,
+      analysis: analyses?.get(c.clusterId)?.analysis ?? null,
       articles: scoredArticles
         .filter((a) => a.clusterId === c.clusterId)
         .map((a, i) => ({
@@ -222,12 +228,12 @@ async function clearDay(supabase, date) {
   console.log(`   ✓ cleared existing ${date} rows (replace, not accumulate)`)
 }
 
-async function storeResults({ scoredArticles, clusters, date, elapsedSeconds }) {
+async function storeResults({ scoredArticles, clusters, date, elapsedSeconds, analyses }) {
   const supabase = getSupabase()
 
   await clearDay(supabase, date)
   await upsertArticles(supabase, scoredArticles, date)
-  await upsertClusters(supabase, clusters, scoredArticles, date)
+  await upsertClusters(supabase, clusters, scoredArticles, date, analyses)
   await upsertOutletScores(supabase, scoredArticles, date)
   await logRun(supabase, {
     status: 'success',
@@ -238,7 +244,7 @@ async function storeResults({ scoredArticles, clusters, date, elapsedSeconds }) 
 
   // Always write static JSON fallback regardless of Supabase state
   try {
-    writeJsonFallback({ scoredArticles, clusters, date })
+    writeJsonFallback({ scoredArticles, clusters, date, analyses })
   } catch (err) {
     console.warn(`   ⚠ JSON fallback write failed: ${err.message}`)
   }

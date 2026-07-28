@@ -18,6 +18,7 @@ require('dotenv').config({ path: require('path').join(__dirname, '..', '.env.loc
 
 const { fetchAllHeadlines } = require('./fetch')
 const { clusterAndScore } = require('./cluster')
+const { generateClusterAnalyses } = require('./analyze')
 const { storeResults, logError } = require('./store')
 const { postDailyTweet } = require('./social')
 
@@ -83,11 +84,21 @@ async function main() {
     process.exit(1)
   }
 
+  // ── Stage 3.5: Original per-story analysis ────────────────────────────────
+  // Enrichment, not core data — a failure here must not lose the day's scores.
+  console.log('\n✍️  Stage 3.5 — Writing original bias analysis per story...')
+  let analyses = new Map()
+  try {
+    analyses = await generateClusterAnalyses(clusters, scoredArticles, date)
+  } catch (err) {
+    console.warn(`   ⚠ Analysis stage failed: ${err.message} — storing without analyses`)
+  }
+
   // ── Stage 4+5: Store in Supabase ──────────────────────────────────────────
   console.log('\n💾 Stage 4+5 — Writing to Supabase...')
   const elapsedSeconds = (Date.now() - startTime) / 1000
   try {
-    await storeResults({ scoredArticles, clusters, date, elapsedSeconds })
+    await storeResults({ scoredArticles, clusters, date, elapsedSeconds, analyses })
   } catch (err) {
     console.error(`❌ Storage failed: ${err.message}`)
     await logError(null, `Storage failed: ${err.message}`, scoredArticles.length)

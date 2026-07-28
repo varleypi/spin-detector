@@ -16,6 +16,9 @@ export interface StoryCluster {
   id: string
   topicLabel: string
   date: string
+  /** Original grounded analysis of how outlets framed this story. May be absent
+   *  on very old stories generated before analysis existed. */
+  analysis?: string | null
   articles: Article[]
 }
 

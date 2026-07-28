@@ -59,6 +59,9 @@ export default async function StoryPage({
     datePublished: cluster.date,
     isPartOf: { '@type': 'WebSite', name: 'Spin Detector', url: BASE },
     publisher: { '@type': 'Organization', name: 'Spin Detector' },
+    ...(cluster.analysis
+      ? { articleBody: cluster.analysis, wordCount: cluster.analysis.split(/\s+/).length }
+      : {}),
   }
 
   return (
@@ -109,6 +112,18 @@ export default async function StoryPage({
           </div>
         </div>
 
+        {/* Original analysis — how the framing actually differed. This is the
+            site's own written content, grounded in the per-headline scores and
+            signals below. */}
+        {cluster.analysis && (
+          <section className="bg-slate-900 border border-slate-800 rounded-xl p-5 mb-6">
+            <h3 className="text-xs font-bold uppercase tracking-wider text-slate-400 mb-3">
+              How the coverage framed it
+            </h3>
+            <p className="text-[15px] text-slate-200 leading-relaxed">{cluster.analysis}</p>
+          </section>
+        )}
+
         {/* Ranked outlet list */}
         <ul className="divide-y divide-slate-800 border border-slate-800 rounded-xl overflow-hidden mb-8">
           {sorted.map((a) => (
@@ -121,6 +136,15 @@ export default async function StoryPage({
                 <a href={a.url} target="_blank" rel="noopener noreferrer" className="text-sm text-slate-200 hover:text-white transition-colors leading-snug">
                   {a.headline}
                 </a>
+                {a.biasSignals && a.biasSignals.length > 0 && (
+                  <ul className="mt-1.5 flex flex-wrap gap-x-3 gap-y-1">
+                    {a.biasSignals.map((sig, i) => (
+                      <li key={i} className="text-[11px] text-slate-500 leading-snug">
+                        <span className="text-slate-600">▸</span> {sig}
+                      </li>
+                    ))}
+                  </ul>
+                )}
               </div>
             </li>
           ))}

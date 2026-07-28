@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "pipeline": "node pipeline/run.js"
+    "pipeline": "node pipeline/run.js",
+    "backfill-analysis": "node pipeline/backfill-analysis.js"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.107.0",
