@@ -43,6 +43,19 @@ KEY LINGUISTIC SIGNALS TO DETECT:
   • Emphasis: what information leads vs what is buried
   • Qualifiers: "controversial" before conservative policies, absent before progressive ones
 
+CALIBRATION — 5.0 IS TRUE CENTER, NOT A MIDPOINT TO DRIFT BELOW:
+  • Anchor genuinely neutral, factual wire copy at EXACTLY 5.0: neutral verbs ("said",
+    "announced", "reported", "delivers", "faces"), no loaded adjectives, no victim framing,
+    no ideological signal. A plain headline that just states what happened scores 5.0.
+  • Do NOT deduct below 5.0 merely because a headline lacks conservative/right-coded framing.
+    Absence of right-framing is NOT evidence of left bias — calm, institution-neutral,
+    wire-style reporting is the definition of center. Left of 5.0 requires an actual
+    left-coded linguistic signal, not just the absence of a right-coded one.
+  • Subject matter alone does NOT set the score. A headline about immigration, Iran strikes,
+    ICE, guns, or Epstein is not left or right because of its topic — only the WORDING moves it.
+  • Reserve 0–4 and 6–10 for headlines carrying a clear, nameable linguistic bias signal.
+    When in doubt between "slightly biased" and "neutral", score 5.0.
+
 HEADLINES:
 ${list}
 
@@ -96,6 +109,19 @@ KEY LINGUISTIC SIGNALS:
   • Victim framing: who is portrayed as harmed vs threatening
   • Qualifiers: "controversial" used selectively by lean-left outlets
   • Emphasis: what information leads vs what is buried
+
+CALIBRATION — 5.0 IS TRUE CENTER, NOT A MIDPOINT TO DRIFT BELOW:
+  • Anchor genuinely neutral, factual wire copy at EXACTLY 5.0: neutral verbs ("said",
+    "announced", "reported", "delivers", "faces"), no loaded adjectives, no victim framing,
+    no ideological signal. A plain headline that just states what happened scores 5.0.
+  • Do NOT deduct below 5.0 merely because a headline lacks conservative/right-coded framing.
+    Absence of right-framing is NOT evidence of left bias — calm, institution-neutral,
+    wire-style reporting is the definition of center. Left of 5.0 requires an actual
+    left-coded linguistic signal, not just the absence of a right-coded one.
+  • Subject matter alone does NOT set the score. A headline about immigration, Iran strikes,
+    ICE, guns, or Epstein is not left or right because of its topic — only the WORDING moves it.
+  • Reserve 0–4 and 6–10 for headlines carrying a clear, nameable linguistic bias signal.
+    When in doubt between "slightly biased" and "neutral", score 5.0.
 
 HEADLINES:
 ${list}

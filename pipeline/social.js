@@ -13,9 +13,6 @@
  */
 
 const SITE_URL = 'https://www.spindetector.com'
-// Cap raw string length at 280. X weights a link as only 23 chars but our URL
-// is longer, so capping the raw length keeps the X-weighted length safely under
-// the 280 limit with margin to spare.
 const MAX_TWEET = 280
 
 const X_ENV = ['X_API_KEY', 'X_API_SECRET', 'X_ACCESS_TOKEN', 'X_ACCESS_SECRET']
@@ -40,7 +37,34 @@ function truncate(str, max) {
   return str.slice(0, max - 1).trimEnd() + '…'
 }
 
-/** Choose the day's highest-spread story and compose tweet text. */
+// Deterministic 0..(n-1) pick from a string, so the same story always gets the
+// same opener but different stories vary — avoids the byte-identical daily post
+// that reads as automation to X's ranking.
+function pick(variants, seed) {
+  let h = 0
+  for (let i = 0; i < seed.length; i++) h = (h * 31 + seed.charCodeAt(i)) | 0
+  return variants[Math.abs(h) % variants.length]
+}
+
+const SPREAD_OPENERS = [
+  'Same story, opposite spin.',
+  'One event. Two realities.',
+  'How far apart can the coverage get? This far:',
+  'The widest spin gap we caught today:',
+]
+
+const SLANT_OPENERS = [
+  'Today’s most slanted headline:',
+  'Spin of the day:',
+  'This one leans hard:',
+]
+
+/**
+ * Choose the day's highest-spread story and compose the post.
+ * Returns { text, url } — the link is deliberately kept OUT of `text` so the
+ * caller can post it as a self-reply. X suppresses reach on posts with an
+ * external link in the body; a link in the first reply avoids that penalty.
+ */
 function composeTweet(articles) {
   // Group scored articles into their story clusters.
   const byCluster = new Map()
@@ -78,10 +102,13 @@ function composeTweet(articles) {
     const loOutlet = (top.lo.outletName || top.lo.outletId || '').toUpperCase()
     const hiOutlet = (top.hi.outletName || top.hi.outletId || '').toUpperCase()
     const spreadStr = top.spread.toFixed(1)
+    const seed = top.topicLabel || `${loOutlet}${hiOutlet}${spreadStr}`
+    const opener = pick(SPREAD_OPENERS, seed)
     const scores = `${loOutlet} ${fmt(top.lo.biasScore)} ↔ ${hiOutlet} ${fmt(top.hi.biasScore)} (${spreadStr}-pt gap)`
-    const fixed = `📊 Widest spin gap today — ${top.count} outlets on the same story:\n\n"__T__"\n\n${scores}\n\n${SITE_URL}\n#MediaBias`
+    const fixed = `${opener} ${top.count} outlets, one story:\n\n"__T__"\n\n${scores}`
     const room = MAX_TWEET - (fixed.length - '__T__'.length)
-    return fixed.replace('__T__', truncate(top.topicLabel || 'today’s top story', Math.max(20, room)))
+    const text = fixed.replace('__T__', truncate(top.topicLabel || 'today’s top story', Math.max(20, room)))
+    return { text, url: SITE_URL }
   }
 
   // Fallback: single most slanted headline (no multi-outlet clusters).
@@ -92,9 +119,11 @@ function composeTweet(articles) {
   if (!single) return null
   const a = single.a
   const outlet = (a.outletName || a.outletId || '').toUpperCase()
-  const fixed = `Today's most slanted headline — ${outlet} (${label(a.biasScore)}, ${fmt(a.biasScore)} on our −5/+5 scale):\n\n"__H__"\n\n${SITE_URL}\n#MediaBias`
+  const opener = pick(SLANT_OPENERS, a.headline || outlet)
+  const fixed = `${opener} ${outlet} (${label(a.biasScore)}, ${fmt(a.biasScore)} on our −5/+5 scale):\n\n"__H__"`
   const room = MAX_TWEET - (fixed.length - '__H__'.length)
-  return fixed.replace('__H__', truncate(a.headline || '', Math.max(20, room)))
+  const text = fixed.replace('__H__', truncate(a.headline || '', Math.max(20, room)))
+  return { text, url: SITE_URL }
 }
 
 async function postDailyTweet(articles) {
@@ -108,8 +137,8 @@ async function postDailyTweet(articles) {
     return
   }
 
-  const text = composeTweet(articles)
-  if (!text) {
+  const post = composeTweet(articles)
+  if (!post) {
     console.log('   ℹ Nothing share-worthy to post today')
     return
   }
@@ -123,8 +152,21 @@ async function postDailyTweet(articles) {
       accessToken: process.env.X_ACCESS_TOKEN,
       accessSecret: process.env.X_ACCESS_SECRET,
     })
-    const res = await client.v2.tweet(text)
-    console.log(`   ✓ Posted to X (id ${res?.data?.id ?? 'unknown'})`)
+    // Main post carries no link — X throttles reach on posts with an external
+    // link in the body. Post the hook first, then the link as a self-reply.
+    const res = await client.v2.tweet(post.text)
+    const id = res?.data?.id
+    console.log(`   ✓ Posted to X (id ${id ?? 'unknown'})`)
+    if (id && post.url) {
+      try {
+        await client.v2.tweet(`Full breakdown & today’s other stories 👇\n${post.url}`, {
+          reply: { in_reply_to_tweet_id: id },
+        })
+        console.log('   ✓ Posted link as self-reply')
+      } catch (err) {
+        console.warn(`   ⚠ Link reply failed: ${err.message} — main post is up`)
+      }
+    }
   } catch (err) {
     console.warn(`   ⚠ X post failed: ${err.message} — continuing`)
   }
