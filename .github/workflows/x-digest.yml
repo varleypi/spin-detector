@@ -1,0 +1,81 @@
+name: X Reply Digest
+
+# The audit step for unattended posting. Prints every reply that went out in the
+# last 24h, every candidate the guardrails stopped (and why), and the day's xAI
+# spend — into the Actions job summary, so reviewing is one click from the email
+# GitHub already sends you on workflow completion.
+#
+# Read this, not X. That is the whole point of the design.
+
+on:
+  schedule:
+    - cron: '0 8 * * *'   # 08:00 UTC ≈ 04:00 ET — after the US news day closes
+  workflow_dispatch:
+
+# issues: write so the digest can be opened as an issue. That's the delivery
+# mechanism: GitHub only emails on FAILED workflow runs by default, so a
+# successful daily digest would otherwise never reach an inbox — and switching
+# notifications to "all workflows" would also mail every hourly auto-reply run.
+# An issue in your own repo notifies you once, and leaves a dated archive.
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: 'npm'
+          cache-dependency-path: package-lock.json
+
+      - name: Install dependencies
+        run: npm ci --omit=dev || npm install
+
+      - name: Build digest
+        run: node pipeline/x/digest.js
+        env:
+          DIGEST_OUTPUT_FILE:   digest.md
+          SUPABASE_URL:         ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          # Read so the digest can report the settings actually in force.
+          X_AUTOPOST:                 ${{ vars.X_AUTOPOST }}
+          DAILY_POST_CAP:             ${{ vars.DAILY_POST_CAP }}
+          DAILY_COST_BUDGET_USD:      ${{ vars.DAILY_COST_BUDGET_USD }}
+          MAX_REPLIES_PER_PARENT_DAY: ${{ vars.MAX_REPLIES_PER_PARENT_DAY }}
+          MIN_PARENT_FOLLOWERS:       ${{ vars.MIN_PARENT_FOLLOWERS }}
+          MAX_PARENT_AGE_MINUTES:     ${{ vars.MAX_PARENT_AGE_MINUTES }}
+
+      - name: Open digest as an issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          date_utc=$(date -u +%Y-%m-%d)
+          # Label is created on first use; ignore the error when it already exists.
+          gh label create x-digest --color 1D76DB --description "Daily X reply digest" 2>/dev/null || true
+          gh issue create \
+            --title "X reply digest — $date_utc" \
+            --body-file digest.md \
+            --label x-digest
+
+      - name: Close digests older than 14 days
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        # Keeps the issue list from becoming a wall of open digests. Closed
+        # issues stay searchable, so nothing is lost.
+        run: |
+          cutoff=$(date -u -d '14 days ago' +%Y-%m-%d)
+          gh issue list --label x-digest --state open --limit 100 \
+            --json number,createdAt \
+            --jq ".[] | select(.createdAt < \"$cutoff\") | .number" \
+          | while read -r n; do
+              [ -n "$n" ] && gh issue close "$n" --comment "Superseded — archived automatically."
+            done

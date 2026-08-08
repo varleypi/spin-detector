@@ -34,13 +34,36 @@ async function logRunError(supabase, runId, message) {
 }
 
 // ── Candidates ──────────────────────────────────────────────────────────────
+// Columns written at discovery time. Explicit rather than spreading the whole
+// candidate: later stages attach derived fields (cluster objects, composed text)
+// that aren't columns, and a stray key makes PostgREST reject the whole batch.
+const DISCOVERY_COLUMNS = [
+  'tweet_id',
+  'tweet_url',
+  'author_handle',
+  'author_name',
+  'author_type',
+  'author_followers',
+  'text',
+  'likes',
+  'reposts',
+  'replies',
+  'quotes',
+  'age_minutes',
+  'velocity',
+]
+
 /**
  * Insert freshly discovered candidates. ON CONFLICT (tweet_id) we skip — a tweet
  * already seen in a prior run keeps its existing status/score. Returns inserted rows.
  */
 async function insertCandidates(supabase, runId, candidates) {
   if (candidates.length === 0) return []
-  const rows = candidates.map((c) => ({ ...c, run_id: runId, status: 'discovered' }))
+  const rows = candidates.map((c) => {
+    const row = { run_id: runId, status: 'discovered' }
+    for (const k of DISCOVERY_COLUMNS) if (c[k] !== undefined) row[k] = c[k]
+    return row
+  })
   const { data, error } = await supabase
     .from('x_candidates')
     .upsert(rows, { onConflict: 'tweet_id', ignoreDuplicates: true })
@@ -113,6 +136,104 @@ async function putCachedScore(supabase, row) {
   if (error) console.warn(`   ⚠ x_score_cache write failed: ${error.message}`)
 }
 
+/**
+ * Total xAI spend recorded today (UTC), across every run. Backs the hard daily
+ * budget guard — the frequency that makes replies land early also multiplies
+ * anything that goes wrong, so the ceiling is enforced, not assumed.
+ *
+ * Returns 0 (not Infinity) if the read fails: an unavailable cost history should
+ * not silently halt posting for the rest of the day. The per-run caps still
+ * bound the damage.
+ */
+async function getSpendToday(supabase) {
+  const since = new Date()
+  since.setUTCHours(0, 0, 0, 0)
+  const { data, error } = await supabase
+    .from('x_runs')
+    .select('cost_usd')
+    .gte('created_at', since.toISOString())
+  if (error) {
+    console.warn(`   ⚠ spend-today read failed: ${error.message} — assuming $0`)
+    return 0
+  }
+  return (data || []).reduce((sum, r) => sum + (Number(r.cost_usd) || 0), 0)
+}
+
+// ── Posts ───────────────────────────────────────────────────────────────────
+/**
+ * Record a published reply. Deliberately tolerant: by the time this runs the
+ * tweet is already public, so a DB failure must be logged loudly but must NOT
+ * throw — losing the row is bad, but crashing the run and re-posting the same
+ * reply on the next cron is worse.
+ */
+async function recordReplyPost(supabase, row) {
+  const { error } = await supabase.from('x_posts').insert(row)
+  if (error) {
+    console.error(
+      `   ‼ x_posts insert FAILED for live tweet ${row.tweet_id}: ${error.message}\n` +
+        `     The reply IS published. Per-parent caps may be off until this is reconciled.`,
+    )
+    return false
+  }
+  return true
+}
+
+/** Posts published today (UTC), newest first — for the daily digest. */
+async function getPostsToday(supabase) {
+  const since = new Date()
+  since.setUTCHours(0, 0, 0, 0)
+  const { data, error } = await supabase
+    .from('x_posts')
+    .select('*')
+    .gte('posted_at', since.toISOString())
+    .order('posted_at', { ascending: false })
+  if (error) {
+    console.warn(`   ⚠ posts-today read failed: ${error.message}`)
+    return []
+  }
+  return data || []
+}
+
+/** Candidates from today that were considered but not posted — digest input. */
+async function getSkippedToday(supabase) {
+  const since = new Date()
+  since.setUTCHours(0, 0, 0, 0)
+  const { data, error } = await supabase
+    .from('x_candidates')
+    .select('author_handle, text, status, status_note, bias_score, prefilter_score')
+    .gte('created_at', since.toISOString())
+    .in('status', ['blocked', 'skipped', 'prefiltered_out', 'error'])
+  if (error) {
+    console.warn(`   ⚠ skipped-today read failed: ${error.message}`)
+    return []
+  }
+  return data || []
+}
+
+/**
+ * Replies that cleared every guardrail and were fully composed, but weren't
+ * published because the run was a dry run.
+ *
+ * This is the whole point of dry-run mode: these are the posts that WOULD have
+ * gone out. They live on x_candidates (not x_posts, which only records real
+ * tweets), so the digest has to ask for them separately.
+ */
+async function getDryRunToday(supabase) {
+  const since = new Date()
+  since.setUTCHours(0, 0, 0, 0)
+  const { data, error } = await supabase
+    .from('x_candidates')
+    .select('author_handle, tweet_url, text, composed_text, reply_format, bias_score, cluster_id, created_at')
+    .gte('created_at', since.toISOString())
+    .eq('status', 'dry_run')
+    .order('created_at', { ascending: false })
+  if (error) {
+    console.warn(`   ⚠ dry-run read failed: ${error.message}`)
+    return []
+  }
+  return data || []
+}
+
 module.exports = {
   getSupabase,
   createRun,
@@ -124,4 +245,9 @@ module.exports = {
   getRecentTexts,
   getCachedScores,
   putCachedScore,
+  recordReplyPost,
+  getPostsToday,
+  getSkippedToday,
+  getDryRunToday,
+  getSpendToday,
 }

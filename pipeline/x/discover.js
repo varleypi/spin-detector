@@ -15,17 +15,41 @@
  * search (Basic+ tier) returns real metrics — that's the upgrade path.
  */
 
-const { xSearchJson } = require('./grok')
+const { xSearchJson, costLine } = require('./grok')
+const { discoveryHandles, outletForHandle, isReplyTarget } = require('../xHandles')
 
-// Kept small and news-desk-shaped on purpose — a tight brief keeps the agentic
-// search short, which is what costs money.
-const discoveryPrompt = (max) => `Search X and find up to ${max} posts from roughly the last 6 hours that:
+// Two numbers in this prompt are load-bearing, both calibrated against live A/B
+// runs on 2026-08-08 (all three measured back-to-back, within the same minute):
+//
+//   window  budget   posts  fresh≤180m    cost   tool calls
+//     3h       3         0        0      $0.020       3
+//    12h       6         8        6      $0.076       5    ← shipped
+//    12h    none         8        8      $0.185      17
+//
+// SEARCH BUDGET: Grok treats "find up to N" as a target and keeps searching
+// until it hits it — 17 calls when unbudgeted. Capping is the main cost lever.
+// But cap too hard (3) and it gives up and returns an empty list, which isn't a
+// saving, it's a dead pipeline that posts nothing. 6 is where it still finds
+// things. Do not lower this without re-running the A/B.
+//
+// WINDOW: this is a search-EFFORT dial, NOT a freshness control — the intuitive
+// reading is backwards. Asking for 3 hours doesn't return fresher posts, it just
+// makes the search hard enough that a budgeted agent gives up. Real freshness is
+// enforced downstream where it's reliable (prefilter drops >240m, guardrails
+// block >180m) against each post's actual age. So: ask wide, filter hard.
+const SEARCH_WINDOW_HOURS = () => Number(process.env.DISCOVERY_WINDOW_HOURS) || 12
+const SEARCH_CALL_BUDGET = () => Number(process.env.MAX_SEARCH_CALLS) || 6
+
+const discoveryPrompt = (max) => `Search X and find up to ${max} posts from the last ${SEARCH_WINDOW_HOURS()} hours that:
   • make a concrete NEWS claim or carry a news HEADLINE (politics, US/world news, policy,
     breaking events) — NOT opinion-only, memes, ads, or personal threads, and
-  • already show early traction for their age (fast likes/reposts), and
-  • come from journalists, news outlets, politicians, officials, or high-reach news accounts.
+  • already show early traction for their age (fast likes/reposts).
 
-Prefer posts that will keep spreading. Exclude anything older than ~12 hours.
+List the NEWEST posts first — freshness is the priority. We reply to these, so a post
+past its peak is worth less than a smaller one still climbing.
+
+SEARCH BUDGET: make at most ${SEARCH_CALL_BUDGET()} search calls, then answer with what you found.
+Do not keep searching just to reach ${max} results.
 
 For EACH post return an object:
   handle           : author @handle without the @
@@ -72,24 +96,36 @@ function toCandidate(p) {
   }
 }
 
-/** Default discovery via Grok's x_search agent tool. Returns normalized candidates. */
-async function discoverViaGrok({ maxResults = 20 } = {}) {
-  // Bound the search to today + yesterday (UTC) — we only want fresh news, and a
-  // tight window keeps the agentic search cheap.
-  const today = new Date()
-  const yesterday = new Date(today.getTime() - 24 * 60 * 60 * 1000)
+/**
+ * Default discovery via Grok's x_search agent tool. Returns normalized candidates.
+ *
+ * Scoped to `allowed_x_handles` — the outlet accounts we actually reply under.
+ * This is both a cost lever (a bounded search finishes in one or two tool calls
+ * instead of roaming all of X) and a targeting one: a post we can't reply to is
+ * a post we shouldn't have paid to find.
+ */
+async function discoverViaGrok({ maxResults = 8 } = {}) {
+  // Today only (UTC). We want posts minutes old, not yesterday's news — and a
+  // one-day window is materially cheaper than a two-day one.
   const iso = (d) => d.toISOString().slice(0, 10)
+  const now = new Date()
+  const handles = discoveryHandles()
 
-  const { data, citations } = await xSearchJson({
+  const { data, citations, usage } = await xSearchJson({
     prompt: discoveryPrompt(maxResults),
     system: 'You surface real, currently-trending posts from X. You always respond with valid JSON only, no preamble.',
-    fromDate: iso(yesterday),
-    toDate: iso(today),
+    fromDate: iso(new Date(now.getTime() - 24 * 60 * 60 * 1000)),
+    toDate: iso(now),
+    allowedHandles: handles,
   })
   const posts = Array.isArray(data?.posts) ? data.posts : []
   const candidates = posts.map(toCandidate).filter(Boolean)
-  console.log(`   x_search returned ${posts.length} posts, ${candidates.length} usable (${citations.length} citations)`)
-  return candidates
+  console.log(
+    `   x_search over ${handles.length} handles returned ${posts.length} posts, ` +
+      `${candidates.length} usable (${citations.length} citations)`,
+  )
+  console.log(costLine(usage, 'discovery'))
+  return { candidates, usage }
 }
 
 /**
@@ -100,48 +136,43 @@ async function discoverViaXApi() {
   throw new Error('discoverViaXApi not implemented — requires X Basic+ (recent search). Using Grok Live Search.')
 }
 
-// We only rate MEDIA — outlets, journalists, politicians, officials. Aggregator /
-// rewrite accounts (author_type 'other') are excluded: rating a random account's
-// emoji rewrite is a weak "media bias" claim and carries more backlash risk than
-// rating an institution. Override with ELIGIBLE_AUTHOR_TYPES (comma-separated).
-const DEFAULT_ELIGIBLE_TYPES = ['outlet', 'journalist', 'politician', 'official']
-
-function eligibleTypes() {
-  const raw = process.env.ELIGIBLE_AUTHOR_TYPES
-  if (!raw) return DEFAULT_ELIGIBLE_TYPES
-  return raw.split(',').map((s) => s.trim().toLowerCase()).filter(Boolean)
-}
-
 /**
- * Public entry point. Filters to eligible author types, dedupes by tweet_id.
+ * Public entry point. Filters to accounts we're allowed to reply under, dedupes
+ * by tweet_id. Returns { candidates, usage }.
+ *
+ * The eligibility gate is now membership in the tracked-outlet handle map, not
+ * Grok's self-reported `author_type`. Two reasons: the handle map is ground
+ * truth where author_type is a guess, and it's the same list the reply
+ * guardrails enforce — so discovery can't surface something we'd refuse to use.
+ *
  * Env: DISCOVERY_SOURCE = 'grok' (default) | 'xapi'; MAX_LIVE_SEARCH_RESULTS;
- *      ELIGIBLE_AUTHOR_TYPES.
+ *      X_DISCOVERY_HANDLES.
  */
 async function discoverCandidates() {
   const source = process.env.DISCOVERY_SOURCE || 'grok'
-  const maxResults = Number(process.env.MAX_LIVE_SEARCH_RESULTS) || 20
+  const maxResults = Number(process.env.MAX_LIVE_SEARCH_RESULTS) || 8
 
-  const raw =
+  const { candidates: raw, usage } =
     source === 'xapi' ? await discoverViaXApi() : await discoverViaGrok({ maxResults })
 
-  const allowed = eligibleTypes()
   const seen = new Set()
   const deduped = []
   let ineligible = 0
   for (const c of raw) {
-    if (!allowed.includes(String(c.author_type).toLowerCase())) {
+    const outletId = outletForHandle(c.author_handle)
+    if (!isReplyTarget(c.author_handle)) {
       ineligible++
       continue
     }
     if (seen.has(c.tweet_id)) continue
     seen.add(c.tweet_id)
-    deduped.push(c)
+    deduped.push({ ...c, outlet_id: outletId, author_type: 'outlet' })
   }
   console.log(
     `   ✓ Discovered ${deduped.length} eligible candidates (source: ${source}; ` +
-      `${ineligible} dropped as non-media)`,
+      `${ineligible} dropped — not a tracked outlet account)`,
   )
-  return deduped
+  return { candidates: deduped, usage }
 }
 
 module.exports = { discoverCandidates, tweetIdFromUrl, toCandidate }

@@ -1,99 +1,115 @@
 /**
- * Stage 2 — Virality pre-filter (grok-3-mini, one batched call).
+ * Stage 2 — Virality pre-filter. Pure JS, no model call.
  *
- * Cheap gate before full scoring: keep only posts that make a checkable news
- * claim AND show real early traction, then cap to DAILY_CANDIDATE_CAP by
- * virality. Everything dropped here never reaches the (slightly pricier) scorer.
+ * This used to be a grok-3-mini call asking "is this newsy and is it climbing?".
+ * It was removed for two reasons:
+ *   1. Cost/latency — it was a whole round-trip per run to re-derive judgements
+ *      the discovery prompt already applied, and in reply mode every second
+ *      between a post going up and our reply landing costs reach.
+ *   2. It was scoring the wrong thing. The signals that matter (engagement per
+ *      minute, author reach, does the text carry a checkable claim) are all
+ *      numeric or lexical. A model adds noise, not accuracy.
+ *
+ * Keeps the same {survivors, dropped} contract so the orchestrator is unchanged.
  */
 
-const { chatJson } = require('./grok')
+const CAP = () => Number(process.env.DAILY_CANDIDATE_CAP) || 6
+const FLOOR = () => Number(process.env.VIRALITY_FLOOR) || 0.35
 
-const CAP = () => Number(process.env.DAILY_CANDIDATE_CAP) || 12
+// Posts we can't usefully rate. A live-blog pointer or a bare "WATCH:" teaser
+// has no claim to score — replying with a bias number would be nonsense.
+const NON_CLAIM = [
+  /^watch\b/i,
+  /^live\b/i,
+  /^breaking:?\s*$/i,
+  /follow (our )?live (updates|coverage)/i,
+  /^(read|see) more\b/i,
+  /link in bio/i,
+  /^\s*(thread|🧵)/i,
+]
 
-function buildPrompt(candidates) {
-  const list = candidates
-    .map(
-      (c, i) =>
-        `[${i}] @${c.author_handle} (${c.author_type}, ~${c.author_followers ?? '?'} followers) | ` +
-        `age ${c.age_minutes}m | ${c.likes}L/${c.reposts}RT/${c.replies}RE: ${c.text}`,
-    )
-    .join('\n')
+// A headline needs enough words to carry framing. Below this it's a label.
+const MIN_WORDS = 6
 
-  return `You are a news-desk triage filter. Given raw X posts, score each for VIRAL NEWS potential.
-Keep only posts that make a checkable news claim OR carry a news headline AND show real early
-traction for their age.
-
-Do NOT reward: opinion with no claim, memes, threads about the poster's own life, ads,
-engagement bait, or already-hours-old posts with flat velocity.
-
-For each post return:
-  index    : the input index
-  keep     : boolean
-  virality : 0.00–1.00  (early engagement-for-age × author reach × claim clarity)
-  newsy    : boolean    (is there a concrete news claim/headline?)
-  reason   : <= 12 words
-
-POSTS:
-${list}
-
-Respond JSON only:
-{"items":[{"index":0,"keep":true,"virality":0.72,"newsy":true,"reason":"..."}]}
-RULES:
-  • Return one entry per post — all ${candidates.length} indices.
-  • virality: number 0.00–1.00, two decimals.`
+/** Does this text make a scoreable claim? */
+function hasClaim(text) {
+  const t = String(text || '').replace(/https?:\/\/\S+/g, '').trim()
+  if (t.split(/\s+/).filter(Boolean).length < MIN_WORDS) return false
+  return !NON_CLAIM.some((re) => re.test(t))
 }
 
 /**
- * Returns { survivors, dropped }.
- *   survivors: candidates augmented with { prefilter_score, prefilter_reason }, capped + sorted.
- *   dropped:   candidates augmented with { prefilter_score, prefilter_reason } that failed the gate.
- * On Grok failure, degrades to velocity-ranked survivors so the run still produces work.
+ * 0–1 virality score. Three weighted factors, each saturating, so no single
+ * dimension can carry a weak candidate:
+ *   • velocity — engagement per minute, the actual "is it climbing" signal
+ *   • reach    — author followers, log-scaled
+ *   • fresh    — decays with age; a 4-hour-old post is nearly worthless to
+ *                reply under no matter how big it got
+ *
+ * CALIBRATED against 27 real candidates (2026-08-08): velocity p50 0.89,
+ * p90 9.95, max 11.0. The first version normalised velocity against a ceiling of
+ * 50, which was a guess and wrong by ~5×: the term contributed almost nothing,
+ * every candidate landed within 0.04 of the floor, and ranking was effectively
+ * random. Re-measure this if Grok's engagement estimates change scale.
+ *
+ * Reach is near-constant in practice (tracked outlets run 9M–42M followers, so
+ * the term is ~0.2 for everyone). It's kept as a floor against a mis-mapped
+ * handle rather than as a discriminator — freshness and velocity do the ranking.
+ */
+const VELOCITY_CEILING = 10 // ≈ p90 of observed engagement/minute
+
+function viralityScore(c) {
+  const velocity = Math.min(1, (c.velocity || 0) / VELOCITY_CEILING)
+  const reach = Math.min(1, Math.log10(Math.max(1, c.author_followers || 1)) / 7) // 10M → 1.0
+  const age = Math.max(1, c.age_minutes || 60)
+  const fresh = Math.max(0, Math.min(1, 1 - (age - 15) / 225)) // 1.0 ≤15m → 0 at 240m
+  const score = velocity * 0.5 + reach * 0.2 + fresh * 0.3
+  return Math.round(Math.max(0, Math.min(1, score)) * 100) / 100
+}
+
+/**
+ * Returns { survivors, dropped }, both augmented with prefilter_score /
+ * prefilter_reason. Survivors are sorted best-first and capped.
  */
 async function prefilterCandidates(candidates) {
   if (candidates.length === 0) return { survivors: [], dropped: [] }
 
-  let items
-  try {
-    const { data } = await chatJson({
-      prompt: buildPrompt(candidates),
-      system:
-        'You are a news-desk triage editor. You always respond with valid JSON only, no preamble.',
-      maxTokens: 4000,
-    })
-    items = Array.isArray(data?.items) ? data.items : []
-  } catch (err) {
-    console.warn(`   ⚠ Pre-filter Grok call failed: ${err.message} — falling back to velocity ranking`)
-    const ranked = [...candidates]
-      .map((c) => ({ ...c, prefilter_score: null, prefilter_reason: 'grok-unavailable:velocity-rank' }))
-      .sort((a, b) => (b.velocity || 0) - (a.velocity || 0))
-    return { survivors: ranked.slice(0, CAP()), dropped: ranked.slice(CAP()) }
-  }
-
-  const byIndex = new Map(items.map((it) => [it.index, it]))
   const survivors = []
   const dropped = []
-  candidates.forEach((c, i) => {
-    const it = byIndex.get(i)
-    const score = it ? Math.max(0, Math.min(1, Number(it.virality) || 0)) : 0
-    const augmented = {
-      ...c,
-      prefilter_score: it ? score : null,
-      prefilter_reason: it?.reason || 'no verdict returned',
-    }
-    // Keep = model said keep AND it's newsy. Missing verdicts are dropped.
-    if (it && it.keep && it.newsy) survivors.push(augmented)
-    else dropped.push(augmented)
-  })
 
-  survivors.sort((a, b) => (b.prefilter_score || 0) - (a.prefilter_score || 0))
+  for (const c of candidates) {
+    const score = viralityScore(c)
+    const augmented = { ...c, prefilter_score: score }
+
+    if (!hasClaim(c.text)) {
+      dropped.push({ ...augmented, prefilter_reason: 'no scoreable claim in text' })
+      continue
+    }
+    if ((c.age_minutes || 0) > 240) {
+      dropped.push({ ...augmented, prefilter_reason: `too old (${c.age_minutes}m) to reply under` })
+      continue
+    }
+    // Floor sits at 0.35 because the reach term contributes a near-constant
+    // ~0.2 for every tracked outlet — a lower floor would never fire. At 0.35
+    // this drops the "old and flat" combination (e.g. 200m old at 0.14 eng/min
+    // → 0.26) while keeping fresh-or-fast posts (35m at 2.1 eng/min → 0.58).
+    if (score < FLOOR()) {
+      dropped.push({ ...augmented, prefilter_reason: `virality ${score} below floor ${FLOOR()}` })
+      continue
+    }
+    survivors.push({ ...augmented, prefilter_reason: `virality ${score}` })
+  }
+
+  survivors.sort((a, b) => b.prefilter_score - a.prefilter_score)
   const cap = CAP()
   const kept = survivors.slice(0, cap)
-  const overflow = survivors.slice(cap).map((c) => ({ ...c, prefilter_reason: 'over-daily-cap' }))
+  const overflow = survivors.slice(cap).map((c) => ({ ...c, prefilter_reason: 'over-run cap' }))
 
   console.log(
-    `   ✓ Pre-filter: ${kept.length} kept (cap ${cap}), ${dropped.length + overflow.length} dropped`,
+    `   ✓ Pre-filter (no model): ${kept.length} kept (cap ${cap}), ` +
+      `${dropped.length + overflow.length} dropped`,
   )
   return { survivors: kept, dropped: [...dropped, ...overflow] }
 }
 
-module.exports = { prefilterCandidates, buildPrompt }
+module.exports = { prefilterCandidates, viralityScore, hasClaim }

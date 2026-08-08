@@ -10,10 +10,16 @@
  */
 
 const crypto = require('crypto')
-const { chatJson } = require('./grok')
+const { chatJson, callCost, costLine } = require('./grok')
 const { getCachedScores, putCachedScore } = require('./db')
 
 const SCORE_MODEL = 'grok-3-mini'
+
+// Hard ceiling on how many posts we pay to score in one run. In reply mode we
+// publish at most a couple per run, so scoring a dozen is buying answers we
+// throw away. Cluster-matched candidates don't count against this — they cost
+// nothing.
+const SCORE_BUDGET = () => Number(process.env.SCORE_BUDGET_PER_RUN) || 3
 
 // Normalize text so near-identical headlines share a cache key: lowercase, drop
 // URLs/@mentions/#hashtags, collapse punctuation + whitespace.
@@ -69,18 +75,29 @@ RULES:
 }
 
 /**
- * Scores survivors. Returns candidates augmented with bias_score / bias_signals /
- * rationale / score_model / content_hash. Cache hits skip the model entirely.
- * On Grok failure the uncached items are returned unscored (status handled by caller).
+ * Scores survivors. Returns { scored, costUsd }; candidates are augmented with
+ * bias_score / bias_signals / rationale / score_model / content_hash.
+ *
+ * Three tiers of free before we spend anything:
+ *   1. candidates with a matched cluster — never scored here at all
+ *   2. content_hash cache hits — same wire copy already scored
+ *   3. SCORE_BUDGET_PER_RUN — cap on what's left
+ *
+ * On Grok failure the uncached items come back unscored (caller handles status).
  */
 async function scoreCandidates(supabase, survivors) {
-  if (survivors.length === 0) return []
+  if (survivors.length === 0) return { scored: [], costUsd: 0 }
 
-  const withHash = survivors.map((c) => ({ ...c, content_hash: contentHash(c.text) }))
+  // Cluster-matched candidates already have everything a comparison reply needs.
+  const free = survivors.filter((c) => c.cluster)
+  const needScore = survivors.filter((c) => !c.cluster)
+  if (free.length) console.log(`   ↺ ${free.length} need no scoring (cluster matched)`)
+
+  const withHash = needScore.map((c) => ({ ...c, content_hash: contentHash(c.text) }))
   const cache = await getCachedScores(supabase, [...new Set(withHash.map((c) => c.content_hash))])
 
   const cached = []
-  const toScore = []
+  const uncached = []
   for (const c of withHash) {
     const hit = cache.get(c.content_hash)
     if (hit) {
@@ -93,20 +110,35 @@ async function scoreCandidates(supabase, survivors) {
         _cacheHit: true,
       })
     } else {
-      toScore.push(c)
+      uncached.push(c)
     }
   }
   if (cached.length) console.log(`   ↺ ${cached.length} scored from cache`)
 
+  // Spend only on the best of what's left — they're already sorted by virality.
+  const budget = SCORE_BUDGET()
+  const toScore = uncached.slice(0, budget)
+  const unfunded = uncached.slice(budget).map((c) => ({
+    ...c,
+    bias_score: null,
+    _unfunded: true,
+  }))
+  if (unfunded.length) {
+    console.log(`   ✂ ${unfunded.length} left unscored (budget ${budget}/run)`)
+  }
+
   let scored = []
+  let costUsd = 0
   if (toScore.length) {
     try {
-      const { data } = await chatJson({
+      const { data, usage } = await chatJson({
         prompt: buildPrompt(toScore),
         system:
           'You are a computational linguistics researcher specializing in political media bias analysis. You always respond with valid JSON only, no preamble or explanation.',
         maxTokens: 6000,
       })
+      costUsd = callCost(usage).usd
+      console.log(costLine(usage, 'scoring'))
       const byIndex = new Map((data?.scores ?? []).map((s) => [s.index, s]))
       for (let i = 0; i < toScore.length; i++) {
         const s = byIndex.get(i)
@@ -142,7 +174,7 @@ async function scoreCandidates(supabase, survivors) {
     }
   }
 
-  return [...cached, ...scored]
+  return { scored: [...free, ...cached, ...scored, ...unfunded], costUsd }
 }
 
 module.exports = { scoreCandidates, contentHash, buildPrompt }

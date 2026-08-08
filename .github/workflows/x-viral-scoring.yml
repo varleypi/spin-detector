@@ -1,32 +1,51 @@
-name: X Viral Scoring
+name: X Auto-Reply
 
-# Finds viral news tweets, scores them for spin, and QUEUES them for human
-# approval at /admin/x-queue. This workflow never posts to X — publishing is a
-# deliberate human action. See docs/x-viral-scoring-design.md.
+# Finds viral posts from tracked news outlets and REPLIES to them with a spin
+# score, automatically. Replaces the old queue-for-human-approval flow: reply
+# placement decays within the hour, so a human gate guaranteed we were always
+# too late to be seen.
+#
+# Safety lives in pipeline/x/guardrails.js (deterministic, fails closed) and in
+# the X_AUTOPOST repository variable, which is the kill switch. With X_AUTOPOST
+# unset or not 'on', every run is a dry run: it composes replies and records them
+# without publishing. Review the daily digest, then flip it on.
 
 on:
   schedule:
-    # Times are UTC. Comments show US Eastern for EDT (UTC-4, summer);
-    # in EST (winter) each lands an hour earlier local.
-    - cron: '0 12 * * *'   # 08:00 ET — morning news cycle
-    - cron: '0 17 * * *'   # 13:00 ET — midday
-    - cron: '0 22 * * *'   # 18:00 ET — evening, before peak X usage
-  workflow_dispatch:        # Manual trigger from the Actions tab
+    # Hourly across the US news day (11:00–22:00 UTC ≈ 07:00–18:00 ET) = 12 runs.
+    #
+    # Cadence is set by cost, not by taste. A productive run measures ~$0.07
+    # (see docs/x-auto-reply-runbook.md), so 12 runs ≈ $0.84/day, which fits
+    # under the $1.00 DAILY_COST_BUDGET_USD with headroom. Every 30 minutes
+    # would be ~$1.68/day and the budget guard would cut the day off around
+    # 18:00 UTC — losing the evening entirely rather than thinning coverage.
+    #
+    # Hourly is enough because guardrails allow replies up to 180 minutes after
+    # a post goes up, so an hourly sweep sees essentially everything while it's
+    # still repliable. GitHub's scheduler drifts 5–20 min under load; that's
+    # absorbed by the same 180-minute window.
+    - cron: '0 11-22 * * *'
+  workflow_dispatch:
+    inputs:
+      live:
+        description: 'Publish for real (overrides X_AUTOPOST)'
+        type: boolean
+        default: false
 
-# No writes needed — this workflow commits nothing.
 permissions:
   contents: read
 
-# If a run is still going when the next fires, let it finish rather than
-# double-spending on Grok calls.
+# Never let two runs post concurrently — the per-parent and daily caps are
+# enforced from DB state read at run start, so overlapping runs could both see
+# the same "0 posted today" and double up.
 concurrency:
-  group: x-viral-scoring
+  group: x-auto-reply
   cancel-in-progress: false
 
 jobs:
-  discover-and-score:
+  discover-and-reply:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 10
 
     steps:
       - name: Checkout repo
@@ -40,7 +59,7 @@ jobs:
           cache-dependency-path: package-lock.json
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci --omit=dev || npm install
 
       - name: Verify required secrets
         env:
@@ -61,27 +80,65 @@ jobs:
           fi
           echo "✓ All required secrets present"
 
-      - name: Run X viral scoring pipeline
-        run: node pipeline/x/run.js
+      - name: Run X auto-reply pipeline
+        id: pipeline
+        # Exit 78 means the xAI account is out of credits — a standing condition
+        # with no code fix, so it reports as a skip rather than a daily red X.
+        # Any other non-zero code is a real failure and still fails the job.
+        run: |
+          set +e
+          node pipeline/x/run.js ${{ inputs.live && '--live' || '' }}
+          code=$?
+          set -e
+          if [ $code -eq 78 ]; then
+            echo "skipped=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          exit $code
         env:
           XAI_API_KEY:          ${{ secrets.XAI_API_KEY }}
           SUPABASE_URL:         ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
-          # Caps and quality gates — repository *variables*, not secrets, so they
-          # can be tuned in the GitHub UI without rotating anything. Each falls
-          # back to the default baked into the code if unset.
-          DAILY_CANDIDATE_CAP:     ${{ vars.DAILY_CANDIDATE_CAP }}
-          MAX_LIVE_SEARCH_RESULTS: ${{ vars.MAX_LIVE_SEARCH_RESULTS }}
-          ELIGIBLE_AUTHOR_TYPES:   ${{ vars.ELIGIBLE_AUTHOR_TYPES }}
-          MIN_SPIN_THRESHOLD:      ${{ vars.MIN_SPIN_THRESHOLD }}
-          STORY_DEDUPE_THRESHOLD:  ${{ vars.STORY_DEDUPE_THRESHOLD }}
-          CANDIDATE_EXPIRY_HOURS:  ${{ vars.CANDIDATE_EXPIRY_HOURS }}
 
-      - name: Report success
-        if: success()
+          # X write credentials — this workflow now publishes.
+          X_API_KEY:            ${{ secrets.X_API_KEY }}
+          X_API_SECRET:         ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN:       ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_SECRET:      ${{ secrets.X_ACCESS_SECRET }}
+
+          # ── THE KILL SWITCH ──────────────────────────────────────────────
+          # Anything other than 'on' = dry run. Change it in Settings →
+          # Secrets and variables → Actions → Variables. Takes effect on the
+          # next run, no deploy required.
+          X_AUTOPOST:               ${{ vars.X_AUTOPOST }}
+
+          # Caps and gates — repository *variables*, tunable in the GitHub UI.
+          # Each falls back to the default baked into the code if unset.
+          DAILY_POST_CAP:           ${{ vars.DAILY_POST_CAP }}
+          DAILY_COST_BUDGET_USD:    ${{ vars.DAILY_COST_BUDGET_USD }}
+          MAX_REPLIES_PER_PARENT_DAY: ${{ vars.MAX_REPLIES_PER_PARENT_DAY }}
+          MIN_PARENT_FOLLOWERS:     ${{ vars.MIN_PARENT_FOLLOWERS }}
+          MAX_PARENT_AGE_MINUTES:   ${{ vars.MAX_PARENT_AGE_MINUTES }}
+          MIN_SPIN_THRESHOLD:       ${{ vars.MIN_SPIN_THRESHOLD }}
+          X_TOPIC_GROUPS:           ${{ vars.X_TOPIC_GROUPS }}
+
+          # Discovery / cost dials.
+          MAX_LIVE_SEARCH_RESULTS:  ${{ vars.MAX_LIVE_SEARCH_RESULTS }}
+          MAX_SEARCH_CALLS:         ${{ vars.MAX_SEARCH_CALLS }}
+          XAI_SEARCH_EFFORT:        ${{ vars.XAI_SEARCH_EFFORT }}
+          X_HANDLES_PER_RUN:        ${{ vars.X_HANDLES_PER_RUN }}
+          SCORE_BUDGET_PER_RUN:     ${{ vars.SCORE_BUDGET_PER_RUN }}
+          CLUSTER_MATCH_THRESHOLD:  ${{ vars.CLUSTER_MATCH_THRESHOLD }}
+          DAILY_CANDIDATE_CAP:      ${{ vars.DAILY_CANDIDATE_CAP }}
+          STORY_DEDUPE_THRESHOLD:   ${{ vars.STORY_DEDUPE_THRESHOLD }}
+          CANDIDATE_EXPIRY_HOURS:   ${{ vars.CANDIDATE_EXPIRY_HOURS }}
+
+      - name: Report skipped
+        if: success() && steps.pipeline.outputs.skipped == 'true'
         run: |
-          echo "✅ Candidates queued — review at https://www.spindetector.com/admin/x-queue"
+          echo "⏸ Skipped — xAI account is out of credits."
+          echo "   Add credits at https://console.x.ai → Billing; the next run resumes on its own."
 
       - name: Report failure
         if: failure()
-        run: echo "❌ X viral scoring failed — check logs above"
+        run: echo "❌ X auto-reply failed — check logs above"
