@@ -107,10 +107,16 @@ jobs:
           X_ACCESS_TOKEN:       ${{ secrets.X_ACCESS_TOKEN }}
           X_ACCESS_SECRET:      ${{ secrets.X_ACCESS_SECRET }}
 
+          # ── Posting mode ─────────────────────────────────────────────────
+          # 'tap' (default) composes replies and queues them at /admin/x-queue
+          # for a one-tap human post — the only route that works, since the X
+          # API refuses replies outside a "summoned context". 'auto' attempts
+          # the API and will 403 against arbitrary posts.
+          X_POST_MODE:              ${{ vars.X_POST_MODE }}
+          SITE_URL:                 ${{ vars.SITE_URL }}
+
           # ── THE KILL SWITCH ──────────────────────────────────────────────
-          # Anything other than 'on' = dry run. Change it in Settings →
-          # Secrets and variables → Actions → Variables. Takes effect on the
-          # next run, no deploy required.
+          # Only relevant in 'auto' mode. Anything other than 'on' = dry run.
           X_AUTOPOST:               ${{ vars.X_AUTOPOST }}
 
           # Caps and gates — repository *variables*, tunable in the GitHub UI.
