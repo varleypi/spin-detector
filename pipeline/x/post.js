@@ -40,12 +40,41 @@ async function postReply({ text, inReplyToTweetId, dryRun }) {
   }
 
   const client = getClient()
-  const res = await client.v2.tweet(text, {
-    reply: { in_reply_to_tweet_id: inReplyToTweetId },
-  })
-  const tweetId = res?.data?.id
-  if (!tweetId) throw new Error('X returned no tweet id')
-  return { tweetId, dryRun: false }
+  try {
+    const res = await client.v2.tweet(text, {
+      reply: { in_reply_to_tweet_id: inReplyToTweetId },
+    })
+    const tweetId = res?.data?.id
+    if (!tweetId) throw new Error('X returned no tweet id')
+    return { tweetId, dryRun: false }
+  } catch (err) {
+    throw new Error(describeXError(err))
+  }
+}
+
+/**
+ * Turn a twitter-api-v2 error into something actionable.
+ *
+ * The library's default message is just "Request failed with code 403", which
+ * is useless: 403 covers at least four unrelated causes (app lacks write
+ * permission, access tokens minted before permissions changed, duplicate
+ * content, tier restriction) and they need completely different fixes. X puts
+ * the real reason in the response body, so dig it out and keep it — this string
+ * is persisted to x_candidates.status_note and is often the only forensic trace.
+ */
+function describeXError(err) {
+  const code = err?.code || err?.data?.status || 'unknown'
+  const d = err?.data || {}
+  const parts = []
+  if (d.detail) parts.push(d.detail)
+  if (d.title && d.title !== d.detail) parts.push(`(${d.title})`)
+  if (d.reason) parts.push(`reason=${d.reason}`)
+  for (const e of d.errors || []) {
+    if (e.message) parts.push(e.message)
+    else if (e.detail) parts.push(e.detail)
+  }
+  const detail = parts.join(' ') || err?.message || 'no detail returned'
+  return `X ${code}: ${detail}`
 }
 
 function indent(text) {
@@ -55,4 +84,4 @@ function indent(text) {
     .join('\n')
 }
 
-module.exports = { postReply, getClient, indent, X_ENV }
+module.exports = { postReply, getClient, indent, describeXError, X_ENV }

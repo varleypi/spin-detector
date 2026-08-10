@@ -95,6 +95,16 @@ ok(!checkCandidate({ ...good, age_minutes: 400 }, state).ok, 'stale parent block
 ok(!checkCandidate({ ...good, cluster: null, bias_score: 5.2 }, state).ok, 'neutral single-post blocked')
 ok(checkCandidate({ ...good, cluster: null, bias_score: 7.5 }, state).ok, 'slanted single-post passes')
 
+// A cluster where every outlet agreed says nothing — must not post. Regression
+// test for the real "CNN +0.0 · Metro +0.0 · Sky +0.0" reply composed 2026-08-10.
+const flatSpread = { ...spread, gap: 0.0, outlets: spread.outlets.map((o) => ({ ...o, score: 5.0 })) }
+ok(!checkCandidate({ ...good, cluster: flatSpread, bias_score: null }, state).ok,
+  'flat cluster (no spread, no score) blocked')
+ok(checkCandidate({ ...good, cluster: flatSpread, bias_score: 7.5 }, state).ok,
+  'flat cluster still posts when the post itself has a real lean')
+ok(checkCandidate({ ...good, cluster: spread }, state).ok,
+  'cluster with a real gap passes')
+
 const capped = { postedToday: 0, perParent: new Map([['cnn', 1]]), degraded: false }
 ok(!checkCandidate(good, capped).ok, 'per-parent cap blocks 2nd reply to same outlet')
 const full = { postedToday: 99, perParent: new Map(), degraded: false }

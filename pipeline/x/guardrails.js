@@ -81,6 +81,11 @@ const cfg = {
   maxAgeMinutes: () => Number(process.env.MAX_PARENT_AGE_MINUTES) || 180,
   /** Minimum |score − 5| for a single-post (non-cluster) reply to be worth posting. */
   minSpin: () => Number(process.env.MIN_SPIN_THRESHOLD) || 1.0,
+  /**
+   * Minimum left-to-right spread for a comparison reply. Below this the
+   * outlets agreed, and "they all worded it the same" is not a post.
+   */
+  minClusterGap: () => Number(process.env.MIN_CLUSTER_GAP) || 1.5,
 }
 
 // ── Per-run state from the DB ───────────────────────────────────────────────
@@ -157,9 +162,24 @@ function checkCandidate(candidate, state) {
     }
   }
 
-  // 7. Substance. A cluster match always has something to say (the spread).
-  //    A single-post reply needs a real lean, or it's "we scored this 0.0".
-  if (!c.cluster) {
+  // 7. Substance — does this reply actually say anything?
+  //
+  //    Originally this waived the check whenever a cluster matched, on the
+  //    assumption that a spread is inherently interesting. It isn't: a cluster
+  //    where every outlet scored neutral produces "CNN +0.0 · Metro +0.0 ·
+  //    Sky +0.0", which was composed for real on 2026-08-10. That reply asserts
+  //    nothing, and posting it under a viral story is worse than staying quiet
+  //    — it's the exact "pointless bot" impression the whole format exists to
+  //    avoid. So a comparison now needs a real gap between the ends.
+  const clusterGap = c.cluster ? Number(c.cluster.gap) || 0 : null
+  const hasComparison = clusterGap !== null && clusterGap >= cfg.minClusterGap()
+  if (!hasComparison) {
+    if (clusterGap !== null && c.bias_score == null) {
+      return {
+        ok: false,
+        reason: `cluster spread ${clusterGap.toFixed(1)} below ${cfg.minClusterGap()} — nothing to show`,
+      }
+    }
     if (c.bias_score == null) return { ok: false, reason: 'no score available' }
     const spin = Math.abs(c.bias_score - 5)
     if (spin < cfg.minSpin()) {
