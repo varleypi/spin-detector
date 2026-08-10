@@ -19,6 +19,12 @@ const {
   getSpendToday,
 } = require('./db')
 const { cfg } = require('./guardrails')
+const { intentUrl: buildIntent } = require('./tap')
+
+const SITE_URL = process.env.SITE_URL || 'https://www.spindetector.com'
+
+/** Thin wrapper so the template reads cleanly. */
+const intentUrl = (text, tweetId) => buildIntent({ text, inReplyToTweetId: tweetId })
 
 /** Group an array by a key function into a Map. */
 function groupBy(rows, keyFn) {
@@ -51,7 +57,7 @@ async function main() {
   out('# 🐦 Spin Detector — X reply digest')
   out()
   out(
-    `**${posts.length}** published · **${dryRun.length}** withheld (dry run) · ` +
+    `**${posts.length}** posted · **${dryRun.length}** ready to tap · ` +
       `**${skipped.length}** stopped · **$${spend.toFixed(4)}** xAI spend today`,
   )
   out()
@@ -61,9 +67,15 @@ async function main() {
   // exactly what would have gone out live, so this is the section to read
   // before flipping X_AUTOPOST on.
   if (dryRun.length > 0) {
-    out('## Would have posted (dry run)')
+    out('## 📲 Ready to tap')
     out()
-    out('These passed every guardrail. This is the text that would have been published.')
+    out(`**[Open the tap queue on your phone →](${SITE_URL}/admin/x-queue)**`)
+    out()
+    out(
+      'Each link below opens X with the reply already written — tap, post, done. ' +
+        'The API cannot send these itself: X refuses replies to anyone who has not ' +
+        'mentioned us, on every self-serve tier.',
+    )
     out()
     for (const d of dryRun) {
       const when = new Date(d.created_at).toISOString().slice(11, 16)
@@ -71,14 +83,15 @@ async function main() {
       out()
       out('**Replying to:**')
       out(`> ${String(d.text || '').slice(0, 200)}`)
-      out(`> — [${d.author_handle}](${d.tweet_url || '#'})`)
+      out(`> — [see the post](${d.tweet_url || '#'})`)
       out()
-      out('**Our reply:**')
+      out('**Your reply:**')
       out()
       out('```')
       out(d.composed_text)
       out('```')
-      if (d.cluster_id) out(`Matched cluster \`${d.cluster_id}\` — cost $0 to compose.`)
+      out(`**[→ Open in X and post](${intentUrl(d.composed_text, d.tweet_id)})**`)
+      if (d.cluster_id) out(`\nMatched cluster \`${d.cluster_id}\` — cost $0 to compose.`)
       out()
     }
   }

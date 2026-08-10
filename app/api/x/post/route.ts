@@ -1,36 +1,30 @@
 import { NextResponse } from 'next/server'
 import { getCandidate, setCandidateStatus, recordPost, countPostsToday } from '@/lib/xDb'
-import { isAuthorized, composePost, MAX_TWEET, SITE_URL } from '@/lib/xQueue'
+import { isAuthorized, MAX_TWEET } from '@/lib/xQueue'
 
 export const dynamic = 'force-dynamic'
 
-const X_ENV = ['X_API_KEY', 'X_API_SECRET', 'X_ACCESS_TOKEN', 'X_ACCESS_SECRET']
-
 /**
- * POST /api/x/post — publish an approved candidate to X. Admin-only.
+ * POST /api/x/post — record that a composed reply was published by hand.
  *
- * Body: { id: string, text?: string, includeLink?: boolean }
- *   text        — optional human-edited override of the composed post
- *   includeLink — post the site link as a SELF-REPLY (never in the body; X
- *                 throttles reach on posts containing external links)
+ * This route used to publish through the X API. It no longer can: the API
+ * refuses to reply to anyone who has not mentioned us, on every self-serve tier
+ * (see pipeline/x/tap.js for the exact error and the evidence). Replies are now
+ * posted by a human tapping the pre-filled composer, so this route's job is
+ * bookkeeping — mark the candidate posted and write the x_posts row that the
+ * daily/per-parent caps and the digest are computed from.
  *
- * This is the only place in the system that publishes publicly. Every guard
- * here is deliberate: auth, daily cap, status check, length check.
+ * Body: { id: string, tweetId?: string }
+ *   tweetId — optional. Paste the URL or id of the reply you posted and metrics
+ *             can be tied to it later; without it the row is still recorded so
+ *             the caps stay honest.
  */
 export async function POST(req: Request) {
   if (!isAuthorized(req)) {
     return NextResponse.json({ error: 'unauthorized' }, { status: 401 })
   }
 
-  const missingEnv = X_ENV.filter((k) => !process.env[k])
-  if (missingEnv.length > 0) {
-    return NextResponse.json(
-      { error: `X credentials not configured: missing ${missingEnv.join(', ')}` },
-      { status: 500 },
-    )
-  }
-
-  let body: { id?: string; text?: string; includeLink?: boolean }
+  let body: { id?: string; tweetId?: string }
   try {
     body = await req.json()
   } catch {
@@ -38,87 +32,61 @@ export async function POST(req: Request) {
   }
   if (!body.id) return NextResponse.json({ error: 'id is required' }, { status: 400 })
 
-  // ── Guard: daily cap ────────────────────────────────────────────────────────
-  const dailyCap = Number(process.env.DAILY_POST_CAP) || 4
-  const postedToday = await countPostsToday()
-  if (postedToday >= dailyCap) {
-    return NextResponse.json(
-      { error: `daily post cap reached (${postedToday}/${dailyCap})` },
-      { status: 429 },
-    )
-  }
-
-  // ── Guard: candidate must still be awaiting review ──────────────────────────
   const candidate = await getCandidate(body.id)
   if (!candidate) return NextResponse.json({ error: 'candidate not found' }, { status: 404 })
-  if (candidate.status !== 'pending_review') {
+  if (candidate.status !== 'ready_to_tap') {
     return NextResponse.json(
-      { error: `candidate is '${candidate.status}', not pending_review` },
+      { error: `candidate is '${candidate.status}', not ready_to_tap` },
       { status: 409 },
     )
   }
 
-  // ── Guard: length ───────────────────────────────────────────────────────────
-  const text = (body.text?.trim() || composePost(candidate)).trim()
-  if (!text) return NextResponse.json({ error: 'post text is empty' }, { status: 400 })
+  const text = (candidate.composed_text || '').trim()
+  if (!text) return NextResponse.json({ error: 'candidate has no composed text' }, { status: 400 })
   if (text.length > MAX_TWEET) {
     return NextResponse.json(
-      { error: `post is ${text.length} chars (max ${MAX_TWEET})` },
+      { error: `composed text is ${text.length} chars (max ${MAX_TWEET})` },
       { status: 400 },
     )
   }
 
-  // ── Publish ─────────────────────────────────────────────────────────────────
+  // Accept a pasted URL or a bare id — whatever is quickest to grab on a phone.
+  const tweetId = extractTweetId(body.tweetId)
+
   try {
-    // eslint-disable-next-line @typescript-eslint/no-require-imports
-    const { TwitterApi } = require('twitter-api-v2')
-    const client = new TwitterApi({
-      appKey: process.env.X_API_KEY,
-      appSecret: process.env.X_API_SECRET,
-      accessToken: process.env.X_ACCESS_TOKEN,
-      accessSecret: process.env.X_ACCESS_SECRET,
-    })
-
-    const res = await client.v2.tweet(text)
-    const tweetId = res?.data?.id
-    if (!tweetId) throw new Error('X returned no tweet id')
-
-    // Link goes in a self-reply so the scored post itself stays link-free.
-    let replyTweetId: string | null = null
-    if (body.includeLink) {
-      try {
-        const reply = await client.v2.tweet(
-          `Full multi-outlet breakdown 👇\n${SITE_URL}`,
-          { reply: { in_reply_to_tweet_id: tweetId } },
-        )
-        replyTweetId = reply?.data?.id ?? null
-      } catch (err) {
-        // Main post is live — a failed reply must not fail the request.
-        console.warn('link self-reply failed:', err instanceof Error ? err.message : err)
-      }
-    }
-
     await recordPost({
       candidate_id: candidate.id,
-      tweet_id: tweetId,
-      format: 'original',
+      // x_posts.tweet_id is NOT NULL and unique; without a real id, key the row
+      // on the candidate so the record still exists and the caps still count.
+      tweet_id: tweetId || `manual-${candidate.id}`,
+      format: candidate.reply_format || 'manual',
       image_used: false,
       text,
-      reply_tweet_id: replyTweetId,
+      reply_to_tweet_id: candidate.tweet_id ?? null,
+      reply_to_handle: candidate.author_handle,
+      reply_to_url: candidate.tweet_url,
+      cluster_id: candidate.cluster_id ?? null,
+      cost_usd: 0,
     })
-    await setCandidateStatus(candidate.id, 'posted')
+    await setCandidateStatus(
+      candidate.id,
+      'posted',
+      tweetId ? undefined : 'posted by hand (no id recorded)',
+    )
 
-    return NextResponse.json({
-      ok: true,
-      tweetId,
-      replyTweetId,
-      url: `https://x.com/i/status/${tweetId}`,
-      postedToday: postedToday + 1,
-      dailyCap,
-    })
+    const postedToday = await countPostsToday()
+    return NextResponse.json({ ok: true, tweetId: tweetId || null, postedToday })
   } catch (err) {
     const message = err instanceof Error ? err.message : 'unknown error'
-    // Leave status as pending_review so it can be retried.
-    return NextResponse.json({ error: `X post failed: ${message}` }, { status: 502 })
+    return NextResponse.json({ error: `could not record post: ${message}` }, { status: 500 })
   }
+}
+
+/** Pull the status id out of a pasted X URL, or pass through a bare numeric id. */
+function extractTweetId(input?: string): string | null {
+  const raw = String(input || '').trim()
+  if (!raw) return null
+  const m = raw.match(/status(?:es)?\/(\d+)/)
+  if (m) return m[1]
+  return /^\d+$/.test(raw) ? raw : null
 }

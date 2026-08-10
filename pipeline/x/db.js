@@ -223,9 +223,12 @@ async function getDryRunToday(supabase) {
   since.setUTCHours(0, 0, 0, 0)
   const { data, error } = await supabase
     .from('x_candidates')
-    .select('author_handle, tweet_url, text, composed_text, reply_format, bias_score, cluster_id, created_at')
+    .select('tweet_id, author_handle, tweet_url, text, composed_text, reply_format, bias_score, cluster_id, created_at')
     .gte('created_at', since.toISOString())
-    .eq('status', 'dry_run')
+    // 'ready_to_tap' is the live state: composed, guard-checked, waiting for a
+    // human tap. 'dry_run' is the legacy equivalent from before the X API's
+    // reply restriction was discovered — kept so old rows still render.
+    .in('status', ['ready_to_tap', 'dry_run'])
     .order('created_at', { ascending: false })
   if (error) {
     console.warn(`   ⚠ dry-run read failed: ${error.message}`)

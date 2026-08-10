@@ -28,6 +28,11 @@ export type XCandidate = {
   score_model: string | null
   status: string
   created_at: string
+  /** Set once the pipeline has composed a reply (tap mode). */
+  composed_text?: string | null
+  reply_format?: string | null
+  cluster_id?: string | null
+  outlet_id?: string | null
 }
 
 export const MAX_TWEET = 280

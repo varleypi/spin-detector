@@ -35,6 +35,9 @@ const { attachClusters } = require('./clusters')
 const { cfg, loadPostingState, checkCandidate, recordReply } = require('./guardrails')
 const { composeReply } = require('./compose')
 const { postReply, indent } = require('./post')
+const { intentUrl } = require('./tap')
+
+const SITE_URL = process.env.SITE_URL || 'https://www.spindetector.com'
 const { callCost } = require('./grok')
 const {
   getSupabase,
@@ -62,12 +65,33 @@ function resolveDryRun() {
   return !cfg.autopost()
 }
 
+/**
+ * Posting mode.
+ *
+ * 'tap'  — DEFAULT. Compose and queue for one-tap human posting via an X web
+ *          intent. This is the only mode that can actually reach a viral post's
+ *          audience: the X API refuses to reply to anyone who hasn't mentioned
+ *          us, on every self-serve tier (see tap.js). Nothing is sent to the API.
+ * 'auto' — Attempt to publish through the API. Retained because it works for
+ *          the summoned context (someone @mentions us) and would work again if
+ *          X ever relaxes the policy. Against arbitrary posts it will 403.
+ */
+function resolvePostMode() {
+  const raw = (process.env.X_POST_MODE || 'tap').toLowerCase()
+  return raw === 'auto' ? 'auto' : 'tap'
+}
+
 async function main() {
   const dryRun = resolveDryRun()
+  const postMode = resolvePostMode()
 
-  console.log('\n🐦 SPIN DETECTOR — X AUTO-REPLY PIPELINE')
+  console.log('\n🐦 SPIN DETECTOR — X REPLY PIPELINE')
   console.log('═'.repeat(48))
-  console.log(dryRun ? '   MODE: dry run (nothing will be published)' : '   MODE: LIVE — replies will publish')
+  if (postMode === 'tap') {
+    console.log('   MODE: tap — composing one-tap reply links for review')
+  } else {
+    console.log(dryRun ? '   MODE: dry run (nothing will be published)' : '   MODE: LIVE — replies will publish via API')
+  }
 
   const missing = REQUIRED_ENV.filter((k) => !process.env[k])
   if (missing.length > 0) {
@@ -182,6 +206,7 @@ async function main() {
 
     let posted = 0
     let blocked = 0
+    let queued = 0
 
     for (const c of ordered) {
       const patch = {
@@ -217,6 +242,26 @@ async function main() {
           status: 'skipped',
           status_note: 'could not compose a reply within 280 chars',
         })
+        continue
+      }
+
+      // ── Tap mode: queue the composed reply, don't touch the API ──────────
+      if (postMode === 'tap') {
+        // Counts against the same daily/per-parent caps as a real post. The
+        // caps exist to stop the account looking like a reply-spam bot, and
+        // that's about what lands on X, not about who pressed the button.
+        recordReply(state, c.author_handle)
+        await updateCandidate(supabase, c.id, {
+          ...patch,
+          status: 'ready_to_tap',
+          status_note: null,
+          composed_text: composed.text,
+          reply_format: composed.format,
+        })
+        queued++
+        console.log(`   📲 Ready to tap → @${c.author_handle} (${composed.format})`)
+        console.log(indent(composed.text))
+        console.log(`      ${intentUrl({ text: composed.text, inReplyToTweetId: c.tweet_id })}`)
         continue
       }
 
@@ -283,18 +328,23 @@ async function main() {
       discovered: discovered.length,
       prefiltered: unique.length,
       scored: scored.filter((c) => c.bias_score != null).length,
-      queued: posted,
+      queued: postMode === 'tap' ? queued : posted,
       posted,
       blocked,
       cost_usd: round6(costUsd),
-      dry_run: dryRun,
+      dry_run: dryRun || postMode === 'tap',
       elapsed_seconds: elapsed,
     })
 
     console.log('\n' + '═'.repeat(48))
-    console.log(
-      `✓ Done in ${elapsed.toFixed(1)}s — ${posted} ${dryRun ? 'would post' : 'replied'}, ${blocked} blocked.`,
-    )
+    if (postMode === 'tap') {
+      console.log(`✓ Done in ${elapsed.toFixed(1)}s — ${queued} ready to tap, ${blocked} blocked.`)
+      if (queued > 0) console.log(`  Open ${SITE_URL}/admin/x-queue on your phone and tap to reply.`)
+    } else {
+      console.log(
+        `✓ Done in ${elapsed.toFixed(1)}s — ${posted} ${dryRun ? 'would post' : 'replied'}, ${blocked} blocked.`,
+      )
+    }
     console.log(`💰 Run cost: $${costUsd.toFixed(4)}`)
   } catch (err) {
     await logRunError(supabase, runId, err.message)
