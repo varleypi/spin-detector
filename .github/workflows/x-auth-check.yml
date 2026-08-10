@@ -1,0 +1,41 @@
+name: X Auth Check
+
+# Manual diagnostic for X credential / permission problems. Publishes nothing —
+# it probes with a deliberately invalid payload so authorization is tested
+# without a tweet ever going out. See pipeline/x/checkAuth.js.
+#
+# Dispatch-only on purpose: this is for when replies are failing and you need to
+# know whether the credentials or the request are at fault.
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: 'npm'
+          cache-dependency-path: package-lock.json
+
+      - name: Install dependencies
+        run: npm ci --omit=dev || npm install
+
+      - name: Probe X credentials
+        run: node pipeline/x/checkAuth.js
+        env:
+          X_API_KEY:       ${{ secrets.X_API_KEY }}
+          X_API_SECRET:    ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN:  ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
