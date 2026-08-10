@@ -71,13 +71,51 @@ function tweetIdFromUrl(url) {
   return m ? m[1] : null
 }
 
+/**
+ * Exact post time, decoded from the tweet ID.
+ *
+ * X IDs are Snowflakes: the top 41 bits are milliseconds since the Twitter
+ * epoch (2010-11-04). That makes the true post time free, offline, and exact.
+ *
+ * This exists because Grok's self-reported `age_minutes` is not merely noisy,
+ * it is systematically fabricated. Measured across 57 real candidates on
+ * 2026-08-10: Grok understated age by a MEDIAN OF 14 HOURS, reporting posts as
+ * 12–75 minutes old that the ID proves were 11–20 hours old. Zero of the 57
+ * were actually inside the 180-minute window the guardrails thought they were
+ * enforcing. Never trust the model's age; always decode it.
+ */
+const SNOWFLAKE_EPOCH_MS = 1288834974657n
+
+function postedAtFromTweetId(tweetId) {
+  try {
+    const ms = Number((BigInt(tweetId) >> 22n) + SNOWFLAKE_EPOCH_MS)
+    // Sanity-bound it: anything before Twitter existed or in the future means
+    // the id wasn't a real snowflake, and we should fall back rather than
+    // invent a date.
+    if (!Number.isFinite(ms) || ms < 1142899200000 || ms > Date.now() + 60000) return null
+    return new Date(ms)
+  } catch {
+    return null
+  }
+}
+
+/** True age in minutes from the tweet ID, or null if it can't be decoded. */
+function trueAgeMinutes(tweetId, now = Date.now()) {
+  const posted = postedAtFromTweetId(tweetId)
+  if (!posted) return null
+  return Math.max(0, Math.round((now - posted.getTime()) / 60000))
+}
+
 function toCandidate(p) {
   const tweetId = tweetIdFromUrl(p.url)
   if (!tweetId || !p.text) return null
   const likes = Number(p.likes) || 0
   const reposts = Number(p.reposts) || 0
   const replies = Number(p.replies) || 0
-  const ageMin = Math.max(1, Number(p.age_minutes) || 60)
+  // Decoded age wins outright. Grok's estimate is only a fallback for an
+  // unparseable id, and it is known to run ~14h optimistic (see trueAgeMinutes).
+  const decoded = trueAgeMinutes(tweetId)
+  const ageMin = decoded !== null ? Math.max(1, decoded) : Math.max(1, Number(p.age_minutes) || 60)
   const engagement = likes + 2 * reposts + replies // reposts weighted (spread signal)
   return {
     tweet_id: tweetId,
@@ -175,4 +213,10 @@ async function discoverCandidates() {
   return { candidates: deduped, usage }
 }
 
-module.exports = { discoverCandidates, tweetIdFromUrl, toCandidate }
+module.exports = {
+  discoverCandidates,
+  tweetIdFromUrl,
+  toCandidate,
+  postedAtFromTweetId,
+  trueAgeMinutes,
+}

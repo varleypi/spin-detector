@@ -91,19 +91,29 @@ ok(checkCandidate(good, state).ok, 'good candidate passes')
 ok(!checkCandidate({ ...good, author_handle: 'somerandomguy' }, state).ok, 'untracked parent blocked')
 ok(!checkCandidate({ ...good, text: 'Three dead in crash' }, state).ok, 'blocked topic blocked')
 ok(!checkCandidate({ ...good, author_followers: 1000 }, state).ok, 'low reach blocked')
-ok(!checkCandidate({ ...good, age_minutes: 400 }, state).ok, 'stale parent blocked')
-ok(!checkCandidate({ ...good, cluster: null, bias_score: 5.2 }, state).ok, 'neutral single-post blocked')
+ok(!checkCandidate({ ...good, age_minutes: 2000 }, state).ok, 'stale parent blocked (>24h)')
+ok(checkCandidate({ ...good, age_minutes: 700 }, state).ok, 'day-old parent allowed — discovery cannot surface fresher')
+ok(checkCandidate({ ...good, cluster: null, bias_score: 5.2 }, state).ok, 'neutral single-post PUBLISHES (0.0 is a finding)')
 ok(checkCandidate({ ...good, cluster: null, bias_score: 7.5 }, state).ok, 'slanted single-post passes')
 
-// A cluster where every outlet agreed says nothing — must not post. Regression
-// test for the real "CNN +0.0 · Metro +0.0 · Sky +0.0" reply composed 2026-08-10.
+// A cluster where every outlet agreed is a finding in its own right ("everyone
+// covered this straight"), so it publishes — with copy that says that, rather
+// than a row of identical zeroes. Real case from 2026-08-10.
 const flatSpread = { ...spread, gap: 0.0, outlets: spread.outlets.map((o) => ({ ...o, score: 5.0 })) }
-ok(!checkCandidate({ ...good, cluster: flatSpread, bias_score: null }, state).ok,
-  'flat cluster (no spread, no score) blocked')
-ok(checkCandidate({ ...good, cluster: flatSpread, bias_score: 7.5 }, state).ok,
-  'flat cluster still posts when the post itself has a real lean')
-ok(checkCandidate({ ...good, cluster: spread }, state).ok,
-  'cluster with a real gap passes')
+ok(checkCandidate({ ...good, cluster: flatSpread, bias_score: null }, state).ok,
+  'flat cluster publishes as an agreement finding')
+ok(checkCandidate({ ...good, cluster: spread }, state).ok, 'cluster with a real gap passes')
+
+const flatReply = composeReply({
+  tweet_id: '9', author_handle: 'AP', outlet_id: 'ap',
+  text: 'Senate passes budget bill', cluster: { ...flatSpread, matchScore: 1 },
+})
+ok(flatReply && !/\+0\.0 · .*\+0\.0 · .*\+0\.0/.test(flatReply.text),
+  'flat cluster does NOT render as a row of zeroes')
+ok(flatReply && flatReply.text.length <= 280, 'flat-cluster reply within 280')
+console.log('\n  ┌─ flat-cluster reply ───────────')
+console.log(flatReply.text.split('\n').map((l) => '  │ ' + l).join('\n'))
+console.log('  └────────────────────────────────')
 
 const capped = { postedToday: 0, perParent: new Map([['cnn', 1]]), degraded: false }
 ok(!checkCandidate(good, capped).ok, 'per-parent cap blocks 2nd reply to same outlet')

@@ -156,6 +156,25 @@ function composeComparison(candidate, cluster) {
   const count = total >= 4 ? ` (${total} outlets scored)` : ''
   const selected = selectOutlets(cluster.outlets, candidate.outlet_id)
 
+  // When the outlets agree, say so plainly rather than printing a row of
+  // identical numbers. "Everyone covered this straight" is a real finding about
+  // the coverage — arguably the more reassuring one — and it reads as a verdict
+  // instead of as a bot emitting zeroes.
+  if (cluster.gap < 1.0) {
+    // Repeating an identical score after every outlet name is noise — the
+    // shared score is the point, so state it once.
+    const mid = cluster.outlets.reduce((a, o) => a + o.score, 0) / cluster.outlets.length
+    const names = selectOutlets(cluster.outlets, candidate.outlet_id)
+      .map((o) => shortName(o.outletId, o.name))
+      .join(' · ')
+    const verdict =
+      Math.abs(mid - 5) < 0.5
+        ? `all landed at ${fmt(mid)} — neutral verbs, no loaded framing.\n\nStraight coverage looks like this.`
+        : `all landed around ${fmt(mid)} (${label(mid)}) — the whole field leaned the same way.`
+    const text = `We scored ${total} outlets on this story.\n${names} ${verdict}\n\n${scale}`
+    if (text.length <= MAX_TWEET) return { text, format: 'comparison' }
+  }
+
   // Try the selection, then shed the middle if it doesn't fit.
   for (let keep = selected.length; keep >= 2; keep--) {
     const outlets = trimToExtremes(selected, keep)

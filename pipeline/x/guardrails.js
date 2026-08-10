@@ -77,15 +77,33 @@ const cfg = {
   perParentPerDay: () => Number(process.env.MAX_REPLIES_PER_PARENT_DAY) || 1,
   /** Minimum reach for a reply to be worth a slot. */
   minFollowers: () => Number(process.env.MIN_PARENT_FOLLOWERS) || 50000,
-  /** Don't reply under something already past its peak. */
-  maxAgeMinutes: () => Number(process.env.MAX_PARENT_AGE_MINUTES) || 180,
-  /** Minimum |score − 5| for a single-post (non-cluster) reply to be worth posting. */
-  minSpin: () => Number(process.env.MIN_SPIN_THRESHOLD) || 1.0,
   /**
-   * Minimum left-to-right spread for a comparison reply. Below this the
-   * outlets agreed, and "they all worded it the same" is not a post.
+   * Don't reply under something already past its peak.
+   *
+   * Was 180 minutes, which is the right number for reply reach — and which
+   * turned out to be unreachable. Once ages were decoded from the tweet ID
+   * instead of taken from Grok, ZERO of 57 candidates were under 180 minutes;
+   * x_search surfaces posts 11–20 hours old regardless of the window we ask
+   * for. So 180 wasn't filtering for freshness, it was about to block 100% of
+   * traffic. 1440 (24h) is a deliberate concession to what discovery can
+   * actually deliver, not a judgement that day-old replies are as good — they
+   * are not. Lower it the moment a fresher discovery source exists.
    */
-  minClusterGap: () => Number(process.env.MIN_CLUSTER_GAP) || 1.5,
+  maxAgeMinutes: () => Number(process.env.MAX_PARENT_AGE_MINUTES) || 1440,
+  /**
+   * Minimum |score − 5| for a single-post reply.
+   *
+   * DEFAULTS TO 0 — neutral results publish. This was 1.0 on the reasoning that
+   * a "+0.0" reply says nothing; that was the wrong call for this product. A
+   * score of 0.0 is a finding, not an absence of one: it tells a reader the
+   * outlet covered the story straight. Suppressing neutrals would also bias the
+   * public record toward "everything is spun", which is the opposite of what a
+   * bias tracker should assert. 69% of scores land exactly at 5.0, so this gate
+   * was also silently blocking most of the pipeline's output.
+   */
+  minSpin: () => Number(process.env.MIN_SPIN_THRESHOLD ?? 0),
+  /** Minimum spread for a comparison. 0 — agreement is reported, not hidden. */
+  minClusterGap: () => Number(process.env.MIN_CLUSTER_GAP ?? 0),
 }
 
 // ── Per-run state from the DB ───────────────────────────────────────────────
