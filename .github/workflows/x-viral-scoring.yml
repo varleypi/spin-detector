@@ -12,19 +12,20 @@ name: X Auto-Reply
 
 on:
   schedule:
-    # Hourly across the US news day (11:00–22:00 UTC ≈ 07:00–18:00 ET) = 12 runs.
+    # Every 3 hours across the US news day = 4 runs/day.
     #
-    # Cadence is set by cost, not by taste. A productive run measures ~$0.07
-    # (see docs/x-auto-reply-runbook.md), so 12 runs ≈ $0.84/day, which fits
-    # under the $1.00 DAILY_COST_BUDGET_USD with headroom. Every 30 minutes
-    # would be ~$1.68/day and the budget guard would cut the day off around
-    # 18:00 UTC — losing the evening entirely rather than thinning coverage.
+    # This was hourly, on the premise that arriving early to a thread is what
+    # earns reach. That premise died when ages were decoded from the tweet ID:
+    # x_search surfaces posts 11–20 hours old no matter what window we request,
+    # so no achievable cadence gets us there first. Once "early" is off the
+    # table, extra runs buy only slightly-fresher-stale, which is worth very
+    # little — while costing ~$0.07 each.
     #
-    # Hourly is enough because guardrails allow replies up to 180 minutes after
-    # a post goes up, so an hourly sweep sees essentially everything while it's
-    # still repliable. GitHub's scheduler drifts 5–20 min under load; that's
-    # absorbed by the same 180-minute window.
-    - cron: '0 11-22 * * *'
+    # 4 runs ≈ $0.30/day (~$9/month) against a $1.00 daily guard, versus ~$0.84
+    # hourly. Candidate supply barely changes: most of what a run discovers has
+    # already been seen, so runs 5–12 were mostly paying to re-see yesterday's
+    # posts. Put the frequency back the moment discovery can deliver fresh ones.
+    - cron: '0 12,15,18,21 * * *'
   workflow_dispatch:
     inputs:
       live:

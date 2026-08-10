@@ -14,7 +14,8 @@
  */
 
 const CAP = () => Number(process.env.DAILY_CANDIDATE_CAP) || 6
-const FLOOR = () => Number(process.env.VIRALITY_FLOOR) || 0.35
+// eslint-disable-next-line @typescript-eslint/no-require-imports
+const { cfg } = require('./guardrails')
 
 // Posts we can't usefully rate. A live-blog pointer or a bare "WATCH:" teaser
 // has no claim to score — replying with a bias number would be nonsense.
@@ -39,32 +40,53 @@ function hasClaim(text) {
 }
 
 /**
- * 0–1 virality score. Three weighted factors, each saturating, so no single
- * dimension can carry a weak candidate:
- *   • velocity — engagement per minute, the actual "is it climbing" signal
- *   • reach    — author followers, log-scaled
- *   • fresh    — decays with age; a 4-hour-old post is nearly worthless to
- *                reply under no matter how big it got
+ * RELATIVE ranking, scored within the batch rather than against fixed constants.
  *
- * CALIBRATED against 27 real candidates (2026-08-08): velocity p50 0.89,
- * p90 9.95, max 11.0. The first version normalised velocity against a ceiling of
- * 50, which was a guess and wrong by ~5×: the term contributed almost nothing,
- * every candidate landed within 0.04 of the floor, and ranking was effectively
- * random. Re-measure this if Grok's engagement estimates change scale.
+ * This is the third calibration of this function, and the reason it's now
+ * relative is that both absolute versions broke for the same reason: the units
+ * moved underneath them.
+ *   v1 normalised velocity against a ceiling of 50 — a guess, ~5× too high, so
+ *      every candidate scored within 0.04 of the floor and ranking was random.
+ *   v2 fixed the ceiling to 10 by measuring 27 real candidates — correct at the
+ *      time, then invalidated hours later when age decoding (see discover.js)
+ *      corrected ages by ~24×. velocity is engagement/age, so every velocity
+ *      fell by the same factor and the ceiling was wrong again.
  *
- * Reach is near-constant in practice (tracked outlets run 9M–42M followers, so
- * the term is ~0.2 for everyone). It's kept as a floor against a mis-mapped
- * handle rather than as a discriminator — freshness and velocity do the ranking.
+ * Absolute thresholds encode assumptions about upstream data that upstream
+ * doesn't guarantee. We only ever need the best few of each batch, so rank
+ * within the batch: percentile position is invariant to any monotonic rescaling
+ * of the inputs. A change in Grok's estimates can no longer silently zero this.
+ *
+ * Hard, meaningful limits stay absolute (max age, has-a-claim) because those
+ * encode real editorial rules, not statistical guesses.
  */
-const VELOCITY_CEILING = 10 // ≈ p90 of observed engagement/minute
+function percentileRank(values, v) {
+  if (values.length <= 1) return 1
+  let below = 0
+  for (const x of values) if (x < v) below++
+  return below / (values.length - 1)
+}
 
-function viralityScore(c) {
-  const velocity = Math.min(1, (c.velocity || 0) / VELOCITY_CEILING)
-  const reach = Math.min(1, Math.log10(Math.max(1, c.author_followers || 1)) / 7) // 10M → 1.0
-  const age = Math.max(1, c.age_minutes || 60)
-  const fresh = Math.max(0, Math.min(1, 1 - (age - 15) / 225)) // 1.0 ≤15m → 0 at 240m
-  const score = velocity * 0.5 + reach * 0.2 + fresh * 0.3
-  return Math.round(Math.max(0, Math.min(1, score)) * 100) / 100
+/**
+ * Score every candidate relative to its batch. Returns a Map of id → 0–1.
+ *   • velocity — engagement per minute; the "is it still climbing" signal
+ *   • fresh    — younger is better, over whatever range this batch spans
+ *   • reach    — author followers; near-constant across tracked outlets, so it
+ *                only breaks ties
+ */
+function rankBatch(candidates) {
+  const vels = candidates.map((c) => Number(c.velocity) || 0)
+  const ages = candidates.map((c) => Number(c.age_minutes) || 0)
+  const reach = candidates.map((c) => Math.log10(Math.max(1, c.author_followers || 1)))
+
+  const out = new Map()
+  candidates.forEach((c, i) => {
+    const v = percentileRank(vels, vels[i])
+    const f = 1 - percentileRank(ages, ages[i]) // youngest ⇒ 1
+    const r = percentileRank(reach, reach[i])
+    out.set(c.tweet_id ?? i, Math.round((v * 0.5 + f * 0.3 + r * 0.2) * 100) / 100)
+  })
+  return out
 }
 
 /**
@@ -74,30 +96,32 @@ function viralityScore(c) {
 async function prefilterCandidates(candidates) {
   if (candidates.length === 0) return { survivors: [], dropped: [] }
 
+  const ranks = rankBatch(candidates)
   const survivors = []
   const dropped = []
 
+  // The age limit is owned by guardrails.js — a single source of truth, so
+  // raising the reply window can't be silently undone by a second gate here.
+  // That exact bug shipped: the guardrail moved to 24h while this still cut at
+  // 240m, and the pipeline dropped 100% of traffic.
+  const maxAge = cfg.maxAgeMinutes()
+
   for (const c of candidates) {
-    const score = viralityScore(c)
+    const score = ranks.get(c.tweet_id) ?? 0
     const augmented = { ...c, prefilter_score: score }
 
     if (!hasClaim(c.text)) {
       dropped.push({ ...augmented, prefilter_reason: 'no scoreable claim in text' })
       continue
     }
-    if ((c.age_minutes || 0) > 240) {
-      dropped.push({ ...augmented, prefilter_reason: `too old (${c.age_minutes}m) to reply under` })
+    if ((c.age_minutes || 0) > maxAge) {
+      dropped.push({
+        ...augmented,
+        prefilter_reason: `too old (${c.age_minutes}m > ${maxAge}m) to reply under`,
+      })
       continue
     }
-    // Floor sits at 0.35 because the reach term contributes a near-constant
-    // ~0.2 for every tracked outlet — a lower floor would never fire. At 0.35
-    // this drops the "old and flat" combination (e.g. 200m old at 0.14 eng/min
-    // → 0.26) while keeping fresh-or-fast posts (35m at 2.1 eng/min → 0.58).
-    if (score < FLOOR()) {
-      dropped.push({ ...augmented, prefilter_reason: `virality ${score} below floor ${FLOOR()}` })
-      continue
-    }
-    survivors.push({ ...augmented, prefilter_reason: `virality ${score}` })
+    survivors.push({ ...augmented, prefilter_reason: `batch rank ${score}` })
   }
 
   survivors.sort((a, b) => b.prefilter_score - a.prefilter_score)
@@ -112,4 +136,4 @@ async function prefilterCandidates(candidates) {
   return { survivors: kept, dropped: [...dropped, ...overflow] }
 }
 
-module.exports = { prefilterCandidates, viralityScore, hasClaim }
+module.exports = { prefilterCandidates, rankBatch, percentileRank, hasClaim }

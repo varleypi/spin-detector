@@ -11,7 +11,8 @@
 
 const { composeReply } = require('./compose')
 const { checkCandidate, blockedTopic } = require('./guardrails')
-const { viralityScore, hasClaim } = require('./prefilter')
+const { rankBatch, hasClaim } = require('./prefilter')
+const { trueAgeMinutes } = require('./discover')
 const { matchCluster, clusterSpread } = require('./clusters')
 const { isReplyTarget, outletForHandle } = require('../xHandles')
 
@@ -36,9 +37,28 @@ console.log('\n— prefilter —')
 ok(!hasClaim('WATCH: live coverage'), 'teaser has no claim')
 ok(!hasClaim('Breaking'), 'one-word breaking has no claim')
 ok(hasClaim('Senate passes sweeping tax package after all-night session'), 'headline has a claim')
-const fresh = viralityScore({ velocity: 60, author_followers: 5e6, age_minutes: 10 })
-const stale = viralityScore({ velocity: 60, author_followers: 5e6, age_minutes: 300 })
-ok(fresh > stale, `fresh (${fresh}) ranks above stale (${stale})`)
+// Relative ranking: identical batch, only age differs.
+const batch = [
+  { tweet_id: 'a', velocity: 60, author_followers: 5e6, age_minutes: 10 },
+  { tweet_id: 'b', velocity: 60, author_followers: 5e6, age_minutes: 300 },
+]
+const r = rankBatch(batch)
+ok(r.get('a') > r.get('b'), `fresher ranks higher (${r.get('a')} > ${r.get('b')})`)
+
+// Scale-invariance: the property both absolute versions of this failed. Divide
+// every velocity by 24 (what the age fix did in practice) and the ORDER must
+// not move.
+const scaled = batch.map((c) => ({ ...c, velocity: c.velocity / 24 }))
+const rs = rankBatch(scaled)
+ok(rs.get('a') === r.get('a') && rs.get('b') === r.get('b'),
+  'ranking is invariant to rescaling velocity (regression: the 2026-08-10 age fix)')
+
+// ── snowflake age decoding ──
+// Jack's first tweet, id 20, posted 2006-03-21.
+const jackAge = trueAgeMinutes('20', Date.UTC(2006, 2, 21, 21, 0, 0))
+ok(jackAge !== null && jackAge >= 0 && jackAge < 60 * 24,
+  `decodes a known tweet id to its real time (${jackAge}m)`)
+ok(trueAgeMinutes('not-a-number') === null, 'garbage id decodes to null, not a fake date')
 
 console.log('\n— cluster match + compose —')
 const clusters = [{
