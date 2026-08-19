@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect, useCallback } from 'react'
+import Link from 'next/link'
 import {
   LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip,
   Legend, ResponsiveContainer, ReferenceLine,
@@ -1387,6 +1388,13 @@ export default function SpinDetectorApp({ initialStories, initialOutlets, initia
               >
                 {refreshing ? 'Refreshing…' : '↻ Refresh'}
               </button>
+              <Link
+                href="/spin-check"
+                className="text-[10px] font-bold px-2 py-0.5 rounded border border-slate-600 bg-slate-800/60 text-slate-200 hover:bg-slate-700 hover:border-slate-500 transition-colors"
+                title="Paste any text and get a bias score from Claude and Grok"
+              >
+                ✎ Spin Check
+              </Link>
             </div>
             <p className="text-xs text-slate-500 mt-0.5">
               Same story. Multiple outlets. Measurable bias.
