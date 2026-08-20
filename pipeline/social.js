@@ -61,9 +61,9 @@ const SLANT_OPENERS = [
 
 /**
  * Choose the day's highest-spread story and compose the post.
- * Returns { text, url } — the link is deliberately kept OUT of `text` so the
- * caller can post it as a self-reply. X suppresses reach on posts with an
- * external link in the body; a link in the first reply avoids that penalty.
+ * Returns { text, url }. `text` is posted as-is and carries no link — X
+ * suppresses reach on posts with an external link in the body. `url` is
+ * returned for callers that want it; the pipeline no longer posts it.
  */
 function composeTweet(articles) {
   // Group scored articles into their story clusters.
@@ -152,21 +152,11 @@ async function postDailyTweet(articles) {
       accessToken: process.env.X_ACCESS_TOKEN,
       accessSecret: process.env.X_ACCESS_SECRET,
     })
-    // Main post carries no link — X throttles reach on posts with an external
-    // link in the body. Post the hook first, then the link as a self-reply.
+    // Single post, no link — X throttles reach on posts with an external link
+    // in the body, and the follow-up link reply is deliberately not sent.
     const res = await client.v2.tweet(post.text)
     const id = res?.data?.id
     console.log(`   ✓ Posted to X (id ${id ?? 'unknown'})`)
-    if (id && post.url) {
-      try {
-        await client.v2.tweet(`Full breakdown & today’s other stories 👇\n${post.url}`, {
-          reply: { in_reply_to_tweet_id: id },
-        })
-        console.log('   ✓ Posted link as self-reply')
-      } catch (err) {
-        console.warn(`   ⚠ Link reply failed: ${err.message} — main post is up`)
-      }
-    }
   } catch (err) {
     console.warn(`   ⚠ X post failed: ${err.message} — continuing`)
   }
