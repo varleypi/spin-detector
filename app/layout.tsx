@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { Analytics } from '@vercel/analytics/react'
+import { NEUTRAL_NEWS_URL } from '@/lib/links'
 import './globals.css'
 
 export const metadata: Metadata = {
@@ -37,6 +38,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <span>© {new Date().getFullYear()} Spin Detector — AI-powered political media bias tracker</span>
             <nav className="flex gap-4">
               <Link href="/spin-check" className="hover:text-slate-400 transition-colors">Spin Check</Link>
+              <a
+                href={NEUTRAL_NEWS_URL}
+                target="_blank"
+                rel="noopener"
+                className="text-emerald-500/80 hover:text-emerald-400 transition-colors"
+                title="Read the same stories with the spin removed"
+              >
+                Neutral News
+              </a>
               <Link href="/outlets" className="hover:text-slate-400 transition-colors">Outlets</Link>
               <Link href="/about" className="hover:text-slate-400 transition-colors">About</Link>
               <Link href="/privacy" className="hover:text-slate-400 transition-colors">Privacy Policy</Link>

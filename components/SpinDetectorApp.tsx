@@ -9,6 +9,7 @@ import {
 import type { StoryCluster, OutletScore, TrendPoint, PipelineStatus } from '@/lib/types'
 import { OUTLET_META, MAX_DAILY_READERS } from '@/lib/outletMeta'
 import ShareOnX from '@/components/ShareOnX'
+import NeutralNewsCTA from '@/components/NeutralNewsCTA'
 
 type Tab = 'about' | 'battleground' | 'biasboard' | 'trends' | 'modelwars'
 
@@ -1444,6 +1445,11 @@ export default function SpinDetectorApp({ initialStories, initialOutlets, initia
             <span>Far Right →</span>
           </div>
         </div>
+      </div>
+
+      {/* Sister-site CTA — read the same stories with the spin removed */}
+      <div className="max-w-5xl mx-auto px-4 pb-4">
+        <NeutralNewsCTA />
       </div>
 
       {/* Tab navigation — horizontally scrollable on narrow screens */}
