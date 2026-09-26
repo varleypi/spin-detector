@@ -1,4 +1,6 @@
+import { createHash } from 'crypto'
 import { NextResponse } from 'next/server'
+import { getServiceClient } from '@/lib/xDb'
 import {
   analyzeText,
   configuredProviders,
@@ -13,20 +15,23 @@ export const maxDuration = 60
 // ── Rate limiting ────────────────────────────────────────────────────────────
 //
 // Every request spends real money at two vendors, and the endpoint is public,
-// so it needs a ceiling. This is a per-instance in-memory counter: on Vercel
-// each serverless instance keeps its own window, so the true global limit is
-// (instances × these numbers) rather than exactly these numbers. That is fine
-// for the job it does — stopping one person hammering the box — and it costs no
-// database round-trip on the happy path. If it ever needs to be exact, move the
-// counters into Supabase alongside the X pipeline's tables.
+// so it needs a ceiling. Hits are logged in Supabase (spin_check_hits) so every
+// serverless instance shares one window, and a global daily cap bounds total
+// spend even when requests come from many IPs. If Supabase is unavailable or the
+// table hasn't been created yet, it falls back to a per-instance in-memory
+// window, whose true limit is (instances × these numbers).
 
 const HOURLY_LIMIT = Number(process.env.SPIN_CHECK_HOURLY_LIMIT) || 10
 const DAILY_LIMIT = Number(process.env.SPIN_CHECK_DAILY_LIMIT) || 40
+const GLOBAL_DAILY_LIMIT = Number(process.env.SPIN_CHECK_GLOBAL_DAILY_LIMIT) || 300
 const HOUR_MS = 60 * 60 * 1000
 const DAY_MS = 24 * HOUR_MS
 
-/** Request timestamps per client, newest last. */
-const hits = new Map<string, number[]>()
+interface LimitDecision {
+  allowed: boolean
+  retryAfterSec: number
+  global?: boolean
+}
 
 function clientKey(req: Request): string {
   const fwd = req.headers.get('x-forwarded-for')
@@ -34,26 +39,70 @@ function clientKey(req: Request): string {
   return req.headers.get('x-real-ip') || 'unknown'
 }
 
-/**
- * Record a hit and report whether it is allowed. Prunes as it goes, so the map
- * only ever holds the last day of activity for clients that are still active.
- */
-function rateLimit(key: string): { allowed: boolean; retryAfterSec: number } {
-  const now = Date.now()
-  const recent = (hits.get(key) ?? []).filter((t) => now - t < DAY_MS)
-
+/** Apply the per-client windows to that client's hit times in the last day, oldest first. */
+function decide(recent: number[], now: number): LimitDecision {
   const lastHour = recent.filter((t) => now - t < HOUR_MS)
   const overHour = lastHour.length >= HOURLY_LIMIT
   const overDay = recent.length >= DAILY_LIMIT
+  if (!overHour && !overDay) return { allowed: true, retryAfterSec: 0 }
 
-  if (overHour || overDay) {
-    hits.set(key, recent)
-    const oldest = overHour ? lastHour[0] : recent[0]
-    const window = overHour ? HOUR_MS : DAY_MS
-    return { allowed: false, retryAfterSec: Math.max(1, Math.ceil((oldest + window - now) / 1000)) }
+  const oldest = overHour ? lastHour[0] : recent[0]
+  const window = overHour ? HOUR_MS : DAY_MS
+  return { allowed: false, retryAfterSec: Math.max(1, Math.ceil((oldest + window - now) / 1000)) }
+}
+
+/** Shared limiter backed by Supabase. Returns null when it can't be used. */
+async function sharedRateLimit(key: string): Promise<LimitDecision | null> {
+  const supabase = getServiceClient()
+  if (!supabase) return null
+
+  try {
+    const now = Date.now()
+    const dayAgo = new Date(now - DAY_MS).toISOString()
+    const ipHash = createHash('sha256').update(key).digest('hex')
+
+    const [globalRes, clientRes] = await Promise.all([
+      supabase.from('spin_check_hits').select('id', { count: 'exact', head: true }).gte('created_at', dayAgo),
+      supabase
+        .from('spin_check_hits')
+        .select('created_at')
+        .eq('ip_hash', ipHash)
+        .gte('created_at', dayAgo)
+        .order('created_at', { ascending: true }),
+    ])
+    if (globalRes.error) throw globalRes.error
+    if (clientRes.error) throw clientRes.error
+
+    if ((globalRes.count ?? 0) >= GLOBAL_DAILY_LIMIT) {
+      return { allowed: false, retryAfterSec: 3600, global: true }
+    }
+
+    const recent = (clientRes.data as { created_at: string }[]).map((r) => Date.parse(r.created_at))
+    const decision = decide(recent, now)
+    if (!decision.allowed) return decision
+
+    const { error } = await supabase.from('spin_check_hits').insert({ ip_hash: ipHash })
+    if (error) throw error
+    return decision
+  } catch (err) {
+    console.warn('Spin Check — shared rate limit unavailable, using in-memory:', err instanceof Error ? err.message : err)
+    return null
   }
+}
 
-  recent.push(now)
+/** Request timestamps per client, newest last. */
+const hits = new Map<string, number[]>()
+
+/**
+ * Per-instance fallback. Prunes as it goes, so the map only ever holds the
+ * last day of activity for clients that are still active.
+ */
+function memoryRateLimit(key: string): LimitDecision {
+  const now = Date.now()
+  const recent = (hits.get(key) ?? []).filter((t) => now - t < DAY_MS)
+  const decision = decide(recent, now)
+
+  if (decision.allowed) recent.push(now)
   hits.set(key, recent)
 
   // Keep the map from growing without bound on a long-lived instance.
@@ -63,7 +112,7 @@ function rateLimit(key: string): { allowed: boolean; retryAfterSec: number } {
     })
   }
 
-  return { allowed: true, retryAfterSec: 0 }
+  return decision
 }
 
 // ── Handlers ─────────────────────────────────────────────────────────────────
@@ -108,11 +157,15 @@ export async function POST(req: Request) {
     )
   }
 
-  const { allowed, retryAfterSec } = rateLimit(clientKey(req))
+  const key = clientKey(req)
+  const { allowed, retryAfterSec, global } = (await sharedRateLimit(key)) ?? memoryRateLimit(key)
   if (!allowed) {
     const mins = Math.ceil(retryAfterSec / 60)
+    const error = global
+      ? 'Spin Check has reached its daily capacity. Please try again later.'
+      : `Rate limit reached. Try again in about ${mins} minute${mins === 1 ? '' : 's'}.`
     return NextResponse.json(
-      { error: `Rate limit reached. Try again in about ${mins} minute${mins === 1 ? '' : 's'}.` },
+      { error },
       { status: 429, headers: { 'Retry-After': String(retryAfterSec) } },
     )
   }

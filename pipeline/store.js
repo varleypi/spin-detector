@@ -250,9 +250,18 @@ async function storeResults({ scoredArticles, clusters, date, elapsedSeconds, an
   }
 }
 
+async function hasDataForDate(date) {
+  const { count, error } = await getSupabase()
+    .from('articles')
+    .select('id', { count: 'exact', head: true })
+    .eq('date', date)
+  if (error) throw new Error(`checking existing ${date} data failed: ${error.message}`)
+  return count > 0
+}
+
 async function logError(supabase, errorMessage, partialCount = 0) {
   const sb = supabase ?? getSupabase()
   await logRun(sb, { status: 'error', errorMessage, articleCount: partialCount, storyCount: 0 })
 }
 
-module.exports = { storeResults, logError }
+module.exports = { storeResults, logError, hasDataForDate }
