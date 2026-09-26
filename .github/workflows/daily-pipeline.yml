@@ -28,8 +28,10 @@ jobs:
         run: npm install
 
       - name: Run bias pipeline
+        id: pipeline
         run: node pipeline/run.js
         env:
+          SKIP_IF_ALREADY_RAN:  ${{ github.event.schedule == '0 15 * * *' }}
           ANTHROPIC_API_KEY:    ${{ secrets.ANTHROPIC_API_KEY }}
           NEWSAPI_KEY:          ${{ secrets.NEWSAPI_KEY }}
           SUPABASE_URL:         ${{ secrets.SUPABASE_URL }}
@@ -69,7 +71,7 @@ jobs:
           fi
 
       - name: Trigger Neutral News pipeline
-        if: success()
+        if: success() && steps.pipeline.outputs.skipped != 'true'
         continue-on-error: true   # never fail this job if the downstream trigger fails
         run: |
           if [ -n "${{ secrets.NEUTRAL_NEWS_TRIGGER_TOKEN }}" ]; then

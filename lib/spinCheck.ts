@@ -16,7 +16,7 @@ import Anthropic from '@anthropic-ai/sdk'
 export const MAX_INPUT_CHARS = 5000
 export const MIN_INPUT_CHARS = 15
 
-const CLAUDE_MODEL = process.env.SPIN_CHECK_CLAUDE_MODEL || 'claude-opus-5'
+const CLAUDE_MODEL = process.env.SPIN_CHECK_CLAUDE_MODEL || 'claude-sonnet-5'
 const GROK_MODEL = process.env.SPIN_CHECK_GROK_MODEL || 'grok-3-mini'
 const XAI_CHAT_URL = 'https://api.x.ai/v1/chat/completions'
 
@@ -221,7 +221,7 @@ async function scoreWithClaude(prompt: string): Promise<ModelResult> {
       // rather than failing the whole check.
       res = await client.messages.create({
         ...base,
-        output_config: { effort: 'medium', format: { type: 'json_schema', schema: OUTPUT_SCHEMA } },
+        output_config: { effort: 'low', format: { type: 'json_schema', schema: OUTPUT_SCHEMA } },
       })
     } catch (err) {
       if (!(err instanceof Anthropic.BadRequestError)) throw err

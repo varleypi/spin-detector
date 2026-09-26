@@ -19,7 +19,7 @@ require('dotenv').config({ path: require('path').join(__dirname, '..', '.env.loc
 const { fetchAllHeadlines } = require('./fetch')
 const { clusterAndScore } = require('./cluster')
 const { generateClusterAnalyses } = require('./analyze')
-const { storeResults, logError } = require('./store')
+const { storeResults, logError, hasDataForDate } = require('./store')
 const { postDailyTweet } = require('./social')
 
 const REQUIRED_ENV = ['ANTHROPIC_API_KEY', 'SUPABASE_URL', 'SUPABASE_SERVICE_KEY', 'NEWSAPI_KEY']
@@ -46,6 +46,24 @@ async function main() {
   const date = process.env.PIPELINE_DATE ?? new Date().toISOString().split('T')[0]
   console.log(`📅 Date: ${date}`)
   const startTime = Date.now()
+
+  // Backup runs re-spend the full Claude budget and replace the day's data, so
+  // they only proceed when the primary run didn't land.
+  if (process.env.SKIP_IF_ALREADY_RAN === 'true') {
+    let alreadyRan = false
+    try {
+      alreadyRan = await hasDataForDate(date)
+    } catch (err) {
+      console.warn(`   ⚠ ${err.message} — running anyway`)
+    }
+    if (alreadyRan) {
+      console.log(`\n⏭  ${date} already has data from an earlier run — skipping backup run`)
+      if (process.env.GITHUB_OUTPUT) {
+        require('fs').appendFileSync(process.env.GITHUB_OUTPUT, 'skipped=true\n')
+      }
+      return
+    }
+  }
 
   // ── Stage 1: Fetch headlines ───────────────────────────────────────────────
   console.log('\n📡 Stage 1 — Fetching headlines...')
