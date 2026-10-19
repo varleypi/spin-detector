@@ -1,0 +1,20 @@
+{
+  "name": "spindetector-eval",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Eval harness for SpinDetector's bias scoring: golden-set accuracy, stored-production accuracy, and Claude-vs-Grok agreement.",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "label": "node src/label.js",
+    "eval": "node src/run-eval.js",
+    "eval:ci": "node src/run-eval.js --ci",
+    "eval:stored": "node src/stored-eval.js",
+    "cross-model": "node src/cross-model-eval.js",
+    "add-candidates": "node src/add-candidates.js",
+    "check-prompt": "node src/check-prompt.js",
+    "test": "node --test"
+  }
+}
