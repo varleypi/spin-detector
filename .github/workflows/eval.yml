@@ -1,0 +1,79 @@
+name: SpinDetector Eval
+
+on:
+  pull_request:
+    paths:
+      - "eval/**"
+      - "pipeline/cluster.js"
+  schedule:
+    - cron: "0 12 * * 1" # Mondays 12:00 UTC (8am ET)
+  workflow_dispatch: {}
+
+defaults:
+  run:
+    working-directory: eval
+
+jobs:
+  checks:
+    # No secrets needed: unit tests + "is the eval still testing the prompt we ship?"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - run: npm test
+      - run: npm run check-prompt
+
+  golden-set-eval:
+    needs: checks
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      # Passes with a warning until at least 30 golden-set items are labeled.
+      - name: Score the golden set and gate on thresholds
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: npm run eval:ci
+      - name: Production scores as published vs. your labels (no API calls)
+        if: always()
+        run: npm run eval:stored
+      - name: Publish summary
+        if: always()
+        run: |
+          for f in reports/eval-latest.md reports/stored-latest.md; do
+            [ -f "$f" ] && cat "$f" >> "$GITHUB_STEP_SUMMARY"
+          done
+          true
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: eval-report
+          path: eval/reports/
+
+  cross-model:
+    # Claude vs Grok agreement. Skipped on PRs to keep xAI spend predictable.
+    if: github.event_name != 'pull_request'
+    needs: checks
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Run Claude vs Grok agreement check
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
+        run: npm run cross-model
+      - name: Publish summary
+        if: always()
+        run: '[ -f reports/cross-model-latest.md ] && cat reports/cross-model-latest.md >> "$GITHUB_STEP_SUMMARY"; true'
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: cross-model-report
+          path: eval/reports/

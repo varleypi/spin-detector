@@ -1,0 +1,902 @@
+{
+  "gs-0001": {
+    "claude": 7.5,
+    "grok": 3.5,
+    "claude_signals": [
+      "'put ego ahead of American lives' — heavy moral condemnation",
+      "opinion framing treats Fauci as villain"
+    ],
+    "source_date": "2026-07-30"
+  },
+  "gs-0002": {
+    "claude": 3,
+    "grok": 4,
+    "claude_signals": [
+      "'National security is not my thing' quote — embarrassing framing",
+      "'struggles' — negatively loaded verb for candidate"
+    ],
+    "source_date": "2026-08-20"
+  },
+  "gs-0003": {
+    "claude": 6.5,
+    "grok": 6.8,
+    "claude_signals": [
+      "'How Many More' — implies systemic problem framing",
+      "libertarian skepticism of institutional hiring practices"
+    ],
+    "source_date": "2026-08-11"
+  },
+  "gs-0004": {
+    "claude": 6,
+    "grok": 7,
+    "claude_signals": [
+      "neutral 'how we got here' framing, but NR's conservative context",
+      "explanatory tone without overt charged language"
+    ],
+    "source_date": "2026-09-05"
+  },
+  "gs-0005": {
+    "claude": 3.5,
+    "grok": 3,
+    "claude_signals": [
+      "sympathetic framing toward progressive Hong after loss",
+      "progressive outlet analyzing setback for left"
+    ],
+    "source_date": "2026-08-13"
+  },
+  "gs-0006": {
+    "claude": 7,
+    "grok": null,
+    "claude_signals": [
+      "'Hellbent on putting Fauci in jail' — hyperbolic villain framing of Paul",
+      "frames Rand Paul as extreme aggressor"
+    ],
+    "source_date": "2026-08-07"
+  },
+  "gs-0007": {
+    "claude": 6.5,
+    "grok": 7.1,
+    "claude_signals": [
+      "'fake election surveys' — validates right-coded poll skepticism",
+      "'social experiment' quoted skeptically"
+    ],
+    "source_date": "2026-08-20"
+  },
+  "gs-0008": {
+    "claude": 3,
+    "grok": null,
+    "claude_signals": [
+      "'Dangerously Low' — alarm framing critical of war effort",
+      "implies US vulnerability under Trump"
+    ],
+    "source_date": "2026-08-04"
+  },
+  "gs-0009": {
+    "claude": 7.5,
+    "grok": 6.5,
+    "claude_signals": [
+      "'absolutely offensive' elevated as editorial judgment",
+      "Byron York cited as authoritative — right-coded sourcing"
+    ],
+    "source_date": "2026-09-30"
+  },
+  "gs-0010": {
+    "claude": 4,
+    "grok": 4.8,
+    "claude_signals": [
+      "'Experts have their doubts' — institutional skepticism of Trump policy",
+      "framing implies policy is dubious"
+    ],
+    "source_date": "2026-09-13"
+  },
+  "gs-0011": {
+    "claude": 3.5,
+    "grok": 3.4,
+    "claude_signals": [
+      "'belies US policy' — critical framing of Trump action",
+      "adversary framing questions Trump's judgment"
+    ],
+    "source_date": "2026-09-28"
+  },
+  "gs-0012": {
+    "claude": 7,
+    "grok": null,
+    "claude_signals": [
+      "'Iranian Regime to Survive' — hostile regime framing",
+      "implies deal is threat, conservative skepticism"
+    ],
+    "source_date": "2026-08-03"
+  },
+  "gs-0013": {
+    "claude": 6.5,
+    "grok": 5.5,
+    "claude_signals": [
+      "'American icon' — patriotic framing, right-coded tone",
+      "tribute framing without critical balance"
+    ],
+    "source_date": "2026-08-29"
+  },
+  "gs-0014": {
+    "claude": 3,
+    "grok": null,
+    "claude_signals": [
+      "'doesn't like the news, he makes new news' — mocking framing",
+      "implies Trump manipulates rather than governs"
+    ],
+    "source_date": "2026-09-22"
+  },
+  "gs-0015": {
+    "claude": 6,
+    "grok": 6.5,
+    "claude_signals": [
+      "White House response framed as proactive solution",
+      "'boycotts' assigns activist framing to networks"
+    ],
+    "source_date": "2026-09-21"
+  },
+  "gs-0016": {
+    "claude": 5,
+    "grok": 5,
+    "claude_signals": [
+      "neutral 'missing piece' analytical framing",
+      "no ideological signals"
+    ],
+    "source_date": "2026-10-16"
+  },
+  "gs-0017": {
+    "claude": 4,
+    "grok": null,
+    "claude_signals": [
+      "'major victory for Democrats' progressive wing' — positive framing",
+      "otherwise neutral wire-style construction"
+    ],
+    "source_date": "2026-08-05"
+  },
+  "gs-0018": {
+    "claude": 5,
+    "grok": 6.8,
+    "claude_signals": [
+      "neutral verb 'launches' — factual announcement",
+      "no loaded adjectives"
+    ],
+    "source_date": "2026-09-03"
+  },
+  "gs-0019": {
+    "claude": 3.5,
+    "grok": 4,
+    "claude_signals": [
+      "'No good options' — framing GOP in crisis",
+      "'brutal' headwinds — loaded negative descriptor"
+    ],
+    "source_date": "2026-09-09"
+  },
+  "gs-0020": {
+    "claude": 8.5,
+    "grok": null,
+    "claude_signals": [
+      "'Evil Regime' — heavy charged ideological language",
+      "prescriptive framing demands aggressive action"
+    ],
+    "source_date": "2026-08-04"
+  },
+  "gs-0021": {
+    "claude": 5,
+    "grok": 5,
+    "claude_signals": [
+      "neutral verb 'accuses'",
+      "no ideological framing"
+    ],
+    "source_date": "2026-09-17"
+  },
+  "gs-0022": {
+    "claude": 4,
+    "grok": 5,
+    "claude_signals": [
+      "Pope's statement implicitly critical of Trump's media ban",
+      "framing affirms press freedom over Trump policy"
+    ],
+    "source_date": "2026-09-25"
+  },
+  "gs-0023": {
+    "claude": 4,
+    "grok": 5.5,
+    "claude_signals": [
+      "'risking lives of British Jews' — victim framing of Jews",
+      "'underdog Palestinians' quote presented without balance"
+    ],
+    "source_date": "2026-09-09"
+  },
+  "gs-0024": {
+    "claude": 8,
+    "grok": 6.4,
+    "claude_signals": [
+      "'Woke Second Victim Lie' — far-right charged language",
+      "attacks pro-life groups with ideological framing"
+    ],
+    "source_date": "2026-08-27"
+  },
+  "gs-0025": {
+    "claude": 6,
+    "grok": 6.5,
+    "claude_signals": [
+      "'Yanking Cash' — more charged verb than 'pulling support'",
+      "'MIA, Swing-District Incumbent' — critical framing of Republican"
+    ],
+    "source_date": "2026-10-13"
+  },
+  "gs-0026": {
+    "claude": 5,
+    "grok": 5,
+    "claude_signals": [
+      "neutral verb 'crashes' — plain factual reporting",
+      "no victim framing or loaded language"
+    ],
+    "source_date": "2026-09-08"
+  },
+  "gs-0027": {
+    "claude": 2,
+    "grok": 3,
+    "claude_signals": [
+      "'Racist Magic Deportation Bus' — heavily charged left language",
+      "opinion frames policy as racist without neutrality"
+    ],
+    "source_date": "2026-08-29"
+  },
+  "gs-0028": {
+    "claude": 6,
+    "grok": 7.5,
+    "claude_signals": [
+      "'Knock on the door from the Feds' — light surveillance framing",
+      "'Go rogue' implies threat framing of AI"
+    ],
+    "source_date": "2026-10-16"
+  },
+  "gs-0029": {
+    "claude": 5,
+    "grok": null,
+    "claude_signals": [
+      "neutral 'already paying off' factual financial phrasing",
+      "no ideological signals present"
+    ],
+    "source_date": "2026-08-05"
+  },
+  "gs-0030": {
+    "claude": 3.5,
+    "grok": 6.8,
+    "claude_signals": [
+      "Trump quote 'blow the entire nation up' — alarming framing",
+      "leads with most extreme quote, implicit criticism"
+    ],
+    "source_date": "2026-09-21"
+  },
+  "gs-0031": {
+    "claude": 4.5,
+    "grok": 3.8,
+    "claude_signals": [
+      "'Frustrated base' — sympathetic to GOP concern",
+      "mildly neutral but Republican challenge framing"
+    ],
+    "source_date": "2026-09-29"
+  },
+  "gs-0032": {
+    "claude": 5.5,
+    "grok": 5.5,
+    "claude_signals": [
+      "Neutral 'Watch' framing — lets families speak",
+      "Slight sympathy framing for 9/11 families"
+    ],
+    "source_date": "2026-09-11"
+  },
+  "gs-0033": {
+    "claude": 3,
+    "grok": null,
+    "claude_signals": [
+      "'Venezuelan delivery driver' humanizes immigrant victim",
+      "ICE framed as aggressor without balance"
+    ],
+    "source_date": "2026-10-03"
+  },
+  "gs-0034": {
+    "claude": 2,
+    "grok": 3.2,
+    "claude_signals": [
+      "'ICE agents attacked her' — victim framing, nurse as hero",
+      "emotional personal story framing against ICE"
+    ],
+    "source_date": "2026-08-02"
+  },
+  "gs-0035": {
+    "claude": 6.2,
+    "grok": 8,
+    "claude_signals": [
+      "'America Is Our Enemy' — provocative framing attributed to Canada",
+      "editorial framing sympathetic to Canadian grievance"
+    ],
+    "source_date": "2026-09-08"
+  },
+  "gs-0036": {
+    "claude": 6.5,
+    "grok": 6.5,
+    "claude_signals": [
+      "'Blindly Amplifying' — White House criticizing media credulity",
+      "conservative framing: demands proof from media"
+    ],
+    "source_date": "2026-09-11"
+  },
+  "gs-0037": {
+    "claude": 5,
+    "grok": 6,
+    "claude_signals": [
+      "neutral factual framing of resignation and reshaping",
+      "no loaded language"
+    ],
+    "source_date": "2026-09-04"
+  },
+  "gs-0038": {
+    "claude": 1.5,
+    "grok": 2,
+    "claude_signals": [
+      "Trump explicitly equated with McCarthyism — extreme left frame",
+      "'Woke 1.0' defended as legitimate vs Trump framed as threat"
+    ],
+    "source_date": "2026-08-16"
+  },
+  "gs-0039": {
+    "claude": 6.5,
+    "grok": 5.8,
+    "claude_signals": [
+      "\"blast\" — charged attack verb for Netanyahu/Huckabee response",
+      "\"clarifies wording\" frames France as backpedaling"
+    ],
+    "source_date": "2026-09-24"
+  },
+  "gs-0040": {
+    "claude": 5,
+    "grok": 5.5,
+    "claude_signals": [
+      "neutral investor skepticism framed factually",
+      "standard financial reporting language"
+    ],
+    "source_date": "2026-08-24"
+  },
+  "gs-0041": {
+    "claude": 2.5,
+    "grok": 3.5,
+    "claude_signals": [
+      "'failing economic agenda' — partisan framing leads",
+      "Democrats quoted slamming Trump, no GOP balance"
+    ],
+    "source_date": "2026-10-02"
+  },
+  "gs-0042": {
+    "claude": 3,
+    "grok": 3.5,
+    "claude_signals": [
+      "'deals another blow' — victim framing for GOP",
+      "frames GOP as losing, emotionally loaded verb"
+    ],
+    "source_date": "2026-09-10"
+  },
+  "gs-0043": {
+    "claude": 7,
+    "grok": 7.5,
+    "claude_signals": [
+      "'Perils of Sexual Liberation' — conservative moral framing",
+      "right-coded cultural critique embedded in headline"
+    ],
+    "source_date": "2026-10-01"
+  },
+  "gs-0044": {
+    "claude": 6,
+    "grok": 6.2,
+    "claude_signals": [
+      "'Doth Protest Too Much' — skeptical, dismissive of Amodei",
+      "right-leaning skepticism toward AI regulation push"
+    ],
+    "source_date": "2026-09-13"
+  },
+  "gs-0045": {
+    "claude": 2,
+    "grok": 3,
+    "claude_signals": [
+      "'consumed with his own glorification' — heavy negative framing",
+      "editorial opinion with charged psychological language"
+    ],
+    "source_date": "2026-09-16"
+  },
+  "gs-0046": {
+    "claude": 7,
+    "grok": 6.5,
+    "claude_signals": [
+      "'Pay Americans Back' — populist framing of Trump action",
+      "'Biden's Obamacare Overcharges' — charged partisan attribution"
+    ],
+    "source_date": "2026-09-17"
+  },
+  "gs-0047": {
+    "claude": 4,
+    "grok": 3,
+    "claude_signals": [
+      "'Republicans Turning From Him' — frames GOP abandonment of Trump",
+      "map format implies visualizing Trump weakness"
+    ],
+    "source_date": "2026-09-23"
+  },
+  "gs-0048": {
+    "claude": 4,
+    "grok": 4.5,
+    "claude_signals": [
+      "frames Dem challenges positively — 'turnout isn't one of them'",
+      "reassuring framing for Democratic base"
+    ],
+    "source_date": "2026-08-15"
+  },
+  "gs-0049": {
+    "claude": 7,
+    "grok": 7,
+    "claude_signals": [
+      "'Another Migrant Crisis' — crisis/threat framing for Europe",
+      "headline implies Spain as trigger for wider problem"
+    ],
+    "source_date": "2026-07-31"
+  },
+  "gs-0050": {
+    "claude": 7,
+    "grok": 7,
+    "claude_signals": [
+      "'Right-wing can learn important lessons' — favorable right framing",
+      "editorial sympathetic to conservative political strategy"
+    ],
+    "source_date": "2026-08-15"
+  },
+  "gs-0051": {
+    "claude": 2.5,
+    "grok": 4.1,
+    "claude_signals": [
+      "'Torches Trump' and 'Brutal Math Lesson' — charged anti-Trump framing",
+      "sourcing Scarborough as hero critic, left-coded"
+    ],
+    "source_date": "2026-08-21"
+  },
+  "gs-0052": {
+    "claude": 5,
+    "grok": 5,
+    "claude_signals": [
+      "neutral verb 'commemorates', factual framing",
+      "no ideological loading"
+    ],
+    "source_date": "2026-09-13"
+  },
+  "gs-0053": {
+    "claude": 7,
+    "grok": 6.5,
+    "claude_signals": [
+      "Kemi 'murmured, delivering a savage message' — dramatic loaded language",
+      "right-coded sympathetic framing of Kemi vs Burnham"
+    ],
+    "source_date": "2026-09-03"
+  },
+  "gs-0054": {
+    "claude": 7.5,
+    "grok": 7,
+    "claude_signals": [
+      "'ICE slams' — forceful verb framing ICE approvingly",
+      "'illegal immigrant' — right-coded language choice"
+    ],
+    "source_date": "2026-08-12"
+  },
+  "gs-0055": {
+    "claude": 2.5,
+    "grok": 3.2,
+    "claude_signals": [
+      "sarcastic 'Great Again' riff mocking Trump policy",
+      "opinion piece with dismissive editorial framing"
+    ],
+    "source_date": "2026-08-28"
+  },
+  "gs-0056": {
+    "claude": 6,
+    "grok": 5,
+    "claude_signals": [
+      "Trump quoted defending policy favorably without challenge",
+      "framing accepts Trump's positive spin on beef tariffs"
+    ],
+    "source_date": "2026-08-26"
+  },
+  "gs-0057": {
+    "claude": 3.5,
+    "grok": null,
+    "claude_signals": [
+      "'Ramp Up' implies aggressive escalation framing",
+      "targets voter registration groups sympathetically by implication"
+    ],
+    "source_date": "2026-10-07"
+  },
+  "gs-0058": {
+    "claude": 6,
+    "grok": 6.5,
+    "claude_signals": [
+      "'shreds' — strong verb sympathetic to criticism",
+      "right-leaning outlet framing Democrat as rightly condemning"
+    ],
+    "source_date": "2026-08-25"
+  },
+  "gs-0059": {
+    "claude": 2.5,
+    "grok": 3,
+    "claude_signals": [
+      "'will not be silenced' — heroic resistance framing",
+      "Omar portrayed as victim of suppression"
+    ],
+    "source_date": "2026-10-12"
+  },
+  "gs-0060": {
+    "claude": 4,
+    "grok": 3.2,
+    "claude_signals": [
+      "'fearing a midterm rout' — sympathetic to anti-war framing",
+      "keeps war 'quiet' implies political manipulation of conflict"
+    ],
+    "source_date": "2026-09-02"
+  },
+  "gs-0061": {
+    "claude": 6,
+    "grok": 6.5,
+    "claude_signals": [
+      "'Washington isn't the answer' — conservative anti-government framing",
+      "frames GOP skepticism of federal solutions sympathetically"
+    ],
+    "source_date": "2026-09-23"
+  },
+  "gs-0062": {
+    "claude": 4,
+    "grok": 4,
+    "claude_signals": [
+      "'in solidarity' — sympathetic framing for networks",
+      "implies collective resistance to Trump action"
+    ],
+    "source_date": "2026-09-22"
+  },
+  "gs-0063": {
+    "claude": 8.5,
+    "grok": 8,
+    "claude_signals": [
+      "'Weakness Of A Post-Christian West' — religious-civilizational framing",
+      "far-right cultural decline narrative"
+    ],
+    "source_date": "2026-09-11"
+  },
+  "gs-0064": {
+    "claude": 6.5,
+    "grok": 6.5,
+    "claude_signals": [
+      "'disgusting human who doesn't value lives' — charged moral condemnation quoted",
+      "owner quoted prominently, emotionally loaded framing"
+    ],
+    "source_date": "2026-08-02"
+  },
+  "gs-0065": {
+    "claude": 5,
+    "grok": 5,
+    "claude_signals": [
+      "neutral 'heads to a runoff' — factual result",
+      "no loaded language"
+    ],
+    "source_date": "2026-08-12"
+  },
+  "gs-0066": {
+    "claude": 5,
+    "grok": 5,
+    "claude_signals": [
+      "neutral 'first arrest', factual framing",
+      "no loaded language"
+    ],
+    "source_date": "2026-09-11"
+  },
+  "gs-0067": {
+    "claude": 6,
+    "grok": 7.2,
+    "claude_signals": [
+      "legal framing of Second Amendment violation",
+      "neutral legal language but right-sympathetic conclusion"
+    ],
+    "source_date": "2026-09-19"
+  },
+  "gs-0068": {
+    "claude": 4,
+    "grok": 3.8,
+    "claude_signals": [
+      "'preserving key seat for Democrats' outcome-focused framing",
+      "frames SCOTUS rejection as Democratic win"
+    ],
+    "source_date": "2026-09-26"
+  },
+  "gs-0069": {
+    "claude": 5,
+    "grok": 5,
+    "claude_signals": [
+      "neutral verb 'settles', factual description",
+      "no loaded language"
+    ],
+    "source_date": "2026-09-22"
+  },
+  "gs-0070": {
+    "claude": 5,
+    "grok": 5.2,
+    "claude_signals": [
+      "neutral factual jury status reporting",
+      "no ideological signal"
+    ],
+    "source_date": "2026-09-03"
+  },
+  "gs-0071": {
+    "claude": 6.5,
+    "grok": 7,
+    "claude_signals": [
+      "'ties the legacy of 9/11 to his Iran war' — critical framing of Trump",
+      "verb 'ties' implies political opportunism"
+    ],
+    "source_date": "2026-09-12"
+  },
+  "gs-0072": {
+    "claude": 3.5,
+    "grok": 6.8,
+    "claude_signals": [
+      "'idea' framed through religious mandate lens — unusual framing",
+      "implies Christians supporting execution as notable/concerning"
+    ],
+    "source_date": "2026-10-15"
+  },
+  "gs-0073": {
+    "claude": 3,
+    "grok": null,
+    "claude_signals": [
+      "'Falsely Claims' defends El-Sayed, frames GOP senator as liar",
+      "progressive candidate protected, Republican attacked"
+    ],
+    "source_date": "2026-08-07"
+  },
+  "gs-0074": {
+    "claude": 5,
+    "grok": null,
+    "claude_signals": [
+      "direct quote attribution, neutral verb 'says'",
+      "no editorial framing added"
+    ],
+    "source_date": "2026-10-04"
+  },
+  "gs-0075": {
+    "claude": 2.5,
+    "grok": 3.1,
+    "claude_signals": [
+      "'melting down' — psychologizing, delegitimizing Trump",
+      "ex-official framing used to attack president"
+    ],
+    "source_date": "2026-09-19"
+  },
+  "gs-0076": {
+    "claude": 7.5,
+    "grok": 7,
+    "claude_signals": [
+      "'Blue State's Crackdown' — right-coded framing",
+      "'Final Blow' — triumphalist conservative language"
+    ],
+    "source_date": "2026-08-01"
+  },
+  "gs-0077": {
+    "claude": 3,
+    "grok": 2.5,
+    "claude_signals": [
+      "'wildest moments' frames Leavitt as erratic/incompetent",
+      "mocking framing of press secretary's tenure"
+    ],
+    "source_date": "2026-08-13"
+  },
+  "gs-0078": {
+    "claude": 3,
+    "grok": 3.5,
+    "claude_signals": [
+      "'Trump and a prayer' — dismissive, mocking framing",
+      "implies GOP strategy is weak or desperate"
+    ],
+    "source_date": "2026-09-11"
+  },
+  "gs-0079": {
+    "claude": 7,
+    "grok": 7.5,
+    "claude_signals": [
+      "gun store owner as hero framing",
+      "'crooks' — charged criminal language, right-coded"
+    ],
+    "source_date": "2026-10-16"
+  },
+  "gs-0080": {
+    "claude": 3,
+    "grok": 4.2,
+    "claude_signals": [
+      "'detained by ICE' standard but 'nanny leaves voicemail' humanizes subject",
+      "narrative victim framing centers immigrant's emotional distress"
+    ],
+    "source_date": "2026-08-10"
+  },
+  "gs-0081": {
+    "claude": 8.5,
+    "grok": null,
+    "claude_signals": [
+      "'stunning survey' — charged framing amplifying poll result",
+      "'fine with military coup' — inflammatory characterization of Democrats"
+    ],
+    "source_date": "2026-09-22"
+  },
+  "gs-0082": {
+    "claude": 6,
+    "grok": 7,
+    "claude_signals": [
+      "'greatest legacy is her family' — conservative values emphasis",
+      "editorial framing prioritizing traditional family"
+    ],
+    "source_date": "2026-08-26"
+  },
+  "gs-0083": {
+    "claude": 3,
+    "grok": 3.5,
+    "claude_signals": [
+      "'raids, shutters' — aggressive verbs, victim framing",
+      "'lifeline for Palestinian refugees' — sympathetic left framing"
+    ],
+    "source_date": "2026-08-29"
+  },
+  "gs-0084": {
+    "claude": 4,
+    "grok": 3.5,
+    "claude_signals": [
+      "'kills seven' juxtaposed with reconstruction — critical framing",
+      "Al Jazeera foregrounding casualties alongside plan"
+    ],
+    "source_date": "2026-09-23"
+  },
+  "gs-0085": {
+    "claude": 6.5,
+    "grok": 7,
+    "claude_signals": [
+      "'Not on Mission' — editorial criticism of tariff strategy",
+      "conservative-leaning critique from National Review"
+    ],
+    "source_date": "2026-08-26"
+  },
+  "gs-0086": {
+    "claude": 8.5,
+    "grok": null,
+    "claude_signals": [
+      "'Migrant invasion' — invasion framing in headline",
+      "'attack' and 'atrocity' — extreme threat language"
+    ],
+    "source_date": "2026-08-04"
+  },
+  "gs-0087": {
+    "claude": 4,
+    "grok": 4.5,
+    "claude_signals": [
+      "'Causing problems for him' — negative framing for Trump",
+      "'Even a solid jobs report' implies Trump can't win"
+    ],
+    "source_date": "2026-09-06"
+  },
+  "gs-0088": {
+    "claude": 5,
+    "grok": null,
+    "claude_signals": [
+      "neutral factual description of campaign activity",
+      "no loaded language"
+    ],
+    "source_date": "2026-10-04"
+  },
+  "gs-0089": {
+    "claude": 3.5,
+    "grok": 5.4,
+    "claude_signals": [
+      "'Loss After Loss' frames Trump as lashing out",
+      "'Familiar Target: The Press' implies scapegoating"
+    ],
+    "source_date": "2026-09-20"
+  },
+  "gs-0090": {
+    "claude": 7,
+    "grok": 6.5,
+    "claude_signals": [
+      "'Angry Fauci fires off an F-bomb' — character attack framing",
+      "personal behavior used to undermine credibility"
+    ],
+    "source_date": "2026-07-30"
+  },
+  "gs-0091": {
+    "claude": 7.5,
+    "grok": 7,
+    "claude_signals": [
+      "'Message of Contempt' — strong condemnatory framing",
+      "WSJ opinion, right-coded moral outrage"
+    ],
+    "source_date": "2026-09-07"
+  },
+  "gs-0092": {
+    "claude": 7.5,
+    "grok": 7,
+    "claude_signals": [
+      "'Forever Wars Are Good' — provocative pro-war conservative stance",
+      "contrarian framing challenges left anti-war consensus"
+    ],
+    "source_date": "2026-09-11"
+  },
+  "gs-0093": {
+    "claude": 3,
+    "grok": 4.3,
+    "claude_signals": [
+      "Bunch framed as heroic institutional protector",
+      "Trump implicitly cast as institutional threat"
+    ],
+    "source_date": "2026-09-09"
+  },
+  "gs-0094": {
+    "claude": 4.5,
+    "grok": 4.8,
+    "claude_signals": [
+      "'desperate' — Iranian framing of US reproduced in headline",
+      "otherwise neutral wire style"
+    ],
+    "source_date": "2026-08-23"
+  },
+  "gs-0095": {
+    "claude": 5,
+    "grok": 5,
+    "claude_signals": [
+      "neutral 'weighs' verb, factual wire style",
+      "no ideological signal"
+    ],
+    "source_date": "2026-09-23"
+  },
+  "gs-0096": {
+    "claude": 6.5,
+    "grok": null,
+    "claude_signals": [
+      "'Would-Be Trump Assassin' — sympathetic to Trump framing",
+      "'anonymous donor' suggests conspiracy framing"
+    ],
+    "source_date": "2026-09-16"
+  },
+  "gs-0097": {
+    "claude": 5,
+    "grok": 5,
+    "claude_signals": [
+      "AP wire style, neutral factual reporting",
+      "no ideological signals"
+    ],
+    "source_date": "2026-07-29"
+  },
+  "gs-0098": {
+    "claude": 5,
+    "grok": 5.5,
+    "claude_signals": [
+      "'surprising reprieve' — neutral analytical framing",
+      "no victim or partisan loading"
+    ],
+    "source_date": "2026-08-13"
+  },
+  "gs-0099": {
+    "claude": 4,
+    "grok": 3.8,
+    "claude_signals": [
+      "'Pique' — dismissive characterization of Trump's motives",
+      "'Acolyte' — loaded term for Milei implying subservience"
+    ],
+    "source_date": "2026-09-06"
+  },
+  "gs-0100": {
+    "claude": 4,
+    "grok": 3.5,
+    "claude_signals": [
+      "'Pretend I'm on the ballot' — dismissive framing of Trump's strategy",
+      "implies inauthenticity of Trump's midterm message"
+    ],
+    "source_date": "2026-08-23"
+  }
+}
